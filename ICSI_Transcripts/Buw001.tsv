@@ -1,0 +1,1888 @@
+"me011"::	-  headphones  that aren't so uncomfortable.::	0
+"fe016"::	I think - Well, this should be off the record, but I think -::	0
+"me013"::	Hmm.::	0
+"me013"::	Uh , O_K.::	0
+"fe041"::	We're not recording yet, are we?::	0
+"me011"::	Well, I don't think - No.::	0
+"me022"::	No, uh, that - that wasn't recorded.::	0
+"me011"::	Um, I don't think they're designed to be over your ears.::	0
+"fe016"::	Yeah, I know. It just - it really hurts. It gives you a headache, like if you -::	0
+"me022"::	Temple squeezers.::	0
+"fe016"::	On your temple - Yeah.::	0
+"me011"::	Yep.::	0
+"fe016"::	Yeah.::	0
+"me013"::	Mm-hmm.::	0
+"me011"::	But I definitely  haven't figured it out.::	0
+"fe041"::	Um, Meeting Recorder meeting.::	0
+"me022"::	I guess I have to d- stop doing this sigh of contentment, you know, after sipping cappuccino or something.   I was just noticing a big s-::	0
+"fe016"::	Yeah, with the - We kno- I know.  We know exactly how much you have left in your cup.::	0
+"me011"::	"Sip, sigh."::	0
+"me013"::	So are we recording now?  Is this -::	0
+"me025"::	Yeah.::	0
+"me013"::	Oh! We're - we're - we're live. O_K.::	0
+"me025"::	Yeah.::	0
+"me013"::	So, uh,::	0
+"me013"::	what were we gonna talk about again? So we said - we said data collection, which we're doing.::	0
+"fe016"::	Were we gonna do digits?::	0
+"fe041"::	O_K. Do we do th- do you go around the room  and do names or anything?::	0
+"me011"::	I think that -::	0
+"me011"::	u-::	0
+"me025"::	It's a good idea.::	0
+"me011"::	usually we've done that and also we've s- done digits as well, but I forgot to print any out. So. Besides with this big a group,::	0
+"me011"::	it would take too much time.::	0
+"me013"::	No.  I- it'd be even  better  with this big -::	0
+"fe016"::	You can write  them   on the board, if you want.::	0
+"me025"::	Which way is -::	0
+"me011"::	Yeah, but it takes too much time.::	0
+"me025"::	Mari? Y- I think your - your - your thing  may be pointing in a funny direction.::	0
+"fe008"::	What -::	0
+"fe041"::	What?::	0
+"me013"::	It's not that long.::	0
+"me025"::	Sort of it's - it helps if it points sort of upwards.::	0
+"fe041"::	Whoops.::	0
+"me025"::	Sort of it - you know. Yeah.::	0
+"fe041"::	Would it - m-::	0
+"me025"::	So that thing - the little - th-  that  part should be pointing upwards.  That's  it. Yeah.::	0
+"me013"::	w- u-::	0
+"fe041"::	So - Oh,  this  thing.::	0
+"fe008"::	Otherwise you just get a heartbeats.::	0
+"fe041"::	Yeah. It's kind of -::	0
+"me013"::	Oh, yeah, the element, yeah, n- should be::	0
+"me013"::	as close to you - your::	0
+"fe041"::	Yeah. O_K.::	0
+"me025"::	That's good. That kind of thing is good.::	0
+"fe008"::	It's a -::	0
+"me013"::	mouth as possible.::	0
+"fe041"::	This w-::	0
+"fe041"::	Alright. How's that working?::	0
+"me025"::	Yeah. Oh, yeah. It's a -::	0
+"me013"::	Yeah.::	0
+"me025"::	It's working.::	0
+"fe041"::	O_K.::	0
+"me013"::	Alright. So what we had  was that we were gonna talk about data collection,::	1
+"me013"::	and, um, uh, you - you put up there data format,::	0
+"fe041"::	Um.::	0
+"me013"::	and other tasks during data collection,::	0
+"fe041"::	So, I think the goal - the goal was::	0
+"me013"::	and -::	0
+"fe041"::	what can we do - how can you do the data collection differently to get -::	0
+"fe041"::	what can you add to it to get, um,::	0
+"fe041"::	some information that would be helpful for the user-interface design? Like -::	0
+"me011"::	Uh, especially for querying.::	0
+"fe041"::	Especially for querying. So, getting people to do queries afterwards, getting people to do summaries afterwards.::	0
+"fe008"::	Well, one thing that came up in the morning - in the morning was the, um,::	0
+"fe041"::	Um.::	0
+"fe008"::	i- uh, if he - I, um -::	0
+"fe008"::	if he has - s- I - I don't remember, Mister Lan- Doctor Landry? La- Landay?::	0
+"me011"::	Landay. James.::	0
+"fe008"::	So he has, um, these, uh, um, tsk   note-taking  things,::	0
+"fe008"::	then that would sort of be a summary which you wouldn't have to solicit.::	0
+"fe041"::	Mm-hmm.::	0
+"fe008"::	y- if - if we were able to -::	0
+"fe041"::	Well, if - if you::	0
+"fe008"::	to do that.::	0
+"fe041"::	actually take notes as a  summary  as opposed to n- take notes::	0
+"fe041"::	in the sense of taking advantage of the  time-stamps.  So action item or::	0
+"fe041"::	uh, reminder to send this to so-and-so, blah-blah-blah.::	0
+"fe008"::	Mm-hmm.::	0
+"fe041"::	So that wouldn't be a  summary.  That would just be - that would b- relate to the  query  side.::	0
+"me011"::	But if we  had  the CrossPads, we could ask people, you know, if - if something comes up::	0
+"fe008"::	Mm-hmm.::	0
+"me011"::	write it down and mark it    somehow,  you know.::	0
+"me025"::	Right. I mean, we - because you'd have several people with these pads, you could collect different things.::	0
+"me025"::	I mean, cuz  I  tend to take notes which are summaries. And so, you know -::	0
+"fe041"::	Right.::	0
+"me022"::	I mean, the down-side to that is that he sort of indicated that the,::	1
+"me022"::	uh, quality of  the handwriting recognition was quite poor.::	1
+"fe041"::	Well -::	0
+"me011"::	But that's alright.::	0
+"me011"::	I don't think there'd be so many that you couldn't::	0
+"fe041"::	So -::	0
+"me011"::	have someone clean it up::	0
+"me011"::	pretty easily.::	0
+"fe041"::	Yeah. We also could come up with some code for::	0
+"fe041"::	things that people want to do so that - for  frequent  things.::	0
+"me022"::	Yeah.::	0
+"fe041"::	And the other things, people can write whatever they want. I mean, it's to some extent,::	0
+"fe041"::	uh, for his benefit. So,::	0
+"fe041"::	if that - you know, if - if we just keep it simple then maybe it's still useful.::	0
+"me022"::	Right.::	0
+"me011"::	Yeah.::	0
+"me013"::	I just realized we skipped the part that we were saying we were gonna do at the front where we each said who we were.::	0
+"fe008"::	The roll call.::	0
+"fe041"::	Right. I thought you did that::	0
+"me013"::	Roll call.::	0
+"fe041"::	on purpose. But anyway, shall we do the roll call?::	0
+"me013"::	No, not a-  No, I just - My mind went elsewhere. So,::	0
+"me013"::	uh, yeah, I'm Morgan,::	0
+"me013"::	and::	0
+"me013"::	where am I?  I'm on channel three.::	0
+"me011"::	And I'm Adam Janin on channel A_.::	0
+"fe008"::	I'm Jane Edwards, I think on channel B_.::	0
+"me025"::	I'm Dan Ellis.::	0
+"me022"::	Eric on channel nine.::	0
+"fe016"::	Liz, on channel one.::	0
+"fe041"::	Mari on channel zero.::	0
+"fn043"::	Katrin on channel two.::	0
+"fe008"::	Should we have used pseudo-names?::	0
+"fe008"::	Should we do it a second time with pseudo- No.  No.::	0
+"me013"::	I'm Rocky Raccoon  on channel -::	0
+"me011"::	And, uh, do you want to do the P_D_As and the  P_Z_Ms?::	0
+"me025"::	Let me, uh, turn that off.::	0
+"me025"::	Oh.::	0
+"me025"::	P_Z_M nearest, nearest,  next  nearest.::	0
+"me025"::	Next  one.::	0
+"fe008"::	Next nearest.::	0
+"me011"::	Far.::	0
+"me025"::	Furthest. P_D_M-right, P_Z_A-right - P_D_A-right,  P_D_A-left.::	0
+"fe008"::	O_K.::	0
+"me025"::	Thanks.::	0
+"me011"::	Yeah, and eventually once this room gets a little more organized, the Jimlets  will be mounted under the table,::	0
+"me011"::	and these guys will be permanently mounted  somehow.  You know, probably with double-sided tape, but -::	0
+"me011"::	So. You - So we won't have to go through that.::	0
+"fe041"::	Hmm.::	0
+"fe008"::	I have a question on protocol in these meetings, which is::	1
+"fe008"::	when you say "Jimlet" and the::	0
+"fe008"::	person listening won't know what that is, sh- shou-::	0
+"fe008"::	How - how do we get - Is that important information? You know, the::	1
+"fe008"::	Jimlet - I mean, the box that contains the -::	0
+"me013"::	Well, I mean, suppose we broaden out and go to a range of meetings besides just these internal ones. There's gonna be lots of things that any group of people who know each other::	0
+"me013"::	have in column -  common   that we will not know.::	0
+"fe008"::	Mm-hmm.::	0
+"fe041"::	Right.::	0
+"fe008"::	O_K.::	0
+"fe041"::	Right. So the- there will be jargon that we he- There'll be transcription errors.::	0
+"fe008"::	Good.::	0
+"me013"::	Yeah.::	0
+"fe008"::	O_K.::	0
+"me013"::	I mean, we - we were originally gonna do this with V_L_S_I design, and - and - and the reason we didn't go straight to that was because  immediately  ninety  percent  of what we heard would be  jargon to - to us. So.::	0
+"me011"::	Well, that was just  one  of the reasons. But, yeah, definitely.::	0
+"fe008"::	O_K.   Good.::	0
+"me013"::	Yeah.::	0
+"me013"::	That - that's right. There were others of course. Yeah.::	0
+"fe008"::	O_K, so we were on the data collection   and the summary issue.::	0
+"me013"::	Right. We can go back.::	0
+"fe041"::	So,::	0
+"fe041"::	uh, u- u-::	0
+"fe041"::	So, actually there's kind of  three  issues. There's the CrossPad issue.::	1
+"fe041"::	Should we do it and, if so, what'll we have them do?::	0
+"fe041"::	Um, do we have s- people write summaries?::	1
+"fe041"::	Everybody or one person?::	1
+"fe041"::	And then, do we ask people for how they would query things?::	1
+"me022"::	There's - there're  sub-problems  in that, in that where - or when do you actually ask them about that? I mean, that was -::	1
+"fe041"::	Is that -::	0
+"fe041"::	Right.::	0
+"me022"::	One thing I was thinking about was is that Dan said::	0
+"me022"::	earlier that, you know, maybe two weeks later, which is when you would  want  to query these things, you might ask them then.::	0
+"fe041"::	Right.::	0
+"me022"::	But::	0
+"me022"::	there's a  problem  with that in that::	0
+"me022"::	if  you're not -::	0
+"me022"::	If you don't have an interactive system, it's gonna be hard to go beyond sort of the first level of question.::	0
+"fe041"::	Right.::	0
+"me022"::	Right. And furth- id- explore the data further.::	0
+"fe041"::	Right.::	0
+"me011"::	And -::	0
+"me022"::	So.::	0
+"me013"::	There's - there's  another  problem which is, um,::	0
+"me013"::	we certainly  do  want to branch out beyond, uh, uh, recording meetings about  Meeting  Recorder.::	0
+"me013"::	And, uh, once we get out beyond our little group,::	1
+"me013"::	the people's motivation factor, uh, reduces enormously. And if we start giving them a bunch of other things to do,::	1
+"me013"::	how - you know, we - we did n-  you know  another meeting here for another group and - and, uh, they were fine with it. But if we'd said, "O_K, now all eight of you have to -::	0
+"me013"::	have to come up with, uh, the summar-"::	0
+"me011"::	Well, I  asked  them to and none of  them    did.::	0
+"me013"::	t-  See?  There we go.::	0
+"fe008"::	Mm-hmm.::	0
+"me011"::	So, I - I asked them to send me::	0
+"fe041"::	They -::	0
+"me011"::	ideas for queries after the meeting and no one ever did.  I didn't follow up either.::	0
+"me025"::	Mm-hmm .::	0
+"me011"::	So I didn't track them down and say "please do th- do it now". But, uh,::	0
+"fe041"::	Yeah.::	0
+"me011"::	no one  spontaneously::	0
+"me011"::	provided anything.::	0
+"me013"::	I-::	0
+"me013"::	I'm worried that if you did - even if you did push them into it, it - it - it might be semi-random,::	0
+"fe041"::	Right.::	0
+"me013"::	uh, as opposed to what you'd  really  want to know if you were gonna use this thing.::	0
+"me025"::	Right.::	0
+"me011"::	I just don't know how else to generate the queries other than getting an expert::	1
+"fe041"::	O_K.::	0
+"me011"::	to actually listen to the meeting and say "that's important, that might be a query".::	1
+"fe008"::	Tsk.  Well, there is this other thing which y- which  you  were alluding to earlier, which is, um, there are certain key  words  like, you know, "action item" and things like that, which::	0
+"fe008"::	could be used in,::	0
+"fe008"::	uh,::	0
+"me025"::	Although -::	0
+"fe008"::	t- to  some  degree finding the structure. And - and I  also,  um, was thinking, with reference to::	1
+"fe041"::	Yeah. W-::	0
+"fe008"::	the n- uh,  note-taking,::	1
+"fe008"::	the  advantage  there is that you get structure without the person having to do something artificial  later.::	1
+"fe008"::	And the fir- third thing I wanted to say is the  summaries   afterwards,::	1
+"fe008"::	um, I think they should be  recorded  instead of  written::	1
+"fe008"::	because I think that, um, it would take so long for people to write that I think you wouldn't get as good a summary.::	0
+"fe041"::	How about this idea? That  normally::	1
+"fe041"::	at  most  meetings somebody is delegated to be a note-taker.::	1
+"fe008"::	Yeah, good. Good point. Yeah.::	0
+"fe041"::	And - So why don't we just use the  notes  that somebody  takes?::	1
+"me011"::	I mean, that gives you a  summary  but it doesn't really - How do you generate queries from that?::	0
+"me025"::	Well. But, I mean, maybe a summary is one of the things we'd want from the output of the system. Right?::	0
+"fe008"::	Yeah.::	0
+"fe041"::	Right.::	0
+"me025"::	I mean, they're  something.  It's a - a kind of output you'd like.::	0
+"fe016"::	Actually -::	0
+"me011"::	Uh,  James  and I were talking about this during one of the  breaks.  And the  problem  with that is,  I'm  definitely going to do  something  with information retrieval::	0
+"fe016"::	And so -::	0
+"me011"::	even if it's sort of not full- full-bore::	0
+"fe041"::	Right.::	0
+"me011"::	what I'm gonna do for my  thesis.  I'm gonna do  something.  I'm  not  gonna do  anything  with  summarization.::	0
+"me011"::	And so if someone wants to  do  that, that's fine, but it's not gonna be me.::	0
+"me013"::	Well, I think that we - I mean, the - the f- the core thing is that  you know  once we get some of these::	0
+"fe041"::	Well  -::	0
+"me013"::	issues nailed down,::	0
+"me013"::	we need to do a bunch of recordings::	0
+"me013"::	and send them off to I_B_M and get a bunch of transcriptions even if they're slightly flawed or need some other -::	0
+"me011"::	Yep.::	0
+"me013"::	And then we'll have some  data  there.::	0
+"fe041"::	Yeah.::	0
+"me013"::	And then, i- i- we can start::	0
+"me013"::	l- looking and thinking, what do we want to  know  about these things and -  at  the very  least.::	0
+"me025"::	Mm-hmm.::	0
+"fe041"::	Yeah -::	0
+"fe016"::	I actually want to say something about the  note  pad. So,::	1
+"me013"::	Hmm.::	0
+"fe016"::	if you could sense just when people are writing,::	0
+"fe016"::	and you tell them not to doodle, or try not to::	0
+"fe016"::	be using that for other purposes,  and each person has a note pad. They just get it when they come in the room.::	0
+"fe016"::	Then  you c- you can just have a fff  plot of wh- you know,  who's  writing  when.::	1
+"me025"::	Activity. Yeah.::	0
+"fe016"::	That's all you -::	0
+"fe016"::	And, you can also have notes of the meeting. But I bet that's - that will allow you to go into the -::	1
+"me013"::	Mm-hmm.::	0
+"fe016"::	sort of the  hot  places where people are writing things down. I mean, you can tell when you're in a meeting when everybody stops to write something down that something was just said. It may not be::	1
+"me011"::	Oh, I see.::	0
+"fe041"::	Mm-hmm.::	0
+"fe016"::	kept  in the later  summary,  but at that point in time is was something that was important.::	0
+"fe008"::	Mm-hmm.::	0
+"fe016"::	And that wouldn't take any extra -::	0
+"fe008"::	That's a nice idea.::	0
+"fe016"::	Or someone could just pu- you could just put your hand on the pad and go like that if you want to.::	0
+"me013"::	It -::	0
+"fe041"::	Mm-hmm.::	0
+"fn043"::	Mm-hmm.::	0
+"me013"::	That's a good idea but that doesn't -::	0
+"fe016"::	It's -::	0
+"me013"::	Maybe I'm missing something,  but that doesn't get to the question of how we come up with queries, right?::	0
+"fe041"::	Well, what it does -::	0
+"fe016"::	Well,  then  you can go to the  points  where the - you could actually  go  to those points in  time  and find out what they were  talking  about. And you r-::	0
+"me013"::	Yeah.::	0
+"fe041"::	Well, what it  does  is provide a different - I - I think it's an interesting  thing.  I don't think it gets at the -::	0
+"fe016"::	And -::	0
+"me011"::	Uh, y-::	0
+"fe041"::	the queries per- se,  but it  does  give us::	0
+"fe041"::	an information fusion sort of thing that, you know, you wanna i- say::	0
+"fe016"::	Yeah.::	0
+"fe041"::	"what were the hot-points of the  meeting? "::	0
+"me013"::	That - that's what I mean, is that I think it gets at something interesting but if we were asking the question, which I thought we were, of - of - of, um,::	1
+"me013"::	"how do we figure out what's the nature of the queries that people are gonna want to ask of such a system?",::	0
+"me013"::	knowing what's important doesn't tell you what people are going to be  asking.::	1
+"fe016"::	But I bet it's a good  superset of it.::	1
+"me013"::	Does it?::	0
+"me025"::	Well, see, there are th-::	0
+"fe041"::	Well, yeah. I think you could say they're gonna ask about,::	0
+"fe041"::	uh, when - uh, when did so-and-so s-::	0
+"fe041"::	talk about blah. And at least that gives you the  word   that they might run a  query  on.::	0
+"fe016"::	At least you can find the  locations  where there are maybe  keywords  and -::	0
+"me011"::	I mean, i- this would tell you what the  hit  is, not what the  query  is. What -::	0
+"me013"::	Maybe.::	0
+"fe016"::	Right, right. But I think - I think thinking about queries is a little bit dangerous right now. We don't even know what -::	0
+"fe041"::	Right. It'll tell you the  hit  but not the  query.::	0
+"me011"::	And so you could - you can  generate  a  query  from the  hits,  but -::	0
+"fe041"::	Right.::	0
+"fe016"::	I mean, if you want to find out what any user will use, that might be true for one domain and one user, but I mean a different domain and a different user -::	0
+"me013"::	Mm-hmm.::	0
+"fe008"::	Mm-hmm.::	0
+"me013"::	Yeah, but we're just looking for a place to  start  with that because, you know, th- what - what - what James::	0
+"fe016"::	Um.::	0
+"me013"::	is gonna be  doing  is looking at the user-interface and he's looking at the query in - in -::	0
+"me013"::	i- We - we have five hours of pilot data of the  other  stuff but we have  zero  hours of - of - of  queries.  So he's just sort of going "where - where do I -::	1
+"fe041"::	w-::	0
+"me013"::	where do I start?"::	0
+"fe041"::	Well, th- you could do - I think the summaries actually may help  get  us there,::	0
+"me013"::	O_K.::	0
+"fe041"::	for a  couple  reasons.  One,  if you have a summary - if you have a bunch of summaries,::	0
+"fe041"::	you can do::	0
+"fe041"::	a word frequency count and see what words come up::	0
+"fe041"::	in different types of meetings.::	0
+"me013"::	Mm-hmm.::	0
+"fe041"::	So "action item" is gonna come up whether it's a V_L_S_I meeting, or speech meeting, or whatever.::	0
+"fe041"::	So words that come up in different types of meetings may be something that you would want to  query  about.::	0
+"me011"::	Mm-hmm.::	0
+"fe041"::	Um, the  second  thing you could possibly do with it is just run::	1
+"fe041"::	a little  pilot  experiment with somebody saying "here's a summary of a meeting,::	0
+"fe041"::	what questions might you want to  ask  about it to go  back? "::	1
+"me011"::	Yeah, I think that's difficult because then they're  not  gonna ask the questions that are in the  summary.::	0
+"fe041"::	Well -::	0
+"me011"::	But, I think it would give -::	0
+"fe041"::	That's one possi- one possible  scenario,  though, is you  have  the summary,::	0
+"me011"::	Mm-hmm.::	0
+"fe041"::	and you want to ask questions to get more  detail.::	0
+"me011"::	th-  Yeah, I think it has to be a participant.  Well,  it doesn't  have  to be.::	0
+"me011"::	O_K. So that - that is  another  use of Meeting Recorder that we haven't really  talked  about,::	0
+"me011"::	which is for someone  else,::	0
+"me011"::	as opposed to as a  remembrance agent, which is what had been  my  primary thought::	0
+"me011"::	in the information retrieval  part  of it would be.::	0
+"me011"::	But, uh,::	0
+"me011"::	I guess if you had a meeting  participant,::	1
+"me011"::	they could use the summary to refresh themselves about the meeting and then make up queries. But it's not -::	1
+"me013"::	Mm-hmm.::	0
+"me011"::	I don't know how to  do  it if - until you have a  system.::	0
+"fe016"::	The  summary  is actually gonna  drive  the  queries  then. I mean, your research is going to be very circular.::	0
+"me025"::	Yeah.::	0
+"fe041"::	Mmm.::	0
+"me011"::	Yeah, that - that's what I was  saying.::	0
+"fe041"::	Yeah.::	0
+"me025"::	But th- there  is  this, um -::	1
+"me025"::	There is this class of queries, which are the things that you didn't realize were important at the time but some-::	1
+"me025"::	in retrospect you think "oh, hang on, didn't we talk about that?"::	1
+"me025"::	And it's something that  didn't  appear in the summary but you -  And that's kind of what this kind of, uh, complete data capture is kind of  nicest  for.::	1
+"fe041"::	Mm-hmm.::	0
+"fe041"::	Right.::	0
+"fe016"::	Right.::	0
+"me025"::	Cuz it's the things that you wouldn't have bothered to make an  effort  to record but they get recorded.::	0
+"fe041"::	Right.::	0
+"me025"::	So, I mean - And th- there's no way of  generating  those, u- u- until we just - until they actually  occur.  You know, it's like -::	0
+"fe016"::	But you could always post-hoc label them.::	0
+"me025"::	Right, right. Exactly. But I mean, it's difficult to sort of say "and if I was gonna ask four questions about this, what would they be?"::	0
+"fe016"::	Yeah.::	0
+"fe016"::	Yeah.::	0
+"me025"::	Those aren't the kind of things that come up.::	0
+"me011"::	But at  least  it would get us  started.::	0
+"me025"::	Oh, yeah. Yeah, sure.::	0
+"fe008"::	I  also  think that  w-  if - if you can use the  summaries  as an indication of the::	0
+"fe008"::	important points of the - of the meeting,::	0
+"fe008"::	then you might get something like -::	0
+"fe008"::	y- So if th- if the obscure item you want to know more about was some form of  data  collection,::	0
+"fe008"::	you know, maybe the summary would say, you know, "we discussed types of na- data collection".::	0
+"fe008"::	And, you know - And - and maybe you could get to it by  that.  If you - if you had the - the larger structure of the -::	0
+"fe008"::	of the discourse, then::	0
+"fe008"::	if you can categorize what it is that you're::	0
+"fe008"::	looking  for with reference to those l-::	0
+"fe008"::	those larger  headings,  then you can find it even if you::	0
+"me011"::	Mmm.::	0
+"fe008"::	don't have a direct route to that.::	0
+"me011"::	Although it seems like that's, um,::	0
+"fe008"::	I think that -::	0
+"me011"::	a high burden on the note-taker.::	0
+"me011"::	That's a pretty fine grain that the note-taker will have to take.::	0
+"fe016"::	Maybe Landay can put a student in to  be  a note-taker.::	0
+"fe041"::	I th- No. I think you got to have somebody::	0
+"fe016"::	No?::	0
+"fe041"::	who knows the pro- knows the topic or - you know, whose job it is delegated to be the note-taker. Somebody who's part of the meeting.::	0
+"me013"::	Mm-hmm.::	0
+"fe016"::	No, I mean, but someone who can come sit in on the meetings and then takes the notes with them that the real note-taker -::	0
+"me011"::	But they -::	0
+"fe016"::	And that way that one student has, you know, a  rough  idea of what was going on,::	0
+"fe016"::	and they can use it for their research. I mean, this isn't really necessarily what you would do in a real system,::	0
+"me011"::	Mm-hmm.::	0
+"fe016"::	because that- that's a lot of trouble  and maybe it's not the best way to do it.::	0
+"me013"::	Mm-hmm.::	0
+"me013"::	Mm-hmm.::	0
+"fe016"::	But if he has some students that want to  study  that::	0
+"fe016"::	then they should sort of get to know the people and attend those meetings, and::	0
+"fe016"::	get the notes from the note-taker or something.::	0
+"me011"::	Right.::	0
+"me011"::	Well, I think that's a little bit of a problem. Their sort of note-taking application  stuff::	0
+"me013"::	Hmm.::	0
+"me011"::	they've been doing for the last couple of  years,  and I don't think anyone is still  working  on it.::	0
+"me011"::	I think they're  done.::	0
+"me013"::	Yeah.::	0
+"me011"::	Um, so I'm not sure that they  have  anyone  currently  working on::	0
+"me011"::	notes.  So what we'd have to  interest  someone in::	0
+"me011"::	is the  combination  of note and speech.::	0
+"fe016"::	Mm-hmm.::	0
+"me011"::	And so the question is "is there such a person?" And I think right  now,  the answer is "no".::	0
+"me013"::	I've b- been thinking - I've been thinking about it a little bit here - about the - uh, th- this, e- um -::	0
+"fe041"::	Well-::	0
+"me011"::	We'll just have to see.::	0
+"me013"::	I think that the -::	0
+"me013"::	now  I'm thinking that the summary - a summary, uh, is actually a reasonable,::	1
+"me013"::	uh, bootstrap into this - into what we'd like to get at. It's - it's not  ideal,  but we - you know, we - we have to get started  someplace.::	1
+"me013"::	So I was - I was just thinking about,::	0
+"me013"::	um, suppose we wanted to get -::	0
+"me013"::	w- We have this collection of meeting. We have five hours of stuff.::	0
+"me013"::	Uh, we get that transcribed. So now we have five hours of meetings::	1
+"me013"::	and, uh, you ask me, uh, uh, "Morgan, what d- you know, what kind of questions do you want to ask?"::	1
+"me013"::	Uh, I wouldn't have any  idea  what kind of questions I want to ask. I'd have to get started  someplace.  So in fact if I looked at  summary  of it, I'd go "oh, yeah, I was in that meeting,::	1
+"me013"::	I remember  that,::	0
+"me013"::	um, what was the part that -"::	0
+"me013"::	And - and th- I  think  that might::	1
+"me013"::	then  help  me to think of things - even things that aren't listed in the  summary,::	0
+"me011"::	Mm-hmm.::	0
+"me013"::	but just as a - as a - as a  refresh  of what the general thing was going on in the  meeting.::	1
+"fe041"::	I think it serves  two  purpo- purposes. One, as sort of a refresh to help bootstrap::	0
+"me013"::	Mm-hmm.::	0
+"me013"::	Yeah.::	0
+"fe041"::	queries, but also, I mean, maybe we do want to generate  summaries.  And then it's -::	0
+"me013"::	Well, yeah. That's true too.::	0
+"me025"::	Hmm.::	0
+"me011"::	Yeah, absolutely. Then you want to have it.::	0
+"fe041"::	you know, it's kind of a  key.::	0
+"fe016"::	So how does the summary get  generated?  I'm not against the  idea  of a summary, but::	0
+"fe041"::	Uh -::	0
+"fe041"::	Well,  i- i-  - ?::	0
+"me011"::	By hand.::	0
+"fe016"::	I wanted to think carefully about  who's   generating it and how - because the summary will drive::	0
+"fe041"::	Or, d- o-::	0
+"fe016"::	the queries. So -::	0
+"fe041"::	What I - I think, you know, in most meetings,::	0
+"fe041"::	this one being  different,  but::	1
+"fe041"::	in most meetings that  I  attend, there's somebody t- explicitly taking notes, frequently on a laptop -::	1
+"fe041"::	Um, you can just  make  it be on a laptop, so then yo- you're dealing with ASCII and not somebody - you don't have to go through handwriting recognition.::	0
+"fe016"::	Mm-hmm.::	0
+"fe041"::	Um, and then they post-edit it into,::	1
+"fe041"::	uh, a summary and they email it out for minutes. I mean, that happens in most meetings.::	1
+"fe008"::	I- I - I think::	0
+"fe008"::	that, um, there's - we're using "summary" in two different ways.  So what you just described I would describe as "minutes".::	0
+"me011"::	Minutes.::	0
+"me025"::	Yeah.::	0
+"fe041"::	Right.::	0
+"fe008"::	And what  I  originally thought was, um, if you asked someone "what was the meeting about?"::	0
+"fe016"::	Yeah. O_K.::	0
+"fe008"::	And then they would say "well, we talked about this and then we talked about that, and so-and-so talked about -"::	0
+"fe041"::	Hmm.::	0
+"fe008"::	And then you'd have, like -::	0
+"fe008"::	I - e-  My  thought was::	1
+"fe008"::	to have multiple people summarize it,::	0
+"fe008"::	on recording rather than writing because writing takes time and you get irrelevant other things that u- take time, that -::	1
+"fe041"::	Mm-hmm.::	0
+"fe008"::	Whereas if you just  say  it immediately after the meeting,::	1
+"fe008"::	you know, a two-minute summary of what the meeting was about, I think you would get,::	1
+"fe008"::	uh, with mult- See, I - I  also  worry about having a single note-taker because that's just one person's perception.::	0
+"fe008"::	And, um,::	0
+"fe008"::	you know, it - it's releva- it's relative to what you're  focus  was on that meeting, and - and people have different::	0
+"me013"::	Mm-hmm.::	0
+"fe008"::	major  topics  that they're  interested  in.::	0
+"me013"::	A-::	0
+"fe008"::	So,  my  proposal would be that it may be worth considering  both  of those types, you know, the note-taking and::	1
+"fe041"::	O_K.::	0
+"me025"::	Yeah.::	0
+"fe008"::	a spontaneous oral summary afterwards, no longer than two minutes,::	1
+"me013"::	Adam, you can -::	0
+"fe008"::	from multiple people.::	0
+"fe008"::	Yeah.::	0
+"me013"::	you can correct me on this, but - but, uh, my  impression  was that, uh,::	0
+"me013"::	pretty much, uh, true that the meetings here, nobody sits with a w- uh, with a laptop and -::	0
+"me011"::	Never.::	0
+"me011"::	Never. I've never seen it at ICSI. Does anyone - ?::	0
+"me011"::	I mean,  Dan  is the one who - who::	0
+"me013"::	I-::	0
+"fe016"::	Dan?::	0
+"me011"::	most frequently would take notes, and -::	0
+"me025"::	Yeah.::	0
+"me025"::	I've d- When we - when we have  other  meetings. When I have meetings on the  European  projects, we have someone taking notes.::	0
+"me011"::	Oh, really?::	0
+"me025"::	In fact, I often do it. Yeah.::	0
+"me013"::	Yeah, but those are bigger deal things. Right? Where you've got fifteen peo- I mean, most - th- this is one of the larger meetings.  Most  of the meetings we have are::	0
+"me011"::	That's true - are four or five people.::	0
+"me013"::	four or five people and you're not - you don't have somebody sitting and taking minutes for it. You just  get together and talk about where you are.::	0
+"fe041"::	Yeah.::	0
+"fe041"::	Right. So, I think it depends on whether it's a business meeting::	0
+"me011"::	Culture.::	0
+"fe041"::	or a technical discussion. And I agree, technical discussions you don't usually have somebody taking notes.::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"me011"::	The  I_RAM  meeting, they - they take notes every -::	0
+"me013"::	Yeah.::	0
+"me013"::	Do they?::	0
+"me011"::	There's  uh  a person with a laptop  at each meeting.::	0
+"me025"::	How many people are those meetings?::	0
+"me011"::	There are more. I mean, there are  ten-ish.::	0
+"me025"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"fe016"::	Y- you  should  also have a  record  of what's on the  board.  I mean, I find it very  hard to reconstruct what's going on. I - I don't know how -::	1
+"me011"::	They're very sparse.::	0
+"me011"::	Yeah. This is something early in the project we talked a lot about.::	0
+"fe016"::	I don't know how, but for instance, I mean, the outline is sort of up here and that's what people are seeing. And if you have a -::	1
+"fe016"::	Or  you shou- could tell people not to - to  use  the boards. But there's sort of this missing information otherwise.::	0
+"fe008"::	I agree.::	0
+"me011"::	I agree, but - but::	0
+"me025"::	We sh- we should -::	0
+"me011"::	you - you just - you g- end up with video,::	0
+"me025"::	Well, I don't know.::	0
+"me011"::	and - and instrumented rooms. And  that's a different  project,   I  think.::	0
+"me025"::	f- u-::	0
+"me025"::	I think for this data capture, it would be nice to have a digital camera::	1
+"me011"::	Yeah, different -::	0
+"fe016"::	Uh, y-::	0
+"me025"::	just to take pictures of who's there, where the microphones are, and then we could also put in what's on the board. You know, like three or four snaps for every -::	1
+"fe016"::	Right.::	0
+"fe008"::	I agree. That's wonderful.::	0
+"fe016"::	Yeah. People who were never  at  the meeting will have a  very  hard time understanding it  otherwise.::	0
+"me025"::	for every meeting.::	0
+"fn043"::	Mm-hmm.::	0
+"me011"::	But don't you think that's -::	0
+"fe008"::	I agree.::	0
+"me011"::	Don't you think that - But -::	0
+"fn043"::	Mm-hmm.::	0
+"me025"::	Well, no. I mean, I - I just think - I mean, I think that right now we don't make a record of where people are sitting on the  tables.::	0
+"fe016"::	Even people who  were  at the meeting.::	0
+"me011"::	Huh .::	0
+"fe041"::	Right.::	0
+"me011"::	Right.::	0
+"me025"::	And that - the - at some point that might be awfully useful.::	0
+"me011"::	But I think adding::	1
+"fe008"::	Mm-hmm.::	0
+"fe041"::	Mmm.::	0
+"me011"::	photographs  adds a whole nother level of  problems.::	1
+"me025"::	Yeah.::	0
+"me025"::	We-::	0
+"fe008"::	It's  just  a digital  record.::	0
+"me025"::	n- uh,::	0
+"me025"::	Not - not as part of the - not as a part of the data that you have to recover. Just - just in terms of -::	0
+"fe016"::	I don't mean that you  model  it.::	0
+"fe016"::	We should just -::	0
+"fe016"::	Like archiving it or storing it.::	0
+"me025"::	Yeah.::	0
+"fe008"::	Yes, I agree.::	0
+"fe008"::	I agree.::	0
+"fe008"::	It's i- because discourse is  about  things, and then you have the things that are about, and it's recoverable.::	0
+"fe041"::	Mm-hmm.::	0
+"fe016"::	Because someone -::	0
+"fe016"::	someone later might be able to take these and say "O_K, they, you know - at least  these  are the people who were  there  and here's sort of what they started  talking  about, and -"::	0
+"me025"::	So -::	0
+"fe016"::	and just -::	0
+"fe008"::	Yes. And it's so simple. Like you said, three snapshots and -::	0
+"me013"::	Li-::	0
+"me013"::	uh, L- L-::	0
+"me013"::	L-::	0
+"me013"::	Liz, you -::	0
+"fe008"::	Just to archive.::	0
+"me013"::	u- uh, Liz, you sa- you sat in on the, uh,::	0
+"me025"::	Actually -::	0
+"me013"::	subcommittee meeting or whatever -::	0
+"me025"::	I'll go and get  the  camera.::	0
+"me013"::	uh, on - you - on the subcommittee meeting for - for - at the, uh - that workshop we were at that, uh, uh, Mark Liberman was - was having.::	0
+"me013"::	So I - I wasn't there. They - they - they - they h- must have had some discussion about video and the visual aspect, and all that.::	0
+"fe016"::	Big, big interest.::	0
+"me013"::	Yeah.::	0
+"fe016"::	Huge. I mean, it - personally, I don't - I would never want to deal with it. But I'm just saying::	1
+"me013"::	Yeah.::	0
+"fe016"::	first of all there's a whole bunch of::	0
+"fe016"::	fusion issues that DARPA's interested in. You know, fusing gesture and face recognition, even lip movement and things like that,::	1
+"me013"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"fe016"::	for this kind of task.::	0
+"fe016"::	And there's also::	0
+"fe016"::	I think a personal interest on the part of Mark Liberman::	0
+"me013"::	Mm-hmm.::	0
+"fe016"::	in this kind of -::	0
+"fe016"::	in  storing  these images in any data we collect so that later we can do other things with it.::	0
+"me013"::	Yeah.::	0
+"fe008"::	Mmm.  Mm-hmm.::	0
+"me013"::	So - so to address what - what  Adam's  saying, I mean, I  think  you - uh, that::	0
+"fe016"::	And -::	0
+"me013"::	the key thing there is that this is a description of database collection effort that they're talking about doing.::	0
+"me011"::	Mm-hmm.::	0
+"me013"::	And if the database exists and includes some  visual  information that doesn't mean that an individual researcher is going to make any use of it.::	0
+"me013"::	Right? So, uh -::	0
+"fe008"::	Mm-hmm.::	0
+"me011"::	But that - it's gonna be a lot of effort on  our  part::	1
+"me011"::	to create it, and store it, and::	1
+"me013"::	Right. So we're gonna -::	0
+"me011"::	get all the standards, and to do anything  with  it.::	1
+"me013"::	So we're gonna do what we're gonna  do,  whatever's reasonable for us. But having -::	0
+"me011"::	Yeah.::	0
+"fe016"::	I think even doing something very crude - Like I know with  ATIS,  we just had a tape recorder running all the time.::	0
+"me011"::	Mm-hmm.::	0
+"fe016"::	And later on it turned out it was really  good  that you had a tape recorder of what was happening, even though you w- you just got the speech  from  the machine.::	0
+"fe016"::	So if you can find some really,::	0
+"fe016"::	you know, low, uh, perplexity,::	0
+"me011"::	Low fidelity.  Yeah.::	0
+"fe016"::	yeah,  way of -::	0
+"fe016"::	of  doing  that, I think it would be worthwhile.::	0
+"fe008"::	I agree.  And if  it's simple as - I mean, as simple as just the digital -::	0
+"fe016"::	Otherwise you'd - you  lose  it.::	0
+"fe008"::	Yeah.::	0
+"me013"::	Well,  minimally,  I mean, what - what  Dan  is referring to at least having some::	1
+"me013"::	representation of the p- the spatial position of the people, cuz we  are  interested in some spatial  processing.  And so -::	1
+"fe008"::	Mm-hmm.::	0
+"me011"::	Right.::	0
+"fe041"::	Mm-hmm.::	0
+"me013"::	so, um -::	0
+"me011"::	Well, once the room is a little more fixed that's a  little  easier cuz you'll -  Well,  the wireless.::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"me011"::	But -::	0
+"fe016"::	Also C_M_U  has  been  doing  this and they were the most  vocal  at this  meeting,  Alex  Waibel's  group.::	1
+"fe016"::	And they have  said, I talked to the student who had done this,  that with two::	1
+"fe016"::	fairly inexpensive cameras they - they just recorded all the time and were able to get all the information from - or maybe it was three - from all the parts of the room.::	1
+"me013"::	Mm-hmm.::	0
+"fe016"::	So I think we would be - we might lose the chance to use this data for somebody  later  who wants to do some kind of processing on it if we don't collect it::	1
+"me011"::	Yeah.::	0
+"me011"::	I - I - I don't disagree. I think that if you  have  that, then people who are interested in vision can use this database.::	0
+"fe016"::	at all.::	1
+"me011"::	The  problem  with it is::	1
+"me011"::	you'll have  more  people who don't want to be filmed than who don't want to be recorded.::	1
+"fe008"::	Well, she's not  making -::	0
+"me011"::	So that there's going to be  another  group of people who are gonna say "I won't participate".::	0
+"fn043"::	Mmm.   That's true.::	0
+"me011"::	Um -::	0
+"fe041"::	Mm-hmm.::	0
+"fe016"::	Or  you could put a paper bag over everybody's head and not  look  at each other and not look at  boards,  and just all be sitting   talking.  That would be an interes-  Bu-::	0
+"fe008"::	Well -::	0
+"me013"::	Uh-huh. Great idea.::	0
+"fe008"::	Well, there's - that'd be the - the parallel, yeah. But I think  y-  she's - we're just proposing  a  minimal  preservation of things on boards,::	1
+"fe016"::	Yeah. I definitely won't participate if there's a camera.::	0
+"fe008"::	sp- spatial organization - And you could anonymize the  faces  for that matter. You know, I mean, this is - We can talk about the -::	0
+"me011"::	But, you know, that's a lot of infrastructure and  work.  To set it up and then anonymize it?::	1
+"fe008"::	It's just one snapshot. We're not talking about a movie. We're talking about a snapshot.::	0
+"fe016"::	No, it wa- n- not, um -::	0
+"fe041"::	No, no, no, no.::	0
+"fe016"::	Not for - not for C_M_U. They have a pretty crude set-up. And they had -::	0
+"fe041"::	So -::	0
+"me011"::	Mm-hmm.::	0
+"fe008"::	Yeah.::	0
+"me011"::	Mm-hmm.::	0
+"fe016"::	they just turn on these cameras. They were - they were not moving or anything.::	0
+"me011"::	Couldn't find it?::	0
+"me025"::	It's on its way.::	0
+"fe016"::	And stored it on analog media.::	0
+"fe008"::	Hmm.::	0
+"me011"::	Hmm?::	0
+"me025"::	It's coming.::	0
+"fe016"::	And they - they didn't actually  align  it or anything. They just - they  have  it, though.::	0
+"fe008"::	Yeah. Well, it's  worth    considering.   Maybe we don't want to -::	0
+"fe008"::	spend that much more time  discussing  it, but -::	0
+"me022"::	Did they store it digitally, or - ?::	0
+"fe016"::	Hmm-mm.  I think they just -::	0
+"me022"::	or just put it on videotape?::	0
+"fe016"::	I think they just had the videotapes with a c- you know, a counter or something. Um,::	0
+"me013"::	Mm-hmm.::	0
+"me013"::	Well, I think for - I mean, for our purposes we probably will d-::	0
+"fe016"::	I'm not sure.::	0
+"me013"::	we - we might try that some and - and we certainly already have  some  recordings that  don't  have that,::	0
+"fe008"::	Yeah.::	0
+"me013"::	uh, which, you know, we- we'll - we'll get other value out of, I think.::	0
+"fe016"::	Yeah.::	0
+"fe008"::	Th-::	0
+"fe008"::	The thing is, if it's easy to collect it - it th- then I think it's a wise thing to do because once it's gone it's gone. And -::	0
+"fe016"::	I'm just - The community -::	0
+"fe016"::	If L_D_C collects this data - u- I mean, and L_- if Mark Liberman is a strong proponent of how they collect it and what they collect,::	0
+"fe016"::	there will probably  be  some video data in there.::	0
+"me013"::	There  you go.::	0
+"fe016"::	And so that could argue for us  not  doing it or it could argue for us::	0
+"fe016"::	doing  it. The only place where it sort of  overlaps  is when::	0
+"fe016"::	some of the summarization issues are - actually could be,::	0
+"fe016"::	um, easier - made easier if you had  the  video.::	0
+"me013"::	I think at the moment we should be  determining   this on the basis of our own,::	1
+"fe008"::	Mm-hmm.::	0
+"me013"::	uh, interests and needs rather than hypothetical ones from a community thing. As you say, if they -::	1
+"me013"::	if they decide it's really critical then they will collect a lot more data than we can afford to, uh, and - and will include all that.::	0
+"fe016"::	Mmm.::	0
+"me013"::	Um,::	0
+"me013"::	I - I - I'm not worried about the cost of setting it up. I'm worried about the cost of people looking at it.::	0
+"fe041"::	e-::	0
+"me013"::	In other words, it's - it - it'd be kind of silly to collect it all and not look at it at all. And so::	0
+"me013"::	I - I - I think that we do have to do  some  picking and choosing::	0
+"me013"::	of the stuff that we're  doing.::	0
+"me013"::	But I - I  am  int- I  do  think that we m- minimally want - something -::	0
+"me013"::	we might want to look at - at some - some, uh,  subsets  of that. Like::	1
+"me013"::	for a meeting like this, at  least,  uh, take a Polaroid of the -  of the - of the  boards,  and -::	1
+"fe016"::	Of the board.::	0
+"fe008"::	Yeah.::	0
+"fe008"::	Exactly.::	0
+"fe016"::	Or at  least  make sure that the note-taker takes a sh- you know, a snapshot of the board.::	0
+"me013"::	a-::	0
+"me013"::	and know the position of the people -::	0
+"fe016"::	That'll make it a lot easier for meetings that are structured. I mean, otherwise later  on  if nobody wrote this stuff on the board  down  we'd::	0
+"fe008"::	Exactly.::	0
+"fe041"::	Mm-hmm.::	0
+"fe016"::	have a harder time summarizing it or agreeing on a summary.::	0
+"fe008"::	We - And it -::	0
+"fe008"::	Especially  since this is common knowledge. I mean, this is shared knowledge among  all  the participants, and it's a shame to keep it off the  recording.::	0
+"fe008"::	s-::	0
+"me011"::	Uh, except in - er, if we weren't  recording  this, this - this would get lost. Right?::	0
+"fe008"::	Well, I don't understand  that  point. I mean, I just think that the -::	0
+"me013"::	Yeah.::	0
+"me011"::	The point is that we're not  saving  it  anyway.::	0
+"me011"::	Right? In - in  our real-life  setting.::	0
+"fe008"::	Well -::	0
+"fe041"::	What do you  mean  we're not saving it anyway? I've written all of this down and it's getting emailed to you.::	0
+"fn043"::	And you're gonna send it out by email, too.::	0
+"me011"::	Well, uh, in that case we don't need to take  pictures  of it.::	0
+"fe016"::	Right. That would be the other alternative, to make sure that anything that was on the board,::	0
+"fe041"::	Yeah.::	0
+"fn043"::	Yeah.::	0
+"fe008"::	Well -::	0
+"fe041"::	Well, that's why - that's why I'm saying that I think the note-taking::	0
+"fe016"::	um, is in the record.::	0
+"fe041"::	would be - I think in many - for  many  meetings there will be some sort of note-taking,::	0
+"fe041"::	in which case, that's a useful thing to have -::	0
+"fe041"::	Uh, I mean, we - uh, we don't need to require it. Just like the -::	0
+"me011"::	Mm-hmm.::	0
+"fe041"::	I mean, I think it would be  great  if we try to get a picture with every meeting.::	0
+"fe008"::	I agree.::	0
+"fe041"::	Um,::	0
+"fe041"::	so - so we won't worry about  requiring  these things, but the more things that we can  get  it for,::	0
+"fe041"::	the more useful it will be for various applications.::	0
+"me013"::	So -::	0
+"fe041"::	So.::	0
+"me013"::	So, I mean, departing for the moment from the  data  collection question but actually talking about, you know, this group and what we actually want to do,::	0
+"me013"::	uh, so I guess that's th- the way - what you were figuring on doing was - was - was, uh, putting together some notes and sending them to -::	0
+"me013"::	to everybody::	0
+"me013"::	from - from today? O_K.::	0
+"me013"::	So.::	0
+"me013"::	Um -::	0
+"fe008"::	That's great.::	0
+"me013"::	So -  so the question  that - that we started with was whether there was anything else we should do during - during th- during the collection. And I guess the CrossPads was certainly one idea,::	1
+"fe016"::	Ow.::	0
+"me013"::	uh, and we'll get them from him and we'll just  do  that. Right? And then the next thing::	0
+"me013"::	we talked about was the - was the summaries::	0
+"me013"::	and are we gonna do anything::	0
+"me013"::	about that.::	0
+"fe041"::	Well, before we leave the CrossPads and - and call it done.::	0
+"me013"::	Oh, O_K.::	0
+"fe041"::	So, if  I'm  collecting data::	0
+"me013"::	Yeah.::	0
+"fe041"::	then there is this question of::	0
+"fe041"::	do I use CrossPads?::	0
+"fe041"::	So, I think that if::	0
+"fe041"::	we really  seriously  have  me  collect data::	0
+"fe041"::	and I  can't  use CrossPads, it's probably  less  useful for  you  guys to go to the trouble of using it,::	0
+"fe041"::	um, unless you think that the CrossPads are gonna -::	0
+"fe041"::	n-::	0
+"fe041"::	I'm not - I'm not sure what they're gonna do. But - but having a small percentage of the data with it, I'm not sure::	0
+"fe041"::	whether that's useful or not. Maybe - maybe it's no big deal. Maybe we just do it and see what happens.::	0
+"me013"::	What  -::	1
+"me013"::	I guess the point was to try - again, to try to collect more::	1
+"me013"::	information that could be useful later for - for the U_I stuff.::	1
+"fe041"::	Mm-hmm.::	0
+"me013"::	So it's sort of Landay supplying it so that Landay's stuff can be easier to do. So it - it - Right now he's g- operating from::	0
+"fe041"::	Right.::	0
+"fe041"::	Nothing.::	0
+"me013"::	zero,  and so even if we didn't get it done from U_W, it  seems  like that would - could still -::	0
+"fe041"::	O_K.::	0
+"me013"::	You shou- I mean, at least try it.::	0
+"fe016"::	I think it'd be useful to have a small amount of it just as a proof of concept.  It will  -::	1
+"me013"::	Yeah.::	0
+"fe041"::	Right. O_K.::	0
+"me011"::	And - and they seem to  not be able to give enough of them away, so we could probably get more as well.::	0
+"fe016"::	You know, what you can  do  with things.::	0
+"fe016"::	Yeah.::	0
+"fe041"::	That's true. So if it - if it  seems  to be really useful to you guys, we could probably get a donation to  me.::	1
+"fe016"::	But not - not to rely on them for  basic modeling.::	0
+"me011"::	Yeah, I'm not sure. I think it- it - it will again depend on Landay, and if he has a student who's interested, and how much infrastructure we'll need.::	0
+"me011"::	I mean, if it's  easy,  we can just  do  it.::	0
+"me013"::	Yeah.::	0
+"me011"::	Um, but if it requires a lot of  our  time, we probably  won't  do it.::	0
+"me013"::	I guess a lot of the stuff we're doing now really is pilot in one sense or another.  And so we try it out and see how it works.::	1
+"fe041"::	Right.::	0
+"me011"::	Yeah. Yeah, we have to sort of figure out what we're gonna do. Right.::	0
+"fe041"::	Yeah.::	0
+"fe016"::	I just wouldn't base any of the  modeling  on  having  those.::	0
+"me011"::	Right. I ag- I think I agree with that.::	0
+"fe041"::	Right.::	0
+"fe016"::	Yeah.::	0
+"fe016"::	It's just -::	0
+"fe041"::	Right.::	0
+"fe041"::	O_K.::	0
+"me011"::	I think, though, the  importance  marking is a  good idea, though.::	1
+"me011"::	That if - if people have something::	0
+"fe016"::	I'd be sort of cool.::	0
+"fe016"::	I mean, it would -::	0
+"me011"::	in front of  them   -::	0
+"fe016"::	Yeah. That w- shouldn't be hard for -::	0
+"me011"::	Yeah.::	0
+"me011"::	Do it on pilots or laptops or something.::	0
+"me011"::	O_K, if something's important everyone clap.::	0
+"fe041"::	O_K. So CrossPads, we're just gonna try it and see what happens.::	1
+"me013"::	O_K.::	0
+"me011"::	Yeah. Um, I think that's right.::	0
+"me013"::	O_K.::	0
+"fe041"::	O_K. The note-taking -::	0
+"fe041"::	So, I -  I  think that this is::	0
+"fe041"::	gonna be useful. So if we record data  I  will definitely ask for it.::	0
+"fe041"::	So, I j- I think we should just say this is not - we don't want to put any extra burden on people, but if they happen to generate minutes,::	1
+"me011"::	Yeah.::	0
+"me011"::	Oh, O_K. That's fine.::	0
+"fe041"::	could - could they send it to us?::	1
+"me011"::	Absolutely.::	0
+"me013"::	Mm-hmm.::	0
+"fn043"::	Mm-hmm.::	0
+"fe041"::	And then -::	0
+"me011"::	Yeah. What I was gonna  say  is that I don't want to ask people to do something they wouldn't normally do in a meeting.::	1
+"me011"::	It's ver- I just want to keep away from the artificiality. But::	0
+"me013"::	Mm-hmm.::	0
+"me011"::	I think  it   definitely::	0
+"me011"::	if they exist.::	0
+"me011"::	And then  Jane's  idea of summarization  afterward  I think is not a  bad  one.::	1
+"me011"::	Um,::	0
+"me011"::	picking out - basically to let you pick out keywords,::	0
+"me011"::	um, and, uh, construct queries.::	0
+"me013"::	So who - who does this summarization?::	0
+"fe008"::	Yeah, I'm thinking that - Yeah.::	0
+"me011"::	People in the meeting.::	0
+"me011"::	You know, just at - at the end of the meeting, before you go,::	0
+"fe008"::	Uh-huh.::	0
+"fe016"::	Without hearing each other though, probably.::	0
+"me011"::	go around the table.::	0
+"me025"::	Yeah.::	0
+"me013"::	Yeah .::	0
+"me011"::	Yeah.::	0
+"me022"::	Or even just have one or two people stay behind.::	0
+"me011"::	Ugh.::	0
+"me011"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"me025"::	People with radio mikes can go into separate rooms and continue recording without hearing each other. That's the  nice  thing.::	0
+"fe016"::	Well, then you should try them a few weeks later and -::	0
+"fe008"::	How fascinating.::	0
+"me011"::	And see -  score  them?::	0
+"fe016"::	They have all these memory experiments about how little you actually retain and wasn't -::	0
+"me025"::	That's right. Well, that's the interesting thing, though. If we do - if we collect four different summaries, you know, we're gonna get all this  weird  data about how people  perceive  things differently. It's like::	0
+"me011"::	Oh .::	0
+"me011"::	Hmm.::	0
+"me025"::	this is  not  what we meant to  research.::	0
+"fe016"::	Right, right.::	0
+"me013"::	Oh. Yeah.::	0
+"fe008"::	That could be very interesting.::	0
+"fe041"::	Mm-hmm.::	0
+"me022"::	Hmm.::	0
+"fe008"::	Yeah.::	0
+"me013"::	Ru-::	0
+"fe041"::	But - but again, like the CrossPads, I don't think I would base a lot of stuff  on  it, because I think -::	1
+"me011"::	I d- yeah, I don't know how you would do it, though.::	0
+"me011"::	Mm-hmm.::	0
+"fe041"::	I know when I see the - the clock coming near the end of the meeting, I'm like inching towards the door. So,::	1
+"me011"::	Running to -  Yeah, fff!::	0
+"me025"::	Hmm.::	0
+"fe041"::	you're probably not gonna get  a lot of people wanting to do this.::	1
+"fe008"::	Well, I think if -::	0
+"me011"::	Maybe e- Is email easier? I mean, I - when you first said::	0
+"me011"::	do - do it, um,::	0
+"me011"::	spoken,  what I was thinking is, oh then people have to come up and you have to hook them up to the recorder.::	0
+"fe008"::	Mm-hmm.::	0
+"me011"::	So, if they're already  here  I think that's good, but if they're  not  already here for - I'd rather do email.::	0
+"fe041"::	Right.::	0
+"fe008"::	Yeah, I'd just try - Well, however the least intrusive and - and quickest way is, and th- and closest to the meeting time too, cuz people will start to forget it as soon as they l- leave.::	0
+"me011"::	I'm much faster typing than anything else.::	0
+"me011"::	Yeah.::	0
+"fe041"::	Yeah. I think that - I think doing it orally::	1
+"me011"::	I don't know.::	0
+"me011"::	At -::	0
+"fe041"::	at the end of the meeting  is  the best  time.  I just don't - because::	1
+"fe008"::	Mm-hmm.::	0
+"fe041"::	they're kind of a captive audience. Once they leave,::	0
+"me011"::	Mm-hmm.::	0
+"fe041"::	you know, forget it. But - but i-::	0
+"me011"::	Yeah, read the digits, do the summary.::	0
+"fe041"::	Right. But, uh, I don't think that they'll necessarily -::	0
+"me013"::	Hmm.::	0
+"fe041"::	you'll - you'll get many people willing to stay. But, you know, if you get even one -::	0
+"fe008"::	w-::	0
+"fe008"::	I would s- Yeah.::	0
+"me013"::	Well, I think it's like the note-taking thing, that - that y- that you can't - certainly can't require it or people aren't gonna want to do this. But - but if there's::	1
+"me013"::	some cases where they  will,  then it would be helpful.::	1
+"fe008"::	And I'm  also  wondering, couldn't that be included in the data sample so that you could increase the num- you know, the words that are,::	0
+"me022"::	Hmm.::	0
+"fe008"::	uh, recognized by a particular individual? If you could include the person's  meeting  stuff and also the person's  summary  stuff, maybe that would be::	0
+"me025"::	Yeah.::	0
+"fe008"::	uh,::	0
+"fe008"::	an ad- addition to their database.::	0
+"me025"::	It's kind of nice. Yeah.::	0
+"me013"::	Hmm.::	0
+"fe008"::	Under the  same  acoustic  circumstance,  cuz if they just walk next door with their set-up,::	0
+"me025"::	Right.::	0
+"fe008"::	nothing's changed, just -::	0
+"me022"::	So I have a question about queries,::	0
+"me011"::	God, that's bugging me.::	0
+"me022"::	which is, um,::	0
+"fe008"::	You turn -::	0
+"me011"::	Can we turn that light off?::	0
+"me022"::	uh -::	0
+"me011"::	If - can we turn that just - that - that let -::	0
+"fe008"::	Uh, let the record show the light is flickering.::	0
+"me013"::	The fl- the fluorescent light is flickering. Yeah.::	0
+"me022"::	I don't know.::	0
+"fe041"::	Yeah.::	0
+"me011"::	Yeah, there's a -::	0
+"fe016"::	Oh, it is - it is like - O_K.::	0
+"me011"::	Very annoying. Oh, much better.::	0
+"fe041"::	Yeah.::	0
+"me022"::	There you go. O_K. Good.::	0
+"fn043"::	Oh, yeah. That's better.::	0
+"me013"::	Yeah.::	0
+"fe041"::	For a  little  while I thought it was just that I was really tired.   That and y-::	0
+"me011"::	Too much caffeine.::	0
+"fe041"::	Too much caffeine and really tired, but then I thought "no, maybe that's real".::	0
+"me013"::	O_K.::	0
+"me011"::	I thought it was the  projector  for a  moment.  It was like, "what's going on?"::	0
+"me022"::	So,::	0
+"me013"::	Yeah.::	0
+"me022"::	the question I had about queries was, um, so what we're planning to do is have people look at the summaries and then generate queries?::	1
+"me011"::	We - we've just been talking, how do we generate queries? And so that was one suggestion.::	0
+"me022"::	Are - are we gonna try and o-::	0
+"me022"::	Yeah. Well, I mean,::	0
+"me022"::	so, the question  I  had is is have we given any thought to how we would generate queries  automatically  given a summary?::	1
+"me022"::	I mean, I think that's a whole research topic un- unto itself, so that it may not be a feasible thing. But -::	1
+"me013"::	Mmm.::	0
+"me025"::	Hello. Dan here.::	0
+"me022"::	n-::	0
+"me013"::	Yeah.::	0
+"fe016"::	Shouldn't Landay and his group be in charge of figuring out how to do this? I mean, this is an issue::	0
+"fe016"::	that goes a little bit beyond where   we  are right now. They're the expert-::	0
+"me025"::	O_K.::	0
+"me025"::	Mari?::	0
+"fe041"::	Yeah?::	0
+"me025"::	Someone wants to know when you're getting picked up. Is someone picking you up?::	0
+"fe041"::	Um,  what's our schedule?::	0
+"me013"::	Well, you still wanted to talk with Liz.::	0
+"fe041"::	Let's see,::	0
+"fe041"::	you and I need dis- Uh, no, we did the Liz talk.::	0
+"me013"::	And you and I need to-::	0
+"me013"::	Oh, oh. You already did the Liz talk. O_K.::	0
+"fe041"::	Yeah. So - so that was the prosody thing.::	0
+"fe016"::	We-  I don't remember it.::	0
+"fe041"::	Um, we need to finish the - It's already four-fifteen.::	0
+"me013"::	Oh, O_K.::	0
+"fe016"::	I have like no recall memory.::	0
+"me013"::	Yeah.::	0
+"fe041"::	Uh, after. We need to  finish this discussion, and you and I need a little time for wrap-up and quad chart.::	0
+"fe041"::	So,::	0
+"me011"::	And  what?::	0
+"me013"::	I'm at your disposal. So, up to you.::	0
+"fe041"::	um -::	0
+"fe041"::	Um, what - what's the plan for this discussion? We should -::	0
+"me013"::	Um, I think we should::	0
+"me013"::	be able to wind up in another half-hour or something, you think?::	0
+"me011"::	At  least.   Yeah.::	0
+"me011"::	m- i- Even if that much?  Less.::	1
+"fe041"::	Uh, less.::	0
+"me013"::	Less?::	0
+"fe041"::	Yeah. So, I think -::	0
+"fe016"::	It's interesting that he's got, like,  this discussion free yet it's separate.::	0
+"me013"::	Well, I mean, we still haven't talked about the action items from here and so on. And -::	0
+"fe041"::	Action - Yeah. So,::	0
+"fe041"::	e- e- why don't you say five-thirty?::	0
+"me025"::	O_K, five-thirty.::	0
+"fe041"::	I don't -::	0
+"fe041"::	Is that O_K? We'll probably hit horrible traffic.::	0
+"me025"::	Sounds -::	0
+"me025"::	O_K. h- Thanks, bye.::	0
+"fe041"::	That's not::	0
+"me025"::	That's that.::	1
+"fe041"::	a lot of time, but -::	0
+"me013"::	Yeah.::	0
+"me011"::	Well, in answer to "is it Landay's problem?", um, he doesn't have a student::	0
+"me011"::	who's interested right now in doing anything. So he has very little manpower.::	0
+"me011"::	Um, there's very little::	0
+"me011"::	allocated  for him::	0
+"me011"::	and also he's pretty focused on user interface. So I don't think he wants to do information retrieval, query generation, that sort of stuff.::	0
+"me013"::	Yeah, well there's gonna be these student projects that can do  some  things but it can't be, yeah, very deep.::	0
+"me013"::	u- I - I actually think that - that,::	1
+"me013"::	uh, again, just as a  bootstrap,::	0
+"me013"::	if we  do  have something  like  summaries,::	0
+"me013"::	then having the people who are involved in the meetings  themselves,  who are cooperative and willing to do yet  more,::	0
+"me013"::	come up with - with - with queries, uh, could at  least  give -::	0
+"me013"::	give Landay an idea of the kind of things that people might want to  know.::	1
+"me013"::	I mean, ye- Right? If he doesn't know anything about the area,::	0
+"me013"::	and - the people are talking about and - and, uh -::	0
+"fe016"::	But the people will just look at the summaries or the minutes and re- and sort of back-generate the queries. That's what I'm worried about. So you might as well just give him the summaries.::	0
+"me013"::	Mm-hmm.::	0
+"fe016"::	And -::	0
+"me013"::	Maybe.::	0
+"me022"::	Well, I'm not sure - I'm not sure that's a solved problem.::	0
+"me011"::	y- Well, but I think -::	0
+"me022"::	Right? Of how to - how to generate queries from a -::	0
+"fe016"::	Oh, O_K. How to do this::	0
+"me011"::	I, uh -::	0
+"me013"::	Yeah.::	0
+"fe016"::	from the summary.::	0
+"me022"::	That was  sort  of what my  question was  aimed towards.::	0
+"fe016"::	So what you want to h- to do is, people who were there,::	0
+"fe041"::	Hmm.::	0
+"fe016"::	who later see, uh, minutes and s- put in summary form, which is not gonna be at the same time as the meeting. There's no way that can happen.::	0
+"me011"::	Right.::	0
+"me013"::	Right.::	0
+"fe016"::	Are we gonna later go over it and, like, make up some stuff to which these notes would be an answer, or - or a deeper -::	0
+"me011"::	Or - or just a memory refresher.::	0
+"fe016"::	Yeah. I mean -::	0
+"fe016"::	But that's done off - they have to do that off-line.::	0
+"me011"::	Yep. I agree.::	0
+"fe008"::	I'm also wondering if we could ask the - the people a - a question which would be::	1
+"fe016"::	You-::	0
+"fe008"::	"what was the most interesting::	0
+"fe008"::	thing you got out of this meeting?"::	1
+"fe008"::	Becau- in terms of like informativeness, it might be, you know, that the summary would -::	1
+"fe016"::	That's a good one.::	0
+"fe008"::	would not in- even  include  what the person thought was the most interesting::	0
+"me013"::	I would think that would be the most likely thing.::	0
+"fe008"::	fact.::	1
+"fe016"::	Dan doesn't know what sex he is.::	0
+"me025"::	Yeah, really.::	0
+"fe041"::	But actually I would say that's a better thing::	0
+"fe041"::	to  ask  than have them summarize the meeting.::	0
+"fe008"::	I think you get two different types of information.::	0
+"fe041"::	You get two - Yeah, that's true.::	0
+"me025"::	Yeah.::	0
+"fe008"::	Because you get, like, the general structure of important points and what the - what the meeting was  about.::	0
+"me013"::	Hey.::	0
+"me908"::	Oh, you're still here.::	0
+"fe016"::	Ah-::	0
+"me011"::	We're still here.::	0
+"me013"::	Yeah.::	0
+"fe008"::	So you get the general structure, the important points of what the meeting was  about   with the  summary.::	0
+"fe008"::	But with the "what's the most interesting thing you  learned? " -::	0
+"fe008"::	Uh, so the fact that, uh, I know that Transcriber uses  Snack::	0
+"fe016"::	Going to see the kids.::	0
+"me025"::	You - you can keep it  on.::	0
+"fe008"::	is something that I thought was interesting and that - and that Dan worked on - on that.::	0
+"fe008"::	So I thought that was really -::	0
+"fe008"::	you know. So, I mean, you could ge- pick up some of the micro items that wouldn't even  occur  as major  headings  but could be very  informative.::	1
+"fe041"::	Mm-hmm.::	0
+"fe041"::	Yeah, that's actually a really good idea.::	0
+"fe008"::	I think it wouldn't be too, uh, uh, cost-intensive either. You know, I mean, it's like something someone can do pretty easily on the spur of the moment.::	1
+"fn043"::	Are you thinking about just asking one participant or all of them?::	0
+"me011"::	As many are willing to do it.::	0
+"fn043"::	Make it a voluntary thing, and then -::	0
+"me025"::	Yeah. Cuz you'll get - cuz you'll get very different answers from everybody, right? So -::	0
+"fn043"::	Yeah. That's why I was wondering.::	0
+"me011"::	Well, maybe  one  thing we could  do  is for the meetings we've already  done  -::	0
+"me011"::	I mean, I - we didn't take minutes and we don't have summaries. But, uh,::	0
+"me011"::	people could, like, listen to them a little bit and  generate some queries.::	0
+"fe008"::	Yeah.::	0
+"me011"::	Of course Jane doesn't need to. I'm sure you have  that  meeting  memorized  by now.::	0
+"me025"::	Yeah.::	0
+"fe041"::	But actually it would be an easy thing to just go around the room and say  what was the most interesting thing you learned,::	0
+"me011"::	Mmm.::	0
+"fe008"::	Yeah. Yeah.::	0
+"fe041"::	for those pe- people willing to stay.::	0
+"fe008"::	And that - I think it would pick up the micro-structure, the -::	0
+"fe008"::	some - some of the little things that would be hidden.::	0
+"fe041"::	And - and  that  might be something people are willing to  stay  for.::	0
+"fe008"::	That would be interesting.::	0
+"me013"::	Boy, I - I don't know how we get at this -::	0
+"me011"::	Or want to get up and leave.::	0
+"fn043"::	Yeah, but when you go around the room you might just get::	0
+"fn043"::	the effect that somebody says something and then you go around the room and they say "yeah, me too, I agree."::	0
+"me011"::	Me too, me too, me too.::	0
+"me013"::	Yeah.::	0
+"me025"::	On the other hand people might try and come up with different ones, right? They might say "oh, I was gonna say that one but now I have to think of something else".::	0
+"fe041"::	That's fine.::	0
+"fn043"::	So -::	0
+"me013"::	Well -::	0
+"me011"::	Well,::	0
+"me011"::	you have the other thing, that - that they  know  why we're  doing  it.::	0
+"me011"::	We'll - I mean, we'll - we'll be  telling  them that the reason we're trying to do this is -::	1
+"me011"::	is to d- generate queries in the future, so try to pick things that other people didn't say.::	1
+"me013"::	It's gonna take some thought. I mean,::	0
+"me013"::	It seemed -::	0
+"me013"::	The kind of, uh, interest that I had in this thing initially::	0
+"me013"::	was, uh, that i-::	0
+"me013"::	basically the form that you're doing something else  later,::	0
+"fe041"::	Mm-hmm.::	0
+"me013"::	and you want to pick up something::	0
+"me013"::	from this meeting related to the something  else.::	0
+"me013"::	So it's really the imp- the - the list of what's important's in the something  else::	0
+"me025"::	Mmm.::	0
+"fe041"::	Right.::	0
+"me013"::	rather than the -  And it might be something  minor  - of  minor  importance to the  meeting.::	1
+"me011"::	Right.::	0
+"fn043"::	Mm-hmm.::	0
+"me013"::	Uh, in fact if - if it was  really   major,  if it's the thing that really stuck in your head, then you might not need to go back and - and - and  check  on it even.::	0
+"me013"::	So it's - it's that you're trying to find -  You're - you've now -::	0
+"me013"::	You weren't interested - Say I - I said "well, I wasn't that much interested in dialogue, I'm more of an acoustics person".::	0
+"me025"::	Right.::	0
+"me013"::	But - but thr- three months from now if for some reason I get really interested in  dialogue,  and I'm "well what is - what  was  that part that - that - that, uh,  Mari  was saying?"::	0
+"me011"::	Yeah, like Jim Bass says "add a few lines on dialogue in your next perf-"::	0
+"fe041"::	Uh -::	0
+"me013"::	Yeah.  Yeah.::	0
+"me013"::	And then I'm trying to fi- I mean, that's - that's when I look - in  general  when I look things up  most,  is when it's something that::	0
+"fe041"::	Yeah.::	0
+"me013"::	didn't  really stick in my head the  first  time around and - but for some::	1
+"me013"::	new  reason I'm - I'm - I'm interested in - in - in the old  stuff.::	1
+"me011"::	But that - that's gonna be  very  hard to generate.::	0
+"me013"::	So, I don't - I don't know.::	0
+"fe041"::	Well, I - That's hard to generate and - and I think that's half of what::	0
+"me022"::	Do we -::	0
+"fn043"::	Mm-hmm.::	0
+"fe041"::	i- I would use it for. But I also a lot of times::	0
+"me013"::	Mm-hmm.::	0
+"fe041"::	um, make - you know, think to myself "this is interesting, I've gotta come back::	0
+"fe041"::	and follow up on it".::	0
+"me013"::	Mm-hmm.::	0
+"me013"::	Mm-hmm.::	0
+"fe041"::	So, things that I think are interesting,::	0
+"fe041"::	um, I  would  be, uh, wanting to do a query about.::	0
+"fe041"::	And also, I like the idea of going around the room,::	0
+"fe041"::	because if somebody else thought something was interesting, I'd kind of want to know about it and then I'd want to follow up on it.::	0
+"me025"::	Hmm.::	0
+"me013"::	Yeah. That - that might get at  some  of what I was -::	0
+"me013"::	I was concerned about,::	0
+"me013"::	uh, being interested in something later::	0
+"me013"::	that w- uh, I  didn't  consider to be important the first time, which for me is actually the  dominant  thing, because if I thought it was really important it tends to stick more than if::	0
+"me013"::	I  didn't,  but some new  task comes along that makes me want to look up.::	0
+"me011"::	But -::	0
+"me011"::	But what's interesting to me may not b- have been interesting to you. By - so by going around - Yeah.::	0
+"me013"::	Yeah. So having multiple people might get at some of that. Yeah.::	0
+"me011"::	Yeah, I - I think  you  can't  get at  all  of it, right?::	0
+"me013"::	Yeah.::	0
+"me011"::	W- we just need to start  somewhere.::	0
+"me013"::	Yeah, and this is a starting point.::	0
+"fe008"::	Uh-huh.::	0
+"me022"::	The question - the question then is h- h- how much bias do we introduce by - you know,::	0
+"me022"::	introduce   by saying, you know, this was important now and, you know, maybe tha- something else is important later?::	0
+"me013"::	Mm-hmm.::	0
+"me022"::	I mean, does it -::	0
+"me022"::	does the bias matter? I - I don't know.::	0
+"me022"::	I mean, uh, that's, I guess, a question for you guys. But -::	0
+"fe008"::	Well, and - and one thing, we - we're saying "important" and we're saying "interesting".::	0
+"fe008"::	And - and those - those can be two different things.::	0
+"me022"::	Uh, yeah, yeah.::	0
+"me022"::	Sure, sure. But I - I - I guess that's the question, really, is that - I mean,::	0
+"fe041"::	Mm-hmm.::	0
+"fe008"::	Mm-hmm.::	0
+"me013"::	W-::	0
+"me022"::	does building queries based on what's important now introduce an irreversible bias::	0
+"me022"::	on being able to do what Morgan wants to do later?::	0
+"me013"::	Well, irreversible. I - I - I mean, I guess what I- what I - I keep coming back to in my  own  mind is that, um,::	1
+"fe008"::	O_K, good.::	0
+"me022"::	That's - that's -::	0
+"fe008"::	Yeah.::	0
+"me022"::	Right.::	0
+"me013"::	the  soonest  we can do it,::	0
+"me013"::	we need to get up some kind of system::	1
+"me013"::	so that people who've been involved in the meeting::	1
+"me013"::	can go back later,::	1
+"me013"::	even if it's a poor system in some ways, and, uh - and ask the questions that they actually want to know.::	1
+"me013"::	If - you know, if - uh, as soon as we can get that going at any kind of level, then::	1
+"me013"::	I think we'll have a much better handle on what kind of questions people want to ask than in any - anything we do before that. But obviously we have to::	1
+"me013"::	bootstrap  somehow,  and -::	0
+"me022"::	Sure.::	0
+"fe041"::	Right.::	0
+"fe008"::	Mm-hmm.::	0
+"me022"::	I agree.::	0
+"fe041"::	Right.::	0
+"fe008"::	I  will  say that - that I - I chose "interesting" because I think it includes also "important"::	0
+"fe008"::	in some cases. But, um, I - I - I feel like the summary gets  at a different type of information.::	0
+"me022"::	I think "important" can often be uninteresting.::	0
+"me025"::	Mmm.::	0
+"fe041"::	Mmm.::	0
+"fe008"::	Well, and - and also -::	0
+"me011"::	Hmm.::	0
+"me025"::	And "interesting" is more interesting than "important".::	0
+"fe008"::	i- it puts a lot of burden on the person to - to evaluate. You know, I think inter- "interesting" is - is non-threatening in -::	0
+"fe041"::	O_K-   O_K.::	0
+"fe008"::	Yeah.::	0
+"fe041"::	In the interest of, um,::	0
+"fe008"::	Yeah.::	0
+"me011"::	Importance?::	0
+"fe041"::	generati-  generating an interesting summary,  um -::	0
+"fe008"::	Mm-hmm.::	0
+"fe008"::	Yeah.::	0
+"fe041"::	No, i- in the interest of generating some minutes here,::	0
+"fe041"::	uh, and also moving on to action items and other things,::	0
+"fe041"::	let me just go through the things that  I  wrote down as being important,::	0
+"fe041"::	um, that we at least decided on.::	1
+"fe041"::	CrossPads we were going to try,::	1
+"fe041"::	um, if Landay can get the, uh - get  them   to - to you guys,::	1
+"fe041"::	um, and see if they're interesting. And if they are, then we'll try to get m- do it more.::	1
+"fe041"::	Um,::	0
+"fe041"::	getting electronic summary from a note-taking person if they happen to do it anyway.::	1
+"me013"::	Mm-hmm.::	0
+"fe041"::	Um,::	0
+"fe041"::	getting  just, uh, digital pictures -::	1
+"fe041"::	a couple digital pictures of the - the table and boards to set the context of the meeting.::	1
+"fe041"::	Uh, and then going around the room::	1
+"fe041"::	at the end to just say -::	0
+"fe041"::	qu- ask people to mention something interesting that they learned. So rather than say the  most  interesting thing,::	1
+"fe008"::	k-::	0
+"fe041"::	something  interesting, and that way you'll get more variety.::	0
+"fe008"::	Sure.::	0
+"me013"::	Mm-hmm.::	0
+"fe008"::	That's good. I like that. I like that.::	0
+"me011"::	I wouldn't even say that "that they learned".::	0
+"fe041"::	O_K.::	0
+"me025"::	Yeah.::	0
+"me011"::	Uh, you might want to mention something that - that  you  brought  up.::	0
+"fe041"::	"Thing  that was  discussed."::	0
+"fe041"::	And then the last thing c-::	1
+"fe041"::	would be for those people who are willing to stay afterwards::	0
+"fe041"::	and give an oral summary.::	1
+"fe008"::	Mm-hmm.::	0
+"fe041"::	O_K? Does that pretty much cover everything we talked about?::	0
+"fe008"::	Mm-hmm.  A-::	0
+"fe041"::	That - well, that we want to do?::	0
+"fe008"::	And one - and one qualification on - on the oral summaries. They'd be s- they'd be separate. They wouldn't be hearing each other's summaries.::	1
+"fe041"::	O_K.::	0
+"me011"::	Yeah, that's like -::	0
+"me011"::	n-::	0
+"me011"::	I think that's gonna predominantly end up being whoever  takes down the equipment then.::	0
+"fe008"::	And - and that would also be that the data would be included in the database.::	1
+"me011"::	Yeah, that would be, let's see,  me.::	0
+"fe041"::	Mm-hmm.::	0
+"fe008"::	Mm-hmm.  O_K.::	0
+"me025"::	I mean, there is still this hope that people might actually think of real queries they really want to ask at some point.::	0
+"me025"::	And that if - if that  ever  should happen, then we should try and write them down.::	0
+"fe008"::	Mm-hmm.::	0
+"me013"::	Right.::	0
+"me011"::	Give them a reward, a dollar a query?::	0
+"fn043"::	Mm-hmm.::	0
+"me025"::	Yeah, really. If they're  real  queries.::	0
+"me013"::	Yeah.::	0
+"me013"::	Well, and again, if we can figure out a way to jimmy a - a - a - a very rough system, say in a year,::	1
+"fe008"::	Yeah.::	0
+"fe041"::	O_K. So -::	0
+"me011"::	Yeah.::	0
+"me013"::	then - uh, so that in the second and third years we - we actually have something to -::	1
+"fe041"::	Play with and generate real queries from.::	1
+"me013"::	ask  queries.   Uh -::	0
+"me011"::	Yeah.::	0
+"fe041"::	Right. O_K. So. Yeah.::	0
+"me025"::	Yeah.::	0
+"fe016"::	I think - I just wanted to say one thing about  queries.  I mean,::	1
+"fe016"::	the level of the query could be, you know, very low-level or very high-level.  And::	1
+"fe016"::	it gets fuzzier and fuzzier as you go up, right?::	0
+"me011"::	Well, we're gonna -::	0
+"fe016"::	So you need to have some sort of -::	0
+"fe016"::	if you start working with queries, some way of identifying what the -::	0
+"fe016"::	you know, if this is something that requires a - a one-word answer or it's one place in the recording versus was there general agreement::	1
+"me025"::	Hmm.::	0
+"fe016"::	on this issue of all the people who ha- You know, you can gen- you can ask queries that are meaningful for people. In fact, they're  very  meaningful cuz they're very high-level.::	1
+"me011"::	Yep.::	0
+"fe016"::	But they won't exist  anywhere  in the  a- you know -::	1
+"me011"::	Absolutely. So I think we're gonna have to  start::	1
+"fe008"::	Mm-hmm.::	0
+"me011"::	with keywords and - and if someone becomes more interested we could work our way  up.  But -::	1
+"me013"::	I- I'm -::	0
+"me013"::	I- I'm not so sure I  agree  with that. Because - uh, b- because it depends on, uh, what our goal is. If our goal is Wizard of  Oz-ish,::	0
+"fe016"::	It - But it may well -::	0
+"me011"::	Really?::	0
+"me011"::	Oh, that's true.::	0
+"me013"::	we might want to know what is it that people would really like to know about this data. And if it's - if - if it's something that we don't know how to do yet, th- great, that's, you know, research project for year four or something. You know?::	0
+"me025"::	Yeah. Yeah.::	0
+"fe041"::	Right.::	0
+"me025"::	Research, yeah.::	0
+"fe041"::	Mm-hmm.::	0
+"fe041"::	Mm-hmm.::	0
+"me011"::	Yeah, I was thinking about Wizard of Oz, but it requires the  wizard  to know all about the meetings.::	0
+"me025"::	We'd  have to listen to all the data.::	0
+"me013"::	Um,::	0
+"me013"::	well, not - maybe not  true  Wizard of Oz because people are too::	0
+"me011"::	So. Oh, yeah. I - I understand.::	0
+"me025"::	Well  just imagine if - Yeah.::	0
+"me013"::	uh, aware of what's going on. But - but just -::	0
+"me025"::	Get people to ask questions that they def- the machine definitely can't answer at the moment, but - Yeah.::	0
+"me011"::	Yep.::	0
+"me013"::	Yeah. w- Just "what would you like to know?"::	0
+"me011"::	But that - neither could anyone else, though, is what, uh, my point is.::	0
+"me025"::	Yes.::	0
+"fe008"::	I- I was wondering if - if there might be one s- more source of queries which is indicator phrases like "action item",::	1
+"fe041"::	O_K.::	0
+"fe008"::	which could be obtained from the text - from the transcript.::	1
+"me011"::	Right. Since we  have  the transcript.::	0
+"fe008"::	Yeah.::	0
+"me011"::	Dates maybe. I don't know. That's something I always forget.::	0
+"fe008"::	Yeah, that's something to be determined, something to be specified, but text-oriented.::	0
+"fe016"::	Well, probably if you have to sit there at the end of a meeting::	0
+"fe016"::	and say one thing you remember, it's probably whatever action item was assigned to you.::	0
+"fe016"::	I mean, in gen- that's all  I  remember from most meetings.::	0
+"fe008"::	I think you'd remember  that,  yeah.::	0
+"me011"::	That - that's  all  I wrote  down.::	0
+"fe016"::	So, in general, I mean, that could be something you could  say,  right? I'm supposed to  do this.::	0
+"fe008"::	Yeah, that's true. Well, but then you could - you could prompt them to say,::	0
+"fe016"::	It - it doesn't -::	0
+"fe008"::	you know, "other than your action item", you know, whatever. But - but the action item would be a way to get, uh, maybe an additional query. So.::	0
+"me025"::	Well -::	0
+"fe016"::	I mean, that's realistically what people might  well be remembering. So.::	0
+"me013"::	Hmm.::	0
+"fe008"::	Yeah. Well, but - you know, but you could get again  @@  -::	0
+"fe041"::	Well, we're piloting. We'll just  do  it and see what happens.::	0
+"fe016"::	Yeah.::	0
+"fe016"::	Yeah.::	0
+"fe008"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"me013"::	I usually don't remember my action items.::	0
+"me013"::	But -  I'd - I -::	0
+"fe041"::	O_K-   O_K. Speaking of action items, can we move on to action items?::	0
+"me013"::	Yeah.::	0
+"me013"::	Mm-hmm.::	0
+"fe008"::	Yeah. yeah.::	0
+"me011"::	Sure. Can you hand me my note pad?::	0
+"fe041"::	Um,::	0
+"fe041"::	or maybe we should wait until the summary of this - until this meeting is transcribed and then we will  hav-::	0
+"me025"::	Yeah. Then we'll know.::	0
+"me013"::	We - we had - I mean,::	0
+"me011"::	Thanks.::	0
+"me013"::	somewhere  up there we had milestones, but I guess - Did y- did you get enough milestone, uh, from the description things?::	0
+"fe041"::	I got -::	0
+"fe041"::	Yeah. In fact, why don't you hand me those transparencies so that I remember to take them.::	0
+"fe041"::	eee,::	0
+"me013"::	O_K.::	0
+"fe041"::	O_K.::	0
+"me013"::	And, you know, there's obviously  detail behind each of those, as much as is needed. So, you just have to  let us know.::	0
+"fe041"::	O_K.::	0
+"fe041"::	What I have down for action items is we're supposed to find out about our human subject,::	1
+"fe041"::	um,::	0
+"fe041"::	requirements.::	1
+"fe008"::	Good.::	0
+"me011"::	Yep.::	0
+"fe041"::	Uh,::	0
+"fe041"::	people are supposed to send me U_R_Ls::	1
+"fe041"::	for their - for web pages, to c- and I'll put together an overall cover.::	1
+"fe041"::	And you're s-::	0
+"me025"::	Right. We -::	0
+"fe041"::	Hmm?::	0
+"me025"::	we need to look at our web page and make one that's -::	0
+"fe041"::	And -  and  you also need to look at your web page and clean it up by mid-July.::	1
+"me025"::	that's p-::	0
+"me011"::	Right.::	0
+"me025"::	P_D_A-free. Yeah.::	0
+"fe041"::	Um,::	0
+"me013"::	Right.::	0
+"fe041"::	let's see. Choo-choo-choo.::	0
+"me011"::	Mailing lists.::	0
+"fe041"::	We - Mailing list? Uh, you need to put together a mailing list.::	1
+"me013"::	Three of them.  Well -  I mean,::	0
+"fe041"::	Uh, I think w-  Yeah.::	0
+"me013"::	uh,::	0
+"fe041"::	Um,::	0
+"me013"::	mostly together.::	0
+"fe041"::	uh,  I  need to email Adam or Jane,::	1
+"fe041"::	um, about getting the data.  Who should I email?::	1
+"me011"::	Uh, how quickly do you want it?::	0
+"fe041"::	Um.::	0
+"me011"::	My July is really very crowded. And so, uh -::	0
+"fe041"::	How about if I just c- Uh, Right now all I want - I personally only want text data.::	0
+"fe041"::	I think the only thing  Jeff  would do anything with right now -::	0
+"fe041"::	But I'm just speaking fr- based on a conversation with him two weeks ago  I had  in Turkey.  But I think all  he  would want is the digits.::	0
+"fe041"::	Um, but I'll just speak for  myself.  I'm interested in getting the language model data.::	0
+"fe041"::	Eh, so I'm just interested in getting  transcriptions.::	1
+"me011"::	Mm-hmm.::	0
+"fe008"::	O_K. So y-::	0
+"fe041"::	So then just email you?::	0
+"fe008"::	Sure, sure, sure.::	0
+"fe041"::	O_K.::	0
+"me013"::	Wh-::	0
+"fe008"::	You could email to both of us, uh, just - I mean, if you wanted to. I mean, I don't think::	0
+"me013"::	Mm-hmm.::	0
+"fe041"::	O_K.::	0
+"fe008"::	either of us would mind recei- but - but in any case I'd be happy to send you the -::	0
+"me013"::	i-::	0
+"me011"::	That's right.::	0
+"fe041"::	And your email is?::	0
+"me013"::	i-::	0
+"fe008"::	Edwards at::	0
+"fe008"::	ICSI.::	0
+"me013"::	w-::	0
+"fe041"::	O_K.::	0
+"me011"::	Dot Berkeley dot E_D_U, of course.::	0
+"me013"::	In - in our phone call, uh, before, we - we, uh - It turns out the way we're gonna send the data is by, uh, C_D-ROMs.::	1
+"fe041"::	And then -::	0
+"me013"::	And, uh -::	0
+"me013"::	and then what they're gonna do is take the C_D-ROM and transfer it to analog tape and  give it to a transcription service, uh, that will - Yeah.::	1
+"me011"::	Oh, is this I_B_M?::	1
+"fe008"::	Yeah, using foot pedals and -::	0
+"me013"::	Yeah, foot - foot pedals and -::	0
+"me011"::	Uh, so do they - How are they gonna do the multi-channel?::	1
+"me013"::	See,   that's  a good question.::	0
+"fe008"::	Yeah. They - they don't have a way.::	0
+"me011"::	I  thought  so.::	0
+"me013"::	No, I mean, it'll be::	0
+"fe008"::	But they have a verification.::	0
+"me011"::	Mix?::	0
+"me013"::	probably about like you  did,  and then there will be some things - you know, many things that don't work out well.::	1
+"me013"::	And that'll go back to I_B_M and they'll -::	0
+"me013"::	they'll, uh - they run their aligner on it and it kicks out things that don't work well, which - you know, the overlaps will certainly::	0
+"me013"::	be examples of that. And, uh -::	0
+"me013"::	I mean, what w- we will give them  all  of it. Right? We'll give them all the - the multi-channel stuff and -::	0
+"me011"::	O_K. That's, uh, my question. So we'll give  them   all sixteen channels and they'll do whatever they want with it.::	0
+"me013"::	Yeah.::	0
+"fe016"::	But you also should probably give them the mixed -::	0
+"me013"::	Yeah.::	0
+"fe016"::	You know, equal sound-level -::	0
+"me013"::	Good idea.::	0
+"fe041"::	Mm-hmm.::	0
+"fe016"::	I mean, they're not gonna easily be able to do that, probably.::	0
+"me011"::	It's not hard.::	0
+"me013"::	Well -::	0
+"fe016"::	Ah, yeah.::	0
+"me011"::	So.::	0
+"me013"::	It's also won't be adding much to the data to give them the mixed.::	0
+"me022"::	But w-::	0
+"fe016"::	Mm-hmm.::	0
+"me011"::	Yep. Absolutely.::	0
+"me022"::	It's not - Right. It doesn't - it isn't difficult for  us  to do, so we might as well just do it.::	0
+"fe016"::	I-::	0
+"fe041"::	Right.::	0
+"fe016"::	i- You should -::	0
+"me011"::	Absolutely. So, sure.::	0
+"fe016"::	Yeah. You should - that may be all that they want to send off to their  transcribers.::	0
+"fe041"::	O_K. Related to - to the conversation with Picheny, I need to email him,::	0
+"fe041"::	uh, my  shipping  address and you need to email them something which you already  did.::	0
+"fe008"::	I did. I - I m- emailed them the Transcriber U_R_L,::	1
+"fe008"::	um, the on-line, uh, data that Adam set up,::	1
+"fe008"::	The U_R_L so they can click on an utterance and hear it.::	1
+"fe008"::	and I emailed them the str- streamlined conventions which you got a copy of today.::	1
+"me013"::	Right. And I was gonna m- email them the - which I haven't yet, a pointer to - to the web pages that we - that we  currently  have, cuz in  particular  they want to see the one with the - the way the recording room is set up::	1
+"fe008"::	Good.::	0
+"me013"::	and so on, your - your page on that.::	0
+"fe008"::	Oh, excellent. Good.::	0
+"me011"::	And then p- possibly -::	0
+"fe008"::	I C_- I C_C'ed Morgan. I should have sent - I should have C_C'ed you as well.::	0
+"fe041"::	O_K.::	0
+"me011"::	Not an  immediate  action item but something we do have to worry about is data formats for - for  higher-level  information.::	1
+"fe041"::	O_K.::	0
+"me013"::	Oh, yeah. We were gonna -::	0
+"me011"::	Well, or d- or not even  higher  level,  different  level, prosody and all that sort of stuff. We're gonna::	1
+"me011"::	have to figure out how we're gonna annotate that.::	1
+"me013"::	Yeah, we w-::	0
+"fe041"::	Yeah. We never had our data format discussion.::	0
+"fe008"::	Oh, I thought we  did.  We discussed, uh, musi-::	1
+"me013"::	Right.::	0
+"fe008"::	musical score notation and -::	1
+"me011"::	But that's not - That's  display.  That's different than format.::	1
+"fe041"::	Oh, O_K.::	0
+"fe008"::	and its X_M_L -::	0
+"fe041"::	That's -::	0
+"fe008"::	Well, um -::	0
+"fe041"::	W- My - my u- feeling right now on format is you guys have been doing all the work and whatever you want, we're happy to live with. Um,::	1
+"me025"::	Well - uh, yeah.::	0
+"fe008"::	Yeah.::	0
+"fe008"::	O_K, excellent.::	0
+"me013"::	O_K. So, what n-::	0
+"fe041"::	other people may not  agree  with that, but - Cuz I'm not actually touching the  data,  so I shouldn't be the one to  talk.  But -::	0
+"me013"::	important thing -::	0
+"fe008"::	Well, it c-::	0
+"me025"::	Right.::	0
+"fn043"::	No, I think that's fine.::	0
+"me013"::	So a key thing will be that you - we  tell  you::	0
+"fe008"::	Great.::	0
+"me013"::	what it is.::	0
+"fe041"::	Yeah.::	0
+"me022"::	"Here's a mysterious file and -"::	0
+"me013"::	Uh, we also had -::	0
+"me025"::	Yeah.::	0
+"me013"::	We also had the, uh, uh - that we were s- uh, that you were gonna get us the eight-hundred number and we're all gonna -::	1
+"fe041"::	Oh, yeah.::	0
+"me013"::	we're gonna call up your Communicator thing and - and we're gonna be::	1
+"me013"::	good slash bad, depending on how you define it, uh, users.::	1
+"fn043"::	Now, something that I mentioned earlier to Mari and Liz is that it's probably important to get as many non-technical and non-speech people as possible::	1
+"fn043"::	in order to get some realistic users. So if you could ask other people to call::	1
+"fn043"::	and use our system, that'd be good.::	1
+"fn043"::	Cuz we don't want people who already know how to deal with dialogue systems, who know that::	0
+"fe041"::	Yeah. Or,  like if you have a -::	0
+"fn043"::	you shouldn't hyper-articulate, for instance, and things like that. So.::	0
+"fe041"::	Or, like if you have somebody who makes your - your plane reservations for you,::	0
+"me013"::	Yeah.::	0
+"fe041"::	um, which is::	0
+"me013"::	Yeah, we can do that.::	0
+"fe041"::	the n-::	0
+"me011"::	Get my parents to do it.::	0
+"fn043"::	Yeah, for instance.::	0
+"fe041"::	Yeah. Yeah. Seriously.::	0
+"me013"::	Yeah.::	0
+"fn043"::	Your grandmother.::	0
+"me013"::	Hmm.::	0
+"fe041"::	Yeah.::	0
+"fe041"::	e- You know, it could  result in some good bloopers, which is always good for presentations.::	0
+"fe041"::	So -::	0
+"me013"::	Yeah.  @@::	0
+"fe041"::	Um, anyway -::	0
+"me011"::	I think my father would last through the second prompt before he hang - hung up.::	0
+"me013"::	My  mother  would have a  very  interesting conversation with it but it wouldn't have anything to do with the travel.::	0
+"fe041"::	Mmm.::	0
+"me011"::	He would never use it.::	0
+"fe041"::	O_K.  Um, other -::	0
+"me013"::	O_K.::	0
+"fe041"::	Let's see, other action items. So I have the -::	0
+"me013"::	We  talked  about that we're getting the recording equipment running at U_W. And so it depends,::	1
+"me013"::	w- e- e- e-::	0
+"me013"::	they're - you know, they're p- m-::	0
+"me013"::	If that comes together within the next month, there at least will be, uh, uh,::	0
+"me013"::	major communications between Dan and  U_W folks as to -::	0
+"me025"::	Yeah. I mean,::	0
+"fe041"::	I'm - I'm shooting to try to get it done -::	1
+"me025"::	we should talk about it, but -::	0
+"fe041"::	get it put together by  the beginning of August. So, um,::	1
+"fe008"::	Mmm.::	0
+"me013"::	But we have - it - it's - it's pretty - We don't know. I mean, he - he s- uh, he said that it was sitting in some room collecting dust and - and so we don't know,::	0
+"fe041"::	you know, if-::	0
+"fe041"::	We don't know.::	0
+"me013"::	i- e-::	0
+"fe041"::	i- It's probably unlikely that we'll pull this off, but a- at least it's worth trying.::	0
+"me011"::	Mm-hmm. What is it?::	0
+"me013"::	We don't know.::	0
+"me011"::	Oh, O_K.::	0
+"me013"::	"Recording equipment."::	0
+"me025"::	Yeah.::	0
+"me011"::	It's a tape recorder.::	0
+"me013"::	W- We know it's eight channels. Uh, we know it's digital.::	0
+"me011"::	It's eight tape recorders.::	0
+"me013"::	We don't even know if there're microphones. So,::	0
+"me013"::	we'll find out.::	0
+"fe041"::	O_K. Um, and I will email::	0
+"fe041"::	these notes -::	0
+"fe041"::	Um, I'm not sure what to do about action items for the data stuff,::	0
+"fe041"::	although, then somebody - I guess somebody needs to tell Landay that you want the pads.::	0
+"me013"::	Yeah, O_K. I'll do that.::	0
+"fe041"::	O_K.::	0
+"me013"::	Um, and he  also  said something about outside - there - that came up about the outside text sources, that he - he may have::	1
+"me011"::	Mm-hmm.::	0
+"fe041"::	Oh!::	0
+"me013"::	some text sources that are close enough to the sort of thing that we can::	0
+"fn043"::	Hmm.::	0
+"me013"::	play with them for a language model.::	0
+"me025"::	Yeah, that was - uh, that was - What he was saying was this - he - this thing that, uh, Jason had been working on::	1
+"me025"::	finds web pages that are thematically related to what you're talking about. Well, that's the  idea.::	1
+"me025"::	So that that - that would be a source of text which is -::	1
+"me025"::	supposedly got the right  vocabulary.::	1
+"me013"::	Mm-hmm.::	0
+"fe041"::	Right.::	0
+"me025"::	But it's obviously very different material. It's not spoken material, for instance, so -::	0
+"me013"::	Yeah. But it's p- it might be -::	0
+"fe041"::	But - but that's actually what I wanna do. That's - that's what I wanna work with, is - is::	1
+"me025"::	O_K.::	0
+"me025"::	Yeah.::	0
+"fe041"::	things that s- the wrong material but the right::	0
+"me011"::	Yeah.::	0
+"me025"::	Yeah.::	0
+"fe041"::	da- the right source.::	1
+"me011"::	Un- unfortunately Landay told me that Jason is::	0
+"fe041"::	Yeah.::	0
+"me011"::	not gonna be working on that anymore.  He's switching to::	0
+"fe041"::	Yeah. He seemed - when I asked him if he could actually supply data, he seemed a little bit more reluctant.::	0
+"me011"::	other stuff again.::	0
+"fe041"::	So, I'll - I'll send him email. I'll put it in an action item that I send him email about it. And if I get something, great. If I don't get something -::	0
+"me011"::	Who?  Landay or Jason?::	0
+"fe041"::	Landay.::	0
+"me011"::	O_K.::	0
+"me013"::	O_K.::	0
+"fe041"::	And, uh, um,::	0
+"fe041"::	you know, otherwise, if you guys have any  papers::	0
+"fe041"::	or -::	1
+"fe041"::	I could - I could use, uh - I could use your web pages.  That's what we could do.::	1
+"fe041"::	You've got all the web pages on the Meeting Recor-::	1
+"me013"::	Yeah, why  search  for them? They're - we know where they are. Yeah, that's true.::	0
+"me011"::	True.::	0
+"fe041"::	Yeah!::	0
+"me011"::	Absolutely.::	0
+"me025"::	Sure.::	0
+"fe041"::	Oh,  forget  this!::	0
+"me011"::	Well, but that's not very much.::	0
+"fe041"::	I - One less action item.::	0
+"fe041"::	I can use what web pages there are out there on meeting recorders.::	1
+"me011"::	Yep.::	0
+"me011"::	I mean, that - that's - Yeah. Basically what his software  does  is h- it picks out keywords and does a Google-like::	0
+"me025"::	Right.::	0
+"fe041"::	Yeah.::	0
+"me025"::	Yeah.::	0
+"me025"::	Yeah.::	0
+"me011"::	search.  So you could -::	0
+"me013"::	Yeah. So we can - we can - we can do better than that. Yeah.::	0
+"me025"::	We can do that.::	0
+"me025"::	Yeah.::	0
+"me011"::	Yeah.::	0
+"fn043"::	Mm-hmm.::	0
+"me013"::	There's - there's some, uh, Carnegie  Mellon  stuff, right? On - on meeting recording,  and -::	1
+"me011"::	Yep.::	0
+"fe016"::	And Xerox.::	0
+"fe041"::	So, there's - there's ICSI, Xerox,::	1
+"me013"::	And Xerox. Yeah.::	0
+"fe016"::	And there's - You should l- look under, like, intelligent environments, smart rooms,::	0
+"me011"::	Um, the "Georgia Tech Classroom Two Thousand" is a good one.::	1
+"fe016"::	um -::	0
+"fe041"::	C_M_U,::	0
+"fe016"::	Right. And then - Right. J- There's -::	0
+"fe016"::	th-::	0
+"fe016"::	That's  where I thought you would want to  eventually  be able to have a board or a camera, because of all these classroom -::	0
+"me011"::	Well, Georgia Tech did a very elaborate instrumented room. And I want to try to stay away from that. So -::	0
+"fe041"::	Mm-hmm.::	0
+"fe016"::	Yeah.::	0
+"fe041"::	Mm-hmm.::	0
+"fe041"::	O_K.::	0
+"fe041"::	Great. That solves that problem. One less action item.::	0
+"fe041"::	Um -::	0
+"fe041"::	O_K. I think that's good enou- that's - that's pretty much all  I  can think of.::	0
+"fe008"::	Can I ask, uh, one thing? It relates to data - data collection and I - and I'd - and we mentioned earlier today, this question of -::	0
+"fe008"::	um, so,::	0
+"fe008"::	um, I s- I know that from - with the near-field mikes some of the problems that come with overlapping speech,::	1
+"fe008"::	uh, are lessened.::	1
+"fe008"::	But I wonder if -::	0
+"fe008"::	Uh, is that sufficient or should we consider::	0
+"fe008"::	maybe   getting some data gathered in such a way that, um,::	0
+"fe008"::	u- w- we would c- uh, p- have a meeting with less overlap than would otherwise be the case? So either by rules of participation, or whatever.::	0
+"fe041"::	Oh, yeah.::	0
+"fe008"::	Now, I mean, you know, it's true, I mean, we were discussing this earlier,  that::	0
+"fe008"::	depending on the  task  - so if you've got someone giving a report you're not gonna have as much overlap. But, um,::	1
+"me022"::	Adam!::	0
+"fe008"::	i- i- uh, so we're gonna  have  s- you know, non-overlapping samples  anyway.::	0
+"fe008"::	But, um, in a meeting which would otherwise be  highly  overlapping, is the near-field::	1
+"fe008"::	mike  enough  or should we have some rules of participation for some of our samples to lessen the overlap?::	1
+"me013"::	Hmm.::	0
+"me025"::	@@   turn off::	0
+"fe041"::	I don't think we should have rules of participation, but I think we should try::	1
+"fe041"::	to  get a variety of meetings. That's something that if we get the - the meeting stuff going at U_W,::	1
+"fe008"::	O_K.::	0
+"fe041"::	that I probably can do more than  you  guys, cuz you guys::	1
+"fe041"::	are probably mostly going to get  ICSI  people  here.::	0
+"me013"::	Mm-hmm.::	0
+"fe041"::	But we can get anybody in E_E,::	0
+"fe041"::	uh, over - and - and possibly also some C_S people,::	0
+"fe041"::	uh, over at U_W. So, I think that -::	0
+"fe008"::	O_K.::	0
+"fe041"::	that there's a good chance we could get more variety.::	0
+"fe008"::	Just want to be sure there's enough data to - O_K, good.::	0
+"fe016"::	They're still gonna overlap, but -::	1
+"fe041"::	Um,::	0
+"fe016"::	Mark and others have said that there's quite a lot of found data  from the discourse community that has this characteristic and also the political -::	1
+"fe016"::	Y- you know, anything that was televised for a third party::	0
+"me013"::	Mm-hmm.::	0
+"fe016"::	has the characteristic of not very much overlap.::	0
+"me013"::	Wasn- but w- I think we were saying before also that the natural language group here had less overlap. So it also depends on the style of the group of people.::	1
+"fe008"::	Mm-hmm.::	0
+"fe041"::	Mm-hmm.::	0
+"fe016"::	So.::	0
+"fe016"::	Like the, um, dominance relations of the people in the meeting.::	0
+"fe041"::	Right.::	0
+"fe008"::	Mm-hmm. On the task, and the task.::	0
+"fe008"::	It's just -::	0
+"me011"::	Mm-hmm.::	0
+"fe008"::	I just wanted to - uh, because you know, it is true people can modify the amount of overlap that they  do  if - if they're asked to.::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"fe008"::	Not - not  entirely  modify it, but lessen it if - if it's desired.::	0
+"fe008"::	But if - if that's sufficient data - I just wanted to be sure that we will not be having a lot of data which can't be processed.::	1
+"fe041"::	O_K. So I'm just writing here,::	1
+"fe041"::	we're not gonna try to specify rules of interaction but we're gonna try to get more variety by::	1
+"fe041"::	i- using different  groups of people::	1
+"fe008"::	Time.::	0
+"fe041"::	and different sizes.::	1
+"fe008"::	Fine. And I - you know, I - I know that the near f- near-field mikes will take care of also the problems to s- to a certain degree. I just wanted to be sure.::	0
+"fe041"::	e- e-::	0
+"fe041"::	Yeah.::	0
+"fe041"::	And then the other thing might be, um,::	0
+"fe041"::	uh, technical::	0
+"fe041"::	versus administrative.::	0
+"fe041"::	Cuz if I recorded some administrative meetings::	0
+"fe041"::	then that may have less overlap, because you might have more overlap when you're doing something technical and disagreeing or whatever.::	0
+"fe008"::	Mm-hmm.::	0
+"fe008"::	Mm-hmm.::	0
+"fe008"::	Well, I - just as - as - as a contributary -::	0
+"fe008"::	eh, so I - I know that in l- in legal depositions people are pr- are::	0
+"fe008"::	prevented from overlapping. They'll just say, you know - you know, "wait till each person is finished before you say something".::	0
+"fe008"::	So it is possible to lessen if we wanted to. But - but these other factors are fine. I just wanted to raise the issue.::	0
+"fe041"::	Well, the reason why I didn't want to is be- why I personally didn't want to  is because I wanted it to be  as,::	1
+"fe008"::	Mm-hmm.::	0
+"fe041"::	uh,::	0
+"fe041"::	unintrusive as possi- as you could be with these things hanging on you.::	1
+"fe008"::	Mm-hmm.::	0
+"fe008"::	Oh, yeah.::	0
+"fe008"::	Yeah, I think that's always desired. I just want to be sure we don't - that we're able to process,::	0
+"fe008"::	i- u-::	0
+"fe008"::	uh, you know, as much data as we can.::	0
+"fe008"::	Yeah.::	0
+"me013"::	Yeah.  Did they discuss any of that in the - the meeting they had with L- Liberman? What -::	0
+"fe016"::	Mm-hmm.::	0
+"me013"::	What - what do they -::	0
+"fe016"::	And there was a big division, so::	0
+"me013"::	Yeah.::	0
+"fe016"::	Liberman and others  were interested in a lot of found data. So there's lots of recordings that -::	1
+"me013"::	Yeah.::	0
+"fe016"::	They're not close-talk mike, but -::	1
+"fe016"::	And - and there's lots of television, you know, stuff on, um,::	1
+"fe016"::	political debates and things like that, congre- congressional hearings.::	1
+"fe016"::	Boring stuff like that.::	0
+"fe016"::	Um,::	0
+"fe016"::	and then the C_M_U folks and I were sort of on the other side in - cuz they had collected a lot of::	1
+"fe016"::	meetings that were sort of like  this  and said that those are nothing like these meetings.::	1
+"fe016"::	Um, so there're really two different kinds of data. And, I guess we just left it as -::	1
+"fe016"::	@@::	0
+"fe016"::	that  if there's  found  data that can be transformed for use in speech recognition  easily,  then of course we would do it,::	1
+"me013"::	Mm-hmm.::	0
+"fe016"::	but newly collected data would - would be natural meetings.::	1
+"me013"::	Actually, th-  @@   the C_M_U folk have collected a lot of data. Is that - is that going to be publicly available, or - ?::	1
+"fe016"::	So.::	0
+"fe016"::	As far as I  know,  they h- have  not.  Um, but e-::	0
+"me013"::	O_K.::	0
+"me011"::	It's also - it's not -::	0
+"me011"::	it's not near-far, right?::	0
+"fe016"::	I'm not sure.  Um,::	0
+"fe016"::	if people were interested they could talk to them,  but I - I got the feeling there was some politics involved.::	0
+"me011"::	I think  @@  gonna add that to one of my action items.::	0
+"fe016"::	No.::	0
+"me013"::	Just to check. Yeah. W- we should know what's out there certainly. Yeah.::	0
+"fe016"::	I - I don't know.::	0
+"me011"::	Yeah.::	0
+"fe016"::	I mean, the -::	0
+"me011"::	Cuz I had thought they'd only done far-field,::	0
+"fe016"::	I think you need to talk to Waibel and -::	0
+"me011"::	intelligent-room sorts of things. I hadn't known that then - they'd done any more than that.::	0
+"me025"::	Oh, really? It's  those  guys.::	0
+"me013"::	Oh, they only did the  far-field?   I  see.::	0
+"me011"::	Yeah.::	0
+"fe016"::	But they had multiple mikes and they  did  do recognition, and they  did  do real conversations.::	0
+"fe016"::	But as far as I know they didn't offer that data to the community at this meeting.::	1
+"me011"::	Mm-hmm.::	0
+"fe016"::	But that could  change  cuz Mark -::	0
+"fe016"::	you know, Mark's really into this. We should keep in touch with him.::	0
+"me013"::	Yeah.::	0
+"fe008"::	Yeah, I think -::	0
+"me013"::	Well, once we send out -::	0
+"me013"::	I mean, we still haven't sent out the first note saying "hey, this  list  exists". But - but, uh, once we do that -::	1
+"fe041"::	Is that an action item?::	1
+"me013"::	Yeah. It's on - I already added that one on my board to do that.  So, uh -::	0
+"me013"::	uh,::	0
+"me013"::	hopefully everybody here is on that list. We should at least check that everybody here - ?::	0
+"me011"::	I  think  everyone here is on the list.::	0
+"me013"::	Yeah.::	0
+"me022"::	I'm  not.::	0
+"fe008"::	u- e- e-::	0
+"me011"::	I  think  you  are.::	0
+"me013"::	We haven't sent anything to the list yet.::	0
+"me022"::	Oh! O_K.::	0
+"fe008"::	Yeah.::	0
+"me013"::	We're just  compiling  the list.::	1
+"me011"::	I - I added a few people who didn't - who I knew had to be on it even though they didn't tell me.::	0
+"me022"::	I see.::	0
+"me013"::	Mm-hmm.::	0
+"me025"::	Who specifically ask not to be.::	0
+"me011"::	Like  Jane,  for example.::	0
+"me013"::	Yeah.::	0
+"me011"::	You  are  on it, aren't you?::	0
+"fe008"::	Yeah, I am.::	0
+"me013"::	Yeah.::	0
+"fe008"::	So, I w- uh, just - just for clarification. So "found data", they mean like established corpora of linguistics and - and other fields, right?::	1
+"fe008"::	It sounds like such a t-::	0
+"fe016"::	What they mean is stuff they don't have to fund to collect, and especially good -::	0
+"fe008"::	Yeah, O_K.::	0
+"fe016"::	Well, I mean, "found" has, uh, also the meaning that's it very natural. It's things occur without any -::	1
+"fe016"::	You know, the pe- these people weren't wearing close-talking mikes,::	1
+"fe016"::	but they were recorded anyway, like the congressional hearings and, you know, for legal purposes or whatever.::	1
+"fe008"::	O_K.::	0
+"fe008"::	But it includes like standard corpora that have been used for years in linguistics and  other fields.::	1
+"me025"::	"Hey, look what  we  found!"::	0
+"fe016"::	Mark's aware of those, too. That would be found data because they found it  and it exists. They didn't have to collect it.::	0
+"fe008"::	O_K.  Exactly.::	0
+"me011"::	Hmm.::	0
+"me025"::	"I found this great corpora."  Yeah.::	0
+"me011"::	"Psst.  Want to buy a corpora?"::	0
+"fe016"::	Of course it's not "found" in the sense that at the time it was collected for the purpose. But what he means is that -::	0
+"fe008"::	Yeah. O_K, O_K. That's interesting.::	0
+"fe016"::	You know, Mark was really a fan::	0
+"fe016"::	of getting as much data as possible from - you know, reams and reams of stuff, of broadcast stuff, web stuff, T_V stuff, radio stuff.::	0
+"fe008"::	Mm-hmm.::	0
+"fe016"::	But he well understands that that's very different than these - this type of meeting. But,::	0
+"me011"::	It's not the same.::	0
+"fe016"::	so what? It's still - it's interesting for other reasons.::	0
+"fe008"::	O_K.::	0
+"fe008"::	Yeah. Just wanted to know.::	0
+"me013"::	So, seems like we're winding down. Right?::	0
+"fe041"::	Mm-hmm.::	0
+"me013"::	Many  ways.::	0
+"me025"::	So we should go - go around and s-::	0
+"fe016"::	You can  tell  by the  prosody.::	0
+"fe041"::	Yeah.::	0
+"me025"::	We should go around and say something interesting that happened at the meeting?::	1
+"fe041"::	Oh. Yes, we should do that.::	0
+"fe016"::	Rrrh!::	0
+"me011"::	Now,  I  was already  thinking  about it, so -::	0
+"me013"::	Oh! Good man.::	0
+"fe016"::	This is painful task. I -::	0
+"fn043"::	Hmm.::	0
+"me011"::	So, um,::	0
+"me011"::	I really liked the idea of - what I thought was interesting was the combination of the CrossPad and the speech. Especially,::	0
+"me011"::	um, the interaction of them rather than just note-taking.::	0
+"me011"::	So, can you  determine the interesting points by who's writing?::	0
+"me011"::	Can you do special gestures and so on that - that have,::	0
+"me011"::	uh, special meaning to the corpora? I really liked that.::	0
+"fe008"::	Well, I - I just realized there's another category of interesting things which is that, um,::	0
+"fe008"::	I - I found this discussion very, uh, i- this - this question of how you get at  queries  really interesting. And -::	0
+"fe008"::	and the - and I - and the fact that it's sort of,::	0
+"fe008"::	uh,  nebulous,  what - what that - what kind of query it would be because it depends on what your purpose is. So I actually::	0
+"fe008"::	found that whole  process  of -::	0
+"fe008"::	of trying to think of what that would involve to be interesting. But::	0
+"fe008"::	that's not really a specific fact.  I just sort of thought we - we went around a nice discussion of the factors involved there, which I thought::	0
+"fe008"::	was worthwhile.::	0
+"me025"::	I had a real revelation about taking pictures. I don't know why I didn't do this before and I regret it. So that was very interesting for me.::	0
+"fe008"::	Mm-hmm.::	0
+"me011"::	Did you take pictures of the boards?::	0
+"me025"::	Not that I -::	0
+"fe008"::	Yeah.::	0
+"me025"::	The  boards  aren't really related to this meeting. I mean, I  will  take  pictures  of them, but -::	0
+"fe008"::	That's a good point. Yeah.::	0
+"fe041"::	They're related to this  morning's  meeting.::	0
+"me025"::	But -::	0
+"me011"::	To the pre-  previous  meeting. That's right.::	0
+"me025"::	O_K. Well,  that's  why I'll take pictures of them, then.::	0
+"me022"::	I'm gonna  pass  because I can't - I mean, of the - Jane took my answer.::	0
+"me011"::	Ah!::	0
+"fe008"::	Oh.::	0
+"me022"::	So.  Um,::	0
+"me022"::	so I'm gonna pass for the moment but y- come - come back to me.::	0
+"me025"::	For the  moment.::	0
+"fe016"::	Pass.::	0
+"fe041"::	I think - I think "pass" is socially acceptable. But I will say - uh, I will actually -::	0
+"fe041"::	uh, a spin on different -  slightly  different spin on what you said, this issue of, uh, realizing that we could take::	0
+"fe041"::	minutes,  and that actually may be a  goal.  So that - that may be kind of the test - in a sense, test data,::	0
+"fe041"::	uh, the - the  template  of what we want to test against, generating a summary. So that's an interesting new twist on what we can  do  with this data.::	0
+"fn043"::	I agree with Jane and Eric. I think the question of how to generate queries automatically was the most interesting question that came  up,  and::	0
+"fn043"::	it's something that, as you said, is a whole research topic in itself, so I don't think we'll be able to  do  anything on it because we don't have funding on it,::	0
+"fn043"::	uh, in this  project.  But, um,::	0
+"fn043"::	it's definitely something I would  want to do something on.::	0
+"me011"::	I wonder if work's already been  done  on it.::	0
+"fe008"::	Like e- expert systems and stuff, or - ?::	0
+"me013"::	Hmm.::	0
+"fe008"::	Uh-huh.::	0
+"me032"::	I  especially  liked the part where we were asked what questions were interesting.::	0
+"me032"::	That was the part I was at.::	0
+"me013"::	Well, being more  management  lately than -  than  research,  I think the thing that impressed  me  most was the  people  dynamics::	0
+"me013"::	and not any of the  facts.  That is, I - I  really   enjoyed::	0
+"me013"::	hanging out with this group of  people  today.  So that's what really impressed  me.::	0
+"me025"::	How are we gonna find that in the data?::	0
+"me011"::	Well, if we had people wearing the wireless mikes all the time -::	0
+"me025"::	Oh, yeah.::	0
+"me011"::	Yeah, I think  -::	0
+"me022"::	Well, I mean, one thing you could  search  for is were people  laughing  a lot. Right? So.::	0
+"me025"::	Right.::	0
+"me025"::	How happy were they?::	0
+"me013"::	Yeah. I'd probably search for something like that.::	0
+"me011"::	That  actually  has come up a  couple  times in queries. I was talking to  Landay  and that was one of  his  examples. When - when did people  laugh?::	0
+"me013"::	Yeah. Yeah.::	0
+"me025"::	That's great.::	0
+"me013"::	Find me a funny thing that  Jeff  said. Yeah.::	0
+"me011"::	So we need a laugh detector.::	0
+"me025"::	Yeah.::	0
+"fe041"::	Mm-hmm.::	0
+"fe008"::	Yeah.::	0
+"me025"::	Perfect.::	0
+"me011"::	Cuz that seems to be pretty common.::	0
+"me032"::	Not  in the congressional  hearings.::	0
+"me011"::	Not in the congressional hearings.::	0
+"me022"::	No.::	0
+"me011"::	Quiet sobbing.::	0
+"me013"::	So I think we're done.::	0
+"fe041"::	O_K.::	0
+"me025"::	O_K. Great.::	0
+"me011"::	I think we're done.::	0
+"me022"::	O_K.::	0
+"fe041"::	Great.::	0
+"fe008"::	@@::	0
+"me013"::	Great.::	0
+"fe008"::	h- Do we need - do I need to turn something off here, or I do unplug this, or - ?::	0
+"me025"::	No. Just - just leave it.::	0
+"me013"::	Now  these  we turn off.::	0
+"me013"::	Right?::	0
+"me011"::	Now they even have working L_E_Ds.::	0
+"fe008"::	Oh! Hey, that's cool.::	0
+"me013"::	Do they?::	0
+"me011"::	Yeah. Absolutely.::	0
+"fn043"::	Very nice.::	0
+"fe008"::	That'd  be nice. O_K.::	0
+"fe016"::	Huh.::	0
+"me025"::	@@   knows .::	0
+"me011"::	You don't think John - uh, Jim would make::	0
+"me011"::	a box that didn't have a::	0
+"fe016"::	They're using my -::	0
+"me011"::	flashing  light  on it, do you?::	0

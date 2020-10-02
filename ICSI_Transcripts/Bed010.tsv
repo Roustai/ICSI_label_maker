@@ -1,0 +1,1153 @@
+"me045"::	@@::	0
+"me003"::	How many batteries do you go through?::	0
+"me045"::	Thank you.::	0
+"me010"::	Alright.   Good.::	0
+"mn036"::	Sure.::	0
+"me010"::	Yeah.::	0
+"me010"::	O_K so,::	0
+"me010"::	let's get started. Nancy said she's coming and that means she  will  be.::	0
+"me010"::	Um.::	0
+"me010"::	My  suggestion  is that Robert and Johno sort of give us a report on last week's adventures::	0
+"me010"::	uh to  start.::	0
+"me010"::	So everybody knows there were these guys f- uh from Heidelber- uh, uh, actually from uh D_F_K_I::	0
+"me010"::	uh, part of the German SmartKom project, who were here for the week::	0
+"me010"::	and, I think got a lot done.::	0
+"mn015"::	Yeah, I think so too.::	0
+"mn015"::	Um.::	0
+"mn015"::	The - we got to the point where we can now speak into the SmartKom system, and it'll::	1
+"mn015"::	go all the way through and then say something like "Roman numeral one,::	0
+"mn015"::	am Smarticus."::	1
+"mn015"::	It actually says,   "Roemisch einz, am Smarticus,"   which means it's just using a German synthesis module for::	0
+"me045"::	O_K.::	0
+"mn015"::	English sentences. So uh,::	0
+"me045"::	O_K.::	0
+"me010"::	It doesn't know "I".::	0
+"me045"::	O_K.::	0
+"mn015"::	Um,::	0
+"mn015"::	the uh::	0
+"me045"::	Oh,   "Am Spartacus."     Verstehe.   O_K.::	0
+"me003"::	"I am Sm- I am Smarticus" is what it's saying. I gue-::	0
+"mn036"::	Right.::	0
+"mn015"::	The uh synthesis is just a question of um,::	0
+"mn015"::	hopefully it's just a question of::	0
+"mn015"::	exchanging a couple of files, once we  have   them.::	0
+"mn015"::	And, um, it's not going to be a problem  because  we decided to stick to the so-called  concept  to speech::	0
+"mn015"::	approach. So I'm - I'm - I'm going backwards now, so::	0
+"mn015"::	"synthesis" is where you sort of make this - uh, make these sounds,::	0
+"mn015"::	and "concept to speech" is feeding into this synthesis module giving it what needs to be said,::	0
+"mn015"::	and the whole syntactic structure so it can pronounce things better,::	1
+"mn015"::	presumably.  Then, just with text to speech.::	1
+"me045"::	Mm-hmm.::	0
+"mn015"::	And, uh, Johno learned how to write::	0
+"mn015"::	X_M_L tags.::	0
+"mn015"::	Uh, and did::	1
+"mn015"::	write the tree adjoining grammar for some - some sentences. No, right? Yeah, for a couple -::	1
+"me003"::	Yeah. So. Bu- Uh, i- The way the uh, the dialogue manager works is it dumps out what it wants to know, or what it wants to tell the person,::	0
+"me003"::	to a - er in X_M_L::	0
+"me003"::	and there's a conversion system for different::	0
+"me003"::	uh, to go from X_M_L to something else. And th- so, the knowledge base::	0
+"me003"::	for the system,::	0
+"me003"::	that generates the syntasti- syntactic structures for the ge- generation is uh,::	0
+"me003"::	in a LISP-like - the knowledge base is in a LISP-like form. And then the thing that actually  builds  these syntactic structures is::	0
+"me003"::	something based on  Prolog.::	0
+"me003"::	So, you have a - basically, a goal and it, you know, says "O_K, well I'm gonna try to do the::	0
+"me003"::	Greet-the-person goal, so it just starts - uh, it binds some variables and it just decides to, you know, do some  subscold . Basically, it just means "build the tree."::	0
+"me045"::	Mm-hmm.::	0
+"me045"::	O_K.::	0
+"me003"::	And then it passes the tree onto, uh,::	0
+"me003"::	the ge- the generation module.::	0
+"mn015"::	But I think that the point is that out of the::	0
+"mn015"::	twelve possible utterances that the German system can do,::	0
+"mn015"::	we've already written the -::	0
+"mn015"::	the syntax trees for::	0
+"me003"::	We- yeah. So, the syntax trees are very simple. It's like most of the sentences in one tree,::	0
+"mn015"::	three or four.::	0
+"me045"::	Mm-hmm.::	0
+"me003"::	and instead of, you know, breaking down to, like, small units and building back up, they basically took the sentences, and basically cut them in half, or you know, into thirds or something like that, and::	0
+"me003"::	made trees out of those.::	0
+"me003"::	And so uh, uh Tilman wrote a little tool that you could take::	0
+"me003"::	LISP notation and generate an X_M_L, uh,::	0
+"me003"::	tree.::	0
+"me003"::	Uh,::	0
+"me003"::	S- what do ca-  structure::	0
+"me003"::	from the - from the LISP.::	0
+"me003"::	And so basically you just say, you know,::	0
+"me003"::	"noun goes to", you know,::	0
+"me003"::	Er, nah, I don't re- I've never been good at those. So there's like the V_P goes to N_ and those things::	0
+"me045"::	O_K.::	0
+"me045"::	N_, V_ yeah, O_K.::	0
+"me003"::	in LISP, and it will generate for you.::	0
+"me045"::	Alright.::	0
+"mn015"::	And because we're sticking to that structure, the synthesis module doesn't need to be changed. So all that::	0
+"mn015"::	f- fancy stuff, and::	0
+"mn015"::	the Texas speech version of it, which is actually the  simpler  version, is gonna be done in October which is much too late for us. So.::	0
+"mn015"::	This  way we - we worked around  that.::	0
+"mn015"::	The, uh - the system, um - I can show you the system. I actually want, at least, maybe, you should be able to start it on your own.::	0
+"mn015"::	If you wanna play around with it, in th- in the future.::	0
+"mn015"::	Right now it's brittle and you need to ch-::	1
+"mn015"::	start it up and then make ts- twenty changes on - on - on -::	0
+"mn015"::	on seventeen modules before they actually can stomach it,  anything.::	1
+"mn015"::	And send in a - a - a couple of side queries on some dummy center set-up program so that it actually::	0
+"mn015"::	works because it's designed for this  seevit  thing, where you have the gestural recognition::	1
+"me045"::	Mm-hmm.::	0
+"mn015"::	running with this s- Siemens virtual touch screen, which we don't  have  here.::	1
+"mn015"::	And so we're doing it via mouse, but the whole system was designed to work with this thing and it was - It was a lot of::	0
+"mn015"::	engineering stuff.::	0
+"mn015"::	No science in there whatsoever, but it's working now, and um,::	1
+"mn015"::	that's the good news. So everything else actually did prove to be language independent except for the parsing and the generation.::	0
+"me003"::	Why - I had - I  did  need to chan- generate different trees than the German ones, mainly because you know like::	0
+"me003"::	uh, the gerund in - in German is automatically taken care of with just a regular verb,::	0
+"mn015"::	You have to switch it  on.::	0
+"me045"::	Mm-hmm.::	0
+"me003"::	so I'd uh have to add "am walking," or I'd have to add a little stem for the "am",::	0
+"me045"::	O_K.::	0
+"me045"::	O_K.::	0
+"me003"::	when I build the - built the tree.::	0
+"me045"::	Yeah, I noticed that um,::	0
+"me045"::	that some of the examples they had, had::	0
+"me045"::	you know,  non-English  word orders and so on, you know. And then all that good stuff. So. Like.::	0
+"me010"::	Alright.::	0
+"me003"::	Yeah.::	0
+"me010"::	So it might be worth, Keith, you looking at this,::	0
+"me045"::	Yeah.::	0
+"me010"::	um::	0
+"me003"::	Well Tilman s-::	0
+"me045"::	I - I still don't - I still don't really understand e- like - I mean we sort of say, um -::	0
+"me045"::	You know, I - I still don't exactly understand sort of the information flow uh in - in this thing, or what the modules are and so on. So, you know, like just that such-and-such module uh::	0
+"me045"::	um::	0
+"me045"::	decides that it wants to::	0
+"me045"::	achieve the goal of greeting the user, and then magically it sort of s-::	0
+"me010"::	Yeah -::	0
+"me045"::	I mean, how does it know which syntactic structure to pull out, and all that?::	0
+"me010"::	I thi-::	0
+"me010"::	Yeah. So. I think it's not worth going over in the group, but sort of when you get::	0
+"me045"::	R- uh Sure.::	0
+"me010"::	free and you have the time::	0
+"me045"::	Yeah, soon.::	0
+"me010"::	uh either Robert or Johno or I can walk you through it.::	0
+"me045"::	O_K.::	0
+"me010"::	And you can ask all the questions about how this all fits together.::	0
+"me045"::	That's fine.::	0
+"me010"::	It's eee  messy but once you understand it you understand it. It's - it's - There's nothing  really  complicated about it.::	0
+"me045"::	O_K.::	0
+"mn015"::	No.::	0
+"me045"::	And I remember one thing that - that came up in the talk last Wednesday.::	0
+"me045"::	Um,::	0
+"me045"::	was::	0
+"me045"::	this, I - I think he talked about the idea of like, um - He was talking about these lexicalized::	0
+"me003"::	O_K, you know how to do it?::	0
+"me045"::	uh, uh, tree adjoining grammars where you sort of - for each word you, um - For each lexical item,::	0
+"me045"::	the lexical entry says what all the uh trees are that it can appear in. And::	0
+"me045"::	of course,::	0
+"me045"::	that's not v-::	0
+"me045"::	That's the  opposite  of constructional. That's, you know, that's - that's H_P_S_G or whatever. You know?::	0
+"me010"::	Right.::	0
+"me010"::	Right. Now, we're - we're not::	0
+"me010"::	committed for our research::	0
+"me045"::	Yeah.::	0
+"me010"::	to  do  any  of those things. So uh we  are  committed for our  funding.::	1
+"me045"::	Mm-hmm.::	0
+"me045"::	Right.::	0
+"me010"::	O_K? to  uh -::	0
+"me045"::	Make our stuff fit to that.::	0
+"me010"::	Yeah, to - n- no, to just get the dem- get the demos they  need.::	1
+"me045"::	Uh-huh.::	0
+"me010"::	O_K? So between us all we have t- to get th- the  demos  they need. If it turns out we can  also::	1
+"me010"::	give them lots  more  than that by, you know, tapping into other things we do, that's great.::	1
+"me003"::	You should probably move the microphone closer to your face.::	0
+"me045"::	Mm-hmm.::	0
+"me010"::	But i- it turns out not to be in an- any of the contracts::	0
+"me003"::	There's like a little - The  twisty  thing, you can move it with.::	0
+"me045"::	O_K.::	0
+"me010"::	and, s-  deliberately.::	0
+"me010"::	So, the reason I'd like you to understand::	0
+"me010"::	uh what's going on::	0
+"me010"::	in this  demo  system is not because it's important to the research. It's just::	0
+"me010"::	for  closure.  So that if we come up with a question of::	0
+"me010"::	"could we fit this deeper stuff  in  there?" or something.  You  know what the hell::	0
+"me045"::	Right.::	0
+"me010"::	we- we're talking about fitting  in.  So it's just, uh in the sam- same actually with the rest of us::	0
+"me045"::	O_K.::	0
+"me010"::	we just need to really understand::	0
+"me010"::	what's there. Is there anything we can make use of?::	0
+"me010"::	Uh, is there anything we can give back, beyond th- the sort of minimum requirements?::	0
+"me010"::	But  none  of that has a short  time  fuse.::	0
+"me045"::	O_K.::	0
+"me010"::	So th- the demo- the demo requirements for this  Fall  are sort of::	1
+"me010"::	taken care of as of later this  week  or something. And then - So, it's probably fifteen months or something until::	1
+"me010"::	there's another serious demo requirement. That doesn't mean we don't  think  about it for fifteen months, but it means we can not think about it for  six  months.::	1
+"me045"::	Oh O_K.::	0
+"me045"::	Right.::	0
+"me045"::	Right, yeah.::	0
+"mn015"::	Right.::	1
+"me010"::	So. The plan for this summer::	0
+"me010"::	uh, really is to::	0
+"me010"::	step back from the applied project,::	0
+"me010"::	keep the d- keep the  context  open, but actually go after the basic issues.::	0
+"me045"::	Hmm.::	0
+"me045"::	Oh O_K.::	0
+"me010"::	And, so::	1
+"me010"::	The idea is there's this::	0
+"me010"::	uh,  other  subgroup that's worrying about formalizing::	0
+"me010"::	the nota- getting a  notation.  But::	1
+"me010"::	sort of in  parallel  with that,::	0
+"me010"::	uh, the hope is tha- in particularly  you  will work on::	0
+"me010"::	constructions in English Ge- and German for this domain,::	1
+"me045"::	Mm-hmm.::	0
+"me010"::	but y-  not  worry about parsing them or fitting them into SmartKom or::	1
+"me045"::	Yeah.::	0
+"me010"::	any of the other - anything lik- any  other  constraints::	0
+"me045"::	O_K.::	0
+"me010"::	for the time  being.::	1
+"me045"::	Got it.::	0
+"me010"::	It's hard enough to::	0
+"me010"::	get it semantically and syntactically right and then - and get the constructions in their form and stuff.::	0
+"me045"::	Yeah.::	0
+"me010"::	And, I don- I don't want you f-::	0
+"me010"::	feeling::	0
+"me010"::	that you have to somehow meet all these  other  constraints.::	0
+"me045"::	Right, O_K.::	0
+"me010"::	Um. And  similarly  with the  parsing,::	0
+"me010"::	uh::	0
+"me010"::	we're gonna worry about  parsing::	0
+"me010"::	uh, the  general  case::	0
+"me010"::	you know, construction parser for  general  constructions.::	0
+"me010"::	And, if we need a cut-down version for something, or whatever, we'll worry about that  later.::	0
+"me045"::	O_K.::	0
+"me010"::	So I'd like to, for the summer turn into science mode.::	1
+"me045"::	O_K.::	0
+"me010"::	And I assume that's also, uh, your plan as  well.::	0
+"me010"::	Right.::	0
+"me045"::	So I mean, the - the point is that like the meetings um so far that I've been at have been - sort of been geared towards this demo,::	0
+"me010"::	Yeah.::	0
+"me010"::	Yeah. But - but we- we're swit-::	0
+"me045"::	and then that's going to go away pretty soon.::	0
+"me010"::	Right.::	0
+"me045"::	O_K. And then we'll sort of shift gears a-::	0
+"me010"::	Yeah.::	0
+"mn015"::	It's -::	0
+"me010"::	Yeah.::	0
+"me045"::	Fairly substantially, huh?::	0
+"mn015"::	It's  got . What I - what I think is - is a good idea that I can - can show to anyone who's interested, we can even make a - sort of an internal demo, and I - I show you::	1
+"me010"::	Yeah.::	0
+"mn015"::	what I do,::	0
+"me045"::	Mm-hmm.::	0
+"mn015"::	I speak into it and you hear it talk,::	0
+"me045"::	O_K.::	0
+"mn015"::	and I can sort of walk f- through the information. So, this is like in half hour or forty-five minutes. Just fun.::	0
+"me045"::	O_K.::	0
+"mn015"::	And so you - when somebody on the streets com- comes up to you and asks you what is SmartKom so you can, sort of, give a sensible answer.::	0
+"me045"::	Right.::	0
+"me045"::	O_K.::	0
+"me010"::	So, c- sh- we  could  set that up as actually an institute wide thing?::	1
+"me010"::	Just give a talk in the big room, and - and so peo- people know what's going on? when you're ready?::	0
+"mn015"::	Absolutely.::	1
+"me010"::	Yeah I mean, that's the  kind  of thing - That's the level at which::	0
+"me010"::	you know we can just li- invite everybody and say "this is a project that we've been working on and here's a demo version of it" and stuff like that.::	0
+"me045"::	Yeah.::	0
+"mn015"::	O_K.::	0
+"mn015"::	Well d- we - we do wanna have all the bugs out b- where you have to sort of::	1
+"mn015"::	pipe in extra X_M_L messages from left and right before you're -::	1
+"me045"::	Uh-huh.::	0
+"me010"::	Indeed.::	0
+"mn015"::	Yeah.::	0
+"mn015"::	O_K. Makes sense.::	0
+"me010"::	But any- so that - e- e- It's  clear,  then, I  think.::	0
+"me010"::	Actually,  roughly starting uh let's say, nex-  next  meeting, cuz  this  meeting we have  one  other thing to tie up besides the  trip  report.::	0
+"me045"::	Yeah.::	0
+"me045"::	O_K.::	0
+"me010"::	But uh starting  next  meeting I think we want to::	0
+"me010"::	flip into this mode where -::	0
+"me010"::	Uh. I mean there are a  lot  of issues, what's the  ontology  look like, you know what do the  constructions  look like, what's the  execution  engine look like, mmm lots of  things.::	1
+"me045"::	Mm-hmm.::	0
+"me045"::	Mm-hmm.::	0
+"me010"::	But,  more  focused on::	1
+"me010"::	uh an idealized version than::	0
+"me010"::	just getting the demo out.::	1
+"me010"::	Now  before  we do that,::	0
+"me010"::	let's get back in - Oh!  But,::	0
+"me010"::	it's  still,  I think, useful for you to  understand  the demo version::	0
+"me045"::	Yeah.::	0
+"me010"::	enough,  so that you can - can see what - what it is that - that uh it might::	0
+"me010"::	eventually get retro-fitted into or something.::	0
+"me045"::	O_K, right.::	0
+"me010"::	And Johno's already  done  that,::	0
+"me003"::	Wa- uh -::	0
+"me010"::	uh,  looked  at the dem- uh the -  looked  at the SmartKom stuff.::	0
+"me003"::	To some de- uh what - what part of th- the SmartKom stuff?::	0
+"me010"::	Well, the  parser,  and that stuff.::	0
+"me003"::	Oh yeah - yeah.::	0
+"me010"::	O_K. Anyway. So, the trip - the report on these - the last we- we sort of interrupted you guys telling us about what happened last week.::	0
+"me045"::	Yeah. It's alright.::	0
+"mn015"::	Um.::	1
+"me010"::	Maybe you're  done,  then.::	0
+"mn015"::	Well it was::	0
+"mn015"::	just amazing to - to see uh::	0
+"mn015"::	how - how instable the whole thing is, and if you just take the -::	1
+"mn015"::	And I g- I got the feeling that::	1
+"mn015"::	we are  the  only  ones right now who have a running system. I don't know what the guys in Kaiserslautern have running because::	1
+"mn015"::	e- the version - that is, the  full  version that's on the server d- does not work.::	1
+"mn015"::	And you need to do a lot of::	0
+"mn015"::	stuff to make it work. And so it's -::	0
+"mn015"::	And even Tilman and Ralf sort of said "yeah::	0
+"mn015"::	there never was a really working version that uh::	0
+"mn015"::	did it without th- all the shortcuts that they built in for the uh October  @@  version". So we're actually maybe ahead of the   System Gruppe   by now,::	0
+"mn015"::	the system - the  integration  group.::	0
+"mn015"::	And it was, uh - It was fun to some extent, but the uh::	0
+"mn015"::	the outcome that  is  sort of of scientific interest is that I think both Ralf and Tilman -::	0
+"mn015"::	um, I  know  that they enjoyed it here,::	0
+"mn015"::	and they r- they - they liked, uh, a lot of the stuff they saw  here,::	0
+"mn015"::	what - what  we  have been thinking about,::	0
+"mn015"::	and they're  more  than willing to - to::	0
+"mn015"::	um, cooperate, by all  means.::	0
+"mn015"::	And um, part of my  responsibility   is uh to use our internal "group-ware"::	1
+"mn015"::	server at E_M_L, make that open to all of us and them,::	1
+"mn015"::	so that whatever  we  discuss in terms of  parsing  and - and generating and constructions w-::	1
+"mn015"::	we - we sort of uh put it in there and they put what  they  do in there::	1
+"mn015"::	and maybe we can even::	1
+"mn015"::	um,::	0
+"mn015"::	get some overlap, get some synergy out of that.::	1
+"mn015"::	And um,::	0
+"mn015"::	the, uh -  If  I find someone at - in E_M_L that is interested in that, um I -::	0
+"mn015"::	I may even think that we could look - take constructions and - and  generate  from them because the tree adjoining  grammars  that - that Tilman is using is::	1
+"mn015"::	as you said nothing but a mathematical formalism. And you can just do  anything  with it, whether it's syntactic trees,::	1
+"mn015"::	H_P_S_ G-like  stuff, or whether it's  construction.::	1
+"mn015"::	So if  you  ever get to the  generation  side of constructing things and::	1
+"mn015"::	there might be something of interest there, but in the moment we're of course definitely::	1
+"mn015"::	focused on the  understanding,::	0
+"mn015"::	um, pipeline.::	0
+"me010"::	Anyth- any other::	0
+"me010"::	uh repo- visit reports sort of stories?::	0
+"me010"::	uh we - so we  now   know::	0
+"me010"::	I think, what the  landscape  is like.::	0
+"me045"::	Mm-hmm.::	0
+"me010"::	And so we just push on and - and::	0
+"me010"::	uh, do::	0
+"me010"::	what we need to  do.::	0
+"me010"::	And  one  of the things we need to do::	1
+"me010"::	is the um,::	0
+"me010"::	and this I think is relatively::	0
+"me010"::	tight  -::	0
+"me010"::	tightly  constrained,  is to finish up this belief-net stuff. So.::	1
+"me010"::	Uh. And I was going to switch to start talking about that unless there're m- other more  general  questions.::	0
+"me010"::	O_K so here's where we are on the belief-net  stuff   as far as  I  understand it. Um.::	0
+"me010"::	Going back I guess  two  weeks ago::	0
+"me010"::	uh Robert had::	0
+"me010"::	laid out this belief-net, missing  only  the connections. Right?::	0
+"me010"::	That is -  So, he'd put all th- all the dots down, and we::	1
+"me010"::	went  through  this, and, I  think,   more  or less convinced ourselves that::	0
+"me010"::	at least the vast  majority  of the nodes that we needed for the demo level we were  thinking  of, were  in  there.::	1
+"me010"::	Yeah  we may run across one or two more. But of course the  connections  weren't.::	0
+"me010"::	So, uh Bhaskara and I went off and looked at some  technical  questions about::	1
+"me010"::	were certain operations sort of  legitimate  belief-net  computations  and was there some known  problem  with them::	0
+"me010"::	or had someone already uh, solved you know how to do this and stuff.::	1
+"me010"::	And so Bhaskara tracked that down. The answer seems to be::	1
+"me010"::	uh, "no, no one has done it, but yes it's a perfectly reasonable thing to do if that's what you set out to do".::	1
+"me010"::	And, so the current  state  of things is that, again, starting  now,  um::	0
+"me010"::	we'd like to actually get a  running  belief-net::	0
+"me010"::	for this particular  subdomain::	0
+"me010"::	done  in the next few  weeks.::	0
+"me010"::	So Bhaskara is switching projects as of the first of June, and::	0
+"me010"::	uh, he's gonna  leave  us an  inheritance,  which is a uh - hopefully a belief-net that::	0
+"me010"::	does  these things.::	0
+"me010"::	And there're two  aspects  to it, one of which is, you know,  technical,  getting the  coding  right, and making it  run,  and::	1
+"me010"::	uh stuff like that. And the  other  is the actual::	1
+"me010"::	semantics.::	1
+"me010"::	O_K? What all - you know, what  are  the considerations and how- and what are the ways in which they  relate.::	1
+"me010"::	So he doe- h- he doesn't need help from this  group::	0
+"me010"::	on the::	0
+"me010"::	technical  aspects or if he does uh we'll do that  separately.  But in terms of::	0
+"me045"::	Mm-hmm.::	0
+"me010"::	what are the  decisions  and stuff like that, that's something that we::	0
+"me010"::	all  have to work  out.::	0
+"me010"::	Is - is that right?::	0
+"me010"::	I mean that's - that's both you guys' understanding of where we are? O_K.::	0
+"mn015"::	Absolutely.::	0
+"me012"::	So, I guess, um - Is there like a latest version of the::	0
+"me012"::	belief-net - of the proposed belief-net?::	0
+"me012"::	Like -::	0
+"mn015"::	We had um decided -::	0
+"me012"::	like -::	0
+"mn015"::	Um.::	0
+"mn015"::	Well, no, we didn't decide. We  wanted  to look into maybe::	0
+"mn015"::	getting it, the visualization, a bit clearer, but I think::	0
+"mn015"::	if we do it, um,::	0
+"mn015"::	sort of a  paper  version of all the nodes and then::	0
+"me012"::	Mm-hmm.::	0
+"mn015"::	the connections between them,::	0
+"me012"::	Yeah, that should be fine.::	0
+"mn015"::	that should suffice.::	0
+"me010"::	Yeah I mean, that's a  separate   problem.  We  do  in the long run wanna do  better    visualization  and all that stuff.::	1
+"me003"::	Yeah, I -::	0
+"mn015"::	Yeah.::	1
+"me010"::	That's  separable, yeah.::	0
+"me003"::	I   did  look  into  that, uh in terms of, you know, exploding the nodes out and down ag-::	1
+"me010"::	Yep.::	0
+"me010"::	Right.::	0
+"me003"::	JavaBayes does not support that.::	1
+"me003"::	I can::	0
+"me003"::	imagine  a way of  hacking  at the code to  do  that.::	0
+"me003"::	It'd probably take two weeks or so to actually go through and do it,::	1
+"me010"::	Not - not at this point.::	0
+"me003"::	and I went through all the other packages on Murph- Kevin Murphy's page, and I couldn't::	0
+"me010"::	Right.::	0
+"me003"::	find the necessary mix of free and uh::	0
+"me003"::	with the GUI  and,  with this  thing  that we want.::	0
+"me010"::	Well, we can p- If it's - If we can pay - Yeah. If you know it's  paying  a thousand dollars or something we can  do  that.::	0
+"me010"::	O_K? So - so  don't  view  free  as - as a absolute  constraint.::	0
+"me003"::	O_K.::	0
+"me003"::	O_K, so then I'll go back and look at the ones on the list that -::	0
+"me010"::	O_K. And you can  ask  Kevin.::	0
+"me012"::	Yeah.::	0
+"mn015"::	But -::	0
+"me012"::	Yeah, the one that uh people seem to use is uh Hugin or whatever? How exp- I don't think it's - Is it free? Because I've seen it  advertised  in places so I - it seems to -::	1
+"me003"::	Mmm.::	0
+"mn015"::	But -::	0
+"me010"::	Hugin, yeah that's free.::	0
+"me010"::	Uh, it may be free to academics. Like I - I don't know.::	0
+"me010"::	I have a co-  I have a  copy   that I l- I downloaded. So, at  one  point it was free.::	0
+"me012"::	O_K.::	0
+"me012"::	O_K.::	0
+"me010"::	Uh but yo- I noticed people  do  use Hugin so um,::	0
+"me003"::	How do you spell that?::	0
+"fe004"::	Why::	0
+"me010"::	H_U_G_I_N.::	0
+"me010"::	And Bhaskara can give you a pointer. So then, in any case, um - But paying a lit- You know, if i- if::	0
+"me010"::	it's uh -  Probably  for university, it's - it's gonna be  real  cheap  anyway.::	0
+"me010"::	But um, you know, if it's  fifty  thousand dollars we aren't gonna  do  it. I'm mean, we have no  need  for that.::	0
+"mn015"::	I - I also s- would suggest not to d- spend two weeks in - in - in changing the - the JavaBayes code. I - I will send you a pointer to a Java applet::	1
+"me010"::	No, he's not gonna do that.::	0
+"me045"::	Yeah.::	0
+"me003"::	O_K.::	0
+"mn015"::	that does that, it's sort of a fish-eye. You - you have a node, and you::	1
+"mn015"::	click on it, and it shows you all the connections, and then if you click on something else that moves away, that goes into the middle.::	0
+"me003"::	Mmm.::	0
+"mn015"::	And maybe there is an easy way of interfacing those  two.::	0
+"mn015"::	If  that  doesn't work,::	0
+"mn015"::	it's  not  a problem we - we need to solve right  now.::	0
+"mn015"::	What I'm - what my job is, I will, um,::	0
+"mn015"::	give  you  the  input::	0
+"mn015"::	in terms of - of::	0
+"mn015"::	the internal structure. Maybe node by node, or something like this? Or should I collect it all and -::	0
+"me012"::	Mm-hmm.::	0
+"me010"::	Doesn't  matter.::	0
+"me012"::	Um, just any like - like sort of rough representation of the entire belief-net is probably best.::	0
+"mn015"::	O_K.::	0
+"mn015"::	And um::	0
+"mn015"::	you're gonna be around?::	0
+"mn015"::	t- again, always Tuesdays and Thursdays afternoon-ish?::	0
+"mn015"::	As usual?::	0
+"me012"::	Yeah -::	0
+"mn015"::	Or will that change?::	0
+"me012"::	I mean, yeah, I can - like I c- Um. This week I guess um, kind of - I have a lot of projects and stuff but after that I will generally be more free. So yes, I might -::	0
+"me012"::	I can be around. And g- I mean, generally if you email me also I can be around on other days.::	0
+"mn015"::	Yeah. O_K.::	0
+"me010"::	Yeah and this is not a crisis that - I mean, you  do,  e- everybody who's a  student  should,::	0
+"me010"::	you know  do  their  work,  get their c-  courses  all in good shape and - and - and - and then we'll dig - d- dig down on this.::	0
+"mn015"::	Yeah, that's -::	0
+"mn015"::	Yeah.::	0
+"mn015"::	O_K.::	0
+"mn015"::	No, that's  good.  That means I have I h- I can spend this  week  doing it. So.::	0
+"me012"::	O_K.::	0
+"me045"::	How do you go about this process of deciding what these connections are? I know that there's an issue of how to  weight  the different::	1
+"me045"::	things  too,  and stuff. Right? I mean do you just sort of  guess  and see if it sort of -::	0
+"me010"::	Right.::	0
+"me010"::	Well there - there - there::	0
+"mn015"::	It's -::	0
+"me010"::	There're  two  different things you do. One is you  design  and the other is you  learn.::	1
+"me010"::	O_K?::	0
+"me010"::	So uh what we're gonna do initially is - is do  design,::	1
+"me010"::	and, i- if you  will,   guess.::	1
+"me045"::	O_K.::	0
+"me010"::	O_K. Uh that is you know use your best knowledge of - of the domain to::	0
+"me045"::	Right.::	0
+"me010"::	uh, hypothesize what the dependencies are and stuff.::	0
+"me045"::	O_K.::	0
+"me010"::	If it's done right,::	1
+"me010"::	and  if you have data::	0
+"me045"::	Yeah.::	0
+"me010"::	then, there  are  techniques for learning the  numbers  given the  structure::	1
+"me010"::	and there are  even  techniques for  learning  the  structure,  although::	0
+"me010"::	that takes a lot more data, and it's not as  @@  and so forth and so on. So uh::	0
+"me010"::	but for the  limited  amount of stuff::	1
+"me010"::	we  have  for this  particular  exercise::	0
+"me010"::	I  think  we'll just  design  it.::	1
+"me045"::	Alright.::	0
+"mn015"::	Yeah.::	0
+"mn015"::	Fo-::	0
+"mn015"::	Hopefully as time passes we'll get more and more data from Heidelberg and::	0
+"me045"::	O_K.::	0
+"mn015"::	from people actually using it and stuff.::	0
+"mn015"::	So but  this  is the     long run.::	0
+"me045"::	Yeah.::	0
+"mn015"::	But to solve our problems ag- uh a mediocre design will do I think in the beginning.::	0
+"me045"::	Yeah, that's right.::	0
+"me045"::	Yeah, oh, and by the way, speaking of data, um, are there::	0
+"me045"::	I could swore - uh, I could swear I saw it sitting on someone's desk at some point, but is there a - um a transcript of any of the, sort of, initial::	0
+"me045"::	interactions of people with the - with the system?::	0
+"me010"::	Mm-hmm.::	0
+"me045"::	Cuz you know, I'm still sort of itching to - to look at what -::	1
+"me045"::	look  at the stuff, and see what people are  saying.::	1
+"me010"::	Yeah.::	0
+"me010"::	Yeah  make  yourself a note. So and - and, of course Keith would like the German as  well  as the English, so whatever you guys can  get.::	0
+"mn015"::	The German.::	0
+"mn015"::	Oh yeah, of course,  German.  Yeah.::	0
+"me010"::	Yeah, the y- your  native   language, right?  You  remember  that one.::	0
+"mn015"::	O_K.::	0
+"mn015"::	That's important, yeah.::	0
+"me045"::	Yeah, u-::	0
+"me010"::	So  he'll  get you some data.::	0
+"me045"::	O_K.::	0
+"me045"::	Yeah, I mean I - I sort of um::	0
+"me045"::	found the uh,::	0
+"me045"::	uh the audio::	0
+"me045"::	of some of those, and um,::	0
+"mn015"::	Hmm.::	0
+"me045"::	it kind of sounded like I didn't want to trudge through that, you know. It was just -::	0
+"me045"::	Strange, but.::	0
+"me010"::	Yep.::	0
+"mn015"::	We  probably  will not get  those  to describe because they were  trial  runs.::	0
+"me045"::	Oh yeah, O_K.::	0
+"mn015"::	Um, but uh that's th-::	1
+"mn015"::	but we have data in English and German already. So. -  Transcribed.  I will send you that.::	1
+"me045"::	O_K, yeah, I mean.::	0
+"mn015"::	O_K.::	0
+"me010"::	O_K, so::	0
+"me010"::	while we're still at this sort of top level, anything else that::	0
+"me010"::	we oughta talk about today?::	0
+"mn015"::	Ho- how was your::	0
+"mn015"::	thingy.::	0
+"me045"::	Oh, um,::	0
+"me045"::	I just wanted to, uh, s- like mention as an issue, um, you know last meeting I wasn't::	0
+"me045"::	here because I went to a linguistics colloquium on the fictive motion stuff, and that was pretty interesting and you know, I mean, seems to me that that will fairly obviously be of relevance to uh -::	1
+"me010"::	Oh right.::	0
+"me045"::	to what we're doing here because you know people are likely to give descriptions like::	1
+"me045"::	you know, "What's that thing uh right where you start to go up the hill," or something like that, you know, meaning a few feet up the hill or whatever from some::	0
+"me045"::	reference point and all that stuff so I mean, I'm sure in terms of::	0
+"me045"::	you know, people trying to state locations or, you know, all that kind of stuff, this is gonna be very relevant. So,::	0
+"me045"::	um, now that was -::	0
+"me045"::	the talk was about English versus Japanese, um, which obviously the Japanese doesn't::	0
+"me045"::	affect us directly, except that, um,::	0
+"me045"::	some of the construction - he'd - what he talked about was that you know in English we say things like th- you know, "your bike is parked across the street"::	0
+"me045"::	and we use these prepositional phrases, you know, "well,::	0
+"me045"::	if you were to move across the street you would be at the bike", but um in -::	0
+"me045"::	in Japanese the - the more conventionalized tendency is to use a - sort of a description of::	0
+"me045"::	"where one has crossed to the river, there is a tree".::	0
+"me045"::	Um, and you know, you can actually say things like, um,::	0
+"me045"::	"there's a tree where one has crossed the river, but no one has ever crossed the river", or something like that.::	0
+"me045"::	So the idea is that this really is you know that's supposed show that's it's really fictive and so on. But um -::	0
+"me045"::	But the point is that that kind of construction is also used in English, you know, like "right where you start to go up the hill", or "just when you get off the train", or something like that to -::	0
+"me010"::	Mmm.::	0
+"me045"::	uh, to indicate where something is. So we'll have to think about -::	0
+"me010"::	So -::	0
+"me010"::	how much is that used in German?::	0
+"mn015"::	Um.::	0
+"mn015"::	The uh - Well -::	0
+"mn015"::	I wa- I was on a uh - on a - on a different sidetrack. I mean,::	0
+"me010"::	Oh, O_K.::	0
+"mn015"::	the - the Deep  Map  project which um is undergoing some renovation at - at the moment,::	0
+"mn015"::	but this is a - a  three  language project: German, English, Japanese.::	0
+"me045"::	O_K.::	0
+"mn015"::	And um,::	0
+"mn015"::	we have a uh, uh -::	0
+"mn015"::	I have taken care that we have the - the Japanese generation and stuff. And so::	0
+"mn015"::	I looked into uh spatial description. So we can generate spatial descriptions, how to get from A_ to B_.::	0
+"me045"::	Mm-hmm.::	0
+"mn015"::	And - and information  on  objects, in German, English, and Japanese. And there is a  huge  uh project  on  spatial descriptions uh -  differences  in spatial descriptions.::	1
+"mn015"::	Well, if yo- if you're  interested  in that,::	0
+"mn015"::	so how - how, I mean it does sort of go d- all the way down to the conceptual level to some extent. So.::	0
+"me045"::	O_K.::	0
+"mn015"::	Um.::	0
+"me010"::	So, where is this huge project?::	0
+"mn015"::	It's KLEIST. It's the uh Bielefeld::	1
+"me010"::	Mm-hmm.::	0
+"mn015"::	generation of uh::	0
+"mn015"::	spatial descriptions and whatever.::	0
+"mn015"::	@@::	0
+"me010"::	Well, that may be another thing that Keith wants to look at.::	0
+"me045"::	O_K.::	0
+"mn015"::	But um, I - I think we should leave Japanese constructions maybe outside of the scope for - for now, but um::	1
+"me045"::	Yeah.::	0
+"mn015"::	definitely it's interesting to look at - at::	0
+"me010"::	Mm-hmm.::	0
+"mn015"::	cross::	0
+"mn015"::	the  bordered  there.::	1
+"mn036"::	Are - are you going to p- pay any attention to::	0
+"mn036"::	the relative position -::	0
+"mn036"::	of - of the direction relative - relative to the speaker?::	0
+"mn036"::	For example, there are some differences between Hebrew and English.::	0
+"mn036"::	We can say::	0
+"mn036"::	um::	0
+"mn036"::	"park in front of the car"::	0
+"mn036"::	as you come beh- you drive  behind  the car.::	0
+"mn036"::	In  Hebrew  it means::	0
+"mn036"::	"park  behind  the car", because to  follow  the car is defined as it faces  you.::	0
+"mn015"::	Mm-hmm.::	0
+"mn015"::	Intrinsic, yeah.::	0
+"mn036"::	While in  English,   front  of the car is the  absolute  front of the car.::	0
+"me045"::	O_K.::	0
+"me045"::	Right, so the canonical direction of motion determines where the front is. O_K.::	0
+"mn036"::	So.::	0
+"mn036"::	Right.::	0
+"mn036"::	Right.::	0
+"mn036"::	So, i- i- i- is German::	0
+"mn015"::	Mm-hmm.::	0
+"mn036"::	uh::	0
+"mn036"::	closer to - to E- uh, uh, uh, uh - to E- I mean uh::	0
+"mn036"::	I don't think it - it's related to  syntax,  though, so it may be entirely  different.::	0
+"mn015"::	Um, as a matter of fact -::	0
+"me010"::	No,  it's  not.::	0
+"me045"::	Right.::	0
+"mn036"::	Yeah.::	0
+"mn015"::	Um.::	0
+"me045"::	I think -::	0
+"mn015"::	Did you ever get to look at the - the rou- paper that I sent you on the - on that problem in English and German?::	0
+"mn015"::	Carroll, ninety-three.::	1
+"mn015"::	Um.::	1
+"mn015"::	I - There is a - a study::	0
+"mn015"::	on the differences between English and German on exactly that::	0
+"mn015"::	problem.::	1
+"mn036"::	Hmm.::	0
+"mn015"::	So it's - they actually say "the monkey in front of the car, where's the monkey?"::	0
+"me045"::	Mm-hmm.::	0
+"mn015"::	And, um, they found statistically very significant differences in English and German,::	0
+"mn015"::	so I - I - I - It  might  be, since there are only a finite number of ways of doing it, that -::	0
+"mn015"::	that German might be more like Hebrew in that respect.::	0
+"me045"::	Hmm.::	0
+"mn015"::	The solution they proposed was that it  was  due to syntactic factors.::	0
+"mn036"::	That - but it wasn't - was -::	0
+"mn015"::	That syntactic facto- factors  do  -  do  play a role there, wh- whether you're more likely,::	0
+"mn036"::	Right.::	0
+"mn036"::	Mm-hmm.::	0
+"mn036"::	Right.::	0
+"mn015"::	you know ,::	0
+"mn015"::	to develop uh, choices that lead you towards using uh intrinsic versus extrinsic reference frames.::	0
+"me010"::	Hmm.::	0
+"me045"::	I mean , it seems to me that you can get  both  in - in English depending o- You know, like, "in front of the car" could you know - Like,::	0
+"me045"::	here's the car sideways to me in between me and the car or something's in front of the car, or whatever. I could see that, but -::	0
+"me010"::	Absolutely.::	0
+"me045"::	But  anyway,  so you know, I mean, this was - this was a - a very good talk on those kinds of issues and so on. So uh.::	0
+"mn015"::	I can also give you uh, a pointer to a paper of  mine  which is the - the ultimate taxonomy of  reference  frames. So.  I'm the only person in the world who actually  knows  how it works.::	1
+"me045"::	Alright! Cool!::	0
+"me010"::	Oh.::	0
+"me010"::	Oh.::	0
+"mn015"::	Not  really.::	0
+"me010"::	Great.  No,  I've  not seen that.::	0
+"mn015"::	It's called a -::	0
+"mn036"::	What do you mean. Um.::	0
+"mn036"::	"reference frames"?::	0
+"mn015"::	It's - it's spatial reference frames. You actually have only -::	0
+"mn036"::	uh::	0
+"mn036"::	uh::	0
+"mn015"::	Um.::	0
+"mn015"::	If you wanna have a -::	0
+"mn015"::	This is usually um -::	0
+"mn015"::	I should - there should be an "L_", though.::	0
+"mn015"::	Well actually you have - only have two choices. You can either do a  two-point::	0
+"mn015"::	or a  three-point::	0
+"mn015"::	which is you-::	0
+"mn015"::	You're familiar with th- with the "origo"?::	0
+"mn015"::	where that's the center - "Origo" is the center of the f- frame of reference. And then you have the::	0
+"me045"::	Hmm.::	0
+"mn015"::	reference object and the object to be localized.::	0
+"me045"::	Hmm.::	0
+"mn015"::	O_K? In  some  cases the  origo::	0
+"mn036"::	Mm-hmm.::	0
+"mn015"::	is::	0
+"mn015"::	the  same::	0
+"mn015"::	as the reference object.::	0
+"fe004"::	This was like -::	0
+"me010"::	So that would be "origin" in English, right?::	0
+"me045"::	The origin. Yeah.::	0
+"mn036"::	Right::	0
+"mn015"::	"Origo" is a   Terminus technikus.   in that sense,::	0
+"mn015"::	that's even used in the English literature. "Origo."::	0
+"me045"::	Oh, O_K. I never heard it. O_K.::	0
+"me010"::	Alright.::	0
+"mn036"::	O_K.::	0
+"mn015"::	And um,::	0
+"mn015"::	so,::	0
+"mn015"::	this video tape is in front of  me.   I'm  the origo and I'm also the reference object. Those are  two-point.::	0
+"me045"::	Mm-hmm.::	0
+"me045"::	Mm-hmm.::	0
+"mn036"::	Right.::	0
+"me010"::	Mm-hmm.::	0
+"mn015"::	And  three-point  relations is if something  has  an intrinsic front side like this chair then your f-::	0
+"me010"::	Yeah.::	0
+"mn015"::	shoe is behind the chair.::	0
+"me045"::	Mm-hmm.::	0
+"mn015"::	And,::	0
+"mn015"::	reference object and - Um.::	0
+"mn015"::	No, from - from  my  point of view your shoe is::	0
+"me045"::	Right.::	0
+"mn015"::	left  of the chair.::	0
+"me045"::	You - you can actually say things like, um,::	0
+"me045"::	"it's behind the tree from me" or something like that, I  think,  in - in - in certain circumstances in English, right? As sort of "from where I'm standing it would appear that" -::	0
+"mn015"::	Yeah.::	0
+"mn015"::	Yeah.::	0
+"mn015"::	So,::	0
+"fe004"::	Looks a  little  bit like Reichenbach for time.::	0
+"me010"::	Yeah, it sounds like it, doesn't it, yeah.::	0
+"fe004"::	It's a  lot  like it. Um.::	0
+"me045"::	Yeah.::	0
+"mn015"::	And then - and then here you - On  this  scale, you have it either be  ego::	1
+"mn015"::	or  allocentric.::	1
+"me010"::	Mm-hmm.::	0
+"mn015"::	And that's  - that's basically::	0
+"mn015"::	it. So. Egocentric  two-point,  egocentric  three-point,  or you can have allocentric.::	0
+"mn015"::	So, "as seen from the church, the town hall is right of that::	0
+"me045"::	Oh, O_K.::	0
+"mn015"::	um, fire station".::	0
+"mn015"::	aa-huh::	0
+"mn015"::	It's hardly ever used but it's w-::	0
+"mn036"::	I'd  love  to  see  it if you - if you have a copy  kind of . Uh.::	0
+"me010"::	Yeah. I see this is - this is getting into  Ami's  thing.::	0
+"me045"::	Yeah.::	0
+"me045"::	Mm-hmm.::	0
+"me010"::	He's  - he's very interested in that.::	0
+"mn036"::	Here::	0
+"mn015"::	O_K.::	0
+"me010"::	So. Uh. Yeah. Well, why don't you just put it on the web page? There's this E_D_U - Right?::	0
+"me045"::	Me too.::	0
+"mn015"::	Yeah it's - or - or just - Yeah. It's also all on my - my home page at E_M_L. It's called "An Anatomy of a Spatial Description".  But  I'll send that link.::	1
+"me010"::	Or a link to it.::	0
+"me010"::	Just::	0
+"mn036"::	O_K, great.::	0
+"me010"::	Maybe just put a link on. Yeah. By the way, there - something that I didn't know until about::	1
+"mn015"::	Yep.    Yep.::	0
+"me010"::	a week ago or so,::	0
+"me010"::	is apparently,::	0
+"me010"::	there are::	0
+"me010"::	separate brain areas::	0
+"me010"::	for::	0
+"me010"::	things within reach, and things that are  out  of reach.::	1
+"me045"::	Huh.::	0
+"me010"::	So there's - there's uh all this  linguistic  stuff about::	0
+"me010"::	you know, near and far, or yon and - and so forth. So this is all - This is - There's this linguistic facts. But apparently,::	0
+"me045"::	Mm-hmm.::	0
+"me010"::	the - Uh.  Here's  the way the findings go.::	0
+"me010"::	That,::	0
+"me010"::	you know they do M_R_I, and - and if you're uh - got something within reach then there's one of your areas lights up, and if something's  out  of reach::	0
+"me010"::	uh a  different  one.::	0
+"me010"::	But  here's  the - the  amazing  result,::	0
+"me010"::	um,::	0
+"me010"::	they  say.::	0
+"me010"::	You  get  someone with a - with a deficit::	0
+"me010"::	so that they have a perfectly normal ability at distance things. So::	0
+"me010"::	the s-  typical  task is  subdivision.  So there's a - a line on the  wall  over there, and you give them a  laser  pointer, and you say,::	0
+"me010"::	" Where's  the midpoint?" And they do fine.::	0
+"me010"::	If you give them the line, and they have to  touch  it, they  can't.::	0
+"me010"::	There's just that part of the brain isn't functioning, so they can't do that.::	0
+"me010"::	Here's  the  real  experiment.::	0
+"me010"::	The  same thing on the wall, you give them a laser, "where is it?",::	0
+"me010"::	they do it. Give them a  stick,  long stick, and say "do it", they  can't  do it.::	0
+"me045"::	Mm-hmm.::	0
+"me010"::	So there's a  remapping  of  distant  space into  nearby  space.::	0
+"mn036"::	Right.::	0
+"mn036"::	So they doubled - the - the end - the end of this -::	0
+"fe004"::	Because it's within reach now?::	0
+"me010"::	It's  not  within reach and you use the Within-Reach::	0
+"me045"::	Yeah, yeah.::	0
+"fe004"::	Oh. Wow.::	0
+"me010"::	uh,  mechanism.  So I'll d- I'll dig you up this reference.::	0
+"me045"::	Circuits.::	0
+"mn036"::	Right.::	0
+"me045"::	That's cool.::	0
+"me010"::	And so this doe- This is, uh -  First  of all, it explains something that I've always wondered about::	0
+"me010"::	and I'll do this - this test on you guys as well. So.::	0
+"me010"::	Uh.::	0
+"me010"::	How-::	0
+"me010"::	I  have had an experience,  not  often, but a  certain  number of times, when, for example, I'm working with a  tool,  a screwdriver or something, for a  long  time,::	0
+"me010"::	I start feeling the  tip::	0
+"me010"::	directly.::	0
+"me010"::	Not indirectly, but you actually can feel::	0
+"me045"::	Yeah  yeah.::	0
+"me010"::	the tip. And people who are uh accomplished violinists and stuff like that, claim they also have this kind of thing where you::	0
+"me045"::	Yeah.::	0
+"me010"::	get a direct sensation::	0
+"me010"::	of,  physical  sensation, of::	0
+"me010"::	the end affector.::	0
+"me045"::	What's going on at the end of the tool, yeah.::	0
+"mn036"::	The ext- the - the - The extension, right.::	0
+"me010"::	Huh?::	0
+"me045"::	What's going on at the end of the tool, or whatever.::	0
+"me010"::	Yeah, within - Huh?::	0
+"mn036"::	The extension of - of your hand, right.::	0
+"me010"::	Yeah, right. Have you hav- y- h-  had  this?::	0
+"mn036"::	The -::	0
+"mn036"::	I - I  think  so. I mean i- i- it's not  exactly::	0
+"mn036"::	the th- same thing, but - but s- it - it - it's getting  close  to that.::	0
+"fe004"::	W- what does it  feel  like?::	0
+"me045"::	Yeah.::	0
+"me010"::	Oh i- it  feels  like your - as if your::	0
+"me010"::	uh  neurons  had extended themselves  out  to this tool, and you're feeling  forces  on  it  and so forth and - and you deal  directly  with it.::	0
+"mn036"::	I once -::	0
+"mn036"::	I - I was playing you know with those um::	0
+"mn036"::	uh devices that allow you to manipulate  objects   when it's dangerous to get close?::	0
+"me010"::	Right, yeah - yeah - yeah. Yeah.::	0
+"me045"::	Oh, O_K.::	0
+"mn036"::	So you can insert your hand something::	0
+"mn036"::	and there's a  correspondence  between -::	0
+"me010"::	Yeah.::	0
+"mn036"::	So I played with it. After a while,::	0
+"mn036"::	you  don't  feel the  difference  anymore.::	0
+"me010"::	Yeah, right.::	0
+"mn036"::	I - I mean it's kind of -::	0
+"me045"::	Mm-hmm.::	0
+"mn036"::	Very - kind of - you stop back::	0
+"mn036"::	and suddenly it goes away::	0
+"me045"::	Yeah.::	0
+"mn036"::	and you have to kind of work again::	0
+"me010"::	Right, right.::	0
+"mn036"::	to recapture it, but yeah.::	0
+"me010"::	Yeah, so anyway, so - So this was the first actual  experimental  evidence I'd seen that was consistent with this  anecdotal  stuff.::	0
+"me045"::	That's cool.::	0
+"me010"::	And of course it makes a  lovely  def- uh story about why::	0
+"me010"::	languages::	0
+"me010"::	uh, make this  distinction.  Of course there are  behavioral  differences  too.  Things you can reach are really quite  different  than things you  can't.::	0
+"me045"::	Yeah.::	0
+"me010"::	But there  seems  to be an actu-  really   deep   embodied::	0
+"me010"::	neural  difference. And i- this is, um - So. In addition to the::	0
+"me010"::	e-::	0
+"mn015"::	This is more proximal-distal.::	0
+"me010"::	Yeah uh  exactly.  So in addition to e- ego and  allocentric::	1
+"me010"::	uh which appear all over the place, you  also  apparently have this proximal-distal::	0
+"me010"::	thing which is very deeply uh embedded.::	1
+"me010"::	S-::	0
+"mn015"::	Well, Dan  Montello  sort of, he - he does the uh uh - th- the cognitive map::	0
+"mn015"::	world , down in Santa Barbara.::	0
+"mn015"::	And he - he always talks about these -::	0
+"mn015"::	He - he already - well - i- probably  most  likely  without  knowing this - this evidence uh is talking about these small scale spaces that you can manipulate versus large scale environmental spaces.::	0
+"me010"::	Yeah.::	0
+"me010"::	Well there's - there's uh been a  lot  of behavioral things o- on this, but that was the first neur- neuro-physiological thing I saw.::	0
+"me010"::	Anyway yeah, so we'll - we'll look at this.::	0
+"me010"::	And. So,  all  of these issues now - are now starting to come up. So, now - we're now done with demos. We're starting to do  science,  right? And so these issues about::	1
+"me010"::	uh, reference, and -  spatial   reference,  discourse  reference, uh-uh-uh-uh   all  this sort of stuff,::	0
+"me045"::	Mm-hmm.::	0
+"me010"::	uh,  deixis  which is part of what you were talking about, um - So, all of this stuff is::	1
+"me045"::	Mm-hmm.::	0
+"me010"::	coming up essentially starting  now.::	0
+"me010"::	So we gotta do all this. So there's  that.  And then there's also a set of  system  things that come up.::	1
+"me010"::	So " O_K , we're not using  their  system. That means we need::	1
+"me010"::	our  system." Right? It - it follows. And so,::	1
+"me045"::	Mm-hmm. Yeah.::	0
+"me010"::	uh, in  addition  to the business about just getting the linguistics right, and the formalism and stuff, we're actually gonna  build  something::	1
+"me010"::	and uh, Johno is point person on the parser, analyzer, whatever that is, and we're gonna start on that in  parallel  with the::	1
+"me010"::	um, the  grammar  stuff.  But::	1
+"me045"::	Alright.::	0
+"me010"::	to do  that::	0
+"me010"::	we're gonna need to make some decisions like::	0
+"me010"::	ontology,::	1
+"me010"::	so, um - And so this is another thing where we're gonna, you know, have to get involved and make s-  relatively  early I think, make some decisions on::	0
+"me010"::	uh, "is there an ontology A_P_I::	0
+"me010"::	that - that" - There's a sort of standard way of getting things from ontologies and we::	0
+"me010"::	build the parser and stuff around  that,  or is there a  particular  ontology that we're gonna standardize on, and if so - For example, is there something::	0
+"me010"::	that we can use  there.::	0
+"me010"::	i- Does uh either the uh SmartKom project or one of the projects at E_M_L::	1
+"me010"::	have something that we can just::	0
+"me010"::	p- pull out, for  that.::	1
+"me010"::	Uh, so there are gonna be some - some - some things  like  that, which are::	0
+"me010"::	not science but  system.::	0
+"me010"::	But we  aren't  gonna  ignore  those cuz we're - we're not only going - The plan is not only to::	1
+"me010"::	lay  out  this thing, but to actually uh::	0
+"me010"::	build::	0
+"me010"::	some  of it.::	1
+"me010"::	And  how  much we build, and - and  so  forth.::	0
+"me045"::	I -::	0
+"me010"::	Uh.  Part  of it, if it  works  right,::	0
+"me010"::	is wh- It  looks  like we're now in a position::	1
+"me010"::	that::	0
+"me010"::	the::	0
+"me010"::	construction  analyzer that we  want  for this::	0
+"me010"::	applied  project::	0
+"me010"::	can be the  same  as the construction analyzer that  Nancy  needs for the child  language  modeling.::	1
+"me010"::	So. It's  always  been out of phase but it  now  seems that::	0
+"me010"::	um, there's a good  shot  at that. So we've talked about it, and::	0
+"me010"::	the  hope::	0
+"me010"::	is that we can make these things the  same  thing,::	0
+"me045"::	O_K.::	0
+"me010"::	and of course it's only w- In  both  cases it's only one  piece  of a bigger  system.::	0
+"me045"::	Mm-hmm.::	0
+"me010"::	But it would be  nice  if that  piece::	0
+"me010"::	were  exactly  the same piece. It was just this::	0
+"me045"::	Right.::	0
+"me010"::	uh::	0
+"me010"::	construction  analyzer.::	0
+"me010"::	And so we  think  - we think we::	0
+"me010"::	have a  shot  at - at that.::	0
+"me045"::	O_K.::	0
+"me010"::	So. The for-  So.  To - to come full  circle  on that, this  formalization  task,::	1
+"me010"::	O_K? is trying to::	1
+"me010"::	get  the formalism into - into a  shape  where it can actually::	0
+"me045"::	Yeah.::	0
+"me010"::	uh d-::	1
+"me045"::	Be of use to someone who's trying to do this, right?::	1
+"me010"::	Well, yeah, where it actually is - is - covers the whole range of things.::	0
+"me010"::	And the - the - the - the thing that got Mark into the  worst  trouble is he::	0
+"me010"::	had a  very  ambitious thing he was trying to do, and::	0
+"me010"::	he insisted on trying to do it with a  limited  set of  mechanisms.  It turned out, inherently  not  to cover the space.::	0
+"me045"::	O_K.::	0
+"me010"::	And it just - it was just  terribly  frustrating for him, and he seemed fully committed to both::	0
+"me045"::	Yeah.::	0
+"me010"::	sides of this::	0
+"me045"::	I see.::	0
+"me010"::	i- i- irreconcilable thing.::	0
+"me045"::	Right.::	0
+"me010"::	And.::	0
+"me010"::	Uh. Johno is  much  more pragmatic.::	0
+"me045"::	O_K.::	0
+"me010"::	Uh.::	0
+"me045"::	Good to know.::	0
+"me010"::	Huh?::	0
+"me010"::	Is - This is true, is it not?::	0
+"me003"::	Yes.::	0
+"me010"::	O_K. So there's you know sort of, yeah, deep, really deep, emotional commitment to a certain theory being::	0
+"me045"::	Oh, O_K.::	0
+"me010"::	uh,  complete.::	0
+"fe004"::	You don't have a hidden purist streak?::	0
+"me003"::	Oh no.::	1
+"fe004"::	O_K. Just checking.::	0
+"me010"::	We- well it hasn't it - it certainly hasn't been  observed,  in any case.::	0
+"me003"::	No sir.::	0
+"me045"::	Alright.::	0
+"me010"::	Um.::	0
+"me010"::	Now,  you  do, but that's O_K.::	0
+"me010"::	Uh. So. For - for -::	0
+"me045"::	Cuz I don't have to implement anything.::	0
+"me010"::	Exactly right.::	0
+"fe004"::	I  have a problem, then.::	0
+"me010"::	Exactly.::	0
+"fe004"::	It's - So. Whether I do depends on whether I'm talking to him or  him  probably. Which meeting I'm in.::	0
+"mn036"::	Hmm.::	0
+"me045"::	Yeah, right.::	0
+"me010"::	Right. Why - a- actually, uh, the thing is, you - you  do  but, th- the thing you have to im- implement is so  small  that -::	0
+"me010"::	Uh.::	0
+"fe004"::	It's O_K to be purist within that context. Yes, good.::	0
+"me010"::	Within  that, yeah, and uh, it's - a- and still, I think, you know, get something done.::	0
+"me045"::	Cool!::	0
+"me010"::	But to try to do something  upscale   and  purist::	0
+"fe004"::	Yay.::	0
+"me045"::	Mm-hmm.::	0
+"me010"::	Particularly if - if::	0
+"me010"::	um::	0
+"me010"::	what you're purist about doesn't actually  work,   is  real  hard.::	0
+"me045"::	Yeah.::	0
+"me010"::	O_K. And then the  other  thing is::	0
+"mn036"::	@@  It's possible yeah.::	0
+"me010"::	while we're doing this::	0
+"me010"::	uh::	0
+"me010"::	Robert's  gonna pick a piece of this space,::	0
+"me045"::	O_K.::	0
+"me010"::	O_K,::	0
+"me010"::	uh,::	0
+"me010"::	for::	0
+"me010"::	his absentee thesis. I think you all know that - that you can just, in Germany -  almost  just send in your thesis.::	0
+"me045"::	Just a drive up. Ca-chuk!  There you go.::	0
+"mn036"::	Um::	0
+"me010"::	Yeah right. O_K.::	0
+"mn015"::	The- th-::	0
+"mn015"::	There - there's a drive-in thesis uh sh-  joint over in Saarbruecken.::	0
+"me045"::	Exactly. Drive through, yeah.::	0
+"me010"::	It  costs  a lot. The - the amount - You put in your  credit  card and -  as  well.  But, uh, - But anyway, so, uh,::	0
+"me010"::	that's::	0
+"me010"::	um, also::	0
+"me010"::	gotta be worked out,  hopefully  over the next few weeks, so that - that it becomes clear::	0
+"me010"::	uh, what piece::	0
+"me010"::	uh, Robert wants to jump into.::	0
+"me010"::	And, while we're  at   this level, uh,::	1
+"me010"::	there's at  least  one new::	0
+"me010"::	doctoral student in  computer  science who will be joining the project, either::	0
+"me010"::	next week or the first of August, depending on::	0
+"me010"::	the blandishments of Microsoft. So, de-::	1
+"me045"::	O_K.::	0
+"me010"::	Uh. And her name is Eva.::	0
+"me045"::	O_K.::	0
+"me010"::	It  really  is. Nobody believed th- th- that -::	0
+"fe004"::	Yeah, I thought it  had  to be a joke,::	0
+"fe004"::	of  your  part, you know like -  "Johno made it up, I'm  sure. "::	0
+"me010"::	Yeah.::	0
+"me012"::	Is this person someone who's in first-year this year, or::	0
+"me010"::	No, first year coming. So, she's - she's now  out  here she's moved, and she'll be a student as of::	0
+"me012"::	O_K.::	0
+"me010"::	then. And  probably  she'll pick up from you on the belief-net stuff, so sh- she'll be chasing you down and stuff like that.::	0
+"me012"::	O_K.::	0
+"mn015"::	Document.::	0
+"me010"::	Uh.::	0
+"me012"::	Right.::	0
+"me010"::	Uh,  against  all traditions.::	0
+"me010"::	And actually I talked today to a::	1
+"me010"::	uh  undergraduate  who wants to do an  honors  thesis on this.::	1
+"me010"::	Uh -::	0
+"fe004"::	Someone from the class?::	0
+"me010"::	No,  interestingly enough.::	0
+"fe004"::	We  always  get these people who are  not  in the class, who - It's interesting.::	0
+"me010"::	Some of th- some of them, yeah.::	0
+"me010"::	So anyway, uh, but uh she's another one of these ones with a three point nine average and so forth and so on.::	0
+"me045"::	Mm-hmm.::	0
+"me010"::	Uh, so,::	0
+"me010"::	um, I've give- I've given her some things to read.::	0
+"me010"::	So we'll see how this goes. Oh there's yet  another  one of the incoming::	1
+"me010"::	first -   incoming  first-year graduate students who's expressed interest, so we'll see how that goes.::	1
+"me010"::	Um,::	0
+"me010"::	anyway,::	0
+"me010"::	so,::	1
+"me010"::	I  think  as far as::	0
+"me010"::	this  group  goes,::	0
+"me010"::	um,::	0
+"me010"::	it's  certainly  worth  continuing::	0
+"me010"::	for the next few  weeks::	0
+"me010"::	to get  closure::	0
+"me010"::	on the uh::	0
+"me010"::	belief-net  and the  ideas  that are involved in that, and what are th- what are the concepts.::	1
+"me010"::	We'll see::	0
+"me010"::	whether::	0
+"me010"::	it's gonna make sense to have this be separate from the other::	0
+"me010"::	bigger effort with the formalization stuff or not, I'm not sure. It partly depends on w-::	0
+"me010"::	what your thesis turns out to be and::	0
+"me010"::	how that goes.::	0
+"me010"::	S- so, we'll see. And then, Ami, you can decide, you know, how much time you wanna put into it and uh,::	0
+"mn036"::	O_K.::	0
+"me010"::	it- it's beginning to  take   shap- shape, so::	0
+"me010"::	uh::	0
+"mn036"::	Right::	0
+"me010"::	and, I think you will find::	0
+"me010"::	that::	0
+"me010"::	if you want to::	0
+"me010"::	look technically::	0
+"me010"::	at some of the - your  traditional  questions in this  light,::	0
+"me010"::	uh Keith, who's buil- building constructions, will be::	0
+"me010"::	quite happy to::	0
+"me010"::	uh::	0
+"me010"::	see what, you know, you envision as the issues and the problems and::	0
+"me010"::	um, how they might uh::	0
+"me010"::	get  reflected  in  constructions.::	0
+"me045"::	Sure.::	0
+"me010"::	I  suspect  that's right.::	0
+"me045"::	Yeah. Yeah.::	0
+"mn036"::	I - I may have to go to Switzerland for - in June or beginning of July for::	0
+"mn036"::	between two weeks and four weeks, but uh,::	0
+"mn036"::	after  that  or  before  that.::	0
+"me010"::	O_K, fine.::	0
+"me010"::	And, um,::	0
+"me010"::	if it's useful we can probably arrange for you to drop by and visit either at Heidelberg or::	0
+"me010"::	at the German A_I center,::	0
+"me010"::	while you're in - in the neighborhood.::	0
+"mn036"::	Right.::	0
+"mn036"::	Yeah be- uh actu- actually::	0
+"mn036"::	I'm invited to do some consulting with a bank in Geneva which has::	0
+"me010"::	Yeah. Yep.::	0
+"mn036"::	an affiliation with a  research  institute in  Geneva,  which I  forgot  the  name  of.::	0
+"me010"::	E- o- do y- Well, we- we're connected to::	0
+"mn036"::	Yeah.::	0
+"me010"::	uh - There's a - there's a - a  very  significant connection between -  We'll  - we'll go through this,::	0
+"mn036"::	Yeah.::	0
+"me010"::	I_C_S_I and E_P_F_L, which is the, uh -::	0
+"me010"::	It's the -::	0
+"me010"::	Fr- Ge- Germany's got two big::	0
+"me010"::	technical  institutes. There's one in - in::	0
+"me010"::	Zurich,::	0
+"mn036"::	Mm-hmm.::	0
+"me010"::	E_T_ H,  and then there's one, the  French  speaking one,::	0
+"me010"::	in  Lausanne,::	0
+"me010"::	O_K? which is uh E_P_F_ L.::	0
+"me045"::	Oh, so in Switzerland.::	0
+"me010"::	So  find  out who they are associated with in Geneva.  Probably  we're connected to them.::	0
+"mn036"::	Great.::	0
+"mn036"::	Right.::	0
+"mn036"::	Great.  I'll let you know.::	0
+"me010"::	O_K.::	0
+"mn036"::	S- I'll send you email.::	0
+"me010"::	Yeah, and so anyway we c- uh -::	1
+"me010"::	We can m- undoubtedly get Ami uh to give a talk at uh E_M_L or something like that. While he's in - in uh -::	1
+"mn015"::	Hmm. Uh. I - I think the one you - you gave here a couple of weeks ago  would  be of interest  there,  too.::	0
+"mn036"::	Sure, yeah.::	0
+"me010"::	A  lot  of interest. Actually,  either  place, D_F_K_I or uh -::	1
+"me010"::	Yeah, so, and - and if there  is  a book, that you'll be building up::	0
+"mn036"::	Yeah.::	0
+"mn036"::	Right.::	0
+"me010"::	some audience for it. And you'll get  feedback  from these guys. Cuz  they've  actually -::	0
+"mn036"::	Great, yeah.::	0
+"me010"::	these  D_F_K_I  guys have done as much as  anyone::	0
+"me010"::	over the last  decade  in trying to  build  them.::	0
+"me010"::	So we'll set that up.::	0
+"mn036"::	Cool.::	0
+"me010"::	O_K. So,::	0
+"me010"::	uh, unless we wanna start::	0
+"me010"::	digging into the -::	0
+"me010"::	uh::	0
+"me010"::	the belief-net and the decisions  now,  which would be fine, it's probably -::	0
+"mn015"::	I - I tho- It's probably better if I come::	0
+"mn015"::	next week with the::	0
+"mn015"::	um::	0
+"mn015"::	version O_ point nine::	0
+"me010"::	O_K. So, how about if you two guys between now and next week::	1
+"mn015"::	of the structure.::	0
+"me010"::	come up with something that::	0
+"me010"::	is partially proposal, and  partially   questions, saying "here's what we think we understand, here are the things we think we  don't  understand".::	1
+"me010"::	And that we as a group will try to - to finish it. What I'd like to do is shoot f- for finishing all this next Monday.::	0
+"me012"::	Sure.::	0
+"me010"::	O_K? Uh, "these are the decisions" - I don't think we're gonna get  lots  more information. It's a  design  problem.::	0
+"me045"::	Mm-hmm.::	0
+"me012"::	Yeah.::	0
+"me010"::	You know. We -::	0
+"me010"::	Yeah.::	0
+"me010"::	And let's come up with a first cut at what this should look like.::	0
+"me010"::	And then finish it up. Does that so- make sense?::	0
+"me045"::	O_K.::	0
+"me045"::	O_K.::	0
+"mn015"::	And um, the - the sem- semester will be over::	0
+"mn015"::	next week but then you have projects::	0
+"mn015"::	for one more week to come?::	0
+"me012"::	No, I - I think I'll be done - everything by this uh - by the end of this week.::	0
+"mn015"::	Same with you? No.::	0
+"me003"::	Nnn. This - Well, I've - I have projects, but then the - my prof- professor of one of my classes also wa- has a final::	0
+"me003"::	that he's giving us. And he's giving us five days to do it which means::	0
+"me003"::	it going to be  hard.::	0
+"me045"::	Yeah.::	0
+"me010"::	Yeah. Oh. is it a take-home final? Who's doing this?::	0
+"me003"::	Yeah. Aikin, Alex, yeah.::	0
+"me010"::	Yeah, figured. That would have been i- my guess.::	0
+"me012"::	Hmm.::	0
+"me010"::	Right.::	0
+"me010"::	Um,::	0
+"me010"::	But  anyway,  yeah.::	0
+"me045"::	Pretty soon.::	0
+"mn015"::	O_K.::	0
+"me010"::	O_K, so I guess that's::	0
+"me003"::	So, the seventeenth will definitely be the last day, like it or not for me.::	0
+"me010"::	Right. right.::	0
+"me010"::	So let's do this, and then we- we- well there's gonna be some separate co- these guys are talking,::	0
+"me010"::	uh we have a group on the formalization, uh Nancy and Johno and I are gonna talk about parsers. So there're various kinds of::	0
+"me045"::	O_K.::	0
+"me010"::	uh -::	0
+"me010"::	Of course,::	0
+"me010"::	nothing  gets done even in a meeting of  seven  people, right? So, um,::	0
+"me045"::	Right.::	0
+"mn015"::	Mmm.::	0
+"me010"::	two or three people is the size in which::	0
+"me010"::	actual  work  gets done.::	0
+"me045"::	Yeah.::	0
+"me010"::	So we'll  do  that.::	0
+"me010"::	Great. Oh, the  other  thing we wanna do is catch up with::	0
+"me010"::	uh,  Ellen  and see what  she's  doing because the um  image  schemas::	0
+"me045"::	Yeah.::	0
+"me010"::	are going to be::	0
+"me010"::	um, an important pa- We - we  want  those, right? And we want them  formalized  and stuff like that.::	0
+"me045"::	Quite relevant, yeah.::	0
+"me045"::	Yeah, oh yeah.::	0
+"me045"::	Yeah.::	0
+"me010"::	So let me - let me make a  note  to do that.::	0
+"me045"::	O_K. Yeah, I'm actually probably going to be in contact with her uh pretty soon anyway because of various of us students were going to have a reading group about::	1
+"me003"::	O_K.::	0
+"me045"::	precisely that sort of thing over the summer, so.::	1
+"me010"::	Oh right! Right right right! That's great! Yeah, I - I - Shweta mentioned that,::	0
+"me045"::	O_K.::	0
+"me010"::	although she said it's a  secret.::	0
+"me003"::	Hi  @@::	0
+"me045"::	Right, no faculty!::	0
+"me010"::	Th- the faculty aren't - faculty aren't supposed to know.::	0
+"me003"::	Wednesday's much better for me, yeah.::	0
+"me010"::	But um,::	0
+"me010"::	I'm  sufficiently clueless that I count as a -::	0
+"me045"::	Yeah, right.  It's as if we didn't tell anyone at all, right.::	0
+"me003"::	Bhaskara.::	0

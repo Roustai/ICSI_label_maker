@@ -1,0 +1,1467 @@
+"me045"::	As usual.::	0
+"me003"::	Yes.::	0
+"me003"::	Whew!::	0
+"me003"::	I almost forgot  about the meeting.::	0
+"me003"::	I woke up twenty minutes ago, thinking,::	0
+"me045"::	Oy.::	0
+"me003"::	what did I forget?::	0
+"mn015"::	It's great how the br-  brain  sort of  does  that.::	0
+"me045"::	Something's not right here.::	0
+"me003"::	Internal alarms.::	0
+"mn015"::	O_K.::	0
+"mn015"::	So the news for me is A_, my::	0
+"mn015"::	forthcoming travel plans::	0
+"mn015"::	in two weeks::	0
+"me003"::	Yes.::	0
+"mn015"::	from today?::	0
+"mn015"::	Yeah?::	0
+"mn015"::	More or less?::	0
+"mn015"::	I'll be off to Sicily and Germany::	0
+"mn015"::	for a couple, three days.::	0
+"me003"::	Now what are y- what are you doing there? I forgot?::	0
+"mn015"::	O_K, I'm flying to Sicily basically to drop off Simon::	0
+"mn015"::	there with his grandparents. And then I'm flying to Germany t- to go to a MOKU-Treffen which is::	0
+"mn015"::	the meeting of all the module-responsible people in SmartKom,::	0
+"me003"::	Mmm.::	0
+"mn015"::	and, represent I_C_I::	0
+"mn015"::	and myself I guess::	0
+"mn015"::	there.::	0
+"mn015"::	And um.::	0
+"mn015"::	That's the::	0
+"mn015"::	mmm::	0
+"mn015"::	actual reason.::	0
+"mn015"::	And then I'm also going up to E_M_L::	0
+"mn015"::	for a day, and then I'm going to::	0
+"mn015"::	meet the  very  big boss, Wolfgang Walster,::	0
+"mn015"::	in Saarbruecken and the   System   system integration people in Kaiserslautern::	0
+"mn015"::	and then I'm flying back via Sicily::	0
+"mn015"::	pick up my son::	0
+"mn015"::	come back here on the fourth of July.::	0
+"me045"::	What a great time to be coming back to the U_S_-of-A_.::	0
+"mn015"::	And uh.::	0
+"me003"::	God bless America.::	0
+"me045"::	You'll see maybe - see the fireworks from your plane coming in.::	0
+"mn015"::	And I'm sure all the - the people at the airport will be  happy  to work on that day.::	0
+"me045"::	Yeah.::	0
+"me045"::	You'll get even better service than usual.::	0
+"mn015"::	Mm-hmm.::	0
+"me003"::	Wait, aren't you flying on Lufthansa though?::	0
+"mn015"::	Alitalia.::	0
+"me003"::	Oh. Well then the - you know, it's not a big deal.::	0
+"me003"::	Once you  get  to the United States it'll be a problem, but::	0
+"mn015"::	Yeah.::	0
+"mn015"::	And um,::	0
+"mn015"::	that's  that  bit of news, and the  other  bit of news is we had - you know, uh, I was visited by my::	0
+"mn015"::	German project manager::	0
+"mn015"::	who A_, did like what we did -::	0
+"mn015"::	what we're doing here, and B_,::	0
+"mn015"::	is planning to come here either three weeks in July or three weeks in  August,::	0
+"mn015"::	to actually  work.::	0
+"me003"::	On - ?  Oh.::	0
+"mn015"::	With us.::	0
+"mn015"::	And we sat around and we talked and he came up - we came up - with a::	0
+"mn015"::	pretty strange idea.::	0
+"mn015"::	And that's what I'm gonna lay on you now.::	0
+"mn015"::	And um, maybe it might be ultimately the most interesting thing for  Eva::	0
+"mn015"::	because she has::	0
+"fn050"::	O_K.::	0
+"mn015"::	been known to complain about the fact that the stuff we do here is not weird enough.::	0
+"mn015"::	So this is so weird it should even::	0
+"fn050"::	Uh.  O_K.::	0
+"mn015"::	make  you  happy.::	0
+"me045"::	Oh great.::	0
+"mn015"::	Imagine::	0
+"mn015"::	if you will,::	0
+"mn015"::	that we have a system that does all that understanding::	0
+"mn015"::	that we want it to do::	0
+"me003"::	Mm-hmm.::	0
+"mn015"::	based on utterances.::	0
+"mn015"::	It should be possible::	0
+"mn015"::	to make that system  produce::	0
+"mn015"::	questions.::	0
+"mn015"::	So if you have the knowledge of how to interpret "where is X_?"::	0
+"me045"::	Mm-hmm.::	0
+"mn015"::	under given conditions,::	0
+"mn015"::	situational, user, discourse and ontological::	0
+"mn015"::	conditions,::	0
+"mn015"::	you should also be able to make that same system  ask::	0
+"mn015"::	"where is X_?"::	0
+"mn015"::	in a sper- certain way,::	0
+"mn015"::	based  on::	0
+"mn015"::	certain intentions.::	0
+"mn015"::	So in- instead of just being able to::	0
+"me045"::	Hmm.::	0
+"mn015"::	observe  phenomenon,::	0
+"mn015"::	um, and,::	0
+"mn015"::	guess the intention we::	0
+"mn015"::	might  be able just to::	0
+"mn015"::	sort of::	0
+"mn015"::	give it an intention, and make it produce an utterance.::	0
+"me003"::	Well, like in::	0
+"me003"::	A_I they generally do the::	0
+"me003"::	take in, and then they also do the generation phase, like  Nancy's  thing.::	0
+"me003"::	Or uh,::	0
+"me003"::	you  remember , in the - the hand::	0
+"me003"::	thing in one-eighty-two, like not only was it able to recognize but it was also to generate based upon situations. You mean  that  sort of thing?::	0
+"mn015"::	Absolutely.::	0
+"me003"::	O_K.::	0
+"mn015"::	And once you've  done  that::	0
+"mn015"::	what we can do is have the system ask::	0
+"mn015"::	itself.::	0
+"mn015"::	And answer,::	0
+"mn015"::	understand the answer,::	0
+"mn015"::	ask something else,::	0
+"mn015"::	and enter a dialogue with itself. So the - the ba- basic - the same idea as having two chess computers play against each other.::	0
+"me045"::	Except this smacks a little bit more of a schizophrenic computer than A_I.::	0
+"mn015"::	Yeah you c- if you want, you can have two parallel  machines::	0
+"mn015"::	um, asking each  other.::	0
+"mn015"::	What  would that  give  us? Would  A_  be something completely weird and strange,::	0
+"mn015"::	and  B_ , i-::	0
+"me045"::	That's good.::	0
+"mn015"::	if you look at all the factors,::	0
+"mn015"::	we will never observe::	0
+"mn015"::	people::	0
+"mn015"::	let's say, in wheelchairs under - you know, in - under all conditions, you know,::	0
+"mn015"::	when they say "X_", and there  is  a ride at the goal, and the parking is  good,::	0
+"mn015"::	we can  never  collect enough data.::	0
+"mn015"::	It's - it's - it's not possible.::	0
+"me045"::	Mm-hmm.::	0
+"me045"::	Right, right.::	0
+"mn015"::	But maybe one could do some learning.::	0
+"mn015"::	If you get the system to speak to itself,::	0
+"mn015"::	you may find n-::	0
+"mn015"::	break downs and errors::	0
+"mn015"::	and you may be able to::	0
+"mn015"::	learn.::	0
+"mn015"::	And make it::	0
+"mn015"::	more robust, maybe learn new things.::	0
+"mn015"::	And um,::	0
+"mn015"::	so there's no -::	0
+"mn015"::	no  end  of  potential  things one could get  out  of it,::	0
+"mn015"::	if that works.::	0
+"mn015"::	And he would like to actually  work  on that::	0
+"mn015"::	with us.::	0
+"mn015"::	So-::	0
+"me003"::	Well then, he  probably  should be coming back a  year   from now.::	0
+"mn015"::	Yeah, I w-::	0
+"mn015"::	See the - the  generation  bit, making the system generate -  generate  something,::	0
+"mn015"::	is - shouldn't be  too  hard.::	0
+"me003"::	Well, once the system  understands  things.::	0
+"me045"::	Yeah. No  problem.::	0
+"me003"::	I just don't think -::	0
+"me003"::	I think we're probably a year away from getting the system to  understand  things.::	0
+"mn015"::	Yeah.::	0
+"mn015"::	Well, if we can get it to understand  one  thing, like our "where is"::	0
+"mn015"::	run through::	0
+"mn015"::	we can also, maybe, e- make it  say,  or  ask::	0
+"mn015"::	"where is::	0
+"mn015"::	X_?"::	0
+"mn015"::	Or  not.   @@::	0
+"me045"::	Mmm, I don't know. e- I'm sort of - have the impression that getting it to say the right thing in the right circumstances is much more difficult than::	1
+"me045"::	getting it to understand something given the circumstances and so on, you know, I mean just cuz it's sort of harder to::	1
+"me045"::	learn to::	0
+"me045"::	speak correctly in a foreign language, rather than::	0
+"me045"::	learning to  understand  it. Right? I mean::	0
+"mn015"::	@@::	0
+"me045"::	just the fact that we'll get - The point is that getting it to  understand  one construction doesn't mean that it will n- always know exactly when it's correct to  use  that construction.  Right?::	1
+"mn015"::	It's - it's uh -::	0
+"mn015"::	Well, I've - I've done generation and language production research for fo- four - four and a half years. And so it's - it's - you're right, it's not the  same  as the understanding.::	0
+"mn015"::	It's in some ways easier and some ways harder.  nuh?  But, um,::	0
+"me045"::	Yeah.::	0
+"mn015"::	I think it'd be::	0
+"mn015"::	fun to look  at  it, or  into  that question.::	0
+"me045"::	Nnn, yeah.::	0
+"mn015"::	It's a  pretty  strange idea. And so that's - that's - But -::	0
+"me003"::	The basic idea I guess would be to give - allow the system to have intentions, basically?::	1
+"me003"::	Cuz that's basically what needs to be added to the  system  for it.::	0
+"mn015"::	Well, look at th-::	0
+"mn015"::	eee, I think even - think even -::	0
+"mn015"::	What it - would be the - the prior intention.::	0
+"mn015"::	So let's uh - uh, let's say we have this -::	0
+"me003"::	Well we'd have to  seed   that,  I mean.::	0
+"mn015"::	No. Let's - we have to - we have some - some  top-down   processing, given certain setting.::	0
+"mn015"::	O_K, now we change  nothing,  and just say  ask  something.::	0
+"mn015"::	Right?::	0
+"me003"::	@@::	0
+"mn015"::	What would it ask?::	0
+"me003"::	It wouldn't know  what  to ask. I mean.::	0
+"mn015"::	It shur-::	0
+"me003"::	Unless it was in a  situation.  We'd have to set up a situation where,::	0
+"mn015"::	Yeah!::	0
+"me003"::	it didn't know where something was and it wanted to  go  there.::	0
+"fn050"::	Mm-hmm.::	0
+"mn015"::	Yeah.::	0
+"me003"::	Which means that we'd need to set up an  intention  inside of the  system.::	0
+"me003"::	Right?::	0
+"me003"::	Which is basically, "I don't know where something is and I need to  go  there".::	0
+"mn015"::	Eh, n-::	0
+"me045"::	Yeah.::	0
+"mn015"::	Ooh, do we  really  need to  do  that?::	0
+"mn015"::	Because,::	0
+"me003"::	Well,  no  I guess  not.  Excel-::	0
+"mn015"::	s-::	0
+"mn015"::	It's - i- I  know  it's - it's  strange,  but::	0
+"mn015"::	look at it -::	0
+"mn015"::	look at our Bayes-net. If we  don't   have  -::	1
+"mn015"::	Let's assume we  don't  have any  input::	0
+"mn015"::	from the language.::	0
+"mn015"::	Right?::	1
+"mn015"::	So there's also  nothing  we could query the ontology, but we have a certain user setting.::	1
+"mn015"::	If you just ask, what is the likelihood of that person wanting to  enter  some - something, it'll  give  you an  answer.::	1
+"mn015"::	Right? That's just how they  are.::	0
+"me003"::	Sure.::	0
+"mn015"::	And so,  @@   whatever  that  is,  it's the generic default intention.::	1
+"mn015"::	That it would find  out.  Which is,::	1
+"mn015"::	wanting to know where something is, maybe nnn - and wanting -::	0
+"mn015"::	I don't know  what  it's gonna be, but there's gonna be  something  that::	0
+"me045"::	Well you're not gonna - are you gonna get a  variety  of intentions out of that then? I mean, you're just talking about like given  this   user,::	0
+"me045"::	what's the th- what is it - what is that user most likely to want to do?::	0
+"me045"::	And, have it talk about -::	0
+"mn015"::	Well you can observe some user and  context  stuff and ask, what's the::	1
+"mn015"::	posterior probabilities of all of our  decision  nodes.::	1
+"me045"::	O_K.::	0
+"mn015"::	You could even say, "let's take  all  the priors, let's observe  nothing ", and query all the posterior probabilities.::	0
+"mn015"::	It- it's gonna tell us  something.::	0
+"mn015"::	Right?::	0
+"me003"::	Well, it will d-::	1
+"mn015"::	And -::	0
+"me003"::	r-::	0
+"me003"::	assign  values  to all the nodes. Yes.::	1
+"mn015"::	Yes. And come up with::	0
+"mn015"::	posterior probabilities for all the values of the  decision  nodes.::	0
+"mn015"::	Which, if we have an algorithm that filters out whatever the - the best or the most consistent::	0
+"mn015"::	answer out of that,::	0
+"mn015"::	will give us the::	0
+"mn015"::	intention   ex nihilo.::	0
+"mn015"::	And that is exactly what would  happen  if we ask it to  produce  an utterance, it would be b- based on that extension,   ex nihilo,   which we don't know what it  is,  but it's  there.::	0
+"mn015"::	So we wouldn't even have to - t- to  kick  start it by  giving  it a certain intention or::	0
+"mn015"::	observing  anything on the  decision  node.::	0
+"mn015"::	And whatever that -::	0
+"mn015"::	maybe that would lead to "what is the castle?", or "what is  that  whatever".::	0
+"me003"::	I'm just -::	0
+"me003"::	I  guess  what I'm  afraid  of is if we don't,::	0
+"me003"::	you know, set up a  situation,::	0
+"me003"::	we'll just get a bunch of garbage out, like::	0
+"me003"::	you know, everything's exactly thirty percent.::	0
+"mn015"::	No -::	0
+"fn050"::	Mmm.::	0
+"mn015"::	Yeah. So what we actually then need to  do  is - is write a little script that changes all the settings, you know,::	1
+"mn015"::	go- goes through all the permutations, which is - we did a - didn't we calculate that once? It's a -::	1
+"me003"::	Well that was - that was absurdly low, in the last meeting,  cuz I went and looked at it cuz I was thinking, that could not be right, and it would - it was on the order of::	0
+"fn050"::	Uh,::	0
+"me003"::	twenty output nodes and something like twenty -::	0
+"fn050"::	And like thirty input nodes or some -::	0
+"me003"::	thirty input nodes.::	0
+"me003"::	So to  test  every  output  node,::	0
+"me003"::	uh, would at  least  -::	0
+"me003"::	Let's see, so it would be two to the thirty for every output node?::	1
+"me003"::	Which is very th- very large.::	1
+"mn015"::	Oh! That's n-::	0
+"me045"::	Oh.::	0
+"mn015"::	that's - that's  nothing  for those  neural  guys. I mean, they train for millions and millions of epochs. So.::	0
+"me003"::	Well, I'm talking about::	0
+"me003"::	Oh, I was gonna take a drink of my water.::	0
+"me003"::	I'm talking about billions and billions and billions and::	0
+"me003"::	a number - two to the thirty is::	0
+"me003"::	like a-::	0
+"me003"::	Bhaskara said, we had calculated out and Bhaskara believes that it's larger than the number of particles in the universe.::	0
+"me045"::	I don't know if that's right or  not.::	0
+"me003"::	And if i-::	0
+"me045"::	Th- that's  big.::	0
+"me045"::	That's just - That's uh - It's a  billion,  right?::	0
+"me003"::	Two to the thirty?::	0
+"me003"::	Well, two to the thirty is a billion, but if we have to do it two to the twenty times,::	0
+"me045"::	Right.::	0
+"me045"::	Argh .::	0
+"me003"::	then that's a very very large number.::	0
+"me045"::	Oh, O_K. Yeah. Yeah, that's big.::	0
+"me003"::	Cuz you have to query the node, for every a-::	0
+"me045"::	Sure.::	0
+"me045"::	Alright.::	0
+"me003"::	uh, or query the net::	0
+"me003"::	two to the twenty times.::	0
+"me003"::	Or not two to th- excuse me,  twenty  times.::	0
+"me045"::	O_K. So, is it t- comes to twenty billion or something?::	0
+"me003"::	Yes.::	0
+"me045"::	That's pretty big, though.::	0
+"me003"::	As far as - That's  @@  - That's  big.  Actually - Oh! We calculated a  different  number before. How did we  do  that?::	0
+"fn050"::	Hmm.::	0
+"me045"::	I remember there being some other one floating around. But  anyway,  uh.::	0
+"fn050"::	I don't really know.::	0
+"me045"::	Yeah, it's g-  Anyway,  the point is that given all of these different factors, it's uh e- it's - it's  still  going to be  impossible  to run through all of the possible::	1
+"fn050"::	Ooo, it's just big.::	0
+"me045"::	situations  or whatever. But I mean, this'll get us a bit  closer  at least, right? I mean.::	1
+"me003"::	If it takes us a  second  to do, for each  one,  and let's say it's twenty billion,::	0
+"me003"::	then that's twenty billion seconds, which is -::	0
+"me045"::	Yeah.::	0
+"me003"::	Eva, do the math.::	0
+"me045"::	Long!::	0
+"fn050"::	Can't .::	0
+"fn050"::	@@::	0
+"me003"::	Hours and hours and hours and hours.::	0
+"me003"::	But we can do  randomized  testing.::	1
+"me045"::	Tah-dah!::	0
+"me003"::	Which probabilistically will be good enough.::	1
+"mn015"::	Mm-hmm.::	0
+"mn015"::	Yeah. So, it be it- it's an idea that one could n-::	1
+"mn015"::	for - for example run - run past, um,::	1
+"mn015"::	what's  that guy's name?::	0
+"mn015"::	You know? He- he's usually here.::	0
+"mn015"::	Tsk.::	0
+"me045"::	Here in the group?::	0
+"mn015"::	J- J- Jer- Jerj-::	0
+"me045"::	Jerry Feldman.::	0
+"mn015"::	Oh, yeah.  That's  the guy. We - we - we - we g-::	0
+"me003"::	Wait,  who?::	0
+"me045"::	Yeah, i- that would the g- the bald guy.::	0
+"me003"::	Oh!  My  advisor!::	0
+"mn015"::	And um.::	0
+"mn015"::	so this is just an idea that's floating around and we'll see what happens.::	0
+"mn015"::	And um, hmm,::	0
+"mn015"::	what other news do  I  have?::	0
+"mn015"::	Well we fixed some more things from the  SmartKom  system, but that's not really of general interest,::	1
+"mn015"::	Um,::	0
+"mn015"::	Oh!  Questions,  yeah. I'll ask Eva about the E_Bayes and she's working on that.::	0
+"mn015"::	How is the generation X_M_L::	1
+"mn015"::	thing?::	1
+"me003"::	I'm gonna work on that today and tomorrow.::	0
+"mn015"::	O_K. No need to do it today or  tomorrow  even. Do it  next  week or -::	0
+"me003"::	I'm gonna finish it today, uh hopefully.::	1
+"mn015"::	O_K.::	0
+"me003"::	I wanna do one of those things where I stay here. Cuz uh, if I go home, I can't finish it. I've tried::	0
+"me003"::	about five times so far,::	0
+"me003"::	where I work for a while and then I'm like,::	0
+"me003"::	I'm hungry.::	0
+"me003"::	So I go home, and then I think -::	0
+"me045"::	I'm not going back.::	0
+"me003"::	Yeah.::	0
+"me003"::	Either that or I think to myself, I can work at  home.  And then I  try  to work at home, but I fail miserably.::	0
+"me045"::	Yeah.::	0
+"me003"::	Like I ended up at Blakes last night.::	0
+"me045"::	Non-conducive.::	0
+"me003"::	No.::	0
+"me003"::	I almost got into a brawl.::	0
+"me003"::	But I did not finish::	0
+"me003"::	the uh, SmartKom.::	0
+"me003"::	But I've been looking  into  it.::	0
+"me003"::	I th-  @@  It's not like it's a blank slate.::	0
+"me003"::	I found everything that I need and stu- and uh,::	0
+"mn015"::	But st-::	0
+"me003"::	At the b- uh furthermore, I told Jerry that I was gonna finish it before he got back. So.::	0
+"mn015"::	O_K.::	0
+"me045"::	That's approaching. He's coming back when? Uh next -::	0
+"me003"::	Well,::	0
+"me003"::	I think - we think we'll see him definitely on  Tuesday  for the next - Or, no, wait. The meetings are on  Thursday.::	0
+"mn015"::	Maybe.::	0
+"mn015"::	Who knows.::	0
+"me003"::	Maybe.::	0
+"me045"::	O_K.::	0
+"me003"::	Well, we'll see him next week.::	0
+"me045"::	Alright.::	0
+"mn015"::	That's good.::	0
+"mn015"::	Yeah.::	0
+"mn015"::	The paper.::	0
+"me045"::	Hmm.::	0
+"mn015"::	Hmm.::	0
+"me003"::	I was  thinking  about that. I think::	0
+"me003"::	I will try to work on the SmartKom stuff::	0
+"me003"::	and I'll - if I can finish it today, I'll help you with that tomorrow,::	0
+"me003"::	if you work on it?::	0
+"me003"::	I don't have a problem with us working on it though? So.::	0
+"mn015"::	O_K.::	0
+"mn015"::	So you would say it's::	0
+"me003"::	And it -::	0
+"mn015"::	funky::	0
+"mn015"::	cool.::	0
+"me003"::	I mean we just  - I mean it wouldn't hurt to write up a paper, cuz then, I mean, yeah - I was talking with Nancy and Nancy said, you don't know whether you have a paper to  write up until you write it up. So.::	1
+"me045"::	Yeah.::	0
+"mn015"::	Well::	0
+"me003"::	And since Jerry's coming back, we can run it by him too. So.::	0
+"mn015"::	Yep.::	0
+"mn015"::	Um, what's your input?::	0
+"me045"::	Well, um,::	0
+"me045"::	I don't have much experience with uh, conference papers for compu- in the computer science realm, and so when I looked at what you had,::	0
+"me045"::	which was apparently a complete submission, I just sort of said::	0
+"me045"::	what - just -::	0
+"me045"::	I - I didn't really know what to  do  with it, like, this is the sort of the basic outline of the system or whatever, or - or::	0
+"me045"::	"here's an idea", right? That's what that paper was, "here's - here's one possible thing you could do",::	0
+"mn015"::	Mm-hmm.::	0
+"me045"::	short,::	0
+"me045"::	eight pages, and I just don't know::	0
+"me045"::	what you have in mind for expanding. Like I'd - I - what I  didn't  do is go to the web site of the conference and look at what they're looking for or whatever.::	0
+"mn015"::	Mm-hmm.::	0
+"mn015"::	Well, it seems to me that::	0
+"mn015"::	um -::	0
+"me003"::	Wait, is this a computer science conference or is it a -::	1
+"mn015"::	Um, well it's more -::	0
+"mn015"::	It's  both,  right? It's - it's sort of::	1
+"mn015"::	t- cognitive, neural, psycho, linguistic, but all for the sake of doing  computer  science.::	1
+"mn015"::	So it's sort of cognitive, psycho, neural, plausibly motivated, architectures of natural  language  processing.::	1
+"mn015"::	So it seems pretty interdisciplinary, and I mean, w- w- the keynote speaker is Tomasello and blah-blah-blah, so,::	0
+"me045"::	Right. Oh, yeah.::	0
+"mn015"::	W- the - the question is what could we actually::	0
+"mn015"::	do and - and - and keep a straight face while doing it.::	0
+"mn015"::	And i-::	0
+"me003"::	Well, I really can't keep a straight face doing  anything.::	0
+"mn015"::	My  idea   is,::	0
+"me045"::	Setting that aside.::	0
+"mn015"::	well, you can say we have done a little bit and that's   this,   and uh sort of the rest is position paper, "we wanna also do  that ". Which is not::	0
+"mn015"::	too good.::	0
+"mn015"::	Might  be more interesting to do something like::	1
+"mn015"::	let's  assume::	0
+"mn015"::	um,::	0
+"mn015"::	we're right,::	1
+"mn015"::	we have as Jerry calls it, a delusion of adequacy,::	0
+"mn015"::	and take a "where is X_" sentence,::	1
+"me045"::	Mm-hmm.::	0
+"mn015"::	and say, "we will just talk about this, and how we::	1
+"mn015"::	cognitively, neurally,::	0
+"mn015"::	psycho-linguistically, construction grammar-ally,::	0
+"me045"::	Mmm.::	0
+"mn015"::	motivated,::	0
+"mn015"::	envision::	0
+"mn015"::	uh, understanding that".::	1
+"mn015"::	So we can actually show how we parse it.::	0
+"mn015"::	That should be able to - we should be able to come up with, you know, a sort of a - a parse.::	1
+"me045"::	Right.::	0
+"fe004"::	I'm sorry. I'm sorry. I'm sorry.::	0
+"mn015"::	It's on, just - just put it on.::	0
+"fe004"::	O_K.::	0
+"me003"::	Did Ben harass you?::	0
+"fe004"::	Hi.::	0
+"fe004"::	Yes.::	0
+"me003"::	Good.::	0
+"fe004"::	Was he supposed to harass me?::	0
+"me003"::	Yes.::	0
+"fe004"::	Well, he just  told  me that you came  looking  for me.::	0
+"mn015"::	You don-::	0
+"mn015"::	@@::	0
+"me003"::	Oh.::	0
+"fe004"::	@@  figure this out.::	0
+"mn015"::	You will suffer in hell, you know that.::	0
+"me045"::	Backwards.::	0
+"me045"::	There's a s-::	0
+"me045"::	diagram somewhere which tells you how to put that -::	0
+"fe004"::	I  know,  I didn't understand that  either!::	0
+"mn015"::	This  is it.::	0
+"me003"::	No wait. You have to put it on exactly like that, so put that - those things over your ears like that.::	0
+"mn015"::	Yeah.::	0
+"fe004"::	O_K.::	0
+"me003"::	See the p- how the plastic things ar- arch out like that?  There  we go.::	0
+"fe004"::	O_K.::	0
+"fe004"::	It hurts.::	0
+"me003"::	It hurts. It hurts real bad.::	0
+"fe004"::	It does!::	0
+"me045"::	But that's what you get for coming late to the meeting.::	0
+"fe004"::	I'm sorry I didn't mean to - I'm sorry.::	0
+"fe004"::	I'm sorry, oh these are all the same.::	0
+"fe004"::	O_K! th- this is not very  on target.::	0
+"me003"::	Is your mike on?::	0
+"fn050"::	An-::	0
+"mn015"::	Yeah, it is.::	0
+"fe004"::	Shoot.::	0
+"me003"::	O_K.::	0
+"fe004"::	Alright, you guys can continue talking about whatever you were talking about before.::	0
+"me045"::	Um,::	0
+"mn015"::	We're talking about this um, alleged paper that we may, just, sort of w-::	0
+"fe004"::	Oh! Which Johno mentioned to me. Uh-huh.::	0
+"mn015"::	Yeah.::	0
+"mn015"::	And I just sort of::	0
+"mn015"::	brought forth the idea that::	0
+"mn015"::	we take a sentence, "Where is the Powder-Tower",::	0
+"fe004"::	Mm-hmm.::	0
+"mn015"::	and we - we p-::	0
+"mn015"::	pretend to parse it,::	0
+"mn015"::	we pretend to understand it,::	0
+"fe004"::	@@::	0
+"mn015"::	and we write about it.::	0
+"me045"::	Hmm.::	0
+"me045"::	About how  all of these things -::	0
+"fe004"::	What's the part that's not pretend? The writing?::	0
+"mn015"::	O_K, then we  pretend  to write about.::	0
+"me045"::	The submitting to a major international conference.   Yeah.::	0
+"fe004"::	Tha-  Which conference is it for?::	0
+"mn015"::	It's the whatever, architectures, eh you know, where -::	0
+"mn015"::	There is this conference, it's the seventh already international conference, on neu- neurally, cognitively, motivated, architectures of natural language processing.::	0
+"fe004"::	Oh.::	0
+"fe004"::	Wow.::	0
+"mn015"::	And::	0
+"fe004"::	Interesting.::	0
+"mn015"::	the  keynote speakers are Tomasello,  MacWhinney?   We- MacWhinney, I think.::	1
+"fe004"::	Whinney.  MacWhinney. Uh-huh.::	0
+"me045"::	MacWhinney.::	0
+"fe004"::	So, interesting, both, like,  child  language people.::	0
+"mn015"::	Yeah.::	0
+"mn015"::	Yep.::	0
+"fe004"::	O_K.::	0
+"mn015"::	So maybe you wanna write something  too.::	0
+"fe004"::	Yeah, maybe I wanna  go.::	0
+"me045"::	Mmm.  Mmm.::	0
+"fe004"::	Um, why are they  speaking  at it if it - is - is it normally like - like, dialogue systems, or, you know, other N_L_P-ish things?::	0
+"mn015"::	No no no no no no no no. It's - it's like a -::	0
+"fe004"::	Oh, it's  cognitive.  O_K.::	0
+"mn015"::	Yeah. Yeah.::	0
+"mn015"::	Even  neuro.::	0
+"fe004"::	And::	0
+"fe004"::	uh, both learning and like, comprehension, production, that kinda stuff.::	0
+"mn015"::	Psycho.::	0
+"mn015"::	@@::	0
+"mn015"::	You could look at the web site.::	0
+"fe004"::	O_K.::	0
+"mn015"::	I'll -::	0
+"fe004"::	O_K.::	0
+"mn015"::	And the ad- and - and the deadline is the fifteenth of June.::	0
+"fe004"::	I don't know about it.::	0
+"fe004"::	Yeah that's pretty soon.::	0
+"me045"::	Mmm.::	0
+"mn015"::	Hey.  Plenty  of time.::	1
+"me045"::	Why, we've got over a  week!::	0
+"mn015"::	It  would  be nice to go write  two  papers actually. Yeah. And one - one from  your  perspective, and one from  our  peve- per- per-::	0
+"fe004"::	Mm-hmm.::	0
+"fe004"::	I mean, th- that's the kinda thing that maybe like, um, the general::	0
+"fe004"::	uh con- sort of like N_T_L-ish like, whatever, the::	0
+"fe004"::	previous simulation based pers-  maybe you're talking about the same kind of thing. A  general  paper about::	0
+"fe004"::	the approach here would probably be appropriate.::	0
+"mn015"::	Yeah.::	0
+"fe004"::	And good to do at some point anyway.::	0
+"mn015"::	Yeah.::	0
+"fe004"::	Um.::	0
+"mn015"::	Well, I - I also think that if we sort of::	1
+"mn015"::	write about what we have done in the past six  months,::	0
+"mn015"::	we - we - we could::	0
+"mn015"::	sort of craft a nice little paper that  if it gets rejected, which could happen,::	0
+"fe004"::	Mm-hmm.::	0
+"mn015"::	doesn't hurt because it's something we eh -::	1
+"fe004"::	Having it is still a good thing.::	0
+"mn015"::	having it is a good - good thing.  It's a nice exercise, it's -::	0
+"fe004"::	Yeah.::	0
+"mn015"::	I usually enjoy writing papers. It's not - I don't re- regard it as a painful thing.::	0
+"fe004"::	Mm-hmm. It's fun.::	0
+"mn015"::	And um, we should all do more for our publication lists. And. It just never hurts.::	0
+"mn015"::	And::	0
+"mn015"::	Keith and-or Johno will go, probably.::	0
+"me003"::	Will I?::	0
+"fe004"::	When is it and where?::	0
+"me045"::	Hmm!::	0
+"mn015"::	In case of -::	0
+"mn015"::	It's on the twenty second of September, in Saarbruecken Germany.::	0
+"fe004"::	Ah, it's in Germany. Ah, O_K. I s- I see. Tomasello's already in Germany anyway, so makes sense. O_K.::	0
+"me045"::	Just -::	0
+"fe004"::	Um.::	0
+"fe004"::	O_K. So, is the - What - Are you just talking about::	0
+"fe004"::	you know, the details of how to do it, or whether to do it, or what it would be?::	0
+"me045"::	What would one possibly put in such a paper?::	1
+"mn015"::	What to write  about.   What is our - what's our take home message. What - what do we actually -::	0
+"fe004"::	Or what to write about?::	0
+"mn015"::	Because I mean, it - I don't like papers where you just talk about what you  plan  to do.::	0
+"mn015"::	I mean,::	1
+"mn015"::	it's obvious that we can't do any kind of evaluation, and have no - you know, we can't write an A_C_L type paper where we say, "O_K, we've done this and now we're::	1
+"fe004"::	Mm-hmm.::	0
+"mn015"::	whatever percentage better than everybody else". You know.::	1
+"fe004"::	Mm-hmm.::	0
+"mn015"::	It's far too  early  for that.::	0
+"mn015"::	But uh, we - we can tell them what we think. I mean that's -::	0
+"mn015"::	never hurts to try.::	0
+"mn015"::	And um,::	1
+"mn015"::	maybe even - That's maybe the time to introduce the - the new formalism that you guys have cooked up.::	1
+"fe004"::	Mm-hmm.::	0
+"me045"::	Are in the process of -::	0
+"me003"::	But that -::	0
+"fe004"::	How many pages?::	0
+"me003"::	don't they need to finish the formalism?::	0
+"mn015"::	It's just like four pages. I mean it's - it's not even a h-::	0
+"me045"::	Yeah.::	0
+"fe004"::	Four pages?::	0
+"fe004"::	O_K, so it's a little thing.::	0
+"mn015"::	Mm-hmm.::	0
+"fe004"::	Oh.::	0
+"me003"::	Well, you said it was four thousand lines? Is that what you s-::	0
+"me045"::	Oh.::	0
+"fe004"::	O_K. Four pages is, like,  really  not very much::	0
+"mn015"::	I don't know w- Did you look at it?::	0
+"mn015"::	Yeah,  it  depends on the format.::	0
+"fe004"::	space.::	0
+"me045"::	Oh my gosh. Oh, I thought you were - I thought we were talking about something which was much::	0
+"mn015"::	No that's - I mean that's actually a  problem.  It's difficu- it's more  difficult  to write on four pages than on eight.::	0
+"me045"::	more like ten or something.::	0
+"fe004"::	It's - Yeah.::	0
+"me045"::	Yeah.::	0
+"fe004"::	And it's also difficult to - even if you  had  a lot of substance, it's hard to demonstrate that in four pages, basically. Um.::	0
+"me045"::	Yeah.::	0
+"me045"::	That would be hard.::	0
+"mn015"::	Well I uh maybe it's just four thousand lines. I do- I don't - They don't want any -::	0
+"fe004"::	I mean it's still - it's still -::	0
+"mn015"::	They don't have a TeX f- style  @@  guide. They just want ASCII. Pure ASCII::	0
+"fe004"::	Uh-huh, uh-huh.::	0
+"fe004"::	O_K.::	0
+"mn015"::	lines, whatever. Why, for whatever reason, I don't know.::	0
+"fe004"::	Not including figures and such?::	0
+"mn015"::	I don't know.::	0
+"mn015"::	Very unspecific unfortunately.::	0
+"fe004"::	O_K.::	0
+"fe004"::	Well,::	0
+"mn015"::	We'll just uh -::	0
+"me003"::	I would say that's closer to  six  pages actually. Four thousand lines of ASCII?::	0
+"mn015"::	O_K then.::	0
+"mn015"::	It's -::	0
+"me045"::	Four thousand  lines.  I mean.::	0
+"me045"::	Isn't a- isn't it about fifty s- fifty five, sixty lines to a page?::	0
+"mn015"::	I d-  don't   quote  me on this. This is numbers I - I have from looking o-::	0
+"me003"::	How many characters are on a line?::	0
+"mn015"::	O_K.::	0
+"mn015"::	Let's - let's - wh- wh- what should we - should - should we uh, um, discuss this over tea and all of us look at the web? Oh, I can't. I'm wizarding today.::	0
+"fe004"::	ASCII?::	0
+"fe004"::	O_K, look at the web page?::	0
+"mn015"::	Um.::	0
+"fe004"::	Wha- w-::	0
+"mn015"::	Look at the web page and let's talk about it maybe tomorrow afternoon?::	1
+"fe004"::	More cues for us to find it are like,::	0
+"fe004"::	neural cons-::	0
+"mn015"::	Johno will send you a link.::	0
+"fe004"::	Oh, you have a link. O_K. O_K.::	0
+"me003"::	I got an email.::	0
+"fe004"::	O_K.::	0
+"me003"::	By the way, Keith is comfortable with us calling him "cool Keith".::	0
+"fe004"::	Oh. Cool. Keith. Cool, "cool Keith".::	0
+"me045"::	He - he decided  I'm  chilling   in the five-one-O_.::	0
+"me045"::	Yeah.::	0
+"fe004"::	Excellent.::	0
+"mn015"::	O_K.::	1
+"fe004"::	That's  a  very  cool T_shirt.::	0
+"me045"::	Thank you.::	0
+"mn015"::	And I'm also flying -::	0
+"me045"::	I got this from the two one two.  Yeah.::	0
+"fe004"::	New York?::	0
+"fe004"::	Excellent.::	0
+"fe004"::	Sorry. Yes?::	0
+"mn015"::	I'm flying to Sicily next -::	0
+"mn015"::	in a w- two weeks from now,::	0
+"fe004"::	Oh, lucky you.::	0
+"mn015"::	w- and a week of business in Germany. I should mention  that  for you.::	1
+"mn015"::	And otherwise you haven't missed  much,  except for a  really  weird idea,::	0
+"mn015"::	but you'll hear about that::	0
+"fe004"::	The idea that you and I already know about?::	0
+"mn015"::	soon enough.::	0
+"fe004"::	That you already told me?::	0
+"fe004"::	Not that - O_K.::	0
+"mn015"::	No, no, no.::	0
+"mn015"::	Yeah, that  is  something for the  rest  of the gang to - to g-::	1
+"me045"::	The thing with the goats and the helicopters?::	0
+"mn015"::	Change::	0
+"mn015"::	the watchband. It's time to walk the sheep.::	0
+"fn050"::	like::	0
+"fe004"::	O_K.::	0
+"mn015"::	Um.::	0
+"mn015"::	Did you catch that allusion? It's time to walk the sheep?::	1
+"me045"::	No.::	0
+"mn015"::	It's a- a-::	0
+"mn015"::	uh presumably one of the Watergate codes they uh -::	1
+"me045"::	Oh.::	0
+"mn015"::	Anyways, th- um,::	0
+"mn015"::	um,::	0
+"mn015"::	don't make any plans for spring break next year.::	1
+"mn015"::	That's -::	0
+"me045"::	Oh, shoot.::	0
+"mn015"::	That's the other thing . We're gonna do an int- E_D_U internal workshop in Sicily.::	1
+"fe004"::	That's what - That's what he  says.::	0
+"mn015"::	I've already got the  funding.  So, I mean.::	1
+"fe004"::	I kn- That's great!::	0
+"fe004"::	Does that mean -::	0
+"me045"::	We'll see.::	0
+"mn015"::	No, that's -::	0
+"fe004"::	Does that mean you'll get - you'll fly us there?::	0
+"mn015"::	Yeah, that's what it  means.::	0
+"fe004"::	Hhh! O_K, cool. Uh- a- a-::	0
+"me045"::	Huh.::	0
+"me003"::	And he'll put us  up,   too.::	0
+"fe004"::	I  know  - I  know  about that part. I know about the - the  almond  trees and stuff.::	0
+"fe004"::	Not joking.::	0
+"mn015"::	O_K.::	0
+"fe004"::	Name a vegetable, O_K.  Oh, um, kiwi?::	0
+"me045"::	Yeah.::	0
+"mn015"::	Mmm, too easy.::	0
+"fe004"::	Coconut.::	0
+"mn015"::	Ki-::	0
+"fe004"::	Pineapple. See?::	0
+"fe004"::	Mango?::	0
+"mn015"::	Too easy.::	0
+"fe004"::	O_K. O_K. Too easy?::	0
+"mn015"::	Yeah, mangos go everywhere. So do kiwi.::	0
+"fe004"::	Really?::	0
+"fe004"::	Oh. O_K, but I was trying to find something that he didn't grow on his farm.::	0
+"mn015"::	But coconut   anana-   pineapple, that's - that's tricky, yeah.::	0
+"fe004"::	Sorry.  Anyway.::	0
+"fe004"::	Cantaloupe.::	0
+"me045"::	So, but we have to decide what, like, sort of the general idea of -::	0
+"me003"::	Potatoes.::	0
+"me003"::	So. Sorry!::	0
+"me045"::	@@ .::	0
+"me045"::	Um,::	0
+"me045"::	I mean, we're gonna have an example case  um, right? I m- the - the point is to - like this "where is" case, or something.::	0
+"mn015"::	Yeah, maybe you have - It would be kind of - The paper ha- would have, in my vision, a nice flow if we could say,::	0
+"mn015"::	well here is th- the - th- here is parsing if you wanna do it c- right, here is understanding if you wanna do it right, and you know - without going into  technical  -::	0
+"me045"::	Mm-hmm.::	0
+"fe004"::	But then in the end we're not doing like those things right yet, right? Would that be clear in the paper or not?::	0
+"mn015"::	That would be clear, we would - I - I mailed around a little paper that I have -::	0
+"fe004"::	O_K.::	0
+"fe004"::	It would be like,  this  is the idea.::	0
+"fe004"::	Oh, I didn't get that, did I? Oops.::	0
+"mn015"::	w- we could sort of say, this is -::	0
+"fe004"::	Did I? Oops.  Sorry.::	0
+"mn015"::	No,::	0
+"me003"::	No, y- I don't think you got it.::	0
+"mn015"::	See this, if you- if you're not around, and don't partake in the discussions, and you don't get any email,  and::	0
+"fe004"::	I'm sorry. I'm sorry, I'm sorry. Sorry.::	0
+"fe004"::	O_K, go on.::	0
+"fe004"::	So parsing done right  is like chicken done right.::	0
+"mn015"::	Su-::	0
+"mn015"::	So we could - we could say this is what - what's sort of::	1
+"mn015"::	state of the art today.::	0
+"fe004"::	O_K.::	0
+"mn015"::	Nuh? And say, this is bad.::	1
+"mn015"::	Nuh? And then we can say, uh well what  we  do is  this.::	1
+"fe004"::	Yeah.::	0
+"mn015"::	Yeah.::	0
+"fe004"::	O_K.::	0
+"fe004"::	Parsing done right, interpretation done right, example.::	0
+"mn015"::	Mm-hmm.::	0
+"mn015"::	Yeah. And::	0
+"fe004"::	And how much to get into the cognitive neural part?::	1
+"mn015"::	We-::	0
+"me003"::	That's the only - That's the question mark. Don't you need to reduce it if it's a -::	1
+"me003"::	or reduce it, if it's a cognitive neuro -::	0
+"fe004"::	Well, you don't have t- I mean the  conference  may be cognitive neural, doesn't mean that every paper has to be both.::	0
+"mn015"::	Yeah, and you can - you can just point to the - to the literature, you can say that construction-based  @@::	1
+"fe004"::	Like,::	1
+"me045"::	Mmm.::	0
+"fe004"::	N_L_P cognitive neural.::	1
+"mn015"::	You know -::	0
+"fe004"::	So i- so this paper wouldn't particularly deal with  that  side although it could reference the N_T_L-ish sort of, like, um, approach. Yeah.::	0
+"mn015"::	Mm-hmm.::	0
+"mn015"::	Yeah.::	0
+"fe004"::	The fact that the methods here are all compatible with::	1
+"fe004"::	or  designed  to be compatible with whatever, neurological - neuro-::	0
+"mn015"::	Mm-hmm.::	0
+"fe004"::	neuro-biol- su- stuff.::	1
+"fe004"::	Yeah, I guess four pages you could -::	0
+"fe004"::	@@   I mean you could definitely -::	0
+"fe004"::	it's definitely possible to do it. It's just -::	0
+"fe004"::	It'd just be small. Like introducing the formalism might be not::	1
+"fe004"::	really::	0
+"fe004"::	possible in  detail,  but you can  use  an example of it.::	1
+"me045"::	Well, l- looking at - yeah, looking at that paper that - that  you  had, I mean you know, like, you didn't really::	0
+"me045"::	explain in detail what was going on in the X_M_L cases or whatever you just sorta said well, you know, here's the general idea, some stuff gets put in there.::	0
+"me045"::	You know, hopefully you can - you can say something like constituents tells you what the construction is made out of, you know, without going into this intense detail.::	0
+"fe004"::	Yeah, yeah.::	0
+"fe004"::	So it be like using the formalism rather than::	0
+"me045"::	Yeah.::	0
+"fe004"::	you know, introducing it per se. So.::	0
+"me045"::	Give  them   the one paragraph whirlwind tour of w- w- what this is for, and - Yeah.::	0
+"fe004"::	Yeah.::	0
+"mn015"::	Mm-hmm.::	0
+"fe004"::	And people will sort of figure out::	0
+"fe004"::	or  ask  about the bits that are::	0
+"mn015"::	Yeah.::	0
+"mn015"::	So this will be sort of documenting what we think, and documenting what we have in terms of the Bayes-net::	1
+"fe004"::	implicit.::	0
+"fe004"::	Mm-hmm.::	0
+"mn015"::	stuff.::	1
+"mn015"::	And since there's never a bad idea to document things, no?::	0
+"fe004"::	That's th- that's definitely a good idea.::	0
+"mn015"::	That would be my, uh -::	0
+"mn015"::	We - we should sketch out the details maybe tomorrow afternoon-ish, if everyone is around.::	0
+"mn015"::	I don't know. You probably::	0
+"me045"::	I think so.::	0
+"mn015"::	wouldn't be part of it. Maybe you  want?::	0
+"mn015"::	Think about it.::	0
+"mn015"::	Um,::	0
+"mn015"::	You may - may ruin your career forever, if you appear.::	0
+"me003"::	Yeah, you might get blacklisted.::	0
+"mn015"::	And um,::	0
+"mn015"::	the uh,::	0
+"mn015"::	other thing,::	0
+"mn015"::	yeah we actually -::	0
+"mn015"::	Have we made any progress on what we decided, uh, last week?::	0
+"mn015"::	I'm sure you read the transcript of last week's meeting  in red  so sh- so you're up to dated - caught up.::	0
+"fe004"::	No.::	0
+"fe004"::	Sorry.::	0
+"mn015"::	We decided t- that we're gonna take a "where is something" question, and pretend we have parsed it, and see what we could possibly hope to observe on the discourse side.::	0
+"me003"::	Remember I came in and I started asking you about how we were sor- going to sort out the uh, decision nodes?::	0
+"fe004"::	Yes!::	0
+"fe004"::	What'd you say?::	0
+"me003"::	I  remember  you  talking  to me, just  not  what you  said.::	0
+"fe004"::	I  do  remember you talking to me.::	0
+"fe004"::	Um,::	0
+"fe004"::	a few more bits.::	0
+"me003"::	Well, there was like we needed to - or uh, in my opinion we need to design a Bayes - another sub-Bayes-net -::	0
+"me003"::	You know, it was whether - it was whether we would have a Bayes-net  on   the output  and  on the input, or whether the construction was gonna be  in  the Bayes-net,::	0
+"fe004"::	Oh.::	0
+"fe004"::	Oh, yeah. O_K.::	0
+"me003"::	a- and  outside  of it, and -::	0
+"fe004"::	O_K.::	0
+"fe004"::	So that was - was that the question? Was that what -::	0
+"me003"::	Well that was related to what we were talking about.::	0
+"mn015"::	Should I introduce it as SUDO-square?::	0
+"me003"::	Yeah sure.::	0
+"mn015"::	We have to put this in the paper.::	0
+"mn015"::	If we write it.::	0
+"mn015"::	This is - this is my only constraint. The - th- So.::	0
+"mn015"::	The  SUDO-square::	1
+"mn015"::	is,::	0
+"me045"::	Oh I saw the diagram in the office, yeah.::	0
+"mn015"::	"Situation",::	0
+"mn015"::	"User",::	0
+"mn015"::	"Discourse", right? "Ontology".::	1
+"fe004"::	Oh my god, that's amazing!::	0
+"mn015"::	Mmm.::	0
+"mn015"::	Yeah. Whatever.::	0
+"fe004"::	No way.::	0
+"me045"::	Way!::	0
+"mn015"::	Is it?::	0
+"fe004"::	Someone's gonna start making Phil Collins jokes.::	0
+"mn015"::	Yeah.::	0
+"me045"::	Oh, god, I hope not.::	0
+"mn015"::	Hmm?::	0
+"fe004"::	Sorry.::	0
+"me003"::	What?::	0
+"fe004"::	You guys are too young.::	0
+"me045"::	You know like "Sussudio", that horrible, horrible song that should never have been created.::	0
+"fe004"::	Yeah, come on.::	0
+"me003"::	Oh, oh, oh, oh.::	0
+"fe004"::	I know, that was horrible.::	0
+"fe004"::	Sussudio.::	0
+"me003"::	I've blocked every aspect of Phil Collins out of my mind.::	0
+"fn050"::	What?::	0
+"fe004"::	I'm sorry, I  haven't.::	0
+"fe004"::	Not on purpose.::	0
+"me045"::	@@  in here::	0
+"mn015"::	Oh -  Well, also he's talking about suicide, and that's -  that's  not a notion I wanna have evoked.::	0
+"fe004"::	No, he's not.::	0
+"mn015"::	He  is.::	0
+"fe004"::	Really?::	0
+"fe004"::	Oops.  I didn't really listen to it, I was too young.  Anyway .::	0
+"mn015"::	The -::	0
+"me045"::	Hmm.::	0
+"me045"::	It sounds too   rocking   for  that.  Anyway. So, what's going on here?::	0
+"fe004"::	Yeah.::	0
+"me045"::	So what are - what -::	0
+"mn015"::	So,::	0
+"me045"::	Was wollte der Kuenstler uns damit sagen?::	0
+"fe004"::	Stop  excluding  me.::	0
+"mn015"::	O_K, so we have tons of little things here, and we've::	0
+"fe004"::	I can't believe that that's never been  thought  of before.::	0
+"me003"::	Wait, what are the  dots?  I don't remember what the  dots  were.::	0
+"me045"::	Those are little bugs.::	0
+"mn015"::	O_K.::	0
+"fe004"::	Cool Keith.::	0
+"mn015"::	You know, these are our, whatever, belief-net decision nodes, and they all contribute to these::	1
+"fe004"::	@@::	0
+"me003"::	Oh, oh.::	0
+"mn015"::	things down here.::	1
+"fe004"::	Wait, wait, what's the  middle  thing?::	1
+"mn015"::	That's E_D_U. e- e- Our e- e- e-::	0
+"me045"::	That's a c-::	0
+"fe004"::	But wh- I mean -::	0
+"me045"::	That's -::	0
+"mn015"::	You. We. Us.::	0
+"fe004"::	But what  is  it?::	0
+"mn015"::	Well, in the moment it's a Bayes-net.::	1
+"mn015"::	And it has sort of fifty not-yet-specified interfaces.::	1
+"mn015"::	O_K. Eh  I have taken care that we actually can build little::	1
+"mn015"::	interfaces,::	0
+"mn015"::	to other modules that will tell us whether the user likes these things and, n- the - or these things, and he - whether::	1
+"fe004"::	O_K.::	0
+"mn015"::	he's in a wheelchair or not,::	0
+"fe004"::	Is that supposed to be the international sign for interface?::	0
+"mn015"::	I think so, yeah.::	0
+"fe004"::	Mmm.::	0
+"fe004"::	O_K.::	0
+"me003"::	I'd -  I'd  never seen it before either.::	0
+"fe004"::	O_K. Just t- Cool.::	0
+"mn015"::	Mmm. So.::	0
+"me045"::	Cuz things fit onto that, see?::	0
+"fe004"::	Yeah.::	0
+"me045"::	In a vaguely obscene fashion.::	0
+"fe004"::	Cool.::	0
+"mn015"::	No, this is a R_M_E  core by  agent::	0
+"mn015"::	design, I don't know.::	0
+"fe004"::	That's so great.::	0
+"mn015"::	There's maybe a different::	0
+"me045"::	So wait, what a- what are these letters again, Situr-  Situation, User, Discourse and::	0
+"mn015"::	Situation, user, d- ontology.::	0
+"fe004"::	User?::	0
+"me045"::	Ontology.::	0
+"fe004"::	What about the utterance?::	0
+"mn015"::	That's  here.::	0
+"me045"::	It's -::	0
+"fn050"::	Discourse.::	0
+"fe004"::	Oh, discourse.::	0
+"mn015"::	Yeah.::	0
+"me045"::	Discourse is all things linguistic, yeah.::	0
+"fe004"::	So that's not like  context,  O_K.::	0
+"mn015"::	So this - this includes the -::	0
+"mn015"::	the current utterance plus all the previous utterances.::	0
+"fe004"::	Interesting, uh-huh.::	0
+"fe004"::	User.::	0
+"mn015"::	And for example w- i- s- I- Irena  Gurevich   is going to be here eh, end of July. She's a new linguist working for E_M_L.::	0
+"fe004"::	User.::	0
+"mn015"::	And what  she  would like to do for example is  great  for us. She would like to::	0
+"mn015"::	take the ent- ontolog- So,::	0
+"fn050"::	Ouch.::	0
+"mn015"::	we have discussed in terms of the EVA - uh -::	0
+"fe004"::	Grateful for us?::	0
+"fe004"::	Did you just say grateful for us?::	0
+"fe004"::	O_K, sorry.  Anyway.::	0
+"mn015"::	Think of - back at the EVA vector,::	1
+"mn015"::	and Johno coming up with the idea that if the person  discussed   the - discussed the admission fee, in - eh previously, that might be a good indication that,::	1
+"fe004"::	Mm-hmm.::	0
+"mn015"::	"how do I get to the castle?", actually he wants to  enter.::	1
+"mn015"::	Or, you know, "how do I get to X_?"::	0
+"mn015"::	discussing the admission fee in the previous utterance, is a good indication.::	0
+"me045"::	Mm-hmm.::	0
+"fe004"::	@@::	0
+"mn015"::	So::	0
+"mn015"::	we  don't  want a  hard  code,::	0
+"mn015"::	a set of  lexemes,  or things, that person's::	0
+"mn015"::	you know, sort of filter, or uh search the discourse history.::	0
+"fe004"::	Mm-hmm.::	0
+"mn015"::	So what would be kind of  cool  is::	1
+"mn015"::	that if we  encounter  concepts that are castle, tower, bank, hotel,::	0
+"mn015"::	we run it through the ontology, and the ontology tells us it has::	1
+"mn015"::	um, admission, opening times, it has admission fees, it has this, it has that,::	1
+"mn015"::	and then we - we - we make a thesaurus lexicon, look up, and then search dynamically through the uh, discourse history::	1
+"mn015"::	for  occurrences of these things in a given::	0
+"mn015"::	window::	0
+"mn015"::	of utterances.::	1
+"fe004"::	Mm-hmm.::	0
+"mn015"::	And  that  might, you know, give us additional input to belief A_ versus B_.::	0
+"mn015"::	Or::	0
+"mn015"::	E_ versus A_.::	0
+"fe004"::	So it's not just a particular word's - O_K, so the - you're looking for a few keys that you know are cues to -::	0
+"fe004"::	sorry, a few specific cues to some intention.::	0
+"me003"::	You can dynamically look up keys, yeah.::	0
+"mn015"::	Yeah.::	0
+"me045"::	Uh, so, wait - so um, since this - since this sort of technical stuff is going over my head, the - the point is that you uh - that::	0
+"fe004"::	O_K.::	0
+"me003"::	And then grep, basically.::	0
+"me045"::	when someone's talking about a castle, you know that it's the sort of thing that people are likely to wanna go  into?  Or, is it the fact that::	0
+"me045"::	if there's an admission fee, then one of the things we know about admission fees is that you pay them in order to go  in?  And then the idea of entering is active in the discourse or something? And then::	0
+"mn015"::	Well::	0
+"me045"::	blah-blah-blah? I mean.::	0
+"mn015"::	the - the idea is even more general. The idea is to say,::	0
+"mn015"::	we encounter a certain entity in a - in a- in a utterance.::	0
+"mn015"::	So le- let's look up everything we - the ontology gives us::	0
+"mn015"::	about that entity, what::	0
+"mn015"::	stuff it does, what roles it has, what::	0
+"mn015"::	parts,  whatever  it has.::	0
+"mn015"::	Functions.::	0
+"mn015"::	And, then we look::	0
+"mn015"::	in the  discourse,  whether any of that, or any::	0
+"mn015"::	surface structure corresponding to  these::	0
+"me045"::	Oh, O_K.::	0
+"mn015"::	roles, functions aaa  has ever  occurred.::	0
+"mn015"::	And then, the discourse  history  can t- tell us, "yeah", or "no".::	0
+"me045"::	O_K.::	0
+"mn015"::	And then it's up for  us::	0
+"mn015"::	to decide what to  do  with it.::	0
+"me045"::	O_K.::	0
+"mn015"::	t-::	0
+"mn015"::	So i-::	0
+"me045"::	So -::	0
+"me045"::	No, go ahead.::	0
+"mn015"::	So, we may think that if you say::	0
+"mn015"::	um,::	0
+"mn015"::	"where is the theater",::	0
+"mn015"::	um, whether or not he has talked about  tickets  before,::	0
+"me045"::	Mm-hmm.::	0
+"mn015"::	then we - he's probably wanna go there to::	0
+"mn015"::	see  something.::	0
+"me045"::	O_K.::	0
+"mn015"::	Or "where is the opera in Par- Paris?, yeah? Lots of people go to the opera to take pictures of it and to  look  at it, and lots of people go to attend a  performance.::	0
+"me045"::	Mm-hmm. O_K.::	0
+"me045"::	Mm-hmm.::	0
+"mn015"::	And, the  discourse  can maybe tell us w- what's more  likely::	0
+"mn015"::	if we know what to look for in previous statements.::	0
+"mn015"::	And so we can hard code "for opera, look for tickets,  look   for this, look for that,::	0
+"me045"::	O_K.::	0
+"me045"::	O_K.::	0
+"mn015"::	or look for Mozart, look for thi-"::	0
+"mn015"::	but the smarter way is to go via the ontology and dynamically, then look up::	0
+"mn015"::	u-::	0
+"mn015"::	stuff.::	0
+"me045"::	O_K. But you're still doing look up so that when the person - So the point is that when the person says,::	0
+"me045"::	"where is it?"::	0
+"me045"::	then you sort of say, let's go back and look at::	0
+"me045"::	other things and then decide, rather than the other possibility which is that  all through discourse as they talk about different things - You know like w-::	0
+"me045"::	prior  to the "where is it" question they say, you know, "how much does it cost to get in, you know, to - to see a movie around here", um,::	0
+"me045"::	"where is the closest theater" - The - the - the point is that by mentioning  admission  fees, that just sort of stays active now.::	0
+"mn015"::	Yeah.::	0
+"me045"::	You know. That becomes part of like, their sort of current ongoing::	0
+"mn015"::	Mm-hmm.::	0
+"me045"::	active conceptual structure. And then, um,::	0
+"me045"::	over in your Bayes-net or whatever, when - when the person says "where is it", you've already got, you know since they were talking about  admission,  and  that  evokes the idea of  entering,  um, then when they go and ask "where is it", then you're Enter node is already active because that's what the person is  thinking  about. I mean that's the sort of cognitive linguistic-y way, and probably not practical.::	0
+"mn015"::	Mm-hmm.::	0
+"mn015"::	Yeah.::	0
+"mn015"::	Yeah, e- ultimately that's  also  what we wanna get at. I think that's - that's the correct way. So, of course we have to keep::	0
+"mn015"::	memory of what was the last intention, and how does it fit to this, and what does it tell us, in terms of - of the - the - what we're examining.::	0
+"me045"::	Mm-hmm.::	0
+"me045"::	Mmm, yeah.::	0
+"mn015"::	And furthermore,::	1
+"mn015"::	I mean we can  idealize  that, you know, people don't change topics,::	1
+"me045"::	Mm-hmm.::	0
+"mn015"::	but they  do.  But,::	1
+"me045"::	Right.::	0
+"mn015"::	even th- for that, there is a student of ours who's doing a dialogue act::	0
+"mn015"::	um, recognition::	0
+"me045"::	Mm-hmm.::	0
+"mn015"::	module.::	1
+"mn015"::	So,::	0
+"mn015"::	maybe,  we're even in a position where we can take  your  approach, which is of course much  better,  as to say how - how do these pieces -::	0
+"me045"::	Mmm.::	0
+"me045"::	And much harder to r- program.::	0
+"mn015"::	Hmm?::	0
+"me045"::	And much harder to p- to  program.::	0
+"mn015"::	Yeah. How - how do these pieces fit together? Uh-huh.::	0
+"mn015"::	And um. But, O_K, nevertheless. So these are issues but we - what we actually decided last  week,  is to,::	1
+"mn015"::	and this is, again, for  your  benefit -::	0
+"mn015"::	is to um,::	0
+"mn015"::	pretend we have::	0
+"mn015"::	observed and parsed an utterance such as "where is the  Powder-Tower ",::	1
+"mn015"::	or "where is the zoo",::	0
+"mn015"::	and specify::	1
+"mn015"::	um, what - what we think the - the output::	0
+"mn015"::	uh, observe, out - i- input nodes for our Bayes-nets for the sub- sub-D_, for the discourse bit, should be.::	1
+"mn015"::	So that - And I will - I will then::	1
+"mn015"::	come up with the  ontology  side::	0
+"mn015"::	uh, bits and pieces, so that we can say, O_K we - we  always  just look at this utterance.::	1
+"mn015"::	That's the  only  utterance we can do,::	0
+"mn015"::	it's hard coded, like Srini, sort of hand parsed,::	0
+"mn015"::	hand crafted,::	0
+"mn015"::	but this is what we hope to be able to observe in general from utterances, and from ontologies,::	0
+"mn015"::	and then we can sort of::	1
+"mn015"::	fiddle  with  these  things to see what it actually  produces,  in terms of  output.::	1
+"me045"::	Uh::	0
+"mn015"::	So::	0
+"mn015"::	we need to find out what the "where is X_" construction will give us in terms of semantics and::	0
+"mn015"::	Simspec::	0
+"mn015"::	type things.::	0
+"fe004"::	Just - O_K. Just "where is X_"?::	0
+"mn015"::	Mm-hmm.::	0
+"fe004"::	Or any variants of that.::	0
+"mn015"::	Yeah.::	0
+"mn015"::	No!::	0
+"mn015"::	Um, look at it this way, i-::	0
+"mn015"::	Yeah.::	0
+"mn015"::	What did we decide. We decided sort of the -::	0
+"me045"::	Well we were::	0
+"mn015"::	the prototypical "where is X_", where::	0
+"mn015"::	you know, we don't really know, does he wanna  go  there, or just wanna know where it is.::	0
+"mn015"::	So the difference of "where is the railway station", versus where - where - "where is Greenland". Nuh?::	0
+"me045"::	Mm-hmm.::	0
+"me003"::	Uh s- I was just dancing, sorry.::	0
+"mn015"::	We're not videotaping any of this. So.::	0
+"me003"::	Uh - ah -::	0
+"me045"::	So, um, we're supposed to -::	0
+"me045"::	I mean we're talking about sort of anything that has the semantics of  request  for  location,  right? actually?::	0
+"me045"::	Or,::	0
+"me045"::	I mean, anyway, the node in the uh - the ultimate, uh, in - in the Bayes-net thing when you're done, the - the node that we're talking about um, is::	0
+"me045"::	one that says::	0
+"me045"::	"request for location, true", or something like that, right? Um, and - and exactly how that gets activated, you know, like whether we want::	0
+"mn015"::	Yeah, but it -::	0
+"me045"::	the sentence::	0
+"me045"::	"how do I get there?"::	0
+"me045"::	to activate that  node  or not, you know, that's - that's sort of the issue that sort of the linguistic-y side has to deal with, right?::	0
+"mn015"::	Yea- Nnn-::	0
+"mn015"::	Well actually more - m- more the other way around. We wanted::	0
+"mn015"::	something that represents uncertainty uh we- in terms of going there or just wanting to know where it is, for example. Some generic information.::	0
+"me045"::	O_K.::	0
+"mn015"::	And so::	0
+"mn015"::	this is prototypically  @@  found in the "where is something" question, surface structure,::	0
+"me045"::	O_K.::	0
+"me003"::	We-::	0
+"mn015"::	which can be p- you know,::	0
+"mn015"::	should be maps to::	0
+"mn015"::	something that activates  both.  I mean::	0
+"mn015"::	the idea is to -::	0
+"me045"::	Alright, O_K.::	0
+"me003"::	I don't -::	0
+"me003"::	Hhh.::	0
+"mn015"::	let's have it fit nicely with the paper. The -::	0
+"me003"::	I  guess.  I don't -::	0
+"me003"::	I don't see unde- how we would be able to distinguish between the two intentions just from the g- utterance, though.::	1
+"me003"::	I mean, uh bef- or, before we don't - before we cranked it through the  Bayes-net.  I mean.::	1
+"mn015"::	Yeah, we - we  wouldn't.::	0
+"mn015"::	That's exactly what we  want.::	0
+"me003"::	We  would?::	0
+"mn015"::	We want to get -::	0
+"mn015"::	No. We  wouldn't.::	0
+"me003"::	O_K, but then so basically it's just a - for every construction we have a node in the net, right? And we turn on::	0
+"mn015"::	Yeah.::	0
+"me003"::	that node.::	0
+"me045"::	Oy.::	0
+"mn015"::	What - what is this gonna -  Exactly.  What is the uh -::	0
+"mn015"::	Well -::	0
+"me003"::	And then given that we know that  the construction  has these two  things,  we can set up probabilities -::	0
+"me003"::	we can s- basically define all the  tables  for ev- for those -::	0
+"mn015"::	Yeah, it should be - So we have::	0
+"mn015"::	um,::	0
+"mn015"::	i- let's assume we - we call something like a loc-X_ node and a  path-X_  node.::	0
+"mn015"::	And what we actually  get  if we  just  look at the  discourse,::	0
+"mn015"::	"where is X_" should activate::	0
+"mn015"::	or should -::	0
+"me045"::	Mmm.::	0
+"mn015"::	Hmm. Should be  both,::	0
+"mn015"::	whereas maybe "where is X_  located ",::	0
+"mn015"::	we find from the  data,  is  always  just asked when the person wants to  know  where it is,::	0
+"mn015"::	and "how do I get to" is always asked when the person::	0
+"mn015"::	just  wants to know how to  get  there.::	0
+"mn015"::	Right?::	0
+"mn015"::	So::	1
+"mn015"::	we want to sort of::	0
+"mn015"::	come up with::	0
+"mn015"::	what  gets::	0
+"mn015"::	uh,  input,  and  how  inter- in case of a "where is" question.::	1
+"mn015"::	So what - what would the outcome of - of your parser look like?::	1
+"mn015"::	And, what other discourse information from the discourse history could we hope to get,::	1
+"mn015"::	squeeze  out of that  utterance?::	1
+"mn015"::	So define the - the  input  into the  Bayes-net::	1
+"mn015"::	based on what the utterance, "where is X_", gives us.::	1
+"mn015"::	So definitely::	0
+"mn015"::	have an  Entity  node here::	0
+"fe004"::	s-::	0
+"mn015"::	which is activated via the ontology, so::	0
+"mn015"::	"where is X_" produces something that is s- stands for  X_ , whether it's castle, bank, restroom, toilet, whatever. And then the ontology will tell us -::	0
+"fe004"::	That it has a  location  or something like that? - or th- the ontology will tell us where actually it is located?::	0
+"mn015"::	No.::	0
+"fe004"::	O_K.::	0
+"mn015"::	Not at all. Where it is located, we have, a user proximity node here somewhere,::	0
+"fe004"::	O_K.::	0
+"fe004"::	O_K.::	0
+"mn015"::	e- which tells us how far the user - how far away the user is in respect to that uh entity.::	0
+"fe004"::	O_K.::	0
+"fe004"::	So you're talking about, for instance, the construction obviously involves this entity or refers - refers to this entity,::	0
+"mn015"::	Mm-hmm.::	0
+"fe004"::	and::	0
+"fe004"::	from the construction also you know that it is a location - is - or a thing -::	0
+"fe004"::	thing that can be located.::	0
+"fe004"::	Right? Ontology says this thing has a location slot.::	0
+"fe004"::	Sh- and that's the thing that is being -::	0
+"fe004"::	that is the content of the question that's being queried by::	0
+"fe004"::	one  interpretation of "where is X_".::	0
+"fe004"::	And  another  one is, um,::	0
+"fe004"::	path from current - user current location to::	0
+"mn015"::	Mm-hmm.::	0
+"fe004"::	that location. So.::	0
+"fe004"::	So is the question - I mean it's just that I'm not sure what the -::	0
+"fe004"::	Is the question, for this  particular  construction how we specify that  that's  the information it provides?::	0
+"fe004"::	Or -::	0
+"fe004"::	or asked for?::	0
+"fe004"::	b-::	0
+"fe004"::	Both sides, right?::	0
+"mn015"::	Yeah, you don't need to::	0
+"mn015"::	even do that. It's just sort of what::	0
+"mn015"::	what would be::	0
+"mn015"::	@@::	0
+"mn015"::	observed::	0
+"mn015"::	in uh - in that case.::	0
+"fe004"::	Observed when you heard the speaker say "where is X_", or when - when that's been parsed?::	0
+"mn015"::	Mm-hmm.::	0
+"fe004"::	So these little circles you have by the D_?::	0
+"fe004"::	Is that - ?::	0
+"mn015"::	That's exactly what we're looking for.::	0
+"fe004"::	O_K.::	0
+"fe004"::	O_K.::	0
+"me003"::	I d- I just - I don't like having - characterizing the constructions with location and path,::	0
+"me003"::	or li-  characterizing   them   like that. Cuz you don't -::	0
+"me003"::	It seems like in the  general  case you wouldn't know::	0
+"mn015"::	You  wouldn't.::	0
+"me003"::	how - how to characterize them. I mean - or, for  when.  There could be an interpretation that we don't have a  node  for in the -::	0
+"me003"::	I mean it just seems like  @@  has to have uh - a node for the construction::	0
+"me003"::	and then let the chips fall where they  may.::	0
+"me003"::	Versus::	0
+"me003"::	uh,::	0
+"me003"::	saying, this construction either can mean location or path.::	0
+"me003"::	And, in this cas- and since - since it can mean either of those things, it would light both of those up.::	0
+"mn015"::	It's the same.::	0
+"me003"::	Thoughts?::	0
+"me003"::	Questions?::	0
+"me045"::	I'm thinking about it. Um -::	0
+"mn015"::	It  will  be the same. So I think::	0
+"mn015"::	r- in here we have "I'll go there", right?::	0
+"me003"::	Answers?::	0
+"mn015"::	And we have our Info-on.::	0
+"mn015"::	So in my c- my case, this would::	1
+"mn015"::	sort of make  this   happy, and this would make the  Go-there  happy.::	1
+"mn015"::	What  you're  saying is we have a  Where-X_  question,  Where-X_  node,::	0
+"mn015"::	that makes  both  happy.::	0
+"mn015"::	Right? That's what you're proposing, which is, in my mind  just  as fine.::	0
+"mn015"::	So w- if we have a construction  node, "where is X_",::	1
+"mn015"::	it's gonna::	0
+"mn015"::	both::	0
+"mn015"::	get the::	0
+"mn015"::	po- posterior probability that - it's Info-on  up,::	1
+"me003"::	Mmm, yeah.::	0
+"mn015"::	Info-on is  True-up,  and that Go-there is True-up, as  well.::	1
+"mn015"::	Which would be exactly analogous to what I'm proposing is,::	1
+"mn015"::	this makes -::	0
+"mn015"::	uh::	0
+"mn015"::	makes something  here  true, and this makes something -  also  something here true, and this makes  this  True-up, and this makes this True-up as well.::	1
+"me045"::	I kinda like it better  without that  extra level of indirection too. You know with - with this points to this points to that, and so on because  I don't know, it -::	1
+"mn015"::	Yeah, because we get - we get  tons  of constructions I think. Because,::	0
+"fe004"::	Is- uh,::	0
+"me045"::	Yeah.::	0
+"mn015"::	you know, mmm people have many ways of asking for the same  thing,  and -::	0
+"me003"::	Yeah, sure.::	0
+"fe004"::	Yeah.::	0
+"fe004"::	So un-::	0
+"me003"::	I change- I changed my mind actually.::	0
+"me045"::	O_K.::	0
+"fe004"::	So I agree with that. I have a different kinda question,::	0
+"fe004"::	might  be related,::	0
+"fe004"::	which is, O_K so implicitly everything in E_D_U, we're  always  inferring the speaker::	0
+"fe004"::	intent, right?::	0
+"fe004"::	Like,  what  they  want::	0
+"fe004"::	either, the information that they want, or -::	0
+"fe004"::	It's always information that they want probably, of some kind.::	0
+"fe004"::	Right? Or I - I don't know, or what's something that they -::	0
+"mn015"::	The system doesn't  massage  you, no. No.::	0
+"fe004"::	I - I - I don't -::	0
+"fe004"::	O_K. So, um,::	0
+"fe004"::	let's see. So I don't know if the - I mean i- if th-::	0
+"fe004"::	just there's more s- here that's not shown that you - it's already like part of the system whatever,::	0
+"fe004"::	but, "where is X_",::	0
+"fe004"::	like, the fact that it is, you know, a speech-act, whatever,::	0
+"fe004"::	it  is  a question. It's a question that,::	0
+"fe004"::	um, queries on some particular thing X_, and X_ is that location.::	0
+"fe004"::	There's, like, a lot of structure in representing that.::	0
+"mn015"::	Yep. Yeah.::	0
+"fe004"::	So  that  seems different from just having the node "location-X_" and that goes into EDU, right?::	0
+"mn015"::	Yeah.::	0
+"mn015"::	Precisely.  That's - that's -::	0
+"mn015"::	So, w-::	0
+"fe004"::	So tha- is that what you're t-::	0
+"mn015"::	Exactly. We have su- we have specified  two.::	0
+"fe004"::	talking about? wh- what kinds of structure we want.::	0
+"mn015"::	O_K, the next one would be here, just for mood.::	0
+"me045"::	Mm-hmm.::	0
+"fe004"::	Mm-hmm.::	0
+"mn015"::	The next one would be what we can squeeze out of the uh::	0
+"mn015"::	I  don't know, maybe we wanna observe the uh, um,::	0
+"fe004"::	Mmm.::	0
+"mn015"::	uh the length of - of the words used, and, or the prosody::	0
+"mn015"::	and g- a- and t- make conclusions about the user's  intelligence.   I  don't know, yeah.::	0
+"fe004"::	O_K. So in some ways -::	0
+"fe004"::	um, so in some ways in the other sort of parallel set of mo- more  linguistic  meetings we've been talking about possible semantics of some construction.::	0
+"me045"::	Mm-hmm.::	0
+"fe004"::	Right? Where it was::	0
+"fe004"::	the simulation that's,::	0
+"fe004"::	according to it - you know, that - that corresponds to it, and as well the - as discourse,::	0
+"fe004"::	whatever, conte- infor- in- discourse information, such as the mood, and, you know, other stuff. So,::	0
+"mn015"::	Mm-hmm.::	0
+"fe004"::	are we looking for a sort of abbreviation of that, that's tailored to this problem?::	0
+"fe004"::	Cuz that - that has, you know, basically, you know,::	0
+"fe004"::	s- it's in progress still it's in development still, but it definitely has various feature slots, attributes,::	0
+"mn015"::	Mm-hmm.::	0
+"fe004"::	um, bindings between things -::	0
+"mn015"::	Yeah.::	0
+"mn015"::	U- that's exactly r- um, why I'm proposing - It's too early to have - to  think  of them - of  all  of these::	0
+"fe004"::	Uh-huh.::	0
+"mn015"::	discourse things that one could possibly observe,::	0
+"fe004"::	Mm-hmm.::	0
+"mn015"::	so let's just assume::	0
+"fe004"::	For the subset of -::	0
+"mn015"::	human beings are not allowed to ask anything but "where is X_".::	0
+"fe004"::	O_K.::	0
+"mn015"::	This is the only utterance in the world. What could we observe from that?::	0
+"fe004"::	O_K. That exactly "where is X_", not::	0
+"mn015"::	In ter-::	0
+"fe004"::	the - the choices of "where is X_" or "how do I get to X_". Just " where  is X_". O_K.::	0
+"me045"::	Yeah.::	0
+"mn015"::	Just - just "where is X_".::	0
+"mn015"::	And, but you know, do it -::	0
+"mn015"::	do it in such a way that we  know  that people can also say, "is the town hall in front of the  bank ",::	0
+"mn015"::	so that we need something like a w- W_H focus. Nuh? Should be -::	0
+"mn015"::	should be  there,  that, you know, this - the - whatever we get from the -::	0
+"fe004"::	Wait, so  do,  or do  not  take other kinds of::	1
+"fe004"::	constructions into account?::	1
+"mn015"::	Well, if you - if you  can,  oh definitely  do,::	1
+"fe004"::	O_K. Where possible. O_K.::	0
+"mn015"::	where possible. Right?::	0
+"mn015"::	If i- if - if it's not at all  triggered  by our thing, then it's irrelevant, and it doesn't  hurt  to leave it out for the moment.::	1
+"fe004"::	Mm-hmm.::	0
+"mn015"::	Um, but -::	0
+"fe004"::	O_K.::	0
+"fe004"::	Um, it seems like for instance, "where is X_",::	0
+"fe004"::	the fact that it might mean::	0
+"fe004"::	um,::	0
+"fe004"::	"tell me how to get to X_",::	0
+"fe004"::	like -::	0
+"fe004"::	Do y-::	0
+"fe004"::	So, would you wanna say that those two are both, like -::	0
+"fe004"::	Those are the two interpretations, right? the - the ones that are location or path.::	0
+"fe004"::	So, you  could  say that the s- construction is a question asking about this location,::	0
+"fe004"::	and then you can  additionally  infer, if they're asking about the location, it's because they wanna  go  to that place,::	0
+"mn015"::	Mm-hmm.::	0
+"fe004"::	in which case, the - you're  jumping  a  step   - step and saying, "oh, I know where it is but I also know how to get - they wanna seem - they seem to wanna get there so I'm gonna tell them". So there's like structure::	0
+"me045"::	Yeah.::	0
+"me045"::	Right, th- this - it's  not  - it's  not  that this is sort of like semantically ambiguous between these two. It's  really  about this but why would you care about this? Well,::	0
+"fe004"::	i- do you kn- sort of uh, that -::	0
+"mn015"::	Mm-hmm.::	0
+"me045"::	it's because you  also  want to know  this,  or something  like that  right?::	0
+"mn015"::	Mm-hmm.::	0
+"fe004"::	So it's like you infer the speaker intent, and then infer a plan, a larger plan from that, for which you have the additional information, you're just being extra helpful. Um.::	1
+"me045"::	Yeah.::	0
+"mn015"::	Mm-hmm.::	0
+"mn015"::	Yep.::	0
+"mn015"::	Think - Uh, well this is just a  mental  exercise. If you think about,::	1
+"fe004"::	Yeah.::	0
+"mn015"::	focus on this question, how would you design  that?::	1
+"me045"::	Mm-hmm.::	0
+"mn015"::	Is it -::	0
+"mn015"::	do you feel confident about saying this is  part  of the  language   already  to - to  detect  those plans, and why would anyone care about location, if not, you know::	0
+"me045"::	Mmm.::	0
+"mn015"::	and so forth.::	0
+"mn015"::	Or do you actually,::	0
+"mn015"::	I mean this is  perfectly   legitimate,  and I - I would  not  have any problems with erasing this and say,::	0
+"mn015"::	that's all we can activate, based on the utterance out of context.::	0
+"fe004"::	Mm-hmm.::	0
+"fe004"::	And just by an additional link -::	0
+"fe004"::	Oh.::	0
+"mn015"::	What?::	0
+"me045"::	Right.::	0
+"fe004"::	Right, like,::	0
+"mn015"::	And then the - the - the  miracle  that we get out the intention,  Go-there,::	0
+"fe004"::	with context and enough user information, yeah.::	0
+"me045"::	Yeah.::	0
+"mn015"::	happens, based on what we know about that entity, about the user, about his  various  beliefs, goals, desires, blah-blah-blah.::	0
+"mn015"::	Absolutely fine.::	0
+"mn015"::	But this is the sort of thing, I - I  propose  that we  think  about,::	0
+"fe004"::	O_K.::	0
+"mn015"::	so that we actually end up with um,::	1
+"mn015"::	um,::	0
+"mn015"::	nodes for the discourse and ontology::	1
+"mn015"::	so that we can put  them   into our Bayes-net,::	1
+"mn015"::	never  change  them,::	0
+"mn015"::	so we - all there is is "where is X_",::	0
+"mn015"::	and, Eva can play around with the observed things, and we can run our better JavaBayes, and have it produce some  output.  And for the first time in th- in -::	1
+"mn015"::	in the  world,  we look at our  output,  and um - and see uh whether it -::	0
+"mn015"::	it's any  good.::	0
+"fe004"::	O_K.::	0
+"mn015"::	You know? I mean,::	0
+"me045"::	Here's  hoping.::	0
+"mn015"::	Hmm?::	0
+"me045"::	Here's hoping. Right?  Now  cross your fingers.::	0
+"mn015"::	Yeah, I - I mean, for  me  this is just a ba-  matter   of curiosity, I wanna -::	0
+"me045"::	Yeah.  Yeah.::	0
+"mn015"::	would like to look at uh,::	0
+"mn015"::	what this ad-hoc process of designing a belief-net would actually produce.::	0
+"fe004"::	Mmm.::	0
+"mn015"::	If - if we ask it where is something.::	0
+"mn015"::	And, maybe it also h-::	0
+"mn015"::	enables you to think about certain things more specifically,::	0
+"mn015"::	um, come up::	0
+"mn015"::	with interesting questions, to which you can find interesting answers.::	0
+"mn015"::	And, additionally it might::	0
+"mn015"::	fit in  really  nicely with the paper.::	0
+"me045"::	Um-hmm.::	0
+"mn015"::	Because if - if - if we want an example for the  paper,::	0
+"mn015"::	I suggest there it  is.::	0
+"me045"::	Yeah.::	0
+"mn015"::	So th- this might be a nice opening  paragraph  for the paper as saying,::	1
+"mn015"::	"you know people look at kinds of -  at ambiguities", and::	1
+"mn015"::	um,::	0
+"mn015"::	in the literature there's "bank"::	0
+"mn015"::	and::	0
+"me045"::	Mm-hmm.::	0
+"mn015"::	whatever kinds of garden path phenomenon.::	0
+"mn015"::	And we can say, well, that's all nonsense.::	0
+"mn015"::	A_, uh these things are  never   really  ambiguous in discourse,::	1
+"mn015"::	B_, don't ever  occur  really in discourse, but::	1
+"mn015"::	normal  statements that seem completely unambiguous, such as "where is the blah-blah",::	0
+"me045"::	Mm-hmm.::	0
+"mn015"::	actually are terribly complex, and completely ambiguous.::	1
+"me045"::	Mm-hmm.::	0
+"mn015"::	And so, what every- everybody else has been doing so far in - in - in - you know, has been completely nonsensical, and can all go into the wastepaper bin,::	0
+"me045"::	That's always a good way to begin. Yeah. Yeah.::	0
+"mn015"::	and the only -::	0
+"mn015"::	Yeah.::	0
+"mn015"::	And the - the - the only -::	0
+"me003"::	I am great.::	0
+"me045"::	All others are useless.::	0
+"mn015"::	Yeah.::	0
+"me045"::	That's good.::	0
+"mn015"::	Yeah.::	0
+"mn015"::	Nice overture, but, you know, just not really -::	0
+"mn015"::	O_K, I'm eja- exaggerating, but that might be, you know,::	0
+"mn015"::	saying "hey", you know,::	0
+"mn015"::	some stuff is - is actually::	0
+"mn015"::	complex, if you look at it in - in - in the  vacuum::	0
+"me045"::	Mm-hmm.::	0
+"mn015"::	and - and ceases to be complex in reality. And some stuff that's as - that's absolutely straightforward in the vacuum,::	0
+"mn015"::	is actually terribly complex in reality.::	0
+"mn015"::	Would be nice sort of, uh, also, nice, um::	0
+"mn015"::	bottom-up linguistics, um,::	0
+"mn015"::	type message.::	0
+"me045"::	Mm-hmm.::	0
+"me045"::	True.::	0
+"mn015"::	Versus the old top-down school.::	0
+"mn015"::	I'm running out of time. O_K.::	0
+"me003"::	When do you need to start wizarding?::	0
+"mn015"::	At four ten.::	0
+"mn015"::	O_K, this is the other bit of news.::	0
+"mn015"::	The subjects today know Fey, so she can't be here, and do the wizarding.::	0
+"me045"::	Huh.::	0
+"mn015"::	So I'm gonna do the wizarding and Thilo's gonna do the instructing. Also we're getting a - a person who just got fired::	1
+"me003"::	Mmm.::	0
+"mn015"::	uh, from her job.::	1
+"mn015"::	Uh a person from Oakland who is interested in maybe  continuing  the wizard bit once Fey  leaves  in August.::	1
+"mn015"::	And um, she's gonna look at it::	0
+"mn015"::	today.::	0
+"mn015"::	Which is good news in the sense that if we  want  to continue,::	0
+"mn015"::	after the thir-::	0
+"mn015"::	thir- after July, we can. We could.::	0
+"mn015"::	And, um -::	0
+"mn015"::	and that's also::	0
+"mn015"::	maybe interesting for Keith and whoever,::	0
+"mn015"::	if you wanna get some more stuff  into  the data collection.::	0
+"mn015"::	Remember this, we can completely change the set-up any time we want.::	1
+"me045"::	Mm-hmm.::	0
+"me045"::	O_K.::	0
+"mn015"::	Look at the results we've gotten  so  far for the first,::	1
+"mn015"::	whatever, fifty some::	0
+"mn015"::	subjects?::	1
+"fe004"::	Fifty? You've had fifty so far, or - ?::	0
+"mn015"::	No, we're approaching twenty now. But, until Fey is::	1
+"fe004"::	O_K.::	0
+"fe004"::	Yeah.::	0
+"mn015"::	leaving, we surely will hit the -::	0
+"mn015"::	some  of  the higher numbers.::	1
+"fe004"::	Hmm.::	0
+"mn015"::	And um,::	0
+"mn015"::	so that's cool.::	0
+"mn015"::	Can::	0
+"mn015"::	a-::	0
+"mn015"::	do more  funky  stuff.::	0
+"me045"::	Sure.::	0
+"me045"::	Yeah, I'll have to look more into that data. Is that around? Like, cuz that's pretty much getting posted or something right away when you get it? Or - ? I guess it has to be transcribed, huh?::	0
+"mn015"::	Um.::	0
+"mn015"::	We have uh, eh found someone here who's hand st- hand transcribing the first twelve.::	1
+"me045"::	O_K.::	0
+"mn015"::	First dozen subjects::	0
+"me045"::	Uh-huh.::	0
+"mn015"::	just so we can build a - a language model for the recognizer.::	0
+"me045"::	O_K.::	0
+"mn015"::	But, um - So those should be available soon.::	0
+"me045"::	O_K.::	0
+"mn015"::	The first twelve. And::	0
+"mn015"::	I can ch- ch- st- e-::	0
+"me045"::	You know -::	0
+"me045"::	I mean you know that I - that I looked at the first - the first one and got enough data to keep me going for, you know, probably most of July. So.::	0
+"me045"::	But, um.::	0
+"me045"::	Yeah, a-  probably  not the right way to do it actually.::	0
+"mn015"::	But you can listen to -::	0
+"mn015"::	a- y- y- y- You can listen to  all  of them from your Solaris box.::	0
+"me045"::	O_K.::	0
+"mn015"::	If you want.::	0
+"me045"::	Right.::	0
+"mn015"::	It's always fun.::	0

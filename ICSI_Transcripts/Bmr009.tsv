@@ -1,0 +1,2078 @@
+"me013"::	Starts -::	0
+"me013"::	No.::	0
+"fe016"::	No.::	0
+"me013"::	No.::	0
+"fe016"::	That's a different thing.::	0
+"me013"::	There's another - I don't know. It starts with a P_ or something. I forget the word for it,::	0
+"fe016"::	Oh.::	0
+"me013"::	but it's - it's um::	0
+"me013"::	Typically when you - you're ab- r-::	0
+"me013"::	starting around forty for most people,::	0
+"me013"::	it starts to harden and then it's just harder for the lens to::	0
+"fe016"::	Oh.::	0
+"me013"::	shift things and th- the - the  symptom  is typically that you -::	0
+"mn005"::	Uh-huh.::	0
+"me013"::	you have to hold stuff uh uh further away to -::	0
+"mn005"::	Yeah.::	0
+"me013"::	to see it.::	0
+"me013"::	In fact, uh m- my brother's a  gerontological psychologist and he - he uh::	0
+"me013"::	came up with an - an uh - a uh body age test which uh::	0
+"me013"::	gets down to sort of only three measurements that are good enough st-  statistical   predictors of all the rest of it.::	0
+"me013"::	And one of them is - is the distance::	0
+"mn005"::	Yeah.::	0
+"me013"::	that you  have   to hold it at.::	0
+"fe016"::	Give someone a piece of paper and then they -::	0
+"me013"::	Yeah.::	0
+"me011"::	We're - we're live by the way, so we've got a good intro here::	0
+"fe016"::	Oh.::	0
+"me013"::	Oh. Yeah.  About  how  old  I am. O_K.::	0
+"me011"::	Yep.  We can edit that out if you want.::	0
+"fe016"::	Oh, that's  optional.::	0
+"me013"::	No, that's O_K.::	0
+"mn005"::	Mm-hmm.::	0
+"me011"::	O_K. So.::	0
+"fe016"::	You know .::	0
+"me011"::	This  time the form::	0
+"me011"::	discussion should be very short, right?::	0
+"me013"::	It  also  should be   later.::	0
+"me011"::	O_K.::	0
+"me013"::	Because Jane uh is not  here  yet.::	0
+"me011"::	Good point.::	0
+"me013"::	And uh she'll be most interested in that.::	0
+"me013"::	Uh, she's probably  least  involved in the signal-processing stuff so maybe we can just -::	0
+"me013"::	just uh, I don't think we should go though an  elaborate  thing,::	0
+"me013"::	but um uh Jose and I were just talking about::	0
+"me013"::	the uh::	0
+"me013"::	uh, speech e- energy thing,::	0
+"mn005"::	The   @@  -::	0
+"mn005"::	Yeah.::	0
+"me013"::	and I uh - We didn't talk about the derivatives. But I think,::	0
+"me013"::	you know, the - the - i-::	0
+"me013"::	if I can -::	0
+"me013"::	if you don't mind my - my speaking for you for a bit,::	0
+"me013"::	um::	0
+"me013"::	Uh. Right now,  that  he's not really showing any kind of uh distinction,::	0
+"me013"::	but uh -  but  we discussed a couple of the possible things that uh he can look at.::	0
+"me013"::	Um. And uh one is that uh this is all in  log  energy and log energy is basically compressing the distances::	0
+"me013"::	uh  between things.::	0
+"me013"::	Um  Another is that he needs to play with the - the different uh  uh temporal::	0
+"me013"::	sizes. He was - he - he was taking everything over two hundred milliseconds::	1
+"me013"::	uh, and uh he's going to vary that number and also look at moving windows, as we discussed before.::	1
+"me013"::	Um::	1
+"me013"::	And uh - and the other thing is that the - yeah doing the -::	0
+"me013"::	subtracting off the mean and the variance in the -::	0
+"me013"::	uh and dividing it by the  standard deviation in the log domain,::	0
+"me013"::	may not be  the right thing to do.::	1
+"mn005"::	Hi. Yeah.::	0
+"me011"::	Hi Jane!::	0
+"me011"::	We just started.::	0
+"me011"::	Could you take that mike there?::	0
+"fe016"::	Are these the  long  term means? Like, over the whole - I mean,::	1
+"fe016"::	the means of   what?::	0
+"me011"::	Thanks.::	0
+"me013"::	Uh B- Between -::	0
+"fe016"::	All the frames in the  conversation?  Or of things that -::	0
+"me013"::	between -::	0
+"me013"::	No.::	0
+"me013"::	Between -::	0
+"mn005"::	No.::	0
+"me013"::	Neither. It's uh between the pauses  uh for some segment.::	0
+"fe016"::	Oh.::	0
+"me013"::	And so i- i- his - his - He's making the constraint it has to be at least two hundred milliseconds.::	0
+"fe016"::	Oh.::	0
+"me013"::	And so you take that. And then he's -::	1
+"me013"::	he's uh  measuring  at the frame level -::	0
+"me013"::	still at the frame level,::	1
+"fe016"::	Right.::	0
+"me013"::	of what  -::	0
+"me013"::	and then - and then just uh normalizing with that larger amount.::	1
+"me013"::	um and -::	0
+"me013"::	But one thing he was pointing out is when he - he looked at a bunch of examples in log domain, it  is  actually pretty hard to see::	0
+"me013"::	the  change.::	0
+"me013"::	And you can sort of  see that, because of j- of just::	0
+"me013"::	putting it on the board that::	0
+"mn005"::	Yep.::	0
+"me013"::	if you sort of have  log-X_  plus::	0
+"me013"::	log- X_ ,::	0
+"fe016"::	Yeah, maybe it's not log  distributed .::	0
+"me013"::	that's the  log  of  X_  plus the  log  of  two  and it's just,  you know, it - it diminishes the  effect of having two of them.::	0
+"mn005"::	Mmm. Yeah.::	0
+"mn005"::	@@::	0
+"fe016"::	But you could do like a C_D_ F  there instead? I mean, we don't  know  that the distribution here is::	0
+"me013"::	Um.::	0
+"me013"::	Yes, right.::	0
+"fe016"::	normally.::	0
+"me013"::	So -::	0
+"fe016"::	So just some kind of a simple -::	0
+"me013"::	So what I was suggesting to him is that -::	0
+"me013"::	Actually, a  P_D_F .::	0
+"me013"::	But, you know, uh::	0
+"fe016"::	P_D_F::	0
+"me013"::	But,  either   way.  Yeah.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	Yeah.::	0
+"me013"::	Yeah, eith- eith- uh::	0
+"fe016"::	Something like that where it's sort of data driven.::	0
+"me013"::	B- Yeah, but I think  also::	1
+"me013"::	u-::	0
+"me013"::	I think a good first indicator is when the - the - the researcher looks at::	0
+"me013"::	examples of the data::	0
+"me013"::	and can  not  see::	0
+"me013"::	a change  in how big the - the signal is,::	0
+"mn005"::	Yeah.::	0
+"me013"::	when the two speaker -::	1
+"me013"::	Then, that's a problem::	0
+"me013"::	right there.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	Oh yeah.::	0
+"me013"::	So.::	0
+"me013"::	I think you should at  least  be able,::	0
+"me013"::	doing casual looking and can get the sense, " Hey,  there's something  there. " and then you can play around with the measures.::	0
+"fe016"::	Oh yeah.::	0
+"mn005"::	Yeah.::	0
+"me013"::	And when he's looking in the log domain he's not really seeing it.::	0
+"me013"::	So. And when he's looking in straight  energy  he  is,::	0
+"me013"::	so that's a good place to start.::	1
+"mn005"::	Yeah.::	0
+"me013"::	Um.::	0
+"me013"::	So that was - that was the discussion we just had.::	0
+"me013"::	Um.::	0
+"me013"::	The other thing::	0
+"me013"::	Actually we ca- had a  question  for  Adam  in this.::	0
+"mn005"::	How -::	0
+"me013"::	Uh, when you did the::	0
+"me013"::	sampling?::	0
+"me013"::	uh  over the  speech segments or s- or sampling over the -::	0
+"me013"::	the individual channels in order to do the e-::	0
+"me013"::	uh the  amplitude equalization,::	0
+"me013"::	did you do it over::	0
+"me013"::	just the entire - everything in the mike channels? You didn't try to find speech?::	0
+"me011"::	No, I just took over the entire s- uh entire channel::	0
+"me011"::	um  sampled ten minutes randomly.::	0
+"me013"::	Right, O_K. So then  that  means that someone who didn't speak::	0
+"me013"::	very much::	0
+"me013"::	would be largely represented by silence.::	0
+"me011"::	Yep.::	0
+"me013"::	And someone who would - who would be -::	0
+"me013"::	So the normalization factor::	0
+"me013"::	probably  is  i- i- i-::	0
+"me011"::	Yeah, this was quite quick and dirty, and it was just for   listening.::	0
+"me013"::	is - is -::	0
+"mn005"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"me013"::	O_K.::	0
+"me011"::	And for  listening  it seems to work really  well.::	0
+"mn005"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"me011"::	So.::	0
+"me013"::	Yeah.::	0
+"me013"::	But that's -::	0
+"me013"::	Right. So th-::	0
+"me011"::	But, it's not -::	0
+"mn005"::	Yeah.::	0
+"me011"::	Not a good measure.::	0
+"me013"::	O_K.::	0
+"me013"::	So yeah there - there - there -::	1
+"me013"::	There's a good chance then given that::	0
+"me013"::	different people  do  talk different amounts  that there is -::	0
+"mn005"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"me013"::	there - there is still a lot more to be gained from gain norm- normalization with some::	0
+"mn005"::	Mmm.::	0
+"me011"::	Yes, absolutely.::	0
+"me013"::	sort if -::	1
+"me013"::	if we can figure out a way to do it.::	0
+"mn005"::	Yeah.::	0
+"me013"::	Uh. But::	1
+"me013"::	we were agreed that in addition to that::	0
+"me013"::	uh there should be::	0
+"me013"::	s- stuff related  to  pitch and harmonics and so forth.::	1
+"mn005"::	Yeah.::	0
+"me013"::	So we didn't talk at all about uh the other derivatives, but uh again just - just looking at -::	0
+"me013"::	Uh, I think uh Liz has a very good point,::	0
+"me013"::	that in fact it would be much more graphic just to show -::	0
+"mn005"::	Yeah.::	0
+"me013"::	Well, actually, you  do  have some distributions here,::	1
+"mn005"::	Yeah.::	0
+"me013"::	uh for  these  cases.::	1
+"me013"::	You have some histograms,::	0
+"mn005"::	Yeah.::	0
+"me013"::	um  and  uh,::	0
+"me013"::	they don't look very separate.::	0
+"me013"::	uh   separated.::	0
+"mn005"::	This is the - the first derivate of  log of frame  energy::	0
+"fe016"::	What  -::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"mn005"::	uh without any kind of normalization.::	0
+"me013"::	Yeah.::	0
+"fe016"::	Log energy.::	0
+"mn005"::	These the-::	0
+"fe016"::	Sorry.::	0
+"mn005"::	These are the - the first experiments uh with comment uh::	0
+"fe016"::	Frame energy.::	0
+"me011"::	Except that::	0
+"me011"::	it's hard to judge this because the - they're not normalized.::	0
+"me011"::	It's just number of frames.::	0
+"fe016"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	Yeah.::	0
+"me011"::	But yeah, even so.::	0
+"fe016"::	W-::	0
+"fe016"::	I mean, what I meant is, even if you use  linear,   you know,  raw::	0
+"me013"::	"Number" -::	0
+"fe016"::	measures, like  raw energy or whatever,::	0
+"fe016"::	maybe::	0
+"fe016"::	we shouldn't make any assumptions about the distribution's  shape,::	0
+"fe016"::	and just use -::	0
+"fe016"::	you know, use the distribution to model the -::	0
+"fe016"::	the mean, or what- y-::	0
+"fe016"::	you know, rather than the mean take some -::	0
+"me013"::	Yeah. But - And so in - in  these  he's  got::	0
+"fe016"::	Yeah.::	0
+"me013"::	that.::	0
+"me013"::	He's got some pictures.::	0
+"mn005"::	Yeah.::	0
+"me013"::	But he doesn't - he doesn't in the -::	0
+"me013"::	he- i-::	0
+"me013"::	just  in  derivatives,::	0
+"fe016"::	Yeah.::	0
+"me013"::	but not in the -::	0
+"fe016"::	Oh.::	0
+"me013"::	but he d-::	0
+"fe016"::	Right. So, we don't  know what they look like  on the,  tsk -::	0
+"me013"::	but he doesn't -::	0
+"me013"::	doesn't -::	0
+"me013"::	But he didn't h- have it for the energy.::	0
+"fe016"::	For the raw.::	0
+"me013"::	He had it for the derivatives.::	0
+"fe016"::	Yeah.::	0
+"fe016"::	So.::	0
+"me013"::	Yeah.::	0
+"fe016"::	I mean, there might be something there. I don't know.::	0
+"fe016"::	Huh.::	0
+"me013"::	Yeah.::	0
+"me011"::	Interesting::	0
+"mn005"::	Here I - I::	0
+"me013"::	Oh that - yeah that's a good q-::	0
+"mn005"::	in -::	0
+"me013"::	did - did you have this sort of thing, for just the -::	0
+"me013"::	just the l-::	0
+"me013"::	r- uh the -::	0
+"me013"::	the::	0
+"me013"::	unnormalized::	0
+"mn005"::	No::	0
+"me013"::	log energy?::	0
+"mn005"::	I - I - I haven't  the result::	0
+"me013"::	O_K. Yeah. So she - she's right. That's a -::	0
+"mn005"::	but it's the - it's the - the - the following.::	0
+"fe016"::	Well it might be just good to know what it looks like.::	0
+"fe016"::	Cuz -::	0
+"me013"::	Yeah. That's -::	0
+"mn005"::	Huh?::	0
+"me013"::	That's uh  cuz I'd mentioned scatter plots before but she's right, I mean, even before you get the scatter plots, just looking at a  single  feature::	0
+"mn005"::	Yeah.::	0
+"me013"::	uh,::	0
+"me013"::	looking at the distribution,  is  a good thing to do.::	0
+"mn005"::	Catal-  uh - Combining the different possibilities of uh the parameters.::	0
+"mn005"::	I - I - I - I mean the - the - the scatter plot::	0
+"mn005"::	combining eh different  n- two combination.::	0
+"mn005"::	combination of two,  of energy and derivate -::	0
+"me013"::	Yeah, but - but what she's saying::	0
+"me013"::	is, which is right, is  le-::	0
+"me013"::	I mean, let's start with the - Before we get complicated,::	1
+"me013"::	let's start with the  most   basic  wh- thing,::	0
+"me013"::	which is   we're  arguing::	0
+"me013"::	that if you take energy -::	0
+"me013"::	uh if you  look  at the  energy,::	0
+"me013"::	that, when two people are speaking at the same time, usually::	0
+"me013"::	there'll be  more  energy than when one is right?::	1
+"mn005"::	Yeah.::	0
+"me013"::	That's - that sort of hypothesis. And the first way you'd look at that,::	1
+"mn005"::	That's right.::	0
+"me013"::	uh s-::	0
+"me013"::	she's, you know, absolutely right, is that you would::	1
+"me013"::	just take a look at the  distribution  of those two  things,::	1
+"mn005"::	Yeah.::	0
+"me013"::	much  as you've  plotted  them  here,::	0
+"me013"::	You know, but just - but just -::	0
+"mn005"::	Yeah.::	0
+"me013"::	just uh do it -::	0
+"me013"::	Well in this case you have  three.::	0
+"me013"::	You have the  silence,  and that - that's fine.::	0
+"mn005"::	Yeah.::	0
+"me013"::	So,::	0
+"me013"::	uh with three colors or three shades or whatever,::	0
+"me013"::	just - just look at those distributions.::	0
+"mn005"::	Yeah.::	0
+"me013"::	And then, given that as a base, you can see if that gets improved,::	0
+"me013"::	you know, or - or -::	0
+"me013"::	or  worsened   by the -::	0
+"me013"::	looking at  regular  energy,::	0
+"me013"::	looking at  log  energy, we were just proposing that maybe it's -::	0
+"me013"::	you know, it's harder to  see with the log energy,::	0
+"mn005"::	Yeah.::	0
+"me013"::	um::	0
+"me013"::	and uh::	0
+"me013"::	also these different normalizations,::	0
+"me013"::	does   a particular choice of normalization make it better?::	0
+"me013"::	But I had maybe made it too  complicated::	1
+"me013"::	by suggesting::	0
+"me013"::	early on, that you look at  scatter  plots because that's looking at a distribution in  two  dimensions.::	1
+"mn005"::	Yeah.::	0
+"me013"::	Let's start off just in  one,::	1
+"mn005"::	Yeah.::	0
+"me013"::	uh, with this  feature.::	1
+"mn005"::	Yeah.::	0
+"me013"::	I think that's probably the most basic thing, before anything very  complicated.::	0
+"fe016"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"me013"::	Um::	1
+"me013"::	And then we- w- I think we're agreed that::	0
+"mn005"::	I agree, yeah.::	0
+"me013"::	pitch-related  things are - are - are going to be a - a really likely candidate::	0
+"mn005"::	Uh-huh.::	0
+"me013"::	to  help.::	1
+"me013"::	Um::	1
+"mn005"::	O_K.::	0
+"me013"::	But::	0
+"me013"::	since -::	0
+"me013"::	uh  your  intuition::	0
+"me013"::	from looking at some of the  data,::	0
+"me013"::	is that when you looked at the regular energy,::	0
+"me013"::	that it  did  in fact usually go  up,::	0
+"me013"::	when two people were  talking,::	0
+"mn005"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"mn005"::	Yeah, yeah, yeah.::	0
+"me013"::	that's - eh::	0
+"me013"::	you know, you should be able to come up with a measure which will::	0
+"me013"::	match your intuition.::	1
+"me013"::	And she's right,::	0
+"me013"::	that a -::	0
+"me013"::	that having a -::	0
+"mn005"::	But -::	0
+"me013"::	having -::	0
+"me013"::	having this  table,  with a whole bunch of things,  with the standard deviation, the variance and so forth,::	0
+"mn005"::	Uh-huh.::	0
+"me013"::	it's - it's -::	0
+"me013"::	it's  harder  to interpret than just looking at the -::	0
+"mn005"::	Yeah.::	0
+"mn005"::	But -::	0
+"me013"::	the same kind of picture you have here.::	0
+"mn005"::	It - it's curious but uh I f- I found it in the - in the mixed file,::	0
+"mn005"::	in one channel::	0
+"mn005"::	that eh in several - oh e- eh several times eh you have an speaker::	0
+"mn005"::	talking alone::	0
+"me013"::	Mm-hmm.::	0
+"mn005"::	with a high level of energy::	0
+"me013"::	Mm-hmm.::	0
+"mn005"::	eh::	0
+"mn005"::	in the middle eh a zone of overlapping::	0
+"me013"::	Mm-hmm.::	0
+"mn005"::	with::	0
+"mn005"::	mmm less energy::	0
+"mn005"::	and::	0
+"mn005"::	eh  come  with another speaker with high energy and the::	0
+"me013"::	Mm-hmm.::	0
+"mn005"::	overlapping zone::	0
+"mn005"::	has::	0
+"mn005"::	eh less energy.::	0
+"me013"::	Yeah.::	0
+"me013"::	So there'll be some cases for which -::	0
+"mn005"::	Because there  reach very many   @@::	0
+"fe016"::	Right.::	0
+"me013"::	But, the qu- So -::	0
+"me013"::	So they'll be -::	0
+"me013"::	This is -::	0
+"me013"::	I w- want to  point   to visual things,::	0
+"me013"::	But I mean they - there'll be time -::	0
+"me013"::	There'll be overlap::	0
+"me013"::	between the distributions,::	0
+"me013"::	but the question is,::	0
+"mn005"::	Yeah.::	0
+"me013"::	"If it's a  reasonable  feature at  all,::	0
+"me013"::	there's  some  separation."::	0
+"mn005"::	Yeah.::	0
+"fe016"::	Especially::	0
+"fe016"::	locally.::	0
+"fe016"::	So.  Locally.  And the other thing is I-::	0
+"mn005"::	just locally , yeah.::	0
+"me013"::	Mm-hmm.::	0
+"me011"::	And -::	1
+"fe016"::	Sorry.  I -::	0
+"me011"::	I was just going to say that - that::	0
+"me011"::	right now we're just  exploring.::	1
+"me011"::	What you would imagine  eventually,  is that you'll feed all of these features into some::	1
+"mn005"::	Yeah.::	0
+"me011"::	discriminative system.::	1
+"me013"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"me011"::	And so even if - if one of the features::	1
+"me011"::	does a good job at  one  type of overlap, another feature might do a good job at  another  type of overlap.::	1
+"mn005"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"mn005"::	Yeah, this is the -::	0
+"me013"::	Right. I mean the -::	0
+"me013"::	the reason I had suggested the scatter f- p- features is I used to do this a lot,::	0
+"me013"::	when we had::	0
+"me013"::	thirteen or fifteen or twenty features  to look at.::	0
+"me013"::	um::	0
+"me013"::	Because something is a  good  feature::	0
+"me013"::	uh by itself,::	0
+"me013"::	you don't really know how it'll behave in combination and so it's nice to have as many -::	0
+"me013"::	as many together at the same time as possible::	0
+"me013"::	in uh in some reasonable visual form. There's cool graphic things people have had sometimes to put together three or four in some funny -::	0
+"me013"::	funny way.::	0
+"me013"::	But it's true::	0
+"me013"::	that you  shouldn't  do  any  of that unless you know::	0
+"me013"::	that::	0
+"me013"::	the  individual  ones, at least, have -::	0
+"mn005"::	Yeah.::	0
+"me013"::	have some uh -::	0
+"fe016"::	Well,  especially  for  normalizing.  I mean,::	0
+"me013"::	some hope::	0
+"me013"::	Mm-hmm.::	0
+"fe016"::	it's  really  important to  pick a normalization that matches the distribution for that feature.::	0
+"me013"::	Mm-hmm.::	0
+"fe016"::	And it may not be the same::	0
+"fe016"::	for all the types of overlaps or::	0
+"fe016"::	the windows may not be::	0
+"fe016"::	the same.::	0
+"fe016"::	e-  Actually, I was wondering,::	0
+"fe016"::	right now::	0
+"fe016"::	you're taking a -::	0
+"fe016"::	all  of the  speech,::	0
+"fe016"::	from the whole meeting,::	0
+"fe016"::	and you're trying to find points of overlap,::	0
+"fe016"::	but we don't really know which speaker is overlapping with which speaker, right?::	0
+"me013"::	Right.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	So I mean another way would just be to take::	0
+"fe016"::	the speech from  just,  say, Morgan,::	0
+"fe016"::	And  just  Jane and then  just  their overlaps,::	0
+"fe016"::	like -::	0
+"fe016"::	but by hand, by cheating,::	0
+"fe016"::	and looking at::	0
+"fe016"::	you know, if you can detect something  that  way, because if we  can't  do it  that  way, there's no::	0
+"me011"::	No prayer.::	0
+"fe016"::	good way that we're going to be able to do it.::	0
+"fe016"::	That - You know, there might be something::	0
+"fe016"::	helpful  and  cleaner  about looking at just  individuals and then that combination alone.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	Plus,  I think it::	0
+"me013"::	Mm-hmm.::	0
+"fe016"::	has more elegant -::	0
+"fe016"::	e-::	0
+"fe016"::	The m- the right model will be  easier to see that way.::	0
+"fe016"::	So if - I don't know, if you go through and you find::	0
+"mn005"::	Yeah.::	0
+"fe016"::	Adam,  cuz he has a lot of overlaps and some other speaker who also has e- enough speech and just::	0
+"fe016"::	sort of look at those::	0
+"mn005"::	Yeah.::	0
+"fe016"::	three  cases of Adam and the other person and the overlaps, maybe -::	0
+"fe016"::	and just look at the  distributions,  maybe there  is  a clear::	0
+"mn005"::	Yeah.::	0
+"mn005"::	Uh-huh.::	0
+"fe016"::	pattern but we just can't::	0
+"fe016"::	see it because there's too many::	0
+"fe016"::	combinations of - of people::	0
+"mn005"::	Yeah.::	0
+"fe016"::	that can overlap.::	0
+"fe008"::	I had the same intuition last - last - last week.::	0
+"fe016"::	So.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	Just seems sort of complex.::	0
+"fe008"::	I think it's - to start with it's s-::	0
+"fe008"::	your - your idea of simplifying,::	0
+"fe008"::	starting with something that::	0
+"fe008"::	you can see::	0
+"fe008"::	eh you know without::	0
+"fe008"::	the::	0
+"fe008"::	extra::	0
+"fe008"::	layers of -::	0
+"fe016"::	Right.::	0
+"fe016"::	Cuz if energy doesn't matter  there,  like -::	0
+"fe016"::	I don't think this is true, but what if::	0
+"mn005"::	To study  individual?::	0
+"fe008"::	Sorry, what?::	0
+"fe016"::	Hmm?::	0
+"mn005"::	To study individual?::	0
+"fe008"::	Well, you - you - you don't have to study  everybody  individually but::	0
+"mn005"::	The - the - the -::	0
+"fe016"::	Well, to study the simplest case::	0
+"mn005"::	But -::	0
+"fe008"::	just simple case and::	0
+"fe016"::	to get rid of extra -::	0
+"mn005"::	Consider -::	0
+"fe008"::	the one that has the lot of data associated with it.::	0
+"fe016"::	Right.::	0
+"fe016"::	Cuz what if it's the case and I don't think this is true -::	0
+"me011"::	That was a  great  overlap by the way.::	0
+"fe016"::	What if it's the case that when two people overlap they equate their -::	0
+"fe016"::	you know, there's a  conservation of energy and everybody -::	0
+"fe016"::	both   people talk more softly? I don't think this happens at  all.::	0
+"fe008"::	Or - or what if what if the equipment -::	0
+"fe016"::	Or they get louder.::	0
+"fe008"::	what if the  equipment  adjusts somehow,::	0
+"fe008"::	there's some::	0
+"fe008"::	equalizing in there?::	0
+"fe016"::	Yeah::	0
+"fe016"::	or -::	0
+"me013"::	Uh,::	0
+"fe016"::	I mean.::	0
+"me013"::	no we  don't  have  that.::	0
+"me013"::	But.::	0
+"me011"::	Well, but -::	0
+"fe008"::	O_K.::	0
+"me011"::	But I think that's what I was  saying  about::	0
+"me011"::	different types of::	0
+"fe008"::	Saturation.::	0
+"me011"::	overlap.::	0
+"fe016"::	There are - there are different::	0
+"fe016"::	types,::	0
+"fe016"::	and  within  those types,::	0
+"fe016"::	like as  Jose  was saying, that  sounded like a backchannel overlap,::	0
+"fe016"::	meaning the kind that's  a friendly  encouragement,  like "Mm-hmm.", "Great!", "Yeah!"::	0
+"mn005"::	Yeah.::	0
+"fe016"::	And it  doesn't  take - you don't take the  floor.::	0
+"fe016"::	Um, but,::	0
+"fe016"::	some of  those,  as you showed, I think can be discriminated by the duration of the overlap.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	So.::	0
+"fe016"::	It -::	0
+"fe016"::	Actually the s- new student, Don, who um Adam has met, and he was::	0
+"fe016"::	at one of our meetings - He's::	0
+"fe016"::	getting his feet wet and then he'll be starting again::	0
+"fe016"::	in mid-January. He's interested in trying to distinguish the types of overlap.::	0
+"fe016"::	I don't know if he's talked with you yet.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	But in sort of honing in on these different types and -::	0
+"mn005"::	I don't consi-::	0
+"mn005"::	Now I don't consider that possibility.::	0
+"mn005"::	This is a s- a general studio of the overlapping::	0
+"fe016"::	So maybe -::	0
+"me013"::	Yeah.::	0
+"mn005"::	we're studying the -::	0
+"fe016"::	So it might be something that we can::	0
+"me013"::	Well  I -::	0
+"fe016"::	help by categorizing some of them and then,::	0
+"mn005"::	i-::	0
+"me013"::	I -::	0
+"me013"::	I - I would s-::	0
+"fe016"::	you know, look at that.::	0
+"me013"::	actually  still  recommend that he do the overall thing::	0
+"me013"::	because  it would be the  quickest  thing for him to do.::	0
+"me013"::	He could - You see, he already has all his stuff in place, he has the histogram mechanism,::	0
+"fe016"::	Yeah.::	0
+"me013"::	he has the stuff that subtracts out -::	0
+"me013"::	and all he has to do::	0
+"me013"::	is change it uh::	0
+"me013"::	uh from - from log to plain energy::	0
+"me013"::	and plot the histogram::	0
+"me013"::	and  look  at it.::	0
+"me013"::	And  then  he should go on and do the other  stuff::	0
+"fe016"::	Yeah.::	0
+"me013"::	bec-::	0
+"me013"::	but -::	0
+"fe016"::	Yeah, no. I  didn't  mean that -::	0
+"me013"::	But this will -::	0
+"fe016"::	that -::	0
+"fe016"::	for  you  to do that, but I was thinking if -::	0
+"fe016"::	if Don and I are trying to get   categories  and we label some  data  for you, and we say this is what we think is going -::	0
+"me013"::	Mm-hmm.::	0
+"me013"::	Mm-hmm.::	0
+"fe016"::	So you don't have to worry about it. And here's the three types of overlaps. And we'll - we'll do the  labeling  for you.::	0
+"mn005"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"me013"::	Hm- hmm.::	0
+"fe016"::	Um.::	0
+"mn005"::	Consider different class of overlap?::	0
+"fe016"::	Yeah, that we would be working on  anyway.::	0
+"mn005"::	If there's time.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	Then maybe  you can  try  some different things for those three  cases,  and see if that helps, or -::	0
+"mn005"::	Yeah.::	0
+"mn005"::	This is the thing I - I comment with you before,::	1
+"mn005"::	that uh we have a great variation of th- situation of overlapping.::	1
+"me013"::	Mm-hmm.::	0
+"mn005"::	And the behavior for energy is,::	0
+"mn005"::	uh log energy,::	0
+"mn005"::	is not uh the same all the time.::	0
+"fe016"::	Mm-hmm.::	0
+"mn005"::	And -::	0
+"me013"::	But I guess I was just saying that - that right now::	0
+"me013"::	uh::	0
+"me013"::	from the  means  that you gave,::	0
+"me013"::	I don't have  any  sense::	0
+"me013"::	of whether::	0
+"me013"::	even,::	0
+"me013"::	you know, there are  any  significant number of cases for which there is distinct - and I would imagine there  should  be::	0
+"mn005"::	Yeah.::	0
+"me013"::	some -::	0
+"me013"::	you know, there should be -::	0
+"me013"::	The distributions::	0
+"me013"::	should be  somewhat   separated.::	0
+"mn005"::	Yeah.::	0
+"me013"::	Uh and::	0
+"me013"::	I - I would still guess that if they are not separated at  all,::	0
+"mn005"::	Yeah.::	0
+"me013"::	that there's some -::	0
+"me013"::	there's - there's most likely something wrong in the way that we're measuring it.::	0
+"mn005"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"me013"::	Um,::	1
+"me013"::	but::	0
+"me013"::	um::	0
+"me013"::	For instance, I mean I wouldn't expect that it was very  common::	0
+"me013"::	overall,  that::	0
+"me013"::	when two people were talking at the same time,::	0
+"me013"::	that it would - that it really was::	0
+"me013"::	lower,  although sometimes, as you say, it  would.::	1
+"mn005"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	Yeah, no, that was - That was a jok-::	0
+"me013"::	So.::	0
+"me013"::	So.::	0
+"fe016"::	or a sort of,::	0
+"me013"::	Yeah.::	0
+"fe016"::	a case where - where you would  never  know that unless you actually::	0
+"me013"::	I mean. No. It could - it probably  does  happen sometimes.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	go and look at::	0
+"me011"::	Right.::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"fe016"::	two individuals. So.::	0
+"mn005"::	Yeah.::	0
+"me011"::	Mind if I turned that light off? The flickering is annoying me.::	0
+"me013"::	O_K.::	0
+"fe016"::	It  might  the  case,  though, that the significant energy, just as Jose was saying,  comes  in the  non-backchannel  cases.::	0
+"fe016"::	Because in back-  Most  people when they're talking don't change their own::	0
+"fe016"::	energy when they get a backchannel, cuz they're not really  predicting  the backchannel.::	0
+"me013"::	Mm-hmm.::	0
+"fe016"::	And sometimes it's a nod and sometimes it's an "mm-hmm". And the  "mm-hmm " is really usually very low  energy.::	0
+"mn005"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	So maybe those don't actually have much difference in energy. But::	0
+"fe016"::	all the  other  cases might.::	0
+"me013"::	e-::	0
+"fe016"::	and the backchannels are sort of easy to spot::	0
+"fe016"::	s- in terms of their words or - I mean, just listen to it. So.::	0
+"mn005"::	Yeah.::	0
+"me013"::	e-::	0
+"mn005"::	But -::	0
+"me013"::	and - and again what they - what difference there  was  would kind of be lost in taking the log,::	0
+"me013"::	so,::	0
+"fe016"::	Well, it would be lost  no matter what you  do.  It just -::	0
+"me013"::	as well.::	0
+"mn005"::	Yeah.::	0
+"me013"::	Mmm,::	0
+"me013"::	no, if it's -::	0
+"me013"::	if i-::	0
+"me013"::	if it's -::	0
+"me011"::	Tone::	0
+"me013"::	Well, it  won't  be as  big.::	0
+"fe016"::	I mean, even if you take the  log,  you can - your model just has a more sensitive  measures. So.::	0
+"mn005"::	Yeah.::	0
+"me011"::	Sure, but  tone  might be very::	0
+"me011"::	Yeah, you're "mm-hmm" tone is going to be very different.::	0
+"fe016"::	Yeah.::	0
+"fe016"::	Right.::	0
+"fe016"::	Right.::	0
+"me011"::	You could imagine doing  specialized  ones for different  types  of backchannels,::	0
+"me011"::	if you could - if you had a good model for it.::	0
+"me011"::	Your "mm-hmm" detector.::	0
+"me013"::	If - if you're - a-::	0
+"me013"::	I guess my point is, if you're doing essentially a linear separation, taking the log first  does  in fact make it harder to separate.::	0
+"me011"::	Right.::	0
+"mn005"::	Yeah.::	0
+"me013"::	So it's -::	0
+"me013"::	So, uh if you i- i-::	0
+"me013"::	So i- if there - if there close to things it does::	0
+"fe016"::	Yeah.::	0
+"me013"::	it's a  nonlinear  operation that  does  in fact change the distinction. If you're doing a non- if you're doing some fancy thing then - then yeah.::	0
+"me013"::	And right now we're essentially doing this linear thing by looking across here and - and saying we're going to cut it here.::	0
+"me013"::	Um::	0
+"me013"::	and that - that's the indicator that we're getting.::	0
+"me013"::	But  anyway,  yeah, we're not  disagreeing on any of this, we should look at it more uh - more finely,::	0
+"me013"::	but uh uh I think that -::	0
+"me013"::	This often happens, you do fairly complicated things,::	0
+"me013"::	and then you stand back from them and you realize that you haven't done something simple.::	0
+"me013"::	So::	1
+"me013"::	uh, if you generated something like that just for the energy and see,::	0
+"me013"::	and then, a- a- a- as - as Liz says, when they g- have uh uh smaller um, more coherent groups to look at, that would be another interesting thing later.::	1
+"mn005"::	Uh-huh.::	0
+"mn005"::	Uh-huh.::	0
+"me013"::	And then that should give us some indication -::	1
+"me013"::	between  those, should give us some indication of whether there's anything to be achieved f- from energy at  all.::	1
+"me013"::	And then you can move on to the uh::	1
+"me013"::	uh more  pitch related stuff.::	1
+"mn005"::	Mm-hmm.::	0
+"mn005"::	I - I - I think this is a good idea.::	1
+"me013"::	O_K.::	0
+"mn005"::	Not  consider the log::	1
+"fe008"::	Mm-hmm.::	0
+"mn005"::	energy.::	1
+"me013"::	Yeah.::	0
+"mn005"::	@@::	0
+"me013"::	But then the -::	0
+"me013"::	Have you started looking at the pitch related  stuff at all, or - ?::	0
+"mn005"::	The - ?::	0
+"me013"::	Pitch  related?::	1
+"me013"::	Harmonicity and so on?::	1
+"mn005"::	I - I'm preparing the - the program but I don't - I don't begin::	0
+"me013"::	Preparing to -::	0
+"mn005"::	because eh::	0
+"me013"::	Yeah.::	0
+"mn005"::	I saw your email and::	0
+"mn005"::	I agree with you::	0
+"me013"::	Yeah.::	0
+"mn005"::	it's better to -::	0
+"mn005"::	I suppose it's better to - to consider the - the energy this kind of parameter::	0
+"me013"::	Oh, that's  not  what I  meant.::	0
+"mn005"::	bef-::	0
+"me013"::	No, no. I - I - I -::	0
+"me013"::	I - Well,::	1
+"me013"::	we  certainly  should  see  this but I - I - I -::	0
+"me013"::	I think that the harm-::	1
+"me013"::	I  certainly  wasn't saying this was  better  than the::	0
+"me013"::	harmonicity and pitch related things I was just saying::	0
+"mn005"::	I - I go on with the - with the::	0
+"me013"::	Yeah.::	0
+"mn005"::	pitch, aha!::	0
+"mn005"::	O_K.::	0
+"me013"::	Yeah, I was just saying -::	0
+"mn005"::	I - I - I - I understood uh that eh::	0
+"mn005"::	I - I had to finish::	0
+"mn005"::	by the moment with the::	0
+"mn005"::	and - and concentrate my - my energy in that problem.::	0
+"me013"::	O_K. O_K.::	0
+"me013"::	O_K. But I think, like, all these derivatives and second derivatives and all these other very fancy things, I think I would just sort of  look  at the energy  and then::	1
+"me013"::	get into the  harmonicity  as - as::	0
+"mn005"::	O_K. I go on::	0
+"me013"::	a suggestion.::	1
+"mn005"::	with the pitch.::	0
+"me013"::	Uh::	0
+"me013"::	O_K. So maybe uh::	0
+"me013"::	since w- we're trying to::	0
+"me013"::	uh compress the meeting,::	0
+"me013"::	um, I know  Adam  had some  form  stuff he wanted to talk about::	0
+"me013"::	and did you have some?::	1
+"fe008"::	I wanted to ask just s- something on the end of  this  top- topic. So,::	1
+"fe008"::	when I presented my results about the uh distribution of overlaps and the speakers and the profiles of the speakers,::	0
+"mn005"::	Uh-huh.::	0
+"fe008"::	at the bottom of that I  did  have a  proposal,  and I had plan to go  through  with it, of - of co-  coding  the types of overlaps that people were  involved  in s-::	1
+"fe008"::	just with reference to speaker style so,::	0
+"fe016"::	Oh.::	0
+"fe008"::	you know, with reference - and you know I said that on my - in my  summary,  that::	1
+"fe016"::	That'd be great.::	0
+"fe016"::	Yeah, I remem- Right.::	0
+"fe008"::	you know so it's like people may have different amounts of being  overlapped  with or overlapping::	1
+"fe008"::	but that in itself is not  informative  without knowing what  types  of overlaps they're involved in so::	1
+"fe008"::	I  was planning to do a taxonomy of  types  overlaps with reference to  that.::	1
+"fe016"::	That  would be  great.  That would be really  great.::	0
+"mn005"::	Yeah.::	0
+"fe008"::	So,::	0
+"fe008"::	but it you know it's like::	0
+"me011"::	Hmm.::	0
+"fe008"::	it sounds like you also have uh something in that  direction.::	0
+"fe008"::	Is - is it -::	0
+"fe016"::	We have nothing - You know, basically, we got  his  environment  set up. He's - he's a double-E_::	0
+"fe016"::	you know. So.::	0
+"fe016"::	It's mostly that,::	0
+"fe016"::	if we  had  to  label it ourselves, we - we  would  or we'd have to, to get started,::	0
+"fe016"::	but if -  It -::	0
+"fe016"::	it would be much better if  you  can do it.::	0
+"fe016"::	You'd  be much better  at doing it also because::	0
+"fe016"::	you know, I - I'm not -::	0
+"fe008"::	Interesting.::	0
+"fe016"::	I don't  have  a good feel for how they should be sorted out, and I really didn't wanna::	0
+"fe016"::	go into that if I didn't have to. So if -::	0
+"fe016"::	If you're w- willing to do that or - or -::	0
+"fe008"::	Well maybe we can O_K.::	0
+"me011"::	It would be interesting, though, to talk, maybe not at the meeting,::	0
+"mn005"::	Yeah.::	0
+"me011"::	but at some other time about what are the classes.::	0
+"fe008"::	Mm-hmm.::	0
+"fe016"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"fe008"::	Mm-hmm.::	0
+"fe016"::	I think  that's  a research  effort in and of itself,::	0
+"me011"::	Yeah, it would be interesting.::	0
+"fe016"::	because you can  read  the literature, but I don't know how it'll  turn out and,::	0
+"mn005"::	Yeah.::	0
+"fe008"::	It seems like we also s- with reference to a purpose, too, that we we'd want to have them coded.::	0
+"mn005"::	I would think it's interesting, yeah.::	0
+"fe016"::	You know, it's  always  an interesting question.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	That'd be  great.::	0
+"mn005"::	Yeah.::	0
+"me011"::	Yep.::	0
+"fe016"::	That'd be  really  great. And we'd still have some  funding::	0
+"fe008"::	O_K.::	0
+"fe008"::	I can do that.::	0
+"mn005"::	uh- uh-::	0
+"fe016"::	for this project, like probably,::	0
+"fe016"::	if we had to hire some - like an undergrad, because uh Don is being::	0
+"mn005"::	hhh.::	0
+"fe016"::	covered half time on something else -::	0
+"fe008"::	Mm-hmm.::	0
+"fe016"::	I mean,::	0
+"fe016"::	he - we're not paying him  the full::	0
+"fe016"::	R_A-ship for -  all  the  time.  So.::	0
+"fe016"::	um::	0
+"fe016"::	If we got it to where we wanted - we needed someone to do that - I don't think there's really enough::	0
+"fe016"::	data  where - where -::	0
+"fe008"::	Mm-hmm.::	0
+"fe008"::	Yeah, I see this as a prototype,::	0
+"mn005"::	Yeah.::	0
+"fe008"::	to use the only the -::	0
+"fe016"::	Yeah.::	0
+"fe008"::	the already transcribed meeting as just a prototype.::	0
+"mn005"::	I - I think a- a- another::	1
+"mn005"::	parameter we c- we -::	0
+"fe016"::	But -::	0
+"mn005"::	we can consider is eh the  duration.::	1
+"me011"::	Mm-hmm.::	0
+"mn005"::	Another e- e- m-::	0
+"mn005"::	besides eh the - the class of overlap,::	0
+"mn005"::	the duration.::	0
+"mn005"::	Because is possible  eh some s- s- um eh::	1
+"mn005"::	some classes eh has eh::	0
+"mn005"::	a type of a duration, eh,::	1
+"mn005"::	a duration very short::	0
+"fe008"::	Mm-hmm.::	0
+"mn005"::	uh when we have -::	0
+"fe016"::	Yeah, definitely.::	0
+"fe008"::	Yeah, maybe -::	0
+"fe008"::	It may be  correlated.::	0
+"mn005"::	we have overlapping with speech.::	0
+"mn005"::	Is possible::	0
+"fe008"::	Mm-hmm.::	0
+"mn005"::	to have.::	0
+"mn005"::	And it's interesting,::	0
+"mn005"::	I think,::	0
+"mn005"::	to consider the - the  window   of normalization,::	0
+"mn005"::	normalization window.::	0
+"mn005"::	Eh  because eh if we have a type of,::	0
+"mn005"::	a kind of eh::	0
+"mn005"::	overlap, eh::	0
+"mn005"::	backchannel overlap,::	0
+"mn005"::	with a short duration,::	0
+"mn005"::	is possible::	0
+"mn005"::	eh to normali- i- i-::	0
+"mn005"::	that if we normalize eh with eh::	0
+"mn005"::	eh consider only the - the eh window::	0
+"mn005"::	eh by the left eh ri- eh::	0
+"mn005"::	side on the right side::	0
+"mn005"::	overlapping with a - a very::	0
+"mn005"::	eh oh a small window::	0
+"mn005"::	eh the - if the fit of normalization is eh::	0
+"mn005"::	mmm::	0
+"mn005"::	bigger::	0
+"mn005"::	eh in that overlapping zone eh very short::	0
+"fe008"::	Mm-hmm.::	0
+"fe016"::	Yeah, that's true. The window shouldn't be  larger  than the  backchannel.::	0
+"mn005"::	I - I me-::	0
+"mn005"::	I - I understand.::	0
+"mn005"::	I mean that you have::	1
+"fe016"::	Yeah.::	0
+"mn005"::	eh you have a backchannel, eh, eh - you have a overlapping zone::	0
+"mn005"::	very short::	1
+"mn005"::	and you consider::	0
+"mn005"::	eh n- eh::	0
+"mn005"::	all the channel::	0
+"mn005"::	to normalize::	0
+"me013"::	Mm-hmm.::	0
+"mn005"::	this very short eh -::	0
+"me013"::	Mm-hmm.::	0
+"mn005"::	for example "mmm mm-hmm hmm"::	0
+"mn005"::	eh::	0
+"mn005"::	And the energy is not eh height::	0
+"mn005"::	eh I think if you consider all the channel::	0
+"mn005"::	to normalize and the channel is::	0
+"mn005"::	mmm::	0
+"mn005"::	bigger::	0
+"me013"::	Mm-hmm.::	0
+"mn005"::	eh eh eh::	0
+"mn005"::	compared with the - with the overlapping::	0
+"mn005"::	eh duration,::	0
+"mn005"::	eh the effect::	0
+"mn005"::	is::	0
+"mn005"::	mmm::	0
+"mn005"::	stronger::	1
+"mn005"::	eh::	0
+"mn005"::	that::	0
+"mn005"::	I - I mean the - the e- effect of the normalization::	0
+"mn005"::	eh with the mean and the - and the variance::	0
+"me013"::	Mm-hmm.::	0
+"mn005"::	eh is different that if you consider::	0
+"mn005"::	only a::	0
+"mn005"::	window::	0
+"mn005"::	compared::	0
+"mn005"::	eh with the n- the duration of overlapping.::	1
+"mn005"::	Not  -::	0
+"me013"::	You - you want it::	0
+"me013"::	around  the overlapping part. You want it to include something that's not in  overlapping  but -::	0
+"mn005"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"fe008"::	Mm-hmm.::	0
+"me013"::	but uh::	0
+"mn005"::	I - I don't know. Is - s-::	0
+"me013"::	Yeah.::	0
+"fe016"::	Well it's a  sliding   window,  right? So if you take the - the measure::	0
+"mn005"::	If -::	0
+"me013"::	Mm-hmm.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	in the center of the overlapped  piece,::	0
+"mn005"::	Yeah.::	0
+"fe016"::	you know, there'd better be some-::	0
+"fe016"::	something.  But if your window is  really   huge  then yeah you're right you won't even - The portion of the -::	0
+"mn005"::	Yeah,::	0
+"mn005"::	This is the -::	0
+"fe016"::	of the backchannel won't - won't effect anything. But you -::	0
+"mn005"::	This is the - the idea,::	0
+"mn005"::	to consider only the - the small window::	0
+"fe016"::	Yeah. So.::	0
+"mn005"::	near - near -::	0
+"mn005"::	near the - the overlapping zone.::	0
+"fe016"::	You know, you shouldn't be more than::	0
+"fe016"::	like -  You should  definitely  not be  three  times as big as your -::	0
+"fe016"::	as your  backchannel.::	0
+"mn005"::	Yeah.::	0
+"fe008"::	Mm-hmm.::	0
+"fe016"::	Then you're gonna w- have a wash.::	0
+"fe016"::	And hopefully it's more like::	0
+"me013"::	I'm not sure that's  necessarily  true.::	0
+"fe016"::	on the order of -::	0
+"mn005"::	Yeah?::	0
+"fe008"::	It  is  an  empirical  question, it seems like.::	0
+"fe016"::	Yea-::	0
+"me013"::	Because -::	0
+"mn005"::	Yeah.::	0
+"me013"::	because it -::	0
+"me013"::	because::	0
+"fe008"::	Yeah.::	0
+"me013"::	um::	0
+"me013"::	again if you're just  compensating  for the  gain,::	0
+"me013"::	you know, the fact that this - this gain thing was crude,::	0
+"me013"::	and the gain wh-::	0
+"me013"::	if someone is speaking relatively::	0
+"me013"::	at consistent  level,::	0
+"me013"::	just to - to give a - an extreme example,::	0
+"me013"::	all you're doing is compensating for that.::	0
+"me013"::	And  then you  still s-::	0
+"me013"::	And then if you look at the frame with  respect  to that,::	0
+"me013"::	it still should - should uh::	0
+"me013"::	change::	0
+"fe016"::	Yeah, it  depends  how different your normalization is, as you slide your window across. I mean.  That's  something we don't know.::	0
+"me013"::	Mm-hmm.::	0
+"fe008"::	It's possible to try it both ways, isn't it?::	0
+"me011"::	Well, I mean we're also talking about::	0
+"fe008"::	in this small  @@::	0
+"me011"::	a couple of different things. I mean, one is your  analysis  window and then the other is any sort of normalization that you're doing.::	0
+"fe016"::	Yeah I was talking about the n- normalization window.::	0
+"me011"::	And the -::	0
+"me011"::	And they could be quite different.::	0
+"fe016"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"me013"::	Right.::	0
+"me013"::	This was sort of where -::	0
+"fe016"::	Yeah. That's true.::	0
+"me011"::	Yep.::	0
+"me013"::	where we were  last  week.::	0
+"fe016"::	Yeah.::	0
+"me013"::	But, anyway::	0
+"me013"::	We - we'll have to look at some core things.::	0
+"fe016"::	Um.::	0
+"mn005"::	O_K.::	0
+"fe008"::	O_K.::	0
+"fe016"::	But that'd be great if - if you're marking those and -::	0
+"fe008"::	Great.::	0
+"fe008"::	O_K.::	0
+"fe016"::	um.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	But::	1
+"fe016"::	it  is  definitely true that we need to have the  time  marks,::	1
+"fe008"::	Mm-hmm.::	0
+"fe016"::	and I was assuming  that  will be  inherited  because,::	1
+"fe008"::	Yep, I agree.::	0
+"fe016"::	if you have the words and they're roughly aligned in time::	0
+"fe008"::	Mm-hmm.::	0
+"fe016"::	via::	0
+"fe016"::	forced alignment or whatever we end up using,::	0
+"fe016"::	then::	0
+"fe016"::	you know, this  student and I would be looking at the time::	0
+"fe016"::	marks and classifying all the frames inside those as whatever labels::	1
+"fe008"::	Coming off of the other -::	0
+"mn005"::	Yeah.::	0
+"fe008"::	Good. So, it wouldn't be::	0
+"fe016"::	Jane gave::	0
+"fe008"::	I wasn't planning to label the time marks.::	0
+"mn005"::	I can give you::	0
+"fe008"::	I was thinking that that would come from the engineering side, yeah.::	0
+"mn005"::	my  transcription   file, no?::	0
+"fe016"::	@@::	0
+"fe016"::	I don't think you  need  to.::	0
+"fe016"::	Yeah. That should be linked to the words which are linked to time somehow, right?::	0
+"fe008"::	There you go.::	0
+"me011"::	Well we're not any time  soon  going to get a forced  alignment.   So.::	0
+"fe016"::	Not now.::	0
+"mn005"::	Yeah.::	0
+"me011"::	Um::	0
+"me011"::	If it's not hand-marked then we're not going to get the times.::	0
+"fe016"::	Well, it's something that w-::	0
+"fe016"::	Well, we - we wouldn't be able to do  any  work without a forced alignment  anyway,  so somehow if -::	1
+"mn005"::	Yes::	0
+"fe016"::	once he gets going we're gonna::	0
+"fe016"::	hafta come up with one and::	1
+"me013"::	Yes.::	0
+"fe016"::	Yeah.::	0
+"me011"::	I mean w- I guess we could do a very  bad  one with Broadcast News.::	0
+"fe008"::	Good.::	0
+"fe016"::	So whatever you would label would be::	0
+"fe008"::	Good.::	0
+"fe016"::	attached to the words, I think.::	0
+"fe008"::	Great!::	0
+"fe008"::	Good, good. Mm-hmm.::	0
+"mn005"::	Yeah.::	0
+"me013"::	Well again for the close  mike::	0
+"me013"::	stuff,::	0
+"me011"::	That might be good enough.::	0
+"me013"::	we could come up -::	0
+"me013"::	take a s-::	0
+"me013"::	take the Switchboard::	0
+"me013"::	system or something, and -::	1
+"me011"::	Yeah.::	0
+"me013"::	Um::	1
+"me011"::	It'd be worth a try. It would be interesting to see what we get.::	0
+"me013"::	Just, you know, low-pass filter the speech and -::	0
+"fe016"::	Cuz there's - there's a lot of work you can't do  without  that, I mean,::	0
+"fe016"::	how - how would you -::	0
+"me013"::	Yeah.::	0
+"fe016"::	You'd have to go in and measure every::	0
+"fe016"::	start and stop point::	0
+"fe016"::	next to a word::	0
+"fe016"::	is y- if you're interested in anything to do with words. So.::	0
+"me011"::	Yep.::	0
+"fe008"::	It would be  very  inefficient.::	0
+"mn005"::	Yeah.::	0
+"fe008"::	Mm-hmm.::	0
+"fe016"::	Anyway  So that'd be great.::	0
+"fe008"::	Good. O_K.::	0
+"mn005"::	Yeah.::	0
+"me013"::	There's something we should::	0
+"me013"::	talk about later but::	0
+"me013"::	maybe not just now.::	0
+"me013"::	But, uh,::	0
+"me013"::	should talk about our options as far as the uh::	0
+"me013"::	uh::	0
+"me013"::	transcription::	0
+"me011"::	Yep, if I_B_M doesn't -::	0
+"me013"::	But. Well, w-::	1
+"fe008"::	O_K. Good.::	0
+"me013"::	But::	0
+"fe016"::	Do we hafta  turn -::	0
+"me013"::	we'll do that  later.::	1
+"fe016"::	Are we supposed to keep recording here?::	0
+"fe008"::	Yeah. Let's do that later.::	0
+"me011"::	Yeah  Right.::	0
+"fe008"::	Yeah.::	0
+"me013"::	We'll talk about it later.::	0
+"fe008"::	Yeah.::	0
+"me013"::	So::	0
+"me013"::	uh::	0
+"me013"::	Uh "forms".  You had something on forms.::	0
+"me011"::	Forms::	0
+"me011"::	Next iteration of forms.::	0
+"me011"::	Oops.::	0
+"fe008"::	Oh! Oh  good,  O_K.::	0
+"me013"::	Um.::	0
+"me013"::	Oh.::	0
+"fe008"::	How - So it's two pages per person?::	0
+"me011"::	Nope.::	0
+"me011"::	One's a digit form, one's a speaker form.::	0
+"fe008"::	Oh!::	0
+"me011"::	So one is a one time only  speaker form and the other is the digits.::	0
+"fe008"::	Oh,  I  see.::	0
+"mn005"::	Oh it's the  same.::	0
+"mn005"::	Oh no no.  Is - is new  Is O_K.::	0
+"me011"::	So don't fill these out.::	0
+"fe008"::	Alright.::	0
+"me011"::	This is just the suggestion for uh what the new forms would look like.::	0
+"me011"::	So, they incorporate the changes  that we talked about.::	0
+"fe008"::	Date and time.::	0
+"fe008"::	Uh why did you switch the order of the Date and Time fields?::	0
+"fe008"::	This is rather a low-level, but::	0
+"me011"::	On which one?::	0
+"fe008"::	On - on the  new  one,  Time  comes first and  then  Date,::	0
+"fe008"::	but  I  thought -::	0
+"me011"::	Oh you mean on the  digit  form?::	0
+"fe008"::	This is -::	0
+"fe008"::	this is rather a low level question, but -::	0
+"me011"::	Uh, because::	0
+"fe008"::	but it  used  -  used  to be Date came  first.::	0
+"me011"::	the user fills out the first three fields and I fill out the rest.::	0
+"fe008"::	Oh  I  see.::	0
+"fe008"::	Well,  how  would the -::	0
+"me011"::	So it  was   intentional.  It's an interesting observation, but it was intentional.::	0
+"fe008"::	How would the user know the time if they didn't know the date?::	0
+"me011"::	Because the  date  is when you actually read the digits and the  time::	0
+"me011"::	and, excuse me, the  time  is when you actually read the  digits,::	0
+"me011"::	but I'm filling out the  date   beforehand.  If you look at the form in front of you?::	0
+"me011"::	that you're going to fill out when you read the digits?::	0
+"fe008"::	Yeah.::	0
+"me011"::	you'll see I've already filled in the  date  but not the  time.::	0
+"fe008"::	I  always assumed -::	0
+"fe008"::	So the  time  is supposed to be pretty  exact,  because I've just been taking beginning time -::	0
+"fe016"::	Yeah, me too.::	0
+"fe008"::	time of the meeting.::	0
+"mn005"::	Yeah,::	0
+"me011"::	Yeah, I've noticed that in the  forms.::	0
+"mn005"::	I - yeah.::	0
+"me011"::	The - the  reason  I put the  time  in, is so that the  person::	0
+"fe016"::	@@::	0
+"mn005"::	Me too.::	0
+"me011"::	who's extracting the digits, meaning me,::	0
+"mn005"::	Oh!::	0
+"me011"::	will know where to look in the meeting,::	0
+"fe008"::	Oh dear. We've been -::	0
+"mn005"::	But -::	0
+"me011"::	to try to find the digits.::	0
+"fe008"::	we've been  messing   up  your  forms.::	0
+"me011"::	I  know.::	0
+"mn005"::	I am put - I am putting the beginning of the meeting.::	0
+"fe016"::	So you should call it, like, "digits start time". Or.::	0
+"me011"::	And I haven't said anything.::	0
+"me011"::	Yep.::	0
+"mn005"::	in - on there .::	0
+"me013"::	Why - What - what were you putting in?::	1
+"fe008"::	Oh, well, I was saying if we started the meeting at::	0
+"mn005"::	Yeah.::	0
+"fe008"::	two  thirty,  I'd put two thirty, and I guess d-::	0
+"fe008"::	e-  everyone  was putting two  thirty,  and::	0
+"mn005"::	Yeah.::	0
+"me013"::	Oh.::	0
+"me011"::	No, it's about fifty fifty.::	0
+"fe008"::	I didn't  realize  there was "uh oh::	0
+"fe008"::	I'm about to read this and I should" -::	0
+"me011"::	Actually it's about one third each. About one third of them are blank,  about one third of them are when the digits are read, and about one third of them are when the  meeting starts.::	0
+"mn005"::	Oh.::	0
+"me011"::	So.::	0
+"fe008"::	This would be a  radical  suggestion but -::	0
+"me011"::	I could put instructions?::	0
+"me011"::	Nah.::	0
+"fe008"::	Ei- either that or maybe you could::	0
+"mn005"::	Yeah.::	0
+"fe008"::	maybe write down when people::	0
+"fe008"::	start reading digits on that  particular   session.::	0
+"me011"::	But if I'm not at the meeting, I can't do that.::	0
+"fe008"::	I know, O_K.::	0
+"me013"::	Yeah, he's been setting stuff up and going away. So.::	0
+"fe008"::	That's a good point.::	0
+"fe008"::	I  see. Good point good point.::	0
+"me013"::	For some reason he doesn't want to sit through every meeting that's -::	0
+"me011"::	Yep, but that is the reason Name, Email and Time are where they are.::	0
+"fe008"::	Oh, O_K. Alright.::	0
+"me013"::	Yeah.::	0
+"fe008"::	I rest my -::	0
+"me011"::	And then the others are later on.::	0
+"me013"::	Uh-huh.::	0
+"fe008"::	O_K. w-::	0
+"mn005"::	And the Seat is this number?::	0
+"me011"::	Mm-hmm.::	0
+"fe008"::	Seat and Session.::	0
+"fe016"::	"For official use only"::	0
+"fe016"::	That's -::	0
+"mn005"::	"use only"::	0
+"fe016"::	Well, he's  very  professional.::	0
+"fe008"::	Actually you could -::	0
+"fe008"::	Well that  does  raise another  question,  which is why is the "Professional use only" line not higher?::	0
+"fe008"::	Why doesn't it come in at the point of Date and Seat?::	0
+"fe008"::	Oh.::	0
+"me011"::	What?::	0
+"fe008"::	Because we're filling in  other  things.::	0
+"me013"::	What?::	0
+"fe008"::	Well, because -::	0
+"fe008"::	If y-::	0
+"fe008"::	your - your professional use, you're gonna already have the date,::	0
+"fe008"::	and the s-::	0
+"me011"::	What - which form are you talking about?::	0
+"fe008"::	Well I'm comparing the  new  one with the  old  one.::	0
+"fe008"::	This is the digit form.::	0
+"mn005"::	Oh.::	0
+"me011"::	Oh you're talking about the  digit  form. The digit form doesn't -::	0
+"mn005"::	Yeah.::	0
+"me013"::	Digit.::	0
+"me013"::	Digit form.::	0
+"fe008"::	Oh! I wasn't supposed to -::	0
+"mn005"::	Yeah.::	0
+"fe008"::	Sorry.::	0
+"me011"::	The digit - No, that's  alright.  The digit form doesn't have a "for official use only" line.::	0
+"fe008"::	Sorry.::	0
+"me011"::	It just has a  line,::	0
+"me011"::	which is what you're supposed to read.::	0
+"fe008"::	That - uh O_K.::	0
+"fe008"::	@@::	0
+"me011"::	So on the  digits  form,::	0
+"fe008"::	Sorry about that. Yeah.::	0
+"me011"::	everything  above  the line is a  fill-in  form::	0
+"me011"::	and everything  below  the line is digits that the user  reads.::	0
+"fe008"::	Yeah.::	0
+"fe008"::	O_K.::	0
+"fe008"::	Alright s- but I didn't mean to derail our discussion here, so you really wanted to start with this other form.::	0
+"me011"::	No, either way is fine I just -::	0
+"me011"::	You just started  talking  about something, and I didn't know which  form  you were  referring  to.::	0
+"fe008"::	Alright yeah, I was comparing - so th- this is -::	0
+"fe008"::	So I was looking at the  change  first. So it's like we started with  this  and now we've got a  new  version of it::	0
+"fe008"::	wi-  with reference to this. So the  digit  form, we had one already.::	0
+"fe008"::	Now the f- the fields::	0
+"fe008"::	are  slightly   different.::	0
+"me013"::	So the main thing that the person fills out::	0
+"me013"::	um  is the name and email and::	0
+"mn005"::	Yeah.::	0
+"me013"::	time?::	0
+"me011"::	Right.::	0
+"mn005"::	Ah!::	0
+"me013"::	You do the rest?::	0
+"me011"::	Yep.::	0
+"me011"::	Just as uh - as I have::	0
+"me013"::	Right.::	0
+"me011"::	for all the others.::	0
+"fe008"::	What -::	0
+"fe008"::	And there's an  addition  of the native  language,::	0
+"fe008"::	which is a  bit  redundant.::	0
+"fe008"::	This one has Native Language and this one does too.::	0
+"me011"::	That's because the one, the digit form that has native language is the  old  form not the  new  form.::	0
+"fe008"::	Oh! Thank you.  Thank you, thank you. There we go.::	0
+"mn005"::	Yeah.::	0
+"fe008"::	Oh,  yeah.  I'll  catch up here.::	0
+"fe008"::	O_K,  I  see.::	0
+"me013"::	"South Midland,  North  Midland"::	0
+"fe008"::	That's the old and that's the new.::	0
+"me011"::	Yeah this was the problem with these categories, I -::	1
+"me011"::	I picked those categories from TIMIT.::	1
+"me011"::	I  don't know what those are.::	0
+"fe016"::	Actually,  the only way  I  know is from working with the database and having to figure it out.::	0
+"mn005"::	What -::	0
+"me011"::	With TIMIT, yeah?::	0
+"mn005"::	uh-huh.::	0
+"mn005"::	What i-::	0
+"me013"::	So is South Midland like Kansas? and North Midland like - like uh Illinois, or - ?::	0
+"me011"::	So, I was gonna ask wh-::	0
+"me011"::	w-::	0
+"fe016"::	Well yeah.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	Nor- um -::	0
+"me011"::	I mean. So - so what accent are  we  speaking?::	0
+"me011"::	Western?::	0
+"me013"::	By definition?::	1
+"mn005"::	And for simple for - for me?::	0
+"mn005"::	Is mean my native language Spanish -::	0
+"fe016"::	Probably Western, yeah.::	0
+"me013"::	Well,::	1
+"mn005"::	Spanish?::	0
+"mn005"::	eh::	0
+"mn005"::	The original::	0
+"mn005"::	is the center of Spain and the::	0
+"mn005"::	beca-::	0
+"me011"::	Yeah, I mean you could call it whatever you want.::	0
+"me011"::	For the foreign language we couldn't::	0
+"me011"::	classify every single one. So I just left it blank and you can put whatever you want.::	0
+"mn005"::	Because::	0
+"mn005"::	is different, the Span- uh::	0
+"mn005"::	the Spanish language from the - the north of Spain, of the south, of the west and the -::	0
+"me011"::	Sure.::	0
+"mn005"::	But.::	0
+"me011"::	So I'm not sure what to do about the Region field for English variety.::	1
+"mn005"::	Yeah.::	0
+"me011"::	You know, when I wrote - I was writing those down, I was thinking, "You know, these are great  if you're a  linguist ".::	0
+"fe008"::	Yeah.::	0
+"me011"::	But  I  don't know how to -  I  don't know how to -  I  don't know how to categorize them.::	1
+"fe016"::	Actually even if you::	0
+"fe008"::	Yeah.::	0
+"fe016"::	t-::	0
+"me013"::	If you're -::	0
+"me013"::	if e-::	0
+"fe016"::	This wasn't developed by -::	0
+"fe016"::	th- these regions weren't -::	0
+"me013"::	if y-::	0
+"me013"::	if you're a T_I or M_I_T  from  nineteen eighty-five.::	1
+"me011"::	Yeah::	0
+"me013"::	Yeah.::	1
+"me011"::	So I guess my only  question  was if - if you were a South Midland speaking::	0
+"me011"::	region, person?::	0
+"fe016"::	Mm-hmm.::	0
+"me011"::	Would you  know  it? Is that what you would  call  yourself?::	0
+"fe016"::	I don't  know.::	0
+"me011"::	Yeah.::	0
+"me013"::	You know, I think if you're talking -::	0
+"me013"::	if you're thinking in terms of  places,::	0
+"me013"::	as opposed to::	0
+"me013"::	names different peop-::	0
+"me013"::	names people have given to  different ways of talking,::	0
+"me013"::	I would think::	0
+"me013"::	North Midwest, and South Midwest would be more common than saying Midland, right, I mean, I -::	0
+"fe016"::	Yeah. Now  the usage -::	0
+"me013"::	I went to s-::	0
+"fe016"::	Maybe  we can give them a li-  like a little map?::	0
+"fe016"::	with the regions and they just -::	0
+"fe016"::	No, I'm serious.::	0
+"fe008"::	No, that's not bad.::	0
+"fe016"::	Because::	0
+"mn005"::	i- at this -::	0
+"fe008"::	Yeah.::	0
+"fe016"::	it takes less time, and it's sort of cute there's no figure.::	0
+"mn005"::	in that side -::	0
+"mn005"::	in that side of the - the paper.::	0
+"me013"::	Well.::	0
+"fe016"::	Well just a little - You know, it doesn't have  all  the  detail,  but you sort of -::	0
+"me013"::	But::	0
+"me013"::	what if you moved five times and - and uh::	0
+"fe008"::	Well,  I  was thinking you could have ma-  multiple  ones::	0
+"fe016"::	No, but you're categorized.::	0
+"fe016"::	That's the same -::	0
+"fe008"::	and then the amount of time - so,  roughly.::	0
+"fe008"::	So. You could say,::	0
+"fe008"::	you know "ten years::	0
+"fe008"::	on the east coast,::	0
+"me011"::	Well,::	0
+"fe008"::	five years on the west coast" or something or other.::	0
+"me011"::	We - I think we don't want::	0
+"me011"::	to get that level of detail::	0
+"me011"::	at this form. I think that's alright if we want to follow up.::	0
+"me011"::	But.::	0
+"me013"::	I guess we  don't  really  know.::	0
+"fe016"::	I mean I -::	0
+"fe016"::	As I said, I don't think there's a  huge   benefit::	0
+"fe016"::	to this region thing. It - it gets -::	0
+"fe016"::	The problem is that::	0
+"fe016"::	for  some  things it's really::	0
+"fe016"::	clear and usually  listening to    it::	0
+"fe016"::	you can tell right away if it's a New York or Boston accent,::	0
+"fe016"::	but New York and Boston are two -::	0
+"fe016"::	well, I guess they have the N_Y_C, but::	0
+"fe016"::	New England has a bunch of very different::	0
+"fe016"::	dialects and -::	0
+"fe008"::	Mm-hmm.::	0
+"fe016"::	and  so does::	0
+"fe016"::	um::	0
+"me011"::	Yeah, so I  picked  these regions cuz we had  talked  about  TIMIT,  and those are right from  TIMIT.::	0
+"fe016"::	S- So do other places.::	0
+"fe016"::	Right. And so::	0
+"fe016"::	these would be  satisfying like::	0
+"me011"::	So.::	0
+"fe016"::	a speech  research  community if we released the  database,::	0
+"fe016"::	but as to whether subjects know where they're from, I'm not sure because::	0
+"fe016"::	um::	0
+"fe016"::	I  know  that they had to fill this out for  Switchboard.  This is i- almost exactly the same as Switchboard::	0
+"fe016"::	regions or::	0
+"fe008"::	Oh. O_K.::	0
+"fe016"::	very close. Yeah.::	0
+"fe016"::	Um::	0
+"fe016"::	And I don't know how they filled that out.::	0
+"fe016"::	But th- if Midland -::	0
+"fe016"::	Yeah, Midland is the one that's::	0
+"fe016"::	difficult I guess.::	0
+"fe008"::	I think a  lot  of people - Yeah.::	0
+"fe016"::	Also Northwest you've got Oreg- Washington and Oregon now which::	0
+"fe016"::	uh y- people don't know if it's western or northern.::	0
+"me011"::	Yeah,  I  certainly don't. I mean, I was saying I don't even know what  I  speak.::	0
+"fe016"::	It's like Northwest::	0
+"me013"::	Oh, what  is  Northern?::	0
+"me011"::	Am I speaking -::	0
+"me011"::	Am I speaking::	0
+"me011"::	Western?::	0
+"me013"::	Well and what - and what's  Northern?::	0
+"fe016"::	I think originally it  was  North -::	0
+"fe016"::	Northwest::	0
+"me011"::	Northwest?::	0
+"mn005"::	Yeah.::	0
+"fe016"::	But -::	0
+"me011"::	Yeah, so  this  is a real problem. I don't know what to do about it.::	0
+"fe016"::	Yeah.::	0
+"fe008"::	I wouldn't know how to characterize mine either. And - and so I would think -::	0
+"me011"::	I c-::	0
+"fe008"::	I would say, I've - I've got a  mix  of California and Ohio.::	0
+"me011"::	I think at the  first  level, for example,  we  speak the  same.::	0
+"fe016"::	I don't know.::	0
+"me011"::	our - our dialects::	0
+"fe008"::	Uh-huh.::	0
+"me011"::	Or  whatever you -  region  are the same. But I don't know what it  is.::	0
+"me011"::	So.::	0
+"fe016"::	Well, you have a like techno-speak accent I think.::	0
+"me011"::	a  techno-speak  accent?::	0
+"mn005"::	A techno-::	0
+"fe016"::	Yeah, you know?::	0
+"me011"::	A - a geek region?::	0
+"fe016"::	Well it's -::	0
+"fe008"::	Geek region.::	0
+"fe016"::	I mean I - you can sort of identify it f-::	0
+"fe016"::	It's - it's -::	0
+"mn005"::	Is different. Is different.::	0
+"fe016"::	not - not that that's -::	0
+"fe016"::	but - but::	0
+"fe016"::	maybe that -::	0
+"fe016"::	maybe we could::	0
+"fe016"::	leave  this and see what people -::	0
+"fe016"::	See what people choose::	0
+"fe016"::	and then um::	0
+"fe016"::	let them just fill in if they don't -::	0
+"fe016"::	I mean I don't know what else we can do, cuz -::	0
+"fe008"::	I'm wondering about a question like, "Where are you from mostly?"::	0
+"mn005"::	Yeah.::	0
+"me013"::	But I - I'm s-::	0
+"mn005"::	Yeah.::	0
+"me013"::	I'm - now that you mentioned it though, I am - really  am  confused by "Northern".::	0
+"fe008"::	I agree.::	0
+"me013"::	I really  am.  I mean,::	0
+"fe008"::	I agree.::	0
+"mn005"::	Yeah.::	0
+"fe008"::	I agree.::	0
+"me013"::	if - if you're::	0
+"me013"::	in New  England,  that's North.::	0
+"me013"::	If you're - i- if you're::	0
+"fe008"::	Scandinavian, the Minnesota area's north.::	0
+"me013"::	Uh yeah. That's -::	0
+"fe016"::	That's North Midland.::	0
+"me013"::	But that's  also  North  Midland,  right?::	0
+"mn005"::	Yeah.::	0
+"fe008"::	Oh,  @@ . - O_K.::	0
+"me013"::	And - and - and Oregon and -::	0
+"fe016"::	Yeah. Of course, that's  very  different from, like,  Michigan,::	0
+"me013"::	and Oregon and Washington are - are  Western,  but::	0
+"mn005"::	Mmm.::	0
+"fe016"::	or -::	0
+"me013"::	they're also  Northern.::	0
+"fe008"::	Mm-hmm.::	0
+"me013"::	uh, Idaho?::	0
+"fe016"::	Well there are hardly any subjects from Idaho.::	0
+"me013"::	Montana?::	0
+"me011"::	No problem.::	0
+"fe008"::	Just rule them out.::	0
+"fe016"::	There's only a few people in Idaho.::	0
+"me011"::	There are hardly any subjects from "beep"::	0
+"mn005"::	Yeah.::	0
+"fe016"::	Sorry.::	0
+"fe016"::	No,  that's  -::	0
+"mn005"::	And - is - in those -::	0
+"me013"::	Maybe -::	0
+"me013"::	Maybe we -::	0
+"me013"::	Maybe we  should  put a little map and say "put an X_  on  where you're from",::	0
+"me011"::	Yeah really.::	0
+"mn005"::	And if you put -::	0
+"fe016"::	We could ask where they're  from.  Yeah. But-::	0
+"fe008"::	It'd be pretty simple, yeah.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	We went back to that.::	0
+"mn005"::	If you put eh the state?::	0
+"me011"::	Well well we sort of -::	0
+"fe008"::	Where are you from mostly?::	0
+"fe016"::	We - we went - we went around this and then  a lot of people::	0
+"mn005"::	Uh-huh.::	0
+"fe016"::	ended up saying that it -::	0
+"mn005"::	Mm-hmm.::	0
+"fe016"::	You know.::	0
+"me011"::	Well, I like the idea of asking "what variety of English do you speak" as opposed to where you're from::	0
+"mn005"::	Yeah.::	0
+"me011"::	Because th- if we  start  asking where we're  from,   again  you have to start saying, "well, is that the  language  you speak or is that just where you're  from? "::	0
+"fe008"::	Hmm?::	0
+"fe016"::	Right.::	0
+"fe016"::	Right.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	I mean it gives us good information on where they're  from,  but::	0
+"me013"::	Let's - Mm-hmm.::	0
+"me011"::	And -::	0
+"fe016"::	that doesn't  tell us anything - well,  enough  about their -::	0
+"me013"::	We could always ask them if they're from -::	0
+"me011"::	I mean. So - so I would say Germany::	0
+"fe016"::	like -::	0
+"me011"::	You know am I speaking with German accent I don't  think  so.::	0
+"fe008"::	Oh.::	0
+"fe016"::	Right.::	0
+"fe008"::	Well, see,  I'm  thinking "Where are you from  mostly "::	0
+"me011"::	Oh, O_K yeah.::	0
+"fe008"::	because, you know, then you have some - some kind of subjective  amount  of  time  factored into it.::	0
+"mn005"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"me011"::	Yep.::	0
+"mn005"::	Yeah.::	0
+"me011"::	Yeah, I guess I could  try  to put - squeeze in a little  map.  I mean there's not a lot of r- of room::	0
+"me013"::	I'd say, uh,::	1
+"me013"::	"Boston, New York City, the South and Regular".::	1
+"fe008"::	Well -::	0
+"me011"::	I think  of  those,  Northern  is the only one that I don't even know what they're meaning.::	0
+"mn005"::	And - And -::	0
+"fe016"::	Oh, I don't know.::	0
+"fe008"::	Yeah.::	0
+"fe008"::	Yeah.::	0
+"me013"::	That's a joke. That's -::	0
+"fe016"::	So let's make it up.::	0
+"fe016"::	S- I mean, who cares. Right? We can make up our own - So we can say "Northwest",::	0
+"fe016"::	"Rest of West" or something.::	0
+"fe016"::	You know.::	0
+"fe016"::	"West"::	0
+"fe016"::	and::	0
+"me011"::	Ye- hhh.::	0
+"me011"::	I don't think the Northwest people speak any differently than I do.::	0
+"mn005"::	Um::	0
+"fe016"::	I mean.::	0
+"fe016"::	It doesn't even -::	0
+"fe016"::	Yeah, exactly. That's not really a region.::	0
+"me013"::	"Do you come from the Louisiana Purchase?"::	1
+"fe008"::	I -::	0
+"fe016"::	So we could take out "North" -::	0
+"mn005"::	And usually here - people here know what is their::	0
+"fe016"::	"Northern".::	0
+"me011"::	@@::	0
+"mn005"::	kind of mmm::	0
+"mn005"::	lang- English language?::	0
+"me011"::	That - that's exactly what we're arguing about. We don't know.::	0
+"mn005"::	eh here-::	0
+"fe016"::	That's - Yeah, w- It's - In -::	0
+"mn005"::	Is easy for people to know?::	0
+"fe016"::	It's - it's harder in America::	0
+"fe016"::	anywhere else, basically.::	0
+"mn005"::	because you have -::	0
+"me011"::	I mean  some  of them are very obvious. If you - if you talk to someone speaking with  Southern  drawl, you know.::	0
+"mn005"::	N- m-::	0
+"mn005"::	Yeah.::	0
+"fe008"::	Yeah, or Boston.::	0
+"me011"::	Or Boston, yeah.::	0
+"fe008"::	I can't do it, but -::	0
+"mn005"::	Or Boston?::	0
+"fe016"::	And those people, if you ask them to self-identify their accent  they  know.::	0
+"me013"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"fe008"::	Yeah, they  do.::	0
+"fe016"::	They know very well.::	0
+"fe008"::	Yeah I agree I agree. I agree.::	0
+"fe016"::	They know they don't speak the same as the::	0
+"me011"::	But::	0
+"fe008"::	And they're  proud  of it.::	0
+"fe016"::	day o-::	0
+"fe008"::	Yeah.::	0
+"fe016"::	Yeah, exactly.::	0
+"me011"::	is Boston New England?::	0
+"fe008"::	It's  identity  thing.::	0
+"fe016"::	And they're glad to tell you.::	0
+"mn005"::	@@  style.::	0
+"fe016"::	Well.::	0
+"fe016"::	Depends who you ask, I suppose.::	0
+"me011"::	W-::	0
+"mn005"::	Oh.::	0
+"me011"::	I guess that's the problem with these  categories.::	0
+"fe016"::	But that's why they have New York City but -::	0
+"fe008"::	Well, we ca-::	0
+"me013"::	Well, Boston's  @@ ,  too .::	0
+"fe008"::	Well, why can't we just say characterize -::	0
+"fe016"::	Or -::	0
+"fe008"::	something like char- characterize your accent::	0
+"fe016"::	"Characterize your accent  if you can."::	0
+"fe008"::	and - and so  I  would say, "I don't know".::	0
+"fe016"::	Yeah.::	0
+"fe016"::	Right, which probably means you have a very -::	0
+"fe008"::	But someone from Boston with a really strong coloration would know. And so would an R_less Maine -::	0
+"fe016"::	And that's actually good.::	0
+"mn005"::	Yeah.::	0
+"fe008"::	or something, yeah.::	0
+"fe016"::	I was - I was thinking of something along that line because  if you  don't   know,::	0
+"me013"::	How-::	0
+"fe008"::	Good.::	0
+"fe016"::	then,::	0
+"fe016"::	you know, ruling out the fact that you're totally  inept or something,::	0
+"fe008"::	Hmm.::	0
+"fe016"::	if somebody doesn't know, it probably means their accent isn't very strong compared to the sort of::	0
+"me013"::	Well,::	0
+"me013"::	I mean,::	0
+"fe016"::	midwest::	0
+"fe008"::	Hmm?::	0
+"me013"::	it wasn't that long ago that we had somebody here who was from  Texas  who was absolutely  sure  that he didn't have any  accent  left.::	0
+"fe016"::	standard.::	0
+"me013"::	And - and had - he had a::	0
+"me013"::	pretty::	0
+"me011"::	O_K, so. I propose,  take out Northern::	0
+"me013"::	noticeable   drawl.::	0
+"me011"::	add, don't know.::	0
+"fe008"::	Oh.  Yeah. I - I would say more - more  sweepingly,  "how would you characterize your::	0
+"mn005"::	Yeah.::	0
+"fe008"::	accent?"::	0
+"me011"::	So you want to change the  instructions  also not just say  region?::	0
+"fe016"::	W-::	0
+"fe008"::	Well, I think this discussion has made me think that's s- something to consider.::	0
+"me011"::	I  don't know if I - if I read this form, I  think  they're going to ask  it -::	0
+"me011"::	they're going to  answer  the same  way  if you say, "What's variety of English do you speak?  Region."::	0
+"me011"::	as if you say "what variety of region - region  do you speak?::	0
+"me011"::	Please characterize your accent?"::	0
+"me011"::	They're going to answer the same way.::	0
+"fe008"::	I guess -::	0
+"fe008"::	Well, I was not sure that - I -::	0
+"mn005"::	Mmm.::	0
+"fe008"::	So. I was suggesting not having the  options,  just having them -::	0
+"me011"::	Oh, I see.::	0
+"mn005"::	Huh.::	0
+"me011"::	Well what we  talked  about with  that  is  is so that they would understand the granularity.::	0
+"fe008"::	Yes, but if, as Liz is suggesting, people who have strong accents  know::	0
+"fe008"::	that they do -::	0
+"me011"::	I mean that's what I had  before,  and you told me to list the regions to  list  them.::	0
+"fe008"::	and are -::	0
+"fe016"::	Each - each one has pros and cons I mean we - we -::	0
+"me013"::	Right.::	0
+"fe008"::	Well, I know.::	0
+"me013"::	Right. Right.::	0
+"me011"::	So.::	0
+"fe008"::	That's true.::	0
+"me013"::	Yeah last week - last week I was sort of r- arguing for having it wide open, but then everybody said "Oh, no, but then it will be hard to interpret::	0
+"me013"::	because some people will say Cincinnati and some will say Ohio". And.::	0
+"me011"::	I mean I  had  it wide open last week and - and you said  TIMIT.::	0
+"fe016"::	What if we put in  both?::	0
+"fe008"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"fe016"::	And - Would people -::	0
+"me011"::	That's what the "Other" is for.::	0
+"fe016"::	No, I mean what if we put in both ways of asking them?::	0
+"fe016"::	So. One is  Region and the another one is "if you  had  to  characterize   yourself  - your  accent,::	0
+"fe016"::	what would you say?"::	0
+"me011"::	Won't they answer the same thing?::	0
+"fe016"::	Well they might only answer only one of the questions but::	0
+"fe016"::	if::	0
+"fe008"::	Yeah that's fine.::	0
+"fe016"::	You know.::	0
+"fe008"::	They might say "Other" for Region because they don't know what category to use::	0
+"fe016"::	Actually  -::	0
+"fe016"::	Right. It just -::	0
+"fe008"::	but they might have something -::	0
+"fe008"::	because it  is   easier  to have it open ended.::	0
+"fe016"::	And we - we might  learn  from what they  say,  as to which one's a better  way to ask it.::	0
+"me013"::	W-::	0
+"fe016"::	But - I - Cuz I really don't know.::	0
+"me013"::	This is just a  small  thing but::	0
+"fe016"::	@@::	0
+"me013"::	um::	0
+"me013"::	It says "Variety" and then it gives things that e- have::	0
+"me013"::	American as one of the choices.::	0
+"me013"::	But then it says "Region", but Region actually just applies to::	0
+"me013"::	uh, U_S, right?::	0
+"me011"::	Right.::	0
+"me011"::	I mean that's why I put the "Other" in.::	0
+"fe008"::	Well, we  thought  about it.::	0
+"me013"::	Ah, O_K.::	0
+"fe008"::	Yeah, O_K.::	0
+"fe008"::	We just - We sort of thought, "yes, -"::	0
+"me013"::	S-::	0
+"fe008"::	y- y- I mean -::	0
+"fe008"::	At the last meeting, my recollection was that::	0
+"fe008"::	we felt people would have::	0
+"fe008"::	uh::	0
+"fe008"::	less -::	0
+"fe008"::	that - that there are  so  many  types  and varieties of  these other languages and we are not going to have that many subjects from these different::	0
+"fe008"::	language groups and that it's a::	0
+"me011"::	Yep.::	0
+"fe008"::	huge waste of -::	0
+"fe008"::	of space.::	0
+"me013"::	O_K.::	0
+"me011"::	So I mean, I - I mean the way I had it  last  time  was Region was blank, it just said Region colon.::	0
+"fe008"::	That's what  I  thought.::	0
+"fe008"::	Yeah.::	0
+"fe008"::	Yeah.::	0
+"me011"::	And - and  I  think that that's the best way to do it,::	0
+"me011"::	because - because of the problems we're  talking  about but what we said  last  week, was no, put in a  list,  so I put in a list. So should we go back to -::	0
+"fe016"::	Maybe we can make the list a little smaller.::	0
+"me011"::	Well, certainly dropping  "Northern " I think is right, because none of us know what that  is.::	0
+"fe016"::	Cuz, I mean -::	0
+"fe016"::	And keeping "Other",::	0
+"fe016"::	and then  maybe this North Midland, we call it "North Midwest".::	0
+"fe016"::	South   Midwest, or just -::	0
+"me013"::	Yes I -::	0
+"fe016"::	South   Midwest.::	0
+"fe016"::	Does that make sense?::	0
+"me013"::	I - I  think  so. Yeah.::	0
+"mn005"::	South Midwest?::	0
+"fe016"::	That would help me - Yeah. Cuz -::	0
+"me013"::	U- unless you're from Midland, Kansas. But. Yeah.::	0
+"fe016"::	Midland -::	0
+"fe016"::	I don't know where Midland is::	0
+"me013"::	There's a -::	0
+"me013"::	Or Midland - Midland -::	0
+"me011"::	Is "Midwest" one word?::	0
+"me013"::	Is it Midland -::	0
+"me013"::	Midland - Midland,  Texas  or Midland,  Kansas?  I forget.::	0
+"fe016"::	Y- yeah, one w-::	0
+"me013"::	But there's a  town.::	0
+"fe016"::	Oh.::	0
+"me013"::	in - in there. I forget what it is  @@ .::	0
+"fe008"::	I don't think that's what they mean.::	0
+"fe016"::	But, yeah. So.  Kansas  would be  South Midland. Right?::	0
+"me013"::	Yeah.::	0
+"me013"::	Y- yeah.::	0
+"fe016"::	And - and wouldn't - Yeah.::	0
+"mn005"::	Southern Midland.  @@::	0
+"fe016"::	So, th-::	0
+"me013"::	And  Colorado,  right across the  border,  would be::	0
+"fe016"::	I'm  from  Kansas,::	0
+"fe016"::	actually.::	0
+"me013"::	North  Midland.::	0
+"fe016"::	Yeah.::	0
+"fe016"::	Colora- Oh, right. And then, the -::	0
+"me011"::	And uh -::	0
+"fe016"::	the - dropping North,  so it would be::	0
+"fe016"::	Western. It's just one big::	0
+"fe016"::	shebang,::	0
+"fe016"::	where, of course, you have  huge  variation in dialects, but -::	0
+"me013"::	But you  do  in the others,  too.  So.::	0
+"me011"::	But that's true of New England too.::	0
+"fe016"::	but so do you - Yeah.::	0
+"me011"::	So. I mean only one -::	0
+"fe016"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"fe016"::	Yeah.::	0
+"me011"::	Well, I shouldn't  say  that. I have no clue. I was going to say the only one that  doesn't  have a huge variety is New York  City.  But I have no idea whether it does or not.::	0
+"fe008"::	It  does  seem - I mean. I - I would::	0
+"me013"::	U-::	0
+"fe008"::	think that these categories would be more -::	0
+"fe008"::	w-::	0
+"fe008"::	would be easier for an an-  analyst  to put in rather than the subject himself.::	0
+"me011"::	I think that - that was what  happened  with TIMIT,::	0
+"me011"::	was that it  was  an analyst.::	0
+"fe008"::	O_K.::	0
+"me013"::	Wait a minute. Where does -::	0
+"fe016"::	Yeah, I don't know  how  it came from.::	0
+"me013"::	Where does -::	0
+"me013"::	d- w-::	0
+"fe008"::	O_K.::	0
+"me013"::	Where - Where's - where does uh::	0
+"me013"::	New - New York west of - west of uh New York City::	0
+"me013"::	and::	0
+"me013"::	Pennsylvania::	0
+"me013"::	uh::	0
+"me013"::	and uh::	0
+"fe016"::	So.  That's  New  England  I think. Yeah.::	0
+"me011"::	New England::	0
+"me013"::	N-::	0
+"me013"::	No,  it's not.::	0
+"me011"::	Oh, no.::	0
+"fe008"::	I sort of thought they were part of the - one of the  Midlands.::	0
+"me013"::	Oh no.::	0
+"me013"::	No, no.  No. Pennsylvania is not -::	0
+"me011"::	"Other", it goes under "Other", definitely under "Other".::	0
+"fe016"::	Well, you know,  Pennsylvania  has a pretty strong  dialect   and it's   totally  different than -::	0
+"me013"::	Pennsylvania - Yeah. Pennsylvania is  not  New England.::	0
+"me013"::	and uh New  Jersey  is not New England and  Maryland  is not New England and none of those are the  South.::	0
+"me011"::	O_K. So.::	0
+"me011"::	Another suggestion.::	0
+"fe008"::	Yeah.::	0
+"me011"::	Rather than have circle fill in forms,::	0
+"me011"::	say "Region, open paren, E_G_ Southern comma Western comma close paren colon."::	0
+"fe008"::	O_K.::	0
+"fe016"::	O_K!::	0
+"me013"::	That's good.::	0
+"mn005"::	Yeah.::	0
+"fe008"::	Fine by me, fine by me.::	0
+"fe016"::	Sure!::	0
+"me013"::	I like that.::	0
+"fe008"::	Yeah.::	0
+"fe016"::	Let's just - And we'll see what we get.::	0
+"mn005"::	Yeah.::	0
+"me013"::	We're all  sufficiently  tired of this::	0
+"fe008"::	Be easier on the subjects.::	0
+"me013"::	that we're  agreeing  with you.::	0
+"fe008"::	I think that's fine.::	0
+"me013"::	So.::	0
+"fe008"::	No. I think -::	0
+"fe008"::	I like that. I like that.::	0
+"me013"::	You like it?::	0
+"me013"::	O_K.::	0
+"fe008"::	Yeah, I do.::	0
+"me013"::	Good.::	0
+"me011"::	Actually, maybe we do one non-English one as well.::	0
+"me011"::	Southern, Cockney?::	0
+"fe016"::	Yeah, and -::	0
+"mn005"::	Yeah.::	0
+"me011"::	Is that a  real accent?::	0
+"fe008"::	Sure, yeah!::	0
+"mn005"::	Yeah.::	0
+"me011"::	How do you spell it?::	0
+"fe008"::	I think that's fine.::	0
+"me013"::	Cockney?::	0
+"me013"::	C_O -::	0
+"me011"::	N_ E _Y?::	0
+"me013"::	Yeah.::	0
+"fe016"::	You could say  Liverpool.::	0
+"me013"::	Liverpuddlian.::	0
+"fe008"::	Yeah.::	0
+"fe016"::	Actually, Liverpool doesn't l- Yeah. It's -::	0
+"fe008"::	Alright.::	0
+"fe008"::	Well. Well. I mean, pure -::	0
+"me011"::	O_K, we'll do it that way. Actually, I like that a lot.::	0
+"me013"::	O_K.::	0
+"me011"::	Because that get's at  both  of the things we were trying to do,::	0
+"me011"::	the granularity,::	0
+"me011"::	and the person can just self-assess and we don't have to argue about what these regions are.::	0
+"fe008"::	That's right.::	0
+"mn005"::	Yeah.::	0
+"me013"::	O_K.::	0
+"fe008"::	And it's easy on the subjects.::	0
+"me011"::	Yep.::	0
+"fe008"::	Now I have one suggestion on the next section.::	0
+"mn005"::	Mm-hmm.::	0
+"me011"::	Mm-hmm.::	0
+"fe008"::	So you have native language, you have region,::	0
+"fe008"::	and then you have time spent in English speaking country.::	0
+"fe008"::	Now, I wonder if it might be useful to have another open field saying "which one::	0
+"fe008"::	parenthesis S_::	0
+"fe008"::	paren-  closed  parenthesis".::	0
+"fe008"::	Cuz if they spent  time in -::	0
+"fe008"::	in Britain  and  America -::	0
+"me013"::	Yes.::	0
+"fe008"::	It doesn't have to be ex-  all  - at  all  exact, just in the same open field::	0
+"fe008"::	format that you have.::	0
+"me011"::	Yep, just which one. I think that's fine.::	0
+"fe008"::	Mm-hmm.::	0
+"mn005"::	Mm-hmm.::	0
+"fe008"::	with a - with an S_::	0
+"fe008"::	"which one::	0
+"fe008"::	sss,::	0
+"fe008"::	optional S_.::	0
+"me013"::	O_K.::	0
+"fe008"::	Yeah.::	0
+"me013"::	We uh -::	0
+"me013"::	We done?::	0
+"me011"::	Yep.::	0
+"fe008"::	Yeah, that's good.::	0
+"me013"::	O_K.::	0
+"me013"::	um::	0
+"me013"::	s- e-::	0
+"me013"::	Any - any other::	0
+"me013"::	uh open mike topics or should we go  right to the digits?::	0
+"me011"::	Um, did you guys get my email on the multitrans?::	1
+"me011"::	That -::	0
+"me011"::	O_K.::	0
+"fe008"::	Isn't that wonderful! Yeah.::	0
+"fe008"::	Excellent! Thank you!::	0
+"fe016"::	I'm s-::	0
+"me011"::	Yeah. So.::	1
+"me011"::	So. I - I have a version  also  which actually  displays  all the channels.::	1
+"fe016"::	I ha- It's really great.::	0
+"me011"::	But it's hideously slow.::	0
+"fe008"::	So you - this is n-  Dan's  patches, Dan Ellis's patches.::	0
+"me011"::	The - what - the ones I applied, that you can actually do are Dan's, because it doesn't slow it down.::	1
+"fe016"::	M-::	0
+"fe008"::	Fantastic!::	0
+"me011"::	Just uses a lot of memory.::	0
+"fe016"::	So when you say " slow ", does that mean to -::	0
+"me011"::	No, the - the one that's installed is fine. It's not slow at all.::	1
+"me011"::	I  wrote another version.::	1
+"me011"::	Which, instead of having the  one  pane with the  one  view,::	0
+"me011"::	It has  multiple  panes  with the views.::	1
+"mn005"::	Yeah.::	0
+"fe016"::	Mm-hmm.::	0
+"me011"::	But the  problem  with it::	1
+"me011"::	is the  drawing  of those  waveforms  is  so   slow::	0
+"me011"::	that every time you do  anything  it just crawls.::	1
+"fe008"::	Mm-hmm.::	0
+"me011"::	It's really bad.::	0
+"fe016"::	It's -::	0
+"fe016"::	So, it - it's the redrawing of the w-::	0
+"fe008"::	That's a consideration.::	0
+"me011"::	Mm-hmm.::	0
+"fe016"::	oh uh-huh,::	0
+"fe016"::	w- as you move.::	0
+"me011"::	As you  play,  as you  move,  as you  scroll.::	0
+"me011"::	Just about  anything,  and it - it was so slow it was not usable.::	1
+"fe008"::	And this'll be a -::	1
+"me011"::	So that's why I didn't install it and didn't pursue it.::	0
+"fe008"::	hav- having the multiwave will be a big help cuz -::	1
+"fe008"::	in terms of like disentangling overlaps and things,::	0
+"fe016"::	Oh  yeah.::	0
+"fe008"::	that'll be a  big  help.::	0
+"me011"::	So.::	1
+"fe016"::	Yeah.::	0
+"me011"::	I  think  that the one Dan has is usable enough.::	1
+"me011"::	It doesn't  display  the others. It  displays  just the mixed signal.::	1
+"fe008"::	Mm-hmm.::	0
+"me011"::	But you can  listen  to any of them.::	1
+"fe008"::	That's excellent. He also has version control which is another nice::	0
+"mn005"::	Yeah.::	0
+"fe008"::	e- so you -::	0
+"me011"::	No, he  suggested  that, but he didn't -::	0
+"fe008"::	e- the patches that you -::	0
+"me011"::	It's not installed.::	0
+"fe008"::	Oh, I  thought  it was in one of those  patches.::	0
+"me011"::	No.::	0
+"me011"::	No.::	0
+"fe008"::	Oh O_K.::	0
+"fe008"::	Well.::	0
+"fe016"::	So is there any hope for actually displaying::	1
+"fe008"::	Alright.::	0
+"fe016"::	the wave form?::	1
+"me011"::	Um, not if we're going to use Tcl-T_K::	1
+"fe016"::	O_K.::	0
+"me011"::	At least not if we're going to use  Snack.::	0
+"me011"::	I mean you would have to do something ourselves.::	1
+"fe008"::	Well, or use the one that crawls.::	0
+"fe016"::	O_K.::	0
+"fe016"::	Well, I'm -::	0
+"fe016"::	I  probably   would   be   trying  to  use   the  -::	0
+"fe016"::	whatever's  there.  And::	0
+"me011"::	Why don't we - we  see  how Dan's works and if it -::	0
+"fe016"::	it's useful to have the -::	0
+"fe016"::	Yeah.::	0
+"me011"::	If we really need the display -::	0
+"fe016"::	I mean.::	0
+"fe016"::	I wonder - I'm just wondering if we can  display  things other than the  wave  form. So. Suppose we have a  feature  -::	0
+"fe016"::	a  feature  stream.::	0
+"fe016"::	And it's just, you know, a - a::	0
+"mn005"::	Yeah.::	0
+"fe016"::	uni-dimensional feature,::	0
+"fe016"::	varying in time.::	0
+"fe016"::	And we want to plot  that,  instead of the whole wave form.::	0
+"me011"::	I mean.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	That might be faster. Right? So.::	0
+"mn005"::	Yeah.::	0
+"me011"::	We - we could  do  that but that would mean changing::	0
+"me011"::	the code.::	0
+"me011"::	I mean this isn't a program  we  wrote.::	0
+"me013"::	Yeah.::	0
+"me011"::	This is a program that we got from someone else,::	0
+"fe016"::	O_K.::	0
+"me011"::	and we've done  patches  on.::	0
+"fe016"::	O_K.::	0
+"fe008"::	Mm-hmm.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	Well, I'll talk to you about it and we can see but::	0
+"me013"::	Cou-::	0
+"me011"::	So.::	0
+"me011"::	Yeah.::	0
+"me013"::	i- e-::	0
+"me013"::	I mean, y-::	0
+"fe016"::	it's  definitely   great to have the other one. That's -::	0
+"me013"::	If there was some -::	0
+"me013"::	Is there some  way  to  have someone write::	0
+"me013"::	patches::	0
+"me013"::	in something faster and -::	0
+"me013"::	and -::	0
+"me013"::	link it  in,  or something? Or is that -::	0
+"me011"::	Not easily. I mean y-  yes  we could  do  that. You could - you can write::	0
+"me011"::	widgets in C_.::	0
+"me013"::	Yeah.::	0
+"me011"::	And try to do it that way but I just don't think -::	0
+"me011"::	it -::	0
+"me011"::	Let's  try  it with Dan's and if that isn't  enough,::	0
+"fe016"::	Right.::	0
+"me011"::	we can do it otherwise. I  think  it  is,  cuz when I was  playing  with it, the  mixed  signal has it all  in  there.::	0
+"me011"::	And so it's really - It's not too bad to find places in the - in the stream::	1
+"fe016"::	O_K.::	0
+"me011"::	where things are happening.::	1
+"fe008"::	And it's also -::	0
+"mn005"::	Hmm?::	0
+"me011"::	So I - I don't think it'll be bad.::	0
+"fe008"::	also the case that - that uh this  multi-wave   thing::	0
+"fe008"::	is proposed to the -::	0
+"fe008"::	So. Dan proposed it to the Transcriber central people,::	0
+"fe008"::	and it's likely that uh - So. And - and::	0
+"fe008"::	they responded favorably looks as though it will be incorporated in the future version.::	0
+"fe016"::	Oh.::	0
+"fe008"::	They said that the only reason they hadn't had the multi- the parallel::	0
+"fe008"::	uh  stream  one  before  was simply that::	0
+"fe008"::	they hadn't had time to do it.::	0
+"fe008"::	And uh::	0
+"mn005"::	Yeah.::	0
+"fe008"::	so it's likely that this - this may be entered into the ch- this central::	0
+"fe008"::	@@ .::	0
+"me013"::	They may well have  not  had much  demand  for it.::	0
+"me011"::	And if - if -::	0
+"fe008"::	Well that's - that's - that's true, too.::	0
+"me013"::	Yeah.::	0
+"fe008"::	This is a -::	0
+"mn005"::	Yeah.::	0
+"fe016"::	So. You mean they could - they could do it and it would be  fast enough if  they  do it? Or - ?::	0
+"fe008"::	a useful thing for  us.::	0
+"fe008"::	Oh. No.::	0
+"me011"::	Depends on how much  work  they did.::	0
+"fe008"::	I just mean - I just mean that it's - that - that his - So.::	0
+"mn005"::	Oh .::	0
+"fe008"::	This one that::	0
+"fe008"::	we now have::	0
+"fe016"::	Mm-hmm.::	0
+"fe008"::	does  have the status of::	0
+"fe008"::	potentially being incorporated::	0
+"fe008"::	l-  likely  being incorporated into the central code.::	0
+"fe016"::	O_K.::	0
+"fe008"::	Now, tha- Now, if we develop  further::	0
+"fe008"::	then, y- uh, I don't -::	0
+"fe008"::	I mean it's - I think it's a nice feature to have it -::	0
+"me011"::	I think if - if - if one of us sat down and  coded  it, so that it could be  displayed  fast enough::	1
+"fe008"::	set that way.::	0
+"me011"::	I'm sure they would be  quite  willing to  incorporate  it.::	1
+"fe008"::	Mm-hmm.::	0
+"me011"::	But it's  not  a trivial  task.::	1
+"fe016"::	O_K.::	0
+"fe008"::	Mm-hmm. Yeah.::	0
+"fe008"::	I just like the idea of it being something that's,::	0
+"fe008"::	you know, tied back into the  original,  so that other people can benefit from it.::	0
+"me011"::	Yeah.::	0
+"fe008"::	Yeah.::	0
+"fe008"::	However. I  also  understand that you can have::	0
+"fe008"::	widgets that are  very  useful for their purpose and that you don't need to::	0
+"fe008"::	always go that w- route.::	0
+"fe008"::	Yeah.::	0
+"mn005"::	O_K.::	0
+"me011"::	anyway, shall we do digits?::	0
+"fe008"::	Yeah.::	0
+"me013"::	Yeah. Let's do digits,::	0
+"me013"::	uh, and then we'll turn off the mikes, and then I have one other thing to discuss.::	0
+"fe008"::	O_K.::	0
+"fe016"::	I actually have to leave. So.::	0
+"me011"::	O_K.::	0
+"fe016"::	Um.::	0
+"fe016"::	I mean  I had to leave at three thirty,::	0
+"fe008"::	Uh-oh.::	0
+"fe016"::	so I can -::	0
+"me013"::	Oh.::	0
+"me011"::	O_K.::	0
+"me011"::	Well, you want to go  first?  Or.::	0
+"fe016"::	Well, I can wait  for the digits but I::	0
+"fe016"::	can't   stay  for the  discussion  I c-::	0
+"fe016"::	I have to make a  call.::	0
+"fe016"::	So.::	0
+"me013"::	O_K. Well, we'll talk to you about it -::	0
+"fe008"::	Well, should we - e- should we switch off the g-::	0
+"fe016"::	Um.::	0
+"me011"::	Do you wanna go do digits or do you wanna just  skip  digits?::	0
+"fe016"::	No, I can do digits  if  -::	0
+"me011"::	Then -::	0
+"fe016"::	if -::	0
+"fe016"::	But I don't wanna butt  in,::	0
+"me011"::	Alright.::	0
+"fe016"::	or something.::	0
+"me011"::	You go ahead.::	0
+"fe016"::	But if there's something on the  rest  of the -::	0
+"fe016"::	I'm - I'll be around just have to make call before quarter of. So.::	0
+"mn005"::	Mm-hmm.::	0
+"me013"::	Uh::	0
+"fe016"::	So I -::	0
+"fe016"::	Or we can talk about it.::	0
+"fe008"::	Ke-::	0
+"me011"::	Why don't you read the digits?::	0
+"fe016"::	O_K.  Alright.::	0
+"me013"::	Yeah, why don't you read the digits and then you can  go.::	0
+"fe016"::	Oh, this is the new one.::	0
+"me013"::	Yeah.::	1
+"me011"::	Yeah, don't -::	0
+"fe016"::	Alright.::	0
+"fe016"::	The -::	0
+"me011"::	Don't read the old one.::	0
+"fe016"::	And the::	0
+"fe016"::	time is.::	0
+"fe016"::	O_K.::	0
+"me011"::	O_K::	0
+"me013"::	O_K.::	1
+"fe008"::	Turn it  off.::	0
+"fe008"::	But wait till he -::	0
+"fe008"::	O_K.::	0
+"me011"::	And::	0

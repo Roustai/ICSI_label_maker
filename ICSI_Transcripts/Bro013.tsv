@@ -1,0 +1,765 @@
+"me013"::	We're going? O_K.::	0
+"me006"::	O_K.::	0
+"me013"::	Sh- Close your door on - door on the way out? Thanks.::	0
+"me006"::	Thanks.::	0
+"me006"::	Oh.::	0
+"me013"::	Yeah. Probably wanna get this other door, too.::	0
+"me013"::	O_K. So.::	0
+"me013"::	Um.::	0
+"me013"::	What are we talking about today?::	0
+"mn007"::	Uh, well, first there are perhaps these uh Meeting Recorder::	0
+"mn007"::	digits::	0
+"me013"::	Oh, yeah. That was kind of uh interesting. The - both the uh -::	0
+"mn007"::	that we tested. So.::	0
+"mn007"::	Um.::	0
+"me013"::	the S_R_I System and the oth- And::	0
+"me013"::	for  one  thing that - that  sure  shows the::	0
+"me013"::	difference between having a lot of uh::	0
+"mn007"::	Of data?::	0
+"me013"::	training  data::	0
+"mn007"::	Yeah.::	0
+"me013"::	or not, uh, the uh -::	0
+"me013"::	The best kind of number we have on the English uh -::	0
+"me013"::	on::	0
+"me013"::	near microphone only is - is uh three or four percent.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	And uh it's significantly better than that, using::	0
+"me013"::	fairly simple front-ends  on -  on the uh -::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	uh, with the S_R_I system. So I th- I think that the  uh -::	0
+"me013"::	But that's - that's using uh a - a pretty huge amount of data,::	0
+"me013"::	mostly  not  digits,  of course, but - but then again -::	0
+"me013"::	Well, yeah.  In fact , mostly not digits for the actual training the H_M_ Ms  whereas uh in this case we're just using digits for training the H_M_Ms.::	0
+"mn007"::	Yeah. Right.::	0
+"me013"::	Did anybody mention about whether the - the S_R_I system is a -::	0
+"me013"::	is - is doing the digits um::	0
+"me013"::	the wor- as a  word  model or as::	0
+"me013"::	uh a sub- s- sub-phone states?::	0
+"mn007"::	I guess it's - it's uh allophone models, so, well -::	0
+"me013"::	Yeah. Probably. Huh?::	0
+"mn007"::	Yeah. I think so, because it's their very d- huge, their huge system.::	0
+"me013"::	Yeah.::	0
+"mn007"::	And.::	0
+"mn007"::	But. So. There is one difference - Well, the S_R_I system - the result for the S_R_I system that are represented here are with adaptation. So there is -::	0
+"mn007"::	It's their complete system and - including on-line::	0
+"mn007"::	uh unsupervised adaptation.::	0
+"me013"::	That's true.::	0
+"mn007"::	And if you don't use adaptation, the error rate is::	0
+"mn007"::	around::	0
+"mn007"::	fifty percent worse, I think, if I remember. Yeah.::	0
+"me013"::	O_K.::	0
+"me013"::	It's tha- it's that much, huh?::	0
+"mn007"::	Nnn.::	0
+"mn007"::	It's - Yeah. It's quite significant. Yeah.::	0
+"me013"::	Oh. O_K.::	0
+"me013"::	Still.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	But - but uh what - what I think I'd be interested to do given  that,  is that we - we should uh::	0
+"me013"::	take - I guess that somebody's gonna do this, right? - is to take some of these tandem things and feed  it  into the S_R_I system, right?::	0
+"mn007"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"mn007"::	We can do something like  that . Yeah.::	0
+"me013"::	Yeah. Because -::	0
+"mn007"::	But -::	0
+"mn007"::	But I guess the main point is the  data  because uh::	0
+"mn007"::	I am not sure. Our back-end is - is fairly simple but until now, well, the attempts::	0
+"mn007"::	to improve it or - have fail- Ah, well, I mean::	0
+"mn007"::	uh what Chuck::	0
+"mn007"::	tried::	0
+"mn007"::	to - to - to do::	0
+"me013"::	Yeah, but he's doing it with the same data, right? I mean so to -::	1
+"mn007"::	Yeah. So it's - Yeah.::	0
+"me013"::	So there's - there's - there's two things being affected. I mean. One is that - that, you know, there's something simple that's wrong with the back-end. We've been playing a number of states  uh I - I don't know if he got to the point of playing with the uh number of Gaussians yet but - but uh,::	1
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	uh, you know. But, yeah, so far he hadn't gotten any big improvement, but that's  all  with the same amount of data which is pretty small.::	1
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Mmm.::	0
+"me013"::	And um.::	0
+"mn007"::	So, yeah, we could retrain::	1
+"mn007"::	some of these tandem::	0
+"me013"::	Well, you could do  that,  but I'm saying  even  with it not - with  that  part not retrained,::	1
+"mn007"::	on - on huge -::	1
+"mn007"::	Ah, yeah. Just -::	0
+"me013"::	just - just using - having the H_M_Ms -::	1
+"mn007"::	f- for the H_M_M models. Yeah. Mm-hmm.::	0
+"me013"::	much better H_M_ Ms.  Yeah.::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	Um.::	0
+"me013"::	But just  train  those H_M_Ms using different  features,  the features coming from our Aurora stuff. So.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	But  what would be interesting to see also is what - what -::	0
+"mn007"::	perhaps it's not related, the amount of data but the um::	1
+"mn007"::	recording conditions. I don't know. Because::	1
+"mn007"::	it's probably not a problem of  noise,  because::	0
+"mn007"::	our features are supposed to be robust to noise.::	0
+"me013"::	Well, yeah.::	0
+"mn007"::	It's not a problem of  channel,  because there is::	0
+"mn007"::	um::	0
+"mn007"::	normalization with respect to the channel. So -::	0
+"me013"::	I - I - I'm sorry. What - what is the problem that you're trying to explain?::	1
+"mn007"::	The - the fact that - the result with the tandem and Aurora system are::	1
+"me013"::	That the - Oh.::	0
+"me013"::	So much worse?::	0
+"mn007"::	uh so much worse. Yeah.::	1
+"me013"::	Oh. I uh but I'm - I'm almost certain that it - it -::	1
+"mn007"::	It -::	1
+"me013"::	I mean, that it has to do with the um amount of  training  data. It - it's - it's orders of magnitude off.::	1
+"mn007"::	Yeah but - Yeah.::	0
+"mn007"::	Yeah but we train only on  digits  and it's - it's a digit task, so. Well.::	0
+"me013"::	But - but::	0
+"me013"::	having a huge - If -::	0
+"mn007"::	It -::	0
+"me013"::	if you look at what commercial places  do,  they use a huge amount of  data.  This is a modest amount of data.::	0
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Alright.::	0
+"mn007"::	Yeah. Mm-hmm.::	0
+"me013"::	So.::	0
+"me013"::	I mean, ordinarily you would say "well, given that you have enough occurrences of the digits, you can just train with digits rather than with, you know" -::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	But the thing  is,  if you have a  huge  - in other words, do  word  models - But if you have a  huge  amount of data::	0
+"mn007"::	Right.::	0
+"mn007"::	Mmm.::	0
+"me013"::	then you're going to have  many  occurrences of similar uh allophones.::	0
+"mn007"::	Yeah.::	0
+"me013"::	And that's just a huge amount of training for it. So it's  um -::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	I - I think it  has  to be that, because, as you say, this is, you know, this is near-microphone, it's really pretty clean data.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	Um.::	0
+"me013"::	Now, some of it could be the fact that uh - let's see, in the - in these multi-train things did we include noisy data in the::	1
+"mn007"::	Yeah.::	0
+"me013"::	training? I mean, that could be  hurting  us actually, for the  clean  case.::	1
+"mn007"::	Yeah. Well, actually we see that the clean train for the Aurora proposals are -::	0
+"me013"::	It is if -::	0
+"mn007"::	are better than the multi-train, yeah.::	0
+"me013"::	Yeah. Yeah. Cuz this is clean data, and so that's not too surprising.::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	But um.::	0
+"me013"::	Uh.::	0
+"me013"::	So.::	0
+"mn007"::	Well, o- I guess what I meant is that::	0
+"mn007"::	well, let's say if we - if we add enough data to train on the um::	0
+"me013"::	Uh-huh.::	0
+"mn007"::	on the Meeting Recorder digits,::	0
+"me013"::	Mm-hmm.::	1
+"mn007"::	I guess we could have better results than  this.::	0
+"mn007"::	And.::	0
+"mn007"::	What I meant is that perhaps we can learn something::	0
+"mn007"::	uh from  this,::	0
+"mn007"::	what's - what's wrong::	0
+"mn007"::	uh::	0
+"mn007"::	what - what is different between T_I-digits and these digits and -::	0
+"me013"::	What kind of numbers are we getting on T_I-digits?::	0
+"mn007"::	It's point eight percent, so.::	0
+"me013"::	Oh.  I  see.::	0
+"mn007"::	Four- Fourier.::	0
+"mn007"::	@@::	0
+"me013"::	So in the  actual  T_I-digits database we're getting point eight percent,::	1
+"mn007"::	Yeah. Yeah.::	0
+"me013"::	and here we're getting three or four - three, let's see,  three  for this?::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	Yeah.::	0
+"me013"::	Sure, but I mean,::	0
+"me013"::	um point  eight  percent is something like double uh or triple what people have gotten who've worked very hard at doing that. And - and also, as you point out, there's adaptation in these numbers also.::	0
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Mmm.::	0
+"me013"::	So if you, you know, put the ad- adap- take the adaptation off, then it - for the English-Near you get something like two percent.::	1
+"me013"::	And here you had, you know, something like three point four.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	And I could easily see that difference coming from this huge amount of data that it was trained on. So it's -::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	You know, I don't think there's anything magical here. It's, you know, we used a simple H_T_K system with a modest amount of data. And this is a - a, you know, modern  uh system uh has - has a lot of nice points to it.::	1
+"mn007"::	Yeah.::	0
+"mn007"::	Yeah. Mm-hmm.::	0
+"me013"::	Um.::	0
+"me013"::	So. I mean, the H_T_K is an older H_T_K, even. So.::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	Yeah it - it's not that surprising. But to me it just - it just meant a practical  point that um if we want to  publish results on digits that - that people pay  attention to we probably should uh -::	1
+"me013"::	Cuz we've had the problem before that you get - show some  nice improvement on something that's - that's uh, uh - it seems like too large a number, and uh  uh people don't necessarily take it so seriously.::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	Um.::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah. So the three point four percent for this uh is - is uh -::	0
+"me013"::	So why is it - It's an interesting question though, still. Why is - why is it three point four percent for the d- the digits recorded in this environment as opposed to::	0
+"me013"::	the uh point eight percent for - for - for the original T_I-digits database?::	0
+"me013"::	Um.::	1
+"mn007"::	Yeah. th- that's -::	0
+"mn007"::	th- that's my point I - I - I don't::	0
+"me013"::	Given - given the same - Yeah. So ignore - ignoring the - the - the S_R_I system for a moment, just looking at::	0
+"mn007"::	I -::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	the T_I-di- the uh tandem system,::	0
+"me013"::	if we're getting point eight percent, which, yes, it's high. It's, you know, it - it's not  awfully  high, but it's, you know - it's - it's high.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	Um.  Why is it  uh four times as high,::	0
+"me013"::	or more?::	0
+"mn007"::	Yeah, I guess.::	0
+"me013"::	Right? I mean, there's -  even though it's close-miked there's still - there really  is  background noise.::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	Um. And  uh I suspect when the T_I-digits were recorded if somebody fumbled or said something wrong or something that they probably made them take it over.::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	It was not - I mean there was no attempt to have it be realistic in any - in  any  sense at all.::	1
+"mn007"::	Well.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	And acoustically, it's q- it's - I listened. It's quite different. T_I-digit is -::	1
+"mn007"::	it's very, very clean and it's like studio recording::	1
+"me013"::	Mm-hmm.::	0
+"mn007"::	whereas these Meeting Recorder digits::	1
+"mn007"::	sometimes you have breath noise and::	1
+"mn007"::	Mmm.::	0
+"me013"::	Right.::	0
+"me013"::	Yeah. So I think they were -::	0
+"mn007"::	It's  not controlled at all, I mean.::	0
+"me013"::	Bless you.::	0
+"me006"::	Thanks.::	0
+"me013"::	I - Yeah. I think it's - it's -::	0
+"mn007"::	Mm-hmm.  But-::	0
+"me013"::	So. Yes. It's - I think it's -::	1
+"me013"::	it's the indication it's harder.::	1
+"mn007"::	Yeah.::	0
+"me013"::	Uh.::	0
+"me013"::	Yeah and again, you know, i- that's true either  way.  I mean so take a look at the uh -::	0
+"me013"::	um,::	0
+"me013"::	the S_R_I results. I mean, they're much much better, but still you're getting something like one point three percent::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	for uh things that are same data as in T_ - T_I-digits the same - same text.::	0
+"me013"::	Uh. And uh, I'm sure the same -::	0
+"me013"::	same system would - would get, you know, point - point three or point four or something::	0
+"me013"::	on the  actual  T_I-digits. So this - I think, on  both  systems the  these digits are showing up as harder.::	0
+"mn007"::	Mmm.::	0
+"me013"::	Um.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	Which I find sort of interesting cause I think this is closer to -::	0
+"me013"::	uh I mean it's still  read.::	0
+"me013"::	But I  still  think it's much closer to - to what - what people actually face,::	0
+"me013"::	um when they're - they're dealing with people saying digits over the telephone. I mean.::	0
+"me013"::	I don't think uh -::	0
+"me013"::	I mean, I'm sure they wouldn't release the numbers, but I don't think that uh::	0
+"me013"::	the uh - the - the companies that - that do telephone  speech get anything like point four percent on their::	0
+"me013"::	digits. I'm - I'm - I'm sure they get -::	0
+"me013"::	Uh, I mean, for  one  thing people  do  phone up who don't have uh::	0
+"me013"::	uh Middle America accents and::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	it's a  we- we it's -  it's -::	0
+"me013"::	it's U_S. it has - has many people   who sound in many different ways. So.::	0
+"me013"::	Um.::	0
+"me013"::	I mean.::	0
+"me013"::	O_K. That was  that  topic. What else we got?::	0
+"mn007"::	Um.::	0
+"mn007"::	But -::	0
+"me013"::	Did we end up giving up on - on, any Eurospeech submissions, or - ?::	0
+"me013"::	I know Thilo and Dan Ellis are - are submitting something, but uh.::	0
+"mn007"::	Yeah. I -  I guess e- the only thing with::	0
+"mn007"::	these -::	0
+"mn007"::	the Meeting Recorder and, well, -::	0
+"mn007"::	So, I think, yeah - I think we basically gave up.::	0
+"me013"::	Um.::	0
+"mn007"::	But -::	0
+"me013"::	Now, actually for the - for the Aur- uh we  do  have stuff for Aurora, right? Because - because we have ano- an extra month or something.::	1
+"mn007"::	Yeah. Yeah.::	0
+"mn007"::	Yeah. So. Yeah, for sure we will::	0
+"me013"::	Yeah.::	0
+"mn007"::	do something for::	0
+"me013"::	Well,  that's  fine. So th- so - so we have a couple - a couple little things on Meeting Recorder and we have -::	0
+"mn007"::	the special session. Yeah.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	We don't - we don't have to flood it with papers. We're not trying to prove anything to anybody. so.::	0
+"me013"::	That's fine.::	0
+"me013"::	Um.::	0
+"me013"::	Anything else?::	0
+"mn007"::	Yeah. Well. So.::	0
+"mn007"::	Perhaps the point is that we've been working on::	1
+"mn007"::	is, yeah, we have put the um the good V_A_D in the system and::	1
+"mn007"::	it really makes a huge difference. Um.::	1
+"mn007"::	So, yeah.::	1
+"mn007"::	I think, yeah, this is perhaps one of the reason why our system was not -::	0
+"mn007"::	not the best, because with the new V_A_D, it's very -::	1
+"mn007"::	the results are::	0
+"mn007"::	similar to the::	0
+"mn007"::	France Telecom results and::	0
+"me013"::	Hmm.::	0
+"mn007"::	perhaps even better sometimes.::	1
+"me006"::	Huh.::	0
+"mn007"::	Um.::	0
+"mn007"::	So there is this point.::	0
+"mn007"::	Uh. The problem is that it's very big and::	1
+"mn007"::	we still have to think how to -::	0
+"mn007"::	where to put it and -::	1
+"mn007"::	um,::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	because it - it -::	0
+"mn007"::	well, this V_A_D::	0
+"mn007"::	uh either some delay::	1
+"mn007"::	and we - if we put it on the server side,::	1
+"mn007"::	it doesn't  work,  because on the server side features you already have L_D_A applied::	1
+"mn007"::	from the f- from the terminal side and::	1
+"mn007"::	so you accumulate the delay so::	1
+"mn007"::	the V_A_D should be before the L_D_A::	0
+"mn007"::	which means perhaps on the terminal side and then smaller::	0
+"mn007"::	and::	0
+"me013"::	So wha- where did this good V_A_D come from?::	1
+"mn007"::	So.::	0
+"mn007"::	It's::	1
+"mn007"::	um from O_G_I. So::	1
+"mn007"::	it's the network trained -::	0
+"mn007"::	it's the network with the huge amounts on hidden - of hidden units, and::	0
+"mn007"::	um::	0
+"mn007"::	nine input frames compared to::	0
+"mn007"::	the V_A_D that was::	0
+"mn007"::	in the proposal which has::	0
+"mn007"::	a very small amount of hidden units and fewer inputs.::	0
+"me013"::	This is the one they had originally? Oh.::	1
+"mn007"::	Yeah.::	0
+"me013"::	Yeah, but they had to  get rid of it because of the space, didn't they?::	1
+"mn007"::	Yeah. So.::	0
+"mn007"::	Yeah. But the abso- assumption is that::	1
+"mn007"::	we will be able to make a V_A_D that's small and that works fine.::	1
+"mn007"::	And.::	0
+"me013"::	Well. So that's a problem. Yeah.::	0
+"mn007"::	So we can -::	0
+"mn007"::	Yeah but - nnn.::	0
+"me013"::	But the  other  thing is uh to use a different V_A_D entirely. I mean, uh i- if - if there's a::	1
+"me013"::	if - if - I - I don't know what the thinking was amongst the - the - the  the  ETSI  folk but um::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	if everybody agreed sure let's use this V_A_D and take that out of there -::	1
+"mn007"::	Mm-hmm.::	0
+"mn007"::	They just want, apparently - they don't want to fix the V_A_D because::	1
+"mn007"::	they think there is some interaction between::	0
+"mn007"::	feature extraction and -::	0
+"mn007"::	and::	0
+"mn007"::	V_A_D or frame dropping::	1
+"mn007"::	But::	1
+"mn007"::	they still  want to - just to give some::	0
+"mn007"::	um::	0
+"mn007"::	requirement for this V_A_D because it's - it will not be part of - they don't want it to be part of the standard.::	1
+"me013"::	O_K.::	0
+"mn007"::	So.::	0
+"mn007"::	So it must be at least::	0
+"mn007"::	uh somewhat fixed but not completely. So there just will be some requirements that are still not -::	1
+"mn007"::	uh not yet::	0
+"mn007"::	uh ready I think.::	1
+"me013"::	Determined.::	0
+"me013"::	I see.::	0
+"mn007"::	Nnn.::	0
+"me013"::	But I was thinking that - that uh::	0
+"me013"::	s::	1
+"me013"::	"Sure, there may be some interaction, but I don't think we need to be stuck on using our or O_G_I's  V_A_D. We could use somebody else's if it's smaller or -::	1
+"mn007"::	Yeah.::	0
+"me013"::	You know, as long as it did the job.::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	So  that's  good.::	0
+"mn007"::	Uh. So there is this thing. There is um -::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Uh I designed a new - a new filter::	1
+"mn007"::	because::	1
+"mn007"::	when I designed other filters::	0
+"mn007"::	with shorter delay from the L_D_A filters,::	0
+"mn007"::	there was one filter with fif- sixty millisecond delay and the other with ten milliseconds and::	1
+"me013"::	Right.::	0
+"mn007"::	uh Hynek suggested that both could have sixty-five sixty-s-::	1
+"mn007"::	I think it's sixty-five. Yeah.::	0
+"me013"::	Yeah.::	0
+"mn007"::	Both should have sixty-five because - Yeah.::	1
+"me013"::	You didn't  gain  anything, right?::	1
+"mn007"::	And. So I did  that  and::	1
+"mn007"::	uh it's running.::	1
+"mn007"::	So,  let's see::	0
+"mn007"::	what will happen.::	0
+"mn007"::	Uh but the filter is of course closer::	1
+"mn007"::	to the reference filter.::	1
+"me013"::	Mm-hmm.::	0
+"mn007"::	Mmm.::	0
+"mn007"::	Um. Yeah.::	0
+"mn007"::	I think -::	0
+"me013"::	So that means logically, in principle, it should be better. So probably it'll be worse.::	0
+"mn007"::	Yeah::	0
+"me013"::	Or in the basic::	0
+"me013"::	perverse nature uh of reality. Yeah.::	0
+"me013"::	O_K.::	0
+"mn007"::	Yeah. Sure.::	0
+"me026"::	Yeah.::	0
+"me013"::	O_K.::	0
+"mn007"::	Yeah, and then we've started to work with this of um::	1
+"mn007"::	voiced-unvoiced::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	stuff.::	1
+"mn007"::	And::	0
+"mn007"::	next week I think we will::	0
+"mn007"::	perhaps try to have um::	0
+"mn007"::	a new system with uh uh M_S_G stream also::	0
+"mn007"::	see what - what happens.::	0
+"mn007"::	So, something that's similar to the proposal too, but with M_S_G stream.::	0
+"me013"::	Mm-hmm.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	Mmm.::	0
+"me013"::	O_K.::	0
+"fn002"::	No, I w-::	1
+"fn002"::	I begin to play::	0
+"fn002"::	with Matlab and to found some parameter robust for voiced-unvoiced decision.::	1
+"fn002"::	But only to play. And we -::	1
+"fn002"::	they - we found that maybe w- is a classical parameter, the::	0
+"fn002"::	sq- the variance::	0
+"fn002"::	between the um F_F_T of the signal and the small::	0
+"fn002"::	spectrum of time::	0
+"fn002"::	we - after the um mel filter bank.::	1
+"me013"::	Uh-huh.::	0
+"fn002"::	And, well, is more or less robust.::	1
+"fn002"::	Is good for clean speech. Is::	1
+"fn002"::	quite  good::	0
+"me013"::	Huh?::	0
+"fn002"::	for noisy speech.::	0
+"me013"::	Mm-hmm.::	0
+"fn002"::	but um we must to have bigger statistic with TIMIT,::	0
+"fn002"::	and is not ready yet::	0
+"me013"::	Mm-hmm.::	0
+"me013"::	Yeah.::	0
+"fn002"::	to use on, well, I don't know.::	0
+"me013"::	Yeah.::	0
+"mn007"::	Yeah. So, basically we wa- want to look at something like the ex- the ex- excitation signal and -::	1
+"me013"::	Right.::	0
+"fn002"::	Mm-hmm.::	0
+"mn007"::	which are the variance of it and -::	1
+"fn002"::	I have here.::	0
+"fn002"::	I have here::	0
+"mn007"::	Mmm.::	0
+"fn002"::	for one signal, for one frame.::	0
+"me013"::	Yeah.::	0
+"fn002"::	The - the mix of the two, noise and unnoise, and the signal is this.::	0
+"me013"::	Uh-huh.::	0
+"fn002"::	Clean, and this noise.::	0
+"me013"::	Uh.::	0
+"fn002"::	These are the two - the mixed, the big signal is for clean.::	0
+"me013"::	Well, I'm s- uh -::	0
+"me013"::	There's - None of these axes are labeled, so I don't know what this - What's this axis?::	0
+"fn002"::	Uh this is uh - this axis is::	0
+"fn002"::	nnn, "frame".::	0
+"me013"::	Frame.::	0
+"fn002"::	Mm-hmm.::	0
+"me013"::	And what's th- what this?::	0
+"fn002"::	Uh, this is uh energy, log-energy of the spectrum.::	0
+"fn002"::	Of the - No,  this is the variance, the difference::	0
+"fn002"::	between::	0
+"fn002"::	the spectrum of the signal::	0
+"fn002"::	and::	0
+"fn002"::	F_F_T of each frame of the signal and::	0
+"fn002"::	this mouth spectrum of time after the f-::	0
+"me013"::	For  this  one.::	0
+"fn002"::	may fit::	0
+"me013"::	For the noi-::	0
+"fn002"::	for the two,::	0
+"fn002"::	this big, to here, they are to signal.::	0
+"fn002"::	This is for clean and this is for noise.::	0
+"me013"::	Oh. There's  two  things on the same  graph.::	0
+"fn002"::	Yeah. I don't know. I - I think that I have d- another graph, but I'm not sure.::	0
+"mn007"::	Yeah.::	0
+"me013"::	So w- which is clean and which is noise?::	0
+"mn007"::	I think the lower one is noise.::	0
+"fn002"::	The lower is noise and the height is clean.::	0
+"me013"::	O_K. So it's harder to distinguish::	0
+"fn002"::	It's height.::	0
+"me013"::	but it - but it g- with noise of course but - but -::	0
+"mn007"::	Yeah.::	0
+"fn002"::	Oh. I must to have.::	0
+"fn002"::	Pity, but I don't have::	0
+"me013"::	Uh.::	0
+"fn002"::	two different::	0
+"me013"::	And presumably when there's a - a -::	0
+"mn007"::	So this should the - the - the t-::	0
+"mn007"::	voiced::	0
+"me013"::	Uh-huh.::	0
+"fn002"::	Yeah, it is the height::	0
+"mn007"::	portions.::	0
+"fn002"::	is voiced portion.::	0
+"mn007"::	The p- the peaks should be voiced portion.::	0
+"fn002"::	And this is the noise portion.::	0
+"me013"::	Uh-huh.::	0
+"fn002"::	And this is more or less like this.::	0
+"fn002"::	But I meant to have see  @@  two - two the picture.::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"fn002"::	This is, for example, for one frame.::	0
+"me013"::	Yeah::	0
+"fn002"::	the - the spectrum of the signal.::	0
+"fn002"::	And this is the small::	0
+"fn002"::	version of the spectrum after M_L::	0
+"fn002"::	mel filter bank.::	0
+"me013"::	Yeah. And this is the difference?::	0
+"fn002"::	And this is::	0
+"fn002"::	I don't know.::	0
+"fn002"::	This is not the different. This is trying to obtain::	0
+"fn002"::	with L_P_C model::	0
+"fn002"::	the spectrum but::	0
+"fn002"::	using Matlab without going factor and s-::	0
+"me013"::	No pre-emphasis? Yeah.::	0
+"fn002"::	Not pre-emphasis. Nothing.::	0
+"me013"::	Yeah so it's - doesn't do too well there.::	0
+"fn002"::	And the - I think that this is good.::	0
+"fn002"::	This is quite similar.::	0
+"fn002"::	this is -::	0
+"fn002"::	this is another frame.::	0
+"fn002"::	ho- how I obtained the::	0
+"fn002"::	envelope,::	0
+"fn002"::	this envelope,::	0
+"fn002"::	with the mel filter bank.::	0
+"me013"::	Right.::	0
+"me013"::	So now I wonder - I mean, do you want to -::	1
+"me013"::	I  know  you want to get at  something   orthogonal  from what you get with the smooth spectrum::	1
+"me013"::	Um.::	1
+"me013"::	But if you were to really try and get a voiced-unvoiced, do you - do you want to  totally  ignore that? I mean, do you - do you - I mean,::	1
+"me013"::	clearly a - a very big - very big cues  for voiced-unvoiced come from uh spectral slope and so on, right?::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	Um.::	0
+"mn007"::	Yeah. Well, this would be -::	1
+"mn007"::	this would be perhaps an additional parameter, simply isn't -::	1
+"me013"::	Yeah. I see.::	0
+"mn007"::	Yeah.::	0
+"fn002"::	Yeah because when did noise::	1
+"mn007"::	Uh.::	0
+"fn002"::	clear::	0
+"fn002"::	in these  section  is clear::	1
+"me013"::	Mm-hmm.::	0
+"fn002"::	if s-  @@::	0
+"fn002"::	val- value is::	0
+"fn002"::	indicative that is a voice frame and it's::	0
+"fn002"::	low values  @@::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"me013"::	Well, you probably want - I mean,::	1
+"me013"::	certainly if  you want to do good voiced-unvoiced detection, you need a few features. Each -  each  feature is  by itself not enough. But, you know, people look at - at slope and  uh::	1
+"mn007"::	Mmm.::	0
+"me013"::	first auto-correlation coefficient, divided by power. Or - or uh  um::	1
+"me013"::	there's uh -::	0
+"me013"::	I guess we prob- probably don't have enough computation to do a simple pitch detector or something? I mean with a pitch detector you could have a -::	0
+"mn007"::	Mmm.::	0
+"me013"::	have a - an estimate of - of what the -::	0
+"me013"::	Uh. Or maybe you could you just do it going through the  P_  F_F_T's figuring out some um probable  um harmonic structure.::	1
+"me013"::	Right. And - and uh.::	0
+"mn007"::	Mmm.::	0
+"fn002"::	you have read up and - you have a paper,::	0
+"fn002"::	the paper that you s- give me yesterday.::	0
+"mn007"::	Oh, yeah. But -::	0
+"fn002"::	they say that  yesterday::	0
+"fn002"::	they are some::	0
+"fn002"::	problem::	0
+"mn007"::	Yeah, but it's not - it's, yeah, it's - it's another problem. Yeah::	1
+"fn002"::	and the -::	0
+"fn002"::	Is another problem.::	0
+"mn007"::	Um.::	0
+"mn007"::	Yeah, there  is::	0
+"mn007"::	th- this fact actually. If you::	1
+"mn007"::	look at this um spectrum,::	1
+"me013"::	Yeah.::	0
+"mn007"::	What's this again? Is it  the mel-filters?::	1
+"fn002"::	Yeah like this. Of kind like this.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	O_K.::	0
+"mn007"::	So the envelope here is the output of the mel-filters::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	and what we clearly see is that in some cases,::	1
+"mn007"::	and it clearly appears here,::	0
+"mn007"::	and::	1
+"mn007"::	the - the harmonics are resolved by the f- Well,::	1
+"mn007"::	there are still appear after mel-filtering,::	1
+"me013"::	Mm-hmm.::	0
+"mn007"::	and it happens::	1
+"mn007"::	for high pitched voice because::	0
+"mn007"::	the width of the lower frequency mel-filters::	0
+"mn007"::	is sometimes even smaller than the pitch.::	1
+"me013"::	Yeah.::	0
+"mn007"::	It's around one hundred, one hundred and fifty hertz::	0
+"me013"::	Right.::	0
+"mn007"::	Nnn.::	0
+"mn007"::	And so what happens is that this::	0
+"mn007"::	uh, add additional variability to this envelope and::	0
+"me013"::	Yeah.::	0
+"mn007"::	um::	0
+"mn007"::	so we were thinking to modify the mel-spectrum to have something that - that's smoother on low frequencies.::	1
+"me013"::	That's as - as a separate thing. Yeah.::	0
+"mn007"::	i-::	0
+"mn007"::	Yeah. This is a separate thing.::	0
+"fn002"::	Yeah.::	0
+"me013"::	Separate thing? Yeah.::	0
+"mn007"::	And.::	0
+"me013"::	Yeah. Maybe so.::	0
+"me013"::	Um.::	0
+"me013"::	Yeah. So, what - Yeah. What I was talking about was just, starting with the F_F_T you could - you could uh do a very rough thing to estimate - estimate uh pitch.::	1
+"mn007"::	Yeah.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	And uh uh, given - you know, given  that,  uh  you could uh uh come up with some kind of estimate of how much of the low frequency energy was - was explained by -::	1
+"me013"::	by uh::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	uh those harmonics. Uh.::	1
+"me013"::	It's uh a variant on what you're s- what you're  doing . The - I mean, the - the  the mel::	1
+"me013"::	does  give a smooth thing. But as you say it's not that smooth here. And - and so if you -::	1
+"me013"::	if you just you know subtracted off uh your guess of the harmonics then something like this would end up with::	0
+"me013"::	quite a bit lower energy in the first fifteen hundred hertz or so and -::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	and our first kilohertz, even.::	0
+"me013"::	And um::	0
+"me013"::	if was uh  noisy,  the proportion that it would go down would be::	0
+"me013"::	if it was - if it was unvoiced or something.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	So you oughta be able to  pick out voiced segments.::	0
+"me013"::	At least it should be another - another cue.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	So.::	0
+"me013"::	Anyway.::	0
+"me013"::	O_K?::	0
+"me013"::	That's what's going on.::	0
+"me013"::	Uh.::	0
+"me013"::	What's up with you?::	1
+"me006"::	Um  our t- I went to  talk with uh Mike Jordan this - this week::	1
+"me013"::	Mm-hmm.::	0
+"me006"::	um::	1
+"me006"::	and uh  shared with him the ideas about um::	0
+"me006"::	extending the Larry Saul work::	1
+"me006"::	and um I asked him some questions about factorial H_M_Ms so like later down the line when::	1
+"me006"::	we've come up with these - these feature detectors, how do we -::	0
+"me006"::	how do we uh::	0
+"me006"::	you know,::	0
+"me006"::	uh model the time series that - that happens::	1
+"me006"::	um::	1
+"me006"::	and::	0
+"me006"::	and we talked a little bit about  factorial H_M_Ms and how::	0
+"me006"::	um::	0
+"me006"::	when you're doing inference - or w- when you're doing recognition, there's like simple Viterbi stuff that you can do for -::	0
+"me006"::	for these H_M_Ms and::	1
+"me006"::	the uh -  the great advantages that::	0
+"me006"::	um a lot of times the factorial H_M_Ms don't::	0
+"me006"::	um::	0
+"me006"::	don't over- alert  the problem there they have a limited number of parameters and they focus directly on -::	1
+"me006"::	on uh the sub-problems at hand so::	1
+"me006"::	you can imagine  um::	0
+"me006"::	five or so parallel::	0
+"me006"::	um features::	0
+"me006"::	um transitioning independently and then::	0
+"me006"::	at the end you - you uh couple these factorial H_M_Ms with uh -::	0
+"me006"::	with uh undirected links::	0
+"me006"::	um based on -::	0
+"me013"::	Hmm.::	1
+"me006"::	based on some more data.::	0
+"me006"::	So he - he seemed - he seemed like really interested in -::	1
+"me006"::	in um - in this and said - said this is - this is something very do-able and can learn a lot::	1
+"me006"::	and um::	0
+"me006"::	yeah, I've just been  continue reading::	1
+"me006"::	um about certain things.::	1
+"me013"::	Mm-hmm.::	0
+"me006"::	um::	0
+"me006"::	thinking of maybe using um::	1
+"me006"::	um::	0
+"me006"::	m- modulation spectrum stuff to  um -::	0
+"me006"::	as features um also in the - in the sub-bands because::	1
+"me013"::	Mm-hmm.::	0
+"me006"::	it seems like  the modulation um spectrum tells you a lot about::	0
+"me006"::	the intelligibility of - of certain um words and stuff::	1
+"me006"::	So, um. Yeah.::	0
+"me006"::	Just::	0
+"me006"::	that's about it.::	0
+"me013"::	O_K.::	0
+"me026"::	O_K. And um so I've been looking at Avendano's work and um::	1
+"me026"::	uh I'll try to write up in my next stat- status report a nice description of::	1
+"me026"::	what he's doing, but it's - it's an approach to deal with::	1
+"me026"::	reverberation or that - the aspect of his work that I'm interested in::	1
+"me026"::	the idea is that um::	0
+"me026"::	normally an- analysis frames are um::	0
+"me026"::	too short to encompass reverberation effects um in  full.  You miss most of the reverberation tail in a ten millisecond window::	0
+"me026"::	and so::	0
+"me026"::	you - you'd like it to be that::	0
+"me026"::	um::	0
+"me026"::	the reverberation responses um simply convolved::	0
+"me026"::	um::	0
+"me026"::	in,  but::	0
+"me026"::	it's not  really  with these ten millisecond frames::	0
+"me026"::	cuz you j-::	0
+"me026"::	But if you take, say, a  two  millisecond::	0
+"me026"::	um window -::	0
+"me026"::	I'm sorry a two  second  window::	0
+"me026"::	then in a room like this, most of the reverberation response::	0
+"me026"::	is  included in the window::	0
+"me026"::	and the - then it um::	0
+"me026"::	then things are l- more linear. It is - it is more like the reverberation response is simply c- convolved::	0
+"me026"::	and um -::	0
+"me026"::	and you can use channel normalization techniques::	0
+"me026"::	like uh in his thesis he's assuming that the reverberation response is fixed. He just does um::	0
+"me026"::	mean subtraction, which is like removing the D_C component of the modulation spectrum::	0
+"me026"::	and::	0
+"me026"::	that's supposed to d-::	0
+"me026"::	um deal - uh deal pretty well with the um reverberation::	0
+"me026"::	and um  the neat thing is you can't take these two second frames and feed them to a  speech  recognizer::	0
+"me026"::	um  so he does this  um::	0
+"me026"::	method training trading the um  the spectral resolution for time resolution  and um::	0
+"me026"::	come ca- uh synthesizes a new representation which is with say  ten  second frames but a lower s- um::	0
+"me026"::	frequency resolution.::	0
+"me026"::	So I don't really know the theory. I guess it's - these are called "time frequency representations" and h- he's making the - the time sh- um finer grained and the frequency resolution um less fine grained.::	0
+"mn007"::	Mm-hmm.::	0
+"me026"::	s- so I'm - I guess my first stab actually in continuing  his work is to um  re-implement this - this thing which um  changes the time and frequency resolutions cuz he doesn't have code for me. So that that'll take some reading about the theory. I don't really  know  the theory.::	1
+"mn007"::	Mm-hmm.::	0
+"me026"::	Oh, and um,  another f- first step is um, so the - the way I want to extend his work is make it able to deal with a time varying reverberation response um  and um::	1
+"me026"::	we don't really know  how fast::	1
+"me026"::	the um - the reverberation response is varying the Meeting Recorder data::	1
+"me026"::	um so um::	0
+"me026"::	we - we have this um block least squares um::	0
+"me026"::	imp- echo canceller implementation and um::	0
+"me026"::	I want to try  finding::	0
+"me026"::	the - the response, say, between a near mike and the table mike for someone using the echo canceller and looking at the echo canceller taps and then::	0
+"me026"::	see how fast that varies  from block to block. That should give an idea of how fast the reverberation response is changing.::	0
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	O_K.::	0
+"me013"::	Um. I think we're  sort of done.::	0
+"mn007"::	Yeah.::	0
+"me013"::	So let's read our digits and go home.::	0
+"me026"::	Um.  S- so um  y- you do - I think you read some of the - the zeros as O_'s and some as zeros.::	1
+"me013"::	Yeah.::	0
+"me026"::	Is there a particular way we're supposed to read them?::	1
+"mn007"::	There are only zeros here. Well.::	0
+"me013"::	No. "O_" - "O_" - "O_" and "zero" are two ways that we say that digit.::	0
+"mn007"::	Eee.::	0
+"mn007"::	Yeah.::	0
+"me013"::	So it's -::	0
+"mn007"::	But -::	0
+"me006"::	Ha!::	0
+"me013"::	so it's - i-::	0
+"mn007"::	Perhaps in the sheets there should be another sign for the - if we want to - the - the guy to say "O_" or::	1
+"me013"::	No. I mean. I think people will do what they say. It's  O_K .::	1
+"mn007"::	It's -::	0
+"mn007"::	Yeah.::	0
+"mn007"::	O_K.::	0
+"me026"::	Alright.::	0
+"me013"::	I mean in digit recognition we've done before, you have - you have two pronunciations for that value, "O_" and "zero".::	1
+"me026"::	O_K.::	0
+"mn007"::	But it's perhaps more difficult for the people to prepare the database then, if -::	0
+"mn007"::	because here you only have zeros::	0
+"mn007"::	and - and people pronounce "O_" or zero -::	1
+"me013"::	No, they just write -::	1
+"me013"::	they - they write down O_H. or they write down Z_E_R_O a- and they - and they each have their own pronunciation.::	0
+"mn007"::	Yeah but if the sh- the sheet was prepared with a different sign for the "O_".::	0
+"me013"::	But people wouldn't know what that wa-::	0
+"me013"::	I mean  there  is  no  convention  for it.::	0
+"mn007"::	O_K.::	1
+"mn007"::	Yeah.::	0
+"mn007"::	O_K.::	0
+"me013"::	See. I mean, you'd have to tell them::	0
+"me013"::	"O_K when we write this, say it tha-", you know, and you just - They just want people to read the digits as you ordinarily would and - and people::	1
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Yep.::	1
+"me013"::	say it different ways.::	0
+"me026"::	O_K. Is this a change from the last batch of - of um forms? Because in the last batch it was spelled out which one you should read.::	0
+"mn007"::	Yeah, it was orthographic, so.::	0
+"me013"::	Yes. That's right. It was - it was spelled out, and they decided they wanted to get at more the way people would really say things.  That's also why they're - they're bunched together in these different groups. So - so it's - Yeah. So it's - it's - Everything's fine.::	0
+"me026"::	Oh. O_K.::	0
+"me026"::	O_K.::	0
+"me026"::	O_K.::	0
+"me013"::	O_K.::	0
+"me013"::	Actually, let me just s- since - since you brought it up, I was just - it was hard not to be self-conscious about that when it  after we - since we just discussed it.  But I realized that - that um::	0
+"me013"::	when I'm talking on the  phone,  certainly, and - and saying these numbers,  I almost always say zero.::	0
+"me013"::	And uh - cuz - because uh i- it's two syllables. It's - it's more likely they'll understand what I said.  So that - that - that's the habit  I'm  in, but some people say "O_" and -::	0
+"me006"::	Yeah I normally say "O_" cuz it's easier to say.::	0
+"me013"::	Yeah it's shorter. Yeah. So it's - So.  So uh. Now,  don't   think  about it.::	0
+"me006"::	"O_"::	0
+"me006"::	Oh, no!::	0
+"me013"::	O_K. We're done.::	0

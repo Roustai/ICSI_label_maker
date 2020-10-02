@@ -1,0 +1,1551 @@
+"me013"::	O_K.::	0
+"mn007"::	Mike. Mike-one?::	0
+"fn002"::	Ah.::	0
+"me013"::	We're on?::	0
+"me011"::	Have a good meeting.::	0
+"me011"::	Do you want this closed?::	0
+"me013"::	Yes, please.::	0
+"me013"::	I mean, we're testing noise robustness but let's not get silly.::	0
+"me013"::	O_K, so, uh,::	0
+"me013"::	you've got some, uh,::	0
+"me013"::	Xerox things to pass out?::	0
+"me013"::	That are - Yeah.::	0
+"mn007"::	Yeah, um.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Yeah, I'm sorry for the table, but as it grows in size, uh, it.::	0
+"me013"::	Uh, so for th- the last column we use our imagination.::	0
+"me013"::	O_K.::	0
+"fn002"::	Ah, yeah.::	0
+"me013"::	Ah.::	0
+"mn007"::	Uh , yeah.::	0
+"me013"::	This  one's  nice,  though. This has  nice  big  font.::	0
+"fn002"::	Uh, do you want  @@ .::	0
+"mn007"::	Yeah.::	0
+"mn007"::	@@::	0
+"me006"::	Let's see. Yeah.::	0
+"me013"::	Yeah.::	0
+"me006"::	Chop!::	0
+"me013"::	When you get older you have these different perspectives. I mean, lowering the word hour rate is fine, but having  big   font!::	0
+"mn007"::	So I-::	0
+"me013"::	That's what's -::	0
+"mn007"::	Next time we will put colors or  something .::	0
+"me013"::	Yeah. It's mostly big font.::	0
+"mn007"::	Uh.::	0
+"me013"::	O_K. Uh -::	0
+"mn007"::	O_K, s-::	0
+"me013"::	Go ahead.::	0
+"mn007"::	so there is kind of summary of::	0
+"mn007"::	what has been done -::	0
+"mn007"::	It's this.::	0
+"mn007"::	Summary of experiments since, well, since last week and also since the -::	0
+"me013"::	Oh. O_K.::	0
+"mn007"::	we've started to  run  - work on this.::	0
+"mn007"::	Um.  So since last week we've started to fill the column with um::	0
+"mn007"::	uh features::	0
+"mn007"::	w- with nets trained on P_L_P::	0
+"mn007"::	with on-line normalization but with delta also, because the column was not completely - well, it's still not completely filled, but::	0
+"me013"::	Mm-hmm. Mm-hmm.::	0
+"mn007"::	we have more results to compare with network using without P_L_P and::	0
+"mn007"::	finally, hhh,  um  ehhh   P_L- uh delta seems very important.::	0
+"mn007"::	Uh  I don't know. If you take um,::	0
+"mn007"::	let's say,::	0
+"mn007"::	anyway  Aurora-two-B_,::	0
+"mn007"::	so, the next - t- the second, uh, part of the table,::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	uh  when we use the large training set using French, Spanish, and English,::	0
+"mn007"::	you have one hundred and six::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	without delta and eighty-nine with the delta.::	0
+"me013"::	a- And again all of these numbers are with a hundred percent being, uh, the baseline performance, but with a mel cepstra system going straight into the H_T_K? Yes.::	0
+"mn007"::	Yeah, on the baseline, yeah.::	0
+"mn007"::	So -::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	So now we see that the gap between the different training set is much  uh::	0
+"mn007"::	uh::	0
+"mn007"::	much smaller::	0
+"me006"::	It's out of the way.::	0
+"mn007"::	um -::	0
+"me006"::	Right.::	0
+"mn007"::	But,::	0
+"mn007"::	actually, um,::	0
+"mn007"::	for English training on TIMIT is still better than the other languages.::	0
+"mn007"::	And::	0
+"mn007"::	Mmm,  Yeah.::	0
+"mn007"::	And f- also for Italian, actually.::	0
+"mn007"::	If you take the second::	0
+"mn007"::	set of experiment for Italian, so, the mismatched condition,::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	um::	0
+"mn007"::	when we use the training on TIMIT::	0
+"mn007"::	so, it's multi-English, we have a ninety-one number,::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	and training with other languages is a little bit worse.::	0
+"me013"::	Um -::	0
+"me013"::	Oh,  I  see. Down near the bottom of this sheet.::	0
+"me013"::	Uh,   yes.::	0
+"mn007"::	So, yeah.::	0
+"me013"::	O_K.::	0
+"mn007"::	And, yeah, and here the gap is still more important between using delta and not using delta.::	0
+"mn007"::	If y- if I take the training s- the large training set, it's - we have one hundred and seventy-two,::	0
+"me013"::	Yes.::	0
+"me013"::	Yeah.::	0
+"mn007"::	and one hundred and four when we use delta.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	Uh.::	0
+"mn007"::	Even if the contexts used is quite the same, because without delta we use  seventeenths - seventeen  frames.::	0
+"mn007"::	Uh.::	0
+"mn007"::	Yeah, um, so the second point is that we have no single cross-language experiments,::	0
+"mn007"::	uh, that we did not have last week.::	0
+"mn007"::	Uh, so this is::	0
+"mn007"::	training the net on French::	0
+"mn007"::	only, or on English only, and testing on Italian.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	And training the net on French only and Spanish only and testing on,::	0
+"mn007"::	uh::	0
+"mn007"::	T_I-digits.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	And, fff  um,::	0
+"mn007"::	yeah.::	0
+"mn007"::	What we see is that::	0
+"mn007"::	these nets are not as good, except for the multi-English, which is always one of the best.::	0
+"mn007"::	Yeah, then we started to work::	0
+"mn007"::	on a large dat- database containing,::	0
+"mn007"::	uh, sentences from the French, from the Spanish, from the TIMIT, from SPINE,::	0
+"mn007"::	uh from::	0
+"mn007"::	uh English digits, and from Italian digits.::	0
+"mn007"::	So this is the - another line -::	0
+"mn007"::	another set of lines in the table.::	0
+"me013"::	Ah, yes. Mm-hmm.::	0
+"mn007"::	Uh,  @@  with SPINE and::	0
+"mn007"::	uh, actually we did this before knowing the result of all the data,::	0
+"mn007"::	uh, so we have to- to redo::	0
+"mn007"::	the uh - the experiment training the net with, uh P_L_P, but with delta.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	But um::	0
+"mn007"::	this - this net performed quite well.::	0
+"mn007"::	Well,::	0
+"mn007"::	it's - it's better than the net using French, Spanish, and English only.::	0
+"mn007"::	Uh.::	0
+"mn007"::	So, uh, yeah. We have also started  feature  combination experiments.::	0
+"mn007"::	Uh many experiments using features and net outputs together.::	0
+"mn007"::	And this is -::	0
+"mn007"::	The results are on the other document.::	0
+"mn007"::	Uh, we can discuss this after, perhaps - well, just,::	0
+"mn007"::	@@ .::	0
+"mn007"::	Yeah, so basically there are four -::	0
+"mn007"::	four kind of systems. The first one, yeah, is combining, um,::	0
+"mn007"::	two feature streams,::	0
+"mn007"::	uh using -::	0
+"mn007"::	and each feature stream has its own M_P_L. So it's the -::	0
+"mn007"::	kind of similar to the tandem that was proposed for the first.::	0
+"mn007"::	The multi-stream tandem for the first proposal.::	1
+"mn007"::	The second is using features and::	0
+"mn007"::	K_L_T transformed M_L_P outputs.::	1
+"mn007"::	And the third one is to u- use a single K_L_T trans- transform::	1
+"mn007"::	features as well as M_L_P outputs.::	1
+"mn007"::	Um,::	0
+"mn007"::	yeah.::	0
+"mn007"::	Mmm.::	0
+"mn007"::	You know you can - you can comment these results, or -::	0
+"fn002"::	Yes, I can s- I would like to say that, for example,::	0
+"fn002"::	um, mmm, if we doesn't use the delta-delta,::	0
+"fn002"::	uh we have an improve::	0
+"fn002"::	when we use s- some combination.::	0
+"fn002"::	But when w-::	0
+"mn007"::	Yeah, we- ju- just to be clear, the numbers here are::	0
+"fn002"::	Yeah, this -::	0
+"mn007"::	uh recognition accuracy.::	0
+"fn002"::	Yeah, this number recognition acc-::	0
+"mn007"::	So it's not the -  Again we switch to another -::	0
+"fn002"::	Yes, and the baseline - the baseline have - i- is eighty-two.::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	Baseline is eighty-two.::	1
+"fn002"::	Yeah::	0
+"mn007"::	So it's experiment only on the Italian mismatched for the moment for this.::	0
+"me013"::	Uh, this is Italian mismatched. O_K.::	0
+"mn007"::	Um.::	0
+"fn002"::	Yeah, by the moment.::	0
+"mn007"::	Mm-hmm.::	0
+"fn002"::	And first in the experiment-one::	1
+"fn002"::	I - I do -::	0
+"fn002"::	I - I use different M_L_P,::	1
+"me013"::	Mm-hmm.::	0
+"fn002"::	and::	1
+"fn002"::	is obviously that the multi-English M_L_P is the better.::	1
+"fn002"::	Um.::	1
+"fn002"::	for the ne - rest of experiment I use multi-English,::	1
+"fn002"::	only multi-English.::	0
+"fn002"::	And I try to combine different type of feature, but the result::	1
+"fn002"::	is that the M_S_G-three feature doesn't work for the Italian database::	1
+"fn002"::	because never help to increase the  accuracy.::	1
+"mn007"::	Yeah, eh, actually, if w- we look at the table, the huge table,::	1
+"me013"::	Mm-hmm.::	1
+"mn007"::	um, we see that for T_I-digits M_S_G perform as well as the P_L_P,::	1
+"mn007"::	but this is not the case for Italian what - where the error rate is c- is almost uh twice the error rate of P_L_P.::	1
+"me013"::	Mm-hmm.::	0
+"mn007"::	So, um::	0
+"mn007"::	uh, well, I don't think this is a bug but this - this is something in - probably in the M_S_G::	0
+"mn007"::	um process that::	0
+"mn007"::	uh::	0
+"mn007"::	I don't know what exactly. Perhaps the fact that the - the -::	1
+"mn007"::	there's no low-pass filter, well, or no pre-emp- pre-emphasis filter and that::	1
+"mn007"::	there is some D_C offset in the Italian, or, well, something simple like that.::	1
+"mn007"::	But - that we need to sort out if want to::	1
+"me013"::	Mm-hmm.::	0
+"mn007"::	uh get improvement by combining P_L_P and M_S_G because::	1
+"mn007"::	for the moment M_S_G do- doesn't bring much information. And::	1
+"me013"::	Mm-hmm.::	0
+"me013"::	I-::	0
+"mn007"::	as Carmen said, if we combine the two, we have the result, basically, of P_L_P.::	0
+"me013"::	Um, the uh,  baseline  system - when you said the  baseline  system was uh, uh eighty-two percent, that was trained on what and tested on what?::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	That was, uh Italian mismatched d- uh, uh, digits, uh, is the testing, and the training is Italian digits?::	1
+"fn002"::	Yeah.::	0
+"fn002"::	Yeah.::	1
+"me013"::	So the "mismatch" just refers to the noise and - and, uh microphone and so forth, right?::	1
+"fn002"::	Yeah.::	0
+"mn007"::	Yeah.::	0
+"me013"::	So, um::	0
+"me013"::	did we have - So would that then correspond to the first line here of where the training is - is the uh Italian digits?::	0
+"me013"::	The - 3x::	0
+"fn002"::	The train- the training of the H_T_K? Yes. Ah yes! This h- Yes. Th- Yes.::	0
+"me013"::	Yes.::	0
+"me013"::	Yes. Training of the net, yeah.::	1
+"fn002"::	Yeah.::	0
+"me013"::	So, um - So what that says is that in a matched condition,::	0
+"me013"::	we end up with a fair amount  worse  putting in the uh P_L_P.::	1
+"me013"::	Now w- would - do we have a number,::	1
+"me013"::	I suppose for the matched -::	1
+"me013"::	I - I don't mean matched, but uh use of Italian - training in Italian digits for P_L_P only?::	1
+"fn002"::	Uh  yes?::	0
+"mn007"::	Uh  yeah, so this is - basically this is in the table.::	1
+"mn007"::	Uh  so the number is fifty-two,::	1
+"fn002"::	Another table.::	1
+"mn007"::	uh -::	0
+"me013"::	Fifty-two percent.::	1
+"mn007"::	Fift- So -::	1
+"fn002"::	No.::	0
+"me013"::	No, fifty-two percent of eighty-two?::	1
+"mn007"::	No, it's - it's the -::	1
+"mn007"::	Of - of -::	1
+"mn007"::	of uh  eighteen - of eighteen.::	1
+"fn002"::	Eighty. Eighty.::	1
+"mn007"::	So it's - it's error rate, basically. It's er- error rate ratio. So -::	1
+"fn002"::	It's::	1
+"fn002"::	plus six.::	1
+"me013"::	Oh this is  accuracy!  Oy!  O_K.::	1
+"fn002"::	Yeah.::	1
+"mn007"::	Uh, so we have nine - nine - let's say ninety percent.::	1
+"me013"::	Ninety.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Um::	0
+"mn007"::	which is::	0
+"mn007"::	uh::	0
+"mn007"::	what we have also if use P_L_P and M_S_G together, eighty-nine point seven.::	0
+"me013"::	Yeah.::	0
+"me013"::	O_K, so even just::	0
+"me013"::	P_L_P,::	0
+"me013"::	uh, it is not, in the matched condition -::	0
+"me013"::	Um::	0
+"me013"::	I wonder if it's a difference between P_L_P and mel cepstra,::	0
+"me013"::	or whether it's that the net half, for some reason, is not helping.::	0
+"mn007"::	Uh.::	0
+"mn007"::	P_- P_L_P and Mel cepstra give the same -::	0
+"me013"::	Same result pretty much?::	0
+"mn007"::	same results. Well, we have these results. I don't know. It's not -::	0
+"me013"::	So, s-::	0
+"mn007"::	Do you have this result with P_L_P alone,::	0
+"mn007"::	j- fee- feeding H_T_K? That - That's what you mean?::	0
+"fn002"::	Yeah, yeah yeah yeah yeah, at the first -::	0
+"mn007"::	Just P_L_P at the input of H_T_K.::	0
+"fn002"::	and the -::	0
+"fn002"::	Yeah.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	So, P_L_P -::	0
+"me013"::	Eighty-eight point six.::	0
+"mn007"::	Yeah.::	0
+"me013"::	Um, so adding M_S_G::	0
+"mn007"::	Um -::	0
+"me013"::	um -::	0
+"me013"::	Well, but that's - yeah, that's without the neural net, right?::	0
+"mn007"::	Yeah, that's without the neural net and that's the result basically that O_G_I has also with the M_F_C_C with on-line normalization.::	0
+"me013"::	But she had said eighty- two.::	0
+"me013"::	Right?::	0
+"mn007"::	This is the - w- well, but this is without on-line normalization.::	0
+"me013"::	Oh, this -::	0
+"mn007"::	Yeah.::	0
+"fn002"::	@@::	0
+"me013"::	the eighty- two.::	0
+"mn007"::	Eighty-two is the - it's the Aurora baseline, so M_F_C_C.::	0
+"mn007"::	Then we can use -::	0
+"mn007"::	well, O_G_I, they use M_F_C_C -::	0
+"mn007"::	th- the baseline M_F_C_C::	0
+"me013"::	Oh,  I'm  sorry, I k- I keep getting confused because this is  accuracy.::	1
+"mn007"::	plus on-line normalization::	0
+"mn007"::	@@  Yeah, sorry. Yeah.::	1
+"me013"::	O_K.::	0
+"fn002"::	Yeah.::	0
+"me013"::	Alright. Alright. So this is - I was thinking all this was  worse.  O_K so this is all  better  because eighty- nine  is  bigger  than eighty-two. O_K.::	0
+"mn007"::	Yeah.::	0
+"fn002"::	Yes, better.::	0
+"mn007"::	Mm-hmm.::	0
+"fn002"::	Yeah.::	0
+"me013"::	I'm - I'm all better now. O_K, go ahead.::	0
+"mn007"::	So what happ- what happens is that when we::	0
+"mn007"::	apply on-line normalization::	0
+"me013"::	Yeah.::	0
+"mn007"::	we jump to almost ninety percent.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	Uh, when we apply a neural network, is the same. We j- jump to ninety percent.::	0
+"me013"::	Yeah.::	0
+"fn002"::	Nnn, we don't  know  exactly.::	0
+"mn007"::	And -::	0
+"mn007"::	And um -::	0
+"mn007"::	whatever the normalization, actually.::	0
+"mn007"::	If we use n- neural network, even if the features are not correctly normalized,::	0
+"mn007"::	we jump to ninety percent.::	0
+"me013"::	So we go from eighty-si- eighty-eight point six to - to ninety, or something.::	0
+"mn007"::	So -::	0
+"mn007"::	Well, ninety -::	0
+"mn007"::	No, I - I mean ninety- It's around eighty-nine, ninety,  eighty-eight .::	0
+"me013"::	Eighty-nine.::	0
+"fn002"::	Yeah.::	0
+"mn007"::	Well, there are  minor   - minor differences.::	0
+"me013"::	And then adding the M_S_G does nothing, basically.::	1
+"mn007"::	No.::	1
+"me013"::	Yeah.::	0
+"me013"::	O_K.::	0
+"mn007"::	Uh::	0
+"mn007"::	For   Italian, yeah.::	0
+"me013"::	For  this  case, right?::	0
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Um.::	0
+"me013"::	Alright.::	0
+"me013"::	So, um - So actually, the answer for experiments with one is that adding M_S_G, if you - uh does  not  help in that case.::	1
+"mn007"::	Mm-hmm.::	1
+"me013"::	Um -::	0
+"me013"::	The other ones, we'd have to look at it, but -::	0
+"mn007"::	But w- Yeah.::	0
+"me013"::	And the multi-English, does::	0
+"me013"::	uh -::	0
+"me013"::	So if we think of this in  error  rates,::	0
+"me013"::	we start off with, uh eighteen percent error rate, roughly.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	Um  and  we uh::	0
+"me013"::	almost, uh cut that in half::	0
+"me013"::	by um::	0
+"me013"::	putting in the on-line normalization and the neural net.::	0
+"mn007"::	Yeah::	0
+"me013"::	And the M_S_G doesn't however particularly affect things.::	0
+"mn007"::	No.::	0
+"me013"::	And we::	0
+"me013"::	cut off, I guess about twenty-five percent of the error.::	0
+"me013"::	Uh  no, not quite that,  is  it. Uh, two point six::	0
+"me013"::	out of eighteen. About,::	0
+"me013"::	um::	0
+"me013"::	sixteen percent or something of the error,::	0
+"me013"::	um, if we use multi-English instead of the matching condition.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	Not  matching  condition, but uh, the uh, Italian training.::	0
+"mn007"::	Yeah.::	0
+"fn002"::	Yeah.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	O_K.::	0
+"mn007"::	Mmm.::	0
+"fn002"::	We select these - these - these  tasks   because it's the more difficult.::	0
+"me013"::	Yes, good.::	0
+"me013"::	O_K?::	0
+"me013"::	So then you're assuming multi-English is  closer  to the kind of thing that you could  use  since you're not gonna have matching,::	1
+"me013"::	uh, data for the - uh for the new - for the other languages and so forth.::	1
+"me013"::	Um,::	0
+"me013"::	one qu- thing is that, uh - I think I asked you this before, but I wanna double check. When you say::	0
+"me013"::	"M_E" in these other tests,::	0
+"me013"::	that's the multi-English, but it is not  all  of the multi-English, right? It is some  piece  of -  part  of it.::	0
+"mn007"::	That's -::	0
+"mn007"::	it's a part - it's -::	0
+"mn007"::	Or, one million frames.::	0
+"me013"::	And the multi-English is how much?::	0
+"fn002"::	You have here the information.::	0
+"mn007"::	It's one million and a half.::	0
+"mn007"::	Yeah.::	0
+"me013"::	Oh, so you used  almost  all- You used  two   thirds  of it,::	0
+"mn007"::	Yeah.::	0
+"me013"::	you think.::	0
+"me013"::	So, it- it's still - it hurts you - seems to hurt you a fair amount to add in this French and Spanish.::	1
+"mn007"::	Mmm.::	0
+"fn002"::	Yeah.::	0
+"me013"::	I wonder why  Yeah.::	1
+"me013"::	Uh.::	0
+"me006"::	Well Stephane was saying that they weren't hand-labeled,::	1
+"fn002"::	Yeah.::	0
+"mn007"::	Yeah, it's - Yeah.::	0
+"me006"::	the French and the Spanish.::	1
+"fn002"::	The Spanish.::	0
+"fn002"::	Maybe for that.::	0
+"me006"::	Yeah.::	0
+"me013"::	Hmm.::	0
+"mn007"::	Mmm.::	1
+"me013"::	It's  still -::	0
+"me013"::	O_K.::	0
+"me013"::	Alright, go ahead.  And then - then -::	0
+"fn002"::	Um.::	0
+"fn002"::	Mmm, with the::	0
+"fn002"::	experiment type-two,::	0
+"fn002"::	I - first I tried to- to combine, nnn, some feature from the M_L_P and other feature -::	0
+"fn002"::	another feature.::	0
+"me013"::	Mm-hmm.::	0
+"fn002"::	And we s-::	0
+"fn002"::	we can -::	0
+"fn002"::	first the feature are  without  delta and delta-delta,::	1
+"fn002"::	and we can see that in the situation,::	1
+"fn002"::	uh, the M_S_G-three,::	0
+"fn002"::	the  same  help nothing.::	1
+"me013"::	Mm-hmm.::	0
+"fn002"::	And then I do the same but with the delta and delta-delta - P_L_P delta and delta-delta.::	1
+"fn002"::	And they all p-::	0
+"fn002"::	but they all put off the M_L_P  is it  without delta and delta-delta.::	0
+"fn002"::	And we have a l- little bit less result than the -::	0
+"me013"::	Mm-hmm.::	0
+"fn002"::	the -::	0
+"fn002"::	the baseline P_L_P with delta and delta-delta.::	0
+"fn002"::	Maybe if - when we have the new -::	0
+"fn002"::	the new  neural network  trained   with P_L_P delta and delta-delta, maybe the final result must be better. I don't know.::	0
+"fn002"::	Uh -::	0
+"mn007"::	Actually, just to be some more -::	0
+"mn007"::	Do- This number, this eighty-seven point one number,::	0
+"mn007"::	has to be compared with the um  -::	0
+"mn007"::	Which  number?::	0
+"me013"::	Yes, yeah, I mean it can't be compared with the  other  cuz this is, uh - with multi-English, uh, training. So you have to compare it with the one  over  that you've got in a  box,  which is that, uh the eighty-four point six.::	0
+"fn002"::	Mm-hmm.::	0
+"fn002"::	Mm-hmm.::	0
+"me013"::	Right?::	0
+"mn007"::	Uh.::	0
+"me013"::	So -::	0
+"mn007"::	Yeah, but I mean in this case for the eighty-seven point one we used::	0
+"mn007"::	M_L_P outputs for the P_L_P net::	1
+"me013"::	Yeah.::	0
+"mn007"::	and straight features with delta-delta.::	1
+"me013"::	Yeah.::	0
+"fn002"::	Mm-hmm.::	0
+"mn007"::	And  straight  features with delta-delta::	0
+"mn007"::	gives you what's on the first sheet. It's eight- eighty-eight point six.::	0
+"me013"::	Not t- not tr-::	0
+"me013"::	No. No. No. Not trained with multi- English.::	0
+"fn002"::	Yes.::	0
+"mn007"::	Uh, yeah, but th- this is the second configuration. So we use::	0
+"fn002"::	No, but they - they  feature   @@  without -::	0
+"mn007"::	feature out- uh, net outputs together with features.::	0
+"mn007"::	So yeah, this is not - perhaps not clear  here  but in this table,::	1
+"mn007"::	the first column is for M_L_P and the second for the features.::	0
+"me013"::	Eh.  Oh,  I  see.::	0
+"me013"::	Ah. So you're saying w- so asking the question, "What - what has adding the M_L_P done to improve over the, uh -  Yes.::	0
+"mn007"::	So,::	0
+"mn007"::	just -::	0
+"mn007"::	Yeah so, actually it - it - it decreased the - the accuracy.::	1
+"fn002"::	Yeah.::	0
+"me013"::	Uh- huh.::	0
+"mn007"::	Because we have eighty-eight point six.::	0
+"mn007"::	And even the M_L_P alone -::	0
+"mn007"::	What gives the M_L_P alone?::	0
+"mn007"::	Multi-English P_L_P. Oh no, it gives eighty- three  point six.::	0
+"fn002"::	But -::	0
+"mn007"::	So we have  our  eighty-three point six and  now  eighty-eighty point six, that gives eighty-seven point one.::	1
+"me013"::	Mm-hmm.::	0
+"me013"::	Eighty-s- I thought it was eighty- Oh, O_K, eighty-three point six and eighty - eighty- eight  point six.::	0
+"mn007"::	Eighty-three point six. Eighty -::	0
+"me013"::	O_K.::	0
+"mn007"::	Is th- is that right?::	0
+"mn007"::	Yeah?::	0
+"fn002"::	Yeah.::	0
+"fn002"::	But -::	0
+"fn002"::	I don't know - but maybe if we have the neural network  trained   with the P_L_P  delta and delta-delta,::	0
+"fn002"::	maybe::	0
+"fn002"::	tha- this can help.::	0
+"mn007"::	Perhaps, yeah.::	0
+"me013"::	Well, that's - that's  one  thing, but see the  other  thing is that, um, I mean it's good to take the difficult  case,  but let's - let's consider what that  means.::	0
+"me013"::	What - what we're saying is that one o- one of the things that - I mean  my  interpretation of your - your s- original suggestion is something like this, as  motivation.::	1
+"me013"::	When we train on  data  that is in  one  sense or  another,::	1
+"me013"::	similar  to the  testing  data,::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	then we get a  win  by having  discriminant    training.::	1
+"me013"::	When we train on something that's quite  different,::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	we have a potential to have some  problems.::	1
+"me013"::	And, um,  if  we get something that  helps  us when it's somewhat  similar,::	0
+"me013"::	and doesn't  hurt  us too  much  when it - when it's quite different,::	0
+"mn007"::	Yeah.::	0
+"me013"::	that's maybe not so  bad.::	0
+"me013"::	So the question is, if you took the  same  combination,::	0
+"mn007"::	Mmm.::	0
+"me013"::	and you tried it out on, uh - on say  digits,::	0
+"mn007"::	On T_I-digits? O_K. Yeah.::	0
+"me013"::	you know, d- Was that experiment done?::	0
+"mn007"::	No, not yet.::	0
+"me013"::	Yeah, O_K.::	0
+"me013"::	Uh, then does that,::	0
+"me013"::	eh - you know maybe with similar  noise  conditions and so forth,::	0
+"me013"::	does it - does it then look much  better?::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	And so what is the range over these different kinds of uh - of tests?::	0
+"me013"::	So, an-  anyway.::	0
+"me013"::	O_K, go ahead.::	0
+"mn007"::	Yeah. Mm-hmm.::	0
+"fn002"::	And, with this type of configuration which I do on experiment::	0
+"fn002"::	using the new neural net::	0
+"fn002"::	with name  broad klatt  s- twenty-seven, uh, d- I have found more or less the same result.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	So, it's::	0
+"fn002"::	Little bit better?::	0
+"mn007"::	slightly  better, yeah.::	0
+"me013"::	Slightly  better.::	0
+"mn007"::	Yeah.::	0
+"fn002"::	Slightly bet- better. Yes, is better.::	0
+"me013"::	And - and you know again maybe if you use the, uh, delta::	0
+"fn002"::	Yeah, maybe. Maybe. Maybe.::	0
+"me013"::	there, uh, you would bring it up to where it was, uh you know at  least  about the  same  for a difficult  case.::	0
+"mn007"::	Yeah.::	0
+"fn002"::	Oh, yeah.::	0
+"mn007"::	Yeah.::	0
+"fn002"::	Oh, yeah.::	0
+"me013"::	So.::	0
+"mn007"::	Well, so perhaps let's - let's jump at the last experiment. It's::	1
+"fn002"::	Yeah.::	0
+"mn007"::	either less information from the neural network if we use only the silence output.::	1
+"fn002"::	i-::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	It's again better. So it's eighty-nine point - point one.::	0
+"me013"::	Mm-hmm.::	0
+"fn002"::	Yeah,::	0
+"fn002"::	and we have only forty - forty feature::	0
+"mn007"::	So.::	1
+"fn002"::	because in this situation we have one hundred and three::	0
+"fn002"::	feature.::	0
+"me013"::	Yeah.::	0
+"fn002"::	Yeah.::	0
+"fn002"::	And then w- with the  first  configuration, I f-::	0
+"me013"::	Yeah.::	0
+"fn002"::	I am found that::	0
+"fn002"::	work,::	0
+"fn002"::	uh, doesn't work -::	0
+"fn002"::	uh, well,::	0
+"fn002"::	work,  but is better, the second configuration.::	0
+"fn002"::	Because I - for the del- Engli- P_L_P delta and delta-delta,::	0
+"fn002"::	here I have eighty-five point three  accuracy,   and::	0
+"fn002"::	with the second configuration I have eighty-seven point one.::	0
+"me013"::	Um, by the way, there is a- another, uh, suggestion that would apply, uh, to the second configuration,::	0
+"me013"::	um, which, uh, was made, uh, by, uh, Hari.::	0
+"me013"::	And that was that, um, if you have - uh feed two streams into H_T_K,::	0
+"me013"::	um, and you, uh, change the, uh  variances  -::	0
+"me013"::	if you scale the variances associated with, uh these streams::	0
+"me013"::	um, you can effectively  scale   the streams.::	0
+"me013"::	Right? So, um,::	0
+"mn007"::	Mmm.::	0
+"me013"::	you know, without  changing  the  scripts  for H_T_K, which is the rule here,::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	uh, you can still  change  the  variances  which would effectively change the scale of these - these, uh, two  streams  that come in.::	0
+"mn007"::	Uh,  yeah.::	0
+"me013"::	And, um,::	0
+"me013"::	so,::	0
+"me013"::	um, if you  do  that,::	0
+"me013"::	for instance it may be the case::	0
+"me013"::	that, um,::	0
+"me013"::	the M_L_P should not be considered as strongly,::	0
+"me013"::	for instance.::	0
+"mn007"::	Mmm.::	0
+"me013"::	And, um, so this is just setting them to be,::	0
+"me013"::	excuse me,  of equal - equal weight.::	0
+"me013"::	Maybe it  shouldn't  be equal weight.::	0
+"fn002"::	Maybe.::	0
+"me013"::	Right?  You know, I- I'm sorry to say that gives  more  experiments if we wanted to  look  at that, but -::	0
+"me013"::	but, uh, um, you know on the other hand it's just experiments at the level of the H_T_K  recognition.  It's not even the H_T_K, uh,::	0
+"mn007"::	Mmm.::	0
+"mn007"::	Yeah.::	0
+"fn002"::	Yeah.::	0
+"me013"::	uh - Well, I guess you have to do the H_T_K training also. Uh,  do  you?::	0
+"fn002"::	Yeah.::	0
+"fn002"::	so this is what we  decided to do.::	0
+"me013"::	Let me think.::	0
+"me013"::	Maybe you  don't.::	0
+"me013"::	Uh.::	0
+"me013"::	Yeah, you have to change the -::	0
+"me013"::	No, you can just do it in - as - once you've done the training -::	0
+"me006"::	And then you can vary it. Yeah.::	0
+"me013"::	Yeah, the training is just coming up with the variances so I guess you could -::	0
+"me013"::	you  could just  scale  them all.::	0
+"mn007"::	Scale the - ?::	0
+"me013"::	Variances.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	But -::	0
+"mn007"::	Is it - i- th- I mean the H_T_K models are diagonal  covariances,  so I d-::	1
+"me013"::	That's uh, exactly the  point,  I think, that if you change -::	0
+"mn007"::	Is it -::	1
+"me013"::	um,::	0
+"mn007"::	Hmm.::	0
+"me013"::	change what they  are  -::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	It's diagonal  covariance  matrices, but you::	0
+"me013"::	say what those  variances  are.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	So,::	0
+"me013"::	that - you know, it's  diagonal,  but the  diagonal  means th- that then you're gonna - it's gonna - it's gonna internally multiply it - and - and uh,::	0
+"me013"::	uh, i- it im- uh  implicitly   exponentiated  to get  probabilities,  and so it's - it's gonna -::	0
+"mn007"::	Mmm.::	0
+"me013"::	it's - it's going to affect the  range  of things if you change the - change the  variances   of some of the features.::	0
+"mn007"::	Mmm.::	1
+"fn002"::	do?::	0
+"me013"::	So, i- it's  precisely  given that model you can very  simply  affect, uh, the s- the  strength  that you apply the  features.::	0
+"me013"::	That was - that was, uh, Hari's suggestion.::	0
+"mn007"::	Yeah. Yeah.::	0
+"me013"::	So, um -::	0
+"fn002"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"me013"::	So.  So it could just be that h- treating them equally, tea- treating two streams equally is just - just not the right thing to do.::	0
+"me013"::	Of course it's potentially opening a can of worms because,::	1
+"me013"::	you know, maybe it should be a different::	0
+"me013"::	number for - for each  kind of  test set, or something, but -::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	O_K.::	0
+"mn007"::	Yeah .::	0
+"me013"::	So I guess the other thing is to take -::	1
+"me013"::	you know - if one were to take, uh, you know, a couple of the most successful of these,::	1
+"mn007"::	Yeah, and test across everything.::	1
+"me013"::	and uh -::	0
+"me013"::	Yeah, try all these different tests.::	1
+"mn007"::	Mmm.::	1
+"fn002"::	Yeah.::	0
+"mn007"::	Yeah.::	0
+"me013"::	Alright. Uh.::	0
+"mn007"::	So, the next point, yeah,::	0
+"mn007"::	we've had some discussion with Steve and Shawn,::	0
+"mn007"::	um, about their um,::	0
+"mn007"::	uh, articulatory stuff,::	0
+"mn007"::	um.::	0
+"mn007"::	So we'll perhaps start something next week.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	Um, discussion with Hynek, Sunil and Pratibha for::	1
+"mn007"::	trying to plug in their::	0
+"mn007"::	our -::	0
+"mn007"::	our networks with their - within their block diagram,::	1
+"mn007"::	uh,  where  to plug in the - the network, uh,::	1
+"mn007"::	after the - the feature, before as um::	1
+"mn007"::	a- as a plugin or as a- anoth- another path,::	1
+"mn007"::	discussion about multi-band and TRAPS,::	0
+"mn007"::	um, actually Hynek would like to see,::	1
+"mn007"::	perhaps if you remember the block diagram there is,::	1
+"mn007"::	uh, temporal L_D_A followed b- by a spectral L_D_A::	0
+"mn007"::	for each uh critical band.::	1
+"mn007"::	And he would like to replace these by a network::	1
+"mn007"::	which would, uh, make the system look like a TRAP.::	1
+"mn007"::	Well,::	0
+"mn007"::	basically, it would be a TRAP system.::	0
+"mn007"::	Basically, this is a TRAP system -::	0
+"mn007"::	kind of TRAP system, I mean, but::	0
+"mn007"::	where the neural network are replaced by L_D_A.::	0
+"mn007"::	Hmm.::	0
+"mn007"::	Um,::	0
+"mn007"::	yeah, and about multi-band,::	0
+"mn007"::	uh, I started multi-band M_L_P trainings,::	1
+"mn007"::	um::	0
+"mn007"::	mmh::	0
+"mn007"::	Actually, I w- I w- hhh  prefer to do exactly what I did::	0
+"mn007"::	when I was in Belgium.::	0
+"mn007"::	So I take exactly the same::	1
+"mn007"::	configurations, seven bands with nine frames of context,::	1
+"mn007"::	and we just train on TIMIT,::	1
+"mn007"::	and on the large database,::	1
+"mn007"::	so, with SPINE and everything.::	1
+"mn007"::	And, mmm,::	0
+"mn007"::	I'm starting to train also, networks with::	1
+"mn007"::	larger contexts.::	1
+"mn007"::	So, this would - would be something between TRAPS and multi-band because::	1
+"mn007"::	we still have quite large bands,::	1
+"mn007"::	and - but with a lot of context also.::	1
+"mn007"::	So::	0
+"mn007"::	Um::	0
+"mn007"::	Yeah, we still have to work on Finnish,::	1
+"mn007"::	um,::	1
+"mn007"::	basically, to make a decision on which M_L_P::	0
+"mn007"::	can be the best across the different languages.::	1
+"mn007"::	For the moment it's the TIMIT network,::	0
+"mn007"::	and perhaps::	0
+"mn007"::	the network trained on  everything.::	1
+"mn007"::	So.::	0
+"mn007"::	Now we can test these two networks on -::	0
+"mn007"::	with - with delta and::	0
+"mn007"::	large networks.::	0
+"mn007"::	Well, test them also on Finnish and see::	0
+"fn002"::	Mmm.::	0
+"mn007"::	which one is the - the -::	0
+"mn007"::	the best.::	0
+"mn007"::	Uh, well, the next part of the document is, well, basically, a kind of summary of what - everything that has been done. So.::	1
+"mn007"::	We have seventy-nine M_L_Ps::	0
+"mn007"::	trained on::	1
+"mn007"::	one, two, three, four, uh, three, four, five,  six, seven::	0
+"mn007"::	ten - on ten different databases.::	1
+"me013"::	Mm-hmm.::	0
+"mn007"::	Uh,::	0
+"mn007"::	the number of frames is  bad  also, so we have one million and a half::	0
+"mn007"::	for some, three million for other, and six million for the last one.::	0
+"mn007"::	Uh, yeah!::	1
+"mn007"::	As we mentioned, TIMIT is the only::	0
+"mn007"::	that's hand-labeled,::	1
+"mn007"::	and perhaps this is what makes the difference.::	1
+"mn007"::	Um.::	0
+"mn007"::	Yeah, the other are just Viterbi-aligned.::	1
+"mn007"::	So these seventy-nine M_L_P differ on different things. First,::	0
+"mn007"::	um with respect to the on-line normalization,::	0
+"mn007"::	there are -::	0
+"mn007"::	that use bad on-line normalization,::	0
+"mn007"::	and other good on-line normalization.::	0
+"mn007"::	Um.::	0
+"mn007"::	With respect to the features,::	0
+"mn007"::	with respect to the use of delta or no,::	0
+"mn007"::	uh with respect to the hidden layer size::	0
+"mn007"::	and to the targets.::	0
+"mn007"::	Uh, but of course we don't have all the combination of these::	0
+"mn007"::	different parameters::	0
+"mn007"::	Um.::	0
+"mn007"::	s-::	0
+"mn007"::	What's this?::	0
+"mn007"::	We only have two hundred eighty six  different  tests::	0
+"me013"::	Ugh!::	0
+"mn007"::	And no- not two thousand.::	0
+"me013"::	I was impressed boy, two thousand.::	0
+"me013"::	O_K.::	0
+"mn007"::	Yeah.::	0
+"fn002"::	Ah, yes.::	0
+"fn002"::	I say this morning that  @@  thought it was the -::	0
+"me013"::	Alright, now I'm just slightly impressed, O_K.::	0
+"mn007"::	Um.::	0
+"mn007"::	Yeah, basically the observation is what we discussed already.::	1
+"mn007"::	The M_S_G problem,::	1
+"mn007"::	um,::	0
+"mn007"::	the fact that the M_L_P trained on target task decreased the error rate.::	1
+"mn007"::	but::	1
+"mn007"::	when the M_- M_L_P is trained on the um -::	0
+"mn007"::	is not trained on the target task, it increased the error rate compared to using straight features.::	1
+"mn007"::	Except if the features are bad -::	0
+"mn007"::	uh, actually except if::	0
+"mn007"::	the features are not correctly on-line normalized.::	0
+"mn007"::	In this case::	0
+"mn007"::	the tandem is still better even if it's trained on - not on the target digits.::	0
+"me013"::	Yeah. So it sounds like  yeah, the net corrects some of the problems with some poor normalization.::	0
+"mn007"::	Yeah.::	0
+"me013"::	But if you can do good normalization it's -::	0
+"mn007"::	Yeah.::	0
+"fn002"::	Yeah.::	0
+"me013"::	it's uh -::	0
+"mn007"::	Uh, so the fourth point is, yeah,::	1
+"me013"::	O_K.::	0
+"mn007"::	the TIMIT::	0
+"mn007"::	plus noise seems to be::	0
+"mn007"::	the training set that gives better -::	0
+"me013"::	So::	0
+"mn007"::	the best network.::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	So- Let me -::	0
+"me013"::	bef- before you go on to  the  possible issues. So,::	1
+"me013"::	on the M_S_G uh problem::	1
+"me013"::	um,::	1
+"me013"::	I think that in - in the -::	0
+"me013"::	um,::	0
+"me013"::	in the short  time  solution::	1
+"me013"::	um,::	1
+"me013"::	that is,::	0
+"me013"::	um,::	0
+"me013"::	trying to figure out what we can proceed forward with to make the greatest progress,::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	uh, much as I said with J_RASTA, even though I really like J_RASTA and I really like M_S_G,::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	I think it's kind of in category that it's, it - it may be complicated.::	1
+"mn007"::	Yeah.::	0
+"me013"::	And uh it might be - if someone's  interested  in it, uh, certainly encourage anybody to look into it in the longer term,::	1
+"me013"::	once we get out of this particular rush  uh for results. But in the  short  term, unless you have some - some s- strong idea of what's wrong,::	1
+"mn007"::	Mm-hmm.::	0
+"mn007"::	I don't know at all but::	0
+"me013"::	uh -::	0
+"mn007"::	I've -::	0
+"mn007"::	perhaps - I have the feeling that it's something that's quite -::	0
+"mn007"::	quite simple or::	0
+"me013"::	Yeah, probably.::	0
+"mn007"::	just like nnn,::	0
+"mn007"::	no high-pass filter or -::	0
+"mn007"::	Mmm.::	0
+"mn007"::	Yeah.  My - But I don't know.::	0
+"me013"::	There's supposed to - well M_S_G is supposed to have a- an on-line normalization though, right?::	0
+"mn007"::	It's -::	0
+"mn007"::	There is, yeah, an A_G_C- kind of A_G_C.::	0
+"mn007"::	Yeah.::	0
+"me013"::	Yeah, but also there's an on-line norm- besides the A_G_C, there's an on-line normalization that's supposed to be uh,::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Yeah.::	0
+"me013"::	yeah,::	0
+"mn007"::	Mmm.::	0
+"me013"::	taking out means and variances and so forth. So.::	0
+"mn007"::	Yeah.::	0
+"me013"::	In fac- in fact the on-line normalization that we're using  came  from the M_S_G design, so it's -::	0
+"mn007"::	Um.::	0
+"mn007"::	Yeah, but -::	0
+"mn007"::	Yeah.::	0
+"mn007"::	But this was the  bad  on-line normalization.::	0
+"mn007"::	Actually.::	0
+"mn007"::	Uh. Are your results are still with the bad - the bad -::	0
+"fn002"::	Maybe, may -::	0
+"fn002"::	No?::	0
+"fn002"::	With the better - No?::	0
+"mn007"::	With the O_- O_L_N-two?::	0
+"me013"::	Yes.::	0
+"mn007"::	Ah yeah, you have -::	0
+"fn002"::	Oh! Yeah, yeah, yeah! With "two", with "on-line-two". Yeah, yeah, yeah.::	0
+"mn007"::	you have O_L_N-two, yeah.::	0
+"me013"::	"On-line-two" is good.::	0
+"fn002"::	Yep,::	0
+"mn007"::	So it's, is the good yeah.::	0
+"me013"::	"Two" is good?::	0
+"fn002"::	it's a good.::	0
+"mn007"::	And -::	0
+"me013"::	No, "two" is bad.::	0
+"mn007"::	Yeah.::	0
+"me013"::	O_K.::	0
+"fn002"::	Well, actually, it's good with the ch- with the good.::	0
+"me013"::	Yeah. So - Yeah, I - I agree. It's probably something simple::	0
+"me013"::	uh, i- if - if uh someone, you know,::	0
+"me013"::	uh, wants to play with it for a little bit. I mean,::	0
+"me013"::	you're gonna do what you're gonna do but -::	1
+"mn007"::	Mmm.::	0
+"me013"::	but my - my guess would be::	0
+"mn007"::	But -::	0
+"me013"::	that it's something that is a simple thing that could take a while to find.::	1
+"mn007"::	Yeah.  Mmm. I see, yeah.::	0
+"me013"::	Yeah.::	0
+"mn007"::	And -::	0
+"me013"::	Uh.::	0
+"me013"::	And the other - the results uh, observations two and three,::	0
+"mn007"::	Mmm.::	1
+"me013"::	Um, is uh -::	0
+"me013"::	Yeah, that's pretty much what we've seen. That's - that - what we were concerned about is that if it's not on the target task -::	1
+"me013"::	If it's  on  the target task then it - it - it helps::	1
+"me013"::	to have the M_L_P transforming it.::	1
+"mn007"::	Mmm.::	0
+"me013"::	If it uh - if it's  not  on the target task,::	1
+"me013"::	then, depending on how  different  it is,::	0
+"me013"::	uh you can get uh, a reduction in performance.::	1
+"mn007"::	Mmm.::	0
+"me013"::	And the question is now how to -::	0
+"me013"::	how to get one and not the other? Or how to - how to ameliorate::	0
+"me013"::	the - the problems.::	0
+"mn007"::	Mmm.::	1
+"me013"::	Um, because it - it certainly does - is nice to have in there, when it -  when there  is  something  like  the::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	training data.::	0
+"mn007"::	Um.::	0
+"mn007"::	Yeah. So,  the - the reason - Yeah, the reason is that the - perhaps the target - the - the task dependency - the language dependency,::	1
+"me013"::	So that's what you say th- there. I see.::	0
+"mn007"::	and the noise dependency -::	1
+"mn007"::	Well,::	1
+"mn007"::	the e- e- But this is still not clear because,::	1
+"mn007"::	um,::	0
+"mn007"::	I - I - I don't think we have enough result to::	1
+"mn007"::	talk about the - the language dependency. Well,::	1
+"mn007"::	the TIMIT network is still the best but::	1
+"mn007"::	there is also an- the other difference, the fact that it's - it's hand-labeled.::	1
+"me013"::	Hey!::	0
+"me034"::	Sorry, I'm very late, uh,::	0
+"me034"::	Am I still accommodated, or - ?::	0
+"me013"::	Um, just - you can just sit here.::	0
+"me013"::	Uh, I d- I don't think we want to mess with the microphones but  it's uh  -::	0
+"me013"::	Just uh, have a seat.::	0
+"me013"::	Um.::	0
+"me013"::	s- Summary of the::	0
+"me013"::	first uh, uh forty-five minutes is that some stuff work and - works, and some stuff doesn't::	0
+"me013"::	O_K,::	0
+"mn007"::	We still have uh  this -::	0
+"mn007"::	One of these perhaps? Mm-hmm.::	0
+"fn002"::	Yeah.::	0
+"me013"::	Yeah, I guess we can do a little better than that but -::	0
+"me013"::	I think if you - if you start off with the other one,::	0
+"me013"::	actually, that sort of has it in words and then th- that has it the  associated results.  O_K.::	0
+"fn002"::	Um.::	0
+"me013"::	So you're saying that um,::	0
+"me013"::	um, although::	0
+"me013"::	from what we  see,  yes there's what you would expect in terms of a language dependency and a noise dependency. That is,::	1
+"me013"::	uh, when the neural net is trained on::	0
+"me013"::	one of those and tested on something different, we don't do as well as in the target thing. But you're saying::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	that uh, it is -::	0
+"me013"::	Although that general thing is observable so far,::	0
+"me013"::	there's something you're not completely convinced about. And - and what is that?::	0
+"me013"::	I mean, you say "not clear yet". What - what do you mean?::	0
+"mn007"::	Uh,::	0
+"mn007"::	mmm,    uh,::	0
+"mn007"::	I mean, that the - the fact that s- Well, for - for T_I-digits the TIMIT net is the best,::	0
+"mn007"::	which is the English net.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	But the other are slightly worse. But::	1
+"mn007"::	you have two - two effects, the effect of changing language and the effect of training on something that's  Viterbi-aligned instead of hand - hand-labeled.::	1
+"fn002"::	Yeah.::	0
+"mn007"::	So.::	0
+"mn007"::	Um.::	0
+"mn007"::	Yeah.::	0
+"me013"::	Do you think the alignments are bad?::	1
+"me013"::	I mean, have you looked at the alignments at all? What the Viterbi alignment's doing?::	1
+"mn007"::	Mmm.::	0
+"mn007"::	I don't - I don't know.::	0
+"mn007"::	Did- did you look at the Spanish alignments Carmen?::	0
+"fn002"::	Mmm, no.::	0
+"me013"::	Might  be interesting to  look  at it.  @@   Because, I mean,::	1
+"me013"::	that is just  looking  but::	0
+"me013"::	um,::	0
+"me013"::	um -::	0
+"me013"::	It's not::	0
+"me013"::	clear to me you necessarily would do so badly from a Viterbi alignment. It depends how good the recognizer is that's -::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	that - the - the  engine  is that's doing the alignment.::	0
+"mn007"::	Yeah. But - Yeah.::	1
+"mn007"::	But, perhaps it's not::	0
+"mn007"::	really the - the alignment that's bad but the - just the ph- phoneme string::	1
+"mn007"::	that's used for the alignment or -::	1
+"me013"::	Aha!::	0
+"mn007"::	Mmm. I mean  for -::	0
+"fn002"::	Yeah.  @@::	0
+"me013"::	The pronunciation models and so forth::	1
+"mn007"::	We - It's single pronunciation,::	0
+"mn007"::	uh -::	0
+"me013"::	Aha.::	0
+"me013"::	I  see.::	0
+"mn007"::	French - French s-::	0
+"mn007"::	uh, phoneme strings were corrected manually so::	0
+"mn007"::	we asked people to listen to the um -::	0
+"mn007"::	the sentence::	0
+"mn007"::	and we gave the phoneme string and they::	0
+"mn007"::	kind of correct them.::	0
+"mn007"::	But still,::	0
+"mn007"::	@@::	0
+"mn007"::	there - there might be errors just in the - in -::	1
+"mn007"::	in the ph-::	0
+"mn007"::	string of phonemes.::	1
+"mn007"::	Mmm.::	0
+"mn007"::	Um.::	0
+"mn007"::	Yeah, so this is not really the Viterbi alignment, in fact, yeah.::	1
+"mn007"::	Um, the third - The third uh issue is the noise dependency perhaps::	0
+"mn007"::	but, well, this is not clear yet because::	0
+"mn007"::	all our nets are trained on the same noises and -::	1
+"mn007"::	Mmm.::	0
+"me013"::	I thought some of the nets were trained with  SPINE  and so forth. So it - And  that  has other noise.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	So - Yeah.::	0
+"mn007"::	But -::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Results are only coming for - for this net.::	0
+"mn007"::	Mmm.::	0
+"me013"::	O_K, yeah, just don't - just need more - more results there with that  @@ .::	1
+"mn007"::	Yeah.::	0
+"mn007"::	Um.::	1
+"mn007"::	So.::	0
+"mn007"::	Uh, from these results we have some questions with answers.::	0
+"mn007"::	What should be the network input?::	0
+"mn007"::	Um, P_L_P work as well as M_F_C_C, I mean.::	0
+"mn007"::	Um.::	0
+"mn007"::	But it seems impor- important to use the delta.::	0
+"mn007"::	Uh, with respect to the network size,::	0
+"mn007"::	there's one experiment that's still running and we should have the result today,::	0
+"mn007"::	comparing network with five hundred and  one thousand units.::	0
+"mn007"::	So,::	1
+"mn007"::	nnn, still no answer actually.::	0
+"me013"::	Hm-hmm.::	0
+"mn007"::	Uh, the training set, well,::	0
+"mn007"::	some kind of answer. We can, we can tell which training set gives the best result,::	1
+"mn007"::	but::	1
+"mn007"::	we don't know exactly why.::	1
+"me013"::	Uh.::	1
+"mn007"::	Uh, so.::	0
+"me013"::	Right, I mean the multi-English::	0
+"me013"::	so far is - is the best.::	1
+"mn007"::	Yeah.::	1
+"me013"::	"Multi- multi-English" just means "TIMIT", right?::	1
+"mn007"::	Yeah.::	0
+"fn002"::	Yeah.::	0
+"me013"::	So uh::	0
+"me013"::	That's - Yeah. So. And - and when you add other things in to - to broaden it, it gets worse  uh typically. Yeah.::	0
+"mn007"::	Mmm.::	0
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Then uh::	1
+"me013"::	O_K.::	0
+"mn007"::	some questions without answers.::	1
+"mn007"::	Uh,::	0
+"mn007"::	training set,::	0
+"mn007"::	um,::	0
+"me013"::	Uh-huh.::	0
+"mn007"::	uh, training targets -::	0
+"me013"::	I  like  that. The training set is both questions,  with  answers  and   without  answers. It's sort of,  yes  - it's mul- it's multi-uh-purpose. O_K.::	0
+"mn007"::	It's - Yeah.::	0
+"mn007"::	Yeah.::	1
+"mn007"::	Yeah.::	0
+"mn007"::	Uh,::	0
+"mn007"::	training s-  Right . So -::	0
+"mn007"::	Yeah, the training targets actually, the two of the main issues perhaps are still the language dependency::	1
+"mn007"::	and the noise dependency. And::	1
+"mn007"::	perhaps to try to reduce the language dependency,::	0
+"mn007"::	we should focus on::	0
+"mn007"::	finding::	0
+"mn007"::	some other kind of training targets.::	1
+"me013"::	Mm-hmm.::	0
+"mn007"::	And labeling s- labeling seems important::	0
+"mn007"::	uh, because of TIMIT results.::	1
+"me013"::	Mm-hmm.::	0
+"mn007"::	Uh. For moment you use - we use phonetic targets but we could also use articulatory targets, soft targets,::	1
+"mn007"::	and perhaps even, um::	1
+"mn007"::	use networks that doesn't do classification but just regression so::	1
+"mn007"::	uh, train to have neural networks that::	0
+"mn007"::	um,::	0
+"mn007"::	um,::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	uh, does a regression::	0
+"mn007"::	and::	1
+"mn007"::	well,::	0
+"mn007"::	basically com- com- compute features::	0
+"mn007"::	and noit- not, nnn,::	0
+"mn007"::	features without noise. I mean uh,::	0
+"mn007"::	transform the fea- noisy features::	0
+"mn007"::	in other features that are not noisy.::	1
+"mn007"::	But continuous  features.  Not uh::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	uh, hard targets.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	Uh -::	0
+"me013"::	Yeah, that  seems like a good thing to do, probably, uh,::	1
+"me013"::	not uh again a short-term::	1
+"mn007"::	Yeah.::	0
+"me013"::	sort of thing.::	1
+"me013"::	I mean one of the things about that is that::	0
+"me013"::	um::	0
+"me013"::	it's -::	0
+"me013"::	e- u- the ri- I guess the major risk you have there of being - is being dependent on - very dependent on the kind of noise and - and so forth.::	0
+"mn007"::	Yeah. f-::	0
+"me013"::	Uh.::	0
+"mn007"::	But, yeah.::	0
+"mn007"::	So, this is w- w-::	0
+"me013"::	But it's another thing to try.::	0
+"mn007"::	i- wa- wa-::	0
+"mn007"::	this is one thing, this - this could be -::	0
+"mn007"::	could help - could help perhaps to reduce language dependency::	0
+"mn007"::	and for the noise part um::	0
+"mn007"::	we could combine this with other approaches, like, well, the Kleinschmidt approach.::	0
+"mn007"::	So the d- the idea of::	0
+"mn007"::	putting all the noise that we can find inside a database.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	I think Kleinschmidt was using more than fifty different noises to train his network,::	0
+"fn002"::	Yeah.::	0
+"mn007"::	and -::	0
+"mn007"::	So this is one  approach::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	and the other is multi-band::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	uh, that I think is more robust to the noisy changes.::	0
+"mn007"::	So perhaps,::	1
+"mn007"::	I think something like multi-band trained on a lot of noises::	0
+"mn007"::	with uh, features-based targets could -::	0
+"me013"::	Yeah, if you - i- i- It's interesting thought maybe if you just trained up -::	0
+"mn007"::	could - could help.::	1
+"me013"::	I mean w- yeah, one - one fantasy would be you have something like articulatory targets::	0
+"me013"::	and you have  um::	0
+"me013"::	some reasonable database, um::	0
+"me013"::	but then - which is um::	0
+"me013"::	copied over many times with a range of different noises,::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	And uh -::	0
+"me013"::	If - Cuz what you're trying to   do  is come up with a -::	0
+"me013"::	a core, reasonable feature set which is then gonna be used::	0
+"me013"::	uh, by the - the uh H_M_M  system. So.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	Yeah, O_K.::	0
+"mn007"::	So,::	0
+"mn007"::	um,::	0
+"mn007"::	yeah. The future work is,  well, try to connect to the - to make - to plug in the system to the O_G_I::	1
+"mn007"::	system.::	0
+"mn007"::	Um, there are still open::	1
+"mn007"::	questions there,  where to put the M_L_P::	1
+"me013"::	Mm-hmm.::	0
+"mn007"::	basically.::	1
+"mn007"::	Um.::	0
+"me013"::	And I guess, you know, the - the - the real open question,::	0
+"me013"::	I mean, e- u- there's  lots  of open questions,  but one of the core quote  "open questions" for that is um,::	1
+"me013"::	um, if we take::	0
+"me013"::	the uh -::	0
+"me013"::	you know, the  best  ones here, maybe not just  the  best one, but the best  few  or something -::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	You want the most  promising  group from these other  experiments.::	1
+"me013"::	Um, how well do they do over a range of these different tests, not just the Italian?::	0
+"mn007"::	Mmm,  Yeah, yeah.::	0
+"me013"::	Um. And y-  Right? And then um -::	0
+"me013"::	then see,  again, how -::	0
+"me013"::	We  know  that there's a mis- there's a uh -::	1
+"me013"::	a - a loss in performance when the neural net is trained on conditions that are different than - than, uh::	0
+"me013"::	we're gonna  test  on, but::	1
+"me013"::	well, if you look over a  range  of these different tests::	0
+"me013"::	um, how well do these different ways of combining the straight features with the M_L_P features, uh stand up::	0
+"me013"::	over that range?::	1
+"fn002"::	Mm-hmm.::	0
+"me013"::	That's - that - that seems like the - the -::	0
+"me013"::	the real question.::	0
+"me013"::	And if you know that -::	0
+"me013"::	So if you just take P_L_P with uh, the double-deltas.::	0
+"me013"::	Assume  that's the p- the feature.::	0
+"me013"::	look at these  different  ways of  combining  it.::	1
+"me013"::	And uh, take - let's say, just take uh::	0
+"me013"::	multi-English cause that works pretty well for the training.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	And just look - take  that  case and then look over all the different things. How does that -::	1
+"me013"::	How does that compare between the -::	1
+"mn007"::	So all the - all the test sets you mean, yeah.::	0
+"fn002"::	Yeah.::	0
+"me013"::	All the different test sets,::	1
+"me013"::	and for - and for the couple different ways that you have of - of - of combining them.::	1
+"mn007"::	And -::	0
+"mn007"::	Yeah.::	0
+"me013"::	Um.  How well do they stand up,::	1
+"me013"::	over the -::	1
+"mn007"::	Mmm.::	0
+"fn002"::	Mm-hmm.::	0
+"mn007"::	And perhaps doing this for - cha- changing the variance of the streams and so on  getting different scaling -::	0
+"me013"::	That's another possibility if you have time, yeah.::	0
+"me013"::	Yeah.::	0
+"mn007"::	O_K.::	0
+"mn007"::	Um.::	0
+"me013"::	@@::	0
+"mn007"::	Yeah, so thi- this sh-::	1
+"mn007"::	would be more working on::	0
+"mn007"::	the M_L_P as an additional path::	0
+"mn007"::	instead of an insert to the - to their diagram.::	1
+"mn007"::	Cuz - Yeah. Perhaps the insert::	1
+"mn007"::	idea is kind of strange because::	1
+"mn007"::	nnn, they - they make L_D_A::	0
+"mn007"::	and then we will again add a network does discriminate anal- nnn,::	0
+"me013"::	Yeah.  It's a little strange but on the other hand they::	0
+"mn007"::	that discriminates, or - ?::	0
+"mn007"::	Mmm?::	0
+"me013"::	did it  before.::	0
+"mn007"::	Mmm.  And - and - and yeah. And because also perhaps we know that::	0
+"me013"::	Um the-::	0
+"mn007"::	the - when we have very good features the M_L_P doesn't help.::	0
+"mn007"::	So. I don't know.::	0
+"me013"::	Um, the  other  thing, though, is that um -::	0
+"me013"::	So. Uh, we - we wanna get their path::	1
+"me013"::	running  here, right? If so, we can add this other stuff.::	1
+"mn007"::	Um.::	0
+"me013"::	as an additional path right?::	1
+"mn007"::	Yeah, the - the way we want to do -::	0
+"me013"::	Cuz they're doing L_D_A  RASTA.::	0
+"mn007"::	The d- What?::	0
+"me013"::	They're doing L_D_A RASTA, yeah?::	0
+"mn007"::	Yeah, the way we want to do it perhaps is to - just to get the V_A_D labels and the final features.::	1
+"mn007"::	So they will send us the - Well,::	1
+"me013"::	I  see.::	0
+"mn007"::	provide us with the feature files,::	1
+"me013"::	I see.::	0
+"mn007"::	and with V_A_D uh, binary labels so that we can::	0
+"mn007"::	uh,::	0
+"mn007"::	get our M_L_P features::	0
+"mn007"::	and filter them with the V_A_D and then combine them with::	0
+"mn007"::	their f- feature stream.::	0
+"me013"::	I see. So we - So.  First  thing of course we'd wanna do there is to make sure that when we  get  those labels of final features is that we get the same results as them.::	1
+"mn007"::	So.::	0
+"mn007"::	@@::	0
+"me013"::	Without  putting in a second path.::	1
+"mn007"::	Uh.::	0
+"mn007"::	You mean - Oh, yeah! Just re- re- retraining r-::	0
+"me013"::	Yeah just th- w- i- i-::	1
+"mn007"::	retraining the H_T_K?::	0
+"me013"::	Just to make sure that we  have - we understand properly what things are, our very first thing to do is to - is to double check that we get the exact same results as them on H_T_K.::	1
+"mn007"::	Oh yeah.  @@::	0
+"mn007"::	Yeah, O_K. Mmm.::	0
+"me013"::	Uh, I mean, I don't know that we need to r-::	0
+"fn002"::	Yeah.::	0
+"mn007"::	Yeah.::	0
+"me013"::	Um::	0
+"me013"::	Do we need to  retrain   I mean we can just take the re- their training files also. But.::	0
+"me013"::	But,::	0
+"me013"::	uh  just::	0
+"me013"::	for  the testing,::	0
+"me013"::	jus- just make sure that we get the same results  so we can duplicate it before we add in another -::	0
+"mn007"::	Mmm.::	0
+"mn007"::	O_K.::	0
+"me013"::	Cuz otherwise, you know, we won't know what things mean.::	0
+"mn007"::	Oh, yeah. O_K.::	0
+"mn007"::	And um.::	1
+"mn007"::	Yeah, so fff, LogRASTA, I don't know if we::	0
+"mn007"::	want to -::	0
+"mn007"::	We can try::	0
+"mn007"::	networks::	0
+"mn007"::	with LogRASTA filtered features.::	0
+"me013"::	Maybe.::	0
+"mn007"::	Mmm.::	0
+"me034"::	Would you be using on-line normalization with that?::	0
+"mn007"::	I'm sorry?::	0
+"me034"::	Would you be using on-line normalization with LogRASTA-P_L_P?::	0
+"mn007"::	Yeah. Well -::	0
+"mn007"::	Yeah.::	0
+"me013"::	Oh! You know, the  other  thing is when you say comb-::	0
+"mn007"::	But -::	0
+"me013"::	I'm - I'm sorry, I'm interrupting.  that u- Um,::	0
+"me013"::	uh, when you're talking about combining multiple  features,::	0
+"me013"::	um -::	0
+"me013"::	Suppose we said, "O_K, we've got these different features and so forth, but P_L_P seems  pretty good."::	0
+"me013"::	If we take the approach that  Mike  did::	0
+"me013"::	and have -::	0
+"me013"::	I mean,  one  of the situations we have is we have these different conditions. We have different  languages,  we have different -  different  noises,::	0
+"me013"::	Um  If we::	0
+"me013"::	have some drastically different conditions and we just train up different M_L_ Ps   with them.::	0
+"mn007"::	Mm-hmm.::	1
+"me013"::	And put -::	0
+"me013"::	put  them  together.::	0
+"me013"::	What - what -::	0
+"me013"::	What  Mike  found, for the reverberation case at least, I mean -::	0
+"me013"::	I mean, who knows if it'll work for these  other  ones.::	0
+"me013"::	That you  did  have nice interpolative effects.::	0
+"me013"::	That is, that::	0
+"me013"::	yes,  if you  knew    what  the reverberation condition was gonna  be::	0
+"me013"::	and you  trained  for that, then you got::	0
+"me013"::	the best  results.  But if you had, say, a  heavily-reverberation  ca-  heavy-reverberation  case and a  no-reverberation  case,::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	uh, and then you  fed  the thing, uh::	0
+"me013"::	something that was a  modest  amount of reverberation then you'd get some result in  between  the two. So it was sort of -::	0
+"me013"::	behaved  reasonably. Is tha- that a fair -::	0
+"me034"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"me034"::	Um. It also seems like whe- if you try to train, like, a single M_L_P with too much noise,::	0
+"me034"::	um,::	0
+"me034"::	you'll get some nice interval of power for  unseen  cases but::	0
+"me034"::	um but any unmatched cases it'll start, um, interfering.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	So you - you think it's perhaps better to have several M_L_Ps?::	0
+"me034"::	Well, it's  easier.::	0
+"me034"::	Um, that way you can turn things off  @@  turn  things  on.::	0
+"me034"::	Um.  But you then  -::	0
+"mn007"::	Yeah but -::	0
+"mn007"::	Mmm.::	0
+"me034"::	A single M_L_P of course will work a little bit better because uh it'll have uh -::	0
+"me034"::	It's a nonlinear kind of merging  of the features.::	0
+"me013"::	It  works   better if   what?::	0
+"mn007"::	Yea-::	0
+"me034"::	Uh, well, in general nonlinear  mergings  seems to work a little better then just the straight linear  coefficients , but um::	0
+"me034"::	it just means it's - you have to have bigger nets and::	0
+"me034"::	more training time, and if you want to turn things off::	0
+"me034"::	um that's harder to do.::	0
+"me013"::	I see.::	0
+"me013"::	Well, see, i- oc-::	0
+"me013"::	You were doing some- something that was -::	0
+"me013"::	So maybe the  analogy  isn't quite right.::	0
+"me013"::	You were doing something that was in way a little better behaved. You had reverb- for a single variable which was re- uh, uh, reverberation.::	0
+"me013"::	Here  the problem seems to be is that we  don't  have::	1
+"me013"::	a hug- a  really  huge net::	0
+"me013"::	with a really  huge  amount of training data.::	1
+"me013"::	But we have s- f-  for this kind of task, I would think,  sort of a  modest  amount. I mean, a million frames actually isn't that  much.::	1
+"me013"::	We have a  modest  amount of - of uh training data::	1
+"me013"::	from a  couple  different  conditions,::	1
+"me013"::	and then uh - in - yeah, that -::	0
+"me013"::	and the  real  situation is that there's  enormous  variability::	0
+"me013"::	that we anticipate in the test set::	0
+"me013"::	in terms of  language,  and  noise  type  uh, and uh,  uh, channel characteristic,::	1
+"me013"::	sort of all over the map. A bunch of different dimensions.::	0
+"me013"::	And so, I'm just concerned that::	0
+"me013"::	we don't really have  um,::	0
+"me013"::	the data to train up - I mean::	0
+"me013"::	one of the things that we were seeing is that when we added in -::	0
+"me013"::	we still don't have a good::	0
+"me013"::	explanation  for this,  but::	0
+"me013"::	we are  seeing  that we're adding in uh, a fe- few different databases::	0
+"me013"::	and uh the performance is getting  worse::	0
+"me013"::	and uh,::	0
+"me013"::	when we just take  one  of those databases that's a pretty  good  one, it actually is - is - is - is - is  better.::	0
+"me013"::	And uh that says to me, yes, that, you know, there might be some problems with the pronunciation models that some of the databases we're adding in or something like that. But one way or another  we don't have::	0
+"me013"::	uh, seemingly, the ability  to  represent,  in the neural net of the size that we have,::	0
+"me013"::	um, all of the  variability   that we're gonna be  covering.::	0
+"me013"::	So that I'm - I'm - I'm  hoping  that um,::	0
+"me013"::	this is another take on the  efficiency  argument you're making,  which  is  I'm hoping that with moderate size neural nets,::	0
+"me013"::	uh, that uh if we - if they look at::	0
+"me013"::	more constrained conditions they - they'll have enough parameters to really  represent  them.::	0
+"me034"::	I think the way that Hynek or - or Malik had - had told me was that if you try to train a classifier::	0
+"me034"::	on too much - too many conditions then it'll do good on  none  of them,::	0
+"me034"::	but it'll start doing something  else.::	0
+"me013"::	Mm-hmm.::	0
+"me034"::	Which means, if you have something::	0
+"me013"::	Mm-hmm.::	0
+"me034"::	else  in there it'll be nicer  @@  I'm not sure  @@::	0
+"me013"::	Mm-hmm.::	0
+"me034"::	I also have some - some - a new theory on why::	0
+"me034"::	um LogRASTA-P_L_P - uh P_L_P  with on-line normalization might be::	0
+"me034"::	a little bit better than LogRASTA-P_L_P with on-line normalization.::	0
+"me034"::	It has to do with  certain  distribution characteristics.::	0
+"me034"::	But if you take away the on-line normalization, LogRASTA seems to do better than P_L_P  but not in all  cases.::	0
+"me013"::	Yeah.::	0
+"mn007"::	So doing both is - is not - is not right, you mean, or - ?::	0
+"me034"::	Um.::	0
+"me034"::	not so much not right, but it if you throw in the on-line normalization then it might not be necessary to use the LogRASTA-P_L_P.::	0
+"mn007"::	Yeah.::	1
+"me013"::	Yeah.::	0
+"me013"::	I - I just sort of have a  feeling   -::	0
+"mn007"::	But - Yeah. Mm-hmm.::	1
+"me013"::	Yeah.::	0
+"me013"::	I mean -::	0
+"me013"::	i- i- e-::	0
+"me013"::	The um - I think it's true that the O_G_I folk found::	0
+"me013"::	that using L_D_A  RASTA, which is::	0
+"me013"::	a  kind  of LogRASTA, it's just that they have the -::	0
+"me013"::	I mean it's done in the log  domain,  as I recall, and it's - it uh - it's just that they d- it's trained up, right?::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	That  that::	0
+"me013"::	um::	0
+"me013"::	benefitted  from on-line normalization.::	0
+"me013"::	So they did - At least in  their  case,::	0
+"me013"::	it did seem to::	0
+"me013"::	be somewhat  complimentary.::	0
+"me013"::	So will it be in  our  case, where we're using the  neural  net? I mean they - they were not - not using the neural net.::	0
+"me013"::	Uh::	0
+"me013"::	I don't know.::	0
+"me013"::	O_K, so the  other  things you have here are uh, trying to improve::	0
+"me013"::	results from a single - Yeah. Make stuff better.::	0
+"me013"::	O_K.  Uh.::	0
+"me013"::	Yeah. And C_P_U memory issues. Yeah. We've been sort of ignoring that, haven't we?::	0
+"mn007"::	Yeah, so I don't know.::	0
+"me013"::	But -::	0
+"mn007"::	But we have to address the problem of C_P_U and memory we -::	0
+"me013"::	Yeah, but I li-::	0
+"me013"::	Well, I think -::	0
+"me013"::	My  impression  - You - you folks have been looking at this more than  me.  But my impression was that::	0
+"me013"::	uh, there was a - a - a - a strict::	0
+"me013"::	constraint on the delay,::	0
+"fn002"::	Yeah.::	0
+"me013"::	but beyond that it was kind of that::	0
+"me013"::	uh::	0
+"me013"::	using less memory was better, and::	0
+"me013"::	using less C_P_U was better. Something like that, right?::	0
+"mn007"::	Yeah, but - Yeah.::	0
+"mn007"::	So, yeah, but we've - I don't know. We have to::	0
+"mn007"::	get some reference point to::	0
+"mn007"::	where we - Well,::	0
+"mn007"::	what's::	0
+"mn007"::	a reasonable number?::	0
+"mn007"::	Perhaps be- because if it's - if it's too  large   or - large or  @@  -::	0
+"me013"::	Um, well I don't think we're::	0
+"me013"::	um::	0
+"me013"::	completely off the wall. I mean I think that if we - if we have -::	0
+"me013"::	Uh, I mean::	0
+"me013"::	the::	0
+"me013"::	ultimate fall back that we could do -::	0
+"me013"::	If we find uh -::	0
+"me013"::	I mean we  may  find that we - we're not really gonna worry about the M_L_ P.::	0
+"me013"::	You know, if the M_L_P  ultimately,  after all is said and done, doesn't really help then we won't have it  in.::	0
+"mn007"::	Mmm.::	0
+"me013"::	If the M_L_P  does,  we find,  help  us enough in some  conditions,::	0
+"me013"::	uh, we might even have more than  one  M_L_P.::	0
+"me013"::	We could simply say that is uh, done on the uh,  server.::	0
+"mn007"::	Mmm.::	0
+"me013"::	And it's uh -::	0
+"me013"::	We do the other manipulations that we're doing  before  that.::	0
+"me013"::	So, I - I - I think - I  think  that's -  that's O_K.::	0
+"mn007"::	And - Yeah.::	0
+"me013"::	So I think the  key  thing was um,::	0
+"me013"::	this plug into O_G_I.::	0
+"me013"::	Um, what - what are they - What are they gonna be working - Do we know what they're gonna be working on::	0
+"me013"::	while we take their::	0
+"me013"::	features, and - ?::	0
+"mn007"::	They're -::	0
+"mn007"::	They're starting to wor- work on some kind of multi-band. So. Um -::	0
+"mn007"::	This - that was Pratibha. Sunil,  what was he doing, do you remember?::	0
+"fn002"::	Sunil?::	0
+"mn007"::	Yeah.::	0
+"mn007"::	He was doing something new or - ?::	0
+"fn002"::	I - I don't re- I didn't remember.::	0
+"fn002"::	Maybe he's working with::	0
+"mn007"::	I don't think so.::	0
+"mn007"::	Trying to tune  wha-  networks?::	0
+"fn002"::	neural  network.::	0
+"fn002"::	Yeah, I think so.::	0
+"mn007"::	I think they were also mainly, well,::	0
+"mn007"::	working a little bit of new things, like networks and multi-band, but mainly trying to tune their -::	0
+"mn007"::	their system as it is now to -::	0
+"mn007"::	just::	0
+"fn002"::	Yeah.::	0
+"mn007"::	trying to get the best from this - this architecture.::	0
+"mn007"::	Mmm.::	0
+"me013"::	O_K. So I guess the way it would work is that you'd get -::	0
+"me013"::	There'd be some point where you say, "O_K, this is their version-one" or whatever,::	0
+"me013"::	and we get these V_A_D labels and features and so forth for all these test sets from them,::	0
+"mn007"::	Mm-hmm.::	1
+"me013"::	and then um,::	0
+"me013"::	uh, that's what we work with. We have a certain level we try to improve it with this other path::	0
+"me013"::	and then um,::	0
+"me013"::	uh, when it gets to be uh,::	0
+"me013"::	January::	0
+"me013"::	some point uh,::	0
+"me013"::	we say, "O_K we - we  have  shown that we can improve this, in this way.  So now uh  um  what's your  newest  version?"::	0
+"me013"::	And then maybe they'll have something that's  better  and then we - we'd combine it.::	0
+"me013"::	This is always hard. I mean I - I - I used to work  with uh::	0
+"me013"::	folks who were trying to improve a good::	0
+"me013"::	uh, H_M_M system with uh - with a neural net system::	0
+"me013"::	and uh, it was  a common problem that you'd -::	0
+"me013"::	Oh, and this - Actually, this is true not just for neural nets but just for - in general if people were  working with uh, rescoring::	0
+"me013"::	uh, N_best lists or lattices that come - came from uh, a mainstream recognizer. Uh, You get something from the -::	0
+"me013"::	the other site at one point and you work really hard on making it better with rescoring.::	0
+"me013"::	But  they're  working really hard, too.::	0
+"me013"::	So by the time  you have uh, improved their score,::	0
+"mn007"::	Mmm.::	1
+"me013"::	they have  also  improved their score and  now  there isn't any  difference,  because the other -::	0
+"mn007"::	Yeah.::	0
+"fn002"::	Yeah.::	0
+"me013"::	So, um, I guess at some point we'll have to uh -::	0
+"mn007"::	So it's -::	1
+"me013"::	Uh, I - I don't know. I think we're - we're integrated a little more tightly than happens in a lot of those cases. I think at the moment they -::	0
+"me013"::	they say that they have a better thing we can - we - e- e-::	0
+"mn007"::	Mmm.::	0
+"me013"::	What takes all the time here is that th- we're trying so many things, presumably::	0
+"me013"::	uh, in a - in a day we could turn around uh, taking a new set of things from them and - and rescoring it, right? So.::	0
+"mn007"::	Mmm.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Yeah, perhaps we could.::	0
+"me013"::	Yeah.::	0
+"me013"::	Well, O_K. No, this is - I think this is good. I think that the  most  wide open thing is the issues about the::	0
+"me013"::	uh, you know,::	0
+"me013"::	different  trainings.  You know, da- training targets and::	0
+"mn007"::	Mmm.::	0
+"me013"::	noises and so forth. That's sort of wide open.::	0
+"mn007"::	So we - we can for - we c- we can forget combining multiple features and M_L_G perhaps, or::	0
+"mn007"::	focus more on the targets and on the training data and - ?::	0
+"me013"::	Yeah, I think for right now um, I th- I - I really  liked  M_S_G. And I think that, you know, one of the things I liked about it is has such different temporal properties.::	0
+"me013"::	And um, I think that there is ultimately a really good::	0
+"me013"::	uh,  potential  for, you know, bringing in things with different temporal properties.::	0
+"me013"::	Um, but um,::	0
+"me013"::	uh,::	0
+"me013"::	we only have limited  time  and there's a lot of  other  things we have to look at. And it seems like much more core questions are issues about the training set::	0
+"mn007"::	Mmm.::	0
+"me013"::	and the training targets,::	0
+"me013"::	and fitting in uh::	0
+"me013"::	what  we're  doing with what  they're  doing, and, you know, with limited  time.::	0
+"me013"::	Yeah. I think  we have to start cutting down. So uh -::	0
+"mn007"::	Mmm.::	0
+"me013"::	I  think  so, yeah.::	0
+"me013"::	And then, you know, once we -::	0
+"me013"::	Um,::	0
+"me013"::	having gone through this  process and trying many different things, I would imagine that::	0
+"me013"::	certain things uh, come up that you are  curious  about uh, that you'd not getting to and so when the::	0
+"me013"::	dust settles from the evaluation uh, I think that would time to go back and take whatever::	0
+"me013"::	intrigued you most, you know, got you most interested uh and uh - and - and work with it, you know, for the next round.::	0
+"me013"::	@@::	0
+"me013"::	Uh, as you can tell from these numbers uh, nothing that any of us is gonna do is actually gonna completely solve the problem. So.::	0
+"mn007"::	Mmm.::	1
+"me013"::	So,  there'll still be plenty to do.::	0
+"me013"::	Barry, you've been pretty quiet.::	1
+"me013"::	@@::	1
+"me006"::	Just listening.::	0
+"me013"::	Well I  figured   that,  but -::	1
+"me013"::	That - what - what - what were you involved in in this primarily?::	1
+"me006"::	Um,  helping out  uh, preparing - Well, they've been kind of running all the experiments and stuff and::	1
+"me006"::	I've been uh, uh w- doing some work on the - on the - preparing all - all the data for them to - to um, train and to test on.::	1
+"me006"::	Um::	0
+"me006"::	Yeah. Right now, I'm - I'm focusing mainly on this final project I'm working on in Jordan's class.::	1
+"me013"::	Ah! I see.   Right.  What's - what's  that?::	0
+"me006"::	Yeah.::	0
+"me006"::	Um,::	0
+"me006"::	I'm trying to um -::	0
+"me006"::	So there was a paper in I_C_S_L_P about um this - this::	0
+"me006"::	multi-band um, belief-net structure.::	0
+"me013"::	Mm-hmm.::	0
+"me006"::	This guy did -::	0
+"me006"::	uh basically it was two H_M_Ms with - with a - with a dependency arrow between the two H_M_Ms::	0
+"me013"::	Uh-huh.::	0
+"me006"::	And so I wanna try - try coupling them instead of t- having an arrow that - that flows from one sub-band to another sub-band.  I wanna  try having the arrows go both  ways.::	0
+"me006"::	And um,  I'm just gonna see if - if that - that better models  um, uh::	1
+"me006"::	asynchrony in any way or um -  Yeah.::	1
+"me013"::	Oh! O_K.::	0
+"me013"::	Well, that sounds interesting.::	0
+"me006"::	Yeah.::	0
+"me013"::	O_K.::	0
+"me013"::	Alright.::	0
+"me013"::	Anything to -::	0
+"me013"::	you wanted to - No. O_K.::	0
+"me013"::	Silent partner in the -  in the meeting. Oh, we got a laugh out of him, that's good.::	0
+"me013"::	O_K, everyone h- must contribute to the - our - our sound -::	0
+"me013"::	sound files here. O_K, so speaking of which, if we don't have anything else  that we need  -::	0
+"me013"::	You happy with where we are? Know - know wher- know where we're going?::	0
+"mn007"::	Mmm.::	0
+"me013"::	Uh -::	0
+"mn007"::	I think so, yeah.::	0
+"me013"::	Yeah, yeah. You - you happy?::	0
+"fn002"::	Mmm.::	0
+"me013"::	You're happy. O_K everyone  should be happy.::	0
+"me013"::	O_K.::	0
+"me013"::	You don't have to be happy. You're almost done.::	0
+"me034"::	@@ .::	0
+"me013"::	Yeah, yeah.  O_K.::	0
+"me026"::	Al- actually I should mention - So if -  um, about the Linux machine "Swede."  So it looks like the um, neural net tools are installed there.  And um::	0
+"me013"::	Yeah.::	0
+"mn007"::	Mmm.::	0
+"me026"::	Dan Ellis  I believe knows something about using that machine so::	0
+"mn007"::	Mmm.::	0
+"me026"::	If people are interested in - in getting jobs running on that maybe I could help with that.::	0
+"mn007"::	Yeah, but::	0
+"mn007"::	I don't know if we really need now a lot of::	0
+"mn007"::	machines. Well.::	0
+"mn007"::	we could start computing another huge table but -::	0
+"mn007"::	yeah, we -::	0
+"me013"::	Well.::	0
+"me013"::	Yeah, I think we want a  different  table, at  least::	0
+"mn007"::	Yeah, sure.::	0
+"me013"::	Right? I mean there's - there's some different things that we're::	0
+"mn007"::	But -::	0
+"me013"::	trying to get at now. But -::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Mmm.::	0
+"me013"::	So. Yeah, as far as you can tell, you're actually O_K on C_- on C_P_U uh, for training and so on?::	0
+"me013"::	Yeah.::	0
+"mn007"::	Ah yeah. I think so. Well, more is always better, but::	0
+"mn007"::	mmm,::	0
+"mn007"::	I don't think we have to train a lot of networks, now that we know -::	0
+"mn007"::	We just select what works  fine and::	0
+"me013"::	O_K.::	0
+"me013"::	O_K.::	0
+"fn002"::	Yeah.::	0
+"me013"::	And we're O_K on -::	0
+"fn002"::	to work::	0
+"mn007"::	try to improve this and -::	0
+"me013"::	And we're O_K on disk?::	0
+"mn007"::	It's O_K, yeah. Well::	0
+"mn007"::	sometimes we have::	0
+"mn007"::	some problems.::	0
+"fn002"::	Some problems with the -   You know.::	0
+"me013"::	But they're correctable, uh problems.::	0
+"mn007"::	Yeah, restarting the script basically and -::	0
+"me013"::	Yes.::	0
+"me013"::	Yeah, I'm familiar with  that one, O_K.::	0
+"me013"::	Alright, so uh,::	0
+"me013"::	since uh, we didn't ha- get a channel on for you,  you don't have to read any digits but the rest of us will.::	0
+"me034"::	Light's on here.  @@  Yeah.::	0
+"me013"::	Uh, is it on?::	0
+"me013"::	Well.::	0
+"me013"::	We didn't uh -::	0
+"me013"::	I think I won't touch anything cuz I'm afraid of making the driver crash which it seems to do,  pretty easily.::	0
+"me013"::	O_K, thanks.::	0
+"me013"::	O_K, so we'll uh - I'll start off the uh::	0
+"me013"::	um  connect the -::	0
+"mn007"::	My battery is low.::	1
+"me013"::	Well, let's hope it works. Maybe you should go first and see  so that you're -::	0
+"me013"::	O_K.::	0
+"fn002"::	@@  batteries?::	0
+"me006"::	Yeah, your battery's going down too.::	0
+"me013"::	Transcript uh::	0
+"me013"::	two -::	0
+"me006"::	Carmen's battery is d- going down too.::	0
+"me013"::	Oh, O_K. Yeah. Why don't you go next then.::	0
+"me013"::	O_K.::	0
+"me013"::	Guess we're done. O_K, uh::	0
+"me013"::	so.::	0
+"me013"::	Just finished digits.::	0
+"me011"::	O_K. I'll be right up.::	0
+"me013"::	O_K.::	0
+"me013"::	Yeah, so.::	0
+"me013"::	Uh::	0
+"me013"::	Well, it's good.::	0
+"me013"::	I think  - I guess we can turn off our microphones now.::	0
+"me006"::	Just pull the batteries out.::	0

@@ -1,0 +1,1024 @@
+"me011"::	Yeah, we had a long discussion about::	0
+"me011"::	how much w- how easy we want to make it for people to bleep things out. So -::	0
+"fe016"::	Right.::	0
+"fe016"::	O_K. So this is -::	0
+"me011"::	Morgan wants to make it hard.::	0
+"fe016"::	The, uh, counter is not  moving again. It -::	0
+"me018"::	It - it doesn't -::	0
+"fe016"::	It doesn't like me, but -::	0
+"me011"::	Did - did - did it - ? I didn't even  check  yesterday whether it was moving.::	0
+"me018"::	It didn't move yesterday either when I started it.::	0
+"fe016"::	Oh, it didn't? O_K.::	0
+"me011"::	So.::	0
+"me018"::	So I don't know if it doesn't like both of us -::	0
+"fe016"::	It didn't move on me on one other meeting and it did on one and both recorded the same  so .::	0
+"me011"::	Channel three?::	0
+"me011"::	Channel three?::	0
+"me018"::	You know, I discovered something yesterday on these, um, wireless ones.::	0
+"me001"::	Channel two.::	0
+"me011"::	Mm-hmm?::	0
+"me018"::	You can tell if it's picking up  breath noise and stuff.::	0
+"me011"::	Yeah, it has a little indicator on it - on the A_F.::	0
+"me018"::	Mm-hmm.::	0
+"fe016"::	Oh, really?::	0
+"fe016"::	Oh that's - the gains I've left here as the sort of normal ones, but -::	0
+"me018"::	So if you - yeah, if you breathe under - breathe and then you see A_F go off, then you know  it's p- picking up your mouth noise.::	0
+"fe016"::	Oh, that's good. Cuz we have a lot of breath noises.::	0
+"me011"::	Yep. Test.::	0
+"fe016"::	In fact, if you listen to just the channels of people not talking, it's like " @@ ".::	0
+"fe016"::	It's very disgust- Sorry.::	0
+"me011"::	What? Did you see Hannibal recently or something?::	0
+"fe016"::	Exactly.  It's very disconcerting. O_K.::	0
+"fe016"::	So, um,  I was gonna try to get out of here, like, in half an hour, um, cuz I::	0
+"me011"::	@@::	0
+"fe016"::	really appreciate people coming, and  the main thing that I was::	0
+"fe016"::	gonna ask people to help with today is  to::	0
+"fe016"::	give input on what kinds of database format we should  use in::	0
+"fe016"::	starting to link up things like word transcripts and annotations of word transcripts, so anything that::	0
+"fe016"::	transcribers or discourse coders or whatever put in the signal,::	0
+"fe016"::	with time-marks for, like, words and phone boundaries and all the stuff we get out of the forced alignments and the recognizer.::	0
+"fe016"::	So, we have this, um -::	0
+"fe016"::	I think a starting point is clearly the - the channelized  output of Dave Gelbart's program, which Don brought a copy of,::	0
+"me011"::	Yeah.::	0
+"me011"::	Yeah, I'm - I'm familiar with that. I mean, we - I sort of already have developed an X_M_L format::	0
+"fe016"::	um, which -::	0
+"me018"::	Can I see it?::	0
+"me011"::	for this sort of stuff. And so the only question -::	0
+"me011"::	is it the sort of thing that you want to use or not?::	0
+"me011"::	Have you looked at that? I mean, I had a web page up.::	0
+"fe016"::	Right. So,::	0
+"fe016"::	I actually mostly need to be able to link up, or -::	0
+"me011"::	So -::	0
+"me011"::	You mean, this -::	0
+"fe016"::	I- it's - it's a question both of what the representation is and -::	0
+"me011"::	I guess I  am  gonna be standing up and drawing on the board.::	0
+"fe016"::	O_K, yeah. So you  should,  definitely.::	0
+"me011"::	Um, so - so it definitely had that as a concept. So tha- it has a single time-line,::	0
+"fe016"::	Mm-hmm.::	0
+"me011"::	and then you can have lots of different sections, each of which have I_Ds attached to it, and then you can refer from other sections to those I_Ds,::	0
+"me011"::	if you  want  to.::	0
+"me011"::	So that, um -::	0
+"me011"::	so that you start with - with a  time-line   tag.::	0
+"me011"::	"Time-line".::	0
+"me011"::	And then you have a bunch of times.::	0
+"me011"::	I don't e- I don't remember  exactly  what my notation was, but it -::	0
+"mn017"::	Oh, I remember seeing an example of this. Yeah.::	0
+"fe016"::	Right, right.::	0
+"me011"::	Yeah, "T_ equals one point::	0
+"me011"::	three two", uh -::	0
+"me011"::	And then I - I also had optional things like accuracy,::	0
+"me011"::	and then "I_D equals T_ one, uh, one seven".  And then,::	0
+"me011"::	I also wanted to - to be i- to be able to not specify specifically what the time was and just have a stamp.::	0
+"fe016"::	Right.::	0
+"me011"::	Yeah, so these are arbitrary, assigned by a program, not - not by a user. So you have a whole bunch of those.::	0
+"me011"::	And then somewhere la- further down you might have something like an utterance tag::	0
+"me011"::	which has "start::	0
+"me011"::	equals T_seventeen, end equals T_eighteen".::	0
+"me011"::	So what  that's  saying is, we know it starts at this particular time. We don't  know  when it  ends.::	0
+"fe016"::	O_K.::	0
+"me011"::	Right? But it ends at this T_eighteen, which may be somewhere else. We say there's another utterance.::	0
+"me011"::	We don't know what the t-  time  actually is but we know that it's the same time as this end time.::	0
+"mn017"::	Mmm.::	0
+"me011"::	You know , thirty-eight, whatever you want.::	0
+"mn017"::	So  you're   essentially defining a lattice.::	0
+"me011"::	O_K.::	0
+"me011"::	Yes, exactly.::	0
+"mn017"::	Yeah.::	0
+"me011"::	And then, uh - and then these  also  have I_Ds.::	0
+"me011"::	Right? So you could - you could have some sort of other - other tag later in the file that would be something like, um,::	0
+"me011"::	oh, I don't know,  uh,::	0
+"me011"::	"noise-type equals::	0
+"me011"::	door-slam". You know?::	0
+"me011"::	And then, uh,::	1
+"me011"::	you could either say "time equals a particular time-mark" or you could do other sorts of references.::	1
+"me011"::	So - or - or you might have a prosody -::	0
+"me011"::	"Prosody"  right? D_? T_?::	0
+"fe016"::	It's an O_ instead of an I_, but the D_ is good.::	0
+"me011"::	You like the D_? That's a good D_.::	0
+"fe016"::	Yeah.::	0
+"me011"::	Um,::	0
+"me011"::	you know, so you could have some sort of  type  here,::	0
+"me011"::	and then you could have, um -::	0
+"me011"::	the utterance that it's  referring  to could be U_seventeen or something like that.::	0
+"fe016"::	O_K. So, I mean, that seems -::	0
+"fe016"::	that seems g-::	0
+"fe016"::	great for all of the::	0
+"fe016"::	encoding of things with time and,::	0
+"me011"::	Oh, well.::	0
+"fe016"::	um -::	0
+"fe016"::	I - I guess my question is more,::	0
+"fe016"::	uh, what d- what do you do with, say, a forced alignment?  I mean  you've got all these phone labels, and what do you do if you -::	0
+"mn017"::	How- how-::	0
+"fe016"::	just conceptually, if you get, um, transcriptions where the words are staying::	0
+"fe016"::	but the time boundaries are changing, cuz you've got a new recognition output, or s- sort of - what's the, um,::	1
+"fe016"::	sequence of going from the::	0
+"fe016"::	waveforms that stay the same, the transcripts that may or may not change, and then the::	0
+"fe016"::	utterance which -  where  the time boundaries that may or may not change - ?::	1
+"mn017"::	Oh, that's -::	0
+"mn017"::	That's actually very nicely handled here because you could - you could - all you'd have to change is the,::	1
+"fe016"::	Um.::	0
+"mn017"::	um, time-stamps in the time-line without - without, uh, changing the I_Ds.::	1
+"fe016"::	And you'd be able to propagate all of the -::	0
+"me011"::	Right. That's, the who- that's  why  you do that  extra  level of indirection.::	0
+"fe016"::	the information?::	0
+"me011"::	So that you can just change the  time-line.::	0
+"mn017"::	Except the  time-line  is gonna be  huge.  If you say - suppose you have a phone-level alignment. You'd have - you'd have -::	1
+"me011"::	Yes.::	0
+"fe016"::	Yeah, yeah, especially at the  phone-level.  The - we - we have phone-level backtraces.::	0
+"me011"::	Yeah, this - I don't think I would do this for phone-level.::	0
+"fe016"::	Um -::	0
+"me011"::	I think for phone-level you want to use some sort of binary representation because it'll be too dense otherwise.::	0
+"fe016"::	O_K. So, if you were doing that and you had this sort of companion, uh, thing that gets called up for phone-level, uh, what would that look like? How would you - ?::	0
+"me011"::	I would use just an existing -::	0
+"mn017"::	Why-::	0
+"mn017"::	Mmm. But - but why  not  use it for phone-level? It's just a matter of - it's just a matter of it being bigger. But if you have -::	0
+"fe016"::	H- h-::	0
+"me011"::	an existing way of doing it.::	0
+"mn017"::	you know, barring  memory  limitations, or- uh - I- w- I mean this is still the m-::	0
+"me011"::	It's  parsing  limitations. I don't want to have this text file that you have to read in the whole thing to do something very simple for.::	1
+"mn017"::	Oh, no. You would use it  only   for  purposes where you actually  want  the phone-level information, I'd imagine.::	0
+"fe016"::	So you could have some file that configures how much information you want in your - in your X_M_L or something.::	0
+"me011"::	Right. I mean, you'd - y- I - I am imagining you'd have multiple  versions  of this depending on the information that you  want.::	0
+"mn017"::	You -::	0
+"fe016"::	Um, cuz th- it does get very bush- with -::	0
+"fe016"::	Right.::	0
+"me011"::	Um, I'm just - what I'm wondering is whether - I think for  word-level,  this would be O_K.::	1
+"fe016"::	Yeah. Yeah. Definitely.::	0
+"me011"::	For word-level, it's alright.::	0
+"mn017"::	Mm-hmm.::	0
+"me011"::	For  lower  than word-level, you're talking about  so  much data that I just -  I  don't know. I don't know if that -::	1
+"fe016"::	I mean, we actually have - So, one thing that Don is doing, is we're - we're running -::	0
+"me018"::	Lattices are big, too.::	0
+"fe016"::	For every frame, you get a pitch value, and not only one pitch value but different kinds of pitch values depending on -::	0
+"me011"::	Yeah, I mean, for something like that I would use P_file or - or any frame-level stuff I would use P_file.::	1
+"fe016"::	Meaning - ?::	0
+"me011"::	Uh, that's a - well, or something like it. It's ICS- uh, ICSI has a format for frame-level representation of features.::	1
+"fe016"::	O_K. That you could call - that you would tie into this representation with like an I_D.::	1
+"me011"::	Um.::	0
+"me011"::	Right.::	0
+"me011"::	Right. Or - or there's a - there's a particular way in X_M_L to refer to external resources.::	1
+"fe016"::	And -::	0
+"fe016"::	O_K.::	0
+"me011"::	So you would say "refer to this external file".::	0
+"me011"::	Um, so that external file wouldn't be in -::	0
+"fe016"::	So that might - that might work.::	0
+"me018"::	But what - what's the advantage of doing that versus just putting it into this format?::	1
+"me011"::	@@  More compact, which I think is - is better. I mean, if you did it at this -::	1
+"me018"::	Uh-huh.::	0
+"fe016"::	I mean  these are long meetings and with - for every frame, um -::	1
+"me011"::	You don't want to do it with that - Anything at frame-level you had better encode binary or it's gonna be really painful.::	0
+"mn017"::	Or you just compre- I mean, I like text formats. Um,  b-  you can always, uh, G_zip them,::	0
+"mn017"::	and, um, you know, c- decompress them on the fly if y- if space is really a concern.::	0
+"me018"::	Yeah, I was thi-::	0
+"me018"::	I was thinking the advantage is that we can  share  this with other people.::	0
+"me011"::	Well, but if you're talking about one per frame,::	0
+"me011"::	you're talking about gigabyte-size files. You're gonna actually run out of space in your  filesystem  for one file.::	0
+"fe016"::	These are big files. These are really - I mean -::	1
+"me011"::	Right? Because you have a two-gigabyte limit on most O_Ss.::	1
+"mn017"::	Right, O_K. I would say - O_K, so frame-level is probably  not  a good idea. But for  phone-level  stuff it's perfectly -::	0
+"fe016"::	And th- it's -::	0
+"mn017"::	Like phones, or syllables, or anything like that.::	0
+"fe016"::	Phones are every  five    frames  though, so.::	0
+"fe016"::	Or  something  like that.::	0
+"mn017"::	But - but - but  most  of the frames are actually not  speech.::	0
+"mn017"::	So, you know, people don't -::	0
+"fe016"::	Yeah, but we actually -::	0
+"mn017"::	v- Look at it, words times the average - The average number of phones in an English word is, I don't know,   five  maybe?::	0
+"mn017"::	So, look at it, t- number of words times  five.  That's not - that not -::	0
+"fe016"::	Oh, so you mean  pause  phones take up a lot of the - long pause phones.::	0
+"me011"::	Yep.::	0
+"mn017"::	Exactly. Yeah.::	0
+"fe016"::	Yeah. O_K. That's true. But you do have to keep them in there. Y- yeah. O_K.::	0
+"me011"::	So I think it - it's debatable whether you want to do phone-level in the same thing. But I think, a- anything at frame-level, even  P_file ,::	1
+"fe016"::	O_K.::	0
+"fe016"::	So -::	0
+"me011"::	is too verbose. I would use something  tighter  than P_files.::	1
+"fe016"::	Do you - Are you familiar with it? I haven't seen this particular format, but -::	0
+"me011"::	So.::	0
+"mn017"::	I mean, I've - I've  used  them. I don't know what their structure is. I've forgot what the str-::	0
+"fe016"::	O_K.::	0
+"me018"::	But, wait a minute, P_file for each frame is storing a vector of cepstral or P_L_P values, right?::	1
+"me011"::	It's whatever you want, actually. So that - what's nice about the P_file - It - i-::	1
+"me018"::	Right.::	0
+"me011"::	Built into it is the concept of  frames, utterances, sentences, that sort of thing, that structure.::	1
+"me011"::	And then also  attached  to it is an arbitrary vector of values.::	1
+"fe016"::	Oh.::	0
+"me011"::	And it can take different types. So it - th- they don't all have to be floats. You know, you can have integers and you can have doubles, and all that sort of stuff.::	0
+"fe016"::	So that - that sounds - that sounds about what I w-::	0
+"me011"::	Um.::	0
+"me011"::	Right? And it has a header - it has a header format that  describes it  to some extent. So,::	0
+"me011"::	the only  problem  with it is it's actually storing the  utterance numbers and the  frame numbers in the file,::	0
+"me011"::	even though they're always sequential.  And so it does waste a lot of space.::	0
+"mn017"::	Hmm.::	0
+"me011"::	But it's still a  lot  tighter than - than ASCII.  And  we have a lot of tools already to deal with it.::	1
+"fe016"::	You do? O_K. Is there some documentation on this somewhere? O_K, great. So,::	0
+"me011"::	Yeah, there's a ton of it. Man-pages and, uh, source code, and::	1
+"fe016"::	I mean, that sounds good. I - I was just looking for something - I'm not a database person,  but something sort of standard enough that,::	1
+"me011"::	me.::	1
+"fe016"::	you know, if we start using this we can give it out, other people can work on it, or -  Is it - ?::	1
+"me011"::	Yeah, it's not standard. I mean, it's something that we developed at ICSI.::	1
+"me011"::	But, uh -::	0
+"fe016"::	But it's  been used here and people've -::	0
+"me011"::	But it's been used here and - and, you know, we have a  well-configured system that you can distribute for free, and -::	1
+"me018"::	I mean, it must be the equivalent of whatever  you  guys used to store feat- your computed features in, right?::	0
+"fe016"::	O_K.::	0
+"mn017"::	Yeah, th- we have -::	0
+"mn017"::	Actually, we - we use a generalization of the - the Sphere format.::	0
+"me018"::	Mmm.::	0
+"mn017"::	Um,  but -::	0
+"mn017"::	Yeah, so there is something like that but it's, um, probably not as sophist-::	0
+"me018"::	And I think there's -::	0
+"me011"::	Well, what does H_T_ K  do for features? Or does it even  have  a concept of features?::	0
+"mn017"::	They ha- it has its own -::	0
+"mn017"::	I mean, Entropic has their own feature format that's called, like, S_- S_D or some so- S_F or something like that.::	0
+"fe016"::	Yeah.::	0
+"me018"::	Yeah.::	0
+"me011"::	I'm just wondering, would it be worth while to use that  instead?::	0
+"mn017"::	Hmm?::	0
+"fe016"::	Yeah. Th- this is exactly the kind of decision - It's just whatever -::	0
+"me018"::	But, I mean, people don't typically  share   this  kind of stuff, right? I mean -::	0
+"mn017"::	Right.::	0
+"me011"::	They generate their own.::	0
+"fe016"::	Actually, I -::	0
+"me018"::	Yeah.::	0
+"fe016"::	I just - you know, we - we've done this stuff on  prosodics  and::	0
+"fe016"::	three or four places have asked for those prosodic  files,  and we just have an ASCII,::	0
+"fe016"::	uh, output of frame-by-frame. Which is fine,::	0
+"me011"::	Ah, right.::	0
+"fe016"::	but it gets unwieldy to go in and - and query these files with really huge files.::	0
+"me011"::	Right.::	0
+"fe016"::	I mean, we could  do  it. I was just thinking if there's something that - where  all  the frame values are - Hmm?::	0
+"me011"::	And a- and again, if you have a -::	0
+"me011"::	if you have a two-hour-long meeting, that's gonna -::	0
+"fe016"::	They're - they're fair- they're quite large. And these are for ten-minute Switchboard conversations, and -::	0
+"me011"::	Yeah, I mean, they'd be emo- enormous.::	0
+"me011"::	Right.::	0
+"fe016"::	So it's doable, it's just that you can only store a feature vector at frame-by-frame and it doesn't have any kind of,::	0
+"fe016"::	um -::	0
+"me018"::	Is - is the  sharing  part of this a pretty important  consideration or does that just sort of, uh - a nice thing to have?::	0
+"fe016"::	I - I don't know enough about what we're gonna do with the data.  But I thought it would be good to get something that::	1
+"fe016"::	we can - that other people can use or adopt for  their   own kinds of::	0
+"fe016"::	encoding. And just,  I mean  we have to use some- we have to make  some  decision about what to do. And especially for the prosody work, what -::	1
+"me011"::	Yeah.::	0
+"fe016"::	what it ends up being is you get::	0
+"fe016"::	features from the signal, and of course those change every time your alignments change. So you re-run a recognizer, you want to recompute::	1
+"fe016"::	your features, um, and then keep the database up to date. Or you change a word, or you change a::	1
+"me011"::	Right.::	0
+"fe016"::	utterance boundary segment, which is gonna happen a lot.::	1
+"fe016"::	And so I wanted something where  all of this can be done in a elegant way and that if somebody::	1
+"fe016"::	wants to  try  something or compute something  else,  that it can be done flexibly.::	1
+"fe016"::	Um, it doesn't have to be  pretty,  it just has to be,::	1
+"fe016"::	you know, easy to use, and -::	1
+"me011"::	Yeah, the other thing -::	0
+"me011"::	We should look at ATLAS, the NIST thing,::	1
+"fe016"::	Oh.::	0
+"mn017"::	Mmm.::	0
+"fe016"::	Uh -::	0
+"me011"::	and see if they have anything at that level. I mean, I'm not sure what to do about  this  with ATLAS, because they chose a different route.::	0
+"me011"::	I chose something that - Th- there are sort of two choices. Your - your file format::	1
+"me011"::	can know about -::	0
+"me011"::	know that you're talking about language  and speech, which is what  I  chose, and time,::	1
+"me011"::	or your file format can just be a graph representation.::	1
+"me011"::	And then the application has to impose the structure on top.::	1
+"me011"::	So what it looked like ATLAS chose is,  they  chose the  other  way, which was their file format is just::	1
+"me011"::	nodes and links, and you have to interpret what they mean yourself.::	1
+"fe016"::	And why did you not choose that type of approach?::	0
+"me011"::	Uh, because I knew that we were doing speech, and I thought it was  better::	1
+"fe016"::	O_K.::	0
+"me011"::	if you're looking at a raw file to be - t- for the tags to say "it's an utterance", as opposed to the tag to say "it's a link".::	1
+"fe016"::	O_K.::	0
+"fe016"::	But other than that, are they compatible? I mean, you could sort of -::	0
+"me011"::	So, but -::	0
+"me011"::	Yeah, they're reasonably compatible.::	0
+"fe016"::	I mean, you - you could -::	0
+"me018"::	You could probably translate between  them.::	0
+"fe016"::	Yeah, that's w- So, O_K.::	0
+"me011"::	Yep.::	0
+"me011"::	So, well, the other thing  is::	0
+"me011"::	if we choose to use  ATLAS,  which maybe we should just  do,  we should just throw this  out  before we invest a lot of  time  in it.::	0
+"fe016"::	I don't -::	0
+"fe016"::	So this is what the meeting's about, just sort of how to - Um, cuz we need to come up with a database like this just to do our work. And I actually don't::	0
+"me011"::	Yeah.::	0
+"fe016"::	care, as long as it's something useful to other people, what we  choose.  So maybe it's -::	0
+"me011"::	Yeah.::	0
+"fe016"::	maybe oth- you know, if - if you have any idea of how to choose, cuz I don't.::	0
+"me011"::	The only thing -::	0
+"me011"::	Yeah.::	0
+"mn017"::	Do they already have  tools?::	0
+"me011"::	I mean, I - I  chose  this for a couple  reasons.  One of  them   is that it's easy to  parse.::	1
+"me011"::	You don't need a full X_M_L parser. It's very easy to just write a Perl script  to parse it.::	0
+"mn017"::	As long as  uh  each tag is on one line.::	0
+"me011"::	Exactly. Exactly. Which I always do.::	1
+"fe016"::	And you can have as much information in the tag as you want, right?::	0
+"me011"::	Well, I have it structured. Right? So each type tag has only particular items that it can take.::	0
+"fe016"::	Can you - But you can add to those structures::	1
+"me011"::	Sure.::	1
+"fe016"::	if you -::	1
+"me011"::	If you have more information.   So what -::	1
+"fe016"::	Yeah. So -::	0
+"me011"::	What  NIST  would say is that instead of doing  this,  you would say something like "link::	0
+"me011"::	start equals, um, you know, some node I_D, end equals some other node I_D",::	1
+"me011"::	and then "type" would be "utterance".::	1
+"mn017"::	Hmm.::	0
+"me011"::	You know, so it's very similar.::	0
+"fe016"::	So why would it be a - a  waste  to  do  it this way if it's  similar  enough that we can always  translate  it?::	0
+"me018"::	It probably wouldn't be a  waste.  It would mean that at some point if we wanted to switch, we'd just have to::	0
+"me011"::	Write a translator. But it se-::	0
+"me018"::	translate everything.::	0
+"fe016"::	But it - but that sounds -::	0
+"me011"::	Since they are developing a big -::	0
+"me018"::	But that's - I don't think that's a big deal.::	0
+"fe016"::	As long as it is -::	0
+"me011"::	they're developing a big infrastructure. And so it seems to me that if -::	1
+"me011"::	if  we want to use that, we might as well go  directly  to what they're doing, rather than -::	0
+"mn017"::	If we want to -::	0
+"mn017"::	Do they already  have  something that's - that would be useful for us in place?::	1
+"me018"::	Yeah. See, that's the question. I mean, how stable is their -::	0
+"me018"::	Are they ready to go, or - ?::	0
+"me011"::	The - I looked at it - The last time I looked at it was a  while  ago, probably a  year  ago,::	1
+"me018"::	Hmm.::	0
+"me011"::	uh, when we first started talking about this. And at  that  time at least::	0
+"me011"::	it was still not very  complete.::	0
+"me011"::	And so, specifically they didn't have any external format representation at that time.::	1
+"me011"::	They just had the sort of conceptual  node -::	1
+"me011"::	uh, annotated transcription graph, which I really  liked.  And that's exactly what this stuff is based on.::	1
+"me011"::	Since  then, they've developed their own external file format,::	1
+"me011"::	which is, uh, you know, this sort of s-  this  sort of thing.::	0
+"me011"::	Um, and apparently they've also developed a lot of  tools,  but I haven't looked at them. Maybe I should.::	1
+"mn017"::	@@  We should - we should find out.::	0
+"fe016"::	I mean, would the tools - would the tools run on something like  this,  if you can translate them anyway?::	0
+"me011"::	Um, th- what would - would - would - what would  worry  me is that maybe we might miss a little detail::	1
+"fe016"::	I mean, that - I guess it's a question that -  uh, yeah .::	0
+"mn017"::	It's a hassle::	0
+"mn017"::	if -::	0
+"me011"::	that would make it very difficult to translate from one to the other.::	0
+"fe016"::	O_K.::	0
+"mn017"::	I - I think if it's conceptually  close,  and they already have or will have tools that everybody  else  will be using, I mean,::	1
+"fe016"::	O_K.::	0
+"me011"::	Yeah, we might as well.::	0
+"mn017"::	it would be crazy to do something s- you know, separate that -::	1
+"me011"::	Yep.::	0
+"fe016"::	Yeah.::	0
+"me011"::	So I'll - I'll take a closer look at it.::	1
+"fe016"::	Actually, so it's - that - that would really be the question, is just what you would feel is in the long run the best thing. Cuz::	0
+"me011"::	And -::	0
+"me011"::	Right.::	0
+"me011"::	The -::	0
+"fe016"::	once we start, sort of, doing this I don't - we don't actually have enough time to probably have to rehash it out again and -::	0
+"me011"::	Yep.::	0
+"me011"::	The other thing - the other way that I sort of established  this  was as easy translation to and from the  Transcriber  format.::	1
+"fe016"::	s-::	0
+"fe016"::	Right. Right.::	0
+"me011"::	Um, but -::	0
+"fe016"::	I mean, I  like  this. This is sort of intuitively easy to actually r- read, as easy it could - as it could be. But,::	0
+"me011"::	Yep.::	0
+"fe016"::	I suppose that  as long as they have a type here that specifies "utt",::	0
+"fe016"::	um,::	0
+"me011"::	It's  almost  the same. The - the - the - the  point  is - with  this,  though, is that you can't really add any supplementary information.::	1
+"fe016"::	it's - yeah, close enough that -::	0
+"me011"::	Right? So if you suddenly decide that you want -::	0
+"fe016"::	You have to make a different type.::	1
+"me011"::	Yeah. You'd have to make a different type.::	0
+"fe016"::	So - Well, if you look at it and -::	0
+"fe016"::	Um, I guess in my mind I don't know enough - Jane would know better,  about::	0
+"fe016"::	the   types  of  annotations  and - and -::	0
+"fe016"::	But I imagine that those are things that would - well,  you  guys mentioned this,  that could span any -::	0
+"fe016"::	it could be in its own channel, it could span time boundaries of any type, it could be instantaneous, things like that. Um,::	0
+"me011"::	Right.::	0
+"fe016"::	and then from the  recognition  side we have::	0
+"fe016"::	backtraces at the phone-level. If - if it can handle  that,  it could handle states or whatever.::	0
+"me011"::	Right.::	0
+"fe016"::	And then at the  prosody-level  we have::	0
+"fe016"::	frame - sort of like cepstral::	0
+"me011"::	Yep.::	0
+"fe016"::	feature files, uh, like these P_files or anything like that. And that's sort of the world of things that I -::	0
+"fe016"::	And then we have the aligned channels, of course, and -::	0
+"me011"::	Right.::	0
+"mn017"::	It seems to me you want to keep the frame-level stuff separate.::	1
+"fe016"::	Yeah. I - I definitely agree and I wanted to find actually a f- a nicer format or a - maybe a more compact format than what we used before. Just cuz you've got::	0
+"mn017"::	And then -::	0
+"me011"::	Right.::	0
+"fe016"::	ten channels or whatever and two hours of a meeting. It's - it's a lot of -::	0
+"mn017"::	Now - now how would you -::	1
+"me011"::	Huge.::	0
+"mn017"::	how would you represent, um, multiple speakers in this framework? Were - You would just represent them as -::	1
+"me011"::	Um,::	0
+"mn017"::	You would have like a speaker tag or something?::	0
+"me011"::	there's a spea- speaker tag up at the top which identifies them and then each utt-::	1
+"me011"::	the way I had it is each turn or each utterance,  I don't even remember now, had a speaker I_D tag attached to it.::	1
+"mn017"::	Mm-hmm.::	0
+"mn017"::	O_K.::	0
+"me011"::	And in  this  format you would have a different  tag,::	0
+"me011"::	which - which would, uh, be linked to the link.::	0
+"fe016"::	Yeah.::	0
+"me011"::	So - so somewhere else you would have another thing  that would be, um -::	0
+"me011"::	Let's see, would it be a node or a link? Um -::	0
+"me011"::	And so - so this one would have, um, an I_D is link -::	0
+"me011"::	link seventy-four or something like that. And then somewhere up here you would have a link that - that, uh,::	0
+"mn017"::	Mm-hmm.::	0
+"me011"::	you know, was referencing L_seventy-four and had speaker Adam.::	0
+"mn017"::	Is i- ?::	0
+"fe016"::	Actually, it's the  channel,  I think, that -::	0
+"me011"::	You know, or something like that.::	0
+"fe016"::	I mean, w- yeah, channel is what the channelized output out-::	0
+"mn017"::	Well, channel or speaker or whatever. It doesn't -::	0
+"me011"::	This  isn't quite right. I have to look at it again.::	0
+"mn017"::	Right.  But - but - so how in the NIST format do we express::	1
+"fe016"::	Yeah, but -::	0
+"mn017"::	a hierarchical relationship between, um, say, an utterance and the words within it?::	0
+"mn017"::	So how do you  tell  that  these are the words that belong to that utterance?::	1
+"me011"::	Um, you would have another structure lower down than this that would be saying they're all belonging to this I_D.::	1
+"mn017"::	Mm-hmm.::	0
+"me018"::	So each thing refers to the  utterance that it belongs to.::	0
+"me011"::	Right.::	0
+"me011"::	And then each utterance could refer to a turn, and each turn could refer to something higher up.::	0
+"me018"::	So it's - it's not hi- it's sort of bottom-up.::	0
+"fe016"::	And what if you actually have -::	0
+"fe016"::	So right now what  you  have as  utterance,  um, the closest thing that comes out of the  channelized  is the::	0
+"fe016"::	stuff between the segment boundaries that the transcribers put in or that Thilo put in,::	0
+"fe016"::	which may or may not actually be, like, a s- it's usually  not  - um, the beginning and end of a sentence, say.::	0
+"me011"::	Well, that's why I didn't call it "sentence".::	0
+"fe016"::	So, right.  Um, so it's like a segment or something. So,::	0
+"me011"::	Yeah.::	0
+"fe016"::	I mean, I assume this is possible, that if you have - someone annotates the punctuation or whatever when they transcribe,::	0
+"fe016"::	you can say, you know, from -::	0
+"fe016"::	for - from the c- beginning of the sentence to the end of the sentence, from the annotations, this is a unit, even though it  never  actually -::	0
+"fe016"::	i- It's only a unit by virtue of the annotations  at the  word-level.::	0
+"me011"::	Sure. I mean, so you would - you would have yet another tag.::	0
+"fe016"::	And then that would get a tag somehow. O_K.::	0
+"me011"::	You'd have another tag which says this is of type "sentence".::	1
+"fe016"::	O_K.::	0
+"me011"::	And, what -::	0
+"fe016"::	But it's just not overtly in the -::	0
+"mn017"::	O_K.::	0
+"fe016"::	Um, cuz this is exactly the kind of -::	0
+"mn017"::	So -::	0
+"fe016"::	I think that should be   possible  as long as the -::	0
+"fe016"::	But, uh, what I don't understand is where the - where in this type of file  that would be expressed.::	0
+"me011"::	Right. You would have another  tag  somewhere.::	0
+"me011"::	It's - well, there're  two  ways of doing it.::	0
+"fe016"::	S- so it would just be floating before the sentence or floating after the sentence without a time-mark.::	0
+"me011"::	You could have some sort of link type -::	0
+"me011"::	type equals "sentence",::	0
+"me011"::	and I_D is "S_whatever".::	0
+"me011"::	And then lower down you could have an utterance. So the type is "utterance" -::	0
+"me011"::	equals "utt". And you could either say that -::	0
+"me011"::	No. I don't know - I take that back.::	0
+"mn017"::	So here's the thing. Um -::	0
+"fe016"::	See, cuz it's -::	0
+"me011"::	Can you - can you say that this is::	0
+"mn017"::	Hhh.::	0
+"fe016"::	it's -::	0
+"me018"::	You would just have a r-::	0
+"me011"::	part of this, or do you say this is part of this? I think -::	0
+"fe016"::	S-::	0
+"fe016"::	But they're -::	0
+"me018"::	You would refer up to the sentence.::	0
+"mn017"::	Well, the thing -::	0
+"fe016"::	they're actually overlapping each other, sort of.::	0
+"me011"::	So -::	0
+"mn017"::	the thing is that some- something may be a part of::	0
+"me011"::	Right.::	0
+"mn017"::	one thing for one purpose and another thing of another purpose.::	0
+"fe016"::	You have to have another type then, I guess.::	0
+"mn017"::	So f-::	0
+"mn017"::	s-::	0
+"mn017"::	Um, well,  s- let's - let's ta- so let's -::	0
+"me011"::	Well, I think I'm - I think w- I had better look at it again because I - I'm -::	1
+"fe016"::	Yeah.::	0
+"fe016"::	O_K. O_K.::	0
+"mn017"::	so -::	0
+"mn017"::	y- So for instance  @@   sup-::	0
+"me011"::	There's one level - there's one more level of indirection that I'm forgetting.::	0
+"mn017"::	Suppose you have a word sequence and you have two different segmentations of that same word sequence. f- Say, one segmentation is in terms of,::	1
+"mn017"::	um,::	0
+"mn017"::	you know, uh,  sentences.  And another segmentation is in terms of, um,  I don't know,  prosodic  phrases.::	1
+"mn017"::	And let's say that they don't  nest. So, you know, a prosodic phrase may cross::	1
+"me011"::	Right.::	0
+"mn017"::	two sentences or something. I don't know if that's true or not but  let's as-::	0
+"fe016"::	Well, it's definitely true with the segment. That's what I - exactly what I meant by the utterances versus the sentence could be sort of -::	0
+"mn017"::	Right.::	0
+"mn017"::	Yeah.::	0
+"mn017"::	So, you want to be s- you want to say this - this  word  is part of that sentence and this prosodic phrase.::	0
+"fe016"::	Yeah.::	0
+"fe016"::	Yeah.::	0
+"mn017"::	But the phrase is not part of the sentence and neither is the sentence part of the phrase.::	0
+"fe016"::	Right.::	0
+"me011"::	I- I'm pretty sure that you can do that, but I'm forgetting the exact level of nesting.::	1
+"mn017"::	So, you would have to have  two different pointers from the word up - one level up, one to the sent-::	0
+"me011"::	So - so what you would end up having is a tag saying "here's a word, and it starts here and it ends here".::	0
+"mn017"::	@@  Right.::	0
+"me011"::	And then lower down you would say "here's a prosodic boundary and it has these words in it".::	0
+"me011"::	And lower down you'd have "here's a  sentence,  and it has these words in it".::	0
+"fe016"::	An- Right.::	0
+"mn017"::	Right.::	0
+"fe016"::	So  you  would be able to go in and say, you know, "give me all the words in the bound- in the prosodic phrase and give me all the words in the -"  Yeah.::	0
+"me011"::	Yep.::	0
+"me011"::	So I think that's - that would wor- Let me look at it again.::	0
+"fe016"::	Um, O_K.::	0
+"mn017"::	Mm-hmm.::	0
+"fe016"::	O_K.::	0
+"mn017"::	The - the o- the  other  issue that  you  had was, how do you actually efficiently extract, um -::	0
+"me011"::	So.::	1
+"fe016"::	That's good.::	0
+"mn017"::	find and extract information in a structure of this type?::	0
+"mn017"::	So you gave some examples like -::	0
+"fe016"::	Well, uh, and, I mean, you guys might -::	0
+"fe016"::	I don't know if this is premature because I suppose once you get the representation you can  do  this, but the kinds of things I was worried about is,::	0
+"mn017"::	No, that's not clear. I mean, yeah, you c- sure you can do it, but can you do it::	0
+"fe016"::	uh -::	0
+"fe016"::	Well, O_K. So i- if it -::	0
+"fe016"::	I- I mean,  I  can't do it, but I can -  um,::	0
+"mn017"::	sort of l- l- you know,::	0
+"mn017"::	it -::	0
+"mn017"::	y- y- you gotta - you gotta do this - you - you're gonna want to do this very quickly::	0
+"me011"::	Well -::	0
+"mn017"::	or else you'll spend all your time sort of searching through very  complex data structures -::	0
+"fe016"::	Right. You'd need a p- sort of a paradigm for how to do it. But an example would be::	0
+"fe016"::	"find all the cases in which Adam::	0
+"fe016"::	started to talk while Andreas was talking and his pitch was rising,  Andreas's  pitch".  That  kind of thing.::	0
+"me011"::	Right. I mean, that's gonna be -::	0
+"me011"::	Is the rising pitch a   feature,  or is it gonna be in the same file?::	0
+"fe016"::	Well, the rising pitch will never be  hand-annotated. So the - all the prosodic features are going to be automatically - So they're gonna be in those -::	0
+"me011"::	But the -::	0
+"me011"::	I mean, that's gonna be hard regardless, right? Because you're gonna have to write a program that goes through your feature file and looks for rising pitches.::	0
+"mn017"::	Yeah.::	0
+"fe016"::	So - Right. So normally what we would do is we would say::	0
+"fe016"::	"what do we wanna assign rising pitch to?" Are we gonna assign it to  words?  Are we gonna just assign it to sort of -::	0
+"fe016"::	when it's rising we have a begin-end  rise  representation? But suppose we dump out this file and we say,::	0
+"fe016"::	uh, for every word we just classify it as, w- you know, rise or fall or neither?::	0
+"me011"::	O_K. Well, in that case you would add that to this  format r-::	0
+"fe016"::	O_K.::	0
+"fe016"::	So we would basically be sort of, um,::	1
+"fe016"::	taking the format and enriching it with things that we wanna::	0
+"fe016"::	query in relation to the words that are already in the file, and then querying it. O_K.::	1
+"me011"::	Right.::	0
+"mn017"::	You want sort of a grep that's - that works at the structural -::	0
+"me011"::	You  have  that.::	0
+"mn017"::	on the structural representation.::	0
+"me011"::	There's a  standard again in X_M_L, specifically for searching X_M_L documents - structured X_- X_M_L documents, where you can specify both the content and the structural position.::	1
+"mn017"::	Yeah, but it's - it's not clear that that's -::	0
+"fe016"::	If -::	0
+"mn017"::	That's relative to the structure of the X_M_L document, not to the structure of what you're  representing  in the document.::	0
+"me011"::	You use it as a tool.::	0
+"me011"::	You use it as a tool, not an end-user. It's not an end-user thing. It's - it's - you would use that to build your tool to do that sort of search.::	1
+"mn017"::	Right.::	0
+"mn017"::	Right.::	0
+"mn017"::	Be-::	0
+"fe016"::	Uh -::	0
+"mn017"::	Because  here  you're specifying a  lattice.  So the  underlying   -::	0
+"mn017"::	that's the underlying data structure. And you want to be able to search in that lattice.::	0
+"fe016"::	But as long as the -::	0
+"me011"::	It's a graph, but -::	0
+"mn017"::	That's  different  from searching through the text.::	0
+"fe016"::	But  it seems like as long as the features that -::	0
+"me011"::	Well, no, no, no. The whole  point  is that the text and the lattice are  isomorphic.::	0
+"me011"::	They  represent each other   completely.::	0
+"mn017"::	Um -::	0
+"me011"::	So that -::	0
+"fe016"::	That's true if the features from your acoustics or whatever that are not explicitly  in  this are at the level of these types.::	0
+"me011"::	I mean th-::	0
+"mn017"::	Hhh.::	0
+"fe016"::	That - that if you can::	0
+"me011"::	Yeah, but that's gonna be the trouble no matter what.::	0
+"fe016"::	do that -::	0
+"me011"::	Right? No matter what format you choose, you're gonna have the trou- you're gonna have the difficulty of relating::	1
+"fe016"::	That's right. That's true. That's why I was trying to figure out what's the best format for this representation. And it's  still  gonna be -::	0
+"me011"::	the - the frame-level features -::	1
+"me011"::	Yep.::	0
+"fe016"::	it's still gonna be, uh, not direct. You know, it -::	0
+"mn017"::	Hmm.::	0
+"me011"::	Right.::	0
+"fe016"::	Or another example was, you know, uh, where in the language - where in the word sequence::	0
+"fe016"::	are people interrupting? So,::	0
+"fe016"::	I guess that one's actually easier.::	0
+"me018"::	What about - what about, um,::	1
+"me018"::	the idea of using a relational database to, uh, store the information from the X_M_L? So you would have - X_M_L basically would -::	1
+"me018"::	Uh, you - you could use the X_M_L to put the data  in,::	0
+"me018"::	and then when you get data out, you put it back in X_M_L. So use X_M_L as sort of the -::	0
+"me011"::	Transfer.::	0
+"me018"::	the transfer format, uh, but then you store the data in the database, which::	1
+"me011"::	The, uh -::	0
+"me018"::	allows you to do all kinds of  good search things in there.::	1
+"me011"::	One of the things that ATLAS is doing is they're trying to define an A_P_I which is independent of the back store,::	1
+"fe016"::	Huh.::	0
+"me011"::	so that, uh, you could define a single A_P_I and the - the storage could be flat X_M_L files or a database.::	1
+"me018"::	Mm-hmm.::	0
+"me011"::	My  opinion on that is for the s- sort of stuff that we're doing,  I suspect it's overkill to do a full relational database, that, um,::	1
+"mn017"::	But -::	0
+"me011"::	just a flat file and, uh, search tools I  bet  will be enough.::	1
+"me011"::	But that's the advantage of ATLAS, is that if we actually take -::	1
+"me011"::	decide to go that route completely and we program to their A_P_I, then if we wanted to add a database later it would be pretty easy.::	1
+"me018"::	Mm-hmm.::	0
+"me018"::	Mm-hmm.::	0
+"fe016"::	It seems like the kind of thing you'd do if - I don't know, if people start adding all kinds of s- bells and whistles to the data. And so that might be -::	0
+"fe016"::	I mean, it'd be good for us to know - to use a format where::	0
+"fe016"::	we know we can easily, um, input that to some database if other people are using it.::	0
+"me011"::	Yep.::	0
+"fe016"::	Something like that.::	0
+"me011"::	I guess I'm just a  little  hesitant to try to go whole hog on sort of the -::	1
+"fe016"::	So -::	0
+"me011"::	the whole framework that - that NIST is talking about, with ATLAS  and  a database and all that sort of stuff, cuz it's a big learning curve,::	1
+"me018"::	Hmm.::	0
+"me011"::	just to get going. Whereas if we  just  do a flat file format,::	1
+"mn017"::	Hmm.::	0
+"me011"::	sure, it may not be as efficient but  everyone  can program in Perl and - and  use  it.::	0
+"fe016"::	@@  O_K.::	0
+"me011"::	Right? So, as opposed to -::	0
+"mn017"::	But this is - I - I'm still, um,::	0
+"mn017"::	not convinced that you can do much at  all  on the text - on the flat file that - that - you know, the text representation.::	0
+"mn017"::	e-::	0
+"mn017"::	Because the text representation is gonna be,::	0
+"mn017"::	uh, not reflecting the structure of - of your words and annotations.::	0
+"mn017"::	It's just - it's -::	0
+"me011"::	Well, if it's not  representing  it, then how do you  recover  it? Of  course  it's representing it. That's the whole  point.::	0
+"mn017"::	No. You - you have to - what you have to do is you have to basically -::	0
+"mn017"::	Y- yeah. You can use Perl to read it in and construct a internal representation that is essentially a lattice.::	0
+"mn017"::	But,::	0
+"me018"::	@@  Yeah.::	0
+"mn017"::	the - and then -::	0
+"me011"::	O_K. Well,  that  was a different  point.  Right? So what I was  saying::	0
+"mn017"::	Right.::	0
+"me011"::	is that -::	0
+"mn017"::	But  that's  what you'll have to  do.::	0
+"me011"::	For Perl - if you want to just do Perl. If you wanted to use the structured X_M_L query language, that's a different thing. And it's a set of tools  that let you specify given the D_- D_D_T - D_T_D of the document,::	1
+"mn017"::	Bec- be-::	0
+"me011"::	um, what sorts of structural searches you want to do.::	0
+"me011"::	So you want to say that, you know, you're looking for,::	0
+"me011"::	um, a tag within a tag within a particular tag that has this particular text in it,::	0
+"me011"::	um, and, uh, refers to a particular value.::	0
+"me011"::	And so the point isn't that an end-user, who is looking for a query like you specified, wouldn't program it in this language. What you would do is,::	1
+"me011"::	someone would build a  tool  that used that as a library.::	1
+"me011"::	So that they - so that you wouldn't have to construct the internal representations yourself.::	0
+"fe016"::	Is a -::	0
+"fe016"::	See, I think the kinds of questions, at least in the next - to the end of this year, are -::	0
+"fe016"::	there may be a lot of different ones, but they'll all have a similar nature. They'll be::	0
+"fe016"::	looking at either a word-level prosodic,::	0
+"fe016"::	uh, an - a  value,  like a continuous value, like the slope of something. But::	0
+"me011"::	Mm-hmm.::	1
+"fe016"::	you know, we'll do  something  where we -::	0
+"fe016"::	some kind of data reduction where the prosodic features are sort o- uh, either at the word-level or at the::	0
+"fe016"::	segment-level, or - or  something  like that. They're not gonna be at the  phone-level  and they're no- not gonna be at the  frame-level  when we get done with::	0
+"me011"::	Right.::	0
+"fe016"::	sort of giving them simpler shapes and things.::	0
+"fe016"::	And so the main thing is just being able -::	0
+"fe016"::	Well, I guess, the  two  goals. Um, one that  Chuck  mentioned is::	1
+"fe016"::	starting out with something that we don't have to start over, that we don't have to throw away if other people want to extend it for other kinds of questions,::	1
+"me011"::	Right.::	1
+"fe016"::	and  being able to at least get enough, uh, information out on -::	1
+"fe016"::	where we condition the location of features on information that's in the kind of file that you  put up  there.::	1
+"fe016"::	And that would - that would do it, I mean, for  me.::	0
+"me011"::	Yeah. I think that there are quick and dirty solutions, and then there are long-term, big-infrastructure solutions. And so::	0
+"me011"::	we want to try to pick something that lets us do a little bit of both.::	0
+"fe016"::	In the between, right. And especially that the representation doesn't have to be thrown away, even if your tools change.::	0
+"me011"::	Um -::	0
+"me011"::	Right.::	0
+"me011"::	And so it seems to me that - I mean, I have to  look  at it again to see whether it can really do what we  want,::	1
+"me011"::	but if we use the ATLAS external file representation,::	1
+"me011"::	um,::	0
+"me011"::	it  seems  like it's rich enough that you could do  quick  tools just as I said in Perl,::	1
+"fe016"::	Yeah.::	0
+"me011"::	and then later on if we choose to go up the learning curve, we can use the whole ATLAS inter- infrastructure,::	1
+"fe016"::	I mean, that sounds good to me. I - I don't -::	0
+"me011"::	which has all that built in.::	1
+"fe016"::	So if - if you would l- look at that and let us know what you think.  I mean,::	0
+"me011"::	Sure.::	0
+"fe016"::	I think we're sort of guinea pigs, cuz I - I want to get the prosody work  done  but I don't want to waste time, you know,::	0
+"mn017"::	Oh, maybe -::	0
+"fe016"::	getting the - Yeah?::	0
+"mn017"::	um -::	0
+"me011"::	Well, I wouldn't wait for the formats, because anything you pick we'll be able to translate::	0
+"mn017"::	Well -::	0
+"me011"::	to another form.::	0
+"mn017"::	Ma- well, maybe you should actually look at it yourself too to get a sense of::	0
+"fe016"::	O_K.::	0
+"mn017"::	what it is you'll - you'll be dealing with, because,::	0
+"mn017"::	um,::	0
+"mn017"::	you know, Adam might have  one  opinion but you might have  another,  so::	0
+"me001"::	Yeah.::	0
+"fe016"::	Yeah, definitely.::	0
+"mn017"::	I think the more eyes look at this the better.::	0
+"fe016"::	Especially if there's,  e-  um - you know, if someone can help with at least the -::	0
+"fe016"::	the setup of the right -::	0
+"fe016"::	Oh, hi.::	0
+"me011"::	Hi, Jane.::	0
+"mn017"::	Mmm.::	0
+"fe016"::	the right representation, then, i- you know, I hope it won't - We don't actually need the whole full-blown thing to be  ready,  so.::	0
+"me011"::	Can you - Oh, well.::	0
+"fe016"::	Um, so maybe if you guys can look at it and sort of see what,::	0
+"me011"::	Sure.::	0
+"me001"::	Yeah.::	0
+"fe016"::	um -::	0
+"fe016"::	I think we're - we're -  we're actually just - yeah, wrapping up, but, um -::	0
+"me001"::	Hmm.::	0
+"me011"::	We're about done.::	0
+"fe008"::	Oh you are? Oh.::	0
+"fe016"::	Yeah, sorry, it's a  uh  short meeting, but, um -::	0
+"fe016"::	Well, I don't know. Is there anything else, like -::	0
+"fe016"::	I mean  that helps  me  a lot, but -::	0
+"me011"::	Well, I think the  other  thing we  might  want to look at is alternatives to P_file. I mean, th- the reason I like P_file is I'm already familiar with it, we have expertise  here,::	1
+"me011"::	and so if we pick something else, there's the learning-curve problem. But, I mean, it is just something we developed at ICSI.::	1
+"me011"::	And so -::	0
+"mn017"::	Is there an - is there an I_P- A_P_I?::	0
+"me011"::	Yeah. There's an A_P_I for it. And, uh,::	1
+"mn017"::	O_K.::	0
+"mn017"::	There used to be a problem that they get too large,::	0
+"me011"::	a bunch of libraries, P_file utilities.::	1
+"mn017"::	and so  basically the -  uh  the filesystem::	0
+"me011"::	Well, that's gonna be a problem no matter what. You have the two-gigabyte limit on the filesystem size.::	0
+"mn017"::	wouldn't -::	0
+"me011"::	And we definitely hit that with Broadcast News.::	0
+"mn017"::	Maybe you could extend the A_P_I to, uh, support, uh, like splitting up,::	0
+"mn017"::	you know, conceptually one file into smaller files on disk so that you can essentially,::	0
+"me011"::	Yep.::	0
+"mn017"::	you know, have arbitrarily long f-::	0
+"me011"::	Most of the tools can handle that. So that::	0
+"mn017"::	Yeah.::	0
+"me011"::	we didn't do it at the A_P_I-level. We did it at the t- tool-level. That - that - most - many of them can s- you can specify several P_files and they'll just be done sequentially.::	0
+"mn017"::	O_K.::	0
+"me011"::	So.::	0
+"fe016"::	So, I guess, yeah, if - if you and Don can - if you can show him the P_file stuff and see. So this would be like for the F_zero -::	0
+"me011"::	Sure.::	0
+"me011"::	I mean, if you do "man P_file" or "apropos P_file", you'll see a lot.::	0
+"me001"::	True.::	0
+"me001"::	I've  used  the P_file, I think. I've  looked  at it at least, briefly, I think when we were doing::	0
+"mn017"::	What does the P_ stand for anyway?::	0
+"me001"::	s- something.::	0
+"me011"::	I have no idea.::	0
+"me001"::	Oh, in there.::	0
+"me011"::	I  didn't de- I didn't develop it. You know, it was - I  think  it was Dave Johnson.::	0
+"me011"::	So it's all part of the Quicknet library. It has all the utilities for it.::	0
+"mn017"::	No,  P_files  were around  way  before  Quicknet.::	0
+"me011"::	Oh, were they?::	0
+"mn017"::	P_files were - were around when - w- with, um,  RAP.::	0
+"me018"::	Mm-hmm.::	0
+"fe016"::	It's like the history of ICSI. Like -::	0
+"mn017"::	Right?::	0
+"mn017"::	You  worked with P_files.  I  worked with P_files.::	0
+"me018"::	No.::	0
+"me011"::	Mm-hmm.::	0
+"fe016"::	Yeah?::	0
+"me018"::	I don't remember what the " P_ " is, though.::	0
+"fe008"::	Is it related to P_make?::	0
+"mn017"::	No.::	0
+"me011"::	But there are ni- they're -::	0
+"me011"::	The  Quicknet library has a bunch of things in it to handle P_files, so it works pretty well.::	0
+"mn017"::	Yeah.::	0
+"fe016"::	And that isn't really, I guess, as important as the - the main - I don't know what you call it, the -::	0
+"mn017"::	@@::	1
+"fe016"::	the main sort of word-level -::	0
+"me011"::	Neither do I.::	0
+"me018"::	Probably  stands for "Phil".::	0
+"me018"::	Phil Kohn.::	0
+"me011"::	It's a Phil file?::	0
+"me018"::	Yeah.::	0
+"me018"::	That's  my  guess.::	0
+"fe016"::	Huh.::	0
+"fe016"::	O_K. Well, that's really useful. I mean, this is exactly the kind of thing that I wanted to settle. Um, so -::	0
+"me011"::	Yeah, I've been meaning to look at the ATLAS stuff again anyway. So, just keep -::	0
+"fe016"::	Great.::	0
+"fe016"::	Yeah.::	0
+"fe016"::	I guess it's also sort of a political deci- I mean, if - if you feel like that's a community that would::	0
+"fe016"::	be good to tie into  anyway,  then it's -::	0
+"fe016"::	sounds like it's worth doing.::	0
+"me011"::	Yeah, I think it - it w-::	0
+"mn017"::	j-  I think there's -::	0
+"me011"::	And, w- uh, as I said, I - what I did with  this  stuff - I  based  it on theirs. It's just they hadn't actually come up with an external format yet.::	0
+"me011"::	So now that they  have  come up with a format,::	0
+"mn017"::	Mmm.::	0
+"me011"::	it doesn't - it seems pretty reasonable to use it.::	0
+"me011"::	But let me look at it again.::	0
+"fe016"::	O_K, great.::	0
+"me011"::	As I said, that -::	0
+"fe016"::	Cuz we actually can start -::	0
+"me011"::	There's one level - there's one more level of indirection and I'm just blanking on exactly how it works.::	0
+"me011"::	I gotta look at it again.::	0
+"fe016"::	I mean, we can  start  with, um, I guess, this input from Dave's, which you had printed out, the  channelized  input. Cuz he has all of the::	0
+"fe016"::	channels, you know, with the channels in the tag and stuff like that. So that would be  i-  directly,::	0
+"me011"::	Yeah, I've seen it.::	0
+"me011"::	Yep.::	0
+"fe016"::	um -::	0
+"me011"::	Easy - easy to map.::	0
+"fe016"::	Yeah. And so then it would just be a matter of getting -::	0
+"fe016"::	making sure to handle the annotations that are, you know, not at the word-level and, um,::	0
+"me001"::	Where are those annotations coming from?::	0
+"fe016"::	t- to import the-::	0
+"fe016"::	Well, right now, I g- Jane would -  would -::	0
+"me011"::	Mm-hmm.::	0
+"fe016"::	Yeah.::	0
+"fe008"::	Are you talking about the overlap a- annotations?::	0
+"fe016"::	Yeah, any kind of annotation  that, like, isn't already there. Uh, you know, anything you can envision.::	0
+"fe008"::	Yeah.::	0
+"fe008"::	So what  I  was imagining was - um, so Dave says we can have unlimited numbers of green ribbons.::	0
+"fe008"::	And so put, uh, a - a green ribbon on for an overlap code.::	0
+"fe008"::	And since we w- we - I - I think it's important to remain flexible regarding the time bins for now.::	0
+"fe008"::	And so it's nice to have -::	0
+"fe008"::	However, you know, you want to have it, uh, time- time- uh,  located  in the discourse. So, um,::	0
+"fe008"::	if we - if we tie the overlap code to the first word in the overlap,::	1
+"fe008"::	then you'll have a time-marking. It won't - it'll be independent of the time bins,::	1
+"fe008"::	however these e- evolve, shrink, or whatever, increase, or - Also, you could have different time bins for different purposes.::	1
+"fe008"::	And having it tied to the first word in an overlap segment is unique, uh, you know, anchored, clear.::	0
+"fe008"::	And it would just end up on a separate ribbon.::	0
+"fe008"::	So the  overlap  coding is gonna be  easy  with respect to that.::	0
+"me011"::	Right.::	1
+"fe008"::	You look puzzled.::	0
+"me018"::	I - I just - I don't quite understand what these things are.  Uh.::	0
+"fe008"::	O_K. What, the codes themselves? Or the - ?::	0
+"me018"::	Well, th- overlap codes. I'm not sure what that  @@  -::	0
+"me011"::	Well, I mean, is that -::	0
+"fe008"::	Well, we don't have to go into the codes. We don't have to go into the codes. But let me just -::	0
+"me018"::	It probably doesn't matter. No, I d-::	0
+"me011"::	I mean, it doesn't. I mean, that - not for the topic of  this  meeting.::	0
+"fe008"::	No. W- the idea is just to have a separate green ribbon,::	0
+"fe008"::	you know, and - and - and let's say that this is a time bin. There's a word here. This is the first word of an overlapping segment of  any   length,::	0
+"fe008"::	overlapping with  any  other, uh, word - uh, i- segment of any length. And, um,::	0
+"fe008"::	then you can indicate that this here was perhaps a ch- a backchannel,::	0
+"fe008"::	or you can say that it was, um, a usurping of the turn, or you can - you know, any - any number of categories. But the fact is, you have it  time-tagged::	0
+"fe008"::	in a way that's independent of the, uh, sp- particular time bin that the word ends up in.::	0
+"fe008"::	If it's a large unit or a small unit, or we sh- change the boundaries of the units,::	0
+"mn017"::	Mm-hmm.::	0
+"fe016"::	Right.::	0
+"fe008"::	it's still unique and - and, uh, fits with the format,::	0
+"fe008"::	flexible, all that.::	0
+"mn017"::	Um,::	0
+"mn017"::	it would be nice - um,::	0
+"mn017"::	eh, gr- this is sort of r- regarding -::	0
+"mn017"::	uh, uh  it's related but not directly germane to the topic of discussion, but, when it comes to annotations, um,::	1
+"mn017"::	you often find yourself in the situation where you have  different annotations  of the same, say, word sequence.::	1
+"fe008"::	Yeah.::	0
+"mn017"::	O_K? And sometimes the word sequences even differ slightly because they were edited s- at one place but not the other.::	1
+"fe008"::	Yeah.::	0
+"mn017"::	So, once this data gets out there, some people might start annotating this for,::	0
+"mn017"::	I don't know, dialogue acts or, um,::	0
+"mn017"::	you know, topics or what the heck. You know, there's a zillion things that people might annotate this for.::	0
+"mn017"::	And the only thing that::	0
+"mn017"::	is really sort of common among all the versi- the various versions of this data is the word sequence,::	0
+"fe008"::	Yep.::	0
+"mn017"::	or  approximately.::	0
+"fe016"::	Or the time.::	0
+"mn017"::	Or the times. But, see, if you'd annotate dialogue acts, you don't necessarily want to - or topics - you don't really want to be dealing with  time-marks.::	1
+"fe016"::	I guess.::	0
+"mn017"::	You'd - it's much more efficient for them to just see the  word  sequence, right?::	0
+"fe016"::	Mm-hmm.::	0
+"mn017"::	I mean, most people aren't as  sophisticated  as - as we are  here  with, you know, uh, time alignments and stuff. So -::	0
+"mn017"::	So the - the - the  point  is -::	0
+"me011"::	Should - should we mention some names on the people who are n- ?::	0
+"mn017"::	Right.::	0
+"mn017"::	So, um, the p- my  point  is that  you're gonna end up with,::	0
+"mn017"::	uh, word sequences that are differently annotated. And  you want some tool,::	1
+"mn017"::	uh, that is able to sort of merge these different annotations back into a single,::	0
+"mn017"::	uh, version.::	1
+"mn017"::	O_K?::	0
+"mn017"::	Um, and we had this problem very massively, uh, at S_R_I when we worked, uh, a while back on,::	0
+"mn017"::	uh -::	0
+"mn017"::	well, on dialogue acts as well as, uh, you know, um, what  was  it?  uh,::	0
+"fe016"::	Well, all the Switchboard in it. Yeah.::	0
+"mn017"::	utterance types. There's, uh, automatic, uh, punctuation and stuff like that.::	0
+"mn017"::	Because we had one set of  annotations that were based on,::	0
+"mn017"::	uh, one version of the transcripts with a particular segmentation, and then we had  another  version that was based on,::	0
+"mn017"::	uh, a different s- slightly  edited  version of the transcripts with a  different  segmentation. So,::	0
+"mn017"::	we had these two different::	0
+"mn017"::	versions which were - you know, you could tell they were from the same source but they weren't identical. So it was extremely hard::	0
+"mn017"::	to reliably merge these two back together to correlate the information from the different annotations.::	0
+"me011"::	Yep. I - I don't see any way that  file  formats are gonna  help  us with that. It's - it's all a question of semantic.::	1
+"mn017"::	No.::	0
+"mn017"::	No. But once you have a file format, I can imagine writing -::	1
+"fe016"::	Mm-hmm.::	0
+"mn017"::	not personally, but someone writing a tool that is essentially an alignment tool,::	0
+"me011"::	Yeah.::	0
+"mn017"::	um, that mediates between various versions, and -::	1
+"mn017"::	uh, sort of like th- uh, you know, you have this thing in UNIX where you have, uh,::	0
+"me011"::	Diff.::	0
+"fe016"::	W_diff  or diff. Yeah.::	0
+"mn017"::	diff.::	0
+"mn017"::	There's the, uh, diff that actually tries to reconcile different -::	0
+"fe008"::	Is it  S_diff ?::	0
+"mn017"::	two diffs f-  based on the same original.::	0
+"me011"::	Yep.::	0
+"fe008"::	Mmm.::	0
+"mn017"::	Something like that,::	0
+"mn017"::	um, but operating on these lattices that are really what's behind this - uh, this annotation format.::	0
+"me011"::	Yep.::	0
+"mn017"::	So -::	0
+"fe016"::	You could definitely do that with the -::	0
+"me011"::	There's actually a diff library you can use  to do things like that that -::	0
+"mn017"::	So somewhere in the A_P_I you would like to have like a merge or some - some function that merges two -::	0
+"me011"::	so you have different formats.::	0
+"me011"::	Yeah, I think it's gonna be very hard. Any sort of structured::	0
+"mn017"::	two versions.::	0
+"mn017"::	Right.::	0
+"me011"::	anything  when you try to merge is really, really hard because you ha- i-::	0
+"me011"::	The hard part isn't the file format. The hard part is specifying what you  mean  by "merge".::	1
+"mn017"::	Is -::	0
+"mn017"::	Exactly.::	0
+"fe016"::	But the one thing that would work here actually for i- that is more reliable than the utterances is the -::	0
+"me011"::	And that's very difficult.::	0
+"fe016"::	the speaker ons and offs. So if you have a good, um -::	0
+"me011"::	But this is exactly what I  mean,  is that - that the problem i-::	0
+"fe016"::	Yeah.::	0
+"fe016"::	You just have to know wha- what to tie it to.::	0
+"me011"::	Yeah, exactly. The problem is saying "what are the semantics, what do you  mean  by "merge"?" So.::	0
+"fe016"::	And -::	0
+"fe016"::	Right, right.::	0
+"mn017"::	Right.::	0
+"mn017"::	So - so just to let you know what we - where we  kluged  it by, uh, doing -::	0
+"mn017"::	uh, by doing - Hhh.::	0
+"mn017"::	Both were based on  words,  so, bo- we have two versions of the same words intersp- you know, sprinkled with - with different  tags  for annotations.::	0
+"me011"::	And then you did diff.  Yeah, that's just what I thought.::	0
+"mn017"::	And we did  diff.  Exactly!::	0
+"mn017"::	And that's how - Yeah.::	0
+"me011"::	That's just wh- how  I  would have done it.::	0
+"mn017"::	But, you know, it had lots of errors and things would end up in the wrong order, and so forth. Uh, so,::	0
+"me011"::	Yep.::	0
+"mn017"::	um, if you had a more -::	0
+"mn017"::	Uh, it - it was a kluge because it was basically reducing everything to - uh, to - uh, uh, to  textual  alignment.::	0
+"me011"::	A textual -::	0
+"mn017"::	Um, so -::	0
+"fe016"::	But, d- isn't that something where whoever - if  - if the people::	0
+"fe016"::	who are making changes, say in the transcripts, cuz this all happened when the transcripts were different -::	0
+"fe016"::	ye- um, if they  tie  it to  something,  like if they tied it to the acoustic segment - if they -::	0
+"fe016"::	You know what I mean? Then - Or if they tied it to an acoustic segment and we had the  time-marks,  that would help. But the problem is exactly as Adam said, that you get,::	0
+"me011"::	Yep.::	0
+"fe016"::	you know, y- you don't  have  that information or it's lost in the merge somehow, so -::	0
+"fe008"::	Well, can I ask one question? It - it seems to me that, um, we will have o- an official version of the corpus, which will be only one -::	0
+"fe008"::	one version in terms of the words - where the words are concerned.::	0
+"fe008"::	We'd still have the - the merging issue maybe if coding were done independently of the -::	0
+"mn017"::	And you're gonna  get  that because if the data gets out, people will do all kinds of things to it.::	0
+"fe008"::	But - but -::	0
+"mn017"::	And, uh, s- you know, several years from now you might want to look into, um,::	0
+"mn017"::	the prosody of::	0
+"mn017"::	referring expressions. And someone at the university of who knows where has annotated the referring expressions.::	0
+"mn017"::	So you want to get that annotation and bring it back in line with your data.::	0
+"me011"::	Right.::	0
+"fe008"::	O_K, then -::	0
+"me011"::	But unfortunately they've also hand-edited it.::	0
+"mn017"::	O_K?::	0
+"fe016"::	But they've also - Exactly. And so that's exactly what we should - somehow when you distribute the data, say that - you know,::	0
+"mn017"::	Yeah.::	0
+"me011"::	Yep.::	0
+"mn017"::	Right.::	0
+"fe008"::	Well, then the -::	0
+"fe016"::	that - have some way of knowing how to merge it back in and asking people to try to do that.::	0
+"me018"::	What's - what's wrong with  doing times? I -::	0
+"fe008"::	I agree. That was what I was wondering.::	0
+"fe016"::	Uh, yeah, time is the -  Time is passing!::	0
+"fe008"::	Time is unique. You were saying that you didn't think we should - Andreas was saying - Yeah.::	0
+"me011"::	Well,::	0
+"mn017"::	Time - time - times are::	0
+"me011"::	what if they haven't notated with them, times?::	0
+"mn017"::	ephemeral.::	0
+"fe016"::	Yeah.::	0
+"fe016"::	He - he's a language modeling person, though.::	0
+"mn017"::	Um -::	0
+"me011"::	So - so imagine - I think his - his example is a good one. Imagine that this person who developed the corpus of the referring expressions didn't include time.::	0
+"mn017"::	Mm-hmm.::	0
+"mn017"::	Yeah.::	0
+"fe008"::	Ach!::	0
+"me011"::	He included references to  words.  He said that at this  word  is when - when it happened. Or she.::	0
+"fe008"::	Well, then -::	0
+"mn017"::	Yeah.::	0
+"mn017"::	Or she.::	0
+"fe008"::	But then couldn't you just indirectly figure out the time  tied to the  word?::	0
+"fe016"::	But still they -::	0
+"fe016"::	Exactly. Yeah.::	0
+"me011"::	Sure. But what if - what if they change the  words?::	0
+"fe008"::	Not - Well, but you'd have  some  anchoring point. He couldn't have changed  all  the words.::	0
+"me018"::	But can they change the words without changing the  time  of the word?::	0
+"me011"::	Sure. But they could have changed it a little.::	0
+"me011"::	The - the  point  is, that - that they may have annotated it off a  word  transcript that isn't the same as  our  word transcript, so how do you merge it back in? I understand what you're saying.::	0
+"mn017"::	Mmm. Mm-hmm.::	0
+"me011"::	And I - I guess the  answer  is,::	0
+"me011"::	um, it's gonna be  different  every  time.::	0
+"me011"::	It's j- it's just gonna be -::	0
+"fe016"::	Yeah.::	0
+"fe008"::	Yeah.::	0
+"fe016"::	You only know the boundaries of the -::	0
+"me011"::	I- it's  exactly  what I said before, which is that "what do you mean by "merge"?"::	0
+"me011"::	So in this case where you have the words and you don't have the times, well, what do you  mean  by "merge"?::	0
+"me011"::	If you tell me what you  mean,  I can write a program to  do  it.::	0
+"fe016"::	Right.::	0
+"fe016"::	Right. You can merge at the level of the representation that the other person preserved and that's it.::	0
+"me011"::	Right. And that's about all you can do.::	0
+"fe016"::	And beyond that, all you know is - is relative ordering and sometimes even that is wrong.::	0
+"me011"::	So - so in - so in this one you would have to do a best match between the word sequences,::	0
+"fe016"::	So.::	0
+"mn017"::	Mm-hmm.::	0
+"me011"::	extract the times f- from the best match of theirs to yours, and use that.::	0
+"fe016"::	And then infer that their time-marks are somewhere in between. Yeah, exactly.::	0
+"me011"::	Right.::	0
+"fe008"::	But it could be that they just - uh, I mean, it could be that they chunked - they - they lost certain utterances and all that stuff, or -::	0
+"me011"::	Right, exactly. So it could get very, very ugly.::	0
+"fe016"::	Definitely. Definitely.::	0
+"fe008"::	Yeah.::	0
+"fe016"::	Alright. Well, I guess, w- I - I didn't want to keep people  too  long and Adam wanted t- people -  I'll  read the digits. If anyone else offers to, that'd be great. And::	0
+"fe008"::	That's interesting.::	0
+"mn017"::	Ah, well.  For th- for the -  for the benefit of science we'll read the digits.::	0
+"me011"::	Yeah.::	0
+"fe016"::	if not, I guess -::	0
+"me011"::	More digits, the better. O_K, this is::	0
+"fe016"::	Thanks - thanks a lot.  It's really helpful. I mean, Adam and Don  will sort of meet and I think that's great. Very useful.::	0
+"fe016"::	Go next.::	1
+"fe016"::	Let me -::	0
+"me018"::	Scratch that.::	0
+"fe008"::	s-::	0
+"me011"::	Oh, right.::	0

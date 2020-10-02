@@ -1,0 +1,758 @@
+"me013"::	O_K::	0
+"me013"::	So::	0
+"me013"::	uh::	0
+"me013"::	today::	0
+"me013"::	we're looking at a::	0
+"me013"::	number of uh::	0
+"me013"::	things we're trying::	0
+"me013"::	and uh::	0
+"me013"::	fortunately for listeners to this uh::	0
+"me013"::	we lost some of it's visual::	0
+"me013"::	but um::	0
+"me013"::	got tables in front of us.::	0
+"me013"::	Um::	0
+"me013"::	what is - what does combo mean?::	0
+"mn007"::	So combo is um::	0
+"mn007"::	a system where we have these features::	0
+"mn007"::	that go through a network and then::	0
+"mn007"::	this same string of features but low-pass filtered with the low-pass filter used in::	0
+"mn007"::	the M_S_G features.::	0
+"mn007"::	And so these low-pass filtered::	0
+"mn007"::	goes through M_ eh - another M_L_P::	0
+"mn007"::	and then the linear output of these two M_L_P's are combined::	0
+"mn007"::	just by adding the values and then there is this K_L_T.::	0
+"mn007"::	Um::	0
+"mn007"::	the output is used as::	0
+"mn007"::	uh features as well.::	0
+"me013"::	Um::	0
+"me013"::	so::	0
+"me013"::	let me try to restate this and see if I have it right.::	0
+"me013"::	There is uh -::	0
+"me013"::	there is the features::	0
+"me013"::	uh there's the O_G_I features::	0
+"me013"::	and::	0
+"me013"::	then um::	0
+"me013"::	those::	0
+"me013"::	features::	0
+"me013"::	um::	0
+"me013"::	go through a contextual - uh l- l- let's take this bottom arr-::	0
+"me013"::	one pointed to by the bottom arrow.::	0
+"me013"::	Um those features::	0
+"me013"::	go through a contextualized K_L_T.::	0
+"mn007"::	Yeah.::	0
+"me013"::	Then::	0
+"me013"::	these features also::	0
+"me013"::	uh get::	0
+"me013"::	um low-pass filtered::	0
+"mn007"::	Yeah so::	0
+"mn007"::	yeah I could perhaps draw this on the blackboard::	0
+"me013"::	Sure.::	0
+"me013"::	Yeah. Yeah.::	0
+"mn007"::	Yeah.::	0
+"fn002"::	The graph, yeah another one.::	0
+"mn007"::	@@::	0
+"me013"::	Yeah, that's good.::	0
+"me013"::	So::	0
+"mn007"::	So we have these features from O_G_I::	0
+"me013"::	Yeah.::	0
+"mn007"::	that goes through the three paths.::	0
+"me013"::	Three, O_K.::	0
+"mn007"::	The first::	0
+"mn007"::	is a K_L_T using::	0
+"mn007"::	several::	0
+"mn007"::	frames::	0
+"me013"::	Yeah.::	0
+"mn007"::	of the features.::	0
+"me013"::	Yeah.::	0
+"mn007"::	The second path::	0
+"mn007"::	is uh M_L_P::	0
+"mn007"::	also using nine frames - several frames of features::	0
+"me013"::	Yeah.::	0
+"me013"::	Uh-huh.::	0
+"mn007"::	The third path::	0
+"mn007"::	is this low-pass filter.::	0
+"me013"::	Uh-huh.::	0
+"mn007"::	Uh, M_L_P::	0
+"me013"::	Aha! aha!::	0
+"mn007"::	Adding the outputs just like in the second propose- the - the proposal from - for the first evaluation.::	0
+"me013"::	Yeah?::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"mn007"::	And then::	0
+"me013"::	No, the K_L_T.::	0
+"mn007"::	the K_L_T::	0
+"me013"::	And those two together.::	0
+"mn007"::	and then the two together again.::	0
+"me013"::	That's it.::	0
+"fn002"::	Two H_T_K.::	0
+"mn007"::	Um.::	0
+"me013"::	O_K so that's - that's this bottom one.::	0
+"mn007"::	So::	0
+"mn007"::	this is - yeah::	0
+"me013"::	And so uh::	0
+"me013"::	and then the - the - the one at the top - and I presume these things that uh are in yellow are in yellow because overall they're the best?::	0
+"mn007"::	Yeah that's the reason, yeah.::	0
+"me013"::	Oh let's focus on them then- so what's the block diagram for the one above it?::	0
+"mn007"::	For the f- the f- first::	0
+"mn007"::	yellow line you mean?::	0
+"me013"::	Yeah.::	0
+"mn007"::	Yeah::	0
+"mn007"::	so it's uh basically s- the same except that we don't have this::	0
+"fn002"::	Step.::	0
+"mn007"::	uh low-pass filtering so we have only two streams.::	0
+"mn007"::	Well.::	0
+"mn007"::	There's - there's no::	0
+"mn007"::	low -::	0
+"mn007"::	low-pass processing::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	used as additional feature stream.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	Um::	0
+"me013"::	Do you e- um they mentioned - made some - uh when I was on the phone with Sunil they - they mentioned some::	1
+"me013"::	weighting::	0
+"me013"::	scheme that was used to evaluate all of these numbers.::	1
+"mn007"::	Yeah.::	0
+"mn007"::	Uh actually the way things seems to::	0
+"mn007"::	um well::	1
+"mn007"::	it's uh::	0
+"mn007"::	forty percent for T_I-digit, sixty for::	0
+"mn007"::	all the SpeechDat-Cars, well all these languages.::	1
+"mn007"::	Ehm::	0
+"mn007"::	the well match is forty, medium thirty five and high mismatch twenty-five.::	0
+"mn007"::	Yeah.::	0
+"me013"::	Um and we don't have the T_I-digits part yet?::	1
+"mn007"::	Uh, no.::	0
+"me013"::	O_K.::	0
+"mn007"::	But::	0
+"mn007"::	yeah.::	0
+"mn007"::	Generally what you observe with T_I-digits is that the result are very close::	1
+"mn007"::	whatever the - the system.::	1
+"me013"::	O_K.::	0
+"me013"::	And so::	1
+"mn007"::	Yeah.::	0
+"me013"::	have you::	0
+"me013"::	put all these numbers together::	0
+"me013"::	into a single number representing that? I mean not -::	1
+"mn007"::	Uh not yet. No.::	1
+"me013"::	O_K so that should be pretty easy to do and that would be good - then we could compare the two and say what was better.::	1
+"mn007"::	Mmm yeah, yeah.::	0
+"mn007"::	Mmm.::	0
+"mn007"::	Yeah.::	0
+"me013"::	Um::	0
+"me013"::	and how does this compare::	0
+"me013"::	to the numbers -::	0
+"me013"::	oh so O_G_I two is just the top -::	0
+"fn002"::	Yeah.::	0
+"me013"::	top row?::	0
+"mn007"::	So yeah to -::	0
+"mn007"::	actually O_G_I two is the -::	1
+"mn007"::	the baseline with the O_G_I features::	1
+"mn007"::	but::	1
+"mn007"::	this is not exactly the result that they have::	0
+"mn007"::	because they've - they're still::	0
+"mn007"::	made some changes in the::	0
+"mn007"::	features::	1
+"me013"::	O_K.::	0
+"mn007"::	and - well::	1
+"mn007"::	but::	0
+"mn007"::	uh::	0
+"mn007"::	actually::	0
+"mn007"::	our results are better than their results.::	1
+"mn007"::	Um::	1
+"mn007"::	I don't know by how much because they did not send us the new results::	1
+"me013"::	O_K.  Uh::	1
+"mn007"::	Uh::	0
+"me013"::	O_K so the one - one place::	0
+"me013"::	where it looks like we're messing things up a bit is in the highly mismatched Italian.::	1
+"mn007"::	Yeah. Yeah.::	0
+"me013"::	An-::	0
+"mn007"::	Yeah there is something funny happening here because - yeah.::	0
+"me013"::	Yeah.::	0
+"mn007"::	But there are thirty-six and then::	0
+"mn007"::	sometimes we are - we are - we are around forty-two and::	0
+"me013"::	Now up::	0
+"mn007"::	but::	0
+"me013"::	Uh so::	1
+"me013"::	one of the ideas that you had mentioned last time was having a - a second um silence detection.::	1
+"mn007"::	Yeah. So there are::	0
+"mn007"::	some results here::	0
+"fn002"::	For the Italian. For this one.::	0
+"mn007"::	uh so the::	0
+"mn007"::	third and the fifth line of the table::	0
+"me013"::	So filt is what that is?::	0
+"mn007"::	Filt, yeah::	0
+"fn002"::	Yeah.::	0
+"mn007"::	Um::	1
+"mn007"::	yeah so it seems f- for the - the well match and mismatched condition::	1
+"mn007"::	it's uh::	1
+"mn007"::	it brings something.::	1
+"mn007"::	Uh but::	1
+"mn007"::	uh actually::	0
+"mn007"::	apparently there are - there's no::	0
+"mn007"::	room left for any::	0
+"mn007"::	silence detector::	0
+"mn007"::	at the server side because of the delay.::	1
+"mn007"::	Uh::	0
+"me013"::	Oh we can't do it. Oh O_K.::	1
+"mn007"::	well::	0
+"mn007"::	No.::	1
+"fn002"::	For that - for that we -::	0
+"me013"::	Oh.  Too bad.::	0
+"mn007"::	Uh::	0
+"me013"::	Good idea, but can't do it. O_K.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Except I don't know because they -::	0
+"mn007"::	I think they are still working well.::	0
+"me013"::	Uh-huh.::	0
+"mn007"::	Uh t- two days ago they were still working on this::	0
+"mn007"::	trying to reduce::	0
+"mn007"::	the delay of the silence detector::	0
+"mn007"::	so but::	0
+"mn007"::	yeah if we had time perhaps we could try to find uh::	0
+"mn007"::	some kind of compromise between the delay that's on the handset and on the server side.::	0
+"mn007"::	Perhaps try to reduce the delay on the handset and -::	0
+"mn007"::	but well hmm::	0
+"mn007"::	For the moment they have this large delay on the -::	0
+"mn007"::	the feature computation and::	0
+"me013"::	O_K.::	0
+"me013"::	So::	0
+"mn007"::	so we don't::	0
+"me013"::	Alright so for now at least that's not::	0
+"me013"::	there::	0
+"me013"::	you have some results with low-pass filter cepstrum::	0
+"me013"::	doesn't have a huge effect but it - but it looks like it::	0
+"me013"::	you know maybe could help in a couple places.::	0
+"mn007"::	I th-::	0
+"mn007"::	Yeah.::	0
+"me013"::	Uh little bit.::	0
+"me013"::	Um::	0
+"me013"::	and um::	0
+"me013"::	um::	0
+"me013"::	Yeah::	0
+"me013"::	and uh::	0
+"me013"::	let's see::	0
+"me013"::	What else did we::	0
+"me013"::	have in there? Uh::	0
+"me013"::	I guess it makes a l- um at this point this is::	0
+"me013"::	I - I guess I should probably look at these others a little bit uh::	0
+"me013"::	And you - you yellowed these out uh but uh::	0
+"me013"::	uh::	0
+"me013"::	Oh I see yeah that - that one you can't use because of the delay.::	0
+"me013"::	Those look pretty good.::	0
+"me013"::	Um::	0
+"me013"::	let's see that one::	0
+"me013"::	Well even the - just the - the second row doesn't look that bad right? That's just uh::	0
+"mn007"::	Yep.::	0
+"me013"::	yeah? And - and::	0
+"fn002"::	Mmm yeah.::	0
+"me013"::	that looks like an interesting one too.::	0
+"me013"::	Uh::	0
+"mn007"::	Actually the - yeah the second line is::	0
+"mn007"::	uh::	0
+"mn007"::	pretty much like the first line in yellow::	0
+"mn007"::	except that we don't have this K_L_T on the first - on the left part of the diagram.::	0
+"mn007"::	We just have the features::	0
+"mn007"::	as they are.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	Um::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah so when we do this weighted measure we should compare the two cuz it might even come out better.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	And it's - it's - it's a little - slightly simpler.::	0
+"mn007"::	Yeah.::	0
+"me013"::	So -::	0
+"me013"::	so there's - so I - I would put that one also as a - as a maybe.::	0
+"me013"::	Uh::	0
+"me013"::	and it - yeah and it's::	0
+"me013"::	actually  does - does significantly better on the uh::	0
+"me013"::	uh highly mismatched Italian, so::	0
+"me013"::	s- and little worse on the::	0
+"me013"::	mis- on the M_M case, but::	0
+"me013"::	uh::	0
+"me013"::	Well yeah it's worse than a few things::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	so uh::	0
+"me013"::	let's see how that c- that c- c- see how that comes out on their -::	0
+"me013"::	their measure and - are - are we running this uh for T_I-digits or uh::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Yeah.::	0
+"me013"::	Now is T_I di - is- is that part of the result that they get for the uh development - th- the results that they're supposed to get at the end of - end of the month, the T_I-digits are there also?::	0
+"mn007"::	Yeah.::	0
+"mn007"::	It's included, yeah.::	0
+"me013"::	Oh O_K.::	0
+"me013"::	O_K.::	0
+"me013"::	And see what else there is here.::	0
+"me013"::	Um::	0
+"me013"::	Oh I see - the one - I was looking down here at the - the o- the row below the::	0
+"me013"::	lower yellowed one.::	0
+"me013"::	Uh that's::	0
+"mn007"::	Mm-hmm?::	0
+"me013"::	uh::	0
+"me013"::	that's with the reduced uh K_L_T size -::	0
+"mn007"::	Yeah.::	0
+"me013"::	reduced dimensionality.::	0
+"mn007"::	Yeah.::	0
+"me013"::	What happens there::	0
+"me013"::	is it's around the same::	0
+"me013"::	and so you could reduce the dimension as you were saying::	0
+"me013"::	before a bit perhaps.::	0
+"mn007"::	Yeah, it's - it's significantly worse well but - Mm-hmm.::	0
+"me013"::	It's significantly worse - it's -::	0
+"mn007"::	Exc- except for the H_M::	0
+"me013"::	it's uh::	0
+"fn002"::	For many a mismatch it's worse.::	0
+"mn007"::	but::	0
+"me013"::	it's - it's mostly worse.::	0
+"me013"::	Yeah.::	0
+"me013"::	But it is little. I mean::	0
+"me013"::	not - not by a huge amount, I don't know.::	0
+"me013"::	What are - what are the sizes of any of these sets, I - I'm - I'm sure you told me before, but I've forgotten.::	0
+"me013"::	So - you know how many words::	1
+"mn007"::	Uh::	0
+"me013"::	are in::	0
+"me013"::	uh one of these test sets?::	1
+"fn002"::	I don't remember.::	0
+"mn007"::	Um::	1
+"me013"::	About?::	0
+"mn007"::	it's -::	0
+"mn007"::	it depends - well -::	0
+"mn007"::	the well matched is generally larger::	0
+"mn007"::	than the other sets::	1
+"mn007"::	and I think it's around::	0
+"fn002"::	Ye-::	0
+"mn007"::	two thousand or three thousand words perhaps, at least.::	0
+"fn002"::	But words -::	0
+"mn007"::	Hmm?::	0
+"fn002"::	well word - I don't know.::	0
+"mn007"::	The words, yeah.::	0
+"fn002"::	Sentences.::	0
+"mn007"::	S- sentences.::	0
+"mn007"::	Some sets have five hundred sentences,::	0
+"mn007"::	so.::	0
+"fn002"::	Yeah.::	0
+"mn007"::	Mmm.::	0
+"me013"::	So the - so the sets - so the test sets are between five hundred and two thousand sentences, let's say::	0
+"me013"::	and each sentence on the average has four or five digits or is it - most of them longer or::	0
+"fn002"::	Yeah for the Italian::	0
+"mn007"::	Yeah.::	0
+"mn007"::	It - it d-::	0
+"fn002"::	even seven digits y- more or less but sometime::	0
+"mn007"::	Seven digits.::	0
+"fn002"::	the sentence have only one digit and sometime::	0
+"fn002"::	uh like uh the number of uh credit cards, something like that.::	0
+"me013"::	Mm-hmm.::	0
+"me013"::	Right, so between one and sixteen. See the - I mean the reason I'm asking is - is - is we have all these small differences and I don't know::	1
+"mn007"::	Mm-hmm?::	0
+"me013"::	how seriously to take them, right? So::	1
+"mn007"::	Yeah.::	0
+"me013"::	uh i- if - if you had uh just::	0
+"me013"::	you know - to give an example, if you had uh::	0
+"me013"::	um::	0
+"me013"::	if you had a thousand words::	0
+"me013"::	then uh a - a tenth of a percent would just be one word, right? So - so it wouldn't mean anything.::	1
+"fn002"::	Yeah.::	0
+"mn007"::	Yeah.::	0
+"me013"::	Oh  - um::	1
+"me013"::	so um::	0
+"me013"::	yeah it be kind of - I'd kind of like to know what the::	0
+"me013"::	sizes of these test sets were actually.::	1
+"fn002"::	The size that we have?::	0
+"mn007"::	Yeah. We could - we could run - run some kind of significance tests or::	0
+"me013"::	Yeah since these -::	0
+"me013"::	well also just to know the numbers, right. So these - these are word error rates so this is on how many words.::	1
+"fn002"::	Yeah.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Yep.::	0
+"fn002"::	Yeah we have the result that the output of the H_T_K::	0
+"me013"::	Yeah.::	0
+"fn002"::	The number of -::	0
+"fn002"::	of sentences, no it's the number isn't.::	0
+"mn007"::	Yeah sure - sure. Yeah sure. Yeah.::	0
+"me013"::	Yeah so anyway if you could just mail out what those numbers are and then - then - that - that be great.::	1
+"fn002"::	Yeah.::	0
+"me013"::	Um::	0
+"me013"::	what else is there here?::	0
+"me013"::	Um see the second -::	0
+"me013"::	second from the bottom it says S_I_L, but this is some different kind of silence or thing or -::	0
+"me013"::	what was that?::	0
+"mn007"::	Uh::	0
+"fn002"::	It the -::	0
+"fn002"::	the output silence of the M_L_P.::	0
+"mn007"::	Oh yeah I see.::	0
+"fn002"::	It's only one small experiment to know what happened.::	1
+"fn002"::	To apply::	1
+"fn002"::	also to in- include also the -::	0
+"fn002"::	the silence of the M_L_P we have the fifty-six form and the silence to pick up the silence and we include those.::	1
+"me013"::	Yes.::	0
+"me013"::	Uh-huh, uh-huh.::	0
+"me013"::	The silence plus the K_L_T output?::	1
+"me013"::	Oh so you're only using the silence.::	0
+"mn007"::	Yeah.::	0
+"fn002"::	Yeah, because when we apply::	0
+"fn002"::	the K_L_T::	0
+"mn007"::	No they're - I think there is this silence in addition to the um K_L_T outputs it is because we - we - we just keep::	1
+"me013"::	No.::	1
+"fn002"::	in addition, yes. In addition t-::	0
+"mn007"::	uh we don't keep all the dimensions after the K_L_T::	1
+"mn007"::	and - yeah.::	0
+"fn002"::	and we not s- we are not sure if we pick - we have the silence.::	1
+"mn007"::	So::	1
+"mn007"::	we try to add the silence also in addition to the - these twenty-eight::	0
+"mn007"::	dimensions.::	1
+"me013"::	I see.::	0
+"me013"::	O_K.::	0
+"me013"::	And what - and what's O_G_I forty-five?::	0
+"mn007"::	Uh it's o- it's O_G_I two, it's - so the - th- it's the features from the first line::	0
+"me013"::	The bottom one there?::	0
+"fn002"::	It's in fact O_G_I two.::	0
+"mn007"::	and - yeah.::	0
+"me013"::	S-::	0
+"me013"::	Right, but I mean what's the - what does the last row mean?::	0
+"mn007"::	So it's uh basically this but without the K_L_T::	0
+"mn007"::	on the - from the left path.::	0
+"me013"::	I thought that was the one - I thought that was the second row.::	0
+"me013"::	So what's the difference between the second::	0
+"mn007"::	Uh the second line you don't have this combo stuff so you just::	0
+"mn007"::	uh::	0
+"me013"::	Oh.::	0
+"me013"::	So this is like the second line but with - with the combo stuff.::	0
+"mn007"::	Yeah.::	0
+"fn002"::	And with the - all the output of the combo.::	0
+"mn007"::	Yeah.::	0
+"me013"::	O_K.::	0
+"fn002"::	Uh::	0
+"mn007"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"me013"::	O_K, so -::	0
+"me013"::	alright so it looks to me -::	1
+"me013"::	I guess the same -::	1
+"me013"::	given that we have to take the filt ones out of the - the running because of this delay problem -::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	so it looks to me like the ones you said::	0
+"me013"::	I agree are - are the ones to look at but I just would add the -::	1
+"me013"::	the - the second row one::	1
+"mn007"::	Yeah.::	0
+"mn007"::	Mmm.::	0
+"me013"::	and then um if we can um::	0
+"me013"::	oh yeah also::	0
+"me013"::	when -::	0
+"me013"::	when they're using this weighting scheme of forty, thirty-five, twenty-five::	0
+"me013"::	is that on the percentages or on the raw errors? I guess::	0
+"mn007"::	Uh::	0
+"me013"::	it's probably on the percentages right?::	0
+"mn007"::	I guess, yeah.::	0
+"me013"::	Yeah O_K.::	0
+"mn007"::	I guess, yeah. Mmm.::	0
+"me013"::	Alright.::	0
+"mn007"::	It's not clear here.::	0
+"me013"::	O_K.  Maybe - maybe they'll argue about it.::	0
+"me013"::	Um::	0
+"me013"::	O_K so if we can know what - how many words are in each and then um Dave uh::	1
+"me013"::	Dave promised to get us something tomorrow::	0
+"me013"::	which will be there::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	as far as they've gotten  Friday and then we'll operate with that and::	1
+"mn007"::	Yeah.::	0
+"me013"::	uh how long did it::	0
+"me013"::	I guess if we're not doing all these things - if we're only doing::	0
+"me013"::	um::	0
+"me013"::	um::	0
+"me013"::	I guess since this is development data it's legitimate::	0
+"me013"::	to do more than one, right?::	0
+"mn007"::	Yeah.::	0
+"me013"::	I mean ordinarily if - in final test data you don't want to do::	0
+"me013"::	several::	0
+"me013"::	and - and take the best that's - that's -::	0
+"mn007"::	Mmm.::	0
+"me013"::	that's not proper but if this is development data we could still::	0
+"me013"::	look at a couple.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	We can - yeah. Sure. But::	0
+"mn007"::	we have to decide - I mean we have to fix the system::	0
+"mn007"::	on this d- on this data, to choose the best and::	0
+"me013"::	Yeah.::	0
+"me013"::	I-::	0
+"me013"::	Right.::	0
+"mn007"::	these::	0
+"me013"::	But the question is when - when do we fix the system, do we fix the system uh tomorrow or do we fix the system on Tuesday?::	1
+"mn007"::	But we could::	0
+"mn007"::	it d-::	0
+"me013"::	I -::	1
+"mn007"::	I think we fixed on Tuesday, yeah. Yeah. Mm-hmm.::	1
+"me013"::	Yeah, O_K except that we do have to write it up.  Also, so::	1
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Yeah.::	0
+"me013"::	Um::	0
+"mn007"::	Uh yeah well.::	0
+"mn007"::	Well basically it's this with::	0
+"mn007"::	perhaps some kind of printing and some - some other  @@ .::	0
+"me013"::	Right so maybe what we do is we - we - we uh as soon as we get the data from them::	1
+"mn007"::	Yeah but::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	we start the training and so forth but we start the write-up right away::	1
+"me013"::	because as you say there - there's only minor differences between these.::	1
+"mn007"::	I think you - we could - we could start soon, yeah.::	1
+"me013"::	Yeah.::	0
+"mn007"::	Write up something.::	1
+"me013"::	Yeah, and -::	1
+"mn007"::	Um yeah. Mm-hmm.::	0
+"me013"::	and I - I would - you know, I would - I'd kind of like to see it maybe I can - I can edit it a bit::	1
+"me013"::	uh sure.::	0
+"me013"::	The - my - what in this si- i- in this situation is my forte which is English.::	0
+"mn007"::	Yeah.::	0
+"me013"::	Uh::	0
+"me013"::	so::	0
+"mn007"::	Mmm.::	0
+"me013"::	uh::	0
+"me013"::	H- yeah. Have y- have you seen alt- d- do they have a format for how they want the system descriptions or anything?::	0
+"mn007"::	Uh not really.::	0
+"me013"::	O_K.::	0
+"mn007"::	Um::	0
+"mn007"::	There is the format of the table which is::	0
+"mn007"::	quite impressive.::	0
+"me013"::	Yeah?::	0
+"me013"::	Uh::	0
+"me013"::	I see.::	0
+"me013"::	Yes, for those who are listening to this and not looking at it uh it's not really that impressive, it's just tiny.::	0
+"me013"::	It's all these little categories::	0
+"me013"::	set a, set b, set c, multi-condition, clean.::	0
+"me013"::	Uh::	0
+"me013"::	No mitigation.::	0
+"me013"::	Wow.::	0
+"me013"::	Do you know what no - what no mitigation means  here ?::	0
+"mn007"::	Um::	0
+"mn007"::	it should be the::	0
+"mn007"::	the problem with the error - channel error or::	0
+"me013"::	Oh that's probably the -::	0
+"me013"::	this is probably channel error stuff huh? Oh this is i- right, it says right above here  channel   - channel error resilience, yeah.::	0
+"mn007"::	well, you -::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Yeah.::	0
+"me013"::	So recognition performance is just the top part, actually.::	0
+"me013"::	Uh::	0
+"me013"::	and they have - yes, split between seen databases and non-seen so basically between development and - and evaluation.::	0
+"mn007"::	Yeah.::	0
+"me013"::	And  so -::	0
+"me013"::	right, it's presumed there's all sorts of::	0
+"me013"::	tuning that's gone on on the::	0
+"me013"::	see- what they call seen databases and::	0
+"me013"::	there won't be tuning for the uh unseen.::	0
+"me013"::	Multi-condition - multi-condition.::	0
+"me013"::	So they have - looks like they have::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	uh::	0
+"me013"::	uh::	0
+"me013"::	so they splitting up between the T_I-digits and everything else, I see.::	0
+"me013"::	So the everything else is the SpeechDat-Car, that's the::	0
+"mn007"::	Yeah, so it's not divided between languages you mean or -::	0
+"me013"::	multi- multilingual::	0
+"me013"::	Well, it is. It is, but there's also - there's these tables over here for the - for the T_I-digits and these tables over here for the car::	0
+"mn007"::	it just::	0
+"mn007"::	Oh yeah.::	0
+"me013"::	data which is - which is I guess all the multilingual stuff::	0
+"me013"::	and then uh there's -::	0
+"mn007"::	Yeah.::	0
+"me013"::	they also split up between multi-condition and clean only.::	0
+"mn007"::	For T_I-digits.::	0
+"me013"::	Yes.::	0
+"mn007"::	Yeah, actually yeah. For the T_I-digits they want to train::	0
+"mn007"::	on clean::	0
+"mn007"::	and on noisy::	0
+"me013"::	Yeah.::	0
+"mn007"::	and - yeah.::	0
+"me013"::	So we're doing that also, I guess.::	0
+"mn007"::	Uh yeah.::	0
+"mn007"::	But::	0
+"mn007"::	uh we::	0
+"mn007"::	actually -::	0
+"mn007"::	do we have the features? Yeah. For the clean T_I-digits but we did not test it yet.::	0
+"mn007"::	Uh the clean training stuff.::	0
+"me013"::	O_K.::	0
+"mn007"::	Mmm.::	0
+"me013"::	Well anyway, sounds like there'll be a lot to do just to  work with our partners to fill out the tables  over the next uh::	1
+"mn007"::	Mm-hmm.::	0
+"fn002"::	Yes.::	0
+"me013"::	next few days I guess they have to send it out -::	1
+"me013"::	let's see the thirty-first is uh::	0
+"me013"::	uh Wednesday and I think the - it has to be there by some::	0
+"me013"::	hour::	0
+"me013"::	uh European time on Wednesday so  I think basically::	0
+"mn007"::	Hmm-hmm.::	0
+"fn002"::	We lost time uh Wednesday maybe because::	0
+"me013"::	E- excuse me?::	0
+"fn002"::	that the difference in the time may be -::	0
+"fn002"::	is  a long  different of the time.::	0
+"fn002"::	Maybe the Thursday::	0
+"fn002"::	the twelfth of the night of the Thurs- thirty-one::	0
+"fn002"::	is -::	0
+"fn002"::	is not valid in Europe.  We don't know is happening.::	0
+"mn007"::	Yeah.::	0
+"me013"::	Yes, so I mean - I think we have to actually get it done Tuesday  right because I - I think::	1
+"fn002"::	Tuesday.::	0
+"mn007"::	Yeah, well.::	0
+"mn007"::	Except if - if it's the thirty-one at midnight or I don't know -::	0
+"me013"::	uh::	0
+"mn007"::	we can  still::	0
+"mn007"::	do some work on Wednesday morning.::	0
+"me013"::	Uh yeah well.::	0
+"mn007"::	Yeah, well.::	0
+"me013"::	W- i- is but is - is it midni- I thought it was actually something like five P_M::	0
+"mn007"::	Yeah.::	0
+"fn002"::	Yeah.::	0
+"me013"::	on -::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	was like - I thought it was five P_M or something, I didn't think it was midnight. I thought they said they wanted everything by::	0
+"fn002"::	Yeah, five P_M.::	0
+"me013"::	well, so five P_M::	0
+"me013"::	their time::	0
+"me013"::	is - is - if::	0
+"fn002"::	Not five P_M, three P_M.::	0
+"me013"::	three P_M.::	0
+"fn002"::	Three P_M.::	0
+"me013"::	Alright, that's six in the morning here.::	0
+"mn007"::	It's d-::	0
+"fn002"::	Uh no::	0
+"mn007"::	no.::	0
+"fn002"::	three - three A_- three P_M?::	0
+"mn007"::	No, we are wondering about the - the - the hour::	0
+"mn007"::	that we have to::	0
+"fn002"::	Oh yeah, yeah, yeah, yeah.::	0
+"mn007"::	eh I don't know if it's three P_M - it's::	0
+"fn002"::	Three P_M here is in Europe midnight.::	0
+"mn007"::	Yeah, it's - it's midnight but::	0
+"me013"::	Yes, yes, but I didn't think it was midnight that it was due, I thought it was due at some hour during the day like five P_M or something.::	0
+"fn002"::	Oh O_K.::	0
+"fn002"::	Mm-hmm.::	0
+"fn002"::	Mm-hmm, maybe.::	0
+"me013"::	In which case::	0
+"me013"::	so I - I - uh well we should look but my assumption is that we basically have to be done Tuesday.  Um::	1
+"fn002"::	Yeah.::	0
+"me013"::	so then next Thursday we can sort of have a::	0
+"me013"::	little aftermath but then - then we'll actually have the new data which is the German and the Danish::	1
+"mn007"::	Yeah.::	0
+"me013"::	but that really will be much less work because::	0
+"me013"::	uh the system will be fixed::	0
+"mn007"::	Yeah.::	0
+"me013"::	so all we'll do is::	0
+"me013"::	take whatever  they have and -::	0
+"mn007"::	Yeah.::	0
+"me013"::	and uh and run it through the process. Uh we won't be changing the training on anything::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	so there'll be no new training, there'll just be new H_T_K runs, so that's::	0
+"me013"::	means in some sense we::	0
+"me013"::	can kind of relax from this after -::	0
+"me013"::	after Tuesday and -::	1
+"me013"::	and uh::	0
+"me013"::	maybe next meeting we can start talking a little bit about where we want to go from here uh in terms of::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	uh the research.::	1
+"me013"::	Um::	1
+"me013"::	you know what things::	0
+"me013"::	uh did you think of when you were::	0
+"me013"::	uh doing this process that uh you just didn't really have time to adequately::	0
+"me013"::	work on uh::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	uh::	0
+"mn007"::	Yeah.::	0
+"me013"::	so::	0
+"me013"::	What?::	0
+"me006"::	Oh, Stephane always has these great ideas and -::	0
+"mn007"::	Sure.::	0
+"me006"::	oh, but uh we don't have time.::	0
+"me013"::	Yeah.::	0
+"me006"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"mn007"::	I'm not sure these are great ideas.::	0
+"me013"::	But they're ideas.::	0
+"me013"::	Yeah?::	0
+"mn007"::	Yeah.::	0
+"me013"::	Oh, that was good. And - and uh also it's still true that uh::	0
+"me006"::	Yeah.::	0
+"mn007"::	But::	0
+"me013"::	I think it's true that - that we - we at least got fairly consistent::	0
+"me013"::	i- improved::	0
+"me013"::	results::	0
+"me013"::	by running uh the uh neural net transformation in parallel with the features rather than::	0
+"me013"::	uh in sequence which was - was your suggestion and that - that - that seems to have been borne out.::	0
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	The fact that none of these are - are - you know, enormous is - is -::	0
+"me013"::	is not::	0
+"me013"::	too surprising - most improvements aren't enormous and::	0
+"mn007"::	Yeah.::	0
+"me013"::	uh some of them are::	0
+"me013"::	but uh::	0
+"me013"::	I mean you have something really really wrong  and you fix it  you can get big and really enormous improvements but::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	uh::	0
+"me013"::	um::	0
+"me013"::	Cuz our best improvements over the years that we've gotten from::	0
+"me013"::	finding bugs, but::	0
+"me013"::	Anyway::	0
+"me013"::	O_K well I - I think - I see where we are and everybody knows what they're doing and is there - is there anything else we should talk about or - or - are we done?::	0
+"mn007"::	Mm-hmm.::	0
+"mn007"::	I think it's O_K um.::	0
+"mn007"::	We::	0
+"mn007"::	so basically we will - I think we'll try to -::	1
+"mn007"::	to focus on these three::	0
+"mn007"::	architectures and -::	1
+"mn007"::	and perhaps I was thinking also a fourth one with::	0
+"mn007"::	just - just a single K_L_T because we did not really test that -::	1
+"mn007"::	removing all these K_L_T's and::	0
+"me013"::	Uh-huh.::	0
+"mn007"::	putting one single K_L_T at the end.::	0
+"me013"::	Yeah, I mean that would be pretty::	1
+"me013"::	low maintenance to try it.::	1
+"mn007"::	Yeah.::	0
+"me013"::	Uh if you can fit it in.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	Oh I have - yeah I do have one other piece of information which uh::	0
+"me013"::	I should tell people outside of this group too uh::	0
+"me013"::	I don't know if we're gonna need it::	0
+"me013"::	uh but::	0
+"me013"::	uh Jeff up at the::	0
+"me013"::	uh University of Washington::	0
+"me013"::	has uh gotten a hold of a uh uh some kind of server farm of uh::	0
+"me013"::	of ten uh uh multiprocessor uh I_B_M machines R_S six thousands::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	and - and uh so I think each one is four processors or something or - I don't know, eight hundred megahertz or something and::	0
+"me013"::	there's four processors in a box and there's ten boxes and there's some kind of ti- so if - you know he's got a lot of processing power::	0
+"me013"::	and um we'd have to schedule it but if we have some big jobs and we wanna -::	0
+"me013"::	wanna - wanna run them he's -::	0
+"me013"::	he's offering it.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	So.::	0
+"me013"::	It's uh::	0
+"me013"::	when he was here eh uh he - he used i- not only every machine here but every machine on campus as far as I could tell, so -  so in some ways he just got his payback, but::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	uh::	0
+"me013"::	again I - I don't know if we'll end up with -::	0
+"me013"::	if we're gonna be C_P_U limited on anything that we're doing in this group but - but if - if we are::	0
+"me013"::	that's an offer.::	0
+"me013"::	O_K well uh::	0
+"me013"::	you guys doing great stuff so that's - that - that's really neat and uh::	0
+"me013"::	we'll uh::	0
+"me013"::	uh g- don't think we need to uh::	0
+"me013"::	um::	1
+"me013"::	Oh well the other thing I guess that I will say::	0
+"me013"::	is that uh the digits that we're gonna record momentarily::	0
+"me013"::	is starting to get - are starting to get into a pretty good size collection::	1
+"me013"::	and um in addition to the SpeechDat stuff we will have those to work with::	1
+"me013"::	really pretty soon now so that's - that's another::	1
+"me013"::	source of data.::	1
+"me013"::	Um::	0
+"me013"::	which is::	0
+"me013"::	s- under somewhat better control and that we can - we can make measurements of the room the - uh that - you know if we feel there's other measurements we don't have that we'd like to have we can make them and::	0
+"me013"::	uh Dave and I were just talking about that a little while ago::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	so::	0
+"me013"::	uh that's::	0
+"me013"::	another -::	0
+"me013"::	another possibility for this - this kind of work.::	0
+"me013"::	K, uh if nobody has anything else maybe we should go around do - do our digits -::	0
+"me013"::	do our digits duty.::	0
+"me013"::	O_K.::	0
+"me013"::	O_K I'll start.::	0
+"me013"::	Uh, let me say that again.::	0
+"me013"::	O_K. I guess we're done.::	0

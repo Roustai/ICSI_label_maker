@@ -1,0 +1,1278 @@
+"me018"::	O_K, we're going.::	0
+"mn007"::	Damn .::	0
+"me013"::	And uh Hans- uh, Hans-Guenter will be here, um, I think by next - next Tuesday or so.::	0
+"mn007"::	Mm-hmm.::	0
+"mn052"::	Oh, O_K.::	0
+"me013"::	So he's - he's going to be here for about three weeks, and, uh -::	0
+"mn052"::	Oh! That's nice.::	0
+"me018"::	Just for a visit?::	0
+"me013"::	Uh, we'll see.::	0
+"me018"::	Huh.::	0
+"me013"::	We might - might end up with some longer collaboration or something. So he's gonna look in on everything we're doing and::	1
+"me018"::	Cool.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	give us his - his thoughts. And so it'll be another - another good person looking at things.::	1
+"mn052"::	Oh. Hmm.::	0
+"me026"::	Th- that's his spectral subtraction group? Is that right?::	1
+"me013"::	Yeah, yeah.::	0
+"me026"::	Oh, O_K. So I guess I should probably talk to him a bit too?::	0
+"me013"::	Oh, yeah. Yeah.::	1
+"me013"::	Yeah. No, he'll be around for three weeks. He's, uh, um, very, very, easygoing, easy to talk to, and, uh, very interested in everything.::	0
+"me018"::	Really nice guy.::	0
+"me013"::	Yeah, yeah.::	0
+"mn052"::	Yeah, we met him in Amsterdam.::	0
+"me013"::	Yeah, yeah, he's been here before. I mean, he's - he's - he's - he's -::	0
+"mn052"::	Oh, O_K.  I haven't noticed him.::	0
+"me018"::	Wh- Back when  I  was a grad student he was here for a, uh, uh - a  year  or::	0
+"me018"::	n- six months.  Something like that.::	0
+"me013"::	N- nine months.  Something  like that. Yeah.::	0
+"me018"::	Yeah.::	0
+"me013"::	Yeah. He's - he's done a couple stays here. Yeah.::	0
+"mn052"::	Hmm.::	0
+"me018"::	So, um,   I guess we got lots to catch up on. And we haven't met for a couple of weeks. We didn't meet last week, Morgan.::	1
+"me018"::	Um, I went around and talked to everybody, and it seemed like they - they had some new results but rather than them::	0
+"me018"::	coming up and telling me I figured we should just wait a week and they can tell both - you know, all of us.::	0
+"me018"::	So, um,::	0
+"me018"::	why don't we - why don't we start with  you,  Dave, and then, um, we can go on. So.::	0
+"me026"::	Oh, O_K.::	0
+"me026"::	So, um, since we're looking at putting this, um -::	1
+"me026"::	mean log m- magnitude spectral subtraction, um, into the SmartKom system,::	0
+"me026"::	I- I did a test seeing if, um, it would work using past  only   and plus the present to calculate the mean. So, I did a test, um,::	1
+"me026"::	where I used twelve seconds from the past and the present frame to, um, calculate the mean.  And -::	1
+"me018"::	Twelve seconds -::	0
+"me018"::	Twelve - twelve seconds back from the current  frame, is that what you mean?::	0
+"me026"::	Uh -::	0
+"me026"::	Twelve seconds, um, counting back from the end of the current frame, yeah. So it was, um, twen- I think it was twenty-one frames and that worked out to about twelve seconds.::	1
+"me018"::	O_K, O_K.::	0
+"me018"::	Mm-hmm.::	0
+"me026"::	And compared to, um, do- using a twelve second  centered  window, I think there was a drop in performance  but it was just a slight drop.::	1
+"me013"::	Mm-hmm.::	0
+"me018"::	Hmm!::	0
+"me026"::	Is - is that right?::	0
+"me013"::	Um, yeah, I mean, it was pretty - it was pretty tiny. Yeah.::	0
+"me026"::	Uh-huh.::	0
+"me026"::	So  that  was encouraging. And, um,::	0
+"me026"::	that - that - um, that's encouraging for - for the idea of using it in an interactive system like SmartKom.::	0
+"me026"::	And, um, another issue I'm - I'm thinking about is in the SmartKom system. So say twe- twelve seconds in the earlier test seemed like a good length of time, but what happens if you have less than twelve seconds?::	1
+"me026"::	And, um -::	0
+"me026"::	So I w- bef- before, um - Back in  May,  I did some experiments using, say,  two  seconds, or  four  seconds, or  six  seconds.::	1
+"me026"::	In those I  trained  the  models  using mean subtraction with the means calculated over  two  seconds, or  four  seconds, or  six  seconds. And, um,::	1
+"me026"::	here,  I was curious, what if I trained the models using  twelve  seconds but I f- I gave it a situation where the  test  set I was - subtracted using two seconds, or four seconds, or six seconds. And, um -::	1
+"me026"::	So I did that for about three different conditions. And, um -::	0
+"me026"::	I mean, I th- I think it was, um, four se-::	0
+"me026"::	I think - I think it was, um, something like four seconds and,::	0
+"me026"::	um, six seconds, and eight seconds. Something like that. And it seems like it - it - it  hurts  compared to if you actually train the models  using th- that same length of time  but it - it doesn't hurt that much. Um,::	1
+"me026"::	u- usually less than point five percent, although I think I did see  one  where it was a point eight percent or so rise in word error rate.  But this is, um,::	0
+"me026"::	w- where, um, even if I train on the, uh, model, and mean subtracted it with the same::	0
+"me026"::	length of time as in the test, it - the word error rate is around, um, ten percent or nine percent. So it doesn't seem like that big a d- a difference.::	0
+"me013"::	But it - but looking at it the  other  way, isn't it - what you're saying that it didn't  help  you to have the longer time for  training,   if you were going to have a short time for -::	0
+"me026"::	That - that's true. Um,::	0
+"me013"::	I mean,  why  would you  do  it, if you knew that you were going to have short windows in testing.::	1
+"me026"::	Wa-::	0
+"me018"::	Yeah, it  seems  like for your -  I mean , in normal situations you would never get twelve seconds of  speech,  right?::	1
+"mn052"::	You need twelve seconds in the past to estimate, right?::	0
+"me018"::	I'm not - e- u-::	0
+"me026"::	Um, t- twelve s-::	0
+"me013"::	Yeah.::	0
+"mn052"::	Or l- or you're looking at six sec - seconds in  future  and six in -::	0
+"me026"::	N- n- uh - For the  test  it's just twelve seconds in the  past.::	0
+"me013"::	No,  total.::	0
+"mn052"::	No, it's all -::	0
+"mn052"::	Oh, O_K.::	0
+"me018"::	Is this twelve seconds of - uh, regardless of speech or silence? Or twelve seconds of  speech?::	0
+"me026"::	Of - of speech.::	0
+"me018"::	O_K.::	0
+"mn052"::	Mm-hmm.::	0
+"me013"::	The  other  thing, um, which maybe relates a little bit to something else we've talked about in terms of  windowing  and so on is,::	0
+"me013"::	that, um, I wonder if you trained with twelve seconds, and then when you were  two  seconds in::	0
+"me013"::	you used  two  seconds, and when you were  four  seconds in, you used  four  seconds, and when you were six - and you basically build up to the twelve seconds. So that if you have very  long  utterances you have the best,::	1
+"me026"::	Yeah.::	0
+"me013"::	but if you have shorter  utterances   you use what you  can.::	0
+"me026"::	Right. And that's actually what we're planning to do in SmartKom.::	1
+"me013"::	O_K.::	0
+"me026"::	But - s- so I g- So I guess the que- the question I was trying to get at with those experiments is,::	0
+"me013"::	Yeah.::	0
+"me026"::	"does it matter what  models  you use? Does it matter how much time y- you use to calculate the mean when you were, um, tra- doing the  training  data?"::	0
+"me013"::	Right.::	0
+"me013"::	But I mean the other thing is that that's - I mean, the other way of looking at this, going back to, uh, mean cepstral subtraction versus RASTA kind of things, is that you could look at::	0
+"me013"::	mean cepstral subtraction, especially the way  you're  doing it, uh, as being a kind of filter.::	0
+"me013"::	And so, the other thing is just to design a  filter.::	0
+"me013"::	You know, basically you're - you're - you're doing a high-pass filter or a band-pass filter of some sort and - and just design a  filter.::	0
+"me013"::	And then, you know, a filter will have a certain behavior and you loo- can look at the start up behavior::	0
+"me026"::	Mm-hmm.::	0
+"me013"::	when you start up with nothing. And - and, you know, it will, uh, if you have an I_I_R filter for instance, it will, um,::	0
+"me013"::	uh, not behave in the steady-state way that you would like it to behave until you get a long enough  period,  but, um,::	0
+"me013"::	uh, by just constraining yourself to have your filter be only a subtraction of the mean, you're kind of, you know, tying your hands behind your back because there's -::	0
+"me013"::	filters have all sorts of be- temporal and spectral behaviors.::	0
+"me026"::	Mm-hmm.::	0
+"me013"::	And the only thing, you know,  consistent  that we know about is that you want to get rid of the very low frequency  component.::	0
+"me026"::	Hmm.::	0
+"mn052"::	But do you really want to calculate the mean?  And  you neglect all the silence  regions   or you just use everything that's twelve seconds, and -::	0
+"me026"::	Um,::	0
+"me026"::	you - do you mean in my tests so far?::	0
+"mn052"::	Ye- yeah.::	0
+"me026"::	Most of the silence has been cut out.::	0
+"mn052"::	O_K.::	0
+"me026"::	Just - There's just inter-word silences.::	0
+"mn052"::	Mm-hmm. And they are, like, pretty short. Shor- Yeah, O_K. Yeah.::	0
+"me026"::	Pretty short. Yeah.::	0
+"mn052"::	Mm-hmm.::	0
+"mn052"::	So you really need a lot of speech to estimate the mean of it.::	0
+"me026"::	Well, if I only use six seconds, it still works pretty well.::	0
+"mn052"::	Yeah.::	0
+"mn052"::	Yeah.::	0
+"mn052"::	Uh-huh.::	0
+"me026"::	I saw in my test before.::	0
+"me026"::	I was  trying  twelve seconds cuz that was the  best   in my test before and  that  increasing past twelve seconds didn't seem to help.::	0
+"mn052"::	O_K.::	0
+"mn052"::	Hmm.::	0
+"mn052"::	Huh.::	0
+"me026"::	th- um, yeah, I guess it's something I need to play with more to decide how to set that up for the SmartKom system. Like,::	0
+"me026"::	may- maybe if I trained on six seconds it would work better when I only had::	0
+"me026"::	two seconds or four seconds, and -::	0
+"me013"::	Yeah. Yeah. And, um -::	0
+"me026"::	O_K.::	0
+"me013"::	Yeah, and again, if you take this  filtering  perspective and if you::	0
+"me013"::	essentially have it build up over time. I mean, if you computed means over two and then over four, and over six, essentially what you're getting at is a kind of,::	0
+"me013"::	uh, ramp up of a filter anyway. And so you may - may just want to  think  of it as a filter. But, uh, if you  do  that,::	0
+"me013"::	then, um, in  practice  somebody using the SmartKom system, one would  think   - if they're using it for a while,::	0
+"me013"::	it means that their  first  utterance, instead of, you know, getting, uh, a forty percent error rate reduction, they'll get a - uh, over what, uh, you'd get without this, uh, um, policy,::	0
+"me013"::	uh, you get  thirty  percent. And then the  second  utterance that you give, they get the  full  - you know, uh,  full  benefit of it if it's this ongoing thing.::	0
+"me018"::	Oh, so you - you cache the utterances? That's how you get your, uh -::	0
+"me026"::	M-::	0
+"me013"::	Well, I'm saying in  practice,  yeah, that's - If somebody's using a system to ask for directions or something,::	0
+"me018"::	Ah.  O_K.::	0
+"me018"::	O_K.::	0
+"me013"::	you know, they'll say something first. And - and to  begin  with if it doesn't get them quite right, ma- m- maybe they'll come back and say, "excuse me?" uh, or some - I mean it  should  have some policy like that  anyway.::	0
+"me018"::	Mm-hmm.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	And - and, uh,::	0
+"me013"::	uh, in any event they might ask a second question. And it's not like what he's doing doesn't, uh,  improve  things. It  does   improve  things, just not as much as he would  like.::	0
+"me013"::	And so, uh, there's a higher probability of it making an  error,::	0
+"me013"::	uh, in the first  utterance.::	0
+"me018"::	What would be  really  cool is if you could have -::	0
+"me018"::	uh, this probably - users would never  like  this - but if you had -::	0
+"me018"::	could have a system where,  before they began to use it they had to introduce themselves,::	0
+"me013"::	Mm-hmm.::	0
+"me018"::	verbally.  You know. "Hi, my name is so-and-so, I'm from blah-blah-blah." And you could use that initial speech to do all these::	0
+"me013"::	Yeah.::	0
+"me018"::	adaptations and -::	0
+"me026"::	Mm-hmm.::	0
+"me013"::	Right.::	0
+"me013"::	Oh, the  other  thing I guess which - which, uh,::	0
+"me013"::	I don't know much about - as much as I  should  about the rest of the  system  but - but, um,::	1
+"me013"::	couldn't you, uh,::	0
+"me013"::	if you - if you sort of did a first pass  - I don't know what kind of, uh,::	0
+"me013"::	uh, capability we have at the moment for - for doing second passes on - on, uh,::	0
+"me013"::	uh, some kind of little - small lattice, or a graph, or confusion network, or something. But if you did first pass with, um,::	1
+"me013"::	the - with - either without the mean sub- subtraction or with a - a very short time one,::	1
+"me013"::	and then, um, once you, uh, actually had the whole  utterance  in,::	1
+"me013"::	if you did, um,::	0
+"me013"::	the, uh, uh,  longer  time version  then,  based on everything that you  had,  um, and then at that point  only  used it to distinguish between,::	0
+"me013"::	you know, top N_, um, possible utterances or something,::	0
+"me013"::	you - you might - it might not take very much  time.::	1
+"me013"::	I mean, I know in the large vocabulary stu- uh, uh, systems, people were evaluating on in the past,::	1
+"me013"::	some people really pushed everything in to make it in one pass but other people  didn't  and had  multiple  passes.::	1
+"me013"::	And, um,::	0
+"me013"::	the argument, um, against multiple passes was u- u- has often been "but we want to this to be r- you know - have a nice interactive response".::	1
+"me013"::	And the counterargument to that which, say, uh, B_B_N I think had,  was "yeah, but our  second  responses are -  second,  uh, passes and third passes are  really,  really fast".::	1
+"me018"::	Mm-hmm.::	0
+"me013"::	So, um, if - if your  second   pass  takes a  millisecond  who  cares?::	0
+"me013"::	Um.::	0
+"me026"::	S- so, um,::	0
+"me026"::	the - the idea of the second pass would be waiting till you have more recorded speech? Or - ?::	0
+"me013"::	Yeah, so if it turned out to be a problem,::	0
+"me013"::	that you didn't have enough speech because you need a longer - longer window to do this processing,::	0
+"me026"::	Mm-hmm.::	0
+"me013"::	then, uh, one tactic is - you know, looking at the larger system and not just at the front-end stuff  -::	0
+"me013"::	is to take in, um, the speech with some  simpler  mechanism or shorter  time  mechanism,::	0
+"me013"::	um, do the best you  can,  and come up with some al- possible  alternates  of what might have been  said.::	0
+"me013"::	And, uh, either in the form of an N_best list or in the form of a lattice, or - or confusion network, or whatever.::	1
+"me026"::	Mm-hmm.::	0
+"me013"::	And then the  decoding  of  that  is much, much faster or  can  be much, much faster if it isn't a big bushy network.::	0
+"me013"::	And you can decode  that  now with speech that you've actually  processed  using this  longer  time, uh, subtraction.::	0
+"me026"::	Mmm.::	0
+"me013"::	So I mean, it's - it's common that people do this sort of thing where they do more things that are more complex or require looking over more time, whatever, in some kind of second pass.::	0
+"me026"::	Mm-hmm.::	0
+"me026"::	O_K.::	0
+"me013"::	um, and again, if the second pass is  really,  really  fast  - Uh, another one I've heard of is - is in - in connected digit stuff,::	0
+"me013"::	um, going back and l- and through backtrace and finding regions that are considered to be a d- a digit,::	0
+"me013"::	but, uh, which have very low energy.::	0
+"me026"::	Mm-hmm.::	0
+"me026"::	O_K.::	1
+"me013"::	So, uh - I mean, there's lots of things you can do in second passes, at all sorts of levels. Anyway, I'm throwing too many things out. But.::	0
+"me018"::	So is that, uh -::	0
+"me018"::	that it?::	0
+"me026"::	I guess that's it.::	0
+"me018"::	O_K, uh, do you wanna go, Sunil?::	1
+"mn052"::	Yep.::	0
+"mn052"::	Um, so,::	0
+"mn052"::	the last two weeks was, like - So I've been working on that Wiener filtering.::	1
+"mn052"::	And, uh,::	0
+"mn052"::	found that, uh, s- single - like, I just do a s- normal Wiener filtering, like the standard method of Wiener filtering.::	1
+"mn052"::	And that doesn't actually  give  me any::	1
+"mn052"::	improvement over like -::	1
+"mn052"::	I mean, uh, b- it actually improves over the  baseline  but it's not like - it doesn't meet something like fifty percent or something.::	1
+"mn052"::	So, I've been playing with the v-::	0
+"me018"::	Improves over the base line M_F_C_C system? Yeah.::	1
+"mn052"::	Yeah. Yeah. Yeah. So, um -  So that's - The improvement is somewhere around, like, thirty percent over the baseline.::	1
+"me013"::	Is that using - in  combination  with something else? With - with a -::	1
+"mn052"::	No, just - just one stage Wiener filter which is a standard Wiener filter.::	1
+"me013"::	No, no, but I mean in combination with our on-line normalization or with the L_D_A? Oh, O_K.::	0
+"mn052"::	Yeah, yeah, yeah, yeah. So I just plug  in  the Wiener filtering.::	0
+"mn052"::	I mean, in the s- in our system, where - So, I di- i- di-::	0
+"me018"::	Oh, O_K.::	0
+"me013"::	So, does it g- does that mean it gets  worse?  Or - ?::	0
+"mn052"::	No. It actually improves over the baseline of  not  having a Wiener filter in the whole system.::	0
+"mn052"::	Like I have an L_D_A f- L_D_A plus on-line normalization,::	0
+"me013"::	Yeah?::	0
+"mn052"::	and then I plug in the Wiener filter in that,  so it improves over not having the Wiener filter.::	0
+"mn052"::	So it improves but it - it doesn't take it like be- beyond like thirty percent over the baseline.::	0
+"mn052"::	So -::	0
+"me013"::	But that's what I'm confused about, cuz I think - I thought that our system was more like  forty  percent  without  the Wiener filtering.::	0
+"mn052"::	No, it's like, uh,::	0
+"mn007"::	Mmm.::	0
+"mn052"::	well,   these  are not -::	0
+"me018"::	Is this with the v- new V_A_D?::	0
+"mn052"::	No, it's the  old  V_A_D. So my baseline was,::	0
+"mn052"::	uh,::	0
+"mn052"::	nine - This is like - w- the baseline is ninety-five point six eight,::	0
+"mn052"::	and eighty-nine, and -::	0
+"me013"::	So I mean, if you can do all these in  word  errors it's a lot - a lot easier actually.::	0
+"mn052"::	What was that? Sorry?::	0
+"me013"::	If you do all these in  word  error rates it's a lot  easier,  right?::	0
+"mn052"::	Oh, O_K, O_K, O_K.  Errors, right,  I don't have. It's all accuracies.::	0
+"me013"::	O_K, cuz then you can figure out the  percentages.::	0
+"me013"::	Yeah.::	0
+"mn007"::	The baseline is something similar to::	0
+"mn007"::	a w- I mean,::	0
+"mn007"::	the t- the - the baseline that you are talking about is the M_F_C_C baseline, right?::	0
+"mn052"::	The t- yeah, there are  two  baselines. O_K. So the baseline -  One  baseline is M_F_C_C baseline that - When I said thirty percent improvement it's like M_F_C_C baseline.::	0
+"mn007"::	Or - ?::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	So - so - so  what's it start on?  The M_F_C_C baseline is - is  what?  Is at what  level?::	0
+"mn052"::	It's the -::	0
+"mn052"::	it's just the mel frequency and that's it.::	0
+"me013"::	No, what's - what's the  number?::	0
+"mn052"::	Uh, so I- I don't have that number here. O_K, O_K, O_K, I have it here.::	0
+"mn052"::	Uh, it's the V_A_D plus the baseline actually. I'm talking about the -::	0
+"mn052"::	the M_F_C_C plus I do a frame dropping on it. So that's like - the word error rate is like four point three.::	0
+"me013"::	Four point three.::	0
+"mn052"::	Like -::	0
+"mn052"::	Ten point seven.::	0
+"me013"::	What's ten point seven?::	0
+"mn052"::	It's a medium misma- O_K, sorry. There's a well ma- well matched, medium mismatched, and a high matched. So I don't have the - like the -::	0
+"me013"::	Ah.::	0
+"me013"::	Yeah.::	0
+"me013"::	O_K, four point three, ten point seven, and -::	0
+"mn052"::	So -::	0
+"mn052"::	And forty- forty.::	0
+"mn052"::	Forty percent is the high mismatch.::	0
+"me013"::	O_K.::	0
+"mn052"::	And that becomes like four point three -::	0
+"me013"::	Not changed.::	0
+"mn052"::	Yeah, it's like ten point one.  Still the same.::	0
+"mn052"::	And the  high  mismatch is like::	0
+"mn052"::	eighteen point five.::	0
+"me013"::	Eighteen point five. And what were you just describing?::	0
+"mn052"::	Five .::	0
+"mn052"::	Oh, the one is - this one is just the baseline plus the,::	0
+"mn052"::	uh, Wiener filter plugged into it.::	0
+"me013"::	But where's the, uh, on-line normalization and so on?::	1
+"mn052"::	Oh, O_K. So - Sorry.::	0
+"mn052"::	So, with the - with the on-line normalization, the performance was, um,::	0
+"mn052"::	ten  - O_K, so it's like four point three.::	0
+"mn052"::	Uh, and again, that's the ba- the ten point, uh, four::	0
+"mn052"::	and twenty point one.::	0
+"mn052"::	That was with on-line normalization and L_D_A.::	0
+"mn052"::	So the h- well matched has like literally not changed by adding on-line or L_D_A on it.::	0
+"mn052"::	But the -::	0
+"mn052"::	I mean, even the medium mismatch is pretty much the same.::	0
+"mn052"::	And the high mismatch was improved by twenty percent absolute.::	0
+"me013"::	O_K, and what kind of number - an- and what are we talking about here? Is this T_I-digits or -::	0
+"mn052"::	It's the It- it's Italian. I'm talking about Italian, yeah.::	0
+"me013"::	Italian? And what did - So, what was the, um,::	0
+"me013"::	uh, corresponding number, say, for,::	0
+"me013"::	um, uh, the Alcatel system for instance? Do you know?::	0
+"mn052"::	Mmm.  @@::	0
+"mn007"::	Yeah, so it looks to be, um -::	0
+"mn052"::	You have it?::	0
+"mn007"::	Yep, it's::	0
+"mn007"::	three point four,::	0
+"mn007"::	uh, eight point, uh, seven,  and, uh, thirteen point seven.::	0
+"me013"::	O_K. O_K.::	0
+"mn052"::	Yep.  So -  Thanks.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	O_K.::	0
+"mn052"::	So, uh, this is the::	0
+"mn052"::	single stage Wiener filter,::	0
+"mn052"::	with - The noise estimation was based on::	0
+"me013"::	Mm-hmm.::	0
+"mn052"::	first ten frames.::	0
+"mn052"::	Actually I started with - using the V_A_D to estimate the noise and then I found that it works -::	0
+"mn052"::	it  doesn't work for Finnish and Spanish because the V_A_D endpoints are not good::	0
+"mn052"::	to estimate the noise because it cuts into the speech sometimes, so I end up overestimating the noise and getting a  worse  result.::	0
+"me013"::	Mm-hmm.::	0
+"mn052"::	So it works only for Italian by u- for - using a V_A_D to estimate noise. It works for Italian because the VAD was  trained  on Italian.::	0
+"me013"::	Mm-hmm.::	0
+"mn052"::	So, uh - so this was, uh -::	0
+"mn052"::	And so this was giving -::	0
+"mn052"::	um, this - this was like not improving a lot on this baseline of  not  having the Wiener filter on it.::	0
+"mn052"::	And, so, uh, I ran this stuff with one more stage of Wiener filtering on it but the second time, what I did was I -::	1
+"mn052"::	estimated the new Wiener filter based on the cleaned up speech,::	0
+"me013"::	Mm-hmm.::	0
+"mn052"::	and did, uh, smoothing in the frequency to -::	0
+"mn052"::	to reduce the variance -::	1
+"mn052"::	I mean, I have - I've - I've observed there are, like, a lot of bumps in the frequency when I do this Wiener filtering which is more like a musical noise or something.::	0
+"mn052"::	And so by adding another stage of Wiener filtering,::	1
+"mn052"::	the results on the SpeechDat-Car was like,::	1
+"mn052"::	um - So, I still don't have the word error rate. I'm sorry about it. But the overall improvement was like fifty-six point four six.::	1
+"mn052"::	This was again using ten frames of noise estimate and two stage of Wiener filtering.::	0
+"mn052"::	And the rest is like the L_D_A  plu-  and the on-line normalization all remaining the same.::	0
+"mn052"::	Uh, so this was, like, compared to, uh, uh - Fifty-seven is what you got by using the French Telecom system, right?::	0
+"mn007"::	No, I don't  think  so. Is it on Italian?::	0
+"mn052"::	Y- i-::	0
+"mn052"::	No, this is over the whole SpeechDat-Car. So -::	0
+"mn007"::	Oh, yeah, fifty-seven - Right.::	0
+"mn052"::	point -::	0
+"mn052"::	Yeah, so the new - the new Wiener filtering schema is like - some fifty-six point four six which is like::	0
+"mn007"::	Uh-huh.::	0
+"mn052"::	one percent still less than::	0
+"mn052"::	what you got using the French Telecom system.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	But it's a pretty similar number in any event.::	0
+"mn052"::	It's  very  similar.::	0
+"me013"::	Yeah. But again, you're - you're  more  or less doing what they were  doing,  right?::	0
+"mn052"::	It's - it's different in a sense like I'm actually cleaning up the cleaned up spectrum which they're not doing.::	0
+"mn052"::	They're d- what they're doing is, they have two stage - stages of estimating the Wiener filter,::	0
+"me013"::	Yeah.::	1
+"mn052"::	but -::	0
+"mn052"::	the final filter, what they do is they -::	0
+"mn052"::	they take it to their time domain by doing an inverse Fourier transform.::	0
+"me013"::	Uh-huh.::	0
+"mn052"::	And they filter the original signal using that fil- filter,::	0
+"mn052"::	which is like::	0
+"mn052"::	final  filter is acting on the input noisy speech rather than on the cleaned up.::	0
+"mn052"::	So this is more like I'm doing Wiener filter twice,::	0
+"mn052"::	but the only thing is that the second time I'm actually smoothing the filter and then cleaning up the cleaned up spectrum first level.::	0
+"me013"::	O_K.::	0
+"mn052"::	And so that - that's - that's what the difference is. And actually I tried it on s- the original clean -::	0
+"mn052"::	I mean, the original spectrum where, like, I - the second time I estimate the filter but actually clean up the::	0
+"mn052"::	noisy speech rather the c- s- first -::	0
+"mn052"::	output of the first stage and that doesn't -::	0
+"mn052"::	seems to be a - giving, I mean, that much improvement. I - I didn- didn't run it for the whole case.::	0
+"mn052"::	And -::	0
+"mn052"::	and what I t- what I tried was, by using the  same  thing but - Uh, so we actually found that::	0
+"mn052"::	the VAD is very, like, crucial. I mean, just by changing the  VAD  itself gives you the - a lot of improvement by instead of using::	0
+"me013"::	Mm-hmm.::	0
+"mn052"::	the current VAD, if you just take up the VAD output from the channel zero,::	0
+"mn052"::	when -  instead of using channel zero and channel one,::	0
+"mn052"::	because that was the p- that was the reason why I was  not  getting a lot of improvement for estimating  the  noise.::	0
+"mn052"::	So I just used the channel zero VAD to estimate the noise so that it gives me some reliable mar-::	0
+"mn052"::	markers for this noise estimation.::	0
+"me013"::	What's a channel zero VAD? I'm - I'm confused about that.::	0
+"mn052"::	Um, so, it's like -::	0
+"mn007"::	So it's the close-talking microphone.::	0
+"mn052"::	Yeah, the close-talking without - So because the channel zero and channel one are like the same::	0
+"me013"::	Oh, oh, oh, oh.::	0
+"me013"::	@@::	0
+"mn052"::	speech, but only w- I mean, the same  endpoints.  But the only thing is that the speech is very noisy for channel one, so you can actually use the output of the channel zero for::	0
+"mn052"::	channel one for the VAD. I mean, that's like a cheating method.::	0
+"me013"::	Right. I mean, so a- are they going to pro-::	0
+"me013"::	What are they doing to do, do we know yet?::	1
+"me013"::	about - as far as what they're - what the rules are going to be and what we can use?::	1
+"mn007"::	Yeah, so actually I received a - a new document, describing  this.  And what they did finally is to, mmm,::	1
+"mn052"::	Yeah, that's -::	0
+"mn007"::	uh, not to align the utterances but to perform recognition,::	1
+"mn007"::	um, only on the close-talking microphone,::	1
+"mn007"::	and to take the result of the recognition to get the boundaries::	1
+"mn052"::	Which is the channel zero.::	0
+"mn007"::	uh, of speech.::	1
+"me013"::	So it's  not  like that's being done in one  place  or one  time.  That's - that's just a rule and we'd - you - you were permitted to do that.  Is - is that it?::	0
+"mn007"::	And -::	0
+"mn007"::	Uh, I think they will send, um, files but we - we don't - Well, apparently -::	0
+"me013"::	Oh, so they  will  send files so everybody will have the same boundaries to work with?::	1
+"mn007"::	Yeah.::	1
+"mn007"::	Yeah.::	0
+"mn052"::	But actually their alignment actually is  not  seems to be improving in like on all cases.::	0
+"me013"::	O_K.::	0
+"mn007"::	Oh, i-::	0
+"mn007"::	Yeah, so what happened here is that,::	0
+"mn007"::	um, the overall improvement that they have with this method - So - Well, to be more precise, what they have is, they have these alignments and then::	0
+"mn007"::	they drop the beginning silence and - and the end silence but they keep,::	0
+"mn007"::	uh, two hundred milliseconds before speech and two hundred  after  speech. And they keep the speech pauses also.::	0
+"mn007"::	Um, and the overall improvement over the M_F_C_C baseline  - So, when they just,::	0
+"mn007"::	uh, add this frame dropping in addition it's r- uh, forty percent, right? Fourteen percent, I mean.::	0
+"me013"::	Mm-hmm.::	0
+"me013"::	Mm-hmm.::	0
+"mn052"::	Yeah, which is -::	0
+"mn007"::	Um, which is, um, t-::	0
+"mn007"::	which is the overall improvement. But in some cases it doesn't improve at all. Like, uh, y- do you remember which case?::	0
+"me013"::	Mm-hmm.::	0
+"mn052"::	It gives like negative - Well, in - in like some Italian and T_I-digits, right?::	0
+"mn007"::	Yeah, some  @@ .::	0
+"mn007"::	Right.::	0
+"mn052"::	Yeah.::	0
+"mn052"::	So by using the::	0
+"mn052"::	endpointed speech, actually it's worse than the baseline in some instances, which could be due to the::	0
+"mn007"::	Mmm.::	0
+"mn007"::	Yeah. And - Yeah, the other thing also is that fourteen percent is less than what you obtain using a real V_A_D.::	0
+"me013"::	Yeah, but  that::	1
+"mn052"::	word pattern.::	0
+"mn052"::	Yeah, our neural net -::	0
+"mn007"::	So with- without cheating like this. So - Uh - So I think this shows that there is still work -::	0
+"mn052"::	Yeah, yeah.::	0
+"me013"::	Yeah.::	0
+"mn007"::	Uh, well, working on the V_A_D is still - still important I think.::	0
+"me013"::	Yeah, c-::	0
+"mn007"::	Uh -::	0
+"me018"::	Can I ask just a - a  high  level question?::	1
+"me018"::	Can you just say like one or two sentences about Wiener filtering and why -::	1
+"mn052"::	Hmm.::	0
+"me018"::	why are people doing that? What's - what's the  deal  with that?::	1
+"mn052"::	O_K, so::	0
+"mn052"::	the Wiener filter,::	0
+"mn052"::	it's - it's like - it's like you::	0
+"mn052"::	try to minimize - I mean, so the basic principle of Wiener filter is like you try to minimize the,::	1
+"mn052"::	uh, d- uh, difference between the noisy signal and the clean signal if you have two channels. Like let's say you have a clean t- signal and you have an additional channel where you know what is the::	1
+"mn052"::	noisy signal. And then you try to minimize the error between these two.::	0
+"me018"::	Mm-hmm.::	0
+"me018"::	Mm-hmm.::	1
+"mn052"::	So that's the basic principle. And you::	0
+"mn052"::	get - you can do that - I mean, if - if you have only a c-::	0
+"mn052"::	noisy  signal, at a level which you, you w- try to estimate the noise from the w-::	0
+"mn052"::	assuming that the first few frames are noise or if you have a w- voice activity detector, uh, you estimate the noise spectrum. And then you -::	0
+"me018"::	Mm-hmm.::	0
+"mn052"::	Yeah.::	0
+"me018"::	Do you assume the noise is the same?::	0
+"mn052"::	in - yeah, after the speech starts.::	0
+"mn052"::	So -::	0
+"me018"::	Uh-huh.::	0
+"mn052"::	but that's not the case in, uh, many - many of our cases but it works reasonably well.::	0
+"me018"::	I see.::	0
+"mn052"::	And - and then you::	0
+"mn052"::	What you do is you, uh b-::	0
+"mn052"::	fff.::	0
+"mn052"::	So again, I can write down some of these eq- Oh, O_K.::	0
+"mn052"::	Yeah.::	0
+"mn052"::	And then you do this - uh, this is the transfer function of the::	0
+"mn052"::	Wiener filter, so "S_F" is a clean speech spectrum, power spectrum::	0
+"me018"::	Mm-hmm.::	0
+"mn052"::	And "N_" is the noisy power spectrum.::	0
+"mn052"::	And so this is the transfer function.::	0
+"me013"::	Right  actually, I guess -::	0
+"mn052"::	And,::	0
+"mn052"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"mn052"::	And then you multiply your noisy power spectrum with this. You get an estimate of the clean power spectrum.::	0
+"me018"::	I see. O_K.::	0
+"mn052"::	So -::	0
+"mn052"::	but the thing is that you have to estimate the S_F from the noisy spectrum, what you have.::	0
+"mn052"::	So you estimate the N_F from the initial noise portions::	0
+"mn052"::	and then you subtract that from the current noisy spectrum to get an estimate of the S_F.::	0
+"mn052"::	So sometimes that becomes zero because you do- you don't have a true estimate of the noise.::	0
+"mn052"::	So the f- filter will have like sometimes zeros::	0
+"me018"::	Mm-hmm.::	0
+"mn052"::	in it because some frequency values will be zeroed out because of that.::	0
+"mn052"::	And that creates a lot of::	0
+"mn052"::	discontinuities across the spectrum because  @@  the filter.::	0
+"mn052"::	So,::	0
+"mn052"::	uh, so - that's what - that was just the first stage of Wiener filtering that I tried.::	0
+"me018"::	So is this, um,::	0
+"me018"::	basically s- uh, similar to just regular spectral subtraction?::	0
+"me013"::	It's all pretty related, yeah. It's - it's - there's a di- there's a whole class of techniques where you try in some sense to minimize the noise.::	0
+"mn052"::	It -::	0
+"mn052"::	Yeah.::	0
+"me018"::	Uh-huh.::	0
+"me013"::	And it's typically a mean square sense, uh - uh - uh, i- in - in - in some way. And, uh - uh, spectral subtraction is - is, uh - uh, one approach to it.::	0
+"me018"::	Do people use the Wiener filtering in combination with the spectral subtraction typically, or is i- are they::	0
+"me018"::	sort of::	0
+"mn052"::	Not seen.::	0
+"me018"::	competing techniques?::	0
+"mn052"::	They are very s- similar techniques. So it's like I haven't seen anybody using s- Wiener filter with spectral subtraction.::	0
+"me018"::	Yeah. O- oh, O_K.::	0
+"mn007"::	Mm-hmm.::	0
+"me018"::	I see, I see.::	0
+"me013"::	I mean, in the long run you're doing the same thing but y- but there you make different approximations, and -::	0
+"me018"::	Mm-hmm.::	0
+"mn052"::	Yeah.::	0
+"me018"::	Mmm.::	0
+"me013"::	in spectral subtraction, for instance, there's a - a - an estimation factor. You sometimes will figure out what the noise is and you'll multiply::	0
+"me013"::	that noise spectrum times some constant and subtract that rather than - and sometimes people -::	0
+"me013"::	even though this really should be in the power domain, sometimes people s- work in the magnitude domain because it - it - it works better.  And, uh,::	1
+"me018"::	Mm-hmm.::	0
+"me013"::	uh, you know.::	1
+"me018"::	So why did you choose, uh, Wiener filtering over some other - one of these other techniques?::	0
+"mn052"::	Uh, the reason was, like, we had this choice of using spectral subtraction, Wiener filtering, and there was one more thing which I- which I'm trying, is this sub space approach. So,::	0
+"mn052"::	Stephane is working on spectral subtraction.::	0
+"mn052"::	So I picked up -::	0
+"me018"::	Oh, O_K.::	0
+"me018"::	So you're sort of trying  @@  them  all.::	0
+"mn052"::	Y- Yeah,  @@  we just wanted to have a few noise production - compensation techniques and then pick some from that - pick one.::	0
+"me018"::	Ah, I see.::	0
+"me018"::	Oh, O_K.::	0
+"me013"::	I m- I mean - yeah, I mean, there's Car- Carmen's working on another, on the vector Taylor series. So they were just kind of trying to cover a bunch of different things::	0
+"me018"::	Mm-hmm.::	0
+"mn052"::	VA- Yeah, V_A_D. w- Yeah.::	0
+"mn052"::	Yeah.::	0
+"me018"::	Ah, O_K. That makes sense.::	0
+"me013"::	with this task and see, you know, what are - what are the issues for each of them. Um.::	0
+"me018"::	Yeah.::	0
+"me018"::	Mm-hmm.::	0
+"me018"::	Mm-hmm.::	0
+"me018"::	Cool, thanks.::	0
+"mn052"::	So - so one of - one of the things that I tried, like I said, was to remove those zeros in the fri- filter by doing some smoothing of the filter.::	0
+"me013"::	Yeah.::	0
+"me018"::	Mm-hmm.::	0
+"mn052"::	Like, you estimate the edge of square and then you do a f- smoothing across the frequency so that those zeros get, like, flattened out.::	0
+"me018"::	Mm-hmm.::	0
+"mn052"::	And that doesn't seems to be improving by trying it on the first time. So what I did was like I p- did this and then you - I plugged in the - one more -::	0
+"mn052"::	the  same  thing but with the smoothed filter the  second  time. And that seems to be working.::	0
+"me018"::	Mm-hmm.::	0
+"me018"::	Mm-hmm.::	0
+"mn052"::	So that's where I got like fifty-six point five percent improvement on SpeechDat-Car with that.::	0
+"mn052"::	And -::	0
+"mn052"::	So the other thing what I tried was I used still the ten frames of noise estimate but I used this channel zero VAD to  drop  the frames.::	0
+"mn052"::	So I'm not - still not estimating. And that has taken the performance to like sixty-seven percent in SpeechDat-Car, which is -::	0
+"mn052"::	which - which like sort of  shows  that by using a proper VAD you can just::	0
+"mn052"::	take it to further,::	0
+"mn052"::	better levels. And -::	0
+"mn052"::	So.::	0
+"me018"::	So that's sort of like, you know, best-case performance?::	0
+"mn052"::	Yeah, so far I've seen sixty-seven - I mean, no, I  haven't  seen s- like sixty-seven percent.::	0
+"mn052"::	And, uh, using the channel zero VAD to estimate the noise also seems to be improving but I don't have the results for  all  the cases with that.::	0
+"mn052"::	So I used channel zero VAD to estimate noise  as a lesser 2x  frame, which is like,::	0
+"mn052"::	everywhere I use the channel zero V_A_D. And that seems to be the  best  combination, uh, rather than using a few frames to estimate and then drop a channel.::	0
+"me013"::	So I'm - I'm still a little confused. Is that channel zero information going to be accessible during this test.::	0
+"mn052"::	Nnn,::	0
+"mn052"::	no. This is just to test whether we can really improve by using a better VAD.::	0
+"me013"::	Mm-hmm.::	0
+"me013"::	Mm-hmm.::	0
+"mn052"::	So, I mean - So this is like the noise compensation f- is fixed but you make a better decision on the endpoints.::	0
+"mn007"::	Mm-hmm.::	0
+"mn052"::	That's, like - seems to be -::	0
+"me013"::	Mm-hmm.::	0
+"mn052"::	so we c-::	0
+"mn052"::	so I mean, which - which means, like,::	0
+"me013"::	Yes.::	0
+"mn052"::	by using this technique what we improve just the VAD we can just take the performance by another ten percent or better.::	0
+"me013"::	O_K.::	0
+"mn052"::	So, that - that was just the, uh, reason for doing that experiment.::	0
+"mn052"::	And, w- um -::	0
+"mn052"::	Yeah, but this - all these things, I have to still try it on the T_I-digits, which is like I'm just running. And there seems to be not improving a -::	0
+"mn052"::	a  lot  on the T_I-digits, so I'm like investigating that,  why  it's not.::	0
+"mn052"::	And, um, um -::	0
+"mn052"::	Well after that.::	0
+"mn052"::	So, uh - so the other - the  other  thing is - like I've been - I'm doing all this stuff on the power spectrum.::	0
+"mn052"::	So -::	0
+"mn052"::	Tried this stuff on the mel as well - mel and the magnitude, and mel magnitude, and all those things. But it seems to be the power spectrum seems to be getting the best result.::	0
+"mn052"::	So, one of - one of reasons I thought like doing the averaging, after the filtering using the mel filter bank, that seems to be maybe  helping  rather than trying it  on  the mel filter ba- filtered outputs.::	0
+"me013"::	Mm-hmm.::	0
+"me013"::	Mm-hmm.::	0
+"me013"::	Ma-::	0
+"mn052"::	So just th- Yeah, th- that's - that's the only thing that I could think of why - why it's giving improvement on the mel.::	0
+"me013"::	Makes sense.::	0
+"mn052"::	And, yep. So that's it.::	0
+"me013"::	Uh, how about the subspace stuff?::	0
+"mn052"::	Subspace,  I'm - I'm like - that's still in - a little bit in the back burner because I've been::	0
+"mn052"::	p- putting a lot effort on this to make it work, on tuning things and other stuff. So::	0
+"me013"::	O_K.::	0
+"mn052"::	I was like::	0
+"mn052"::	going parallely but not much of improvement. I'm just - have some skeletons ready, need some more  time for  it.::	0
+"me013"::	O_K.::	0
+"mn052"::	Mmm.::	0
+"me018"::	Tha- that it?::	0
+"mn052"::	Yep. Yep.::	0
+"me018"::	Cool.::	0
+"me018"::	Do you wanna go, Stephane?::	1
+"mn007"::	Uh, yeah. So,  I've been, uh, working still on the spectral subtraction.::	1
+"mn007"::	Um,::	0
+"mn007"::	So to r- to remind you   a little bit of - of what I did before, is just  to apply some spectral subtraction with an overestimation factor also to get,::	1
+"mn007"::	um, an estimate of the noise, uh, spectrum,::	0
+"mn007"::	and subtract this  estimation   of the noise spectrum from the, uh, signal spectrum,::	0
+"mn007"::	but subtracting  more  when the S_N_R is - is, uh,  low,::	0
+"mn007"::	which is a technique that it's::	0
+"me018"::	"Subtracting more", meaning - ?::	0
+"mn007"::	often used.::	0
+"mn007"::	So you overestimate the noise spectrum. You multiply the noise spectrum by a factor,::	0
+"me018"::	Oh, O_K.::	0
+"mn007"::	uh, which depends on the S_N_R. So, above twenty D_B,::	0
+"me018"::	I see.::	0
+"mn007"::	it's  one,  so you just subtract the noise.::	0
+"me018"::	Mm-hmm.::	0
+"mn007"::	And then it's b-::	0
+"mn007"::	Generally - Well, I use, actually, a linear, uh, function of the S_N_R,::	0
+"me018"::	Mm-hmm.::	0
+"mn007"::	which is bounded to, like, two or three,::	0
+"me018"::	Mm-hmm.::	0
+"mn007"::	when the S_N_R is below zero D_B.::	0
+"me018"::	Mm-hmm.::	0
+"mn007"::	Um, doing just this, uh, either on the F_F_T bins or on the mel bands, um,::	1
+"me013"::	Oh!::	0
+"mn007"::	t- doesn't yield any improvement::	1
+"me013"::	Um, uh, what are you doing with negative, uh, powers?::	0
+"mn007"::	o-::	0
+"mn007"::	Yeah. So there is also a threshold, of course, because after subtraction you can have negative energies, and -::	0
+"me018"::	Mm-hmm.::	0
+"mn007"::	So what I - I just do is to put,::	0
+"mn007"::	uh - to - to  add  - to put the threshold first and then to add::	0
+"mn007"::	a small amount of noise,::	0
+"mn007"::	which right now is speech-shaped.::	0
+"mn007"::	Um -::	0
+"me018"::	Speech-shaped?::	0
+"mn007"::	Yeah, so it's - a- it has the overall - overall energy, uh - pow- it has the overall power spectrum of speech.::	0
+"mn007"::	So with a bump around one kilohertz.::	0
+"me018"::	So when y- when you talk about there being something less than  zero  after subtracting the noise, is that at a particular::	0
+"mn007"::	i-::	0
+"mn007"::	Uh-huh.::	0
+"me018"::	frequency bin?::	0
+"mn007"::	Yeah. There can be frequency bins with negative values.::	0
+"me018"::	O_K.::	0
+"me018"::	And so when you say you're adding something that has the overall  shape  of  speech,::	0
+"me018"::	is that in a -  in  a particular frequency bin?::	0
+"me018"::	Or you're adding something across  all  the frequencies when you get these negatives?::	0
+"mn007"::	For each frequencies I a- I'm adding some, uh, noise,::	0
+"mn007"::	but the a- the amount of - the amount of noise I add is not the same for all the frequency bins.::	0
+"me018"::	Ah! O_K. I gotcha. Right.::	0
+"mn007"::	Uh. Right now I don't think if it makes sense to add something that's speech- shaped,  because then you have silence portion that have some spectra similar to the sp- the overall speech spectra. But -::	0
+"me018"::	Mm-hmm.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	So this is something I can still work on, but -::	0
+"me018"::	So what does that mean? I'm trying to understand what it means when you do the spectral subtraction and you get::	0
+"mn007"::	Hmm.::	0
+"me018"::	a  negative.  It means that::	0
+"mn007"::	That means that - Mm-hmm.::	0
+"me018"::	at that particular  frequency  range you subtracted::	0
+"me018"::	more  energy than there was actually -::	0
+"mn007"::	Yeah.::	0
+"mn007"::	So - so yeah, you have an - an estimation of the noise spectrum,::	0
+"mn007"::	but sometimes, of course, it's - as the noise is not perfectly stationary, sometimes this estimation can be, uh, too  small,::	0
+"mn007"::	so you don't subtract  enough.  But sometimes it can be too  large  also.::	0
+"me018"::	Mm-hmm.::	0
+"mn007"::	If - if the noise, uh, energy in this particular frequency band drops for some reason.::	0
+"me018"::	Mm-hmm.::	0
+"mn007"::	Mmm.::	0
+"me018"::	So in - in an ideal word i- world  if the noise::	0
+"me018"::	were always the same,::	0
+"me018"::	then,::	0
+"me018"::	when you subtracted it::	0
+"me018"::	the worst that i- you would get would be a  zero.::	0
+"me018"::	I mean, the  lowest  you would get would be a  zero,  cuz i-::	0
+"me013"::	Right.::	0
+"me018"::	if there was no other energy there you're  just  subtracting  exactly  the noise.::	0
+"mn007"::	Mm-hmm, yeah.::	0
+"me013"::	Yep, there's all - there's all sorts of, uh, deviations from the ideal here. I mean, for instance, you're - you're  talking  about the signal and noise, um,  at  a particular  point.::	0
+"me013"::	And even if something is sort of stationary in ster- terms of statistics, there's no guarantee::	0
+"me013"::	that any particular instantiation or  piece  of it is exactly a particular  number  or  bounded  by a particular  range.  So,::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	you're figuring out from  some  chunk of - of - of the signal what you think the  noise  is.::	0
+"me013"::	Then you're subtracting  that  from  another  chunk,::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	and there's absolutely no reason to think that you'd  know  that it wouldn't, uh, be  negative  in some places.::	0
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Hmm.::	0
+"me013"::	Uh, on the other hand that just means that in  some  sense you've made a mistake because::	0
+"me013"::	you certainly have stra- subtracted a bigger  number  than is due to the  noise.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	Um -  Also,  we speak - the whole - where all this stuff comes from is from an assumption that signal and noise are  uncorrelated.::	0
+"me013"::	And that certainly makes sense in s- in - in a  statistical  interpretation, that, you know, over, um, all possible realizations that they're uncorrelated or::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	assuming, uh, ergodicity that i- that i- um, across time, uh, it's uncorrelated.::	0
+"me013"::	But if you just look at - a quarter  second,::	0
+"me013"::	uh, and you cross-multiply the two things, uh, you could very well, uh, end up with something that sums to something that's not  zero.  So in fact, the two::	0
+"me013"::	signals  could  have some  relation  to one another. And so there's all sorts of deviations from ideal in this. And - and given all that, you could definitely end up with something that's  negative.::	0
+"me013"::	But if down the road you're making  use  of something as if it is a  power  spectrum,::	0
+"me013"::	um,::	0
+"me013"::	then it can be  bad  to have something negative.::	0
+"me013"::	Now, the  other  thing I  wonder  about actually is, what if you  left  it negative?::	0
+"me013"::	What  happens?  I mean, because -::	0
+"mn052"::	Is that  the log?::	0
+"me013"::	Um, are you  taking  the  log   before  you add them up to the  mel?::	0
+"mn052"::	After that.::	0
+"mn052"::	No, after.::	0
+"me013"::	Right. So the thing is, I wonder how - if you put your thresholds after that, I wonder how often::	0
+"me013"::	you would end up with, uh - with negative values.::	0
+"mn052"::	But you will -::	0
+"mn052"::	But you end up reducing some neighboring frequency bins -  @@  in the average, right?::	0
+"mn052"::	When you add the negative to the positive value which is the true estimate.::	0
+"me013"::	Yeah.::	0
+"me013"::	But nonetheless, uh, you know, these are - it's another f- kind of smoothing, right? that you're doing.::	0
+"mn052"::	Yeah.::	0
+"me013"::	Right. So, you've done your best shot at figuring out what the noise should be, and now i- then you've subtracted it off.::	0
+"me013"::	And then after that, instead of - instead of, uh, uh, leaving it as  is  and adding things - adding up some  neighbors,  you  artificially  push it  up.::	0
+"mn052"::	Hmm.::	0
+"me013"::	Which is, you know, it's - there's no particular reason that  that's  the right thing to do  either,  right?::	0
+"mn052"::	Yeah, yeah.::	0
+"me013"::	So, um, uh, i- in fact,::	0
+"me013"::	what you'd be doing is saying, "well, we're d- we're - we're going to definitely  diminish  the effect of this frequency in::	0
+"me013"::	this little frequency bin in the - in the overall mel summation". It's just a thought. I d- I don't know if it would be -::	0
+"mn052"::	Yeah. Uh-huh.::	0
+"me018"::	Sort of the  opposite  of that would be if - if you find out you're going to get a negative number,::	0
+"me018"::	you don't do the subtraction for that::	0
+"me018"::	bin.::	0
+"mn052"::	That is true.::	0
+"me013"::	Nnn, yeah, although -::	0
+"mn007"::	Mm-hmm.::	0
+"me018"::	That would be almost the  opposite,  right?::	0
+"me018"::	Instead of leaving it negative, you  don't  do it.::	0
+"me018"::	If your - if your subtraction's going to result in a negative number, you - you don't do subtraction::	0
+"me018"::	in that.::	0
+"me013"::	Yeah, but that means that in a situation where you thought that - that the bin was almost entirely noise, you  left  it.::	0
+"me018"::	Yeah.::	0
+"me013"::	Uh. Yeah. Well, yeah that's - that's the opposite, yeah.::	0
+"mn052"::	We just -  Yeah.::	0
+"me018"::	Yeah, I'm just saying that's like the opposite. Yeah.::	0
+"mn007"::	Mm-hmm.::	0
+"mn007"::	And, yeah, some people also - if it's a negative value they, uh, re-compute it using inter- interpolation from the edges and bins. Well, there are different things that you can do.::	0
+"mn052"::	For frames, frequency bins.::	0
+"me013"::	Yeah.::	0
+"me018"::	Oh.::	0
+"me013"::	People can also, uh, reflect it back up and essentially do a full wave rectification instead of a -::	0
+"me018"::	Oh.::	1
+"me013"::	instead of half wave. But it was just a thought that - that it might be something to try.::	0
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Yep. Well, actually I tried,  something else based on this, um,::	1
+"mn007"::	is to - to put some smoothing, um, because it seems to - to help or it seems to help the Wiener filtering and, mmm -::	1
+"me013"::	Mm-hmm.::	0
+"mn007"::	So what I did is, uh, some kind of nonlinear smoothing.  Actually I have a recursion that computes -::	1
+"mn007"::	Yeah, let me go back a little bit. Actually, when you do spectral subtraction you can,::	0
+"mn007"::	uh, find this - this equivalent in the s- in the spectral domain. You can uh compute, y- you can say that d- your spectral subtraction is a filter, um, and the gain of this filter is the, um,::	0
+"mn007"::	signal energy minus what you  subtract,   divided by the signal energy.::	0
+"mn007"::	And this is a gain that varies over time, and, you know, of course, uh, depending on the s- on the noise spectrum and on the speech spectrum. And -::	0
+"mn007"::	what happen actually is that::	0
+"mn007"::	during low S_N_R values, the gain is close to zero but it varies a lot.::	0
+"mn007"::	Mmm, and this - this is the cause of musical noise and all these -::	0
+"mn007"::	the -  the fact you - we go below zero one frame and then you can have an energy that's above zero. And -::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	Mmm.::	0
+"mn007"::	So the smoothing is - I did a smoothing actually on this gain, uh, trajectory.::	0
+"mn007"::	But it's - the smoothing is nonlinear in the sense that I tried to not smooth if the gain is high, because in this case we know that,::	0
+"mn007"::	uh, the estimate of the gain is correct because we - we are not close to - to - to zero,::	0
+"mn007"::	um, and to do more smoothing if the gain is low.::	0
+"mn007"::	Mmm.::	0
+"mn007"::	Um.::	0
+"mn007"::	Yeah. So, well, basically that's this idea,  and::	0
+"mn007"::	it seems to give pretty good results,::	0
+"mn007"::	uh, although I've just - just tested on Italian and Finnish.::	1
+"mn007"::	And on Italian it seems - my result seems to be a little bit better than the Wiener filtering, right?::	1
+"mn052"::	Mm-hmm. Yeah, the one you showed yesterday. Right?::	0
+"me013"::	Yeah.::	0
+"mn007"::	Uh, I don't know if you have these improvement- the detailed improvements for Italian, Finnish, and Spanish there or you have - just  have your own .::	0
+"mn052"::	Fff.::	0
+"mn052"::	No, I don't have, for each, I - I just - just have the final number here.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	So these numbers he was giving before with the four point three, and the ten point one, and so forth, those were  Italian,  right?::	0
+"mn052"::	Yeah, yeah, yeah. So - so, no, I actually didn't give you the number which is the final one, which is, after two stages of Wiener filtering.::	0
+"mn007"::	Uh - uh, no, we've -::	0
+"me013"::	Yeah.::	0
+"mn052"::	I mean, that was I just - well, like the overall improvement is like fifty-six point five.::	0
+"me013"::	Right.::	0
+"mn007"::	Mm-hmm.::	0
+"mn052"::	So, I mean, his number is still better than what I got in the two stages of Wiener filtering.::	0
+"mn007"::	Yeah.::	0
+"me013"::	Right.::	0
+"mn007"::	On Italian. But on Finnish it's a little bit worse, apparently. Um -::	0
+"mn052"::	Mm-hmm.::	0
+"me013"::	But do you have numbers in terms of word error rates on - on Italian? So just so you have some sense of reference?::	0
+"mn007"::	Yeah. Uh, so, it's, uh, three point, uh, eight.::	0
+"me013"::	Uh-huh.::	0
+"mn007"::	Am I right?::	0
+"mn052"::	Oh, O_K. Yeah, right, O_K.::	0
+"mn007"::	And then, uh, d- uh, nine point, uh, one.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	And finally, uh, sixteen point five.::	0
+"me013"::	And this is, um, spectral subtraction plus what?::	0
+"mn007"::	Plus - plus nonlinear smoothing. Well, it's - the system - it's exactly the sys- the same system as Sunil tried, but -::	0
+"me013"::	On-line normalization and L_D_A? Yeah.::	0
+"mn007"::	Yeah. But instead of double stage Wiener filtering, it's - it's this  smoothed   spectral subtraction. Um, yeah.::	0
+"me013"::	Yeah.::	0
+"me013"::	Right.::	0
+"me018"::	What is it the, um,::	0
+"me018"::	France Telecom system uses::	0
+"me018"::	for - Do they use spectral subtraction, or Wiener filtering, or - ?::	0
+"mn052"::	They use spectral subtraction, right.::	0
+"mn007"::	For  what?::	0
+"mn052"::	French Telecom.::	0
+"mn007"::	It - it's Wiener  filtering,   am I right?::	0
+"mn052"::	Oh, it's - it's Wiener filtering. Sorry.::	0
+"mn007"::	Well, it's some kind of Wiener filtering -::	0
+"me018"::	Oh.::	0
+"mn052"::	Yeah, filtering. Yeah, it's not exactly Wiener filtering but some variant of Wiener filtering.::	0
+"mn007"::	Yeah.::	0
+"me018"::	I see.::	0
+"me013"::	Yeah, plus, uh, I guess they have some sort of cepstral normalization, as well.::	0
+"mn052"::	Yeah.::	0
+"mn052"::	s-::	0
+"mn052"::	They have like - yeah, th- the - just noise compensation technique is a variant of Wiener filtering, plus they do some -::	0
+"mn007"::	Mm-hmm.::	0
+"mn052"::	some smoothing techniques on the final filter. The - th- they actually do the filtering in the time domain.::	0
+"me018"::	Mmm.::	0
+"mn007"::	Yeah.::	0
+"me018"::	Hmm.::	0
+"mn052"::	So they would take this H_F squared back, taking inverse Fourier transform.::	0
+"mn052"::	And they convolve the time domain signal with that.::	0
+"me018"::	Oh, I see.::	0
+"mn052"::	And they do some smoothing on that final filter, impulse response.::	0
+"me018"::	Hmm.::	0
+"mn007"::	But they also have two - two different smoothing  @@ . One in the time domain and one in the frequency domain by just taking the first, um, coefficients of the impulse response.::	0
+"mn052"::	I mean, I'm - I'm  @@ .  But .::	0
+"mn007"::	So, basically it's similar. I mean, what you did, it's similar because you have also two - two kind of smoothing. One in the time domain, and one in the frequency domain, yeah.::	0
+"mn052"::	It's similar in the smoothing and -::	0
+"mn052"::	Yeah.::	0
+"mn052"::	Yeah.::	0
+"mn052"::	The frequency domain.::	0
+"me018"::	Does the smoothing in the time domain help -::	0
+"mn007"::	Um -::	0
+"me018"::	Well, do you get this musical noise stuff with Wiener filtering or is that only with, uh, spectral subtraction?::	0
+"mn052"::	No, you get it with::	0
+"mn007"::	Yeah.::	0
+"mn052"::	Wiener filtering also.::	0
+"me018"::	Does the smoothing in the time domain help with that?::	0
+"mn052"::	Oh, no, you still end up with zeros in the s- spectrum. Sometimes.::	0
+"me018"::	Or::	0
+"me018"::	some other smoothing?::	0
+"mn007"::	Yeah.::	0
+"me013"::	I mean, it's not clear that these musical noises hurt us in recognition. We don't know if they do. I mean, they - they  sound  bad.::	0
+"me018"::	Hmm.::	0
+"me018"::	Hmm.::	0
+"mn052"::	Yeah.::	0
+"mn052"::	Yeah, I know.::	0
+"me013"::	But we're not listening to it, usually.::	0
+"me018"::	Mm-hmm.::	0
+"mn007"::	Mm-hmm.::	0
+"me018"::	Hmm.::	0
+"mn007"::	Uh, actually the - the smoothing that I did - do here reduced the musical noise. Well, it -::	0
+"mn052"::	Mm-hmm. Yeah, yeah,  the -::	0
+"mn007"::	Mmm.::	0
+"mn007"::	Well, I cannot - you cannot hear beca- well, actually what I d- did not say is that this is not in the F_F_T bins. This is in the mel frequency bands.::	0
+"mn007"::	Um -::	0
+"mn007"::	So, it could be seen as a f- a - a smoothing in the frequency domain because I used, in ad- mel bands in addition and then the other phase of smoothing in the time domain.::	0
+"mn007"::	Mmm.::	0
+"mn007"::	But, when you look at the spectrogram, if you don't have an- any smoothing, you clearly see, like -::	0
+"mn007"::	in silence portions, and at the beginning and end of speech, you see spots of high energy randomly distributed over the - the spectrogram.::	0
+"me018"::	Mm-hmm.::	0
+"me018"::	Mm-hmm.::	0
+"mn007"::	Um -::	0
+"me018"::	That's the musical noise?::	0
+"mn007"::	Which is musical noise, yeah, if - if it -::	0
+"me018"::	Mm-hmm.::	0
+"mn007"::	If you listen to it - uh, if you do this in the F_F_T bins, then you have spots of energy randomly distributing. And if you f- if you re-synthesize these spot sounds as,::	0
+"mn007"::	like, sounds, uh -::	0
+"me018"::	Mm-hmm.::	0
+"mn007"::	And -::	0
+"me013"::	Well, none of these systems, by the way, have - I mean, y- you both are - are working with, um, our system that does not have the neural net, right?::	1
+"mn052"::	Yep.  Yeah.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	O_K.::	0
+"mn007"::	Yeah.::	0
+"me013"::	So one would hope, presumably, that the neural net part of it would - would improve things further as - as they did before.::	1
+"mn007"::	Yeah. Um -::	1
+"mn007"::	Yeah, although if - if we, um, look at the result from the proposals,::	0
+"mn007"::	one of the reason, uh, the n- system with the neural net was,::	0
+"mn007"::	um, more than - well, around five percent better, is that it was much better on::	0
+"mn007"::	highly mismatched condition. I'm thinking, for instance, on the T_I-digits trained on clean speech and tested on noisy speech.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	Uh, for this case, the system with the neural net was much better. But not much on the - in the other cases. And::	0
+"me013"::	Mm-hmm.::	0
+"me013"::	Yeah.::	0
+"mn007"::	if we have no, uh, spectral subtraction or Wiener filtering, um, i- the system is - Uh, we thought the neural - neural network is much better than before,::	0
+"mn007"::	even in these cases of high mismatch. So, maybe the neural net will help  less  but, um -::	0
+"me013"::	Maybe.::	0
+"me018"::	Could you train a  neural  net to do spectral subtraction?::	0
+"me013"::	Yeah, it could do a nonlinear spectral subtraction but I don't know if it - I mean, you have to figure out what your targets are.::	0
+"mn007"::	Mm-hmm.::	0
+"me018"::	Yeah, I was thinking if you had a::	0
+"me018"::	clean  version of the signal and - and a  noisy  version,::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	Right.::	0
+"mn007"::	Mm-hmm.::	0
+"me018"::	and your  targets were the::	0
+"me018"::	M_F_- uh, you know, whatever, frequency bins -::	0
+"me013"::	Yeah, well, that's not so much spectral  subtraction  then, but - but - but it's - but at  any  rate, yeah, people, uh -::	0
+"mn007"::	Mm-hmm.::	0
+"me018"::	People do that?::	0
+"me013"::	y- yeah, in fact, we had visitors here who did that I think when you were here ba- way back when.::	0
+"mn007"::	Mm-hmm.::	0
+"me018"::	Hmm.::	0
+"me013"::	Uh, people - d- done lots of experimentation over the years with training neural nets. And it's not a bad thing to do. It's another approach.::	0
+"mn007"::	Mm-hmm.::	0
+"me018"::	Hmm.::	0
+"me013"::	M- I mean, it's - it, um - The objection everyone always raises, which has some truth to it is that, um,::	0
+"me013"::	it's good for mapping from a particular noise to clean but then you get a  different  noise.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	And the experiments we saw that  visitors  did  here  showed that it - there was at least some,::	0
+"me013"::	um,    gentleness::	0
+"me013"::	to the degradation when you switched to different noises. It  did  seem to help. So that - you're right, that's another -::	0
+"me013"::	another way to go.::	0
+"me018"::	How did it compare on - I mean, for - for  good  cases where it - it -::	0
+"me018"::	uh, stuff that it  was  trained on? Did it do pretty well?::	0
+"me013"::	Oh, yeah, it did very well.::	0
+"me018"::	Mmm.::	0
+"me013"::	Yeah.::	0
+"me018"::	Mmm.::	0
+"me013"::	Um, but to some extent that's::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	kind  of what we're  doing.  I mean, we're not doing  exactly  that, we're not::	0
+"me013"::	trying to generate good examples but by trying to do the best classifier you possibly can,::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	for these little phonetic categories,::	0
+"me018"::	You could say it's sort of built in.::	0
+"me013"::	It's - Yeah, it's kind of built into that. And - and that's why we  have  found that it - it  does  help.::	0
+"me018"::	Hmm.::	0
+"me013"::	Um - so, um, yeah, I mean, we'll just have to try it. But I - I would - I would - I would  imagine  that it will help  some.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	I mean, it - we'll just have to see whether it helps more or less the same, but I would imagine it would help  some.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	So in  any  event, all of this - I was just confirming that all of this was with a simpler system. O_K?::	0
+"mn007"::	Yeah, yeah.::	0
+"mn007"::	Um,::	0
+"mn007"::	Yeah, so this is th- the, um -::	0
+"mn007"::	Well, actually, this was kind of the first try with this spectral subtraction plus smoothing, and I was kind of excited by the result.::	0
+"me013"::	Mm-hmm.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	Um, then I started to optimize the different parameters. And,::	0
+"mn007"::	uh, the first thing I tried to optimize is the, um, time constant of the smoothing.::	0
+"mn007"::	And it seems that the one that I chose::	0
+"mn007"::	for the first experiment was::	0
+"mn007"::	the optimal one,  so  uh,::	0
+"me013"::	It's  amazing  how often that happens.::	1
+"mn007"::	Um, so this is the first thing. Um -::	0
+"mn007"::	Yeah, another thing that I -::	1
+"mn007"::	it's important to mention is, um, that this has a- this has some additional latency.::	1
+"mn007"::	Um.::	0
+"mn007"::	Because when I do the smoothing,::	0
+"mn007"::	uh, it's a recursion that estimated the means, so - of the g- of the gain curve. And::	0
+"mn007"::	this is a filter that has some latency. And I noticed that it's better if we take into account this latency. So, instead o- of using::	1
+"mn007"::	the current estimated mean to, uh, subtract the current frame, it's better to use an estimate that's some- somewhere in the future. Um -::	0
+"me018"::	And that's what causes the latency?::	0
+"mn007"::	Yeah.::	0
+"me013"::	Mm-hmm.::	0
+"me018"::	O_K.::	0
+"mn052"::	You mean, the m- the mean is computed o- based on some frames in the future  also?  Or - or no?::	0
+"mn007"::	It's the recursion, so it's - it's the center recursion, right?::	0
+"mn052"::	Mm-hmm.::	0
+"mn007"::	Um - and the latency of this recursion is around fifty milliseconds.::	0
+"me013"::	One five?::	0
+"mn007"::	@@::	0
+"me013"::	One five? Five zero?::	0
+"mn007"::	Five zero, yeah.::	0
+"me013"::	Five zero. Yeah.::	0
+"mn007"::	Um, mmm.::	0
+"mn052"::	I'm sorry, why - why is that delay coming? Like, you estimate the mean?::	0
+"mn007"::	Yeah, the mean estimation has some delay, right?::	0
+"mn052"::	Oh, yeah.::	0
+"mn007"::	I mean, the - the filter that - that estimates the mean has a time constant.::	0
+"mn052"::	It isn't - O_K, so it's like it looks into the future also.::	0
+"mn007"::	Yeah.::	0
+"mn052"::	O_K.::	0
+"me013"::	What if you just look into the past?::	0
+"mn007"::	It's, uh, not as good.::	0
+"mn007"::	It's not bad. Um, it helps a lot over the ba- the baseline but, mmm - it -::	0
+"me013"::	How m- by how much?::	0
+"me013"::	By how much?::	0
+"mn007"::	It's around three percent, um, relative.::	0
+"me013"::	Worse.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Yeah. Um,  mmm -::	0
+"me013"::	Hmm.::	0
+"mn007"::	So, uh -::	0
+"me013"::	It's depending on how all this stuff comes out we may or may not be able to add any latency.::	1
+"mn007"::	Yeah, but - Yeah.::	0
+"mn007"::	So, yeah, it depends. Uh, y- actually, it's - it's l- it's three percent. Right.::	0
+"mn007"::	Mmm.::	0
+"mn007"::	Yeah, b- but I don't think we have to worry too much on that right now  while - you kno- .::	1
+"mn007"::	Mm-hmm. So -::	0
+"me013"::	Um, s- Yeah, I mean, I think the only thing is that -  I would worry about it a  little.::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	Because if we completely  ignore  latency,::	1
+"me013"::	and then we discover that we really have to do something about it, we're going to be - find ourselves in a bind.::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	So, um,::	0
+"me013"::	you know, maybe you could::	1
+"me013"::	make it twenty-five.  You know what I mean?::	1
+"mn007"::	Yeah.::	0
+"mn007"::	Oh yes.::	0
+"me013"::	Yeah, just, you know, just be - be a  little  conservative because we may end up with this crunch where all of a sudden we have to cut the latency in half or something.::	0
+"mn007"::	s-::	0
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Yeah.::	0
+"me013"::	O_K.::	1
+"mn007"::	Um. So, yeah, there are other things in the, um, algorithm that I didn't, uh,  @@  a lot yet, which -::	0
+"me018"::	Oh!::	0
+"me018"::	Sorry. A quick question just about the  latency  thing. If - if there's  another  part of the system that causes a latency of::	0
+"me018"::	a  hundred  milliseconds,::	0
+"me018"::	is this an  additive  thing? Or c- or is yours  hidden  in that?::	0
+"mn007"::	Mm-hmm.::	0
+"mn007"::	No, it's - it's added.::	0
+"me018"::	Uh -::	0
+"me018"::	It's additive. O_K.::	0
+"mn007"::	Mm-hmm.::	0
+"mn052"::	We can -  O_K.  We  can  do something in  parallel   also,  in some like - some cases like, if you wanted to do voice activity detection.::	0
+"me018"::	Uh-huh.::	0
+"mn052"::	And we can do that in parallel with some other filtering you can do. So you can make a decision on that::	0
+"mn007"::	Mmm.::	0
+"mn052"::	voice activity detection and then you decide whether you want to filter or not. But by then you already  have  the sufficient samples to do the filtering.::	0
+"mn007"::	Yeah.::	0
+"me018"::	Mm-hmm.::	0
+"mn052"::	So -  So, sometimes you can do it  anyway .::	0
+"me018"::	I mean, couldn't, uh - I -::	0
+"me018"::	Couldn't you just also - I mean, i- if you know that the l- the largest latency in the system is::	0
+"me018"::	two hundred milliseconds,  don't you -  couldn't you just buffer up that number of frames and then::	0
+"mn052"::	Yeah.::	0
+"me018"::	everything uses that buffer? And that way::	0
+"me018"::	it's not additive?::	0
+"me013"::	Well, in fact, everything  is  sent over in buffers cuz of - isn't it the T_C_P::	0
+"me013"::	buffer some - ?::	0
+"mn052"::	You mean, the - the data, the super frame or something?::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	Yeah, yeah.::	1
+"mn007"::	Yeah.::	0
+"mn052"::	Yeah, but that  has  a variable latency because the last frame doesn't have any latency and first frame has a twenty framed latency. So  you  can't r-  rely  on that latency all the time.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	Yeah.::	0
+"mn052"::	Because - I mean the transmission over - over the air interface is like a buffer. Twenty frame - twenty four frames.::	0
+"mn007"::	Yeah.::	0
+"me018"::	Yeah.::	0
+"me018"::	Yeah.::	0
+"mn052"::	So - But the only thing is that the  first  frame in that twenty-four frame buffer has a twenty-four frame latency. And the  last  frame doesn't have  any  latency.::	0
+"me018"::	Mm-hmm.::	0
+"mn052"::	Because it just goes as - Yeah.::	0
+"me018"::	Yeah, I wasn't thinking of  that  one in  particular  but more of, you know, if - if there is some part of your system that has to buffer twenty frames,::	0
+"me013"::	Yeah.::	0
+"me018"::	uh, can't the other parts of the system draw out of that buffer and therefore not add to the latency?::	0
+"me013"::	Yeah. And - and that's sort of one of the -  all  of that sort of stuff is things that they're debating in their standards committee.::	1
+"me018"::	Oh!::	0
+"me018"::	Hmm.::	0
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Yeah. So, um,::	0
+"mn007"::	there is uh,  these parameters that I still have to - to look at. Like, I played a little bit with this overestimation factor,::	0
+"mn007"::	uh, but I still have to - to look more at this, um, at the level of noise I add after.::	0
+"mn007"::	Uh, I know that adding noise helped, um, the system just using spectral subtraction without smoothing,  but I don't know::	0
+"mn007"::	right now if it's still important or not, and if the level I choose before is still the right one. Same thing for the shape of the - the noise.::	0
+"mn007"::	Maybe it would be better to add just white noise instead of speech shaped noise.::	0
+"me013"::	That'd be more like the J_RASTA thing in a sense. Yeah.::	1
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Um, yep.::	0
+"mn007"::	Uh, and another thing is to -::	0
+"mn007"::	Yeah, for this I just use as noise estimate the mean, uh, spectrum of the first twenty frames of each utterance.::	0
+"mn007"::	I don't remember for this experiment what did you use for these two stage -::	0
+"mn052"::	I used ten - just ten frames. Yeah, because - I mean, the reason was like in T_I-digits I don't have a lot.  I had  twenty frames most of the time.::	0
+"mn007"::	The ten frames?::	0
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Um. But, so what's this result you told me about, the fact that if you use more than ten frames you can - improve by t-::	0
+"mn052"::	Well, that's - that's using the channel zero.::	0
+"mn052"::	If I use a channel zero VAD to estimate the noise.::	0
+"mn007"::	Oh, O_K. But this is ten frames plus - plus::	0
+"mn052"::	Which -::	0
+"mn052"::	Channel zero dropping.::	0
+"mn007"::	channel -::	0
+"mn007"::	Uh, no, these results with two stage Wiener filtering is ten frames but possibly  more.  I mean, if channel one V_A_D gives you - Yeah.::	0
+"mn052"::	Hmm.::	0
+"mn052"::	t- Oh, this -::	0
+"mn052"::	f-::	0
+"mn052"::	Yeah.::	0
+"mn052"::	Mm-hmm.::	0
+"mn052"::	Yeah.::	0
+"mn007"::	O_K. Yeah, but in this experiment I did - I didn't use any V_A_D. I just used the twenty first frame to estimate the noise. And -::	0
+"mn007"::	So I expected it to be a little bit better,  if, uh, I use more - more frames.::	0
+"mn007"::	Um.::	0
+"mn007"::	O_K, that's it for spectral subtraction. The second thing I was working on is to, um,::	1
+"mn007"::	try to look at noise estimation,::	0
+"mn007"::	mmm, and using some technique that doesn't need voice activity detection.::	1
+"mn007"::	Um, and for this I u- simply used some code that, uh,  I had from - from Belgium,::	1
+"mn007"::	which is technique that, um, takes a bunch of frame, um, and for each frequency bands of this frame, takes a look at the minima::	1
+"mn007"::	of the energy.::	1
+"mn007"::	And then average these minima and take this as an - an energy estimate of the noise for this particular frequency band.::	1
+"mn007"::	And there is something more to this actually. What is done is that,  uh, these minima are computed, um, based on, um,::	0
+"mn007"::	high resolution spectra. So, I compute an F_F_T based on the long, uh, signal frame which is sixty-four millisecond -::	0
+"me018"::	So you have one minimum for each frequency?::	0
+"mn007"::	What - what I - what I d- uh, I do actually, is to take a bunch of - to take a tile on the spectrogram and this tile is five hundred milliseconds long and two hundred hertz wide.::	0
+"me018"::	Mmm.::	0
+"mn007"::	And this tile -::	0
+"mn007"::	Uh, in this tile appears, like, the harmonics if you have a voiced sound, because it's - it's the F_T_T bins. And when you take the m- the minima of - of these - this tile,::	0
+"mn007"::	when you don't have speech, these minima will give you some noise level estimate,::	0
+"mn007"::	If you have voiced speech, these minima will  still  give you some noise estimate because::	0
+"mn007"::	the minima are between the harmonics.::	0
+"mn007"::	And - If you have other - other kind of speech sounds then it's not the case, but if the time frame is long enough,::	0
+"mn007"::	uh, like s- five hundred milliseconds seems to be long enough,  you still have portions which, uh, are very close - whi- which minima are very close to the noise energy.::	0
+"me013"::	I'm confused. You said five hundred milliseconds but you said sixty-four milliseconds. Which is which? What?::	0
+"mn007"::	Mmm?::	0
+"mn007"::	Sixty-four milliseconds is to compute the F_F_T, uh, bins. The - the F_F_T.::	0
+"me013"::	Yeah, yeah.::	0
+"mn007"::	Um, actually it's better to use sixty-four milliseconds because, um, if you use thirty milliseconds, then, uh, because of the - this short windowing and at low pitch,::	0
+"mn007"::	uh, sounds,  the harmonics are not, wha- uh, correctly separated.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	So if you take these minima, it -::	0
+"mn007"::	b-::	0
+"mn007"::	they will overestimate the noise a lot.::	0
+"me013"::	So you take sixty-four millisecond F_F_Ts and then you average them  over five hundred? Or - ?::	0
+"me013"::	Uh, what do you do over five hundred?::	0
+"mn007"::	So I take - to - I take a bunch of these sixty-four millisecond frame to cover five hundred milliseconds,::	0
+"me013"::	Ah. O_K.::	0
+"mn007"::	and then I look for the minima,::	0
+"me013"::	I  see.::	0
+"me018"::	Mmm.::	0
+"mn007"::	on the - on - on the bunch of uh fifty frames, right?::	0
+"me013"::	I see.::	0
+"mn007"::	Mmm.::	0
+"mn007"::	So the interest of this is that, as y- with this technique you can estimate u-::	0
+"mn007"::	some reasonable noise spectra with only five hundred milliseconds of -::	0
+"mn007"::	of signal,  so if the - the n- the noise varies a lot, uh, you can track - better track the noise,::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	which is not the case if you rely on the voice activity detector. So even if there are no- no speech pauses, you can track the noise level.::	0
+"mn007"::	The only requirement is that you must have, in these five hundred milliseconds segment,  you must have  voiced  sound at least.::	0
+"mn007"::	Cuz this - these will help you to - to track the - the noise level.::	0
+"mn007"::	Um. So what I did is just to simply replace the V_A_D-based, uh, noise estimate by this estimate,::	0
+"mn007"::	first on SpeechDat-Car - Well,  only  on SpeechDat-Car actually. And it's, uh, slightly worse, like one percent relative compared to the V_A_D-based  estimates.::	0
+"mn007"::	Um,::	0
+"mn007"::	I think the reason why it's not better, is that the SpeechDat-Car noises are all stationary.::	0
+"mn007"::	Um. So, u-::	0
+"mn007"::	y- y- there really is no need to have something that's adaptive and - Uh, well, they are mainly stationary. Um.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	But, I expect s- maybe some improvement on T_I-digits because, nnn, in this case the noises are all sometimes very variable.::	0
+"mn007"::	Uh, so I have to test it. Mmm.::	0
+"me013"::	But are you comparing with something - e- I'm - I'm - p- s- a little confused again, i- it -::	0
+"me013"::	Uh, when you compare it with the V_A_ D-based,::	0
+"mn007"::	Mm-hmm. It's -::	0
+"me013"::	which  V_A_D- Is this - is this the - ?::	0
+"mn007"::	It's the France-Telecom-based spectra, s- uh, Wiener filtering and V_A_D. So it's their system but just I replace their noise estimate by  this  one.::	0
+"me013"::	Oh, you're not doing this with  our  system?::	0
+"mn007"::	In i- I'm not - No, no.::	0
+"mn007"::	Yeah, it's  our   system  but with just the Wiener filtering from  their  system.::	0
+"mn007"::	Right?::	0
+"mn007"::	Mmm.::	0
+"me013"::	O_K.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Actually, th- the best system that we still have is,::	0
+"mn007"::	uh, our system but with their noise compensation scheme, right?::	0
+"me013"::	Right. But -::	1
+"mn007"::	So I'm trying to improve on this, and - by - by replacing their noise estimate by, uh, something that might be better.::	0
+"me013"::	O_K. But the spectral subtraction scheme that you reported on also re- requires a - a noise estimate.::	1
+"mn007"::	Yeah.::	1
+"mn007"::	Yeah. But I di-::	0
+"me013"::	Couldn't you try this for that? Do you think it might help?::	1
+"mn007"::	Not yet, because I did this in parallel, and I was working on one and the other. Um,::	0
+"me013"::	I see, I see.::	0
+"me013"::	Yeah.::	0
+"mn007"::	Yeah, for - for sure I will. I can try also, mmm, the spectral subtraction.::	1
+"mn052"::	Yeah.::	0
+"mn052"::	So I'm also using that::	0
+"me013"::	O_K.::	0
+"mn052"::	n- new noise estimate technique on this Wiener filtering what  I'm  trying.::	0
+"mn007"::	Mm-hmm.::	0
+"mn052"::	So I - I have, like, some experiments running, I don't have the results.::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"mn052"::	So. I don't estimate the f- noise on the ten frames but use  his  estimate.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	Yeah.::	0
+"mn007"::	Um.::	0
+"mn007"::	Yeah. I, um, also implemented a sp- um -::	0
+"mn007"::	spectral whitening idea which is in the, um, Ericsson proposal.::	0
+"mn007"::	Uh, the idea is just to::	0
+"mn007"::	um, flatten the log,::	0
+"mn007"::	uh, spectrum,::	0
+"mn007"::	um, and to flatten it more if the - the probability of silence is higher.::	0
+"mn007"::	So in this way, you can also reduce - somewhat reduce the musical noise and you reduce the variability if you have different noise shapes, because::	0
+"mn007"::	the - the spectrum becomes more flat in the silence portions. Um.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	With this, no improvement,  uh, but there are a lot of parameters that we can play with  and,::	0
+"mn007"::	um - Actually, this - this could be seen as a soft version of the frame dropping because,::	0
+"mn007"::	um, you could just put the threshold and say that "below the threshold,::	0
+"mn007"::	I will flatten - comp- completely flatten the - the spectrum". And above this threshold,::	0
+"mn007"::	uh, keep the same spectrum.::	0
+"mn007"::	So it would be like frame dropping, because during the silence portions which are below the threshold of voice activity probability,::	0
+"mn007"::	uh, w- you would have some kind of dummy frame which is a perfectly flat spectrum.::	0
+"mn007"::	And this, uh, whitening is something that's more soft because,::	0
+"mn007"::	um,::	0
+"mn007"::	you whiten - you just, uh, have a function - the whitening is a function of the speech probability, so it's not a hard decision.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	Um, so I think maybe it can be used together with frame dropping and::	0
+"mn007"::	when   we are not sure about if it's speech or silence, well,::	0
+"me013"::	It's interesting. I mean, um, you know, in -::	0
+"mn007"::	maybe it has something do with this.::	0
+"me013"::	in  J_RASTA  we were essentially adding in, uh, white - uh, white noise dependent on our estimate of the noise.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	On the overall estimate of the noise.  Uh, I think it never occurred to us to use a  probability  in there.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	You could  imagine  one that - that - that made use of where -::	0
+"me013"::	where the amount that you added in was,::	0
+"me013"::	uh, a function of the probability of it being s- speech or noise.::	0
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Yeah, w-::	0
+"mn007"::	Yeah, right now it's a constant that just depending on the -::	0
+"mn052"::	There's -::	0
+"mn007"::	the noise spectrum.::	0
+"me013"::	Yeah.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	Cuz that - that brings in::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	sort of powers of classifiers that we don't really have in, uh, this other estimate. So it could be - it could be interesting.::	0
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	What - what - what point does the, uh, system stop recording? How much -::	0
+"me018"::	It'll keep going till -::	0
+"me013"::	It went a little long?::	0
+"me013"::	I mean, disk -::	0
+"me018"::	I guess when they run out of  disk  space, but -::	0
+"mn007"::	So.::	0
+"me018"::	I think we're O_K.::	0
+"me013"::	O_K.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Uh -::	0
+"mn007"::	Yeah, so there are - with this technique there are some -::	0
+"mn007"::	I just did something exactly the same as -::	0
+"mn007"::	as the Ericsson proposal but, um,  the probability of speech is not computed the same way. And::	0
+"mn007"::	I think, i- for - yeah, for a lot of things, actually a g- a good::	0
+"mn007"::	speech probability is important. Like for frame dropping you improve, like -::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	you can improve from ten percent as Sunil showed, if you use the channel zero speech probabilities. For this it might help, um -::	0
+"me013"::	Mm-hmm.::	0
+"me013"::	Mm-hmm.::	1
+"mn007"::	S- so, yeah.::	0
+"mn007"::	Uh, so yeah, the next thing I started to do is to,  uh, try to develop a better voice activity detector. And, um -::	0
+"mn007"::	I d- um - yeah, for this I think we can maybe try to train the neural network for voice activity detection on all the data that we have, including all the SpeechDat-Car data. Um -::	0
+"mn007"::	And so I'm starting to obtain alignments on these databases.::	0
+"mn007"::	Um, and the way I mi- I do that is that I just use the H_T_K system but I train it only on the close-talking microphone.::	0
+"mn007"::	And then I aligned - I obtained the Viterbi alignment of the training utterances.::	0
+"mn007"::	Um -::	0
+"mn007"::	It seems to be, uh i-::	0
+"mn007"::	Actually what I observed is that for Italian it doesn't seem -::	0
+"mn052"::	No.::	0
+"mn007"::	Th- there seems to be a problem. Well. Because -::	0
+"mn052"::	So, it doesn't seems to help by  their  use of channel zero or channel one.::	0
+"mn007"::	What?::	0
+"mn052"::	Uh, you mean their d- the frame dropping, right?::	0
+"mn007"::	Yeah.::	0
+"mn052"::	Yeah, it doesn't -::	0
+"mn007"::	Yeah. So, u- but actually the V_A_D was trained on  Italian  also, so -::	0
+"mn052"::	Italian.::	0
+"mn007"::	Um, the c- the current V_A_D that we have was trained on, uh, t- SPINE, right? Italian, and T_I-digits with noise and -::	0
+"mn052"::	T_I-digits.::	0
+"mn052"::	@@::	0
+"mn007"::	Uh, yeah. And it seems to work on Italian but not on the Finnish and Spanish data.::	0
+"mn007"::	So, maybe one reason is that s- s- Finnish and Spanish noise are different. And::	0
+"mn007"::	actually we observed - we listened to some of the utterances and sometimes for Finnish there is music in the recordings and strange things, right?::	0
+"mn052"::	Yeah.::	0
+"mn007"::	Um - Yeah, so the idea was to train all the databases and obtain an alignment::	0
+"mn007"::	to train on these databases, and, um, also to, um, try different kind of features,  uh, as input to the V_A_D network.::	0
+"mn007"::	And we came up with a bunch of features that we want to try like, um,::	0
+"mn007"::	the spectral slope, the, um, the  degree   o- degree of voicing with the features that, uh, we started to develop with Carmen,::	0
+"mn007"::	um, e- with, uh, the correlation between bands::	0
+"mn007"::	and different kind of features, and - Yeah.::	0
+"mn052"::	Yeah. Mm-hmm.::	0
+"mn052"::	The energy also.::	0
+"mn007"::	The energy. Yeah. Of course.::	0
+"mn052"::	Yeah.::	0
+"me013"::	Yeah, right.::	0
+"mn007"::	Yeah.::	0
+"me013"::	O_K. Well, Hans-Guenter will be here next week so I think he'll be interested in all -  all  of these things. And, so.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	Mmm.::	0
+"me018"::	O_K, shall we, uh, do digits?::	0
+"me013"::	Yeah.::	0
+"me018"::	Want to go ahead, Morgan?::	0
+"me013"::	Sure.::	1
+"me018"::	O_K.::	0

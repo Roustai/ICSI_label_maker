@@ -1,0 +1,1449 @@
+"me013"::	Are we on?::	0
+"me013"::	We're on. O_K.::	0
+"me018"::	Is it on?::	0
+"mn005"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"me013"::	O_K, so, uh,  we haven't sent around the agenda.  So,::	0
+"mn005"::	One, two -::	0
+"mn005"::	u-  O_K .::	0
+"fe016"::	Why is it so  cold  in here?::	0
+"me013"::	i-::	0
+"me013"::	uh, any agenda items anybody has, wants to talk about, what's going on?::	0
+"fe008"::	I c- I could talk about the  meeting.::	0
+"me011"::	Does everyone - has everyone met  Don?::	0
+"fe008"::	Yeah.::	0
+"me011"::	Yeah? O_K.::	0
+"mn005"::	Yeah.::	0
+"mn014"::	Now,  yeah.::	0
+"me013"::	It's on?::	0
+"me001"::	Hello.::	0
+"mn005"::	Yeah.::	0
+"me001"::	Yeah.::	0
+"me013"::	O_K, agenda item one, introduce  Don.  O_K, we  did   that.   Uh -::	0
+"mn005"::	We went -::	0
+"fe016"::	Well, I had a - just a  quick  question but I know there was  discussion  of it at a previous meeting that I  missed,  but just about the -::	0
+"fe016"::	the  wish  list item of getting good quality close-talking mikes on every speaker.::	0
+"me013"::	O_K, so let's - let's - So let's just do agenda  building right now. O_K, so let's talk about that a bit.::	0
+"fe016"::	I mean, that was -::	0
+"me013"::	Uh,  @@  tuss- close talking mikes, better quality. O_K,  uh, we can talk about that. You were gonna - starting to say something?::	0
+"fe008"::	Well, you - you, um, already know about the meeting  that's coming up and I don't know if - if::	0
+"fe008"::	this is appropriate for this.  I don't know. I mean, maybe - maybe it's something we should handle outside of the meeting.::	0
+"me018"::	What  meeting?::	0
+"me013"::	No, no, that's O_K. We can - so - we can ta- so n- NIST is - NIST folks are coming by next week and so we can talk about that.::	0
+"fe008"::	O_K.::	0
+"fe008"::	Yeah.::	0
+"me018"::	Who's  coming?::	0
+"me013"::	I think::	0
+"me013"::	Uh, uh, John Fiscus and, uh, I think George Doddington will be::	0
+"fe008"::	Mm-hmm.::	0
+"me013"::	around as well.::	0
+"me013"::	Uh, O_K, so we can talk about that. Uh, I guess just hear about how things are going with, uh, uh, the transcriptions. That's right. That would sorta be an obvious thing to discuss.::	0
+"fe008"::	Sure. Mm-hmm.::	0
+"me013"::	Um,::	0
+"me013"::	An- anything else, uh,::	0
+"me013"::	strike anybody?::	0
+"fe016"::	Uh, we started  running recognition on  one conversation but it's the r-  isn't working yet.  So,::	0
+"me013"::	O_K.::	0
+"fe016"::	But if anyone has -::	0
+"me018"::	Wha-::	0
+"fe016"::	uh, the  main  thing would be if anyone has, um, knowledge about ways to, uh, post-process the wave forms that would give us better recognition, that would be helpful to know about.::	0
+"me013"::	Um,::	0
+"me011"::	Dome  yeah, it sounds like a topic of conversation.::	0
+"me013"::	Yeah, so, uh -::	0
+"me018"::	What about, uh, is there anything new with the speech, nonspeech::	0
+"mn014"::	Yeah , we're working more on it but,  it's not finished.::	0
+"me018"::	stuff?::	0
+"me013"::	O_K.::	0
+"me013"::	Alright,  that seems like a - a good collection of things. And we'll undoubtedly think of  other things.::	0
+"fe008"::	I had thought under  my  topic that I would mention the, uh, four items that I - I, uh, put out for being on the agenda f- on that  meeting,  which includes like the pre-segmentation and the - and the developments in multitrans.::	0
+"me013"::	Oh, under the NIST meeting.::	0
+"fe008"::	Yeah, under the NIST thing. Yeah.::	0
+"me013"::	O_K.::	0
+"me013"::	Alright, why don't we start off with this,::	0
+"me013"::	u- u-::	0
+"me013"::	I guess the order we brought  them   up seems fine. Um,::	0
+"fe008"::	Yeah.::	0
+"me013"::	so, better quality close talking mikes. So the one issue was that the - the, uh, lapel mike, uh, isn't as good as you would like. And so,::	1
+"me013"::	uh, it - it'd be  better  if we had close talking mikes for  everybody.  Right?::	0
+"me013"::	Is that - is that basically the point?::	0
+"fe016"::	Ri- um,::	0
+"fe016"::	yeah, the -::	0
+"fe016"::	And actually in  addition  to that, that the -::	1
+"fe016"::	the close talking mikes are worn in such a way as to best capture the signal.::	1
+"fe016"::	And the  reason  here is just that for the people doing  work  not on microphones but on sort of like  dialogue  and so forth,::	0
+"fe016"::	uh - or and even on  prosody,  which Don is gonna be working on soon,::	0
+"fe016"::	it adds this extra, you know, vari-  variable  for each speaker to - to deal with when the microphones aren't similar.::	0
+"me011"::	Right.::	0
+"me013"::	Mm-hmm.::	0
+"fe016"::	So - And I  also  talked to Mari this morning and she  also  had a strong preference for doing that. And in fact she said that::	0
+"fe016"::	that's useful for them to know in starting to collect  their  data too.::	0
+"me013"::	Mm-hmm.::	0
+"me013"::	Right, so one th-::	0
+"me011"::	Well, so -::	0
+"me013"::	uh, well one thing I was gonna say was that, um,::	1
+"me013"::	i-::	0
+"me013"::	we could get more, uh, of the head mounted microphones even beyond the number of  radio  channels we have because::	1
+"me013"::	I think whether it's radio or wire is probably second-order. And the main thing is having the microphone  close  to you, u- although, not too close.::	0
+"fe016"::	Mm-hmm.::	0
+"me011"::	Right, so, uh, actually the way Jose is wearing  his  is - is c-  correct. The good way. So you want to -::	0
+"mn005"::	Yeah.::	0
+"mn005"::	Is -::	0
+"me013"::	Yeah.::	0
+"mn005"::	I- it's  not  cor- it's  correct?::	0
+"me013"::	Is.::	0
+"me011"::	Yeah, th- that's good. So it's towards the corner of your mouth so that breath sounds don't get on it. And then just sort of::	1
+"mn005"::	Yeah.::	0
+"me013"::	Yes.::	0
+"mn005"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"me011"::	about, uh, a thumb or - a thumb and a half away from your - from your mouth.::	0
+"mn005"::	Yeah.::	0
+"mn005"::	Uh, yeah.::	0
+"me013"::	Right.::	0
+"me013"::	How am I d-::	0
+"fe016"::	But we have more than one type of - I mean, for instance, you're -::	0
+"mn014"::	Yeah.::	0
+"me011"::	And  this  one isn't very  adjustable,  so this about as good as I can get cuz it's a fixed boom.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	Right.::	0
+"mn005"::	Yeah.::	0
+"mn005"::	Is fixed. Yeah.::	0
+"me013"::	Yeah.::	0
+"fe016"::	But if we could actually standardize, you know, the - the microphones, uh, as much as possible that would be really helpful.::	0
+"me018"::	Mm-hmm.::	0
+"mn005"::	Yeah.::	0
+"me011"::	Mm-hmm.::	0
+"me013"::	Well, I mean it doesn't hurt to have a few extra microphones around, so why don't we just go out and - and get an order of - of if this microphone seems O_K to people,::	0
+"mn005"::	Yeah.::	0
+"me013"::	uh, I'd just get a half dozen of these things.::	0
+"me011"::	Well the onl- the only problem with that is right now, um, some of the Jimlets aren't working.::	0
+"me011"::	The little - the boxes under the table.::	0
+"me013"::	Yeah.::	0
+"me011"::	And so, w- Uh, I've only been able to find three jacks that are working.::	0
+"me013"::	Yeah.::	0
+"me018"::	Can we get  these,  wireless?::	0
+"me011"::	So -::	0
+"me013"::	No, but my  point  is -::	0
+"fe016"::	But y- we could just record these signals separately and time align them with the start of the meeting.::	0
+"me013"::	R- r- right -::	0
+"me011"::	I - I'm not sure I'm follow.  Say that again?::	0
+"me013"::	Right now,::	0
+"me013"::	we've got, uh, two microphones in the room,::	0
+"me013"::	that are not quote-unquote  standard.  So why don't we replace those -::	0
+"me011"::	O_K, just  two.::	0
+"me013"::	Well, however many we can plug  in.  You know, if we can plug in  three,  let's plug in  three.  Also what we've talked before about getting another, uh,  radio,::	0
+"me011"::	O_K.::	0
+"mn005"::	Mm-yeah.::	0
+"me011"::	Right.::	0
+"me013"::	and so then that would be, you know,  three   more.::	0
+"me011"::	Right. O_K.::	0
+"mn005"::	Mm-hmm.::	0
+"me013"::	So, uh - so we should go out to our full complement of whatever we can  do,::	0
+"me013"::	but have them  all  be the same  mike.  I think the original reason::	1
+"me013"::	that it was done the  other  way was because, it w- it was sort of an experimental thing and I don't think anybody knew whether people would rather have more variety or -::	1
+"fe016"::	Right.::	0
+"me013"::	or, uh, more uniformity, but -::	1
+"me013"::	@@::	0
+"me013"::	but uh,::	0
+"me013"::	sounds - sounds fine.::	0
+"me011"::	Sounds like uniformity wins.::	0
+"mn005"::	Right .::	0
+"me013"::	Yeah.::	0
+"fe016"::	Well, for short term research it's just - there's just so much::	0
+"fe016"::	effort that would have to be done up front n- uh, so - yeah, uniformity would be great.::	0
+"me011"::	Well -::	0
+"me011"::	Yeah.::	0
+"me018"::	Is it because -::	0
+"me018"::	You - you're saying the - for dialogue purposes, so that means that the transcribers are having trouble with those::	0
+"me018"::	mikes? Is that what you mean? Or - ?::	0
+"fe016"::	Well  Jane  would know more about the  transcribers.::	0
+"fe008"::	And that's true. I mean, I - we  did   discuss  this. Uh, and - and -::	0
+"me011"::	Yep.::	0
+"me011"::	Couple times.::	0
+"fe008"::	a  couple  times,  so, um, yeah, the  transcribers  notice - And in  fact  there're  some  where, um -::	0
+"fe008"::	ugh  well, I mean there's - it's the  double  thing. It's the  equipment  and also how it's  worn.::	1
+"fe008"::	And he's always - they always - they just rave about how wonderful Adam's -  Adam's  channel is.::	0
+"fe016"::	Right.::	0
+"me011"::	What can I say.::	0
+"fe008"::	And then,::	0
+"fe016"::	So does the recognizer.::	0
+"me013"::	Yeah.::	0
+"me011"::	Oh, really? Yeah, I'm not surprised. I mean, "Baaah!"::	0
+"fe008"::	Yeah.::	0
+"fe008"::	Yeah, but I mean it's  not  just  that,  it's also you know you-::	0
+"fe016"::	Even if - if you're talking on someone  else's  mike it's still  you w-::	0
+"me013"::	Yeah.::	0
+"fe008"::	It's also like n- no breathing, no -  You know, it's like it's -::	0
+"mn014"::	Yeah.::	0
+"fe008"::	it's um, it's really -  it makes a big difference from the transcribers' point of view and also from the research s- point of view.::	1
+"me013"::	Yeah.::	0
+"me011"::	Yeah, it's an advantage when you don't breath.::	0
+"me011"::	Yeah, I think that the  point  of doing the close talking  mike  is to get a good quality  signal.  We're not doing research on close talking mikes.::	1
+"fe016"::	Right.::	0
+"me013"::	When we're doing -::	0
+"fe008"::	Yeah.::	0
+"me011"::	So we might as  well  get it as uniform as we can.::	1
+"me013"::	Yeah.::	0
+"fe016"::	Right.::	0
+"me013"::	Now, this is::	0
+"me013"::	locking the barn door after the horse was stolen. We do have thirty hours, of - of speech, which is done this way. But -::	0
+"me011"::	Yeah.::	0
+"fe016"::	That's  O_K.::	0
+"me013"::	but, uh,  yeah,  for  future  ones we can get it a bit more uniform.::	0
+"fe016"::	Great, great.::	0
+"me011"::	So I think just do a field trip at some point.::	0
+"me013"::	Yeah, probably - yeah, to the store we talked about and that -::	0
+"me011"::	Yep.::	0
+"fe008"::	And there was  some  talk about, uh, maybe the h- headphones that are  uncomfortable  for people, to -::	0
+"me011"::	Yep.::	0
+"me011"::	So, as - as I said, we'll do a field trip and see if we can get all of the same mike that's more comfortable than - than these things, which I think are horrible.::	1
+"fe008"::	O_K.::	0
+"me011"::	So.::	0
+"fe008"::	Good.::	0
+"fe016"::	Great, thank you very much.  It's makes our job a lot easier.::	0
+"me018"::	Especially for people with big heads.::	0
+"me013"::	O_K.::	0
+"me011"::	And, you know, we're  researchers,  so we  all  have big heads.::	0
+"me013"::	O_K.::	0
+"me018"::	Yeah.::	0
+"me013"::	O_K.::	0
+"me013"::	Yeah.::	0
+"me013"::	Uh,::	0
+"me013"::	O_K, second item was the, uh,::	0
+"me013"::	NIST visit, and what's going on there.::	0
+"fe008"::	Yeah.::	0
+"fe008"::	O_K, so, um, uh,::	0
+"fe008"::	Jonathan Fiscus is coming on the second of February and I've spoken with, uh,  u- u- a  lot  of people here, not  everyone.  Um, and, um,::	0
+"fe008"::	he expressed an interest in seeing the room and in, um, seeing a demonstration of the modified multitrans, which I'll mention in a second,::	0
+"fe008"::	and also, um, he was interested in the pre-segmentation and then he's also  interested   in the transcription conventions.::	0
+"me011"::	Mm-hmm.::	0
+"fe008"::	And, um - So, um, it seems to me in terms of like, um,::	0
+"fe008"::	i- i- it wou-::	0
+"fe008"::	You know, O_K. So the  room,  it's things like the audio and c- and audi- audio and acoustic - acoustic properties of the  room  and how it - how the  recordings  are done, and that kind of thing.::	0
+"fe008"::	And, um. O_K, in terms of the  multi-trans,  well that - that's being modified by Dave Gelbart to, uh, handle multi-channel recording.::	1
+"me011"::	Oh, I should've -::	0
+"me011"::	I was just thinking I should have invited him to this  meeting.  I forgot to do it.::	0
+"fe008"::	Yeah, O_K.::	0
+"me011"::	So.::	0
+"mn014"::	Yeah.::	0
+"me011"::	Sorry.::	0
+"fe008"::	Yeah. Well that's O_K, I mean we'll -::	0
+"fe008"::	Yeah, and it's t- and it  looks  really great. He - he has a prototype. I - I, uh,::	0
+"fe008"::	@@::	0
+"fe008"::	didn't - didn't see it, uh,  yesterday  but I'm going to see it  today.::	0
+"fe008"::	And, uh, that's - that will enable us to do  nice::	1
+"fe008"::	um, tight  time  marking of the beginning and  ending  of overlapping segments. At present it's not  possible  with limitations of -::	1
+"fe008"::	of the, uh, original  design of the software.::	1
+"fe008"::	And um.::	0
+"fe008"::	So,  I  don't know.::	0
+"fe008"::	In terms of, like,  pre-segmentation,  that - that  continues  to be, um, a  terrific  asset to the - to the  transcribers.::	1
+"fe008"::	Do you - I know that you're al- also supplementing it further. Do you want to mention something about that c- Thilo, or - ?::	0
+"mn014"::	Um, yeah. What - what I'm doing right now is I'm trying to::	1
+"mn014"::	include some information about which channel, uh, there's some speech::	0
+"mn014"::	in. But that's not working at the moment. I'm just trying to do this by comparing energies, uh -::	1
+"fe008"::	O_K.::	0
+"mn014"::	normalizing energies and comparing energies of the different channels. And::	1
+"mn014"::	so to - to give the transcribers some information in which channel there's - there's speech in addition to - to the thing we - we did::	1
+"mn014"::	now which is just, uh, speech-nonspeech detection on the mixed file.::	1
+"fe008"::	This is good. Mm-hmm.::	0
+"mn014"::	So I'm - I'm relying on - on the segmentation of the mixed file but I'm - I'm trying to::	1
+"mn014"::	subdivide the speech portions into::	0
+"mn014"::	different portions if there is some activity in - in  different  channels.::	1
+"fe008"::	Excellent, so this'd be like w- e- providing also  speaker  I_D  potentially.  Wonderful.::	0
+"mn014"::	But -::	0
+"mn014"::	Yeah.  Yeah.::	0
+"fe008"::	Wonderful.::	0
+"me013"::	Um, something I guess I didn't put in the  list  but, uh,::	0
+"me013"::	on that, uh,  same  day later on in - or maybe it's -::	0
+"me013"::	No,  actually   it's  this  week,::	0
+"me013"::	uh, Dave Gelbart and I will be, uh, visiting with John  Canny  who i- you know, is a C_S professor,::	1
+"fe008"::	Oh.::	0
+"me011"::	H_C_C .::	0
+"me013"::	who's interested in ar- in  array  microphones.::	1
+"me011"::	Oh, he's doing array mikes.::	0
+"me013"::	Yeah.::	0
+"me013"::	And so we wanna see what commonality there is here. You know, maybe they'd wanna::	1
+"me013"::	stick an array mike here when we're  doing  things  or - or maybe::	1
+"me018"::	That  would be  cool.::	0
+"me011"::	Yeah, that would be neat.::	0
+"mn005"::	Yeah.::	0
+"me018"::	That would be really neat.::	0
+"me013"::	it's - it's not a  specific  array microphone they want but they might wanna just, - uh, you know, you could imagine them taking the four signals from these - these  table  mikes and trying to do something with  them  -::	1
+"me013"::	Um, I  also  had a discussion - So, w- uh, we'll be over - over there talking with him, um, after class on Friday. Um,::	0
+"me013"::	we'll let you know what - what goes with that. Also had a completely unrelated thing. I had a, uh, discussion today with, uh, Birger Kollmeier who's a,::	0
+"me013"::	uh, a German, uh, scientist who's got a fair sized group  doing a range of things. It's sort of auditory related, largely for hearing aids and so on. But -::	0
+"me013"::	but, uh, he does stuff with auditory models and he's very interested in directionality, and location, and -::	0
+"me013"::	and, uh, head models and::	0
+"me013"::	microphone things. And so, uh, he's - he and possibly a student, there w- there's, uh, a student of his who gave a talk here::	0
+"me013"::	last year, uh, may come here, uh, in the fall for, uh, sort of a five month, uh, sabbatical. So he might be around.::	0
+"me013"::	Get him to give some talks and so on. But  anyway,  he might be interested in  this stuff.::	0
+"mn005"::	Mm-hmm.::	0
+"me018"::	That - that reminds me, I had a - a thought of an interesting  project  that::	1
+"me018"::	somebody could try to do with  the data from here, either using, you know, the - the mikes on the table or::	1
+"mn005"::	Mm-hmm.::	0
+"me018"::	using signal energies from the  head  worn mikes, and that is to try to construct a map of where people were  sitting,::	1
+"me013"::	Right.::	0
+"mn005"::	Uh-huh.::	0
+"me011"::	Well Dan - Dan had worked on that. Dan Ellis, yeah.::	1
+"me018"::	uh, based on -::	0
+"mn005"::	Uh-huh.::	0
+"me018"::	Oh,  did  he? Oh, that's interesting.::	0
+"me011"::	So that - that's the cross-correlation stuff, was -::	1
+"mn005"::	Yeah.::	0
+"me011"::	was doing b- beam-forming.::	1
+"me018"::	And so you could plot out who was sitting next to who and -::	1
+"me013"::	A  little  bit, I mean, he didn't do a very  extreme thing  but just - it was just sort of::	0
+"mn005"::	Yeah, yeah.::	0
+"me011"::	No, he did start on it.::	0
+"me013"::	e- e- given that, the - the - the block of wood with the - the - the two mikes  on either side,::	0
+"me011"::	Mm-hmm.::	0
+"me013"::	if  I'm  speaking, or if  you're  speaking, or someone over  there  is speaking, it - if you look at cross-correlation functions, you end up with a -::	1
+"mn005"::	Yeah.::	0
+"me013"::	if - if someone who was on the axis between the two is talking, then you - you get a big peak  there.  And if - if someone's talking on - on - on, uh, one side or the other, it goes the  other  way. And then,::	1
+"me018"::	Mm-hmm.::	0
+"me013"::	uh, it - it - it  even  looks  different  if th- t- if the  two  - two people on either side are talking than if one in the middle. It - it actually looks somewhat different, so.::	1
+"me018"::	Hmm.::	0
+"me018"::	Well I was just thinking, you know, as I was sitting here next to  Thilo  that::	0
+"mn014"::	Yeah.::	0
+"me018"::	um,::	0
+"me018"::	when he's  talking,::	0
+"me018"::	my  mike probably picks it up better than   your   guys's   mikes. So if you just looked at -::	0
+"mn005"::	Yeah.::	0
+"me011"::	Oh, that's another cl- cue, that's true.::	0
+"mn005"::	Yeah.::	0
+"me018"::	yeah,  looked at  the energy on my mike and you could get an idea about  who's   closest  to  who.::	0
+"mn005"::	Yeah.::	0
+"me013"::	Mm-hmm.::	0
+"mn005"::	Yeah.::	0
+"me013"::	Right.::	0
+"mn005"::	Yeah.::	0
+"me018"::	And -::	0
+"me011"::	Or who talks the loudest.::	0
+"mn005"::	Yeah.::	0
+"mn014"::	Yeah.::	0
+"me013"::	Yeah, well you have to - the appropriate normalizations are tricky, and - and - and are probably the key.::	0
+"me011"::	Yeah.::	0
+"mn014"::	Yeah.::	0
+"fe016"::	You just search for Adam's voice on each individual microphone, you pretty much know where everybody's sitting.::	0
+"mn005"::	Yeah.::	0
+"mn014"::	Yeah.::	0
+"me013"::	Yeah. We've switched positions recently so you can't -  Anyway.::	0
+"me013"::	O_K.::	0
+"me013"::	So those are just a little couple of news items.::	0
+"fe008"::	Can I ask one thing? Uh, so, um,::	0
+"fe008"::	Jonathan Fiscus expressed an interest in, uh,  microphone  arrays.::	0
+"me013"::	Yes.::	0
+"fe008"::	Um, is there - I mean - b- And I  also  want to say, his - he can't stay all day. He needs to::	0
+"fe008"::	uh, leave for - uh, from here to make a two forty-five flight::	0
+"me011"::	Oh,  so just  morning.::	0
+"fe008"::	from - from Oakland.::	0
+"me013"::	Right.::	0
+"fe008"::	So it makes the scheduling a little bit tight but do you think that, um - that, uh, i- John Canny should be involved in this somehow or  not.  I have no idea.::	0
+"me013"::	Probably  not but I - I'll - I'll - I'll know better after I see him this Friday what - what kind of level he wants to get involved.::	0
+"fe008"::	It's premature.::	0
+"fe008"::	Fine.::	0
+"fe008"::	Good.::	0
+"me013"::	Uh, he might be  excited  to and it might be very  appropriate  for him to, uh, or he might have no interest  whatsoever.  I - I just really don't know.::	0
+"fe008"::	O_K.::	0
+"me011"::	Is  he  involved in - Ach!  I'm blanking on the name of the project.::	0
+"me011"::	NIST has - has done a big meeting room - instrumented meeting room with video and microphone arrays, and::	1
+"me011"::	very elaborate software. Is - is he the one working on that?::	1
+"me013"::	Well  that's  what they're starting  up.::	0
+"me011"::	O_K.::	0
+"me013"::	Yeah. No, I mean, that's what all this is  about.  They - they  haven't  done it yet.::	0
+"me011"::	O_K. I had read some papers that looked like they had already done  some  work.::	0
+"me013"::	They  wanted  to do it -::	1
+"me013"::	Uh, well I  think  they've instrumented a  room  but I don't  think they - they haven't started recordings yet. They don't have the t- the transcription standards. They don't have the -::	1
+"me018"::	Are they going to do  video  as  well?::	0
+"me011"::	Hmm.::	0
+"me013"::	Yeah.::	0
+"me018"::	Hmm.::	0
+"me013"::	I  think.  I  think  they are.::	0
+"me011"::	Oh, cuz what - what  I  had read was, uh, they had a uh::	0
+"me011"::	very   large  amount of software infrastructure for coordinating all this, both::	0
+"me011"::	in terms of recording and also live room where you're interacting - the participants are interacting with the computer, and with the video, and lots of other stuff.::	0
+"me013"::	Well, I'm - I'm - I'm not sure. All - all I know is that they've been talking to me about a project that they're  going  to start up::	1
+"me011"::	So.::	0
+"me011"::	O_K. Well -::	0
+"me013"::	recording people meet- in meetings. And, uh, it is related to ours. They were interested in ours. They wanted to get some uniformity with us, uh, about the transcriptions and so on.::	1
+"me011"::	Alright.::	0
+"me013"::	And one -  one  notable difference - u- u- actually I can't  remember  whether they were going to routinely collect video or not,  but one -::	1
+"me013"::	one, uh, difference from the  audio  side was that they  are  interested in using  array  mikes.::	1
+"me013"::	So, um, I mean, I'll just tell you the party line on that. The reason I  didn't  go for that here::	1
+"me013"::	was because, uh, the focus, uh, both of  my  interest and of  Adam's  interest was::	0
+"me013"::	uh, in impromptu situations. And::	1
+"me013"::	we're  not   recording  a bunch of impromptu situations but that's because it's different to get data for  research  than to::	1
+"me013"::	actually  apply  it. And so, uh, for  scientific  reasons we thought it was good to instrument this  room  as we wanted it.::	0
+"mn005"::	Hmm.::	0
+"me013"::	But the thing we  ultimately  wanted to aim at was a situation where::	1
+"me013"::	you were talking with, uh, one or more other people::	0
+"me013"::	i- uh, in - in an p-  impromptu  way, where you didn't - didn't actually  know  what the situation was going to  be.  And therefore it would not - it'd be highly  unlikely  that room would be outfitted with - with some very carefully designed array of  microphones.::	1
+"me013"::	Um, so it was  only  for that reason. It was just, you know, yet another piece of research and it seemed like we had enough troubles just -::	0
+"me018"::	So there's no like portable array of mikes?::	0
+"me013"::	No. So there's - there's -::	0
+"mn005"::	Hmm.::	0
+"me013"::	uh, there's a whole range of things - there's a whole  array  of things,  that people do on this. So, um,::	0
+"me013"::	the, uh - the  big  arrays, uh, places, uh, like::	0
+"me013"::	uh, Rutgers, and Brown, and other - other places,::	0
+"me013"::	uh, they have, uh, big arrays with, I don't know, a hundred - hundred mikes or something. And so there's a wall of mikes. And you get::	0
+"me011"::	Xerox.::	0
+"me018"::	Wow.::	0
+"me013"::	really,  really  good  beam-forming  with that sort of thing.::	0
+"me013"::	And it's - and, um,::	0
+"me013"::	in  fact  at  one  point we had a - a proposal in with Rutgers where we were gonna do some of the::	0
+"me013"::	sort of  per  channel signal-processing and they were gonna do the  multi-channel  stuff, but  it d- it d- we ended up not doing it. But -::	0
+"me018"::	I've  seen   demonstrations  of the  microphone  arrays. It's  amazing::	0
+"me013"::	Yeah, it's r-::	0
+"me018"::	how - how they can cut out noise.::	0
+"me013"::	It's really neat stuff. And then they had the little ones, yeah.::	0
+"me011"::	And then they have  little  ones  too  but I mean - but they  don't  have our block of  wood,  right?::	0
+"me013"::	Yeah, our block of wood is unique. But the-  But the-  No, there are these commercial things now you can buy that have four mikes or something and - and, uh,::	0
+"mn005"::	Yeah.::	0
+"fe016"::	Mm-hmm.::	0
+"me013"::	um -::	0
+"me013"::	So, yeah, there's - there's - there's a range of things that people do.::	0
+"me018"::	Huh.::	0
+"me013"::	Um, so if we connected up with somebody who was interested in doing that sort of thing that's - that's a  good  thing to do. I mean,  whenever  I've described this to other people who are interested on the - with the acoustic side::	0
+"me013"::	that's  invariably  the question they ask. Just like someone who is interested in the general dialogue thing will always ask::	0
+"me013"::	"um, are you recording  video? "::	0
+"fe016"::	Right, right.::	0
+"me013"::	Um, right? And - and the  acoustic  people will always say, "well are you doing, uh, uh, array microphones?" So it's -::	1
+"me013"::	it's a  good  thing to  do,::	0
+"me013"::	but it  doesn't  solve the problem of  how  do you solve things when there's one mike or at best  two  mikes in - in this  imagined  P_D_A that we have.::	1
+"me013"::	So  maybe  - maybe we'll  do  some more of it.::	1
+"fe008"::	Well one thing I - I mean, I don't know. I mean, I  know  that having an array of - I mean, I would  imagine  it would be more  expensive  to have a -::	0
+"fe008"::	an array of microphones. But couldn't you kind of  approximate  the natural sis- situation by just shutting off::	0
+"fe008"::	uh, channels when you're - later on? I mean, it seems like if the microphones don't  effect  each other then couldn't you just,::	0
+"fe008"::	you know,  record  them with an array and then just not  use  all the data?::	0
+"me011"::	It's - it's just a lot of infrastructure that::	0
+"fe008"::	I see. Fine.::	0
+"me011"::	for our particular purpose we felt we didn't need to set up.::	0
+"fe016"::	Yeah.::	0
+"fe008"::	O_K.::	0
+"me013"::	Yeah, if ninety-nine percent of what you're doing is c- is shutting off  most  of the  mikes,  then going through the -::	0
+"me013"::	But if you get somebody who's - who - who has that as a primary  interest  then that put - then that drives it in that direction.::	0
+"me011"::	That's right, I mean if someone - if someone came in and said we really want to do it,::	0
+"fe016"::	Right.::	0
+"me011"::	I mean,  we  don't care. That would be fine,  Buy more disk space.::	0
+"me018"::	So to save that data you -::	0
+"me018"::	You have to have one channel recording per mike in the array?::	0
+"me018"::	Is that -::	0
+"me013"::	Well, uh, at  some  level - at  some  level. But then, you know, there's - it -::	0
+"me011"::	I usually do a mix.::	0
+"me013"::	there's -::	0
+"me018"::	What you save, I mean, if you're going to do research with it.  yeah::	0
+"me013"::	There's - I - I don't know what they're going to do and I don't know how big their array is. Obviously if you were gonna save all of those channels for later research you'd use up a lot of space.::	0
+"me018"::	Yeah. Hmm.::	0
+"me013"::	And, th-::	0
+"me011"::	Well their software infrastructure had a very elaborate design for plugging in filters, and mixers, and all sorts of processing.::	0
+"me011"::	So that they can  do  stuff in real  time  and  not  save out each channel individually.::	0
+"me013"::	Yeah.::	0
+"me018"::	Mmm.::	0
+"me013"::	Yeah.::	0
+"me011"::	So it was, uh -::	0
+"mn005"::	Yeah.::	0
+"me013"::	But I mean, uh,::	0
+"me013"::	for optimum flexibility  later  you'd want to save each channel. But I think in practical situations::	0
+"me013"::	you would have  some  engine of  some  sort doing some  processing  to  reduce  this to  some  - to the  equivalent  of a single microphone that was very  directional.::	0
+"me018"::	Uh, oh, O_K, I see.::	0
+"me013"::	Right?::	0
+"me013"::	So -::	0
+"me018"::	Sort of saving the  result  of the beam-forming.::	0
+"fe016"::	I mean, it seems -::	0
+"mn005"::	Yeah.::	0
+"fe016"::	it seems to me that there's -::	1
+"fe016"::	you know, there are good political reasons for -::	0
+"fe016"::	for  doing  this, just  getting  the data, because there's::	1
+"fe016"::	a number of sites - like right now S_R_I is probably gonna invest a  lot  of internal funding into recording meetings also, which is  good,::	0
+"fe016"::	um, but they'll be recording with video and they'll be -::	0
+"fe016"::	You know, it'd be  nice  if we can have at least,::	1
+"fe016"::	uh, make  use  of the data that we're  recording  as we  go  since it's sort of - this is the first site that has really  collected  these really impromptu meetings,::	1
+"fe016"::	um, and just have this other information available. So,::	1
+"fe016"::	if we can get the investment in just for the infra- infrastructure and then,::	1
+"fe016"::	I don't know, save it out or have whoever's  interested::	0
+"fe016"::	save that data out, transfer it there, it'd be g- it'd be good to have - have the recording.::	1
+"me011"::	You mean to - to actually get a microphone array and::	1
+"fe016"::	I think.::	1
+"fe016"::	Well, if -::	0
+"me011"::	do  that? And  video  and -::	1
+"fe016"::	Even if we're not - I'm not sure about video. That's sort of an - video has a little different nature since::	0
+"fe016"::	right n- right now we're all being recorded but we're not being  taped.::	0
+"fe016"::	Um, but it -  definitely  in the case of  microphone  arrays, since if there was a community  interested  in this,::	1
+"me011"::	Well, but I think we need a researcher  here  who's interested in it.::	0
+"fe016"::	then -::	1
+"me011"::	To push it  along.::	0
+"me013"::	See the  problem  is it - it took, uh,::	0
+"me013"::	uh, it took at  least  six months for Dan::	0
+"me013"::	to get together the hardware and the software, and debug stuff in - in the microphones, and in the boxes. And it was a really big deal.::	0
+"me013"::	And so I think we could get::	1
+"me013"::	a  microphone array in here pretty easily and, uh, have it mixed to - to one channel of some sort. But,::	1
+"fe016"::	Mm-hmm.::	0
+"me013"::	e-::	0
+"me013"::	I  think  for  @@   I mean, how we're gonna decide -::	1
+"me013"::	For - for maximum flexibility later you really  don't  want to end up with just one channel that's pointed in the direction of the - the - the p-::	1
+"me013"::	the person with the maximum energy or something like that. I mean, you - you want actually to -::	1
+"me013"::	you want actually to have multiple channels being recorded so that you can -::	1
+"me013"::	And to  do  that, it - we're going to end up greatly increasing the disk space that we use up,::	0
+"me013"::	we  also  only have  boards  that will take up to sixteen  channels  and in   this  meeting,::	0
+"me013"::	we've got eight people and - and six mikes. And  there  we're already using  fourteen.::	0
+"me011"::	And we actually only have  fifteen.  One of them's -::	0
+"me013"::	E-::	0
+"mn005"::	Yeah.::	0
+"me011"::	Details.  But  fifteen,  not  sixteen.::	0
+"fe016"::	Mm-hmm.::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"fe016"::	Well if there's a way to say time - to sort of solve each of these f- those -::	0
+"fe016"::	So suppose you can get an array in because there's some person at Berkeley who's interested and has  some::	0
+"fe016"::	equipment, uh, and suppose we can -::	0
+"fe016"::	as we  save  it we can, you know, transfer it off to some other place that - that holds this - this data,::	0
+"fe016"::	who's  interested,::	0
+"fe016"::	and even if ICSI it- itself isn't.::	0
+"fe016"::	Um, and it - it seems like as long as we can  time  align the  beginning,  do we need to  mix  it with the  rest?  I don't  know.::	0
+"fe016"::	You know? The- So -::	0
+"me013"::	Yeah. So I  think  you'd need a separate - a separate set up and the assumption that you could  time  align the two.::	0
+"fe016"::	Yeah.::	0
+"me011"::	And y- it'd certainly gets skew.::	0
+"fe016"::	I mean it's just - it's worth considering as sort of::	0
+"fe016"::	once you make the up front investment  and can sort of save it  out  each time, and - and::	0
+"fe016"::	not have to worry about the  disk  space factor, then it mi- it might be worth having the data.::	0
+"me013"::	I'm  not  so much worried about disk space actually. I mentioned that, b- as a  practical  matter, but the  real  issue is::	1
+"me011"::	Just -::	0
+"me013"::	that, uh, there is  no  way to do a recording extended to what we have now with low skew.::	1
+"me013"::	So  you would have a t-  completely   separate   set  up, which would mean that the  sampling  times and  so  forth would be all  over  the place compared to  this.::	0
+"fe016"::	Right.::	0
+"me013"::	So it would  depend  on the level of pr-  processing  you were doing  later,::	0
+"me013"::	but if you're d- i- the  kind  of person who's doing  array  processing you actually  care  about funny little  times.::	1
+"me013"::	And - and so you  actually  wou- would want to have a  completely  different set up than we  have,  one that would go up to thirty- two  channels or something.::	1
+"fe016"::	I see.::	0
+"fe016"::	Mmm.::	0
+"me013"::	So basically - or a hun- Yeah. So,::	1
+"me011"::	Or a  hundred  thirty-two.::	0
+"me013"::	I'm kinda skeptical, but um I think that -::	1
+"fe016"::	Mmm.::	0
+"me013"::	So, uh, I don't think we can share the resource in  that  way. But what we  could  do is if there was someone else who's interested they  could  have a separate set up which they wouldn't be  trying  to synch with ours which might be useful for - for  them.::	1
+"fe016"::	Right, I mean at least they'd have the  data  and the  transcripts,  and -::	0
+"me013"::	And then we can offer up the  room,::	0
+"me013"::	Yeah, we can o- offer the meetings, and the physical space, and - and - yeah, the transcripts, and so on.::	1
+"fe016"::	Right.::	0
+"fe016"::	O_K.::	0
+"fe016"::	Right, I mean, just - it'd be nice if we have more information on the same::	0
+"fe016"::	data.  You know,::	0
+"fe016"::	and -::	0
+"me013"::	Yeah.::	0
+"fe016"::	But it's - if it's impossible or if it's a lot of effort then you have to just balance the two,::	0
+"me013"::	Well I  thi-  yeah, the thing will be, u- u- in - in - again, in  talking  to these other people to see what - you know, what - what we can do.::	0
+"fe016"::	so -::	0
+"fe016"::	Right.::	0
+"me013"::	Uh, we'll see.::	0
+"me018"::	Is there an  interest  in getting  video  recordings for  these  meetings?::	1
+"me013"::	Right, so we have - we -::	0
+"me018"::	I mean::	0
+"me018"::	t-::	0
+"me011"::	Yes,   absolutely.  But it's exactly the same  problem,::	1
+"me011"::	that::	1
+"me011"::	you have an infrastructure problem, you have a problem with people not wanting to be video taped, and you have the problem that no one who's currently involved in the  project  is really hot to  do  it.::	1
+"me018"::	Hmm.::	0
+"me018"::	So there's not enough interest to overcome all of -::	1
+"me011"::	Mm-hmm.::	0
+"fe016"::	Right.  Internally,  but I  know  there  is   interest  from other::	1
+"fe016"::	places that are interested in looking at  meeting  data and  having  the  video.  So it's just -::	1
+"fe008"::	Yeah, w-  although  I - m-::	0
+"fe008"::	I - I have to u- u- mention the human subjects problems,  that i- increase with video.::	0
+"fe016"::	Right, that's true.::	0
+"me013"::	Yeah, so it's, uh, people - people getting shy about it. There's this human subjects problem.::	1
+"fe008"::	Yeah.::	0
+"me013"::	There's the fact that then um,::	0
+"me013"::	if - i- I- I've  heard  comments about this  before,  "why don't you just put  on  a video camera?" But::	0
+"me013"::	you know, it's sort of like saying, "uh, well we're primarily interested in - in some  dialogue  things,::	0
+"me013"::	uh, but, uh, why don't we just throw a microphone out there." I mean,::	1
+"me013"::	the  thing  is,::	0
+"me013"::	once you  actually  have  serious  interest in any of these things then you  actually  have to put a lot of  effort  in.::	1
+"me018"::	Mmm.::	0
+"me013"::	And, uh, you  really  want to do it  right.  So I think::	1
+"me011"::	I know . Yep.::	0
+"me013"::	NIST or L_D_C, or somebody like that I think is much better shape to do all that. We - there  will  be other meeting recordings. We won't be the only place doing meeting recordings. We are doing what we're  doing.::	1
+"fe008"::	Mm-hmm.::	0
+"me013"::	And, uh, hopefully it'll be useful.::	0
+"fe008"::	I - it - it occurred to me, has Don signed a human subject's form?::	0
+"me011"::	Oh! Probably  not.  Has Don - have you s- did you si- I thought you  did  actually. Didn't you read a digit string?::	0
+"fe008"::	A permission form?::	0
+"me001"::	I was -  Yeah, I was - I was here - I was here before once.::	0
+"me018"::	You were here at a meeting  before.::	0
+"fe008"::	You were here at a meeting before.::	0
+"me018"::	Yeah.::	0
+"me011"::	Yeah, and you - and you signed a form.::	0
+"me001"::	So.::	0
+"fe008"::	Did you sign a form?::	0
+"me001"::	Oh, I  think  so.  Did  I? I don't know.::	0
+"me011"::	I'm  pretty  sure. Well I'll - I'll get another one before the end of the  meeting.  Thank you.::	0
+"fe008"::	O_K.::	0
+"me013"::	Yeah.::	0
+"fe008"::	O_K.::	0
+"me001"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"fe008"::	You don't - you don't have to  leave  for it. But I just - you know.::	0
+"me013"::	Yeah, we - we -::	0
+"me011"::	Well I  can't,  I'm wired  in.::	0
+"me001"::	Can I verbally consent?::	0
+"fe016"::	Yeah.::	0
+"me013"::	We - we - we - we don't, uh -::	0
+"fe008"::	o-::	0
+"fe016"::	You're on recor- you're being recorded and -::	0
+"me001"::	Yeah.::	0
+"me013"::	we don't - we don't perform electro-shock during these meetings, and -::	0
+"me001"::	I don't care. You can do whatever you want  with it . That's fine.::	0
+"me018"::	Usually.::	0
+"me013"::	Yeah.::	0
+"me013"::	O_K.::	0
+"me013"::	Uh,  transcriptions.::	0
+"fe008"::	Transcriptions, O_K. Um, I thought about - there are maybe three::	0
+"fe008"::	aspects of this. So first of all, um, I've got eight transcribers.::	1
+"fe008"::	Uh, seven of them are linguists.::	1
+"fe008"::	One of them is a graduate student in psychology.::	1
+"fe008"::	Um,::	0
+"fe008"::	Each - I gave each of them, uh, their own data set. Two of them have already  finished  the data sets.::	0
+"fe008"::	And  the meetings run, you know, let's say an hour. Sometimes as man- much as an hour and a half.::	0
+"me018"::	How big is the data set?::	0
+"fe008"::	Oh, it's - what I mean is  one  meeting. Each - each person got their own meeting. I didn't want to have any conflicts of, you know, of - of::	0
+"me018"::	Ah, O_K.::	0
+"fe008"::	when to stop transcribing this one or - So I wanted to keep it::	0
+"fe008"::	clear whose data were whose, and - and -::	0
+"me018"::	Uh-huh.::	0
+"fe008"::	and so - And, uh,  meetings,  you know, I think that they're - they go as long as a -::	1
+"fe008"::	almost two hours in some - in some cases. So, you know, that means - you know, if we've got two already finished and they're working on -::	1
+"fe008"::	Uh, right now all eight of them have differe- uh, uh,  additional  data sets. That means potentially as many as ten might be finished by the end of the month.::	0
+"fe008"::	Hope so. But the pre-segmentation really helps a huge amount. And, uh,  also  Dan Ellis's innovation of the, uh - the multi-channel to  here  really helped a r- a lot::	1
+"me018"::	Wow.::	0
+"mn014"::	O_K.::	0
+"fe008"::	in  terms of clearing - clearing up h- hearings that involve overlaps. But, um,::	1
+"fe008"::	just out of curiosity I asked one of  them   how long  it was  taking  her, one of these two who has already finished her  data  set. She said it takes about,::	1
+"fe008"::	uh, sixty minutes transcription for every five minutes of real time. So it's about twelve to one, which is what we were thinking.::	1
+"me011"::	or  Yep. It's pretty good.::	0
+"fe008"::	It's well in the range.::	1
+"fe008"::	O_K. Uh, these  still,  when they're  finished,  um, that means that  they're  finished with  their  pass through. They still need to be edited and all but -::	1
+"fe008"::	But it's word level, speaker change, the things that were mentioned. O_K, now I wanted to mention the, um,::	1
+"fe008"::	teleconference I had with, uh, Jonathan Fiscus. We spoke for an hour and a half::	1
+"me011"::	Hmm.::	0
+"fe008"::	and, um, had an awful lot of things in common. He, um,::	1
+"fe008"::	um, he in- indicated to me that they've - that he's been,::	1
+"fe008"::	uh, looking, uh, uh, spending a lot of time with - I'm not quite sure the connection,  but spending a lot of time with the ATLAS system.::	1
+"fe008"::	And I guess that - I mean, I - I need to  read   up  on that. And there's a web site that has lots of papers. But it looks to me like that's::	1
+"fe008"::	the name that has developed for the system that Bird and Liberman developed  for the annotated  graphs approach.::	1
+"me011"::	Mm-hmm.::	0
+"fe008"::	So what  he  wants me to do and what we - what we::	1
+"fe008"::	will  do and - uh, is to provide them with the u- already transcribed meeting::	1
+"fe008"::	for him to be able to experiment with  in  this ATLAS::	1
+"fe008"::	System. And they  do  have  some  sort of software,  at least that's  my impression, related to ATLAS and that he wants to experiment with taking  our  data and putting  them   in  that  format, and see how that works out.::	1
+"fe008"::	I - I - I explained to him in - in detail the, uh, conventions that we're using  here  in this -::	0
+"fe008"::	in this word level transcript. And, um,::	0
+"fe008"::	you know, I - I explained, you know, the reasons that - that we were not::	0
+"fe008"::	coding more elaborately and - and the focus on reliability.::	0
+"fe008"::	He expressed a lot of interest in reliability. It's like he's - he's really up on these things. He's - he's very -::	0
+"fe008"::	Um,  independently  he asked, "well what about reliability?" So,  he's interested in the consistency of the encoding and that sort of thing. O_K, um -::	0
+"fe016"::	Sorry, can you explain what the ATLAS - I'm not familiar with  this  ATLAS system.::	0
+"fe008"::	Well, you know, at this point I think -::	0
+"fe008"::	Uh, well  Adam's  read more - in more detail than  I  have on this. I need to  acquaint  myself more with it. But, um,::	0
+"fe008"::	there - there is a way of viewing - Uh, whenever you have coding categories, um, and you're dealing with::	0
+"fe008"::	uh, a taxonomy, then you can have branches that - that have::	0
+"fe008"::	alternative, uh,  choices  that you could use for each -::	0
+"fe008"::	each of them. And it just ends up looking like a graphical representation.::	0
+"me011"::	Is - is -::	0
+"me011"::	Is ATLAS the - his annotated transcription::	0
+"me011"::	graph stuff?::	0
+"me011"::	I don't remember the acronym. The - the one - the - what I  think  you're referring to, they - they have this concept of an an- annotated transcription graph representation.::	1
+"fe008"::	Yeah.::	0
+"me011"::	And that's basically what I based the format that  I  did -::	0
+"fe016"::	Oh. Oh.::	0
+"me011"::	I based it on their work almost  directly,  in combination with the T_E_I stuff. And so it's  very,  very similar. And so it's - it's a::	1
+"me011"::	data representation and a set of tools for manipulating  transcription  graphs of various types.::	1
+"me018"::	Is this the project that's sort of, uh, between, uh, NIST and - and, uh, a couple of other places? The - the -::	0
+"fe008"::	Mm-hmm.::	0
+"fe008"::	Including L_D_C.  I  think  so.::	0
+"me011"::	Yep.::	0
+"me018"::	Yeah, y- right, O_K.::	0
+"fe008"::	Mm-hmm. Then there's their web site that has lots of papers. And I looked through them and they mainly had to do with this, um,::	0
+"fe008"::	this, uh, tree structure, uh, annotated tree diagram thing.::	0
+"fe016"::	Mmm.::	0
+"fe008"::	So, um, um - and, you know, in terms of like the conventions that  I'm  a- that  I've  adopted,::	0
+"fe008"::	it - there - there's  no  conflict at  all.::	0
+"me011"::	Right.::	0
+"fe008"::	And he was, you know, very interested. And, "oh, and how'd you handle this?" And I said, "well, you know, this way" and -::	0
+"fe008"::	And - and we had a really nice conversation.::	0
+"fe008"::	Um, O_K, now I  also  wanted to say in a different - a different::	1
+"fe008"::	direction is,::	0
+"fe008"::	Brian  Kingsbury.  So, um, I corresponded briefly with him. I,::	1
+"fe008"::	uh, c- I - He still has an account here. I told him he could S_S_H on and use multi-trans, and have a look at the already done, uh, transcription. And he - and he  did.::	1
+"fe008"::	And what he said was that, um, what they'll be providing is -::	1
+"fe008"::	will  not  be as fine grained in terms of the  time  information.::	1
+"fe008"::	And, um, that's, uh - You know, I need to get back to him and - and, uh, you know, explore that a little bit more and see what they'll be  giving  us in specific, but I just haven't had time yet.::	0
+"fe016"::	Hmm.::	0
+"me018"::	The p- the people -::	0
+"fe008"::	Sorry, what?::	0
+"me018"::	The - the folks that they're, uh, subcontracting out the transcription to, are they like court reporters or -::	0
+"fe008"::	Yes.::	0
+"fe008"::	Apparently  - Well, I get the sense they're kind of like that. Like it's like a pool of - of somewhat uh, secretarial -::	0
+"fe008"::	I don't think that they're  court  reporters. I don't think they have the special keyboards and that - and that type of training. I - I get the sense they're more secretarial. And that, um,::	0
+"me018"::	Mm-hmm.::	0
+"me018"::	Hmm.::	0
+"fe008"::	uh, what they're  doing  is giving them -::	0
+"me018"::	Like  medical  transcriptionist type people -::	0
+"me011"::	Nu- it's mostly - it's for their speech recognition::	0
+"me011"::	products,::	0
+"fe008"::	Yep.::	0
+"me011"::	that they've hired these people to do.::	0
+"me018"::	But aren't - they're -::	0
+"me018"::	Oh, so they're hiring them, they're coming. It's not a  service  they send the tapes out  to.::	0
+"me011"::	Well they - they  do  send it out but my  understanding  is that that's all  this   company  does  is transcriptions for I_B_M for their  speech  product.::	0
+"me018"::	Ah! Oh. O_K.::	0
+"me018"::	I gotcha.::	0
+"me011"::	So most of it's ViaVoice, people reading their training material for that.::	0
+"me018"::	I  see.::	0
+"fe008"::	Mm-hmm.::	0
+"me018"::	I  see.::	0
+"fe008"::	Up to now it's been  monologues,  uh, as far  my  understood. And - and what they're doing is  Brian   himself  downloaded - So -::	0
+"me011"::	Yep, exactly. Yep.::	0
+"me018"::	Mm-hmm.::	0
+"fe008"::	So, um, Adam sent them a C_D and  Brian   himself  downloaded -::	0
+"fe008"::	uh, cuz, you know, I mean, we wanted to have it so that they were in familiar f- terms with what they wanted to  do.::	0
+"fe008"::	He downloaded::	1
+"fe008"::	from the C_D onto audio tapes. And apparently he did it::	1
+"fe008"::	one channel per  audio  tape. So each of these people is  transcribing from one channel.::	1
+"me011"::	Right.::	0
+"fe008"::	And then what  he's  going to do is  check  it,::	0
+"me018"::	Oh.::	0
+"fe008"::	a- before they go be- beyond the  first  one.::	0
+"fe008"::	Check it and, you know, adjust it, and all that.::	0
+"me018"::	So each person gets  one  of  these   channels  -::	0
+"me011"::	Right.::	0
+"me018"::	O_K.::	0
+"me013"::	So if they hear something off in the distance they don't - they just go -::	0
+"me011"::	Well, but that's O_K, because, you know, you'll do  all  them and then  combine  them.::	0
+"fe008"::	I - I don't know.::	0
+"fe008"::	I have t- I, you know I -::	0
+"me018"::	But there could be problems, right? with that.::	1
+"mn014"::	Yep.::	0
+"fe008"::	I think it would be difficult to  do  it that way. I  really  d- uh, in  my  case -::	0
+"fe016"::	Yeah.::	0
+"me018"::	Well if you're tran- if you got  that  channel right  there  -::	0
+"me011"::	No, no. We're talking about  close  talking, not the - not the  desktop.::	0
+"mn014"::	Yeah.::	0
+"mn005"::	No,  close  talk.::	0
+"me013"::	Are  you?::	0
+"fe008"::	Yes.::	0
+"me011"::	I sure  hope  so. It'd be really  foolish  to do  otherwise.::	0
+"fe008"::	Well I th- I   think   so.::	0
+"fe008"::	Yeah, I - I would think that it would be kind of hard to come out with - Yeah.::	0
+"fe016"::	I - I think it's sort of hard just playing the - you know, just having  played  the individual::	0
+"fe016"::	files. And I - I mean, I  know  you. I know what your voice  sounds  like. I'm sort of familiar with -::	0
+"mn014"::	Yeah.::	0
+"fe016"::	Uh, it's pretty hard to follow, especially::	0
+"me011"::	One side.::	0
+"fe008"::	I agree.::	0
+"fe016"::	there are a lot of words that are so reduced phonetically that make sense when you know what the person was saying before.::	1
+"me018"::	Yeah, that's -::	0
+"mn014"::	Yeah.::	0
+"fe008"::	And  especially  since a  lot  of these -::	0
+"fe016"::	Uh, it  sort  of  depends  where you are in -::	0
+"mn005"::	Yeah.::	0
+"me011"::	But I mean we had this - we've had this discussion many times. And the answer is we don't actually know the answer because we haven't tried both ways.::	1
+"fe008"::	Yeah, we have.::	0
+"fe008"::	Well, except I can say that my transcribers use the  mixed  signal mostly::	1
+"me011"::	So.::	0
+"me011"::	Mm-hmm.::	0
+"fe008"::	unless there's a  huge  disparity in terms of the volume on - on the mix.::	1
+"fe016"::	Mm-hmm.::	0
+"me018"::	Right.::	0
+"fe008"::	In which case, you know, they - they wouldn't be able to catch  anything  except the prominent  channel, then they'll switch between.  But - but really -::	1
+"me011"::	Right.::	0
+"me011"::	Well I think that - that might change if you wanted really fine  time  markings.::	0
+"mn014"::	Yeah.::	0
+"fe008"::	Well, O_K. Yeah, well -::	0
+"me011"::	So.::	0
+"me013"::	But they're not  giving  f- really fine time markings.::	1
+"me011"::	Right.::	0
+"fe016"::	Actually, are th- so::	0
+"fe016"::	are they giving  any  time markings? In other words, if -::	0
+"fe008"::	Well, I have to ask him. And that's - that's my email to him. That needs to be forthcoming. But - but the, uh - I  did  want to  say  that::	0
+"fe016"::	Yeah. Cuz - O_K.::	0
+"fe008"::	it's hard to follow one channel of a conversation  even  if you  know  the people,::	0
+"fe008"::	and if you're dealing  furthermore  with  highly  abstract  network  concepts you've  never   heard  of - So, you know,  one  of these people was - was::	0
+"fe008"::	transcribing the, uh, networks group talk and she said,::	0
+"fe008"::	"I don't really  know  what a lot of these  abbreviations  are,"   "but I just put them in parentheses cuz that's the - that's the convention and I just" - Cuz you know, if you don't know -::	0
+"me011"::	Oh, I'd be curious to - to look at that.::	0
+"me018"::	Just out of curiosity, I mean -::	0
+"me011"::	They also all have h- heavy  accents.  The networks group meetings are all -::	0
+"mn014"::	Yeah.::	0
+"fe008"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"me018"::	Given all of the  effort  that::	1
+"me018"::	is going on  here  in transcribing why do we have I_B_ M  doing it?::	1
+"me018"::	Why not just do it all  ourselves?::	1
+"me013"::	Um, it's historical. I mean,  uh, some point ago we thought that::	1
+"mn005"::	No, just -::	0
+"mn014"::	Uh-huh.::	0
+"me013"::	uh, it - "boy, we'd really have to::	0
+"me013"::	ramp up to do that", you know, like we just did,::	1
+"me018"::	Mm-hmm.::	0
+"me013"::	and, um, here's, uh, a - a, uh, collaborating institution that's volunteered to  do  it.::	1
+"me018"::	Mm-hmm.::	0
+"me013"::	So, that was a contribution they could make. Uh::	1
+"me018"::	Mm-hmm.::	0
+"me013"::	in terms of time, money, you know? And it  still  might be a good  thing  but -::	1
+"me018"::	I'm just wondering  now  - Well, I'm - I'm wondering now if it's -::	0
+"fe016"::	Actu- yeah, Mar- Mari asked me the same  question  as sort of -::	0
+"me011"::	Well we can talk about more details later.::	0
+"fe016"::	um, you know, yeah,::	0
+"me013"::	Yeah.::	0
+"fe016"::	whether to -::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah, so.::	0
+"me018"::	Hmm.::	0
+"me013"::	We'll  see. I mean, I think, th- you know, they - they - they've proceeded along a bit. Let's see what comes out of it, and - and, uh, you know, have some more discussions with them.::	0
+"fe008"::	Mm-hmm.::	0
+"fe008"::	It's very - a real benefit having Brian involved because of his knowledge of what the - how the data need to be used and so what's useful to have in the format.::	0
+"me011"::	Yeah.::	0
+"me013"::	Mm-hmm.::	0
+"me013"::	Yeah.::	0
+"me011"::	So, um, Liz, with - with the S_R_I recognizer,  can it make use of::	1
+"me011"::	some  time marks?::	1
+"fe016"::	O_K, so this is a, um,::	0
+"me011"::	I - I guess I  don't  know what that  means.::	0
+"fe016"::	and actually I should say this is what Don has b- uh, he's already been really helpful in, uh, chopping up these - So - so first of all you -::	0
+"fe016"::	um, I mean, for the S_R_I front-end,::	1
+"fe016"::	we really need to chop things up into pieces that are f- not too huge. Um, but second of all, uh -::	1
+"fe016"::	in  general   because   some  of these channels,  I'd say, like,::	1
+"fe016"::	I don't know, at least  half  of them probably  on average are g- are ha- are -::	0
+"fe016"::	have a lot of cross-ta- sorry, some of the  segments  have a lot of  cross-talk.::	1
+"fe016"::	Um, it's good to get sort of  short::	1
+"fe016"::	segments if you're gonna do recognition,  especially  forced alignment. So,::	1
+"fe016"::	uh, Don has been taking a  first  stab actually using Jane's::	0
+"fe016"::	first - the fir- the meeting that Jane transcribed which we  did  have some problems with, and  Thilo,  uh, I think::	0
+"fe016"::	told me why this  was,  but that people were switching microphones around  in the very beginning,  so -::	0
+"fe016"::	the S_R_I re-::	0
+"mn014"::	No,  th-::	0
+"mn014"::	Yeah. No. They - they were not  switching  them but what they were - they were  adjusting  them, so.::	0
+"fe016"::	and they -::	0
+"fe016"::	They were not -::	0
+"me001"::	Mmm.::	0
+"me011"::	Adjusting.   Oh.::	0
+"fe016"::	@@::	0
+"fe016"::	Yeah.::	0
+"mn014"::	And aft- after a  minute  or so it's - it's way  better.  So -::	0
+"fe016"::	So we have to sort of normalize  the front-end and so forth, and have these small segments. So::	1
+"mn014"::	Yep.::	0
+"fe016"::	we've taken that and chopped it into pieces based  always  on  your  -::	0
+"fe016"::	your, um,  cuts  that you made on the  mixed  signal.::	1
+"fe016"::	And so that every - every  speaker  has the same  cuts.  And if they have  speech  in it we run it through. And if they  don't  have speech in it we  don't  run it through. And we base::	1
+"fe016"::	that  knowledge  on the  transcription.::	0
+"me011"::	On - Just on the marks. Right?::	0
+"fe016"::	Um, the  problem  is if we have  no   time  marks,::	1
+"fe016"::	then for forced alignment we actually don't know where -::	1
+"fe016"::	you know, in the  signal  the transcriber  heard  that  word.  And so -::	1
+"me011"::	Oh,  I  see, it's for the  length.  I see.::	0
+"fe016"::	I mean, if - if it's a whole conversation and we get a long, uh, you know,::	0
+"fe016"::	par- paragraph of - of talk, uh, I don't know how they  do  this. Um, we actually don't know which piece goes::	0
+"me011"::	I understand.::	0
+"fe016"::	where. And, um, I think with -::	1
+"me018"::	Well you would need to - like a forced alignment before you did the  chopping,  right?::	0
+"fe016"::	No,  we  used  the fact that - So when  Jane  transcribes them the way she has transcribers  doing  this, whether it's with the pre-segmentation or  not,::	0
+"me011"::	It's already chunked.::	0
+"fe016"::	they have a chunk and then they transcribes  the words  in  the chunk. And maybe they  choose  the chunk or now they use a::	0
+"fe016"::	pre-segmentation and then correct it if necessary. But there's first a chunk and then a transcription. Then a chunk, then a transcription. That's great,::	0
+"fe008"::	Mm-hmm.::	0
+"fe016"::	cuz the recognizer can -::	0
+"me011"::	Uh, it's all pretty good sized for the recognizer also.::	0
+"fe016"::	Right, and it - it helps that it's made based on::	0
+"fe008"::	Good. Oh good.::	0
+"fe016"::	sort of heuristics  and  human ear  I think .::	0
+"fe016"::	Th- but there's going to be a real problem, uh,  even  if we chop up based on speech  silence  these,::	1
+"fe016"::	uh, the transcripts from I_B_ M,  we  don't  actually know  where  the  words  were,  which  segment they  belonged  to. So that's sort of what I'm  worried about::	1
+"me011"::	Right.::	0
+"me018"::	Why not do a -::	0
+"me018"::	a - a forced  alignment?::	0
+"fe016"::	right now.::	0
+"me011"::	That's what she's  saying,  is that you  can't.::	0
+"fe016"::	If you do a forced alignment on something really - well even if you do it on something really  long  you  need  to know -::	0
+"me011"::	Got uh six- sixty minutes of -::	0
+"fe016"::	you can  always  chop it  up  but you need to have a  reference  of which words went with which, uh,  chop.   So -::	0
+"fe008"::	Now wasn't - I thought that one of the proposals was that I_B_M was going to do an initial forced alignment, after they -::	1
+"me011"::	Yeah, but -::	0
+"me013"::	I - I  think  that they  are,  um,::	1
+"me011"::	We'll have to talk to Brian.::	0
+"me013"::	yeah, I'm  sure  they  will  and so we - we have to have a dialogue with them about it. I mean, it sounds like::	1
+"fe016"::	Yeah. Maybe they have some - you know, maybe actually there  is  some, even if they're not fine  grained,  maybe the transcribers -::	0
+"fe008"::	O_K.::	0
+"me013"::	Liz has some concerns and -::	0
+"fe016"::	uh, I don't know, maybe it's saved  out  in  pieces  or - or  something.   That  would  help.  But,::	0
+"fe008"::	Yeah.::	0
+"fe016"::	uh, it's just an unknown right now.::	0
+"fe008"::	Yeah. I - I need to - to  write  to him. I just - you know, it's like I got over-taxed with the timing.::	0
+"fe016"::	So.::	0
+"fe016"::	Right. But the - it  is   true  that the segments - I haven't tried the segments that Thilo gave you  but the segments that in your first meeting are  great.  I mean, that's - that's a good length.::	0
+"fe008"::	Mm-hmm.::	0
+"fe008"::	A good size. Good.::	0
+"fe008"::	Well, I -  I  was thinking it would be  fun  to - to - uh, uh, if - if you - wouldn't mind,   to give us a pre-segmentation.  Uh, maybe you  have  one already of that first m- of the meeting that::	0
+"fe016"::	Right, cuz - y- yeah.::	0
+"mn014"::	Yeah.::	0
+"fe008"::	uh, the first transcribed meeting,  the one that I transcribed.  Do you have a - could you generate a pre-segmentation?::	0
+"mn014"::	Um, I'm sure I have some but - but that's the one where we're, um, trai-  training  on, so that's a little bit -::	0
+"me011"::	February sixteenth I think.::	0
+"me011"::	Oh.::	0
+"fe008"::	Oh, I see. Oh,  darn.  Of  course,  of course, of course. Yeah, O_K.::	0
+"mn014"::	It's a little bit at odd to -::	0
+"mn014"::	Yeah.::	0
+"fe016"::	And actually  as  you get  transcripts  just, um, for new meetings,::	0
+"fe008"::	Uh-huh.::	0
+"fe016"::	um, we can  try  - I mean,::	0
+"fe016"::	the - the more data we have to try the - the  alignments  on, um, the  better.  So it'd be::	0
+"fe016"::	good for - just to know as transcriptions are coming through the pipeline from the transcribers, just to sort of - we're playing around with sort of::	0
+"fe016"::	uh, parameters f- on the recognizer, cuz that would be helpful.::	0
+"fe008"::	Mm-hmm.::	0
+"fe008"::	Excellent, good.::	0
+"fe016"::	Especially as you get, en- more voices. The first meeting had I think just four people, yeah.::	0
+"mn014"::	Four speakers, yeah.::	0
+"fe008"::	Mm-hmm.::	0
+"fe008"::	Yeah,  Liz  and I spoke d- w- at some length on  Tuesday  and - and I - and I was planning to do just a - a preliminary look over of the two that are  finished  and then give them to you.::	0
+"fe016"::	Oh, great, great.::	0
+"fe008"::	Yeah.::	0
+"fe016"::	So.::	0
+"me013"::	That's great.::	0
+"me013"::	I guess the other thing, I - I can't remember if we discussed this in the meeting but, uh, I know you and I talked about this a little bit,::	0
+"me013"::	there was an issue of, uh, suppose we get in the, uh, I guess it's enviable position although maybe it's just saying where the weak link is in the chain,::	0
+"me013"::	uh, where we - we, uh -::	0
+"me013"::	uh,::	0
+"me013"::	we have all the data transcribed and we have these transcribers and we were - we're - the -::	0
+"me013"::	we're still a bit slow on feeding - at  that  point we've caught up and the - the - the, uh, the weak link is - is recording meetings.  O_K, um,::	0
+"me013"::	two questions come, is you know what - how - how do we -::	0
+"me013"::	uh, it's not really a problem at the moment cuz we haven't  reached  that point but how do we step out the recorded  meetings?::	1
+"me013"::	And the other one is, um, uh, is there some good use that we can make of the  transcribers  to do other  things?::	1
+"me013"::	So, um, I - I can't remember how much we talked about this in this meeting but there was -::	0
+"me011"::	We  had  spoken with them about it.::	0
+"fe008"::	And there is  one  use that - that  also  we discussed which was when, uh, Dave finishes the - and maybe it's already finished - the - the::	0
+"fe008"::	modification to  multi-trans  which will allow fine grained encoding of  overlaps.::	0
+"fe008"::	Uh, then it would be very - these people would be very good to shift over to finer grain encoding of overlaps. It's just a matter of, you know, providing -  So if right now you have::	0
+"fe008"::	two overlapping segments in the same  time  bin, well with - with the improvement in the  database  - in - in the, uh, sorry, in the  interface,  it'd be possible to, um,::	0
+"fe008"::	you know, just do a click and  drag  thing, and get the - uh, the specific place of  each  of those, the time tag associated with the beginning and end of - of  each  segment.::	0
+"me013"::	Right, so I think we talking about three level - three things. One - one was::	1
+"fe016"::	Mm-hmm.::	0
+"fe008"::	Yeah.::	0
+"me013"::	uh, we had s- had  some  discussion in the past about some very  high  level::	0
+"fe008"::	The types of overlaps -::	0
+"me013"::	labelings, types of overlaps, and so forth that - that someone could do.::	1
+"fe008"::	Mm-hmm.::	0
+"me013"::	Second was, uh, somewhat lower level just doing these more precise timings. And the third one is - is, uh, just a completely wild hair brained idea that  I  have which is that, um, if, uh -::	1
+"me013"::	if we have  time  and people are able to do it,::	0
+"me013"::	to take some subset of the data and do some  very  fine grained analysis of the speech. For  instance,  uh, marking in some overlapping -::	1
+"me013"::	potentially overlapping fashion, uh, the value of, uh, ar-  articulatory  features.::	1
+"fe008"::	Yeah.::	0
+"me013"::	You know, just sort of say, O_K, it's voiced from here to  here,  there's - it's nasal from here to  here,  and so forth. Um, as opposed to doing::	0
+"me011"::	Hmm!::	0
+"me013"::	phonetic - uh, you know, phonemic and the phonetic analysis, and, uh,  assuming,  uh, articulatory feature values for those -::	0
+"me013"::	those things. Um, obviously that's  extremely  time-consuming. Uh -::	0
+"me018"::	That would be really valuable I think.::	0
+"me013"::	but, uh, we could do it on some small subset.::	0
+"fe008"::	Also if you're dealing with consonants that would be easier than vowels, wouldn't it? I mean, I would think that -::	0
+"fe008"::	that, uh, being able to code that there's a - a  fricative  extending from here to here would be a lot easier than classifying precisely which  vowel  that was.::	0
+"me011"::	Which one.::	0
+"fe016"::	Mmm.::	0
+"fe008"::	I think vowels - vowels are I think  harder.::	0
+"me013"::	Mm-hmm.::	0
+"mn014"::	Yeah .::	0
+"me013"::	Well,  yeah,  but I think  also  it's just the issue that - that when you look at the - u- w- u- u- when you look at Switchboard for instance::	0
+"fe008"::	Mm-hmm.::	0
+"me013"::	very close up there are places where whether it's a  consonant  or a  vowel  you  still  have trouble  calling  it a particular  phone::	0
+"fe008"::	Mm-hmm, O_K. Yeah, I'm sure. Uh, yeah, I - I know.::	0
+"me011"::	Yeah, but - but just saying what the -::	0
+"me013"::	at that point because it's - you know, there's this movement from here to here and - and - and it's -::	0
+"fe016"::	Right.::	0
+"me018"::	You're saying r- sort of remove the high level constraints and go bottom-up.::	0
+"me013"::	so I-::	0
+"me011"::	Yep, just  features.::	0
+"me013"::	Yeah, describe - describe it. Now I'm suggesting articulatory features. Maybe there's - there's even a  better  way to do it but it - but -::	0
+"me018"::	Then just say -::	0
+"fe016"::	Mmm.::	0
+"me013"::	but that's, you know, sort of a traditional way of describing these things,::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	um, and -::	0
+"me013"::	uh, I mean, actually this might be a g- neat thing to talk to -::	0
+"fe008"::	That's nice.::	0
+"me018"::	Acoustic  features versus  psychological  categories. Yeah.::	0
+"me013"::	Sort of. I mean, it's still -::	0
+"fe008"::	Yeah.::	0
+"me013"::	some sort of categories but - but something that allows for overlapping::	0
+"me013"::	change of these things and then this would give some more::	1
+"me013"::	ground work for people who were building statistical models that  allowed  for overlapping changes, different timing changes as opposed to just::	0
+"me013"::	"click, you're now in this state, which corresponds to this speech sound" and so on.::	1
+"me018"::	Mm-hmm. Mm-hmm.::	0
+"fe016"::	So this is like gestural - uh, these g- Right.::	0
+"me013"::	Yeah, something like that. I mean, actually if we get into that it might be good to, uh, uh, haul::	0
+"fe016"::	O_K.::	0
+"me013"::	John Ohala into this and ask his - his views on it I think.::	0
+"me011"::	Yeah.::	0
+"fe016"::	Right.::	0
+"fe016"::	But is - is the  goal  there to have this on  meeting  data, like::	0
+"fe008"::	Excellent.::	0
+"fe016"::	so that you can do  far  field studies  of those gestures or -::	0
+"fe016"::	um,::	0
+"fe016"::	or is it because you think there's a different kind of actual  production  in meetings  that people use? Or - ?::	0
+"me013"::	No, I think - I think it's - for - for - for  that  purpose I'm just::	1
+"me013"::	viewing meetings as being a - a neat way to get people talking naturally.::	1
+"me013"::	And then you have i- and then - and then it's natural in  all  senses, in the sense that you have microphones that are at a distance that::	1
+"me018"::	Just a source of data?::	0
+"fe016"::	I  see.::	0
+"me013"::	you know, one might have,  and  you have the close mikes, and you have people talking naturally. And the overlap is just indicative of the fact that people are talking  naturally,  right? So -::	1
+"fe016"::	Uh-huh.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	Right.::	0
+"mn005"::	Yeah.::	0
+"me013"::	so I think that given that it's that kind of corpus, if it's gonna be a very useful corpus::	0
+"me013"::	um, if you say w- O_K, we've limited the use by some of our, uh, uh,  censored  choices,::	0
+"me013"::	we don't have the video, we don't - and so forth,::	0
+"me013"::	but there's a  lot  of use that we could make of it by expanding the  annotation  choices.::	0
+"fe016"::	Mm-hmm.::	0
+"me013"::	And, uh, most of the things we've talked about have been fairly  high  level, and::	0
+"me013"::	being kind of a bottom-up person I thought maybe we'd,  do some of the others. Yeah.::	0
+"me011"::	Hmm.::	0
+"fe008"::	It's a nice balance. That would be really nice to offer those things with that  wide  range. Really nice.::	0
+"fe016"::	Right. Yeah, that would be good.::	0
+"fe016"::	Right.::	0
+"me013"::	Yeah and  hopefully  someone would make use of it. I mean, people didn't -::	0
+"fe008"::	Yeah.::	0
+"me013"::	uh, I mean, people have made a  lot  of use of - of  TIMIT  and, uh w- due to  its  markings, and then  the Switchboard transcription thing,  well  I think has been very useful for a lot of people. So -::	0
+"me011"::	Right.::	0
+"fe016"::	That's true.::	0
+"fe016"::	I guess I wanted to, um,::	1
+"fe008"::	Cool.::	0
+"fe016"::	sort of make a pitch for trying to  collect  more meetings.  Um,::	1
+"me013"::	Yeah.::	0
+"fe016"::	I- actually I talked to Chuck Fillmore and I think they've::	0
+"fe016"::	what, vehemently said no  before  but this time he wasn't vehement and he said::	0
+"me013"::	Yeah.::	0
+"fe016"::	you know, "well, Liz, come to the meeting tomorrow and try to  convince  people". So I'm gonna  try. Go to their meeting tomorrow and see::	0
+"fe008"::	Mm-hmm.::	0
+"fe016"::	if we can try, uh, to convince them because they have -::	0
+"fe008"::	Good.::	0
+"me013"::	Cuz they have something like three or four different meetings, right?::	0
+"fe016"::	And they have very interesting meetings from the point of view of::	0
+"fe008"::	Mm-hmm.::	0
+"fe016"::	a very different  type  of - of  talk  than we have here and  definitely  than the front  end  meeting, probably.::	0
+"mn005"::	Talk -::	0
+"fe016"::	Um -::	0
+"me018"::	You mean in terms of the  topic  -  topics?::	0
+"fe016"::	Well, yes and in terms of the -::	0
+"fe016"::	the fact that they're describing  abstract  things  and, uh, just dialogue-wise, right.::	0
+"me013"::	Mm-hmm.::	0
+"me018"::	Mm-hmm.::	0
+"fe016"::	Um, so I'll try. And then the  other  thing is,::	0
+"fe016"::	I don't know if this is at all useful, but I asked  Lila  if I can::	0
+"fe016"::	maybe go around and talk to the different::	0
+"fe016"::	departments in this building::	0
+"me013"::	Yes.::	0
+"fe016"::	to see if there's any groups that, for a free lunch, if we can still  offer  that,  might be willing -::	0
+"me011"::	You mean non-ICSI?::	1
+"me013"::	Great.::	0
+"fe016"::	non-ICSI, non-academic, you know, like government people, I don't know. So.::	0
+"me011"::	Yeah, I guess you - you can  try  but -::	0
+"me011"::	The  problem  is  so  much of their stuff is confidential.::	0
+"me011"::	It would be  very  hard for them.::	1
+"fe008"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"fe008"::	Also it  does  seem like it takes us  way  out of the  demographic.  I mean, it seems like we - we had this idea before of having like linguistics students brought down for free lunches and that's a nice idea.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	Is -  is  it  in  these departments?::	0
+"me011"::	Well, tha- I think that's her point.::	1
+"fe016"::	Right, and then we could also - we might try advertising again because I think it'd be good if - if we can get a few different::	1
+"fe008"::	Yeah.::	0
+"fe016"::	sort of non-internal types of meetings and just also more data.::	1
+"me013"::	Yeah.::	0
+"me011"::	And I think, uh, if we could get -::	0
+"fe008"::	Mm-hmm.::	0
+"me018"::	Does - does John Ohala have weekly phonetics lab meetings?::	0
+"fe016"::	So.::	0
+"fe016"::	So I actually wrote to him and he answered, "great, that sounds really interesting". But I never heard back because we didn't actually advertise  openly.  We a-::	0
+"fe016"::	I mean w-::	0
+"fe016"::	I told - I d- asked him  privately.::	0
+"fe016"::	Um, and it  is  a little bit of a trek for campus   folks.::	0
+"me011"::	Yeah.::	0
+"fe008"::	Mm-hmm.::	0
+"me011"::	You  might  give  them   a free lunch. But, um,::	0
+"fe016"::	Um, so it's still worthwhile.::	0
+"me011"::	it would be  nice  if we got someone other than  me  who knew how to set it up and could do the recording so u- I didn't have to::	0
+"fe016"::	So -::	0
+"fe016"::	Exactly,  and - and -::	0
+"me011"::	do it each time.::	0
+"fe008"::	Yeah. That's right.::	0
+"fe016"::	and I was thinking -::	0
+"me013"::	He- he's supposed - he's supposed to be trained  to do it.::	0
+"fe016"::	Yeah.::	0
+"fe016"::	Plus  we could also get::	0
+"me011"::	O_K, next  week   you're going to do it all.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	you know, a s- a student. And I'm willing to try to learn. I mean, I'm -::	0
+"fe016"::	I would do my best.::	0
+"fe016"::	Um, the  other  thing is that -::	1
+"me011"::	It's not that hard.::	0
+"fe016"::	there was a number of things at the transcription side::	0
+"fe016"::	that, um,::	0
+"fe016"::	transcribers can do, like dialogue act tagging,  disfluency tagging, um,::	1
+"fe016"::	things that are in the speech that are actually::	0
+"fe016"::	something we're y-  working on for  language  modeling. And Mari's also interested in it, Andreas as well. So if you wanna::	1
+"fe016"::	process a utterance and the first thing they say is, "well", and that "well" is coded as some kind of interrupt::	0
+"fe016"::	u-::	0
+"fe016"::	tag. Uh, and things like that, um,::	0
+"fe008"::	Of course  some  of that can be li- done lexically. And I also - they  are  doing  disfluency  tagging::	0
+"fe016"::	th-::	0
+"fe016"::	A lot of it can be done -::	0
+"fe008"::	to some degree  already.  Yeah.::	0
+"fe016"::	Great.  So a - a lot of this kind of -::	0
+"fe016"::	I think there's a second pass and I don't really know what would exist in it. But there's definitely a second pass worth::	0
+"fe008"::	Mm-hmm.::	0
+"fe016"::	doing to maybe encode some kinds of, you know, is it a question or not, or -::	0
+"fe016"::	um, that maybe these transcribers could do.::	0
+"fe016"::	So -::	0
+"fe008"::	They'd be really good. They're - they're very - they're very consistent. Uh, I wanted to - whi- while we're - Uh, so, to return just  briefly  to this question of more  meeting  data, um -::	0
+"fe016"::	Yeah.::	0
+"me013"::	Mm-hmm.::	0
+"fe016"::	That'd be great.::	0
+"fe008"::	I have  two  questions. One of them is, um, Jerry Feldman's group, they - they, uh, are they -::	0
+"fe008"::	I know that they recorded  one  meeting. Are they willing?::	0
+"me013"::	I think they're open to it. I think, you know,  all  these things are - I think there's -::	0
+"fe016"::	Oh, yeah.::	0
+"me013"::	we should go beyond, uh, ICSI but, I mean, there's a  lot  of stuff happening at ICSI that we're not getting now that we could.::	0
+"fe008"::	Mm-hmm.::	0
+"me013"::	So it's just - Yeah. So the -::	0
+"fe016"::	Oh, that we  could.  O_K. I  thought  that all these people had sort of said "no"  twice  already. If that's not the case then -::	0
+"me013"::	No, no. No. So th- there was the  thing  in Fillmore's group but even  there  he hadn't -::	0
+"me013"::	What he'd said " no " to was for the main  meeting.  But they have several  smaller  meetings a  week,::	0
+"me011"::	So.::	0
+"me013"::	and, uh, the notion was raised before that that could happen. And it just, you know - it just didn't come  together  but -::	0
+"fe016"::	Just - O_K.::	0
+"me018"::	Well, and - and the  other  thing  too  is when they  originally  said "no" they didn't know about this post-editing::	0
+"me018"::	capability thing.::	0
+"fe008"::	Oh.::	0
+"fe016"::	Right.::	0
+"me013"::	Yeah.  Yeah.::	0
+"fe016"::	Right. That was a big::	0
+"fe008"::	That's important.::	0
+"me018"::	So.::	0
+"fe016"::	fear.::	0
+"me013"::	Yeah, so I mean there's possibilities there.  I think  Jerry's  group, yes. Uh, there's - there's, uh, the  networks  group, uh, I don't - Do they still meeting regularly or - ?::	0
+"fe016"::	O_K.::	0
+"me011"::	Well, I don't know if they  meet  regularly or not but they are no longer  recording.::	0
+"me013"::	But I mean, ha- ha- have they said they don't  want  to anymore or - ?::	0
+"me011"::	Um, ugh,  what  was his name?::	0
+"me013"::	Uh, i- i-::	0
+"fe008"::	Joe Sokol?::	0
+"me011"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"me011"::	When - with him gone,::	0
+"me011"::	it sorta trickled  off.  They - and they stopped -::	0
+"me013"::	O_K, so they're  down  to three or four  people  but the thing is three or four  people  is O_K.::	0
+"me011"::	Yeah.::	0
+"fe016"::	Mm-hmm.::	0
+"me011"::	Yep.::	0
+"fe008"::	We might be able to get the administration -::	0
+"me011"::	Well he was sort of my  contact,  so I just need to find out who's  running  it now. So.::	0
+"me013"::	O_K.::	0
+"fe008"::	I see that Lila has a luncheon meeting in here periodically. I don't know -::	0
+"fe016"::	Yeah, I mean, it -  One  thing that would be nice and this - it sounds  bizarre  but,::	0
+"fe016"::	I'd really like to look at - to get  some  meetings where there's a little bit of heated discussion, like ar- arguments and - or emotion, and things like that.::	0
+"fe016"::	And so I was thinking if there's any like Berkeley  political  groups or something. I mean, that'd be  perfect.  Some group, "yes, we must -"::	0
+"me011"::	Who's willing to get recorded and distributed?::	0
+"fe016"::	Well, you know, something - Um -::	0
+"me001"::	Yeah, I don't think the more political argumentative ones would be willing to -::	0
+"mn014"::	Yeah.::	0
+"me013"::	Yeah, with - with - with potential use from the defense department. Yeah.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	Well, O_K. No, but maybe stu-  student,  uh, groups or, um,  film-makers,  or som-  Something  a little bit::	0
+"me011"::	Yeah.::	0
+"me001"::	Yeah.  Exactly.::	0
+"fe008"::	Yeah.::	0
+"mn014"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"fe008"::	Yeah, of course there  is  this  problem  though, that if we give them the chance to excise  later  we e-  might end up with like five minutes out of a f-::	0
+"me013"::	Yeah.::	0
+"mn005"::	Film-maker.::	0
+"fe016"::	colorful.::	0
+"me011"::	Of beeps, yeah.::	0
+"fe008"::	of m- one hour of -::	0
+"mn014"::	Yeah.::	0
+"mn014"::	Yeah.::	0
+"mn005"::	Is -::	0
+"fe008"::	Yes.  Really.::	0
+"fe016"::	And I don't mean that they're angry but just something with some more variation in prosodic contours and so forth would be neat. So if anyone has ideas,::	0
+"fe016"::	I'm willing to do the leg work to go try to talk to people but I don't really know which groups are worth::	0
+"fe008"::	Well there  was  this K_P_F_ A  idea, but -::	0
+"fe016"::	pursuing.::	0
+"me011"::	No that's -::	0
+"me013"::	Yeah, th- there's a  problem  there in terms of, uh, the::	0
+"fe008"::	O_K.::	0
+"me011"::	Legal.::	0
+"me013"::	um::	0
+"me013"::	commercial value of - of st- uh, it - it - it - it turned out to be a bit of a problem.::	0
+"fe008"::	O_K, O_K.::	0
+"fe008"::	And I had one other - one other aspect of this which is, um, uh, uh, Jonathan Fiscus expressed::	1
+"fe016"::	Or -::	1
+"fe008"::	primar- uh y- a  major  interest in having::	0
+"fe008"::	meetings which were all English speakers. Now he wasn't trying to shape us in terms of what we  gather  but::	1
+"me013"::	Mm-hmm.::	0
+"fe008"::	that's what he wanted me to  show  him.::	0
+"fe008"::	So I'm giving him our, um - our initial  meeting  because he asked for all  English.  And I think we don't  have  a lot of all English meetings right now.::	0
+"me018"::	Did he mean, uh - did he mean and non-British?::	0
+"me013"::	Of all - all nat- all native speakers.::	0
+"me011"::	Well -::	0
+"mn014"::	The all native.::	0
+"fe008"::	That's what I mean, yeah.::	0
+"me011"::	Well if he meant and non- British  I think we have  zero.::	0
+"fe008"::	He doesn't care. No. Eh, well,  British  is O_K.::	0
+"fe008"::	But - but -::	0
+"me018"::	He said British was O_K?::	0
+"fe008"::	Sure, sure, sure. Yeah.::	0
+"me011"::	British is English?::	0
+"me013"::	Why?::	0
+"fe008"::	Different varieties of English.::	0
+"mn014"::	Ooo, ooo.::	0
+"me013"::	Well, I don't - I don't - I don't think - if he didn't say that -::	0
+"fe008"::	Native speaking. Native speaking English.::	0
+"me011"::	I bet he meant native speaking American.::	0
+"fe008"::	Yes.::	0
+"me013"::	I  bet  he  did.::	0
+"mn014"::	American English?::	0
+"fe008"::	Oh,  really.::	0
+"me011"::	So, why would he care?::	0
+"me018"::	Knowing the application -::	0
+"me013"::	I remember wh- I- I remember a study -::	0
+"fe016"::	That's -::	0
+"mn005"::	English,::	0
+"fe016"::	I was thinking,  knowing  the, uh, n- National Institute of Standards, it  is   all  -::	0
+"me013"::	I remember a study that B_B_N did where they trained on - this was in Wall Street Journal days or something,  they  trained  on American English and then they  tested  on, uh, different native speakers from different areas.::	0
+"me013"::	And, uh,::	0
+"me013"::	uh, the  worst  match was people whose native tongue was Mandarin Chinese.::	0
+"me013"::	The  second  worst was British English.::	0
+"fe008"::	That's funny.::	0
+"me013"::	So h- it's, you know, t-::	0
+"fe008"::	Alright. And so that would make sense. I didn't have the context of that.::	0
+"me013"::	the - the - the -  German  was much better, it was  Swiss  w-  Yeah, so it's - so I think, you know, if he's - if he's thinking in terms of recognition kind of technology I - I - I think he would probably want, uh::	1
+"mn014"::	Ooo, ooo.::	0
+"me013"::	American English, yeah. It - it - yeah, unless we're gonna train with a whole bunch of -::	1
+"me011"::	I wonder if we have  any.::	0
+"fe008"::	All America, O_K.::	0
+"fe008"::	I think that the -  Feldman's  meetings tend to be more that way, aren't they? I mean, I sort of feel like they have -::	0
+"me011"::	Maybe.  Maybe.::	0
+"me013"::	I think so, yeah.::	0
+"fe016"::	Yeah, mm-hmm.::	0
+"me013"::	Yeah.::	0
+"mn005"::	Mmm.::	0
+"me011"::	And maybe there are a few of - with us where it was - you know, Dan wasn't there and before Jose started coming, and -::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"mn005"::	Yeah.::	0
+"me013"::	It's pretty  tough,  uh, this group. Yeah. So, uh, what about - what about people who involved in some  artistic  endeavor? I mean, film-making or something like that. You'd think like they would be -::	1
+"me001"::	God.::	0
+"me011"::	Yeah.::	0
+"mn014"::	Mmm.::	0
+"mn005"::	Yeah.::	0
+"mn005"::	A film-maker.::	0
+"fe016"::	Exactly, that's what I was - something where there - there is actually discussion where there's no right or wrong answer but -::	0
+"fe016"::	but it's a matter of opinion kind of thing.::	0
+"fe008"::	It's be fun.::	0
+"fe016"::	Uh,  anyway,  if you - if you have ideas -::	0
+"me011"::	RASTA. P_L_P. RASTA. P_L_P.::	0
+"me001"::	We  can just discu-  we  can just have a political  discussion  one day.::	0
+"mn005"::	Yes.::	0
+"me018"::	A- any department that calls itself  science  ri-::	0
+"fe016"::	Yeah, we could -::	0
+"mn005"::	Department. Yeah.::	0
+"me001"::	Uh,  I  could make that pretty -::	0
+"me011"::	Well, like computer science. That -::	0
+"mn005"::	Computer sci-::	0
+"fe008"::	We could get Julia Child.::	0
+"fe008"::	I know.::	0
+"me011"::	That's  -::	0
+"fe016"::	I'm - I'm actually serious because, uh, you know, we have the set up here and - and that - that has::	0
+"me011"::	Got a ticket.::	0
+"me013"::	Yeah, I know you are.::	0
+"fe016"::	a chance to give us some very interesting fun data. So if anyone has ideas,::	0
+"mn005"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"fe016"::	if you know any groups that are m- you know,::	0
+"me011"::	Well I had  asked  some - some of the students at the  business  school. I could -::	0
+"mn005"::	Yeah.::	0
+"me001"::	I know -::	0
+"fe016"::	student groups c- like  clubs,  things like  that.   Not  -  not  -::	0
+"me013"::	Put a little ad up saying, "come here and argue".::	0
+"fe016"::	Yeah. "If you're really angry at someone use our conference room."::	0
+"me011"::	The Business school.::	0
+"me011"::	Uh, the  business  school might be good. I actually spoke with some students up there and they - they - they expressed willingness back when they thought they would be doing more stuff with  speech.::	0
+"fe016"::	Oh, O_K.::	0
+"fe016"::	Really.::	0
+"me011"::	But when they lost interest in speech they also::	0
+"me011"::	stopped answering my email about  other  stuff, so.::	0
+"mn005"::	Hmm.::	0
+"me001"::	I -::	0
+"fe016"::	Or people who are really h-::	0
+"me013"::	They could have a discussion about te-::	0
+"me011"::	We should probably bleep that out.::	0
+"me013"::	about - about tax cuts or something.::	0
+"me001"::	I  heard  that at Cal Tech they have a special room - someone said that they had a special room to get all your frustrations out that you can go to and like throw things and break things.::	0
+"me001"::	So we can like post a -::	0
+"me013"::	Yeah, now  that  is not actually what we -::	0
+"me011"::	Th-  that's  not what we want.::	0
+"me001"::	No, not to that extent but, um.::	0
+"fe016"::	Well, far field mikes can pick up where they threw stuff on the wall.::	0
+"me001"::	Yeah.::	0
+"me013"::	Yeah, but we don't want them to throw the far field  mikes  is the thing.::	0
+"me011"::	That's right.::	0
+"me001"::	Yeah.::	0
+"fe016"::	Oh.  Yeah, right.::	0
+"mn005"::	The fa-::	0
+"me011"::	" Please  throw everything in  that  direction."::	0
+"mn005"::	b- b-::	0
+"me013"::	Yeah.  Anyway.::	0
+"me011"::	Padded cell.::	0
+"fe008"::	It'd be fun to get like a - a p- visit from the -::	0
+"me011"::	There was a  dorm  room at Tech that, uh, someone had coated the walls and the ceiling, and, uh, the floor with mattresses.::	0
+"me001"::	Mmm.::	0
+"me011"::	The entire  room.::	0
+"me013"::	I had as my  fourth  thing here processing of wave forms. What did we mean by that? Remember  @@ ?::	0
+"fe008"::	Yeah.::	0
+"me011"::	Uh, Liz wanted to talk about::	0
+"fe008"::	Pre-processing.::	0
+"me011"::	methods of improving accuracy by doing pre-processing.::	0
+"fe016"::	Well I think that - that was just sort of - I- I already asked  Thilo  but::	1
+"me013"::	Oh, you already did that.::	0
+"fe016"::	that, um, it would be helpful if I can stay in the loop somehow with,::	0
+"fe016"::	um, people who are doing any kind of  post-processing,  whether it's::	1
+"fe016"::	to  separate  speakers or to improve the signal-to-noise ratio, or  both,::	0
+"fe016"::	um, that we can sort of  try  out as we're running recognition.::	0
+"fe016"::	Um, so, i- is that - Who  else  is work- I guess Dan Ellis and you::	0
+"mn014"::	Dan, yeah.::	0
+"me011"::	Yep.::	0
+"me013"::	Yeah, and Dave uh  Gel- Gelbart again, he's - he's interested in - in fact we're look- starting to look at some echo cancellation kind of things.::	0
+"fe016"::	and Dave.::	0
+"mn014"::	Yep.::	0
+"mn005"::	Yeah.::	0
+"fe016"::	O_K.::	0
+"fe016"::	O_K.  Right .::	0
+"me013"::	Which uh -::	0
+"me011"::	I am not sure how much that's::	0
+"me011"::	an issue with the close talking mikes, but who knows?::	0
+"me013"::	Hmm?::	0
+"me013"::	Well, let's - w- i- isn't that what - what you want -::	0
+"me013"::	t-::	0
+"fe016"::	I  don't know. I'm  bad  -  It's like -   like -::	0
+"me013"::	No, so - No, i- w- wha- what you - what you want - when you're saying improving the wave form you want the close talking microphone to be better. Right?::	0
+"me011"::	Right.::	0
+"me013"::	And the question is to w- to what extent is it getting hurt::	0
+"me013"::	by, uh - by any room acoustics or is it just - uh, given that it's close it's not a  problem?::	0
+"me013"::	Uh -::	0
+"fe016"::	It doesn't  seem  like big room acoustics problems to my ear but I'm not an expert. It seems like a problem with  cross-talk.::	0
+"me013"::	O_K, so it's -::	0
+"me011"::	e- I bet with the  lapel  mike there's plenty, uh, room acoustic but I-::	0
+"mn014"::	Yeah .::	0
+"fe016"::	That - that may be true. But I don't know how  good  it can  get  either by those - the - those methods -  That's true.::	0
+"me011"::	I think the rest is cross-talk.::	0
+"me011"::	Yeah.::	0
+"me013"::	O_K.::	0
+"me011"::	So I - I think it's just,::	0
+"fe016"::	Oh, I don't know.::	0
+"me011"::	yeah, what you said,  cross-talk.::	0
+"fe016"::	All I meant is just that as sort of -::	1
+"fe016"::	as this pipeline of research is going on we're also experimenting with different::	0
+"fe016"::	A_S_R, uh, techniques. And so it'd be w-  good  to  know  about it.::	1
+"me011"::	Mm-hmm.::	0
+"me018"::	So the problem is like, uh, on the microphone of somebody who's  not  talking they're picking up::	1
+"me018"::	signals from  other  people  and that's::	0
+"fe016"::	R- right, although if they're  not   talking,  using the -::	1
+"me018"::	causing problems?::	1
+"fe016"::	the  inhouse  transcriptions, were sort of O_ K  because::	1
+"fe016"::	the t- no one transcribed any  words  there and we throw it out.::	0
+"me018"::	Mm-hmm.::	0
+"fe016"::	But if they're talking at all and they're not talking the whole time,  so you get some speech and then a "mm-hmm", and some more speech, so that whole thing is one chunk.::	0
+"fe016"::	And the person in the middle who said only a  little  bit is picking up the speech  around  it,::	0
+"fe016"::	that's  where it's a big  problem.::	0
+"fe008"::	You know, this  does  like seem like it would relate to some of what  Jose's  been working on as  well,  the encoding of the -  And - and he also, he was -::	0
+"mn005"::	Yeah.::	0
+"fe016"::	The energy, right. Exactly.::	0
+"mn005"::	Yeah, energy.::	0
+"fe008"::	I was t- I was trying to remember, you have this  interface  where you - i- you ha- you showed us one time on your  laptop  that you - you had different visual displays as speech and nonspeech events.::	0
+"mn005"::	Yeah, c- Yeah. May - I - I  only  display the different  colors  for the different situation.::	0
+"mn005"::	But, eh, for me and for my problems, is uh - is enough.::	0
+"mn005"::	Because, eh, it's possible, eh,::	0
+"mn005"::	eh, in a simp- sample view, uh, to, nnn, to  compare  with c- with the segment, the - the kind of  assessment::	0
+"mn005"::	what happened with the - the different parameters. And::	0
+"mn005"::	only with a different bands of color for the,::	0
+"mn005"::	uh, few situation, eh, I consider for acoustic event is enough to  @@ . I -::	0
+"fe008"::	Mm-hmm.::	0
+"mn005"::	I -  I see that, eh,::	0
+"mn005"::	you are considering now, eh, a very sophisticated, eh, ehm, eh,::	0
+"mn005"::	@@::	0
+"mn005"::	set of, eh, graphic s- eh, eh, ehm, si- symbols to - to transcribe. No?::	0
+"fe008"::	Oh, I w- Uh-huh.::	0
+"mn005"::	Because, uh,  before,  you - you are talking about the - the possibility to include in the Transcriber program eh, um, a set of symbols, of graphic symbol to -::	0
+"mn005"::	t- to  mark  the different situations  during the transcription - during the  transcription . No?::	0
+"fe008"::	Well, you're saying - So, uh, symbols for differences between laugh, and  sigh,  and - and - and slam the door and stuff? Or some  other  kind of thing?::	0
+"mn005"::	Yeah.::	0
+"mn005"::	Yeah, yeah. The s- the symbols, you - you talk of  before.  No? To - to mark -::	0
+"fe008"::	Well,  I  wouldn't say   symbols  so much.  The - the  main  change that I - that  I  see in the  interface  is - is just that we'll be able to more finely c- uh,::	0
+"mn005"::	Yeah.::	0
+"fe008"::	time  things. But I - I  also  st- there was another aspect of your work that I was  thinking  about when I was talking to you which is that it  sounded::	0
+"mn005"::	Yeah.::	0
+"fe016"::	Hmm.::	0
+"fe008"::	to me, Liz, as though you - and, uh, maybe I didn't q- understand this,  but it  sounded  to me as though  part  of the analysis that  you're  doing involves taking  segments  which are of a  particular  type and putting them  together.::	0
+"fe008"::	And th- so if you have like a p- a s- you know, speech from  one  speaker,  then you cut out the part that's not that speaker, and you::	0
+"mn005"::	Yeah.::	0
+"fe016"::	Mm-hmm.::	0
+"fe008"::	combine segments from  that  same  speaker to -  and run  them   through the recognizer. Is that  right?::	0
+"fe016"::	Well we  try  to find as close::	1
+"fe016"::	of start and end time of - as we  can  to the speech from an individual speaker,::	1
+"fe008"::	Mm-hmm.::	0
+"fe016"::	because then we - we're more guaranteed that the recognizer will - for the  forced  alignment which is just to give us the  time  boundaries,::	1
+"fe016"::	because from those  time  boundaries then the plan is to compute prosodic features.::	1
+"fe008"::	Mm-hmm.::	0
+"fe016"::	And the sort of  more  space you have that  isn't  the thing you're trying to  align  the more::	1
+"fe016"::	errors  we have.::	1
+"fe008"::	Mm-hmm.::	0
+"fe016"::	Um, so, you know, that - that - it would  help  to have::	0
+"fe008"::	Cuz i- O_K.::	0
+"fe016"::	either  pre-processing of a signal that creates  very  good signal-to-noise ratio, which I don't know how possible this  is  for the lapel,::	0
+"fe016"::	um,  or  to have very -::	0
+"fe016"::	to have  closer,   um,::	0
+"fe016"::	time - you know,  synch  times, basically, around the  speech  that gets  transcribed  in it, or  both.  And it's just sort of a open world right now of::	0
+"fe016"::	exploring  that. So I just wanted to  see, you know, on the  transcribing  end from  here  things look  good.::	0
+"fe016"::	Uh, the I_B_M one is more - it's an open  question  right now. And then the issue of::	0
+"fe016"::	like  global  processing of some signal and then,::	0
+"fe016"::	you know, before we chop it  up  is - is yet  another  way we can improve things in that.::	0
+"me018"::	What about increasing the flexibility of the  alignment?::	0
+"fe008"::	O_K.::	0
+"me018"::	Do you remember that thing that Michael  Finka  did? that experiment he did a while back?::	0
+"fe016"::	Mm-hmm.::	0
+"fe016"::	Right. You can, um -::	0
+"fe016"::	Hhh.::	0
+"fe016"::	The  problem  is just that the  acoustic  - when the signal-to-noise ratio is too  low,  um,::	0
+"fe016"::	you - you'll get, a- uh - an alignment with the wrong duration pattern or it -::	0
+"me018"::	Oh, so  that's  the problem, is the - the signal-to-noise ratio.::	0
+"fe016"::	Yeah. It's  not  the fact that you have like - I mean, what  he  did is allow you to have,::	0
+"fe016"::	uh, words that were in another  segment  move over to the - at the  edges  of - of segmentations.::	0
+"me018"::	Mm-hmm.::	0
+"me018"::	Or even words inserted that weren't - weren't there.::	0
+"fe016"::	Right, things - things near the boundaries where if you got your  alignment  wrong - cuz what they had done  there  is align and then  chop.::	0
+"me018"::	Mm-hmm.::	0
+"me018"::	Mm-hmm.::	0
+"fe016"::	Um, and this problem is a little bit j- more  global.  It's that there are problems even in-  inside  the alignments,::	0
+"fe016"::	uh, because of the fact that there's enough acoustic::	1
+"fe016"::	signal  there t- for the recognizer to - to  eat,   as part of a word. And it  tends  to do that. S-::	1
+"mn005"::	Yeah.::	0
+"fe016"::	So, uh,::	0
+"fe016"::	but we probably  will  have to do something like that in addition.::	1
+"fe016"::	Anyway.  So, yeah, bottom - bottom line is just I wanted to make sure I can::	0
+"fe016"::	be aware of whoever's working on these  signal-processing  techniques for,::	0
+"mn005"::	Yeah.::	0
+"fe016"::	uh, detecting energies, because that - that'll really help us.::	1
+"me013"::	O_ K,  uh::	0
+"me013"::	tea has started out there I suggest we c- run through our digits and,::	0
+"fe008"::	O_K.::	0
+"me013"::	Uh,::	0
+"me013"::	So,::	0
+"me013"::	O_K, we're done.::	1

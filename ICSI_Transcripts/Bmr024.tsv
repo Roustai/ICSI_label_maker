@@ -1,0 +1,2009 @@
+"me001"::	st-::	0
+"me001"::	Yeah.::	0
+"me011"::	So we're on.::	0
+"me001"::	That's better.::	0
+"me011"::	And,  somewhere is my agenda.::	0
+"me011"::	I think the most important thing is Morgan wanted to talk about, uh,::	0
+"me011"::	the ARPA  demo.::	0
+"me013"::	Well, so,::	0
+"me013"::	here's the thing.::	0
+"me013"::	Um,::	0
+"me013"::	why don't we s- again start off with - with, uh,::	0
+"me013"::	-n-::	0
+"me013"::	Yeah, I'll get it.::	0
+"me013"::	I'll get the door.::	0
+"me013"::	Um,::	0
+"me013"::	I think we want to start off with the  agenda.::	0
+"me013"::	And then, given that,::	0
+"me013"::	uh, Liz and Andreas are gonna be  ten, fifteen minutes late,::	0
+"me013"::	we can try to figure out what we can::	0
+"me013"::	do most effectively without them here. So -::	0
+"me011"::	O_K. So, uh -::	0
+"me013"::	So - so, one thing is, yeah, talk about demo,::	0
+"me011"::	uh, I_B_M transcription status,::	0
+"me013"::	I_B_M transcription.::	0
+"me013"::	Uh, what else?::	0
+"me011"::	SmartKom.::	0
+"me013"::	SmartKom.::	0
+"me013"::	SmartKom.::	0
+"me013"::	What's SmartKom?::	0
+"me011"::	Uh, we wanna talk about::	0
+"me011"::	if w-  if  we wanna add the data to the mar- Meeting Recorder corpus.::	0
+"mn014"::	The data.::	0
+"mn014"::	The data which we are collecting here.::	0
+"me013"::	What - what - what are we collecting here?::	0
+"mn014"::	Data?::	0
+"me011"::	So why don't we have that on the agenda and we'll - we'll get to it and talk about it?::	0
+"mn014"::	The SmartKom data?::	0
+"me013"::	Yeah, right.::	0
+"mn014"::	Yeah.::	0
+"me013"::	Uh,::	0
+"me013"::	right.::	0
+"me013"::	Uh.::	0
+"me011"::	Uh, reorganization status.::	0
+"me013"::	Reorganization::	0
+"me013"::	status.::	0
+"fe008"::	Oh.::	0
+"fe008"::	Files and directories?::	0
+"me013"::	Files and directories.::	0
+"me011"::	Yep.::	0
+"me011"::	Uh-huh.::	0
+"me011"::	Absinthe,::	0
+"me011"::	which is the multiprocessor UNIX -::	0
+"me011"::	Linux.::	0
+"me011"::	I think it was  Andreas wanted to talk about segmentation and recognition,::	0
+"me011"::	and update on S_R_I recognition experiments.::	0
+"me013"::	Um -::	0
+"me011"::	And then if ti- if there's  time  I wanted to talk about digits, but it looked like we were pretty full, so I can wait till next week.::	0
+"me013"::	Right.::	0
+"me013"::	O_K.::	0
+"me013"::	Well, let's see.::	0
+"me013"::	I think the a- certainly the segmentation and recognition we wanna maybe focus on when An- Andreas is here since that was particularly his::	0
+"mn014"::	And also the SmartKom::	0
+"me013"::	thing.::	0
+"mn014"::	thing::	0
+"me013"::	SmartKom also,::	0
+"mn014"::	should::	0
+"mn014"::	b-::	0
+"me013"::	Andreas.::	0
+"me013"::	Absinthe, I think also he::	0
+"me013"::	has sort of been involved in a lot of those things. Yeah.::	0
+"me011"::	At least,  yeah , he'll t- he'll probably be interested.::	0
+"me011"::	But.::	0
+"me013"::	Yeah.::	0
+"me013"::	Um::	0
+"me013"::	So, I mean, I think they'll be inter- I'll be interested in all this, but -::	0
+"me013"::	but, uh, probably,::	0
+"me013"::	if we had to pick  something   that we would talk on for::	0
+"me013"::	ten minutes or so while they're coming here. Or I guess it would be,::	0
+"me013"::	you think, reorganization status, or - ?::	0
+"me011"::	Yeah. I mean, I think,::	0
+"me011"::	Chuck was the one who::	0
+"me011"::	added out the agenda item. I don't really have anything to  say  other than that we still haven't  done  it.::	0
+"me011"::	So.::	0
+"me018"::	Well, I mean, I uh -::	0
+"me018"::	just basically that -::	0
+"me018"::	maybe I said - maybe we said this before - just that we met and we talked about it and::	0
+"me018"::	we::	0
+"me018"::	sort of have a plan for::	0
+"me018"::	getting things organized and -::	0
+"fe008"::	And I - and I think a crucial part of that is the idea of - of not wanting to do it until right before the next level zero back-up::	1
+"fe008"::	so that there won't be huge number of -::	0
+"me018"::	Right.::	0
+"fe008"::	of added, uh -::	1
+"me011"::	Right.::	0
+"me018"::	That - that was basically it. Not - not much  @@  -::	0
+"me011"::	Although Dave basically said::	0
+"fe008"::	Yeah.::	0
+"me011"::	that::	0
+"me011"::	if we wanna  do  it,::	0
+"fe008"::	Uh-huh.::	0
+"me011"::	just  tell  him and he'll::	0
+"me011"::	do a d- level zero then.::	0
+"fe008"::	Oh, excellent.::	0
+"me011"::	So.::	0
+"me018"::	Oh, so maybe we  should   just go ahead and get everything ready, and -::	0
+"fe008"::	Oh, good.::	0
+"me011"::	Yep.::	0
+"me011"::	So, I think we  do  need to talk a little bit about -::	0
+"me011"::	Well, we don't need to do it during this meeting. We have a  little  more to discuss.::	0
+"me018"::	Yeah.::	0
+"me011"::	But, uh,::	0
+"me011"::	we're - we're basically ready to do it.::	0
+"me011"::	And, uh, I have some web pages on::	0
+"me011"::	ts-::	0
+"me011"::	more of the background.::	0
+"me011"::	So, naming conventions and things like that, that I've been trying to keep actually up to date.::	0
+"me011"::	So.::	0
+"me011"::	And I've been  sharing   them with U_d- U_W folks also.::	0
+"me013"::	O_K.::	0
+"fe008"::	I'm sorry, you've been what? Showing them?  Sharing  them. O_K.::	0
+"me011"::	Sharing  them with the U_W folks.::	0
+"fe008"::	O_K.::	0
+"me013"::	O_K.::	0
+"me013"::	Well, maybe uh,::	0
+"me013"::	since that - that was a pretty short one, maybe we should talk about the I_B_M transcription status. Someone can::	0
+"me013"::	fill in Liz and Andreas later. Uh::	0
+"me011"::	O_K. So, we, uh -::	0
+"me011"::	we did another version of the beeps, where we separated each beeps with a spoken digit.::	0
+"me011"::	Chuck came up here and recorded some di- himself speaking some digits,::	0
+"me011"::	and so it just::	0
+"me011"::	goes "beep one beep" and then the phrase, and then "beep two beep" and then the phrase.::	0
+"me011"::	And that seems pretty good.::	0
+"me011"::	Um,::	0
+"me011"::	I think::	0
+"me011"::	they'll have a b- easier time keeping track of where they are in the file.::	0
+"mn014"::	And we have done that on the  automatic::	1
+"mn014"::	segmentations.::	1
+"me011"::	And we did it with the automatic segmentation, and I don't think - We ne- we didn't look at it in detail.::	0
+"me011"::	We just sent it to I_B_M. We - we sorta  spot-checked  it.::	0
+"me018"::	I listened to  probably,::	0
+"mn014"::	Yeah.::	0
+"me018"::	uh, five or ten minutes of it from the beginning.::	0
+"me011"::	Oh, really? O_K.::	0
+"me018"::	Yeah.::	0
+"me018"::	And -::	0
+"me011"::	I sorta spot-checked here and there and it sounded pretty good.::	0
+"me011"::	So.::	0
+"me013"::	O_K.::	0
+"me011"::	I think it'll work.::	0
+"me011"::	And, uh, we'll just hafta::	0
+"me011"::	see what we get back from them.::	0
+"me011"::	Uh -::	0
+"me018"::	And the main thing will be::	1
+"me018"::	if we can::	0
+"me018"::	align  what they give us::	0
+"me018"::	with what we sent them.::	1
+"me018"::	I mean, that's the crucial::	0
+"me018"::	part.::	0
+"me011"::	Right.::	0
+"me018"::	And I think::	0
+"me018"::	we'll be able to do that at - with this new::	0
+"me018"::	beep::	0
+"me018"::	format.::	0
+"me011"::	Yep.::	0
+"me011"::	Well, I think::	0
+"me011"::	it's also::	0
+"me011"::	they are::	0
+"me011"::	much less likely to d- have errors.::	0
+"me018"::	Mm-hmm.::	0
+"me011"::	I mean, so the problem wi- last time is that there were errors in the transcripts where they  put  beeps where there weren't any,::	0
+"me018"::	Right.::	0
+"me011"::	or - and they put in extraneous beeps.::	0
+"me018"::	Yeah.::	0
+"me011"::	And with the numbers there, it's much less likely.::	0
+"me018"::	Yeah, one::	0
+"me018"::	interesting note is -::	0
+"me018"::	uh, or problem - I dunno if this was just::	0
+"me018"::	because of how  I  play it back, I say, uh, S_N_D-play and then the file,::	0
+"me018"::	every once in a while,::	0
+"me018"::	@@   uh, like a beep sounds like it's  cut  into two beeps.::	0
+"mn014"::	Yeah. Into two pieces. Yeah.::	0
+"me018"::	Yeah, and::	0
+"mn014"::	Yep.::	0
+"me018"::	I - I dunno if that's an, uh, artifact of playback -::	0
+"me018"::	bu- uh, I don't think it's probably in the original file.::	0
+"me018"::	Um,::	0
+"mn014"::	I recognize that, too.::	0
+"mn014"::	Yeah.::	0
+"me018"::	but, uh -::	0
+"me011"::	Ha. That's interesting. I didn't hear that.::	0
+"me018"::	Yeah.::	0
+"me018"::	But with this new format,::	0
+"me018"::	um,::	0
+"me018"::	that::	0
+"me018"::	hopefully  they're  not hearing that, and if they are, it shouldn't throw them.::	0
+"mn014"::	Yep.::	0
+"me018"::	So.::	0
+"me011"::	Well, maybe we better listen to it again, make sure, but,::	0
+"me011"::	I mean, certainly the software shouldn't::	0
+"me011"::	do that, so.::	0
+"me018"::	Yeah. That's what I thought. I- it's probably just,::	0
+"fe008"::	Mm-hmm.::	0
+"me018"::	you know,::	0
+"me018"::	mmm, somehow the::	0
+"me018"::	audio  device::	0
+"me018"::	gets::	0
+"mn014"::	Yeah. Some latency or something. Yeah?::	0
+"me011"::	Hiccups.::	0
+"me018"::	hung for a second, or -::	0
+"mn014"::	Yeah.::	0
+"fe008"::	As long as they have one number,::	0
+"fe008"::	and they know that there's only one beep maximum::	0
+"mn014"::	Yeah.::	0
+"me018"::	Yeah.::	0
+"fe008"::	that goes with that number.::	0
+"me011"::	Yeah. The only - the only part that might be confusing is when Chuck is reading digits.::	0
+"me018"::	Right.::	0
+"mn014"::	Yep.::	0
+"me018"::	Right.::	0
+"me018"::	So  th-::	0
+"fe008"::	Well, you know,  actually,::	0
+"me011"::	"Seven four eight  beep  seven  beep   eight three two".::	0
+"fe008"::	are we having them -::	0
+"fe008"::	Yeah, but are we having them do digits?::	0
+"me011"::	Yes.::	0
+"me011"::	Because, uh, we don't -::	0
+"me018"::	We - we didn't cut those out.::	0
+"mn014"::	Yeah.::	0
+"me011"::	we didn't -::	0
+"mn014"::	They are not transcribed yet. So. Yeah.::	0
+"me011"::	In order to cut them out we'd have to listen to it.::	0
+"mn014"::	Yeah.::	0
+"me011"::	And we wanted to avoid doing that, so we - they are transcribing the digits.::	0
+"fe008"::	O_K.::	0
+"fe008"::	O_K.::	0
+"fe008"::	O_K.::	0
+"me011"::	Although we  could  tell them -::	0
+"me018"::	We can - we can ignore it::	0
+"me018"::	when we get it back, huh.::	0
+"me011"::	we could tell them,::	0
+"me011"::	if you hear someone reading a digits string just say::	0
+"me011"::	"bracket digit bracket" and don't bother actually::	0
+"me011"::	computing the di-::	0
+"me011"::	writing down the digits.::	0
+"me018"::	Yeah.::	0
+"fe008"::	That'd be great. That'd be what I'm having::	0
+"fe008"::	the transcribers here do, cuz it can be::	0
+"fe008"::	extracted later.::	0
+"me011"::	Yep.::	0
+"me011"::	And then I wanted to  talk  about -::	0
+"me011"::	but as I said I - we may not have  time  -::	0
+"me011"::	what we should  do  about digits. We have a whole pile of digits that haven't been transcribed.::	0
+"me013"::	Le- let's talk about it, because::	0
+"me013"::	that's - that's something that I - I know Andreas is less interested in than Liz is, so,::	0
+"me011"::	O_K.::	0
+"me013"::	you know.::	0
+"me011"::	Do we have anything else to say about transcription?::	0
+"me013"::	It's good -::	0
+"me011"::	About I_B_M stuff?::	0
+"me018"::	Uh, Brian - I -::	0
+"me018"::	I  sent  bresset   -   sent  Brian  a  message  about   the meeting::	0
+"me018"::	and I haven't heard back yet.::	0
+"me018"::	So.::	0
+"me011"::	O_K.::	0
+"me018"::	I g- hope he got it and hopefully he's -::	0
+"fe008"::	Hmm.::	0
+"me018"::	maybe he's gone, I dunno. He didn't::	0
+"me018"::	even reply to my message. So.::	0
+"me018"::	I should probably ping him just to make sure that::	0
+"me018"::	he got it.::	0
+"me011"::	Alright.::	0
+"me018"::	@@::	0
+"me011"::	So, we have a whole bunch of digits,::	0
+"me011"::	if we wanna move on to digits.::	0
+"me013"::	Actually, maybe I - One - one relate- more related thing in transcription. So that's the I_B_M stuff. We've got that sorted out.::	0
+"me013"::	Um, how're we doing on the - on the rest of it?::	0
+"fe008"::	We're doing well.::	1
+"fe008"::	I - I hire - I've hired  two  extra people already, expect to hire two more.::	1
+"me011"::	Hmm.::	0
+"fe008"::	And, um,::	0
+"fe008"::	I've prepared,::	0
+"fe008"::	um,::	0
+"fe008"::	uh, a set of  five  which I'm - which I'm calling set two,::	0
+"fe008"::	which are now being edited by my head transcriber,::	1
+"fe008"::	in terms of spelling errors and all that. She's also checking through and mar- and -::	1
+"fe008"::	and monitoring, um,::	0
+"fe008"::	the transcription of::	0
+"fe008"::	another transcriber.::	1
+"fe008"::	You know, I mean, she's going through and doing these kinds of checks.::	0
+"me013"::	Uh-huh.::	0
+"fe008"::	And,::	1
+"fe008"::	I've moved on now to what I'm calling set three. I sort of thought if I do it in sets - groups of five,::	1
+"fe008"::	then I can have, like, sort of a -::	0
+"fe008"::	a parallel processing through - through the -::	0
+"me013"::	Uh-huh.::	0
+"fe008"::	the current.::	1
+"fe008"::	And -::	1
+"fe008"::	and you indicated to me that we have a g- a  goal  now,::	0
+"fe008"::	for the -::	0
+"fe008"::	for the,::	0
+"fe008"::	um,::	0
+"fe008"::	the, uh, DARPA  demo,::	0
+"fe008"::	of twenty hours.::	1
+"fe008"::	So, I'm gonna go up to twenty hours,::	1
+"fe008"::	be sure that everything gets processed,::	0
+"fe008"::	and released,::	0
+"fe008"::	and -::	0
+"fe008"::	and that's -::	0
+"fe008"::	that's what my goal is. Package of twenty hours right now,::	1
+"fe008"::	and then once that's done, move on to the next.::	0
+"me013"::	Yeah, uh,::	0
+"me013"::	so twenty hours. But I guess the other thing is that,::	1
+"me013"::	um,::	0
+"me013"::	that - that's kinda twenty hours A_SAP because::	0
+"me013"::	the longer::	0
+"me013"::	before  the demo we actually have the twenty hours, the more time it'll be for people to actually do::	0
+"me013"::	cool things with it.::	1
+"fe008"::	Mm-hmm.::	0
+"me013"::	So.::	0
+"fe008"::	Good.::	0
+"fe008"::	I'm - I'm hiring people who,::	0
+"me013"::	O_K.::	0
+"fe008"::	uh,  really  are -::	0
+"fe008"::	They would like to do it full-time, several of these people.::	0
+"me013"::	Mm-hmm.::	0
+"fe008"::	And - and I don't think it's::	0
+"fe008"::	possible, really, to do this full-time, but,::	0
+"fe008"::	that - what it shows is motivation to do as many hours as possible.::	0
+"me011"::	It'll keep your accuracy up.::	0
+"me011"::	Yep.::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"fe008"::	And they're really excellent.::	0
+"me013"::	Well, that's good.::	0
+"fe008"::	Yeah.::	0
+"me013"::	Yeah, I mean, I guess the -::	1
+"fe008"::	Got a good core group now.::	0
+"me013"::	So the difference if - if, um,::	0
+"me013"::	if the I_B_M stuff works out,::	0
+"fe008"::	Again.::	0
+"me013"::	the difference in the job would be that they p- primarily would be::	0
+"me013"::	checking through things that were::	0
+"fe008"::	Mm-hmm.::	0
+"me013"::	already done by someone else? Is that most of what it - ?::	1
+"me011"::	And correcting.::	0
+"me013"::	I mean -::	0
+"me013"::	Correcting.::	0
+"me011"::	Correcting. We'll - we'll expect that they'll have to move some time bins and do some corrections.::	0
+"fe008"::	And I - you know, I've also d- uh, discovered -::	0
+"fe008"::	So with the new transcriber I'm -::	0
+"fe008"::	um -::	0
+"fe008"::	So -::	0
+"fe008"::	Uh, lemme say that::	0
+"fe008"::	my,::	0
+"fe008"::	uh -::	0
+"fe008"::	So,::	0
+"fe008"::	um -::	0
+"fe008"::	At present, um, the people have been doing these transcriptions a channel at a time.::	0
+"fe008"::	And, that sort of, um,  is useful, and t- you know, and then once in a while they'll have to refer to the other channels to clear something up.::	0
+"fe008"::	O_K. Well,::	1
+"fe008"::	I realize that, um,::	0
+"fe008"::	w- i- we- we're using the pre-segmented version,::	1
+"fe008"::	and, um,::	1
+"fe008"::	the pre-segmented version is extremely useful,::	1
+"fe008"::	and wouldn't it be,::	1
+"fe008"::	useful also to have the  visual  representation of those segments?::	1
+"fe008"::	And so I've -::	1
+"fe008"::	uh,  I,::	0
+"fe008"::	uh, uh, I've   trained  the new one -::	0
+"fe008"::	uh, the new- the newest one,::	0
+"fe008"::	to, um,::	0
+"fe008"::	use the::	0
+"fe008"::	visual from::	0
+"fe008"::	the channel that is gonna be transcribed at any given time.::	1
+"fe008"::	And that's just  amazingly  helpful.::	0
+"fe008"::	Because what happens  then,  is you scan across the signal and once in a while you'll find a blip that didn't show up in the pre-segmentation.::	1
+"me011"::	Oh, right. I see what you mean.::	0
+"fe008"::	And that'll be something like -::	0
+"fe008"::	I- it's  ver-  - it's interesting.::	0
+"me011"::	A backchannel, or -::	0
+"fe008"::	Once in a while it's a backchannel. Sometimes it seems to be,::	0
+"mn014"::	Yep.::	0
+"fe008"::	um,::	0
+"fe008"::	similar  to the ones that are being picked up.::	0
+"me011"::	Mm-hmm.::	0
+"fe008"::	And they're rare events, but you can  really  go through a meeting  very  quickly. You just - you just,::	0
+"fe008"::	you know,::	0
+"fe008"::	yo- you s-::	0
+"fe008"::	you  scroll   from screen to screen, looking for blips.::	0
+"fe008"::	And,::	1
+"me013"::	Yeah.::	0
+"fe008"::	I think that we're gonna end up with, uh  better coverage of the backchannels,::	1
+"fe008"::	but at the same time we're benefitting::	1
+"fe008"::	tremendously from the pre-segmentation because::	1
+"fe008"::	there are  huge  places where there is just absolutely::	0
+"fe008"::	no::	0
+"fe008"::	activity at all.::	0
+"me013"::	Mm-hmm.::	0
+"fe008"::	And, uh, the audio quality is  so  good -::	0
+"me018"::	So they can - they can, um,::	0
+"me018"::	scroll through that pretty quick?::	0
+"fe008"::	Yeah.::	0
+"fe008"::	Mm-hmm.::	0
+"me018"::	That's great.::	0
+"fe008"::	Yeah.::	0
+"fe008"::	So I think that that's gonna,::	0
+"fe008"::	also  eh,  you know, speed the efficiency of this::	0
+"fe008"::	part of the process.::	0
+"me013"::	Hmm. O_K.::	0
+"me013"::	Uh, yeah.::	0
+"me013"::	So, uh -::	0
+"me013"::	Yeah. So let's talk about the digits, since they're not here yet.::	0
+"me011"::	Uh, so,::	0
+"me011"::	we have a whole bunch of digits that we've read and we have the forms and so on,::	0
+"me011"::	um, but only a small number of that ha-::	0
+"me011"::	well, not a  small  number -::	0
+"me011"::	only::	0
+"me011"::	a  subset  of that has been transcribed. And so we need to decide::	0
+"me011"::	what we wanna  do.::	0
+"me011"::	And, uh,::	0
+"me011"::	Liz and Andreas - actually they're not here, but,::	0
+"me011"::	they did say at one point that they thought they could do a pretty good job of just doing a forced alignment.::	0
+"me011"::	And,::	0
+"me011"::	again, I don't think we'll be able to do with that  alone,::	0
+"me011"::	because, um, sometimes people correct themselves and things like that.::	0
+"me011"::	But - so, I was just wondering what people thought about::	1
+"me011"::	how automated can we make the  process  of finding where the people read the digits,::	0
+"me011"::	doing a forced alignment, and doing the timing.::	1
+"me013"::	Well, forced alignment would be one thing. What about just actually doing recognition?::	1
+"me011"::	Well, we - we  know  what they read, because we have the forms.::	0
+"me013"::	No, they make mistakes.::	0
+"me011"::	Right.::	0
+"me011"::	But,::	0
+"me011"::	the  point  is that we wanna  get  a set of clean::	0
+"me011"::	digits.::	0
+"me013"::	Right.::	0
+"me018"::	You're talking about as a  pre-processing  step. Right, Morgan?::	0
+"me013"::	Um -::	0
+"me018"::	Is that what you're - ?::	0
+"me013"::	Yeah, I'm - I'm not quite sure what I'm talking about. I mean -::	0
+"me013"::	I -::	0
+"me013"::	I mean,::	0
+"me013"::	uh, we're talking about digits now. And - and so,::	0
+"me013"::	um,::	0
+"me013"::	there's a bunch of stuff that hasn't been::	0
+"me013"::	marked yet.::	0
+"me013"::	Uh.::	0
+"me013"::	And,::	0
+"me013"::	um,::	0
+"me011"::	I mean, so one option i-::	0
+"me013"::	there's the issue that -::	0
+"me013"::	that they - we know what -::	0
+"me013"::	what was said,::	0
+"me013"::	but do we? Because people::	0
+"me013"::	make mistakes and stuff.::	0
+"me013"::	I was just  asking,  just out of curiosity, if - if with, uh -::	1
+"me013"::	uh, the S_R_I recognizer getting one percent word error,::	1
+"me013"::	uh,::	1
+"me013"::	would we -::	0
+"me013"::	would we do   better  - ?::	1
+"me013"::	So, if you do a forced alignment but the force- but the - but the transcription you have is wrong because they actually made mistakes, uh, or::	1
+"me011"::	But that's pretty uncommon.::	0
+"me013"::	false starts,::	0
+"me013"::	it's - it's much less c-::	0
+"me013"::	it's  much less common than one percent?::	1
+"me011"::	Um,::	0
+"me011"::	if we could really get one percent on -::	0
+"me011"::	Well,::	1
+"me013"::	We should be able to. Right?::	0
+"me011"::	I guess - yeah, I guess if we  segmented  it,::	0
+"me018"::	Yeah.::	0
+"me011"::	we could get one percent on digits.::	1
+"me013"::	Yeah.::	0
+"me013"::	So that's just my question. I'm not saying it should be one way or the other, but it's - If -::	1
+"me011"::	But,::	0
+"me011"::	Well, there - there're a couple different of doing it. We could::	0
+"me011"::	use the tools I've already developed and transcribe it. Hire some people,::	1
+"me011"::	or use the transcribers to do it. We could let I_B_M transcribe it.::	1
+"me011"::	You know, they're doing it anyway, and unless we tell them  different,  they're gonna transcribe it.::	0
+"me011"::	Um, or we could try some automated methods.::	1
+"me011"::	And  my  - my tendency right  now  is, well, if I_B_M::	1
+"me013"::	Well -::	0
+"me011"::	comes back with this meeting and the transcript is  good,::	0
+"me011"::	just let  them  do it.::	1
+"me013"::	Yeah, it's - Y- you raised a point, kind of,::	0
+"me013"::	uh, euphemistically - but, I mean, m- maybe it is a serious problem. Ho- what will they do when they go - hear::	0
+"me013"::	"beep  seven  beep  seven three five two" - I mean,::	0
+"me013"::	you think they'll - we'll get - ?::	0
+"me011"::	It's pretty distinct.::	0
+"me011"::	The beeps are  pre-recorded.::	0
+"me013"::	Yeah?::	0
+"me018"::	It'll  only be a problem for m- for mine.::	0
+"mn014"::	Yeah.::	0
+"fe008"::	Well it -::	0
+"fe008"::	it - well, it'd be preceded by "I'm reading transcript::	0
+"fe008"::	so-and-so"?::	0
+"me018"::	Yeah.::	0
+"me011"::	Yes.::	0
+"fe008"::	So,::	0
+"fe008"::	I::	0
+"fe008"::	think if they're processing it at -::	0
+"me011"::	I mean, it'll be - it will be in the midst of a digit string.::	0
+"me011"::	So -::	0
+"me013"::	Yeah.::	0
+"me011"::	I mean it - sure, there - there might be a place where it's::	0
+"me011"::	"beep seven  beep eight::	0
+"me011"::	beep::	0
+"me011"::	eight  beep".::	0
+"me011"::	But, you know, they - they're - they're gonna macros for inserting the beep marks.::	0
+"me011"::	And so, I - I don't think it'll be a problem. We'll have to see, but I don't think it's gonna be a problem.::	0
+"me013"::	O_K.::	0
+"me013"::	Well, I - I - I dunno, I - I think that that's - if they are in fact going to transcribe these things,::	0
+"me013"::	uh,::	0
+"me013"::	certainly any process that we'd have to::	0
+"me013"::	correct them, or whatever is - needs to be much less elaborate for digits than::	0
+"me011"::	Right.::	0
+"me013"::	for other stuff. So, why not?::	0
+"me013"::	Sure.::	0
+"me013"::	That was it?::	0
+"me011"::	That was it.::	0
+"me011"::	Just,::	0
+"me011"::	what do we do with digits? We have so many of them,::	0
+"me013"::	O_K.::	0
+"me013"::	Well, we - we -::	0
+"me011"::	and it'd be nice to  actually do something with them.::	0
+"me013"::	we wanna have  them.::	0
+"mn017"::	You mean there're more than ten?::	0
+"me013"::	Yeah, I -::	0
+"me011"::	Anything else?::	0
+"me011"::	Your mike is a little low there.::	0
+"me013"::	I- in Berkeley, yeah.::	0
+"me013"::	So,::	0
+"me013"::	uh::	0
+"me013"::	You - you have to go a  little   early, right?::	0
+"mn017"::	Well, I can stay till about, uh,::	0
+"me013"::	At twenty -::	0
+"mn017"::	three forty.::	0
+"me013"::	Alright. So le- let's make sure we do the ones that -::	0
+"mn017"::	Yeah.::	0
+"mn017"::	Mm-hmm.::	0
+"me013"::	that, uh,::	0
+"me013"::	saved you. So there was some -::	0
+"me013"::	Uh::	0
+"me013"::	In -::	0
+"me013"::	in -::	0
+"me013"::	Adam's agenda list, he had something from you about segmentation this last recognition?::	0
+"mn017"::	Well, yeah. So this is just::	0
+"mn017"::	partly to inform everybody,::	0
+"me011"::	Oops.::	0
+"mn017"::	um,::	0
+"mn017"::	and - and of course to get,::	0
+"mn017"::	um,::	0
+"mn017"::	input.::	0
+"mn017"::	Um,::	0
+"mn017"::	so,::	0
+"mn017"::	uh, we had a discussion -::	0
+"mn017"::	Don and::	0
+"mn017"::	Liz and I had discussion last week about::	0
+"mn017"::	how to proceed with, uh,::	0
+"mn014"::	Ch-::	0
+"mn017"::	you know, with  Don's  work, and -::	1
+"mn017"::	and - and, uh, one of::	0
+"mn017"::	the obvious::	0
+"mn017"::	things that::	0
+"mn017"::	occur to us was that::	0
+"mn017"::	we're - since we now have Thilo's::	0
+"mn017"::	segmenter and it works,::	0
+"mn017"::	you know, amazingly well,::	0
+"mn017"::	um,::	0
+"mn017"::	we should actually::	0
+"mn017"::	basically re-evaluate the recognition,::	0
+"mn017"::	um,::	0
+"mn017"::	results::	0
+"mn017"::	using - you know, without cheating on the segmentations.::	1
+"mn017"::	And, that should be fairly -::	0
+"mn014"::	So -::	0
+"mn014"::	And how do we find the transcripts for  those   so that - ?::	0
+"mn014"::	Yeah.::	0
+"mn017"::	Oh, O_K.::	0
+"mn014"::	The references for - for  those segments?::	1
+"mn017"::	So, there's actually -::	0
+"mn014"::	It's not that -::	0
+"mn017"::	Why do you ask?::	0
+"mn017"::	No, actually, um,::	1
+"me011"::	I could -::	0
+"fe016"::	Well -::	0
+"me011"::	Hand ones.::	0
+"mn017"::	NIST::	0
+"mn017"::	has,::	0
+"mn017"::	um::	0
+"mn017"::	m-::	0
+"mn017"::	a fairly sophisticated scoring program::	0
+"mn014"::	O_K.::	0
+"mn017"::	that you can give a, um -::	0
+"mn017"::	a time,::	1
+"mn017"::	uh -::	1
+"mn017"::	You know, you basically just give two  time-marked sequences of words,::	0
+"mn017"::	and it::	0
+"mn017"::	computes::	0
+"mn017"::	the::	0
+"mn017"::	um -::	0
+"mn017"::	the,::	0
+"mn017"::	uh -::	0
+"mn017"::	you know,::	0
+"me018"::	It does all the work for you.::	0
+"mn017"::	the - the - th- it does all the work for you.::	1
+"me018"::	Yeah.::	0
+"mn014"::	O_K.::	0
+"mn017"::	So, it - we just - and we use that actually in Hub-five::	1
+"mn017"::	to do the scoring.::	1
+"mn017"::	Um. So what we've been using so far was sort of a  simplified version of the scoring.::	1
+"mn017"::	And we can -::	0
+"mn017"::	we can handle the -::	0
+"mn017"::	the - the::	0
+"mn017"::	type of problem we have here.::	0
+"mn017"::	So, we ha-::	0
+"mn014"::	So, basically you give some time constraints for - for the references and for - for the hypothesis, and - Yeah, O_K.::	0
+"mn017"::	Yeah.::	0
+"mn017"::	Right.::	0
+"mn017"::	Right.::	0
+"fe016"::	Yeah. Maybe the  start of your speech and the end of it, or stuff like that.::	0
+"mn017"::	So do-::	0
+"mn014"::	O_K.::	0
+"mn017"::	Right.::	0
+"mn017"::	It does time-constrained word-alignment.::	1
+"mn014"::	O_K.::	0
+"mn017"::	So.::	0
+"mn017"::	So that::	0
+"mn017"::	should be possible.::	0
+"mn017"::	I mean that shouldn't be a::	0
+"mn017"::	problem.::	0
+"mn017"::	Uh, so that was the one thing, and the other was that, um -::	0
+"mn017"::	What was the other problem? Oh!::	0
+"mn017"::	That::	1
+"mn017"::	Thilo wanted to use  the recognizer alignments to train up his, um, speech detector.::	1
+"mn014"::	Yeah.::	0
+"mn017"::	Um,::	1
+"mn017"::	so that::	0
+"mn017"::	we could use,::	0
+"mn017"::	uh - you know there wouldn't be so much hand::	0
+"mn017"::	labeling needed::	0
+"mn017"::	to, uh -::	0
+"mn017"::	to generate training data for - for the speech detector.::	1
+"mn014"::	Yeah. I'm just in progress of - of doing that. So.::	0
+"mn017"::	And I think you're in the  process   of doing that. So,::	0
+"mn014"::	Yeah.::	0
+"mn017"::	you can -::	0
+"me018"::	It'll give you a lot more data, too. Won't it?::	0
+"mn017"::	you can -::	0
+"mn014"::	Yeah.::	0
+"mn014"::	So, it's basically -::	0
+"mn014"::	s-::	0
+"mn014"::	I think, eight meetings or something which - which I'm using, and,::	0
+"mn017"::	Mm-hmm.::	0
+"mn014"::	it's -::	0
+"mn014"::	before it was twenty minutes of one meeting. So -::	0
+"mn017"::	Right.::	0
+"mn014"::	should  be a little bit better.::	0
+"mn017"::	That won't be perfect - the alignments aren't perfect,::	0
+"me018"::	Great.::	0
+"mn014"::	Yeah. But -::	0
+"mn017"::	but,::	0
+"mn017"::	um,::	0
+"fe016"::	Yeah.::	0
+"mn017"::	it's probably still  better  to have all this extra data,::	0
+"mn014"::	Yeah.::	0
+"mn014"::	Yep.::	0
+"mn017"::	than - Yeah.::	0
+"mn014"::	We'll see that.::	0
+"mn017"::	Yeah.::	0
+"me013"::	O_K.::	0
+"fe016"::	Actually, I had a question about that. If you find that you can::	0
+"fe016"::	lower the false alarms::	0
+"fe016"::	that you get::	0
+"fe016"::	where there's no speech, that would be::	0
+"fe016"::	useful  for us to know. So,::	0
+"fe016"::	um -::	0
+"mn014"::	There were the false alarms.::	0
+"fe016"::	Yeah. So,::	0
+"fe016"::	r- right now you get f-::	0
+"mn014"::	O_K.::	0
+"fe016"::	fal- you know, false - false, uh, speech regions when it's just like, um,::	0
+"mn014"::	Yeah.::	0
+"fe016"::	breath or something like that, and I'd be interested to know the -::	0
+"mn014"::	Yep.::	0
+"fe016"::	wha- if you retrain::	0
+"fe016"::	um,::	0
+"mn014"::	Yeah.::	0
+"fe016"::	do those actually go down or not? Because   of  -::	0
+"mn014"::	Yeah. I'll - can make - an-::	0
+"mn014"::	can, like, make a c- comparison of - of the old system to the - to the new one, and  then - Yeah.::	0
+"fe016"::	Yeah, just to see if by doing nothing in the modeling of - just having that training data wh- what happens.::	0
+"mn014"::	Yeah.::	0
+"mn014"::	Yep.::	0
+"me013"::	Um  another   one that we had on::	0
+"me013"::	Adam's agenda  that::	0
+"me013"::	definitely involved you was s- something about SmartKom?::	0
+"me011"::	Right. So,::	0
+"me011"::	Rob  Porzel   - eh,  Porzel?::	0
+"me011"::	and the, uh -::	1
+"mn017"::	Porzel.::	0
+"me011"::	Porzel   -::	0
+"mn017"::	Porzel.::	0
+"me011"::	and the, uh,::	0
+"me011"::	SmartKom group are collecting some dialogues. Basically they have one person sitting in here,::	1
+"me011"::	looking at a picture, and a wizard sitting in another room somewhere.::	1
+"me011"::	And, uh, they're doing a travel task.::	1
+"me011"::	And, uh,::	0
+"me011"::	it involves starting - I believe starting with a -::	0
+"me011"::	It's - it's always the wizard, but it starts where the wizard is pretending to be a computer and it goes through a, uh,::	1
+"me011"::	speech generation system.::	1
+"mn014"::	Yeah. Actually, it's changed to a synthesis for - for the first part now. Yeah.::	0
+"me011"::	Synthesis system.::	0
+"me011"::	Um, and then,::	0
+"me011"::	it goes to a real wizard and they're::	0
+"me011"::	evaluating  that. And they wanted to use this equipment,::	0
+"me011"::	and so the w-  question  came up, is - well, here's some more data. Should this be part of the  corpus  or not?::	1
+"me011"::	And  my  attitude was  yes,  because there might be people::	1
+"me011"::	who are using this corpus for  acoustics, as opposed to just for language.::	1
+"me011"::	Um, or also for  dialogue  of various sorts.::	0
+"me011"::	Um, so it's not::	0
+"me011"::	a  meeting.  Right? Because it's::	0
+"me011"::	two people and they're not face to face.::	0
+"me013"::	Wait a minute.  So,::	0
+"mn014"::	Yeah.::	0
+"me013"::	I just wanted to understand it, cuz I -::	0
+"me013"::	I'm -::	0
+"me013"::	uh, hadn't quite followed this::	0
+"me013"::	process. Um.::	0
+"me013"::	So,::	0
+"me013"::	it's wizard in the sen- usual sense that the person who is::	0
+"me013"::	asking the questions doesn't know that it's, uh, a machi- not a machine?::	0
+"mn017"::	Right.::	0
+"mn017"::	Actually - actually,::	0
+"me011"::	At the beginning.::	0
+"mn017"::	w- w-::	0
+"mn017"::	the - the - We do this - I dunno who came up with it, but I think it's a really clever idea.::	0
+"mn017"::	We simulate a computer breakdown::	1
+"me013"::	Yeah.::	0
+"mn017"::	halfway through the session,::	0
+"mn017"::	and so then after that,::	0
+"mn017"::	the person's told that they're now talking to a,::	0
+"mn017"::	uh -::	0
+"mn014"::	It's a human operator.::	0
+"mn017"::	to a human.::	1
+"mn014"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"me011"::	But of course they don't know that it's the same person both times.::	1
+"mn017"::	So, we - we collect - we collect both human-computer and human-human data,::	0
+"mn017"::	essentially, in the same::	0
+"mn017"::	session.::	0
+"me013"::	You   might wanna try::	0
+"me013"::	collecting it the other way around sometime, saying that th- the computer isn't up yet and then - so then you can separate it out whether it's the beginning or end kind of effects. But, yeah.::	0
+"fe008"::	Hmm.::	0
+"mn017"::	That's an idea.::	0
+"me011"::	Yep.::	0
+"mn017"::	Yeah.::	0
+"fe008"::	That's   a good idea.::	0
+"me011"::	"I have to go now. You can talk to the computer."::	0
+"me011"::	"No!"::	0
+"me018"::	It's a lot more believable, too, if you tell  them   that they're -::	0
+"me018"::	the computer part is running on a Windows machine.::	0
+"me018"::	And the whole breakdown thing kinda makes sense.::	0
+"mn017"::	O-::	0
+"mn017"::	Just -::	0
+"mn017"::	just reboot it.::	0
+"me011"::	Abort -::	0
+"me011"::	abort, retry, fail?::	0
+"fe016"::	So did they actually save the far-field  data? Cuz at first they weren't -::	0
+"me011"::	Well, this was - this was the question. So - so they were saying they were not going to, and I said, "well that's silly, if - if we're gonna try to do it for a corpus,::	1
+"mn014"::	Yes.::	0
+"mn017"::	Yeah.::	0
+"fe016"::	they weren't sa- O_K.::	0
+"mn014"::	Yeah.::	0
+"fe016"::	Yeah.::	0
+"mn017"::	Wow.::	0
+"mn014"::	No.::	0
+"me011"::	there might be people who are interested in acoustics."::	1
+"fe016"::	Or -::	0
+"mn014"::	projector::	0
+"fe016"::	Yeah.::	0
+"me013"::	S-::	0
+"mn014"::	We were not saying we are  not   doing it. We wer- we  just  wanted to do -::	0
+"mn017"::	No, the - the  question  is do we save one or two far-field channels or  all  of them?::	0
+"fe016"::	Right.::	0
+"mn014"::	Yeah.::	0
+"mn014"::	Yeah.::	0
+"me011"::	I - I see no reason not to do all of them.::	0
+"me011"::	That -::	0
+"me013"::	Um -::	0
+"fe016"::	Nnn.::	0
+"me011"::	that if we  have  someone who is doing  acoustic  studies,::	0
+"mn017"::	Hmm.::	0
+"fe016"::	Yeah.::	0
+"me011"::	uh, it's nice to have::	0
+"me011"::	the  same  for every recording.::	0
+"me013"::	So, what is the purpose of this recording?::	0
+"mn017"::	Mm-hmm.::	0
+"me013"::	This is to::	0
+"mn017"::	It's to be traini- to b- training data and development data for the SmartKom  system.::	0
+"mn014"::	The English system?::	0
+"me013"::	get::	0
+"me013"::	acoustic   and language model::	0
+"mn017"::	Yeah.::	0
+"mn014"::	Yeah.::	0
+"me013"::	training data for SmartKom.::	0
+"mn017"::	Right.::	0
+"mn017"::	Right.::	0
+"me013"::	O_K.::	0
+"me018"::	Where does this - ?::	0
+"fe016"::	Maybe we can have him vary the microphones, too, or they're different s- speakers.::	0
+"me013"::	Well,::	0
+"mn014"::	B-::	0
+"me011"::	Right. So - so - so for  their  usage, they don't need anything.::	0
+"me013"::	so why not - ?::	1
+"mn014"::	Yeah. But - but I'm not sure about the legal aspect of - of that. Is - is there some contract with SmartKom or something about the data? What::	0
+"me011"::	Right?::	0
+"mn017"::	Yeah.::	0
+"mn014"::	they - or, is - is that  our  data which we are collecting here, or - ?::	0
+"me013"::	We've never signed anything that said that::	0
+"mn014"::	O_K.::	0
+"me013"::	we couldn't use anything that we did.::	0
+"mn014"::	O_K.::	0
+"mn017"::	We weren't supposed to collect any data.::	0
+"mn014"::	So.::	0
+"mn014"::	O_K.::	0
+"mn017"::	This was all -::	0
+"me013"::	Yeah.::	0
+"mn014"::	So. Yeah, th- th- that was the question. If - if - ? Yeah.::	0
+"mn017"::	Yeah.::	0
+"mn014"::	Basically.::	0
+"me013"::	No  that's  not a problem. I - L- look, it seems to me that if we're doing it anyway and we're doing it for these - these purposes that we have,::	0
+"mn017"::	Mm-hmm.::	0
+"me013"::	and we have these distant mikes, we definitely should re-::	0
+"me013"::	should::	0
+"me013"::	save it all as long as we've got disk space, and disk is pretty cheap. So should we  save  it?::	0
+"mn017"::	O_K.::	0
+"me011"::	And then -::	0
+"me013"::	Now th- Yeah.::	0
+"me013"::	So we save it because it's - it - it's potentially useful.::	0
+"me011"::	Right.::	1
+"me013"::	And now,::	0
+"me013"::	what do we do with it is - is a s- separate question.::	0
+"me013"::	I mean, anybody who's training something up could::	0
+"me013"::	choose::	0
+"me013"::	to put it -::	0
+"mn017"::	Right.::	0
+"me013"::	eh, to u- include this or not. I - I would not say it was part of the meetings corpus. It isn't.::	1
+"me013"::	But it's some other data we have, and if somebody::	0
+"me013"::	doing experiment wants to train up including that then they can. Right?::	0
+"mn017"::	Mm-hmm.::	0
+"me011"::	So it's -::	1
+"me011"::	It -::	0
+"me011"::	it -::	0
+"me011"::	I guess it - the -::	0
+"me011"::	begs the question of what is the meeting corpus. So if,::	1
+"me011"::	at U_W they start recording::	0
+"me011"::	two-person::	0
+"me013"::	I think it's - I -::	1
+"me011"::	hallway conversations is that::	0
+"me011"::	part of the meeting corpus?::	0
+"me013"::	I think - I th- think the idea of two or more people conversing with one another is key.::	1
+"me011"::	Well, this has two or more people conversing with each other. They're just not face to face.::	1
+"me013"::	Nnn, well::	0
+"mn014"::	Yeah.::	0
+"fe016"::	What if we just give it a -::	0
+"fe008"::	Well this -::	0
+"me013"::	No, it doesn't. Right? It has -::	0
+"fe016"::	a name like we give these meetings a name?::	0
+"me011"::	I mean, that was my intention.::	0
+"fe016"::	And then later on some people will consider it a meeting and some people won't, and -::	0
+"me013"::	Yeah.::	0
+"me011"::	That was my intention. So - so - s-::	0
+"fe008"::	Well this -::	0
+"fe016"::	Just give it a::	0
+"me011"::	so  part  of the reason that I wanted to bring this up is,::	0
+"fe016"::	title.::	0
+"me011"::	do we wanna  handle  it as a special case or do we wanna  fold  it in,::	0
+"fe008"::	Oh.::	0
+"me013"::	I think it is a s-::	0
+"me011"::	we- give everyone who's involved as::	1
+"me011"::	their own user I_D, give it session I_Ds,::	0
+"me011"::	let all the tools that handle Meeting Recorder handle it,::	0
+"me011"::	or do we wanna special case it? And if we were gonna special case it,::	1
+"mn017"::	Well,::	1
+"mn014"::	So. It - it - it -::	0
+"mn017"::	it -::	0
+"me011"::	who's gonna do that?::	0
+"mn017"::	it makes sense to handle it::	0
+"fe008"::	I think -::	0
+"mn017"::	with the same infrastructure, since we don't want to duplicate things unnecessarily. But as far as::	1
+"mn017"::	distributing it, we shouldn't label it as part of this::	0
+"mn017"::	meeting corpus. We should::	1
+"me013"::	Yeah.::	0
+"mn017"::	let it be its own corp-::	0
+"me011"::	I don't see why not. It's just a different topic.::	0
+"fe008"::	Well it's - it - well, because -::	0
+"fe008"::	I ha- I have an extra point, which is the naturalness issue.::	0
+"fe008"::	Because we have, like, meetings that have a reason. That's one of the reasons that we were::	1
+"fe008"::	talking about this. And - and those -::	1
+"me013"::	Yeah.::	0
+"fe008"::	and this sounds like it's more of an experimental setup. It's got a different purpose.::	1
+"me013"::	It's scenario-based, it's - it's human-computer interface -::	1
+"me013"::	it's really::	0
+"me013"::	pretty different. But I- I - I have no problem with somebody folding it in::	1
+"fe008"::	Yeah.::	0
+"me013"::	for some experiment they're gonna do, but I don't think::	0
+"me013"::	i- it - it doesn't match anything that we've described about meetings.::	0
+"me011"::	Mm-hmm.::	0
+"me013"::	Whereas everything that we talked about them doing at - at U_W and so forth really  does.  They're actually talking -::	0
+"me011"::	O_K. So w- so what does that  mean  for how we are gonna organize things?::	0
+"fe008"::	Hmm.::	0
+"mn014"::	Yeah.::	0
+"me013"::	You can - you can - Again, as - as I think Andreas was saying,::	0
+"me013"::	if you wanna use the same::	0
+"me013"::	tools  and the same conventions, there's no problem with that. It's just that it's, you know, different directory, it's called something different, it's - you know.::	1
+"me013"::	It is  different.::	0
+"me013"::	You can't just fold it in as if it's - I mean,  digits  are different, too. Right?::	0
+"mn017"::	It might also be potentially confusing.::	0
+"me011"::	Yeah, but those are folded in, and it's just -::	0
+"me011"::	you just mark the transcripts differently. So - so one option is you fold it in,::	0
+"mn017"::	Right.::	0
+"me011"::	and just simply in the file you mark somewhere that this is this type of::	1
+"mn017"::	Yeah, I th-::	0
+"me011"::	interaction,  rather than  another  type of interaction.::	1
+"me013"::	Well, I don- I wouldn't call::	1
+"me013"::	reading digits "meetings".::	1
+"me013"::	Right? I mean, we - we - we were doing -::	0
+"me011"::	Well, but -::	1
+"me011"::	but,::	0
+"me011"::	I put it under the same directory tree. You know, it's in "user doctor speech data M_R".::	1
+"me013"::	Well -::	0
+"fe016"::	Can we just have a directory called, like, "other stuff"?::	0
+"fe016"::	And -::	0
+"me011"::	Other.::	0
+"fe016"::	Well - or, I dunno.::	0
+"me013"::	I mean, I don't care what directory tree you have it under.  Right? I mean that's just a -::	1
+"fe016"::	And -::	0
+"fe016"::	and just,::	0
+"fe016"::	um, store it there. I mean -::	0
+"me011"::	O_K. My preference::	0
+"mn017"::	Yes.::	0
+"me011"::	is to have a single procedure so that I don't have to  think  too much about things.::	0
+"me011"::	And,::	0
+"me013"::	Yeah.::	0
+"me011"::	just have a marking.::	0
+"me011"::	If we do it any  other  way that means that we need a separate procedure,::	0
+"me013"::	O_-::	0
+"me013"::	You - you can use whatever procedure you want::	0
+"me011"::	and someone has to  do  that.::	0
+"me013"::	that's p- convenient for you. All I'm saying is that there's no way that we're gonna tell people that reading digits is meetings.::	0
+"me011"::	Right.::	0
+"me013"::	And similarly we're not gonna tell them that someone talking to a computer to get travel information is meetings.::	0
+"me013"::	Those aren't meetings.::	0
+"me013"::	But if it makes it easier for you to pu- fold them in the same procedures and have them under the same directory tree, knock yourself out. You know?::	0
+"me018"::	There's a::	0
+"me018"::	couple other questions that I have too, and -::	0
+"me018"::	and  one of  them   is, what about, uh,::	0
+"me018"::	consent issues?::	0
+"me018"::	And the other one is, what about transcription?::	0
+"mn014"::	Transcription is done in Munich.::	0
+"me018"::	Are - ?::	0
+"me018"::	O_K. So  we  don't have to worry about transcribing it?::	0
+"mn014"::	Yeah.::	0
+"me013"::	Alright.::	0
+"me011"::	So, w- we will hafta worry about::	0
+"mn017"::	That's a - that's another argument to keep it separate, because it's gonna follow the SmartKom transcription conventions and not the::	0
+"me011"::	format.::	0
+"me011"::	Oh, O_K.::	0
+"mn014"::	Yeah.::	0
+"mn017"::	ICSI meeting transcription  conventions.::	0
+"me013"::	Ah.::	0
+"me011"::	O_K. Well, I didn't realize that. That's - that's a -::	0
+"me013"::	Good point.::	0
+"me013"::	Good point.::	0
+"me013"::	But I'm sure no one would have a problem with our folding it in for some acoustic modeling or - or some things.::	0
+"me013"::	Um.::	0
+"me013"::	Do we h- do we have, uh,::	0
+"me013"::	um,::	0
+"me013"::	American-born folk, uh, reading German -::	0
+"me013"::	German, uh, pla- uh,::	0
+"me013"::	place names and so forth? Is that - ?::	0
+"mn014"::	Yeah.::	0
+"mn017"::	Exactly.::	0
+"mn014"::	Yeah.::	0
+"me011"::	Yep.::	0
+"me013"::	Yeah, great.::	0
+"mn017"::	Yeah.::	0
+"me011"::	They - they even have a reading list. It's pretty funny.::	0
+"me018"::	I bet that sounds good, huh?::	0
+"me013"::	Yeah.::	0
+"mn017"::	Yeah.::	0
+"mn014"::	You can do that if you want.::	0
+"me018"::	O_K.::	0
+"me013"::	Yeah.::	0
+"me018"::	I dunno if you want that.::	0
+"mn017"::	Yeah.::	0
+"me013"::	Right.::	0
+"me011"::	So -::	0
+"fe008"::	Hmm.::	0
+"me013"::	Heidelberg::	0
+"mn017"::	Exactly::	0
+"me011"::	Disk might eventually be an issue so we might -::	0
+"mn017"::	Do you wanna be a subject?::	0
+"me013"::	Yeah, I be pretty good.::	0
+"me011"::	we -::	0
+"me011"::	we might need to, uh,::	0
+"me011"::	get some more disk pretty soon. We're about -::	1
+"mn017"::	We -::	0
+"mn017"::	Yeah.::	0
+"mn017"::	That was one of our concerns.::	0
+"me018"::	Yeah.::	0
+"me011"::	we're about half -::	0
+"me011"::	halfway through our disk right now.::	1
+"me018"::	Are we only half? I thought we were more than that.::	0
+"me011"::	We're probably a little more than that because we're using up some space that we shouldn't be on.::	0
+"me011"::	So,::	1
+"me011"::	once everything gets converted over to the disks we're  supposed  to be using we'll be probably,::	0
+"me011"::	uh, seventy-five percent.::	1
+"me018"::	Well, when I was looking for space for Thilo, I found one disk that had,::	0
+"me018"::	uh,::	0
+"me018"::	I think it was nine gigs and another one had seventeen.::	0
+"me011"::	Yep.::	0
+"me018"::	And everything else was sorta committed.::	0
+"me018"::	Uh -::	0
+"me011"::	Were those::	0
+"me011"::	backed-up or non-backed-up?::	0
+"me018"::	Those were  non-backed-up.::	0
+"mn014"::	Non-back-up.::	0
+"me011"::	Right. So that's different.::	0
+"me018"::	S- oh, you're talking about backed-up.::	0
+"me011"::	I'm much more concerned about::	1
+"me011"::	the backed-up.::	0
+"me011"::	@@::	1
+"me011"::	The non-backed-up,  yeah, i-::	0
+"me018"::	I haven't looked to see how much of that we have.::	0
+"me011"::	is cheap. I mean, if we need to we can::	0
+"me011"::	buy a disk, hang it off a s- uh, workstation. If it's not backed-up the sysadmins don't care too much.::	0
+"me013"::	Yeah. So, I mean,::	0
+"me013"::	pretty much anytime we need a disk, we can get it at the rate that we're -::	0
+"mn017"::	You can -::	0
+"mn017"::	I shouldn't be saying this, but,::	0
+"mn017"::	you can just -::	0
+"mn017"::	you know,::	0
+"mn017"::	since::	0
+"mn017"::	the back-ups are every night,::	0
+"mn017"::	you can recycle the backed-up diskspace.::	0
+"me011"::	Yeah. But that's - that's -  that's risky.::	0
+"me013"::	Yeah. You really shouldn't be saying -::	0
+"me011"::	Mmm. Mmm.  @@::	0
+"mn017"::	I didn't say that. I didn't say that.::	0
+"me011"::	Yeah, that's right. Beep that out.::	0
+"me013"::	Da- we had allowed Dave to listen to these -  these,::	0
+"mn017"::	Right.::	0
+"me013"::	uh, recordings.  Um  -::	0
+"me013"::	Yeah, I me- and::	0
+"me013"::	there's been this::	0
+"me013"::	conversation going on about getting another file server, and -::	0
+"mn017"::	Mm-hmm.::	0
+"me013"::	and::	0
+"me013"::	we  can   do that.::	0
+"me013"::	We'll::	0
+"me013"::	take the opportunity and get another big raft of -::	0
+"me011"::	Yeah.::	0
+"me013"::	of disk, I guess.::	0
+"mn017"::	Well,::	0
+"me011"::	It's really the back-up issue rather than the file server issue.::	0
+"mn017"::	I think -::	0
+"mn017"::	I think there's an argument for having - you know, you could use our old file server for - for disks that have data that  is very::	0
+"mn017"::	rarely accessed, and then have a fast::	0
+"mn017"::	new file server::	0
+"mn017"::	for::	0
+"mn017"::	data that is, um,::	0
+"me011"::	Yeah.::	0
+"mn017"::	heavily::	0
+"mn017"::	accessed.::	0
+"me011"::	My understanding is, the issue isn't really the file server. We could  always  put more disks on. It's the back-up system.::	0
+"mn017"::	Yeah.::	0
+"mn017"::	Yeah.::	0
+"mn017"::	It's the back- it's the back-up capaci- Yeah.::	0
+"me011"::	So - which is near saturation,::	0
+"me011"::	apparently.::	0
+"me011"::	So.::	0
+"me013"::	Soon.::	0
+"me018"::	I think - I think the file server  could  become an issue as::	0
+"me018"::	we get::	0
+"me018"::	a whole bunch more::	0
+"me018"::	new compute machines. And we've got,::	0
+"me018"::	you know,::	0
+"me018"::	fifty::	0
+"me018"::	machines trying to access::	0
+"me018"::	data off of Abbott at once.::	0
+"me011"::	Well, we're alright for now because the network's so slow.::	0
+"mn017"::	I mean, I think - I think we've raised this before and someone said this is not a reliable::	0
+"mn017"::	way to do it, but the -::	0
+"mn017"::	What about putting the stuff on,::	1
+"mn017"::	like, C_- C_D-ROM or D_V_D or something?::	1
+"me011"::	Yeah. That was me.::	0
+"me011"::	I was the one who said it was not reliable. The- they -::	0
+"mn017"::	O_K.::	0
+"me011"::	they wear out.::	0
+"mn017"::	Oh, O_K.::	0
+"me011"::	Yeah. The - the - th-::	0
+"mn017"::	But they wear out just from sitting on the shelf?::	0
+"me011"::	Yep.::	0
+"me011"::	Absolutely.::	0
+"mn017"::	Or from being   read   and  read?::	0
+"me011"::	No.::	0
+"me011"::	Read and write don't hurt  them   too much unless you scratch  them.::	0
+"mn017"::	Oh, O_K.::	0
+"me011"::	But the r-::	0
+"me011"::	the write once, and the read-writes, don't last.::	0
+"me011"::	So you don't wa- you don't wanna put ir-  un-::	0
+"me011"::	reproduceable data  on them.::	0
+"mn017"::	Uh-huh.::	0
+"me018"::	Wear out after what amount of time?::	0
+"me011"::	Year or two.::	0
+"fe008"::	Would it be - ?::	0
+"me013"::	Year  or two?::	0
+"me011"::	Yep.::	0
+"me013"::	Wow.::	0
+"fe008"::	Hmm.::	0
+"mn017"::	But if that -::	0
+"mn017"::	then you would::	0
+"mn017"::	think you'd  hear much more::	0
+"mn017"::	clamoring about::	0
+"mn014"::	Yeah.::	0
+"mn017"::	data loss and -::	0
+"me013"::	I mean, yeah, all the L_-::	0
+"me011"::	I - I don't know many people who do it on C_D.::	0
+"me011"::	I mean, they're - the most -::	0
+"me013"::	L_D_C- all the L_D_C distributions are on C_D-ROM.::	0
+"me011"::	fo-::	0
+"fe016"::	Yeah.::	0
+"me011"::	They're on C_D, but they're not -::	0
+"fe016"::	Like -::	0
+"me011"::	tha- that's not the only source. They have  them   on disk.::	0
+"me011"::	And they burn new ones every once in a while. But if you go -::	0
+"mn017"::	But, you know, we have -::	0
+"fe016"::	But we have like thirty  you know, from  ten years ago? No.::	0
+"me011"::	if you go k-::	0
+"me013"::	We have all sorts of C_D-ROMs from a long time ago.::	0
+"fe016"::	Yeah! Ten years ago. Ninety-one, and they're still all fine.::	0
+"mn017"::	Right.::	0
+"mn014"::	Yeah.::	0
+"me011"::	Well, th-::	0
+"me011"::	th-::	0
+"me001"::	Were they burned or were they pressed?::	0
+"me013"::	Yeah.::	0
+"fe016"::	Uh, both. I've burned them and they're still O_K. I mean,  usually  they're -::	0
+"me001"::	Yeah.::	0
+"me011"::	O_K. The - the  pressed  ones last for- well, not forever, they've been finding even those degrade.::	0
+"me013"::	Oh, I see.::	0
+"me011"::	But, uh,::	0
+"me011"::	the  burned  ones - I mean,::	1
+"me011"::	when I say two or three years what I'm saying is that::	0
+"fe016"::	That's what I -::	0
+"me011"::	I have had disks which are  gone  in a year.::	1
+"me011"::	On the  average,  it'll probably be three or  four  years.::	0
+"me011"::	But, uh - I - I - you don't want to per-::	1
+"me011"::	p- have your only copy on a media that::	0
+"me011"::	fails.::	1
+"mn017"::	Mmm.::	0
+"me011"::	And they do.::	0
+"mn017"::	So how  about   - ?::	0
+"me011"::	Um,::	0
+"me011"::	if you have  them   professionally  pressed,::	0
+"me011"::	y- you know, they're good for decades.::	0
+"mn017"::	So -::	1
+"mn017"::	so how about putting them on that::	0
+"mn017"::	plus,::	0
+"mn017"::	like on a - on -::	0
+"mn017"::	on DAT or some other::	0
+"mn017"::	medium that isn't::	0
+"me011"::	I think th- um,::	0
+"mn017"::	risky ?::	1
+"me011"::	we can already put them on tape.::	0
+"mn017"::	O_K.::	0
+"me011"::	And the tape is hi- is  very  reliable.::	0
+"mn017"::	Mm-hmm.::	0
+"me011"::	So the - the only issue is then  if we need access to them.::	0
+"mn017"::	Right.::	0
+"me011"::	So that's fine f- if we don't need access to  them.::	1
+"mn017"::	Well, if - if - if you - if they last -::	0
+"mn017"::	Say, they actually last, like, five years, huh,::	0
+"mn017"::	in - in the typical case,::	0
+"mn017"::	and -::	0
+"mn017"::	and occasionally you might need to recreate one,::	0
+"mn017"::	and then you get your tape out, but otherwise you don't.::	0
+"mn017"::	Can't you just - you just put them on - ?::	0
+"me001"::	So you just archive it on the::	0
+"me001"::	tape, and then::	0
+"mn017"::	Yeah.::	0
+"me001"::	put it on C_D as well?::	0
+"mn017"::	Right.::	0
+"me011"::	Oh. So you're just saying put  them   on C_Ds::	0
+"me011"::	for normal access.::	0
+"mn017"::	Right.::	0
+"me001"::	Yeah.::	0
+"me011"::	Yeah.::	0
+"me011"::	I mean, you can do that but that's pretty annoying, because the C_Ds are so slow.::	0
+"me018"::	What you -::	0
+"fe016"::	See -::	0
+"me001"::	Yeah.::	0
+"mn017"::	Mmm.::	0
+"fe016"::	Yeah.::	0
+"me018"::	What'd be nice is a system that re-burned the C_Ds every::	0
+"me018"::	year.::	0
+"fe016"::	H- everytime it was a "gonna" - "gonna die".::	0
+"mn014"::	Yeah.::	0
+"me011"::	Well, I mean, the C_Ds are -::	0
+"me013"::	Well -::	0
+"mn017"::	It's like - like dynamic ra- D_RAM.::	0
+"me011"::	are::	0
+"me011"::	an op-::	0
+"mn014"::	Just before.::	0
+"fe016"::	Just before they- be- before it goes bad, it burns them in.::	0
+"me018"::	Yeah.::	0
+"me011"::	The -::	0
+"me011"::	the C_D is an  alternative  to tape. ICSI already has a perfectly good tape system and it's more reliable.::	1
+"me001"::	Yeah.::	0
+"me013"::	You know -::	0
+"me011"::	So for archiving, we'll just use tape.::	1
+"mn017"::	One - one thing I don't understand is, if you have the data -::	0
+"me013"::	I  would think -::	0
+"mn017"::	if - if you- if the meeting data::	0
+"mn017"::	is put on disk exactly once,::	0
+"mn017"::	then it's backed-up once and the back-up system should never have to::	0
+"me011"::	Well,::	0
+"mn017"::	bother with it,  uh,   more than once.::	0
+"me011"::	regardless - Well, first of all there was,::	0
+"me011"::	um, a problem with the::	0
+"me011"::	archive in that I was every once in a while doing a chmod on all the directories an- or recursive chmod and chown, because::	0
+"mn017"::	Mm-hmm.::	0
+"me011"::	they weren't getting  set  correctly every once in a while, and I was just,::	0
+"me011"::	doing a::	0
+"me011"::	minus R_ star,::	0
+"mn017"::	Mm-hmm.::	0
+"me011"::	not realizing that that::	0
+"fe016"::	Ah.::	0
+"me011"::	caused  it to be re-backed-up.::	0
+"me011"::	But  normally  you're correct.::	0
+"me011"::	But even without that, the back-up system is becoming saturated.::	1
+"mn017"::	But - but this back-up system is smart enough to figure out that something hasn't changed and doesn't need to be  backed-up again.::	1
+"me011"::	Sure, but we still have enough changed::	0
+"me013"::	The b-::	0
+"me011"::	that the nightly back-ups are starting to take too long.::	0
+"me013"::	I think th- the - at least the once tha- that you put it on, it would -::	0
+"me013"::	it would::	0
+"mn017"::	O_K. So - so then, if - So - so then, let's - Right.::	0
+"me011"::	It has nothing to do with the meeting. It's just the general ICSI back-up system is becoming saturated.::	0
+"me013"::	kill that. So.::	0
+"mn017"::	O_K.::	0
+"mn017"::	Right.::	0
+"mn017"::	So, what if we buy,::	0
+"mn017"::	uh -::	0
+"mn017"::	uh, what - what do they call these, um  high density - ?::	0
+"me011"::	Well, why don't you have this -::	0
+"me011"::	have a -::	0
+"me011"::	this conversation with Dave Johnson tha- rather than with me?::	0
+"mn017"::	No, no. Because this is  maybe something that we can do without involving Dave, and -::	0
+"mn017"::	and,::	0
+"mn017"::	putting more burden on him.::	0
+"mn017"::	How  about   we buy,::	0
+"mn017"::	uh - uh - uh, one of these high density tape drives?::	0
+"mn017"::	And we put the data actually on non-backed-up::	0
+"mn017"::	disks.::	0
+"mn017"::	And we do our own back-up once and for  all   - all, and then - and we don't have to bother this  @@  up?::	0
+"me011"::	Actually, you know, we could do that just with the tape - with the current tape.::	0
+"mn017"::	I dunno what the- these tapes - uh, at some point these -::	0
+"mn017"::	I dunno. What kind of tape drive is it? Is it - is - ?::	0
+"me011"::	I dunno but it's an automatic robot so it's very convenient.::	0
+"me013"::	Wh-::	0
+"mn017"::	Right.::	0
+"me011"::	You just run a program to restore them.::	0
+"me013"::	The o-::	0
+"me013"::	the one that we have?::	0
+"me011"::	Yeah.::	0
+"mn017"::	But it might interfere with their back-up schedule, eh.::	0
+"me013"::	The - I mean -::	0
+"fe016"::	But -::	0
+"me013"::	No, we have s- we - Don't we have our own? Something wi- th- that doesn't -::	0
+"me013"::	that isn't used by the back-up gang?::	0
+"me013"::	Don't we have something::	0
+"fe008"::	Well they -::	0
+"me013"::	downstairs?::	0
+"me018"::	What   kinda tape drive?::	0
+"me013"::	Just in - ?::	0
+"me011"::	Well -::	0
+"me013"::	Yeah.::	1
+"me011"::	but - no, but Andreas's point is a good one. And we don't  have  to do anything  ourselves  to do that. They're already right now on tape.::	0
+"mn017"::	Right.::	0
+"me011"::	Right. So your - your  point  is, and I think it's a  good  one, that we could just get more disk and put it there.::	0
+"mn017"::	Mmm.::	0
+"mn017"::	On an X_H - uh, X_ - X_ whatever partition.  Yeah.::	0
+"me011"::	Yeah.::	0
+"me011"::	That's not a bad idea.::	0
+"me013"::	Yeah, that's basically what I was gonna say, is that a disk is - is so cheap it's es- essentially, you know, close to free.::	0
+"me011"::	So once it's on tape -::	0
+"mn017"::	Right.::	0
+"me013"::	And the only thing that costs is the back-up  issue,::	0
+"mn017"::	Right.::	0
+"me013"::	eh, to first order. And we can take care of that by putting it on non-back-  up drives and just::	0
+"mn017"::	Mm-hmm.::	0
+"me013"::	backing it up once onto this tape.::	0
+"me011"::	I think that's a good idea.::	0
+"mn017"::	Right.::	0
+"me013"::	Oh.   Yeah.::	0
+"mn017"::	O_K.::	0
+"me013"::	Good.::	0
+"me013"::	It's good.::	0
+"fe016"::	So,::	0
+"fe016"::	who's gonna do these back-ups? The people that collect it?::	0
+"me011"::	Uh::	0
+"me011"::	Well, I'll talk to Dave,::	0
+"me011"::	and - and see what th- how -::	0
+"me011"::	what the best way of doing that is.::	0
+"me018"::	It's probably gonna n-::	0
+"me011"::	There's a little utility::	0
+"me011"::	that::	0
+"me011"::	will manually burn a tape for you, and that's probably the right way to do it.::	0
+"me018"::	Yeah, and we should probably make that part of the procedure for recording the meetings.::	0
+"fe016"::	Well, s-::	0
+"me011"::	Yep.::	0
+"fe016"::	Yeah. That's what I'm wondering, if -::	0
+"me011"::	Well  we're g- we're gonna automate that. My intention is to  do a script that'll do everything.::	1
+"fe016"::	O_K.::	0
+"fe016"::	I mean, you don't have to physically::	0
+"fe016"::	put a tape in the drive? Or s- ?::	0
+"me011"::	No.::	0
+"fe016"::	Oh, O_K.::	0
+"me011"::	It's all tape robot, so you just sit down at your computer and you type a command.::	1
+"fe016"::	So it's just -::	0
+"fe016"::	Oh, O_K.::	0
+"mn017"::	Yeah, but then you're effectively using the resources of the back-up system.::	0
+"mn017"::	Or is that a different tape robot?::	0
+"fe016"::	But not at the same time.::	0
+"me011"::	Yeah. But y- but you would be anyway.::	0
+"mn017"::	No, no. See -::	0
+"me011"::	Right? Because -::	0
+"me018"::	No, no, no.  He's  saying get a  whole  different drive.::	0
+"mn017"::	Yeah, just give a dedi-::	0
+"me011"::	But there's no reason to do that.::	0
+"mn017"::	Well, I'm saying is  @@::	0
+"me011"::	It - we already have it there and it - it's -::	0
+"mn017"::	i- if you go to Dave, and - and -::	0
+"mn017"::	and ask him "can I use your tape robot?",::	0
+"mn017"::	he will say,::	0
+"mn017"::	"well  that's gonna screw up our back-up operation."::	0
+"me011"::	No, we won't.::	0
+"me011"::	He'll say::	0
+"me011"::	"if - if that means  that it's not gonna be backed-up::	0
+"me011"::	standardly,  great."::	0
+"me013"::	He- I -::	0
+"me013"::	Dave has - has promoted this in the past. So I don't think he's actually against it. Yeah.::	0
+"me011"::	Yeah. It's - it's definitely no problem.::	0
+"mn017"::	Oh, O_K. Alright.::	0
+"mn017"::	Alright.::	0
+"mn017"::	Good.::	0
+"me013"::	O_K.::	0
+"fe016"::	What about if the times overlap::	0
+"fe016"::	with the normal back-up::	0
+"fe016"::	time?::	0
+"me011"::	Um, it's - it's just - it's just a utility which queues up.::	0
+"fe016"::	O_K.::	0
+"me011"::	It just queues it up and - and when it's available, it will copy it.::	0
+"me013"::	Yeah.::	0
+"me011"::	And then::	0
+"me011"::	you can tell it to then remove it from the disk or you can, you know, do it a-::	0
+"me011"::	a few days later or whatever you wanna do,::	0
+"me011"::	after you confirm that it's really backed-up.::	0
+"fe016"::	O_K.::	0
+"me011"::	N_W - ?::	0
+"fe008"::	You saying N_W archive?::	0
+"me011"::	N_W archive. That's what it is.::	0
+"fe008"::	Yep::	0
+"me013"::	O_K.::	0
+"fe008"::	And if you did that during the day it would never make it to the nightly back-ups.::	0
+"me011"::	Right.::	1
+"fe008"::	And then there wouldn't be this extra load.::	0
+"mn017"::	Well, it - if he - you have to put the data on a - on a non-backed-up disk to begin with.::	0
+"mn017"::	So that - so that -::	0
+"me011"::	Right.::	0
+"fe008"::	Well,::	1
+"fe008"::	but you can have it N_W archive to - you can have,::	0
+"mn017"::	otherwise you don't - you -::	0
+"fe008"::	uh, a non-backed-up disk N_W archived,::	1
+"me011"::	Right.::	0
+"fe008"::	and it'll never show up on the nightly back-ups.::	0
+"me011"::	And then it never -::	0
+"mn017"::	Right.::	0
+"mn017"::	Right.::	0
+"me011"::	Right.::	0
+"me011"::	Which I'm sure would make ever- the sysadmins very happy.::	0
+"mn017"::	Right.::	0
+"fe008"::	Yeah.::	0
+"me011"::	So, I think that's a good idea.::	0
+"mn017"::	O_K.::	0
+"me011"::	That's what we should do.::	0
+"mn017"::	O_K.::	0
+"me011"::	So, that means we'll probably wanna convert all -::	0
+"me011"::	all those files -::	0
+"me011"::	filesystems to non-backed-up media.::	0
+"me018"::	That sounds good.::	0
+"me011"::	Yep.::	0
+"me013"::	Yeah.::	0
+"me013"::	Um,::	0
+"me013"::	another,::	0
+"me013"::	thing on the agenda said::	0
+"me013"::	S_R_I recognition experiments?::	0
+"me013"::	What's that?::	0
+"mn017"::	S_R_I recognition?  Oh.::	0
+"me011"::	That wasn't me.::	0
+"mn017"::	Um.::	0
+"me013"::	Uh. Who's that?::	0
+"mn017"::	well,::	0
+"mn017"::	we have lots of them.::	0
+"mn017"::	Uh,::	0
+"mn017"::	I dunno. Chuck, do you have any -::	0
+"mn017"::	any updates?::	0
+"me018"::	N- I'm::	1
+"me018"::	successfully, uh, increasing the error rate.::	1
+"me018"::	Uh -::	0
+"me011"::	That's good.::	1
+"mn017"::	Oh.::	0
+"me001"::	Mmm.::	0
+"fe016"::	Lift the Herve approach.::	0
+"me018"::	Yeah.::	0
+"me018"::	So, I mean I'm just playing with, um,::	1
+"me018"::	the number of Gaussians that we use in the - the recognizer, and -::	1
+"mn017"::	Well, you have to sa- you have to  tell people that you're - you're doing - you're trying the  tandem  features.::	1
+"me018"::	Yes, I'm using tandem features.::	0
+"me011"::	Oh you are? Cool.::	0
+"mn017"::	A- and I'm still::	1
+"me018"::	And -::	0
+"me011"::	@@::	0
+"mn017"::	tinkering with the P_L_P features.::	1
+"me013"::	Yeah, I got confused by the results. It sai- because - uh, the  meeting before,::	0
+"me013"::	you said "O_K, we got it down to where they're - they're within a tenth of a percent".::	0
+"me018"::	That was on  males.::	0
+"mn017"::	Right.::	0
+"mn017"::	That was - that was before I tried it on the females.::	1
+"me013"::	Oh.::	0
+"mn017"::	See, women are nothi- are,::	0
+"me013"::	It's the  women  are the problem. O_K.::	0
+"mn017"::	trouble. Right? As we all know. So.::	0
+"fe016"::	Well, let's just say that men are simple.::	0
+"mn017"::	So -::	0
+"mn017"::	so, when -::	0
+"mn017"::	So I - I had -::	0
+"me011"::	That was a quick response.::	0
+"mn017"::	I ha-::	0
+"mn017"::	So, we had reached the point where -::	0
+"fe016"::	I'm well rehearsed.::	0
+"me013"::	Yeah.::	0
+"mn017"::	we had reached the point where,::	1
+"mn017"::	um,::	0
+"mn017"::	on the male portion of the  development set,::	0
+"mn017"::	the,::	0
+"mn017"::	um -::	0
+"mn017"::	or one of the development sets, I should say -::	0
+"mn017"::	the, um -::	0
+"mn017"::	the male error rate with, uh, ICSI P_L_P features::	0
+"mn017"::	was::	0
+"mn017"::	pretty much identical::	0
+"mn017"::	with, uh, S_R_I::	0
+"mn017"::	features.::	1
+"mn017"::	which are  M_F_C_C. So,::	0
+"mn017"::	um,::	0
+"mn017"::	then I thought, "Oh, great.::	0
+"mn017"::	I'll j- I'll -::	0
+"mn017"::	just let's make sure everything works on the females." And::	0
+"mn017"::	the error rate -::	0
+"me013"::	Oh.::	0
+"mn017"::	you know, there was a three percent difference.::	0
+"me013"::	Uh-huh.::	0
+"mn017"::	So,::	0
+"fe016"::	Is there less training data?::	0
+"mn017"::	uh -::	0
+"mn017"::	No, actually there's more training data.::	0
+"fe016"::	I mean, we don-::	0
+"fe016"::	This is on just digits?::	0
+"mn017"::	No, no.::	0
+"fe016"::	Oh, sorry. O_K. This is on - Oh, O_K.::	0
+"me013"::	No.::	0
+"me011"::	No. It's, uh, Swi-::	0
+"me018"::	Hub-five.::	0
+"mn017"::	This is Hub-five.::	0
+"me011"::	Hub-five. Yeah.::	0
+"mn017"::	Yeah.::	0
+"mn017"::	Um, and the test data is CallHome and Switchboard.::	1
+"mn017"::	So,::	0
+"mn017"::	uh - so then  um -::	0
+"mn017"::	Oh, and plus the -::	1
+"mn017"::	the vocal tract  length normalization::	0
+"mn017"::	didn't -::	0
+"mn017"::	actually made things  worse.::	1
+"mn017"::	So something's really seriously wrong. So -::	1
+"mn017"::	Um -::	0
+"me013"::	Aha!::	0
+"mn017"::	Hhh.::	0
+"mn017"::	So -::	0
+"me013"::	O_K.::	0
+"mn017"::	So -::	0
+"me013"::	So - but you see, now, between - between the males::	1
+"me013"::	and the females, there's certainly a much bigger::	0
+"me013"::	difference in the scaling::	0
+"me013"::	range,::	0
+"me013"::	than there is, say, just within the males.::	1
+"me013"::	And what you were using before was scaling factors that were just from the - the m- the  S_R_I front-end.::	0
+"me013"::	And that worked - that worked fine.::	0
+"mn017"::	That's true.::	0
+"mn017"::	Yeah.::	0
+"me013"::	Uh,::	0
+"me013"::	but now you're looking over a larger range and it may not be so fine.::	0
+"mn017"::	Well, um -::	0
+"mn017"::	So -::	0
+"mn017"::	I just -::	0
+"mn017"::	d- so the one thing that I then tried was to::	1
+"mn017"::	put in the low-pass filter,::	0
+"mn017"::	which we have in the -::	1
+"mn017"::	So, most -::	1
+"mn017"::	most::	0
+"mn017"::	Hub-five systems actually::	0
+"mn017"::	band-limit the -::	0
+"mn017"::	uh, at about,::	0
+"mn017"::	uh, thirty-seven hundred,::	0
+"me013"::	Uh-huh.::	0
+"mn017"::	um,::	0
+"mn017"::	hertz.::	1
+"mn017"::	Although, you know, normally, I mean, the channel goes to::	0
+"mn017"::	four -::	0
+"mn017"::	four thousand. Right? So,::	1
+"mn017"::	um -::	0
+"mn017"::	And that actually helped,::	0
+"mn017"::	uh -::	0
+"me013"::	Uh-huh.::	0
+"mn017"::	uh,::	0
+"mn017"::	a little bit.::	0
+"mn017"::	Um  and it didn't hurt on the males either. So,::	1
+"mn017"::	um -::	0
+"mn017"::	And I'm now,::	0
+"mn017"::	uh,::	0
+"mn017"::	trying::	0
+"mn017"::	the -::	0
+"mn017"::	Oh, and suddenly, also the v- the vocal tract length normalization only in the  test  se- on the  test  data.::	1
+"mn017"::	So, you can do vocal tract length normalization::	0
+"me013"::	Yeah.::	0
+"mn017"::	on the test data only or on both the training and the test.::	0
+"mn017"::	And::	0
+"mn017"::	you expect it to help a  little  bit if you do it only on the  test,  and s- more if you do it on both training and test.::	0
+"me013"::	Yeah.::	0
+"mn017"::	And::	0
+"mn017"::	so the -::	0
+"mn017"::	It now helps,::	0
+"mn017"::	if you do it only on the test, and::	0
+"mn017"::	I'm currently retraining  another  set of models where it's both in the training and the test, and then::	0
+"mn017"::	we'll -::	0
+"mn017"::	we'll have,::	0
+"mn017"::	hopefully, even better results. So -::	0
+"mn017"::	But there's -::	0
+"mn017"::	It looks like there will still be some difference,::	0
+"mn017"::	maybe::	1
+"mn017"::	between one and two percent,::	0
+"mn017"::	um,::	0
+"me013"::	Huh.::	0
+"mn017"::	for the females. And so,::	1
+"mn017"::	um,::	0
+"mn017"::	you know, I'm open to suggestions.::	0
+"mn017"::	And it  is  true that the, uh - that the -::	0
+"me011"::	Mm-hmm.::	0
+"mn017"::	you know, we  are  using the -::	0
+"mn017"::	But -::	0
+"mn017"::	it  can't  be just the::	0
+"mn017"::	V_T_L,::	0
+"me013"::	Uh-huh.::	0
+"mn017"::	because::	0
+"mn017"::	if you  don't  do V_T_L in both systems,::	0
+"me013"::	No - no. I - I  remember   that.::	0
+"me011"::	It's much worse.::	0
+"mn017"::	uh, you know, the -::	0
+"me011"::	Yeah.::	0
+"mn017"::	the females are considerably worse::	0
+"mn017"::	in the -::	0
+"mn017"::	with the P_L_P features.::	0
+"mn017"::	So there must be some -::	0
+"mn017"::	something else going on.::	0
+"fe016"::	Well, what's the standard - ?::	0
+"fe016"::	Yeah,   so I thought the performance was actually a little  better  on females than males.::	0
+"me011"::	That's what I thought, too.::	0
+"mn017"::	Um,::	0
+"mn017"::	that  ye-  overall, yes, but on this particular development test set,::	0
+"mn017"::	they're actually a little worse.::	0
+"mn017"::	But that's beside the point. We're looking at the discrepancy between::	1
+"mn017"::	the S_R_I::	0
+"mn017"::	system and the::	0
+"mn017"::	S_R_I system when trained with ICSI features.::	1
+"fe016"::	Right. I'm just wondering if that -::	0
+"me011"::	What's - Are the freq- ?::	0
+"fe016"::	if - if you have any indication of your standard features, you know, if that's also different  or in the same direction or not.::	0
+"me013"::	You're -::	0
+"me013"::	This is - lemme ask a q-::	0
+"fe016"::	Cuz -::	0
+"me013"::	more basic que- I mean, is this, uh - uh,::	0
+"mn017"::	Mm-hmm.::	0
+"me013"::	iterative,::	0
+"me013"::	Baum-Welch training? Or is it Viterbi training? Or - ?::	0
+"mn017"::	It's Baum-Welch training.::	0
+"me013"::	Baum-Welch training.::	0
+"me013"::	And how do you determine when to - to stop iterating?::	0
+"mn017"::	Um -::	0
+"mn017"::	Well, actually,::	0
+"mn017"::	we - we just basically do a s-::	0
+"mn017"::	a fixed number of iterations.::	0
+"me011"::	Hmm.::	0
+"mn017"::	Uh, in this case four.::	0
+"mn017"::	Um,::	0
+"mn017"::	which -::	0
+"mn017"::	Eh, we used to do only three, and then we::	0
+"mn017"::	found out we can squeeze -::	0
+"mn017"::	And it was::	0
+"mn017"::	basically,::	0
+"mn017"::	we're s- we're keeping it on the safe side. But you're d- Right. It might be that one more iteration::	0
+"mn017"::	would - would help, but it's sort of  you know.::	0
+"me013"::	Or maybe - or maybe you're doing one too  many.  I mean it's - it's -::	1
+"mn017"::	No, but with Baum-Welch,::	1
+"mn017"::	there shouldn't be an over-fitting issue, really.::	1
+"me013"::	@@::	0
+"me013"::	Uh.  Well, there can be. Sure.::	0
+"mn017"::	Um.::	0
+"me011"::	Well, you can try each one on a cross-validation set, can't you?::	1
+"me013"::	It d- if you - if you remember some years ago Bill Byrne did a thing where he was - he was looking at that, and he showed that you  could  get it. So.::	0
+"mn017"::	Yeah.::	0
+"me013"::	But -::	0
+"mn017"::	Well, yeah. We can -::	0
+"me013"::	but -::	0
+"me013"::	but, um -::	0
+"mn017"::	Well, that's - that's the easy one to check, because::	0
+"me013"::	Yeah.::	0
+"me011"::	Do you - ?::	0
+"mn017"::	we save all the intermediate models and we can -::	0
+"me013"::	And in each case, ho-::	0
+"me011"::	What - ?::	0
+"me013"::	um, I'm sorry - in each case how do you determine,::	0
+"me013"::	you know, the - the usual  fudge factors? The, uh -::	0
+"me013"::	the, uh, language, uh, scaling, acoustic scaling, uh,::	0
+"mn017"::	Um  I uh -::	0
+"me013"::	uh -::	0
+"mn017"::	I'm actually re-optimizing them.::	0
+"mn017"::	Although that hasn't shown to make  a big difference.::	0
+"me013"::	O_K. And the pru- the question he was asking at one point about pruning,::	0
+"me013"::	uh -::	0
+"mn017"::	Pruning - ?::	0
+"me013"::	Remember that one?::	0
+"mn017"::	Pruning in the - ?::	0
+"me013"::	Well, he was - he's - it looked like the probabil- at one point he was looking at the probabilities he was getting out - at the likelihoods he was getting out of P_L_P versus mel cepstrum, and they looked pretty different,::	1
+"me018"::	Yeah, the likelihoods were  lower::	0
+"me013"::	as I recall.::	0
+"fe016"::	Oh.::	0
+"me013"::	And so, uh, there's the question -::	0
+"me018"::	for the P_L_P.::	0
+"mn017"::	I- you mean -::	0
+"mn017"::	did you see this in the S_R_I system?::	0
+"me018"::	Mm-hmm.::	0
+"mn017"::	Um.::	0
+"me018"::	Was just looking through the log files, and -::	0
+"mn017"::	Well, the likelihoods are -::	0
+"mn017"::	You can't directly compare them,::	0
+"mn017"::	because, for every set of models you compute a new normalization.::	0
+"mn017"::	And so these::	0
+"mn017"::	log probabilities, they aren't::	0
+"mn017"::	directly  comparable   because you have a different normalization constants for each model you train. So -::	0
+"me018"::	Oh.::	0
+"me018"::	Hmm.::	0
+"me013"::	But, still it's a question - if you have some threshold somewhere in terms of beam search or something, or - ?::	0
+"me018"::	Well, yeah. That's what I was wondering.::	0
+"mn017"::	W- yeah. I mean -::	0
+"mn017"::	Uh -::	0
+"me018"::	I mean, if you have one threshold that works well::	0
+"me018"::	because::	0
+"me018"::	the range of your likelihoods is in::	0
+"me018"::	this area -::	0
+"mn017"::	We prune very conservatively. I mean,::	0
+"mn017"::	as we saw with the meeting data,::	0
+"mn017"::	um  we could probably::	0
+"mn017"::	tighten the pruning without really -::	0
+"mn017"::	So we- we basically we have a very open beam.::	0
+"me013"::	But, you're only talking about a percent or two. Right? Here we're- we're saying that we- there - gee, there's this b- eh, there's this difference here.::	1
+"me018"::	Yeah.::	0
+"me013"::	And  it -::	0
+"me013"::	See cuz, i- i-::	0
+"me013"::	there could be lots of things. Right? But - but - but - but,::	0
+"mn017"::	Right.::	0
+"mn017"::	Course.::	0
+"me013"::	um,::	0
+"me013"::	let's suppose just for a second that, uh, we've sort of::	0
+"me013"::	taken out a lot of the - the major differences, uh, between the two. I mean, we're already sort of using the mel scale and we're using the same style filter integration, and::	0
+"mn017"::	Mm-hmm.::	0
+"mn017"::	Right.::	0
+"me013"::	and, well, we're making sure that low and high -::	0
+"mn017"::	Actually, there is - the difference in that. So, for the P_L_P features we use the triangular::	1
+"mn017"::	filter shapes. And for the -::	1
+"mn017"::	in the S_R_I front-end we use the trapezoidal one.::	1
+"me011"::	And what's the top frequency of each?::	0
+"mn017"::	Well, now it's the same.::	0
+"mn017"::	It's thirty -::	0
+"mn017"::	thirty to seven hundred and sixty hertz.::	0
+"me011"::	Yeah. Exp- one's triangular, one's trapezoidal. So -::	0
+"mn017"::	No, no. But -::	0
+"me013"::	Before we - i- i- th- with straight P_L_P, it's trapezoidal also. But then we had a slight difference in the - in the scale.::	0
+"mn017"::	Well -::	0
+"mn017"::	But -::	0
+"me013"::	Uh, so.::	0
+"mn017"::	Since::	0
+"mn017"::	currently the Feacalc program doesn't allow me to change  the filter shape independently of the scale.::	0
+"me011"::	Uh-huh.::	0
+"mn017"::	And,::	0
+"mn017"::	I did the experiment on the  S_R_I  front-end where I tried the -::	0
+"mn017"::	y- where the standard used to be::	0
+"mn017"::	to use trapezoidal filters.::	0
+"mn017"::	You can actually continuously vary it between the two. And so I::	0
+"mn017"::	wen-::	0
+"mn017"::	I swi- I tried the trap- eh, triangular ones.::	0
+"mn017"::	And it did  slightly  worse, but it's really a small difference.::	0
+"me011"::	Hmm.::	0
+"mn017"::	So -::	0
+"me013"::	Coup-::	0
+"me013"::	Couple tenths of a percent or something.  Right.::	0
+"me011"::	O_K. So it's  not  just::	0
+"mn017"::	Yeah, exactly. So, it's not - I don't think the filter shape by itself will make::	0
+"me011"::	losing some::	0
+"me011"::	frequency range.::	0
+"me013"::	Yeah.::	0
+"mn017"::	a huge::	0
+"me013"::	Right. So the oth-::	0
+"mn017"::	difference.::	0
+"me011"::	Yeah.::	0
+"me013"::	the other::	0
+"me013"::	thing that - So, f-::	0
+"me013"::	i-::	0
+"me013"::	We've always viewed it, anyway, as the  major  difference between the two,::	1
+"me013"::	is actually in the smoothing,::	1
+"mn017"::	Mm-hmm.::	0
+"me013"::	that the - that the, um,::	1
+"me013"::	P_L_P, and -::	0
+"me013"::	and the reason P_L_P has been::	0
+"me013"::	advantageous in, uh, slightly noisy situations is because,::	0
+"mn017"::	Mm-hmm.::	0
+"me013"::	P_L_P does the smoothing at the end by an auto-regressive model,::	1
+"me013"::	and mel cepstrum does it by just computing the lower::	0
+"me013"::	cepstral coefficients.::	0
+"mn017"::	Mm-hmm.::	0
+"me013"::	Um.::	0
+"me013"::	So,::	0
+"me013"::	um -::	0
+"mn017"::	O_K. So  one thing I haven't done yet is to actually do all of this with::	0
+"mn017"::	a much larger -::	0
+"mn017"::	with our full training set.::	0
+"mn017"::	So right now, we're using a -::	0
+"mn017"::	I don't know, forty?::	0
+"mn017"::	I- i- it's - it's -  eh::	0
+"mn017"::	it's a f- training set that's about,::	0
+"mn017"::	um,::	0
+"mn017"::	you know, by a factor of four smaller than what we use when we train the full system. So,::	0
+"me013"::	Mm-hmm.::	0
+"mn017"::	some of these smoothing issues are over-fitting for that matter. And the Baum-Welch::	0
+"me013"::	Mm-hmm.::	0
+"mn017"::	should::	0
+"mn017"::	be much less of a factor, if you go::	0
+"mn017"::	full -::	0
+"me013"::	Could be. Yeah.::	0
+"mn017"::	whole hog. And so,::	0
+"mn017"::	w- so, just um -::	0
+"mn017"::	so the strategy is to first sort of treat things  with fast turn-around on a smaller training set and then,::	0
+"mn017"::	when you've sort of,::	0
+"mn017"::	narrowed it down, you try it on a::	0
+"me013"::	Yeah.::	0
+"mn017"::	larger training set. And so, we haven't done that yet.::	0
+"me013"::	Now the other que- related question, though, is - is,::	0
+"me013"::	uh, what's the boot models::	0
+"me013"::	for these things?::	0
+"mn017"::	Th- th- the boot models  are  trained from scratch. So we compute, um -::	0
+"mn017"::	So, we start with a,::	0
+"mn017"::	um,::	0
+"mn017"::	alil- alignment::	0
+"mn017"::	that we computed with the b- sort of the best system we have.::	0
+"mn017"::	And -::	0
+"mn017"::	and then we train from scratch. So we com- we do a,::	0
+"mn017"::	you know, w- um -::	0
+"mn017"::	We collect the -::	0
+"mn017"::	uh,::	0
+"mn017"::	the observations::	0
+"mn017"::	from those alignments under each of the feature::	0
+"mn017"::	sets that - that we  train.::	0
+"mn017"::	And then,::	0
+"mn017"::	from there we do,::	0
+"mn017"::	um -::	0
+"mn017"::	There's a lot of, actually -::	0
+"mn017"::	The way it works, you first train a phonetically-tied::	0
+"mn017"::	mixture model.::	0
+"mn017"::	Um.::	0
+"mn017"::	You do a total of -::	0
+"mn017"::	First you do a context-independent::	0
+"mn017"::	P_T_M model. Then you switch to a context -::	0
+"mn017"::	You do two iterations of that.::	0
+"mn017"::	Then you do two iterations of - of - of context- dependent::	0
+"mn017"::	phonetically-tied mixtures.::	0
+"mn017"::	And then from that you - you do the -::	0
+"mn017"::	you - you go to a state-clustered model,::	0
+"me013"::	Yeah.::	0
+"mn017"::	and you do four iterations of that. So there's a  lot  of iterations overall between your::	0
+"mn017"::	original boot models and the final models. I don't think that -::	0
+"mn017"::	Hmm.::	0
+"mn017"::	We have never seen big::	0
+"mn017"::	differences. Once I thought "oh, I can -::	0
+"mn017"::	Now I have these  much  better models. I'll re-generate my initial alignments. Then I'll get much better models at the end."::	0
+"mn017"::	Made no difference whatsoever. It's -::	0
+"me013"::	Right.::	0
+"mn017"::	I think it's - eh, i-::	0
+"mn017"::	the boot models are  recur-::	0
+"me013"::	Well, mis- for making things  better.  Yeah. But,::	0
+"me013"::	this for making things  worse.  This it migh-  Th- the thought is - is - is  possible  - another possible  partial cause is if the boot models::	0
+"mn017"::	Mm-hmm.::	0
+"me013"::	used a comple- used a different feature set,::	0
+"mn017"::	Mm-hmm.::	0
+"me013"::	that -::	0
+"mn017"::	But there  are  no boot models, in fact.::	0
+"mn017"::	You - you're not booting from initial models. You're booting from initial alignments.::	0
+"me013"::	Which you got from a different feature set.::	0
+"mn017"::	@@::	0
+"mn017"::	That's correct.::	0
+"me013"::	So, those features  look  at the data differently, actually.::	0
+"mn017"::	Yeah, but -::	0
+"me013"::	I mean, you know, they - they will find boundaries a little differently, though - You know, all th- all that sort of thing is actually slightly different.::	0
+"me013"::	I'd expect it to be a minor effect, but -::	0
+"mn017"::	But - but - but, what I'm - what I'm saying is -::	0
+"mn017"::	So,::	0
+"mn017"::	we e-::	0
+"mn017"::	w- f- w-::	0
+"mn017"::	For a long time we had used boot alignments::	0
+"mn017"::	that::	0
+"mn017"::	had been trained with a -::	0
+"mn017"::	with the same  front-end  but with acoustic models that were,::	0
+"mn017"::	like, fifteen percent worse than what we use now.::	0
+"me013"::	Mm-hmm.::	0
+"mn017"::	And with a dict- different dictionary - with a  considerably  different dictionary, which was much less detailed and much less well-suited.::	0
+"me013"::	Mm-hmm.::	0
+"me013"::	Yeah.::	0
+"mn017"::	And so,::	0
+"mn017"::	then we switched to new boot alignments, which - which now had the benefit of all these::	0
+"mn017"::	improvements that we've made over two years in the system.::	0
+"me013"::	Right.::	0
+"mn017"::	And,::	0
+"mn017"::	the result in the end was no different.::	0
+"me013"::	Right.::	0
+"mn017"::	So, what I'm saying is, the exact nature of these boot alignments is::	0
+"mn017"::	probably not  a big factor in the quality of the final models.::	0
+"me013"::	Yeah, maybe not.::	0
+"me013"::	But  it - it - I st- still see it as - I mean,::	0
+"mn017"::	Yeah.::	0
+"me013"::	there's - there's a history to this, too, but I - uh, I don't wanna go into, but -::	0
+"mn017"::	Mm-hmm.::	0
+"me013"::	but I - I - I th- I think it  could  be::	0
+"mn017"::	Yeah.::	0
+"me013"::	the things  that it -::	0
+"me013"::	the  data  is being viewed in a certain way,::	0
+"mn017"::	Right.::	0
+"me013"::	uh, that::	0
+"me013"::	a beginning::	0
+"me013"::	is  here  rather than  there  and so forth, because the actual signal-processing you're doing is slightly different.::	0
+"mn017"::	Right.::	0
+"me013"::	But,::	0
+"mn017"::	Yeah.::	0
+"me013"::	it's - it's - that's probably not it.::	0
+"mn017"::	Anyway, I - I - I should really reserve,::	0
+"mn017"::	uh,::	0
+"mn017"::	any conclusions until we've done it on the::	0
+"mn017"::	large training set,::	0
+"mn017"::	um, and until we've seen the results with the - with the V_T_L in training.::	0
+"mn017"::	So.::	0
+"me013"::	Yeah. At  some  point you also might wanna  take  the same thing and try it on,::	0
+"mn017"::	Yeah.::	0
+"me013"::	uh, some Broadcast News data or something else that actually has - has some noisy -::	0
+"me013"::	noisy components, so we can see::	0
+"me013"::	if any conclusions we come to holds::	0
+"me013"::	across  different data.::	0
+"mn017"::	Right.::	0
+"me013"::	Uh -::	0
+"mn017"::	And, uh, with  this,  I have to leave.::	0
+"me001"::	Hmm!::	0
+"me013"::	O_K.::	0
+"mn017"::	With this said.::	0
+"me013"::	So, is there something quick about Absinthe  that you - ?::	1
+"me011"::	Uh. Just what we were talking about before, which is that I::	0
+"me011"::	ported a  Blass  library to Absinthe,::	0
+"me011"::	and then got -::	0
+"me011"::	got it working with fast-forward,::	0
+"me011"::	and got::	1
+"mn017"::	Oh.::	0
+"me011"::	a speedup roughly proportional to the number of processors times the clock cycle. So, that's pretty good.::	1
+"mn017"::	Oh!::	0
+"mn017"::	Cool.::	0
+"me011"::	Um, I'm in the process of doing it for Quicknet, but there's something going wrong and it's about half the speed that::	0
+"me011"::	I was estimating it  should  be, and I'm not sure why.::	0
+"mn017"::	Mm-hmm.::	0
+"me011"::	But I'll keep working on it. But the -::	1
+"me011"::	what it means is that it's likely that for net training and forward passes,::	0
+"me011"::	we'll -::	0
+"me011"::	Absinthe will be a good machine.::	1
+"me011"::	Especially if we get a few more processors and upgrade the processors.::	1
+"mn017"::	A few more processors? How many are you shooting for?::	0
+"me011"::	There're five now. It can hold eight.::	0
+"mn017"::	Oh, O_K.::	0
+"me013"::	Yeah, we'll just go buy  them,    I guess .::	0
+"me011"::	And it's also five-fifty megahertz and you can get a  gigahertz.::	0
+"mn017"::	Yeah.::	0
+"me011"::	So.::	0
+"mn017"::	Can you mix  t- uh, processors of different::	0
+"me011"::	I  don't  think so. I think we'd have to do all -::	0
+"mn017"::	speed?::	0
+"mn017"::	O_K.::	0
+"me013"::	Probably just throw away the old ones, and -::	0
+"me011"::	Yep.::	0
+"me013"::	Thank you  for the box, and -::	0
+"mn017"::	Oh, O_K.::	0
+"me013"::	I'll just go buy their process.::	0
+"me001"::	Hmm!::	0
+"mn017"::	Maybe we can stick them in another system. I dunno.::	0
+"me011"::	We'd have to get a -::	0
+"me011"::	almost certainly have to get a, uh, Netfinity server.::	0
+"mn017"::	I see.::	0
+"me011"::	They're::	0
+"me011"::	pretty -::	0
+"me011"::	pretty specialized.::	0
+"me013"::	Yeah.::	0
+"mn017"::	O_K.::	0
+"me013"::	O_K.::	0
+"me013"::	Is - is Liz coming back, do you know, or - ?::	0
+"mn017"::	I don't know.::	0
+"me013"::	I dunno.::	0
+"me013"::	Yeah. Oh, you don't. O_K.::	0
+"mn017"::	Uh, I - I will.::	0
+"me013"::	Alright.::	0
+"mn017"::	I - I actually have to run this stuff.::	0
+"me013"::	Alright.::	0
+"mn017"::	O_K.::	0
+"me013"::	See you.::	0
+"me013"::	Um.::	0
+"me013"::	Alright. So -::	0
+"me013"::	Uh, they're having tea out there. So I guess the other thing that we were gonna talk about is - is, uh, demo.::	1
+"me013"::	And, um, so, these are the demos for the  uh, July,::	1
+"me013"::	uh, meeting  and,::	0
+"me013"::	um -::	0
+"me011"::	July what?::	0
+"me013"::	DARPA mee-::	1
+"me011"::	Early July? Late July?::	0
+"me013"::	Oh, I think it's July fifteenth. Is that it?::	0
+"fe008"::	Sixteen to eighteen, I think.::	0
+"me013"::	Yeah, sixteenth, eighteenth.::	0
+"fe008"::	Roughly.::	0
+"me013"::	Yeah. So, we talked about getting something together for that, but maybe, uh -::	1
+"me013"::	maybe we'll just put that off for now, given that -::	1
+"me013"::	But I think maybe we should have a -::	1
+"me013"::	a sub-meeting,::	1
+"me013"::	I think,::	0
+"me013"::	uh,::	0
+"me013"::	probably, uh,::	0
+"me013"::	Adam and -::	0
+"me013"::	and, uh, Chuck and me::	0
+"me013"::	should talk about -::	0
+"me013"::	should get together and talk about that sometime soon.::	1
+"me011"::	Over a cappuccino tomorrow?::	0
+"me013"::	Yeah  something like that. Um,::	0
+"me013"::	uh, you know, maybe -::	0
+"me013"::	maybe we'll involve Dan Ellis at some -::	0
+"me011"::	Mm-hmm.::	0
+"me013"::	some level as well.::	0
+"me013"::	Um.::	0
+"me013"::	O_K. The -::	0
+"me013"::	the tea is - is going, so, uh, I suggest we do, uh -::	0
+"me013"::	uh, a unison.::	0
+"me011"::	A unison digits?::	0
+"fe008"::	O_K.::	0
+"me013"::	Yeah.::	0
+"me011"::	Which is gonna be a little hard for a couple people because we have different digits forms.::	0
+"me013"::	Gets  our  -::	0
+"mn014"::	Oops.::	0
+"me011"::	We have a -::	0
+"me011"::	I found a couple of old ones.::	0
+"me001"::	Hmm.::	0
+"me013"::	Oh.::	0
+"me013"::	Well,::	0
+"me013"::	that'll be interesting. So, uh -::	0
+"me011"::	Have you done digits before?::	0
+"me013"::	No.::	0
+"me051"::	I haven't done it.::	0
+"me011"::	O_K. So, uh,::	0
+"me011"::	the idea is just to read each line  with a short pause::	0
+"me051"::	Alright.::	0
+"me011"::	between lines, not between -::	0
+"me011"::	And, uh, since we're in a hurry, we were just gonna read everyone all at once. So, if you sorta plug your ears and read -::	0
+"me051"::	O_K.::	0
+"me011"::	So first read the transcript number,::	0
+"me011"::	and then start reading the  digits.::	0
+"me051"::	Sure.::	0
+"me011"::	O_K?::	0
+"me011"::	One, two, three.::	0
+"me013"::	O_K   we're done.::	0
+"me011"::	And -::	0

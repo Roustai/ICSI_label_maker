@@ -1,0 +1,1284 @@
+"me018"::	O_K.::	0
+"me013"::	O_K, so::	0
+"me013"::	We - we had a meeting with, uh - with Hynek,::	0
+"me013"::	um, in - in which, uh,::	0
+"me013"::	uh,::	0
+"me013"::	Sunil and Stephane,::	0
+"me013"::	uh::	0
+"me013"::	summarized where they were and -::	0
+"me013"::	and, uh,::	0
+"me013"::	talked about where we were gonna go.::	0
+"me013"::	So that - that happened sort of mid-week.::	0
+"me018"::	D- did - did you guys get your code::	0
+"me013"::	Uh.::	0
+"mn052"::	Oh, yeah.::	0
+"me018"::	pushed together?::	0
+"mn052"::	Yeah.::	0
+"mn052"::	It's - it's - it's - it was updated yesterday, right?::	0
+"me018"::	Cool.::	0
+"mn007"::	Yeah.::	0
+"mn052"::	Yeah.::	0
+"me018"::	Oh, right, I saw - I saw the note.::	0
+"mn007"::	You probably received the mail. Yeah.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	What was the update?::	0
+"mn007"::	What was the update?::	0
+"me013"::	Yeah.::	0
+"mn007"::	So there is th- then - the - all the new features  that go in .::	1
+"mn007"::	The, um,::	1
+"mn007"::	noise suppression,::	0
+"mn007"::	the re-synthesis of speech after suppression.::	1
+"me018"::	Is the, um -::	1
+"mn007"::	These are the - Yeah.::	0
+"me018"::	the C_V_S mechanism working  well?::	1
+"me018"::	Are - are people,::	1
+"me018"::	uh, up at O_G_I grabbing code::	0
+"me018"::	uh, via that?::	1
+"mn052"::	Uh, I don't think - I don't think -::	0
+"me018"::	Or - ?::	0
+"mn007"::	I don't know if they use it, but.::	1
+"me018"::	Uh-huh.::	0
+"mn052"::	Yeah, I- I don't think anybody up there is like::	0
+"mn052"::	working on it right now.::	0
+"me018"::	Mmm.::	0
+"me013"::	I think it more likely that what it means is that when Sunil is up there::	0
+"mn052"::	Yeah.::	0
+"me013"::	he will grab it.::	0
+"mn052"::	Yeah.::	0
+"me018"::	Yeah.::	0
+"mn052"::	So right now nobody's working on Aurora there.::	1
+"me018"::	I see.::	0
+"me013"::	They're - Yeah. They're working on a different task.::	0
+"me018"::	I see.::	0
+"mn052"::	Yeah.::	0
+"me018"::	O_K.::	0
+"me013"::	But what'll happen is - is he'll go back up there::	0
+"me013"::	and, uh, Pratibha will come back from -::	0
+"me013"::	from, uh, the east coast.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	Uh.::	0
+"me013"::	And, uh -::	0
+"me013"::	and - and I guess actually, uh, after Eurospeech for a little bit, uh,  he'll  go up there too. So, actually::	0
+"me013"::	everybody::	0
+"me013"::	who's working on it  will be up there for at least a little while.::	0
+"me013"::	So they'll remotely access it   from there . Yeah.::	0
+"me018"::	So has -::	1
+"me018"::	Has anybody tried::	0
+"me018"::	remotely accessing the C_V_S using, uh,::	0
+"me018"::	uh, S_S_H?::	1
+"mn007"::	Um,::	0
+"mn007"::	I don't know if Hari did that or - You d-::	0
+"mn052"::	@@::	0
+"mn052"::	I  can actually do it today. I mean, I can just log into -::	0
+"me018"::	Have you tried it yet?::	0
+"mn052"::	No, I didn't.::	0
+"me018"::	O_K.::	0
+"mn052"::	So I- I'll try it today.::	0
+"me013"::	Good idea.::	0
+"mn052"::	Yeah.::	0
+"mn007"::	Actually I - I tried wh- while -::	1
+"me013"::	Yeah.::	0
+"mn007"::	when I installed the::	0
+"mn007"::	repository, I tried from Belgium.::	1
+"mn007"::	I::	1
+"me018"::	Yeah?::	0
+"mn007"::	logged in there and I tried::	0
+"me018"::	It worked good?::	0
+"mn007"::	to import -::	0
+"mn007"::	Yeah, it works.::	1
+"me018"::	Oh, good!::	0
+"me018"::	Great!::	0
+"mn052"::	Oh.::	0
+"mn007"::	But it's -::	0
+"mn007"::	So, right now it's the mechanism with S_S_H.::	0
+"mn007"::	I don't  s- I didn't set up -::	0
+"mn007"::	You can also set up a C_V_S server::	0
+"mn007"::	on a new port.::	0
+"mn007"::	It's like::	0
+"me018"::	Yeah.::	0
+"me018"::	Right.::	0
+"mn007"::	well  uh, a main server, or d- You can do a C_V_S server.::	0
+"me018"::	Then that's using the C_V_S password mechanism and all that, right?::	0
+"mn007"::	But.::	0
+"mn007"::	Yeah, right.::	0
+"mn007"::	But I didn't do that because I was not sure about::	0
+"mn007"::	security problems. I - I would have to -::	0
+"me018"::	So w-::	0
+"me018"::	when you came in from Belgian -::	0
+"me018"::	Belgium, using S_S_H,::	0
+"me018"::	uh,::	0
+"me018"::	was it asking you for your own::	0
+"me018"::	password into ICSI?::	0
+"me018"::	So if yo- you can only do that if you have an account at ICSI?::	0
+"mn007"::	Right.::	0
+"mn007"::	Yeah.::	0
+"me018"::	O_K.::	0
+"mn007"::	Yeah.::	0
+"me018"::	Cuz there is an - a way to set up anonymous C_V_S right? So that -::	0
+"mn007"::	Yeah, you ha- in this way you ca- you have to set up a C_V_S server but then,::	0
+"mn007"::	yeah, you can access it.::	0
+"mn007"::	you   - you can set up priorities. You can access them and mostly if you - if y- the set- the server is set up like this.::	0
+"me018"::	Oh, O_K. So the anonymous mechanism -::	0
+"me018"::	O_K.::	0
+"me018"::	Because a lot of the open source stuff works with anonymous C_V_S and I'm just wondering -::	0
+"mn007"::	Mm-hmm.::	0
+"me018"::	Uh,::	0
+"me018"::	I mean, for our  transcripts  we may want to do that.::	0
+"me013"::	Yeah.::	0
+"me018"::	Uh.::	0
+"me013"::	Yeah, for  this  stuff I don't think we're::	0
+"me013"::	quite up to that.::	0
+"me013"::	I mean, we're still so much in development. We want to have just the insiders.::	0
+"me018"::	Mm-hmm.::	0
+"me018"::	Yeah, yeah, yeah.::	0
+"me018"::	Oh, I wasn't suggesting for this. I'm::	0
+"me018"::	thinking of the Meeting Recorder  stuff but.::	0
+"me013"::	Yeah.::	0
+"me018"::	Yeah. O_K. Cool.::	0
+"me013"::	Yeah.::	0
+"me013"::	So, uh -::	0
+"me018"::	What's new?::	0
+"me013"::	Well, I mean, I think::	0
+"me013"::	maybe the thing::	0
+"me013"::	to me might be - I me- I'm sure you've just been working on -::	0
+"me013"::	on, uh,::	0
+"me013"::	details of that since the meeting, right?::	0
+"me013"::	And so -::	0
+"mn007"::	Mmm, since the meeting,::	0
+"me013"::	That was - that was Tuesday.::	0
+"mn007"::	well, I - I've been - I've been train-::	0
+"mn007"::	training a new V_A_D and a new  feature net.::	0
+"me013"::	O_K.::	0
+"mn007"::	So they should be ready.::	0
+"mn007"::	Um.::	0
+"me013"::	But I guess maybe the thing -::	1
+"me013"::	since you weren't -::	0
+"me013"::	yo- you guys weren't at that - that meeting,::	0
+"me013"::	might be just - just to,::	0
+"me013"::	um,::	0
+"me013"::	sort of recap,::	0
+"me013"::	uh, the -::	0
+"me013"::	the conclusions of the meeting.::	1
+"me018"::	Oh, great.::	0
+"mn007"::	Mm-hmm.::	0
+"me018"::	You're talking about the meeting with Hynek?::	1
+"me013"::	So.::	0
+"me013"::	Yeah. Cuz that was sort of, uh - we - we'd sort of been working up to that,::	0
+"me013"::	that - that, uh, he would come here this week and -::	0
+"me018"::	Uh-huh.::	0
+"me013"::	and we would sort of -::	0
+"me013"::	Since he's going out of town::	1
+"me013"::	like  now,  and I'm going out town in a couple weeks,::	0
+"me013"::	uh,::	0
+"me013"::	and time is marching, sort of,::	0
+"me013"::	given all the mu- many wonderful things we could be working on, what - what will we actually focus on?::	1
+"me018"::	Mm-hmm.::	0
+"me013"::	And, uh -::	1
+"me013"::	and what do we freeze? And, you know, what do we - ?::	1
+"me013"::	So,::	1
+"me013"::	um.::	0
+"me013"::	I mean, this::	0
+"me013"::	software that these guys created was certainly a - a key part.::	0
+"me013"::	So then there's something central and there aren't at least::	0
+"me013"::	a bunch of different versions going off in - in ways that::	0
+"me013"::	differ  trivially.::	0
+"me013"::	Uh, um, and, um,::	0
+"me018"::	Yeah.::	0
+"me018"::	That's - that's nice.::	0
+"me013"::	and then  within  that, I guess the idea was to freeze a certain set of  options  for now,::	1
+"me013"::	to  run  it, uh, a particular way,::	0
+"me013"::	and decide on what things::	0
+"me013"::	are gonna be  experimented  with, as opposed to just experimenting with everything.::	1
+"me013"::	So keep a certain set of things constant.::	1
+"me013"::	So, um.::	0
+"me013"::	Uh,::	1
+"me013"::	maybe describe roughly what -::	0
+"me013"::	what we are keeping constant for now, or - ?::	1
+"mn007"::	Yeah.::	1
+"mn007"::	Well.::	0
+"mn007"::	So we've been working like six weeks on -::	0
+"mn007"::	on the noise compensation and::	0
+"mn007"::	we end up with::	0
+"mn007"::	something that seems reasonable.::	1
+"mn007"::	Um.::	0
+"me018"::	Are you gonna use - which of the two techniques?::	1
+"mn007"::	So finally it's - it's, um, Wiener filtering::	1
+"mn007"::	on F_F_T bins.::	1
+"mn007"::	And it uses, uh, two steps,::	0
+"mn007"::	smoothing of the transfer function,::	0
+"mn007"::	the first step,::	0
+"mn007"::	that's along time,::	0
+"mn007"::	which use recursion.::	0
+"mn007"::	And::	0
+"mn007"::	after this step::	0
+"mn007"::	there is a further smoothing along frequency,::	0
+"mn007"::	which use a sliding window of twenty F_F_T bins.::	0
+"mn007"::	Mmm.::	0
+"mn007"::	And, uh -::	0
+"me018"::	So this is on the -::	0
+"me018"::	uh,::	0
+"me018"::	before any mel scaling has been done? This is -::	0
+"mn007"::	Yeah, yeah.::	0
+"me013"::	This - this smoothing is done on the estimate,::	0
+"mn007"::	It was -::	0
+"mn007"::	Yeah.::	0
+"me013"::	um, of what you're going to subtract?::	0
+"me013"::	Or on the thing that has already had something subtracted?::	0
+"mn007"::	Uh,::	0
+"mn007"::	it's on the transfer function.::	0
+"mn007"::	So -::	0
+"me013"::	Oh, it's on the transfer function for the Wiener filter.::	0
+"mn007"::	Yeah.::	0
+"me013"::	Yeah, O_K.::	1
+"mn007"::	Yeah, so basically we tried::	0
+"mn007"::	different configuration within this idea.::	0
+"mn007"::	We tried u- u- applying this on mel bands, having spectral subtraction instead of wiener filtering. Um.::	0
+"mn007"::	Well, finally we end up with  this configuration that works, uh, quite well. So we are going to fix this for the moment and work on the other aspects of  the whole system. So -::	1
+"me018"::	Mm-hmm.::	0
+"me013"::	Actually, let me int- eh,::	0
+"me013"::	Dave isn't here to talk about it, but let me just interject.::	0
+"me013"::	This module,::	0
+"me013"::	in  principle,::	0
+"me013"::	i- I mean, you would know whether it's  true in  fact,::	0
+"me013"::	is somewhat independent from the rest of it. I mean, because you - you re-synthesize speech, right?::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	So,::	0
+"me013"::	um.::	0
+"me013"::	Uh, well you don't - I guess you  don't  re-synthesize speech, but you could -::	0
+"mn007"::	We - we do not fo-::	0
+"me013"::	Uh, but you  could.::	0
+"mn007"::	Well - well, we  do,  but we don't - don't re-synthesize. In - in the program we don't re-synthesize and then re-analyze once again. We just::	0
+"mn007"::	use the clean F_F_T bins.::	0
+"me013"::	But you have a re-synthesized thing that you - that's an - an option  here .::	0
+"mn007"::	This is an option that - then you can - Yeah.::	0
+"me013"::	Yeah, I gu- I guess my point is that, um,::	0
+"me013"::	i- in some of the work  he's  doing in reverberation, one of the things that we're finding::	0
+"me013"::	is that, uh, it's - it's - for the -::	0
+"me013"::	for an  artificial  situation,::	0
+"me013"::	we can just deal with the reverberation and his techniques work really  well.::	0
+"me013"::	But for the  real  situation::	0
+"me013"::	uh, problem is, is that you don't just have reverberation, you have reverberation in noise. And if you don't include that in the model, it doesn't work very well.::	0
+"me013"::	So in fact it might be a very nice thing to do, to just take the noise::	0
+"me013"::	removal part of it and put that in front of what he's looking at.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	And, uh, generate new files or whatever,::	0
+"me013"::	and - and, uh,::	0
+"me013"::	uh - and  then  do the reverberation part.::	0
+"me013"::	So it's -::	0
+"mn052"::	Mmm.::	0
+"me013"::	Anyway.::	0
+"me018"::	So Dave hasn't  tried that yet?::	0
+"me013"::	No, no. He's - I mean, e- a-::	0
+"me018"::	I guess he's busy with -::	0
+"me013"::	Yeah, prelims, right. Yeah.::	0
+"me006"::	Pre-prelim hell.::	0
+"me018"::	Yeah.::	0
+"me013"::	So.::	0
+"me018"::	Yeah.::	0
+"me013"::	Uh,::	0
+"me013"::	but - but, you know, that'll - uh, it's clear that we, uh -::	0
+"me013"::	we are not - with the  real  case that we're looking at,::	0
+"me013"::	we can't  just  look at reverberation in isolation because the interaction between that and noise is - is considerable.::	0
+"me013"::	And that's::	0
+"me013"::	I mean, in the past we've looked at, uh,::	0
+"me013"::	and this is hard  enough,::	0
+"me013"::	the interaction between channel effects::	0
+"me013"::	and - and, uh - and additive noise, uh, so convolutional effects and - and additive effects.::	0
+"me013"::	And that's hard enough. I mean, I don't think we really - I mean, we're  trying  to deal with that.::	0
+"me013"::	In a sense that's what we're trying to deal with in this Aurora task.::	0
+"me013"::	And we have, uh, the, uh, uh, L_D_A stuff that in principle is doing something about convolutional effects.::	0
+"me013"::	And we have the::	0
+"me013"::	noise suppression that's doing something about noise.::	0
+"me013"::	Uh, even that's hard enough. And - and the on-line normalization as well, in that s- category.::	0
+"me013"::	i- i-::	0
+"me013"::	There's all these interactions between these two and that's part of why these guys had to work::	0
+"me013"::	so hard on - on juggling everything around.::	0
+"me013"::	But now when you throw in the reverberation, it's even worse,::	0
+"me013"::	because not only do you have these effects, but you  also  have some long time effects.::	0
+"me013"::	And, um, so::	0
+"me013"::	Dave  has something which,::	0
+"me013"::	uh, is doing some nice things under some conditions with - with long time effects but when it's - when there's noise there too,::	0
+"me013"::	it's - it's - it's pretty hard. So we have to start -::	0
+"me013"::	Since any - almost any real situation is gonna have - uh, where you have the microphone distant,::	0
+"me013"::	is going to have both things,::	0
+"me013"::	we - we actually have to think about both at the same time.::	0
+"me018"::	Hmm.::	0
+"me013"::	So, um -::	0
+"me013"::	So there's this noise suppression thing, which is sort of worked out and then,::	0
+"me013"::	uh, maybe you should just continue telling what - what else is in the -::	0
+"mn007"::	Yeah, well,  the, um,::	0
+"me013"::	the form we have.::	0
+"mn007"::	the other parts of the system are the -::	0
+"mn007"::	the blocks that were already present before and that::	0
+"mn007"::	we did not modify a lot.::	0
+"me013"::	So that's - again, that - that's the Wiener filtering, followed::	0
+"me013"::	by, uh -::	0
+"me013"::	uh, that's done at the F_F_T level.::	0
+"me013"::	Then -::	0
+"mn007"::	Yeah, th- then the mel filter bank,::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	then the log operation,::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	Mmm.::	0
+"me013"::	The - the - the filtering is done::	0
+"me013"::	in the  frequency  domain?::	0
+"mn007"::	Yeah.::	0
+"me013"::	Yeah, O_K.::	0
+"me013"::	And then the mel and then the log,::	0
+"me013"::	and then the::	0
+"mn007"::	Then the L_D_A filter,::	1
+"me013"::	L_D_A filter.::	0
+"mn007"::	mmm,::	0
+"me013"::	And then::	0
+"me013"::	uh::	0
+"mn007"::	then the downsampling,::	0
+"me013"::	downsample,::	0
+"mn007"::	D_C_T,::	0
+"me013"::	D_C_T,::	0
+"mn007"::	then, um, on-line normalization,::	0
+"me013"::	on-line norm,::	0
+"mn007"::	followed by  upsampling.::	0
+"mn007"::	Then finally, we compute delta and::	0
+"mn007"::	we put::	0
+"mn007"::	the neural network also.::	0
+"me013"::	Right, and then in parallel with - an - a neural net. And then following neural net, some - probably some orthogonalization. Uh -::	0
+"mn007"::	Yeah.::	0
+"me013"::	Um.::	0
+"mn007"::	And finally frame dropping,::	0
+"mn007"::	which::	0
+"mn007"::	um,::	0
+"mn007"::	would::	0
+"mn007"::	be a neural network also, used for estimated silence probabilities. And::	0
+"mn007"::	the input of this neural network would be::	0
+"mn007"::	somewhere between log  mel bands or::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	one of the earlier stages of the processing.::	0
+"me013"::	So that's sort of - most of this stuff is - yeah, is operating  parallel  with this other stuff.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	Yeah.::	0
+"me013"::	So the things that we, um,::	0
+"me013"::	uh,::	0
+"me013"::	I guess we sort of - uh,::	0
+"me013"::	There's - there's some, uh, neat ideas for  V_A_Ds -::	0
+"me013"::	So, I mean, in -::	0
+"me013"::	I think there's sort of like -::	0
+"me013"::	There's a bunch of tuning things to improve stuff. There's questions about::	0
+"me013"::	various places where there's an exponent, if it's the right exponent, or::	0
+"me013"::	ways that we're estimating noise, that we can improve estimating noise. And there's gonna be a host of those. But  structurally  it seemed like the things -::	1
+"me013"::	the main things that - that we brought up that, uh, are - are gonna need to get worked on seriously are,::	0
+"me013"::	uh, uh, a -  a significantly better V_A_D,::	0
+"me013"::	uh,::	0
+"me013"::	putting the neural net on,::	0
+"me013"::	um, which, you know, we haven't been doing anything with,::	0
+"me013"::	the, uh, neural net at the end there,::	0
+"me013"::	and, uh,::	0
+"me013"::	the, uh,::	0
+"me013"::	opening up the second front.::	1
+"me013"::	Uh.::	0
+"me018"::	The other half of the channel?::	1
+"me018"::	That what you mean?::	0
+"me013"::	Yeah, yeah, I mean, cuz we - we have - we have, uh,::	1
+"me013"::	uh, half the - the, uh,::	0
+"me013"::	data rate that they allow.::	1
+"me013"::	And, uh, so the  initial  thing which came from, uh, the meeting that we had down south::	1
+"me013"::	was, uh,::	0
+"me013"::	that, um,::	0
+"me013"::	we'll initially just put in a mel spectrum::	0
+"me013"::	as the second one.::	1
+"me013"::	It's, you know,::	1
+"me013"::	cheap, easy.::	1
+"me013"::	Uh.::	0
+"me013"::	There's a question about  exactly  how we do it. We probably will go to something better later,::	1
+"me018"::	Mm-hmm.::	0
+"me013"::	but::	0
+"me013"::	the  initial  thing is that cepstra and spectra behave  differently,  so.::	0
+"me013"::	Um,::	0
+"me013"::	I think Tony Robinson used to do -::	0
+"me013"::	I was saying this before. I think he used to do::	0
+"me013"::	mel, uh, spectra and mel cepstra.::	0
+"me013"::	He used them as alternate features.::	0
+"me018"::	Hmm.::	0
+"me013"::	Put them together.::	0
+"me013"::	Uh.::	1
+"me018"::	So if you took the system the way it is now, the way it's fro- you're gonna freeze it,::	1
+"mn007"::	Mm-hmm.::	0
+"me018"::	and it ran it on the last evaluation, where it would it be?::	1
+"mn007"::	It, uh,::	0
+"me018"::	In terms of ranking?::	1
+"mn052"::	Second.::	0
+"mn007"::	Ri- right now it's second.::	1
+"mn007"::	Um.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	Although you - you know, you haven't  tested  it actually on the German and Danish, have you?::	0
+"mn007"::	No, we didn't.  No, um.::	0
+"me013"::	Yeah.::	0
+"me018"::	So on the ones that you  did  test it on it would have been  second?::	0
+"me013"::	Yeah.::	0
+"me013"::	Would it - I mean -::	0
+"me013"::	But -::	0
+"me013"::	When you're saying second, you're comparing to the numbers that the, uh - that the best system before got on, uh - also without German and Danish?::	0
+"mn007"::	Yeah, yeah.::	0
+"me013"::	Yeah,::	0
+"me013"::	O_K.::	0
+"mn052"::	And th- the ranking actually didn't change after the German and Danish.::	0
+"mn052"::	So, yeah.::	1
+"me013"::	Well ranking::	0
+"me013"::	didn't  before,  but I'm just asking::	0
+"mn007"::	Yeah.::	0
+"me013"::	where this is to::	0
+"mn052"::	Yeah.::	0
+"me013"::	where theirs was without the German and Danish, right?::	0
+"mn052"::	Yeah.::	0
+"mn007"::	Mmm.::	0
+"mn052"::	Yeah, yeah.::	0
+"me013"::	So.::	0
+"me018"::	Where - where -::	0
+"me018"::	where were we actually on the last test?::	0
+"me013"::	Oh, we were also esp-::	0
+"me013"::	essentially second, although there were -::	0
+"me013"::	there were -::	0
+"me013"::	I mean,  we  had a couple systems and  they  had a couple systems. And so, I guess by that::	0
+"me013"::	we were  third,  but I mean,::	0
+"me013"::	there were two systems that were pretty close,::	0
+"me018"::	Uh-huh.::	0
+"me018"::	I see.::	0
+"me013"::	that came from the same place.::	0
+"me018"::	O_K.::	0
+"me013"::	Uh,::	0
+"me013"::	so  institutionally  we were -  we were second,::	0
+"me013"::	with, uh, the third - third system.::	0
+"me018"::	We're - so this  second  that you're saying now is::	0
+"me018"::	system-wide  second?::	0
+"me013"::	See -::	0
+"me013"::	Uh, no I think it's also institutional, isn't it? Right? I mean, I think  both  of their systems probably -::	0
+"me018"::	Still institutionally second?::	0
+"mn007"::	Uh, we are between their two systems. So::	0
+"me013"::	Oh, are we?::	0
+"mn007"::	I -::	0
+"mn052"::	Yeah.::	0
+"mn007"::	It is a triumph .::	0
+"me013"::	Is it?::	0
+"mn052"::	Their - their first system is fifty-four point something. And, uh, we are fifty-three point something.::	0
+"mn052"::	And their second system is also fifty-three point something.::	0
+"mn007"::	But everything is  within the range of one -::	0
+"mn052"::	Yeah, one percent.::	0
+"mn007"::	one percent.::	0
+"me018"::	Oh, wow!::	0
+"me013"::	Yeah, so - so basically they're all - they're all pretty close. And -::	1
+"me018"::	That's  very  close.::	0
+"mn007"::	So.::	0
+"mn052"::	Yeah.::	0
+"me018"::	Yeah.::	0
+"me013"::	and,  um, you know, in some sense we're all doing fairly similar things.::	1
+"me013"::	Uh, I mean, one could argue about the L_D_A and so forth but I - I think,::	0
+"me013"::	you know, in a lot of ways we're doing very similar things. But what - what -::	0
+"me018"::	So how did they fill up this -::	1
+"me018"::	all these - these bits? I mean, if we're u- u-::	1
+"me013"::	Um, why are we using half?::	1
+"me018"::	Yeah.::	0
+"me013"::	Well, so you could - you c-::	0
+"me018"::	Or how are they using  more  than half, I guess maybe is what I -::	0
+"me013"::	Yeah, so I -  I  think -::	0
+"me013"::	uh, you guys are closer to it than me, so correct me if I'm wrong,::	0
+"me013"::	but I - I think that what's going on is::	0
+"me013"::	that in - in  both  cases,::	0
+"me013"::	some kind of normalization is done::	0
+"me013"::	to deal with convola- convolutional effects.::	0
+"me013"::	Uh, they have some cepstral  modification, right?::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	In  our  case we have a  couple  things. We have the on-line normalization and then we have the L_D_A RASTA.::	1
+"me013"::	And::	0
+"me013"::	they seem to comple- complement each other enough and be different enough that they both seem to help - help us.::	0
+"me013"::	But in  any  event, they're both doing the same sort of thing. But there's one difference.::	0
+"me013"::	The L_D_A RASTA,::	1
+"me013"::	uh, throws away  high  modulation frequencies.::	1
+"me013"::	And they're not  doing  that.::	1
+"me018"::	So th- So -::	0
+"me013"::	So that if you throw away high modulation frequencies, then you can  downsample.::	1
+"me006"::	Get down.::	0
+"me018"::	I see.::	0
+"me018"::	I see.::	0
+"me013"::	So -::	0
+"me018"::	So what if you didn't -::	0
+"me018"::	So do you  explicitly  downsample then?::	0
+"me018"::	Do we explicitly downsample?::	0
+"me013"::	Yeah.::	0
+"mn007"::	Yeah.::	0
+"me018"::	And what if we didn't  do  that?::	0
+"me018"::	Would we get worse performance?::	0
+"me013"::	I think it doesn't affect it, does it?::	0
+"mn007"::	Um::	0
+"mn007"::	Yeah, not better, not worse.::	0
+"me018"::	I see. O_K.::	0
+"me013"::	Yeah.::	0
+"me013"::	So I think the thing is, since::	1
+"me013"::	we're not evidently throwing away useful information, let's try to put in some  useful  information.::	1
+"me018"::	Yeah.::	0
+"me018"::	Yeah.::	0
+"me013"::	And, uh, so I - you know, we -::	1
+"me013"::	we've found in a lot of::	0
+"me013"::	ways for quite a while that having a second stream::	0
+"me013"::	uh, helps a lot.::	1
+"me013"::	So that's - that's put in, and::	0
+"me013"::	you know, it may even end up with mel spectrum even though I'm saying I think we could do much better, just because it's simple.::	1
+"me018"::	Mm-hmm.::	0
+"me013"::	Um.::	0
+"me013"::	And you know, in the long run having something everybody will look at and say, "oh, yeah, I understand", is - is very helpful.::	0
+"me018"::	So you would - you're -::	0
+"me018"::	You're thinking to put the, uh,::	0
+"me018"::	mel spectrum in  before  any of the noise removal stuff? or  after?::	0
+"me013"::	Well, that's a question.::	0
+"me013"::	I mean, we were talking about that. It looks like::	0
+"me013"::	it'd be straightforward to -::	0
+"me013"::	to, uh, remove the noise,::	0
+"me013"::	um, and, uh,::	1
+"me018"::	Cuz  that  happens before the  mel  conversion, right?::	0
+"me013"::	Yeah.::	0
+"me013"::	So, I mean, to do it  after  the mel conversion -::	0
+"me013"::	uh, after the noise removal, after the mel conversion.::	0
+"me013"::	There's even a question in my mind anyhow of whether th- you should take the log or not.::	0
+"me013"::	Uh.::	0
+"me013"::	I sort of think you should, but::	0
+"me013"::	I don't know.::	0
+"mn007"::	What about norm- normalizing also?::	0
+"me013"::	Right.::	0
+"me013"::	Uh.::	0
+"me013"::	Well,::	0
+"me013"::	but normalizing spectra instead of cepstra?::	0
+"mn007"::	Yeah.::	0
+"me013"::	Yeah,  probably.::	0
+"me013"::	Some  kind would be  good.::	0
+"me013"::	You know? I would  think.::	0
+"mn052"::	Well, it - it - it -::	0
+"mn052"::	it - so it actually makes it dependent on the overall energy of the -::	0
+"mn052"::	uh,::	0
+"mn052"::	the frame.::	0
+"me013"::	If you  do  or  don't  normalize?::	0
+"mn052"::	If yo- if you  don't  normalize and - if - if you  don't  normalize.::	0
+"me013"::	Right.::	0
+"me013"::	Yes, so I mean, one would  think::	0
+"me013"::	that you would want to normalize.::	0
+"me013"::	But I - I - w- w-::	0
+"me013"::	My thought is,::	0
+"me013"::	uh, particularly if you take the log,::	0
+"me013"::	try  it.::	0
+"me013"::	And then::	0
+"me013"::	if - if normalization  helps,  then y- you have something to compare against, and say, "O_K, this much effect" -::	0
+"me013"::	I mean, you don't want to change six things and then see what  happens.  You want to change them one at a  time.  So adding this other  stream  in,::	0
+"mn052"::	Mm-hmm.::	0
+"me013"::	that's simple in some way.::	0
+"me013"::	And then  saying, oh - uh -::	0
+"me013"::	particularly  because we've found in the past there's all these - these - these different results you get with slight::	0
+"me013"::	modifications of how you do normalization. Normalization's a very tricky, sensitive thing and  you learn a lot.::	0
+"me013"::	So,::	0
+"me013"::	I would think you would wanna::	0
+"me013"::	have some baseline that says, "O_K, we  don't  normalize, this is what we get", when we do  this  normalization, when we do  that  normalization.::	0
+"me013"::	But -::	0
+"me013"::	but the  other  question is -::	0
+"me013"::	So I think  ultimately  we'll wind up doing some normalization. I agree.::	0
+"me018"::	So this second stream,::	1
+"me018"::	will it add latency to the system or - ?::	1
+"me013"::	No, it's in parallel.::	1
+"me006"::	Para-::	0
+"me018"::	S-::	0
+"me013"::	We're not talking about  computation  time here. We're ta- I think we're pretty far out. So it's just::	1
+"me018"::	Yeah.::	0
+"me013"::	in terms of what data it's depending on. It's depending on the same data as the  other.  So it's in parallel.::	1
+"me018"::	Same data. O_K.::	1
+"me013"::	Uh-huh.::	0
+"me006"::	So with this, uh, new stream would you train up a V_A_D on  both  -  both  features, somehow?::	0
+"mn052"::	No, I guess the V_A_D has its own set of features.::	0
+"me006"::	O_K.::	0
+"mn052"::	I mean, which could be this - one of these streams, or it can be something derived from  these streams.::	0
+"me006"::	and that's -::	0
+"me013"::	Yeah.::	0
+"me006"::	O_K.::	0
+"mn007"::	And there is also the idea of using TRAPS, maybe, for the V_A_D,::	0
+"mn007"::	which, um -::	0
+"mn052"::	Yeah, that's also -::	0
+"mn007"::	Well, Pratibha apparently showed,::	0
+"mn007"::	when, she was at I_B_M, that::	0
+"mn007"::	it's a good idea.::	0
+"mn007"::	So.::	0
+"me006"::	Would - would that fit on the handset, or - ?::	0
+"me006"::	Oh!::	0
+"mn007"::	I have no idea.::	0
+"me006"::	O_K.::	0
+"mn052"::	Well, it has t- I mean::	0
+"mn052"::	the - th-::	0
+"mn007"::	It would have to fit but -::	0
+"mn007"::	Yeah.::	0
+"mn052"::	Yeah, if it has to fit the delays and all this stuff.::	0
+"me013"::	Well, there's the delays and the storage, yeah.::	0
+"me006"::	O_K.::	0
+"mn052"::	Yeah.::	0
+"me013"::	But I don't think the storage is so big for that.::	0
+"me006"::	Right.::	0
+"me013"::	I think th- the  biggest  we've run into for storage is the neural net.::	0
+"mn052"::	Yeah.::	0
+"me013"::	Right? Yeah.::	0
+"me013"::	Um.::	0
+"me013"::	And so::	0
+"me013"::	I guess the issue  there  is, are we - are we using neural-net-based  TRAPS,::	0
+"me013"::	and - and how big are they?::	0
+"me006"::	Oh, right.::	0
+"me013"::	So that'll - that'll be, you know, an issue.::	0
+"me006"::	Yeah. Cuz sh-::	0
+"me013"::	Maybe they can be little ones.::	0
+"me006"::	Right.::	0
+"me006"::	Cuz she also does the, uh - the correlation-based,::	0
+"me013"::	Mini-TRAPS.::	0
+"me006"::	uh,::	0
+"me006"::	TRAPS,::	0
+"me006"::	with-  without  the neural net, just::	0
+"me013"::	Right.::	0
+"me006"::	looking at the::	0
+"me013"::	And maybe for V_A_D they would be O_K. Yeah.::	0
+"me006"::	correlation between -::	0
+"me006"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"mn052"::	Yeah.::	0
+"me013"::	That's true.::	0
+"me013"::	Or a  simple  neural net, right? I mean, the thing is, if you're doing correlation, you're just doing a simple -::	0
+"me013"::	uh, uh -::	0
+"me013"::	uh,::	0
+"me013"::	dot product, you know, with some weights which you happened to learn from this - learn from the  data.  And so,::	0
+"me006"::	Mm-hmm.::	0
+"me013"::	uh, putting a nonlinearity on it is,::	0
+"me013"::	you know, not that big a deal.::	0
+"me006"::	Mm-hmm.::	0
+"me013"::	It certainly doesn't take much space.::	0
+"me006"::	Right.::	0
+"me013"::	So, uh, the question is, how complex a function do you need? Do you need to have::	0
+"me013"::	an added  layer  or something?::	0
+"me013"::	In which case,::	0
+"me013"::	uh,::	0
+"me013"::	potentially,::	0
+"me013"::	you know, it could be big. So.::	0
+"me006"::	Mm-hmm.::	0
+"me013"::	So, uh,::	0
+"me013"::	uh -::	0
+"me013"::	So what's next?::	0
+"me013"::	Maybe  s- s-  remind us.::	0
+"me018"::	So the meeting with Hynek that you guys just had was to::	0
+"me018"::	decide exactly what you were gonna freeze in this system? Is that - ?::	0
+"me018"::	Or was there - ?::	0
+"me018"::	Were you talking about what t-  new  stuff, or - ?::	0
+"me013"::	What to freeze and then what to do after we  froze.::	0
+"me018"::	Mmm.::	0
+"me013"::	Yeah.::	0
+"me013"::	And like I was saying, I think the - you know, the basic::	0
+"me013"::	directions are, uh, uh -::	0
+"me013"::	I mean, there's lots of little things, such as improve the noise estimator but the bigger things are adding on the neural net and,::	0
+"me013"::	uh, the second stream.::	0
+"me013"::	And then, uh,::	0
+"me013"::	improving the V_A_D.::	0
+"me013"::	Uh.::	0
+"me013"::	So.::	0
+"mn052"::	So, I'll, um -::	1
+"mn052"::	I'll actually - after the meeting I'll add the second stream::	0
+"mn052"::	to the VAD and maybe I'll start with the feature net in that case.::	1
+"mn052"::	It's like, you're looking at the V_A_D, right?::	0
+"mn007"::	Uh, yeah.::	0
+"mn052"::	I'll -::	0
+"mn007"::	I- I've a new feature net ready also.::	0
+"mn052"::	For the V_A_D?::	0
+"mn007"::	No, uh.::	0
+"mn007"::	Well p- two network, one V_A_D and one   feature  net. Mm-hmm.::	0
+"mn052"::	Oh, you already have it?::	0
+"mn052"::	O_K, so just figure how to take the features::	1
+"mn052"::	from the final -::	1
+"mn007"::	Yeah.::	0
+"mn052"::	O_K.::	0
+"mn007"::	Um.::	0
+"mn007"::	But, yeah, I think there are plenty of issues to work on for the feature net  @@ .::	0
+"me018"::	What about the, um -::	1
+"me006"::	Feature net.::	0
+"me018"::	uh, the new part of the evaluation,::	1
+"me018"::	the, uh, Wall Street Journal part?::	1
+"me013"::	Right.::	0
+"me013"::	Right.::	0
+"me013"::	Um.::	0
+"me013"::	Have you ever - ?::	0
+"me013"::	Very  good question.::	0
+"me013"::	Have you ever worked with the Mississippi State h- uh, software?::	1
+"mn007"::	Sorry.::	0
+"me018"::	No.::	0
+"me018"::	Not yet.::	1
+"me013"::	Oh.::	0
+"me013"::	Well you - you may be called upon to help,::	1
+"me013"::	uh, uh, on account of, uh,::	0
+"me013"::	all the work in this stuff here has been, uh, with small vocabulary.::	1
+"me018"::	O_K.::	1
+"me018"::	Mm-hmm.::	0
+"me018"::	So what - how is the, uh, interaction supposed to happen?::	0
+"me018"::	Uh, I remember the last time we talked about this,::	0
+"me018"::	it was sort of up in the air whether  they  were going to be taking, uh,::	0
+"me018"::	people's features and then running them or they were gonna give the system out or -::	0
+"mn052"::	Yeah.::	0
+"mn052"::	Yeah.::	0
+"me018"::	Oh, so they're gonna just deliver a system basically.::	1
+"mn052"::	Yeah, yeah.::	0
+"me013"::	Do we already have it?::	0
+"mn052"::	Yeah, th- I - I guess it's almost ready.::	1
+"me018"::	Uh-huh.::	0
+"mn052"::	So -::	0
+"mn052"::	That's what -::	0
+"mn052"::	So they have released their, uh, document,::	1
+"mn052"::	describing the system.::	1
+"me018"::	I see.::	0
+"me013"::	Maybe you could, uh,::	0
+"me013"::	point it  at Chuck, because, I mean -::	0
+"mn052"::	Sure.::	0
+"me018"::	So we'll have to grab this over C_V_S or something?::	0
+"mn052"::	It- no, it's just downloadable from their - from their web site.::	0
+"me018"::	Is that how they do it?::	0
+"me018"::	O_K.::	0
+"me018"::	O_K.::	0
+"me013"::	Cuz one of the things that might be helpful, if you've - if you've got time in all of this is, is if -::	1
+"me013"::	if these guys are really focusing on::	0
+"me013"::	improving, uh, all the digit stuff, uh, maybe -::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	and you got the front-end from them, maybe  you  could do the runs for the -::	1
+"me018"::	Sure.::	1
+"me013"::	and - and, you know, iron out hassles that - that you have to,::	1
+"me013"::	uh,::	0
+"me013"::	tweak Joe about or whatever, because you're more experienced with running the large vocabulary stuff.::	1
+"me018"::	O_K.::	0
+"me013"::	S-::	0
+"mn052"::	So I'll point you to the web site and the mails corresponding.::	1
+"mn052"::	So I-::	0
+"me018"::	And it - but it's not ready yet, the system?::	0
+"mn052"::	Uh,::	0
+"mn052"::	I - I think they are still, uh, tuning something on that.::	0
+"mn052"::	So they're like,::	0
+"mn052"::	d- they're varying different parameters like the insertion penalty and other stuff, and then seeing what's the performance.::	0
+"me018"::	Are those going to be::	0
+"me018"::	parameters that are frozen, nobody can change? Or - ?::	0
+"mn052"::	Uh, w- I guess there is, uh, time during which people are gonna make suggestions.::	0
+"me018"::	Oh, but  everybody's  gonna have to use the same values.::	0
+"mn052"::	After  that.::	0
+"me018"::	Oh!::	0
+"me018"::	Interesting.  O_K.::	0
+"mn052"::	Yeah, I guess. So these sugges- these -::	1
+"mn052"::	this, uh, period during which people are gonna make suggestions is to know whether it is actually  biased  towards any set of features or -::	1
+"me013"::	Yeah, so I th- th- certainly the thing that I would::	1
+"me013"::	want to::	0
+"me013"::	know  about is whether::	0
+"me013"::	we get really hurt,::	0
+"me013"::	uh, on in- insertion penalty, language model, scaling, sorts of things.::	1
+"me018"::	Using  our  features. Yeah.::	1
+"me013"::	Yeah, yeah.::	0
+"me013"::	Uh, in which case, um, H- Hari or::	1
+"me013"::	Hynek will need to,::	0
+"me013"::	you know, push the  case::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	more about -::	0
+"me013"::	about  this.::	1
+"me013"::	Um.::	0
+"me018"::	And we may be able to revisit this idea about, you know, somehow modifying our features to::	1
+"me013"::	Yes. In  this  case, that's  right.::	0
+"me018"::	work  with -::	1
+"me018"::	Yeah.::	0
+"me013"::	That's right.::	0
+"me013"::	Um, some of that may be,::	0
+"me013"::	uh, a last minute rush thing because if the - if our features are changing -::	0
+"me018"::	Yeah.::	0
+"me013"::	Uh.::	0
+"me013"::	Uh.::	0
+"me013"::	But, um.::	0
+"me013"::	Yeah, the other thing is that even though::	0
+"me013"::	it's  months  away,::	0
+"me013"::	uh,::	0
+"me013"::	it's starting to seem to me now like November fifteenth is right around the corner.::	0
+"me013"::	And, um, if they haven't decided things like this,::	0
+"me013"::	like what the parameters are gonna be for this,::	0
+"me013"::	uh, when "deciding" is not just somebody  deciding.  I mean, in fact there should be some::	0
+"me013"::	understanding  behind the, uh,::	0
+"me013"::	deciding, which means some experiments and - and so forth. It - it - it  seems  pretty  tight  to me.::	0
+"me018"::	So wha- what's the significance of November fifteenth?::	0
+"me013"::	That's when the evaluation is.::	0
+"me018"::	O_K.::	0
+"me013"::	Yeah.::	0
+"me013"::	So, yeah, so after - But, you know, they may even  decide  in the end to push it  off.::	0
+"me013"::	It wouldn't, you know, entirely surprise me. But, uh,::	0
+"me013"::	due to  other  reasons, like some people are going away, I'm - I'm hoping it's not pushed off for  a l- a  long  while. That would be, uh - put us in an awkward position. But -::	0
+"me013"::	Anyway.::	0
+"me018"::	O_K.::	0
+"me013"::	Great.::	0
+"me013"::	Yeah, I think that'll be helpful. There's - there's not anybody O_G_I currently who's -::	0
+"me013"::	who's, uh, working with this and - and::	0
+"me018"::	Is - is this part of the evaluation just a  small  part, or ho- how important is this to the overall - ?::	0
+"me013"::	I - I think it's - it's, um - it depends how badly  you do.::	0
+"me013"::	I mean, I think that it - it is -::	0
+"me013"::	Uh.::	0
+"mn052"::	b-::	0
+"me018"::	This is one of those things that will be debated afterwards?::	0
+"me013"::	Yeah. Well, I mean, it's - it's -::	0
+"me013"::	Conceptually,  it -::	0
+"me013"::	my  impression,::	0
+"me013"::	again, you guys correct me if I'm  wrong,  but::	0
+"me013"::	my impression is that, um,::	0
+"me013"::	they  want  it as a double check.::	0
+"me013"::	That you haven't come across - you haven't::	0
+"me013"::	invented features::	0
+"me013"::	which are actually gonna do badly::	0
+"me013"::	for a - a significantly different task,::	0
+"me013"::	particularly one with larger vocabulary.::	0
+"me018"::	Mmm.::	0
+"me013"::	And, um, but::	0
+"me013"::	it's not the  main  emphasis. I mean, the truth is, most of the applications they're looking at are pretty small vocabulary.::	0
+"me018"::	Mmm.::	0
+"me013"::	So it's - it's a double check. So they'll probably assign it some sort of low weight.::	0
+"me018"::	Seems to me that if it's a double check, they should give you a one or a zero.::	0
+"me018"::	Y- you  passed  the threshold or you  didn't  pass the threshold, and they shouldn't even::	0
+"me013"::	Yeah.::	0
+"me018"::	care about what the score is.::	0
+"me013"::	But, I mean, we'll - we'll - we'll see what they come up with. Uh, but::	0
+"me018"::	Yeah.::	1
+"me013"::	in - in the  current  thing, for instance, where you have this well-matched, moderately-matched, and - and mis- highly-mismatched,::	0
+"me013"::	uh, the emphasis is somewhat on the - on the  well-matched,::	0
+"me013"::	but it's only a - a  marginal,  right? It's like forty,::	0
+"me013"::	thirty-five, twenty-five, or something like that. So you still -::	0
+"mn052"::	Yeah.::	0
+"me013"::	if you were  way,  way off on the highly-mismatched, it would have a big effect.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	And, um, it::	0
+"me013"::	wouldn't surprise me if they did something like that with  this.  So again, if you're -::	0
+"me013"::	if you get -::	0
+"me018"::	Oh.::	0
+"me013"::	If it doesn't help you much,::	0
+"me013"::	uh, for noisy versions of this - of large vocabulary data,::	0
+"me013"::	then, uh, you know, it may not hurt you  that  much. But if it - if you don't -::	0
+"me013"::	if it doesn't help you much at  all,::	0
+"me013"::	um, or to put it another way, if it helps  some  people a  lot  more than it helps  other  people,::	0
+"me013"::	uh, if their strategies do, then -::	0
+"me018"::	Mm-hmm.::	0
+"me018"::	So is this, uh - ?::	0
+"me018"::	Uh, Guenter was putting a bunch of Wall Street Journal data on our disks.::	0
+"me013"::	That's it.::	0
+"me018"::	So that's the data that we'll be running on?::	0
+"me013"::	Yeah.::	0
+"me018"::	I see. O_K.::	0
+"me013"::	Yeah.::	0
+"me013"::	So::	0
+"me013"::	we have the  data,  just not the recognizer.::	0
+"me013"::	O_K.::	0
+"me018"::	So this test may take quite a while to run, then.::	0
+"me018"::	May- judging by the amount of data that he was putting::	0
+"me013"::	Uh,::	0
+"me018"::	on.::	0
+"me013"::	well there's training and test, right?::	0
+"me018"::	I - I guess, I'm not sure. I just -::	0
+"me013"::	No, I mean, if it's like the other things, there's - there's::	0
+"me013"::	data for training the H_M_Ms and - and data for testing it. So::	0
+"me013"::	I wouldn't -::	0
+"me013"::	So it - it's -::	0
+"me018"::	O_K.::	0
+"me018"::	So there's -::	0
+"me013"::	So,  training  the recognizer, but, um::	0
+"me013"::	Um.::	0
+"me013"::	But I think it's trained on clean and -::	0
+"me013"::	Is it trained on clean and - and test on - ?::	0
+"mn052"::	The Wall Street?::	0
+"me013"::	Yeah.::	0
+"mn007"::	Apparently, no. It's training on::	0
+"mn052"::	Mm-hmm.::	0
+"mn007"::	a range between ten and twenty D_B, I think, and testing between five and fifteen.::	0
+"mn052"::	Yeah.::	0
+"mn007"::	That's::	0
+"me013"::	O_K.::	0
+"mn007"::	what I got  on -::	0
+"mn052"::	It's, uh -::	0
+"mn052"::	It's like a medium - medium-mismatch condition, sort of.::	0
+"me013"::	I see.::	0
+"mn007"::	Yeah, and -::	0
+"mn007"::	So the noise is -::	0
+"mn007"::	There is a range of different noises also - um -::	0
+"mn007"::	which are selected randomly and added randomly,::	0
+"mn007"::	uh, to the files.::	0
+"mn007"::	And there are noises that are different from the noises used::	0
+"mn007"::	on T_I-digits.::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah. I mean, I wouldn't imagine that the amount of testing data::	0
+"me013"::	was::	0
+"me013"::	that  huge.::	0
+"me013"::	They probably put training - uh, almost certain they put training data there too.::	0
+"me013"::	Maybe not.::	0
+"me013"::	So.::	0
+"me013"::	That's that.::	0
+"me013"::	Anybody have anything else?::	0
+"me018"::	Uh, one - one last question on that. When did they estimate that they would have that system available for download?::	0
+"mn052"::	Um,::	0
+"mn052"::	I guess - I guess one - some preliminary version is already there.::	0
+"me018"::	Oh, so there's w- something you can download to just::	0
+"mn052"::	Yeah, it's already there. Yeah.::	0
+"me018"::	learn? O_K, good.::	0
+"mn052"::	But they're::	0
+"mn052"::	actually parallel-y doing some modifications also, I think.::	0
+"me018"::	O_K.::	0
+"mn052"::	So I guess the f- final system will be frozen by middle of,::	0
+"mn052"::	like, one more week maybe.::	0
+"me013"::	Oh, well  that's  pretty soon.::	0
+"mn052"::	Yeah, that's just one more.::	0
+"me006"::	Is this their, um, S_V_M recognizer?::	0
+"mn052"::	No, it's just a straightforward H_M_M.::	0
+"me006"::	Oh, O_K.::	0
+"me013"::	You know, their - their -::	0
+"me013"::	They have a lot of options::	0
+"me013"::	in their recognizer and - and the S_V_M is one of the things they've done with it, but it's not their more standard thing.::	0
+"me006"::	Uh-huh.::	0
+"me013"::	For the most part it's - it's Gaussian mixtures.::	0
+"me006"::	Oh, O_K.::	0
+"me006"::	Oh, O_K.::	0
+"me013"::	Yeah.::	0
+"mn052"::	It's just a H_M_M, Gaussian mixture model.::	0
+"me006"::	Gaussian mixture H_M_M. O_K.::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah, the S_V_M thing was an H_M_M also. It was just a - it - it - it was like a hybrid, like - what? Yeah.::	0
+"mn052"::	Yeah, this is a g- yeah, this i- yeah.::	0
+"me006"::	Mm-hmm.::	0
+"me018"::	So, just so that I understand, they're providing scripts and everything so that::	0
+"me018"::	basically, uh,::	0
+"me018"::	you - you push a button and it does  training,  and then it does  test,  and everything?::	0
+"me018"::	Is that  the idea?::	0
+"mn052"::	I - I - I think - yeah, I - I guess something like that.::	0
+"me018"::	Mm-hmm.::	0
+"mn052"::	It's like  -::	0
+"mn052"::	as painless as possible, is what -::	0
+"me018"::	I see. Hmm.::	0
+"mn052"::	Do they provide all the scripts, everything, and then -::	0
+"me018"::	Somehow yo- there's hooks to put your::	0
+"mn052"::	Just, ju-::	0
+"mn052"::	Yeah, I th- I think.::	0
+"me018"::	features in and -::	0
+"me018"::	Hmm.::	0
+"me013"::	Hmm.::	0
+"me013"::	Yeah, um.::	0
+"me013"::	In fact, I mean, if you look into it a little bit, it might be reasonable - You know Joe, right?::	1
+"me018"::	Mm-hmm.::	0
+"me013"::	Yeah. Just to sort of ask him about the issue of, um,::	1
+"me013"::	different features having different kinds of, uh, scaling characteristics and so on. So that,::	1
+"me013"::	you know, w- w- possibly having entirely different optimal values for - for the usual twiddle factors and what's - what's the plan about that?::	0
+"me018"::	O_K.::	0
+"mn052"::	So sh- shall we, like, add Chuck also to the mailing lists?::	1
+"mn052"::	It may be better, I mean, in that case if he's going to -::	0
+"mn052"::	Because there's a mailing list for this.::	0
+"me013"::	Yeah. Is that O_K?::	0
+"me018"::	Yeah, that'd be great.::	1
+"mn052"::	Yeah, I guess maybe Hari or Hynek,::	1
+"mn052"::	one  of them, has to  send a mail to Joe.::	1
+"mn052"::	Or maybe if you -::	0
+"me018"::	I - I could send him an email.::	1
+"mn052"::	Well, yeah, to add or maybe wh-::	0
+"me018"::	I - I know him really well. I - I was just talking with him on email the other day actually.::	1
+"mn052"::	Yeah, so that's just fine. So -::	0
+"mn052"::	So -::	0
+"me013"::	Uh, yeah, and just, um, se- maybe see. Do you have Hari's, uh - ?::	1
+"me018"::	About other things, but.::	0
+"me018"::	I have Hari's -::	0
+"me013"::	Yeah, so maybe just C_C Hari and say that you've just been asked to handle the large vocabulary part here,::	1
+"me018"::	O_K.::	0
+"me013"::	and, uh, you know, end.::	0
+"me018"::	Would it be better if I asked Hari to ask Joe?::	0
+"me013"::	Uh.::	0
+"me013"::	Why don't you just ask Joe but C_C Hari, and then in the note say, "Hari, hopefully this is O_K with you".::	1
+"me018"::	O_K.::	0
+"me018"::	O_K.::	0
+"me013"::	And then if Joe feels like he needs a confirmation, Hari can answer it.::	1
+"mn052"::	Yeah.::	0
+"me013"::	That way you can get started asking  Joe quickly while he's - while he's maybe still,::	0
+"me013"::	you know, putting in nails and screws and doing  that stuff::	0
+"mn052"::	And there is an, uh, archive of all the mails that has been::	0
+"me013"::	Yeah.::	0
+"mn052"::	gon- that has gone, uh, between these people - among these people.::	0
+"me018"::	O_K.::	0
+"mn052"::	So just you can see all this::	0
+"mn052"::	mails in the I_S_I_P web site - Mississippi web site.::	0
+"me018"::	O_K.::	0
+"me018"::	Is that a password controlled - ? O_K.::	0
+"mn052"::	Yeah, it's password protected.::	0
+"mn052"::	So, like - like, it's, like -::	1
+"me013"::	Have you thought about  how long  would be::	0
+"me013"::	uh, most useful for you to go up to O_G_I?::	0
+"mn007"::	I don't know, uh. We can -::	0
+"mn007"::	For September, we can set up::	0
+"mn007"::	a work schedule and we can maybe work independently.::	0
+"mn007"::	And then at some point it maybe be better to::	0
+"mn007"::	work together again.::	0
+"me013"::	Oh, so you're - you're imagining more that you would come back here first for a while and then - and then go up there? I mean, it's to you. I ju- you guys are::	0
+"mn007"::	I -::	0
+"mn007"::	Maybe, yeah.::	0
+"me013"::	Well, y- anyway, you don't have to decide this second but thi- think about it - about what - what you would think would be the -::	0
+"mn007"::	But, uh::	0
+"mn007"::	Huh.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	the best way to work it. I'll support it either way, so.::	0
+"mn007"::	Mm-hmm::	0
+"mn007"::	Right.::	0
+"me013"::	O_K.::	0
+"me013"::	Uh.::	0
+"me013"::	Got anything to tell us?::	1
+"me006"::	Um.::	0
+"me006"::	Well, I've been::	1
+"me006"::	reading some literature about::	0
+"me006"::	clustering::	0
+"me006"::	of data. Just, um,::	1
+"me006"::	I guess, let me put it in context.::	0
+"me006"::	O_K, so we're talking about::	1
+"me006"::	discovering intermediate categories::	0
+"me006"::	to, um -::	0
+"me006"::	to classify.::	1
+"me006"::	And, uh, I was looking at some of the work that,::	1
+"me006"::	uh, Sangita was doing on these TRAPS things. So::	1
+"me006"::	she has, um - she has::	0
+"me006"::	temporal patterns for,::	0
+"me006"::	um, a certain set of phonemes,::	0
+"me006"::	from - from TIMIT, right?::	1
+"me006"::	the most common phonemes. And each one of them has - has a - a nice pattern over time, a one - one second window.::	0
+"me006"::	And it has - has these patterns.::	0
+"me006"::	Um, so she has, um::	0
+"me006"::	a TRAP for each one of the phonemes,::	0
+"me006"::	um, times fifteen, for each of the fifteen critical bands.::	0
+"me006"::	And, um,  she does this agglomerative hierarchical clustering::	0
+"me006"::	which - which basically, um, is a clustering algorithm that, uh, starts with many, many, many different points - many different clusters - uh, corresponding to the number of data, uh, patterns that you have in the data.::	0
+"me006"::	And then you have this distance mej- metric which, uh, measures how - how closely related they are. And you start, um::	0
+"me006"::	by merging the patterns that are most closely related.::	0
+"me018"::	And you create a tree.::	0
+"me006"::	And y- yeah, yeah, a dendrogram tree.::	0
+"me018"::	Mm-hmm.::	0
+"me006"::	Um.::	0
+"me018"::	And then you can pick, uh, values anywhere along that tree to::	0
+"me018"::	fix your set of clusters.::	0
+"me006"::	Right, usually it's when, um -::	0
+"me006"::	when the sol- similarity measures,::	0
+"me006"::	um, don't go down as much.::	0
+"me018"::	Mm-hmm.::	0
+"me006"::	And so, uh - so you stop at that point.::	0
+"me006"::	And what she found was, sh- um, was there were five broad,::	0
+"me006"::	um - broad categories,::	0
+"me013"::	Mm-hmm.::	0
+"me006"::	uh, corresponding to, uh, things like, uh, fricatives and, uh, vocalic, um, and, uh, stops.::	0
+"me006"::	And, uh, one for silence and - and another one for schwa - schwa sounds.::	0
+"me006"::	Um, and,::	1
+"me006"::	um, I was thinking about ways to - to generalize this because w- you're - it's sort of like a -::	1
+"me006"::	it's not a completely automatic way of clustering,::	1
+"me006"::	because yo- beforehand you have these - these TRAPS and you're saying that -::	0
+"me006"::	that these frames correspond to this particular phoneme.::	0
+"me006"::	Um, and that's - that's constraining your - your clustering to -::	0
+"me006"::	to the set of phonemes that you already have.::	0
+"me006"::	Um, whereas maybe we want to just take - take a look at, um, arbitrary windows in time,::	0
+"me018"::	Mm-hmm.::	0
+"me006"::	um, of varying length, um, and cluster those. And I'm thinking if we -::	0
+"me018"::	Mm-hmm.::	0
+"me006"::	if we do that, then we would probably, um, at some point in the clustering algorithm::	0
+"me006"::	find that we've clustered things like, O_K, thi- this is a transition, um, this is a relatively stable - stable point.::	0
+"me006"::	Um, and I'm hoping to find other things of - of similarity and maybe use  these  things as the intermediate, um - intermediate categories that, uh, um, I'll later classify.::	0
+"me013"::	Are you looking at these in narrow bands?::	1
+"me018"::	Mm-hmm.::	0
+"me006"::	Um,::	0
+"me006"::	right.::	0
+"me006"::	F- um, I'm -::	0
+"me013"::	Cuz that's what you're gonna be  using,  right?::	0
+"me006"::	Yeah, yeah. I - I haven't exactly figured out, um, the exact details for that but, uh,::	0
+"me006"::	the - the representation of the data that I was thinking of, was using, um, critical band, um, energies,  um, over different lengths of time. So -::	0
+"me006"::	Yeah.::	0
+"me013"::	Yeah, I mean, it seems somehow that needs th- uh, there's a couple things that I wonder about with this. I mean, so one is -::	1
+"me006"::	O_K.::	0
+"me013"::	is,  again, looking at the same representation, I mean, if you're going for this sort of thing where you have::	1
+"me013"::	uh, little detectors that are looking at narrow bands,::	0
+"me013"::	then::	0
+"me013"::	what you're going to be looking  for  should be some category that you can find with the narrow bands.::	1
+"me006"::	Mm-hmm.::	0
+"me013"::	That - that seems to be kind of fundamental to it.::	0
+"me006"::	Right.::	0
+"me013"::	Um, and then the other thing,::	0
+"me013"::	uh, is -::	0
+"me013"::	that I  wonder  about with it,::	0
+"me013"::	and - and don't take this in the wrong way, like I - I know what I'm doing or anything,::	0
+"me013"::	but, I mean.::	0
+"me013"::	Um, just  wondering  really.::	0
+"me006"::	Mm-hmm.::	0
+"me013"::	Um,::	1
+"me013"::	the sort of standard::	0
+"me013"::	answer about this sort of thing is that if you're trying to find::	0
+"me013"::	the right system in some sense, whether you're trying by categories or - or parameters::	0
+"me013"::	um, and your goal is discrimination,::	0
+"me013"::	then having choices based on discrimination as opposed to, um, unsupervised  nearness  of things,::	0
+"me006"::	Hmm.::	0
+"me013"::	um, is actually better.::	1
+"me013"::	Um, and I don't know if that - I mean, since you're dealing with issues of  robustness,::	1
+"me013"::	you know, maybe - maybe this isn't right, but::	0
+"me013"::	it'd be something I'd be concerned about. Because, for instance,::	1
+"me013"::	you can imagine,::	0
+"me013"::	uh,::	0
+"me013"::	uh, i- i- if you remember from - from, uh - from your - your  quals,  John Ohala saying that, uh, "buh"  and "puh"  differed, uh, not really cuz of voicing but because of aspiration.::	1
+"me006"::	Mm-hmm.::	0
+"me013"::	I mean, in as far as wha- what's really there in the acoustics.::	0
+"me013"::	So, um, if you looked -::	1
+"me013"::	if you were doing some coarse clustering, you probably would put those two  sounds  together.::	1
+"me013"::	And yet, I would gue- I would guess that many of your recognition errors were coming from, uh, um, pfft,::	1
+"me013"::	screwing up on this distinction.::	1
+"me006"::	Mm-hmm.::	0
+"me013"::	So, in fact, it's a little hard because recognizers, to first order,  sort  of work.::	0
+"me013"::	And the reasons we're doing the things we're doing is because they don't work as  well  as we'd like.::	0
+"me013"::	And since they  sort  of  work,::	0
+"me013"::	uh, it means that they are already doing - if you go and take::	1
+"me013"::	any recognizer that's already out there and you say, "how well is it distinguishing between  schwas and stops?"::	1
+"me006"::	Mm-hmm.::	0
+"me013"::	Boy, I bet they're all doing::	1
+"me013"::	nearly perfectly on this, right? So these - these big categories that differ in huge obvious ways, we already know how to do.::	1
+"me006"::	Mm-hmm.::	0
+"me013"::	So, what are we bringing to the party? I mean, in  fact  what we wanna do is have something that, particularly in the presence of noise,::	0
+"me013"::	uh, is better at distinguishing between, uh, categories that are actually  close  to one another,::	0
+"me013"::	and hence, would probably be  clustered  together.::	0
+"me006"::	Mmm.::	0
+"me013"::	So  that's  th-  that's  the  hard  thing. I mean, I understand that there's this other::	0
+"me013"::	constraint that you're considering, is that you wanna have categories that, uh - that would be straightforward for, say, a human being to mark if you had manual annotation.::	0
+"me013"::	And it's something that you really think you can pick up. But::	0
+"me013"::	I think it's also essential that you wanna look at what are the   confusions::	0
+"me006"::	Mm-hmm.::	0
+"me013"::	that you're making and how can you come up with, uh,  categories  that, uh, can  clarify  these  confusions.::	0
+"me006"::	Hmm.::	0
+"me013"::	So, I mean, the  standard  sort of way of doing that is take a look at the algorithms you're looking at, but then throw in some discriminative aspect to it.::	0
+"me013"::	Y- y- this is more like, you know, how does L_D_A differ from P_C_A?::	0
+"me013"::	I mean, they're the same sort of thing. They're both orthogonalizing. But,::	0
+"me006"::	Right.::	0
+"me013"::	you know - and - and, um,::	0
+"me013"::	this is a little  harder  because you're not just trying to find  parameters.  You're actually trying to find the - the - the - the categories  themselves.::	0
+"me013"::	Uh, so a little more like brain surgery, I think  on yourself.  Uh.  So, uh  Um, anyway.::	0
+"me006"::	Yeah.::	0
+"me013"::	That's my  thought.::	0
+"me006"::	O_K.::	0
+"me013"::	You've been thinking about this problem for a  long  time actually. I mean, well -::	0
+"me018"::	Yeah.::	0
+"me013"::	W- actually, you stopped thinking about it for a long time, but you  used  to think about it  a lot. And you've been thinking about it more now, these categories.  Mm-hmm.::	0
+"mn052"::	Yeah.::	0
+"me018"::	Yeah. I guess -::	0
+"me018"::	I don't - I don't - um, it's not clear to me how to reconcile, you know, what you're saying, which I think is right, with::	0
+"me018"::	the way I've been looking at it. That it's - it's - it's all not very clear to me. But::	0
+"me018"::	it seems to me that the desire - the desirable feature to have is something that, um,::	0
+"me018"::	is bottom-up. You know, however we do that. And::	0
+"me013"::	Mm-hmm.::	0
+"me018"::	and so::	0
+"me018"::	I guess what I don't understand is how to do that::	0
+"me018"::	and still be discriminative, because to be discriminative you have to have categories::	0
+"me013"::	Right.::	0
+"me018"::	and the only categories that we know of to use are sort of these human - human sig- significant - categories that are significant to humans, like phonemes, things like that. But that's sort of what you want to  avoid.  And so::	0
+"me013"::	Well, here's a - here's a, uh, uh::	0
+"me018"::	that feels - I don't know how to get out of this.::	0
+"me013"::	Here's a generic and possibly useless thought, which is,::	0
+"me013"::	um, what do you  really  - I mean, in a sense the only s- s- systems that make sense,::	0
+"me013"::	uh,::	0
+"me013"::	are ones that - that have something from top-down in th- in them.::	0
+"me013"::	Right? Because if e- even the smallest organism that's trying to learn to do anything, if it doesn't have any kind of  reward::	0
+"me013"::	for doing - or penal-  penalty  for doing anything, then it's just going to behave randomly.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	So whether you're talking about something being learned through evolution or being learned through experience, it's  gotta  have something come down to it that gives its reward or, you know, at  least  some reinforcement learning, right?::	0
+"me018"::	Right.::	0
+"me018"::	So the question is, how  far  down?::	0
+"me013"::	And::	0
+"me018"::	We could stop at words, but we don't, right? We go all the way down to phonemes.::	0
+"me013"::	Right, but I me- I - I think that maybe in some ways part of the difficulty is - is trying to deal with the - with these phonemes.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	You know, and - and - and i- it's almost like you want  categories  if - if our - if our, uh, um,::	0
+"me013"::	metric of - of goodness, uh, i- if our - correction - if our metric of  badness   is word error rate::	0
+"me013"::	then, um, maybe we should be looking at words.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	I mean, for - for - for very nice, uh, reasons we've looked for a while at syllables, and they have a lot of good properties, but::	0
+"me013"::	i- i- i- if you go all the way to  words,  I mean, that's  really  - I mean, d- w-::	0
+"me013"::	In many applications you wanna go  further.  You wanna go to  concepts  or something, or have - have - have concepts, actions, this sort of thing. But, words aren't bad, yeah. And - and::	0
+"me018"::	Yeah.::	0
+"me018"::	But words would be a nice -::	0
+"me018"::	Yeah, so the common - right, the common wisdom is you can't do  words  because there's too many of them, right? So you have to have some smaller set that you can::	0
+"me018"::	use, uh,::	0
+"me018"::	and - and so everybody goes to  phonemes.  But the problem is that we - we build models of words in terms of  phonemes  and these models are -::	0
+"me018"::	are  really  cartoon-ish, right? So when you look at conversational speech, for example, you don't see the phonemes that you - that you have in your  word  models.::	0
+"me013"::	Yeah.::	0
+"me013"::	But - but - but we're not trying for  models  of words here. See, so her- here's maybe where - If the issue is that we're trying to come up with, um, some sort of intermediate categories which will then be useful::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	for later stuff, uh,::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	then  maybe it doesn't  matter::	0
+"me013"::	that we can't have enough -::	0
+"me013"::	I mean,::	0
+"me013"::	what you wanna do is - is build up these categories that are - that are best for word recognition.::	0
+"me018"::	Right.::	0
+"me018"::	Right.::	0
+"me013"::	And - and somehow if that's built into the loop of what the categories - I mean, we do this every day::	0
+"me018"::	Ah.::	0
+"me013"::	in this very  gross  way of - of running o- a thousand experiments because we have fast computers and picking the thing that has the best word error rate.::	0
+"me018"::	Right.::	0
+"me018"::	Yeah.::	0
+"me013"::	In some way - I mean, we derive that all the time. In some ways it's really not  a bad - bad thing to do because it tells you in fact how your adjustments at the very low level affect the -::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	the final goal.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	Um, so maybe there's a way to even put that in in a much more automatic way, where you take, you know, something about the error at the level of the word or some other - it could be syllable - but in some large unit,::	0
+"me018"::	Right.::	0
+"me018"::	Uh-huh.::	0
+"me013"::	uh, and::	0
+"me013"::	uh - yeah, you may not have word models, you have phone models, whatever, but you sort of  don't worry about that,::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	and just somehow feed it back through. You know, so that's, uh, wh- what I called a useless comments because I'm not really telling you how to do it. But I mean, it's a -  it's - it's, you know - it::	0
+"me018"::	No, but I think the important part in there is that, you know, if you want to be discriminative, you have to have::	0
+"me018"::	uh, you know,  categories.::	0
+"me013"::	Right.::	0
+"me018"::	And I think this - the important categories are the words,::	0
+"me013"::	Yeah.::	0
+"me018"::	and  not the phones.::	0
+"me013"::	Yeah.::	0
+"me018"::	Maybe.  And so -::	0
+"me018"::	Right. If you can put the words in to the loop somehow for determining goodness of your sets of clusters -::	0
+"me018"::	Uh -::	0
+"me013"::	Now, that being said, I think that - that if you have something that is, um - i-::	0
+"me013"::	Once you start dealing with spontaneous speech, all the things you're saying are - are really true.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	If you  have  read  speech that's been manually annotated, like TIMIT,::	0
+"me018"::	Yeah.::	0
+"me013"::	then, you know, i- i- you- the phones are gonna be right, actually,  for the most part. So - so, uh, it doesn't really hurt  them   to -::	0
+"me018"::	Yeah, yeah.::	0
+"me013"::	to do that, to put in discrimination at that level.::	0
+"me013"::	Um, if you go to spontaneous speech then it's - it's trickier and - and - and, uh, the phones are -::	0
+"me013"::	uh, you know, it's gonna be based on bad pronunciation models that you have of - and, um -::	0
+"me018"::	Mmm.::	0
+"me013"::	And it won't allow for the overlapping phenomenon that -::	0
+"me018"::	So it's almost like there's this mechanism that we have that, you know, when - when we're hearing read speech and all the phonemes are there::	0
+"me018"::	you know, we - we deal with that, but - but when we go to conversational, and then all of a sudden::	0
+"me018"::	not all the phonemes are there, it doesn't really matter that much to us as humans because we have some kind of mechanism that allows for::	0
+"me018"::	these word models, whatever those models are, to be  munged, you know, and - and it doesn't really hurt, and::	0
+"me018"::	I'm not sure how -  how to build that in.::	0
+"me018"::	Uh.::	0
+"me013"::	Yeah, I mean, I guess the other thing i- is - is to think of a little bit - I mean, we- when y- when you start looking at these kind of results I think it usually is - is  pretty   intuitive,  but start looking at::	0
+"me013"::	um, what are the kinds of confusions that you  do  make, uh, you know, between words if you want or - or - or, uh, even phones in - in - in - in read speech, say,::	0
+"me013"::	uh, when there is noise.::	0
+"me013"::	You know, so is it more across place or more across manner? Or is it cor- you know, is it - ? I mean, I know one thing that happens is that you - you - you, uh,::	0
+"me006"::	Mm-hmm.::	0
+"me013"::	you lose the, um, uh, low energy phones.::	0
+"me013"::	I mean, if there's added noise then low energy phones  sometimes don't get heard.::	0
+"me013"::	And if that - if that is - if it - uh, if that turns it into another word or - or different - you know, or another pair of words or something, then it's more likely to happen. But, um,::	0
+"me006"::	Mm-hmm.::	0
+"me013"::	I don't know, I w- I would - I would  guess  that you'd -::	0
+"me013"::	W- I don't know. Anyway, that's -::	0
+"me018"::	I think part of the difficulty is that a l- a lot of the robustness that we have is probably::	0
+"me018"::	coming from a much higher level. You know, we understand the context of the situation when we're having a conversation. And so if there's noise in there, you know, our brain fills in and  imagines  what - what  should  be there.::	0
+"me013"::	Mm-hmm.::	0
+"me006"::	Yeah. We're - we're doing some sort of  prediction  of what -::	0
+"me013"::	Well that -::	0
+"me018"::	Yeah, exactly.::	0
+"me013"::	Oh, sure, that's really big. Uh, but I mean, even if you do::	0
+"me006"::	Yeah.::	0
+"me013"::	um, uh, diagnostic rhyme test kind of things, you know, where there really isn't an- any information like that, uh, people are still better in noise::	0
+"me013"::	than they - than they are in - in, uh - uh, than the machines are.::	0
+"me018"::	Hmm.::	0
+"me013"::	So, I mean, that's - i-::	0
+"me013"::	Right. We can't - we can't get it at all without any language models. Language models are there and important but - but, uh -::	0
+"me013"::	Uh.::	0
+"me013"::	If we're not working on that then  we should work on something else and improve it, but - especially if it looks like the potential is there. So -::	0
+"me013"::	Should we do some digits?::	0
+"me018"::	Yeah.::	0
+"me013"::	Since we're here?::	0
+"me018"::	Go ahead, Morgan.::	0
+"me013"::	O_K.::	0
+"me018"::	O_K.::	0
+"me013"::	That's all folks.::	0

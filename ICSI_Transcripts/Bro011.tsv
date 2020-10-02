@@ -1,0 +1,1179 @@
+"me013"::	-st.::	0
+"me013"::	Am I on? I guess so.::	0
+"me013"::	Radio two.::	0
+"me013"::	Hmm.::	0
+"me013"::	Radio two.::	0
+"me006"::	Hello?::	0
+"me018"::	Video killed the radio star.::	0
+"me013"::	Wow.::	0
+"me006"::	Mm-hmm.::	0
+"me006"::	Hi?::	0
+"me018"::	Blow into it, it works really well.::	0
+"me026"::	Channel B_.::	0
+"me013"::	People say the strangest things when their microphones are on.::	0
+"fn002"::	Channel four.::	0
+"fn002"::	Test.::	0
+"fn002"::	O_K.::	0
+"mn007"::	Uh-oh.::	0
+"mn007"::	Radio four.::	0
+"me006"::	Hello?::	0
+"fn002"::	Today's::	0
+"me013"::	So everybody- everybody's on? Yeah.::	0
+"me013"::	So y- you guys had a - a meeting with uh -::	0
+"me013"::	with Hynek which I unfortunately had to miss.::	0
+"me013"::	Um::	0
+"mn007"::	Mmm.::	0
+"me013"::	and uh somebody::	0
+"me013"::	eh e-::	0
+"me013"::	and uh I guess Chuck you weren't there either, so the- uh::	0
+"me018"::	I  was there.::	0
+"me013"::	Oh you  were  there?::	0
+"me018"::	With Hynek?::	0
+"me013"::	Yeah.::	0
+"me018"::	Yeah.::	0
+"me013"::	So everybody knows what happened except me.::	1
+"me013"::	O_K.::	0
+"me013"::	Maybe somebody should tell me.::	0
+"mn007"::	Oh yeah.::	0
+"mn007"::	Alright.::	0
+"mn007"::	Well.  Uh  first  we discussed about some of the points::	1
+"mn007"::	that I was addressing in the mail I sent last week.::	1
+"me013"::	Uh-huh.::	0
+"mn007"::	So.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	About the um,  well  -::	1
+"mn007"::	the downsampling problem.::	1
+"me013"::	Yeah.::	0
+"mn007"::	Uh and about the f- the length of the filters::	1
+"mn007"::	and -::	0
+"mn007"::	Yeah.::	0
+"me013"::	What was the - w- what was the downsampling problem again? I forget.::	0
+"mn007"::	So we had -::	0
+"mn007"::	So the fact that there - there is no uh low-pass filtering before the downsampling.::	0
+"mn007"::	Well.::	0
+"me013"::	Uh-huh.::	0
+"mn007"::	There  is  because there is L_D_A  filtering  but::	0
+"mn007"::	that's perhaps not::	0
+"mn007"::	uh the best w- m-  Well.::	0
+"me013"::	Depends what it's::	0
+"me013"::	frequency characteristic is, yeah.::	0
+"mn007"::	Mm-hmm.::	0
+"fn002"::	System on::	0
+"me013"::	So you  could  do a - you could do a  stricter  one.::	0
+"me013"::	Maybe. Yeah.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	So we discussed about  this,  about the um -::	0
+"me013"::	Was there any conclusion about that?::	0
+"mn007"::	Uh "try it". Yeah.::	1
+"me013"::	I see.::	0
+"mn007"::	I guess.::	0
+"mn007"::	Uh.::	0
+"me013"::	Yeah. So again this is th- this is the downsampling::	0
+"me013"::	uh of the uh - the feature vector stream::	0
+"me013"::	and::	0
+"me013"::	um::	0
+"me013"::	Yeah I guess the -::	0
+"me013"::	the uh L_D_A filters they were doing do have::	0
+"me013"::	um::	0
+"me013"::	uh let's see, so the - the -::	0
+"me013"::	the feature vectors are calculated every ten milliseconds so::	0
+"me013"::	uh the question is how far down they are at fifty - fifty hertz. Uh.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	Um.::	0
+"me013"::	Sorry at twenty- five  hertz since they're downsampling by two.::	0
+"me013"::	So. Does anybody  know  what the::	0
+"me013"::	frequency characteristic is?::	0
+"mn007"::	We don't have yet::	0
+"me013"::	Oh O_K.::	0
+"mn007"::	um::	0
+"mn007"::	So, yeah.::	0
+"me013"::	O_K.::	0
+"mn007"::	We should have a look first at, perhaps,::	1
+"me013"::	Yeah.::	0
+"mn007"::	the modulation spectrum.::	1
+"mn007"::	Um.::	0
+"mn007"::	So there is  this,::	0
+"mn007"::	there is::	0
+"mn007"::	the um length of the  filters.::	0
+"mn007"::	Um.::	1
+"mn007"::	So the i- this idea of trying to find filters with shorter delays.::	1
+"mn007"::	Um.::	1
+"me013"::	Hmm-hmm.::	0
+"mn007"::	We started to work with this.::	1
+"mn007"::	Mmm.::	0
+"mn007"::	And the third point um::	1
+"mn007"::	was the um,::	1
+"mn007"::	yeah,::	1
+"mn007"::	the on-line normalization where,::	1
+"mn007"::	well, the recursion f-::	1
+"mn007"::	recursion for the mean estimation::	0
+"mn007"::	is a filter with some kind of delay::	1
+"me013"::	Yeah.::	0
+"mn007"::	and that's not taken into account right now.::	0
+"mn007"::	Um.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	And there again,  yeah.::	0
+"mn007"::	For this, the conclusion of Hynek was,  well,::	1
+"mn007"::	"we can  try  it but -"::	1
+"me013"::	Uh-huh.::	0
+"mn007"::	Um.::	0
+"me013"::	Try - try what?::	0
+"mn007"::	So try::	0
+"mn007"::	to um::	0
+"mn007"::	um::	0
+"mn007"::	take into account the delay of the recursion for the mean estimation.::	0
+"me013"::	O_K.::	0
+"mn007"::	Mmm.::	0
+"mn007"::	And this - we've not uh worked on this yet.::	0
+"mn007"::	Um,  yeah.::	0
+"mn007"::	And so while discussing about these - these L_D_A filters,::	0
+"mn007"::	some i- issues appeared, like::	0
+"mn007"::	well,::	0
+"mn007"::	the fact that::	0
+"mn007"::	if we look at the frequency response of these filters it's::	0
+"mn007"::	uh,::	0
+"mn007"::	well,  we don't  know  really what's the important part::	0
+"mn007"::	in the frequency response and there is the fact that::	0
+"mn007"::	in the very low frequency,::	0
+"mn007"::	these filters don't - don't::	0
+"mn007"::	really remove a lot.::	0
+"mn007"::	compared to the -::	0
+"mn007"::	to the uh standard RASTA filter.::	0
+"mn007"::	Uh and that's::	0
+"mn007"::	probably a reason why,  yeah,  on-line normalization helps because::	0
+"me013"::	Right.::	0
+"mn007"::	it - it,  yeah,  it removed this mean.::	0
+"mn007"::	Um.::	0
+"mn007"::	Yeah,  but perhaps everything could -::	0
+"mn007"::	should be -::	0
+"mn007"::	could be in the  filter,  I mean,::	0
+"mn007"::	uh the - the mean normalization and -::	0
+"mn007"::	Yeah.  So.::	0
+"mn007"::	Yeah.  So basically that was -::	1
+"mn007"::	that's::	0
+"mn007"::	all we discussed about. We discussed about::	1
+"mn007"::	good things to do also uh::	0
+"mn007"::	well,   generally  good stuff::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	to do for the research.::	0
+"mn007"::	And this was this L_D_A uh tuning perhaps and::	0
+"mn007"::	Hynek proposed again to::	0
+"mn007"::	his uh TRAPS, so.::	0
+"me013"::	O_K.::	0
+"mn007"::	Yeah, um.::	0
+"me013"::	I mean I g- I guess the key thing for me is -::	1
+"me013"::	is figuring out how to better coordinate between the two sides cuz - because um::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	uh I was talking with Hynek about it later and the - the - sort of had::	1
+"me013"::	the sense sort of that - that neither group of people wanted to - to  bother  the other::	0
+"me013"::	group too much.::	1
+"me013"::	And - and I don't think anybody is, you know,::	0
+"me013"::	closed in in their::	0
+"me013"::	thinking or are unwilling to  talk  about things but I think that::	1
+"me013"::	you were sort of::	0
+"me013"::	waiting for them to::	0
+"me013"::	tell you that they had something for you and - and that -::	1
+"me013"::	and expected::	0
+"me013"::	that they would do certain things and they were sor- they didn't wanna bother  you  and::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	they were sort of waiting for you and - and - and uh we ended up with this thing where they -::	1
+"me013"::	they were filling up::	0
+"me013"::	all of the::	0
+"me013"::	possible latency themselves, and they just had-::	1
+"me013"::	hadn't thought of that. So.::	0
+"me013"::	Uh.::	0
+"mn007"::	Yeah.  Well, but. Yeah.::	0
+"mn007"::	Yeah.::	0
+"me013"::	I mean it's true that maybe - maybe no one really thought about that - that this latency thing would be such a - a strict issue::	0
+"mn007"::	Well -::	0
+"me013"::	in - in uh -::	0
+"me013"::	the other -::	0
+"mn007"::	Yeah I don't know what happened really, but::	0
+"me013"::	Yeah.::	0
+"mn007"::	I guess it's - it's also so uh::	0
+"mn007"::	the time constraints. Because,::	0
+"mn007"::	well, we discussed about that - about this problem and::	0
+"mn007"::	they told us "well, we will do::	0
+"mn007"::	all that's possible to have enough space for a network"::	0
+"mn007"::	but then,  yeah,::	0
+"me013"::	Then they couldn't.::	0
+"mn007"::	perhaps they were::	0
+"mn007"::	too short with the time and::	0
+"me013"::	I see.::	0
+"mn007"::	uh  yeah.::	1
+"mn007"::	But there was also problem -::	0
+"mn007"::	perhaps a problem of communication. So,  yeah.::	1
+"mn007"::	Now we will try to -::	1
+"me013"::	Just talk more.::	1
+"mn007"::	Yeah,  slikes  and send mails.::	0
+"mn007"::	u- s- o- o-::	0
+"me013"::	Yeah.::	0
+"mn007"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"mn007"::	Uh.::	0
+"mn007"::	O_K .::	0
+"me013"::	So there's um -::	0
+"me013"::	Alright. Well maybe we should just::	0
+"me013"::	uh I mean you're - you're bus- other than that you::	0
+"me013"::	folks are busy doing all the - all the things that you're trying that we talked about before right? And this - machines are busy and::	0
+"me013"::	you're busy and::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Basically.::	0
+"me013"::	Yeah.::	0
+"me013"::	O_K.::	0
+"mn007"::	Um.::	0
+"me013"::	Oh.::	0
+"me013"::	Let's - let's, I mean, I think that::	1
+"me013"::	as - as we said before that::	0
+"me013"::	one of the things that we're imagining is that uh there -::	0
+"me013"::	there will be::	0
+"me013"::	uh in the system we end up with there'll be something to explicitly uh uh::	0
+"me013"::	do something about noise::	1
+"me013"::	in addition to the::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	uh other things that we're talking about::	0
+"me013"::	and that's probably the best thing to do. And there  was  that one  email  that said that::	0
+"me013"::	it sounded like uh uh things looked very promising up there::	0
+"me013"::	in terms of uh I think they were using Ericsson's::	1
+"me013"::	approach or something and::	1
+"me013"::	in addition to -::	0
+"me013"::	They're doing some noise removal thing, right?::	0
+"mn007"::	Yeah, yeah.::	0
+"mn007"::	So yeah we're - will start to do  this  also.::	0
+"me013"::	Yeah.::	0
+"mn007"::	Uh so Carmen is just looking at the  Ericsson   - Ericsson code.::	1
+"fn002"::	Yeah. We modif-::	0
+"me013"::	Mm-hmm.::	0
+"fn002"::	Yeah, I modified it - well, modifying -::	1
+"mn007"::	And::	0
+"fn002"::	I studied Barry's  sim code , more or less.::	0
+"fn002"::	to take  @@  the first step the spectral  subtraction.::	1
+"fn002"::	and we have some - the feature for Italian database::	0
+"fn002"::	and we will try with this feature with the filter::	0
+"me013"::	Mm-hmm.::	0
+"me013"::	Mm-hmm.::	0
+"fn002"::	to find the result. But we haven't result until this moment.::	1
+"me013"::	Yeah, sure.::	0
+"fn002"::	But well, we are working in this also and maybe try another type of spectral subtraction, I don't -::	1
+"me013"::	Yeah.::	0
+"me013"::	When you say you don't have a result yet you mean it's - it's just that it's in process or that you -::	0
+"me013"::	it finished and it didn't get a good result?::	0
+"fn002"::	No.::	0
+"fn002"::	No, no n- we have n- we have do the experiment::	0
+"fn002"::	only have the feature - the feature but::	0
+"mn007"::	Yeah.::	0
+"fn002"::	the experiment have::	0
+"fn002"::	we have not make the experiment and::	0
+"me013"::	Oh.::	0
+"me013"::	O_K.::	0
+"fn002"::	maybe will be good result or bad result, we don't know.::	0
+"me013"::	Yeah.::	0
+"mn007"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"me013"::	O_K.::	0
+"me013"::	So um I suggest actually now we - we -::	1
+"me013"::	we sorta move on and - and hear what's -::	0
+"me013"::	what's - what's::	0
+"me013"::	happening in - in other areas like::	1
+"me013"::	what's - what's happening with your::	0
+"me013"::	investigations::	0
+"me026"::	Oh um::	0
+"me013"::	about echos and so on.::	1
+"me026"::	Well um::	1
+"me026"::	I haven't started writing the test yet, I'm meeting with Adam today::	1
+"me013"::	Mm-hmm.::	1
+"me026"::	um and he's going t- show me the scripts he has for um::	1
+"me026"::	running recognition on mee- Meeting Recorder digits.::	1
+"me013"::	Mm-hmm.::	0
+"me026"::	Uh::	0
+"me026"::	I also um::	0
+"me026"::	haven't got the code yet, I haven't  asked  Hynek for - for the - for his code yet.::	1
+"me026"::	Cuz I looked at uh Avendano's thesis and::	1
+"me026"::	I don't really understand what he's doing yet but it -::	1
+"me026"::	it - it sounded like um::	0
+"me026"::	the channel normalization::	0
+"me026"::	part::	0
+"me026"::	um::	0
+"me026"::	of his thesis um::	0
+"me026"::	was done in a - a bit of::	0
+"me026"::	I don't know what::	0
+"me026"::	the word is, a - a bit of a rough way um::	1
+"me026"::	it sounded like he um::	0
+"me026"::	he - he - it - it wasn't really fleshed out and maybe he did something that was::	1
+"me026"::	interesting for the test situation::	1
+"me026"::	but I - I'm not sure if it's::	1
+"me026"::	what I'd wanna use so I have to - I have to read it more, I don't really understand what he's doing yet.::	1
+"me013"::	O_K.::	0
+"fn002"::	It's my::	0
+"me013"::	Yeah I haven't read it in a while so I'm not gonna be too much help unless I read it again, so.::	0
+"mn007"::	Oh yeah?::	0
+"fn002"::	I know this is mine here.::	0
+"me013"::	O_K.::	0
+"me013"::	Um.::	0
+"me013"::	The um -::	0
+"me013"::	so you, and then::	0
+"me013"::	you're also gonna be doing this echo cancelling between the -::	0
+"me013"::	the close mounted and the -::	0
+"me013"::	and the - the - the -::	0
+"me013"::	what we're calling a cheating experiment::	0
+"me013"::	uh of sorts::	0
+"me026"::	Uh I-::	0
+"me013"::	between the distant -::	0
+"me026"::	I'm ho-::	0
+"me026"::	Right. Well -::	0
+"me026"::	or I'm hoping -::	0
+"me026"::	I'm hoping Espen will do it.::	0
+"me026"::	Um::	0
+"me013"::	Ah!::	0
+"me013"::	O_K.::	0
+"me026"::	u-::	0
+"me013"::	F- um::	0
+"me013"::	Delegate.::	0
+"me013"::	That's  good.::	0
+"me013"::	It's good to delegate.::	0
+"me026"::	I - I think he's at least::	0
+"me026"::	planning to do it for the::	0
+"me026"::	cl- close-mike cross-talk and so maybe I can just take whatever setup he has and use it.::	0
+"me013"::	Great.::	0
+"me013"::	Great.::	0
+"me013"::	Yeah actually um::	0
+"me013"::	he should uh::	0
+"me013"::	I wonder who else is::	0
+"me013"::	I think maybe it's Dan Ellis is going to be doing uh a  different  cancellation. Um.::	0
+"me013"::	One of the things that::	0
+"me013"::	people working in the meeting task wanna get at::	0
+"me013"::	is they would like to have cleaner::	0
+"me013"::	close-miked  recordings.::	0
+"me013"::	So uh this is  especially  true for the  lapel   but even for the close - close-miked::	0
+"me013"::	uh cases::	0
+"me013"::	um we'd like to be able to have::	0
+"me013"::	um::	0
+"me013"::	other sounds from::	0
+"me013"::	other people and so forth  removed  from - So when someone  isn't  speaking you'd like the part where they're not speaking to actually be -::	0
+"me013"::	So::	0
+"me013"::	what they're talking about doing is using ec-::	0
+"me013"::	uh::	0
+"me013"::	echo cancellation-like::	0
+"me013"::	techniques.  It's not really  echo  but::	0
+"me013"::	uh just um::	0
+"me013"::	uh::	0
+"me013"::	taking the input from other mikes and using uh::	0
+"me013"::	uh::	0
+"me013"::	a uh -::	0
+"me013"::	an adaptive filtering approach to remove the effect of that::	0
+"me013"::	uh  other  speech.::	0
+"me013"::	So.::	0
+"me013"::	Um what was it, there was - there was some - some -::	0
+"me013"::	some point where::	0
+"me013"::	eh uh Eric or somebody was - was speaking and he had lots of::	0
+"me013"::	silence in his channel and I was saying something to somebody else uh::	0
+"me013"::	which was in the background and it was not -::	0
+"me013"::	it was recognizing  my  words,::	0
+"me013"::	which were the  background  speech::	0
+"me026"::	Hmm.::	0
+"me013"::	on the close -::	0
+"me013"::	close  mike.::	0
+"me018"::	Oh the - What we talked about yesterday? Yeah that was actually my -  I  was wearing the -::	0
+"me013"::	Yes.::	0
+"me013"::	Oh you - it was  you  I was::	0
+"me018"::	I was wearing the  lapel  and you were sitting  next  to me,::	0
+"me013"::	Yeah.::	0
+"me018"::	and I only said one  thing  but  you  were talking and it was picking up all your words.::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"me013"::	So they would like clean channels.::	0
+"me013"::	Uh and for that -::	0
+"me013"::	mmm uh -::	0
+"me013"::	that purpose uh::	0
+"me013"::	they'd like to pull it out.::	0
+"me013"::	So I think -::	0
+"me013"::	I think Dan Ellis or somebody who was working with him was going to uh::	0
+"me013"::	work on that.::	0
+"me013"::	So.::	0
+"me013"::	O_K.::	0
+"me013"::	Right?::	0
+"me013"::	Um.::	1
+"me013"::	And uh I don't know if we've talked lately about::	0
+"me013"::	the - the plans you're developing that we talked about this morning::	1
+"me013"::	uh::	0
+"me013"::	I don't remember if we talked about that last week or not, but::	0
+"me013"::	maybe just a quick reprise of - of what we::	0
+"me006"::	Yeah.::	0
+"me006"::	O_K.::	0
+"me013"::	were saying this morning. Uh.::	0
+"me006"::	Um.::	1
+"me006"::	So continuing to um extend::	1
+"me006"::	uh::	0
+"me006"::	Larry Saul's work um just reading - reading how - how we can take::	0
+"me006"::	that as a front-end cuz it - it detects these features and  they  plug it into um back-end so I've been looking at a lot of::	0
+"me006"::	um back-end stuff people have been doing articulatory features::	0
+"me006"::	and seeing - seeing what I can -::	0
+"me006"::	what I can pull off the shelf and plug into um Larry Saul's work.::	0
+"me018"::	What about the stuff that um::	0
+"me018"::	Mirjam::	0
+"me018"::	has been doing?::	0
+"me006"::	Oh yeah, sh-::	0
+"me018"::	And -::	0
+"me006"::	And Shawn?::	0
+"me018"::	and S- Shawn, yeah.::	0
+"me006"::	Yeah. They're - they're doing uh neural nets, just - just training up a whole bunch of neural nets and::	0
+"me018"::	Oh.::	0
+"me006"::	I - I think they're trying to understand um::	0
+"me006"::	what's good::	0
+"me006"::	about neural nets in - in terms of, you know, their patterns of errors and::	0
+"me018"::	So they're training up nets to try to recognize these acoustic features?::	1
+"me006"::	Yeah.::	0
+"me018"::	I see.::	0
+"me006"::	Yeah.::	0
+"me013"::	But that's uh uh all - that's -  is  a - a certainly relevant::	1
+"me013"::	uh  study  and, you know, what are the features that they're finding.::	1
+"me013"::	We have this problem with the overloading of the term "feature"  so::	0
+"me018"::	Yeah.::	0
+"me013"::	uh  what are the  variables,::	0
+"me013"::	what we're calling this one, what are the  variables  that they're found - finding useful::	0
+"mn007"::	Hmm.::	0
+"me013"::	um for -::	0
+"me018"::	And their - their targets are based on::	0
+"me018"::	canonical mappings of phones to::	0
+"me018"::	acoustic f-::	0
+"me013"::	Right. And that's certainly one thing to do and we're gonna try and do something more f- more fine than that::	0
+"me018"::	features.::	0
+"me013"::	but uh::	0
+"me013"::	um::	0
+"me013"::	so::	0
+"me013"::	um::	0
+"me013"::	So I guess you know what, I was trying to remember some of the things we were saying,::	0
+"me013"::	do you ha- still have that - ?::	0
+"me006"::	Oh yeah.::	0
+"me013"::	Yeah.::	0
+"me013"::	There's those::	0
+"me013"::	that uh::	0
+"me013"::	yeah, some of - some of the issues we were talking about was in j-::	0
+"me013"::	just::	0
+"me013"::	getting a good handle on -::	0
+"me013"::	on uh::	0
+"me013"::	what "good features" are and -::	0
+"me018"::	What does - what did um Larry Saul use for - it was the sonorant::	0
+"me018"::	uh detector, right?::	0
+"me006"::	He di- he did uh yeah.::	0
+"me018"::	How did he -::	0
+"me018"::	H- how did he do that? Wh- what was his detector?::	0
+"me006"::	We- oh.::	0
+"me006"::	Um yeah, it was uh sonorance and he also had a paper on voicing too.::	0
+"me018"::	Mm-hmm.::	0
+"me006"::	Um and basically um::	0
+"me006"::	in  his variables that he used::	0
+"me006"::	um or measures of S_N_R at - at sub-bands. Actually critical bands like::	0
+"me018"::	Mm-hmm.::	0
+"me006"::	um the um measures of correlation and covariance::	0
+"me018"::	Oh, O_K.::	0
+"me006"::	um within the sub-bands and um and at the upper level detecting uh sonorance and voicing.::	0
+"me018"::	Mm-hmm.::	0
+"me018"::	So how did he combine all these features? What - what r- mmm::	0
+"me006"::	Oh.::	0
+"me018"::	classifier did he u-::	0
+"me006"::	Um he used uh um uh::	0
+"me006"::	a - a belief-net::	0
+"me006"::	where the lower levels of the belief-net are - correspond to individual tests of::	0
+"me006"::	whether there is sonorance within this critical band::	0
+"me018"::	Hmm.::	0
+"me006"::	and then at an upper-level um there's like this soft "OR" gate so if -::	0
+"me018"::	Oh right. You were talking about that, yeah.::	0
+"me006"::	so if yeah. Yeah.::	0
+"me018"::	I see.::	0
+"me013"::	And the other thing you were talking about is - is - is where we get the  targets  from.::	0
+"me013"::	So I mean, there's these issues of what are the - what are the variables that you use::	1
+"me013"::	and::	1
+"me013"::	do you  combine  them using the soft "AND-OR" or you do something, you know, more complicated::	1
+"me013"::	um::	0
+"me013"::	and then the other thing was so where do you get the targets from?::	0
+"me013"::	The initial thing is just the obvious that::	0
+"me013"::	we're  discussing  is::	0
+"me013"::	starting up with phone labels::	0
+"me013"::	from  somewhere  and then::	0
+"me013"::	uh doing the transformation.::	0
+"me013"::	But then the other thing is to do something better and eh w-::	1
+"me013"::	why don't you tell us again about this - this database?::	1
+"me013"::	This is the -::	0
+"me006"::	Oh O_K. Um::	0
+"me006"::	Yeah, so there's uh a group at um Edinburgh::	0
+"me006"::	is working on um  this MOCHA database where::	0
+"me006"::	um they have measurements of um articulatory positions. So you - you put some - some pellets on people's tongues and lips::	0
+"me018"::	Hmm!::	0
+"me006"::	and - and they can tell::	0
+"me013"::	And then tell them to talk naturally?::	0
+"me013"::	Yeah, yeah.::	0
+"me006"::	and they::	0
+"me006"::	Well I guess if you got people who had like um::	0
+"me006"::	you know, tongue rings -::	0
+"me018"::	Pierced tongues and::	0
+"me006"::	Pierced tongues, or -::	0
+"me018"::	Yeah.::	0
+"me018"::	You could just mount it to  that  and they wouldn't even  notice.::	0
+"me006"::	Yeah it  doesn't matter .::	0
+"me006"::	Yeah.::	0
+"me018"::	Weld it. Zzz.::	0
+"me006"::	But I - I don't - I don't think they're doing that though.::	0
+"me013"::	Maybe you could go to these  parlors  and - and you could, you know -  you know  have - have, you know, reduced rates if you -::	0
+"me018"::	Yeah. I-::	0
+"me013"::	if you can do the measurements.::	0
+"me018"::	That's right.::	0
+"me018"::	You could - what you could  do  is you could sell little  rings  and stuff with embedded::	0
+"me013"::	Yeah.::	0
+"me018"::	you know,  transmitters  in them and things and::	0
+"me013"::	Yeah, be cool and help science.::	0
+"me006"::	Yeah.::	0
+"me006"::	Ye- cool.::	0
+"me018"::	Yeah.::	0
+"me013"::	O_K.::	0
+"me006"::	Yeah, so they - they - they have this - they're working on the database, it's still - it's still being - being uh transcribed and produced.::	0
+"me006"::	Um where  either  you have um acoustic features at the same or - or just uh the acoustic waveform's being recorded for frame and then::	0
+"me006"::	at each frame you have a measurement of - of the different positions of um uh articulators.::	0
+"me018"::	Hmm!::	0
+"me018"::	There's a bunch of data that l-  around,::	0
+"me018"::	that - people have done studies like that w- way way back right? I mean::	1
+"me018"::	I can't remember where - uh Wisconsin or someplace that used to have a big database of -::	1
+"me006"::	Yeah they have a X_ - X_ray -::	0
+"me018"::	Yeah.::	0
+"me006"::	X_ray database.::	0
+"me006"::	Yeah.::	0
+"me006"::	It's::	0
+"me018"::	I remember there was this guy at A_T_and_T, Randolph? or r-::	0
+"me018"::	What was his name? Do you remember that guy?::	0
+"me018"::	Um,::	1
+"me018"::	researcher at A_T_and_T a while back that was studying,::	0
+"me018"::	trying to do speech recognition from these kinds of features.::	1
+"me006"::	Hmm.::	0
+"me018"::	I can't remember what his name was.::	0
+"me018"::	Dang. Now I'll think of it.::	0
+"me006"::	Hmm.::	0
+"me013"::	Do you mean eh - but you - I mean - Mar- you mean::	1
+"me018"::	That's interesting.::	0
+"mn007"::	Well he was the guy -::	0
+"mn007"::	the guy that was using -::	0
+"me013"::	when::	0
+"me013"::	was - was Mark Randolph there, or - ?::	1
+"me018"::	Mark  Randolph.::	0
+"me013"::	Yeah he's - he's - he's at Motorola now.::	1
+"me018"::	Oh is he? Oh O_K.::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"me018"::	Yeah.::	0
+"mn007"::	Is it the guy that was using the::	1
+"mn007"::	pattern of pressure on the  tongue   or - ?::	1
+"me018"::	I can't remember exactly what he was using, now.::	0
+"me018"::	But I know - I just remember it had to do with you know::	1
+"mn007"::	What -::	0
+"mn007"::	Yeah.::	0
+"me018"::	uh positional::	0
+"me018"::	parameters  and trying to m- you know::	1
+"mn007"::	Mm-hmm.::	0
+"me018"::	do speech recognition based on them.::	1
+"me013"::	Yeah.::	0
+"me013"::	So the only - the only::	1
+"me013"::	uh hesitation  I  had about it since, I mean I haven't see the data is it  sounds  like::	0
+"me013"::	it's - it's::	0
+"me013"::	continuous  variables::	0
+"me013"::	and a  bunch  of them.::	1
+"me018"::	Hmm.::	0
+"me013"::	And so::	0
+"me013"::	I don't know how complicated it is to go from there -::	1
+"me013"::	What you  really  want are these binary  labels,::	1
+"me013"::	and just a few of them.::	1
+"me013"::	And  maybe  there's a trivial mapping if you wanna do it and it's e- but it -::	1
+"me013"::	I - I - I worry a little bit that this is a research project in  itself,::	1
+"me013"::	whereas um::	1
+"me013"::	if you did something instead that - like::	0
+"me013"::	um::	0
+"me013"::	having some manual annotation::	0
+"me013"::	by::	0
+"me013"::	uh you know, linguistics students,::	1
+"me013"::	this would -::	1
+"me013"::	there'd be a limited s-::	0
+"me013"::	set of things that you could  do  a- as per our discussions with - with  John  before::	1
+"me018"::	Mm-hmm.::	0
+"me013"::	but::	0
+"me013"::	the  things  that you  could  do, like nasality and voicing and a couple other things::	0
+"me013"::	you  probably  could do reasonably well.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	And  then  there would - it would  really  be uh this uh::	0
+"me013"::	uh  binary  variable.::	1
+"me013"::	Course then, that's the  other  question is do you  want  binary variables. So.::	1
+"me013"::	I mean the  other  thing you could do is::	0
+"me013"::	boot  trying to -::	0
+"me013"::	to uh::	0
+"me013"::	get  those binary variables::	0
+"me013"::	and take the continuous variables from::	0
+"me013"::	uh::	0
+"me013"::	the uh::	0
+"me013"::	uh the data  itself  there, but::	0
+"me013"::	I - I'm not sure -::	0
+"me018"::	Could you cluster the -::	0
+"me018"::	just do some kind of clustering?::	0
+"me013"::	Guess you could, yeah.::	0
+"me018"::	Bin  them   up into different categories and -::	0
+"me013"::	Yeah.::	0
+"me013"::	So  anyway  that's - that's uh - that's another whole::	0
+"me013"::	direction  that cou- could be looked at.::	0
+"me006"::	Mm-hmm.::	0
+"me013"::	Um.::	0
+"me013"::	Um.::	0
+"me013"::	I mean in  general  it's gonna be - for new data that you look at, it's gonna be hidden variable because we're not gonna get everybody sitting in these meetings to::	0
+"me013"::	wear the pellets and -::	0
+"me006"::	Right.::	0
+"me013"::	Um.::	0
+"me006"::	Right.::	0
+"me013"::	So.::	0
+"me018"::	So you're talking about using that data to get::	0
+"me018"::	uh::	0
+"me018"::	instead of using canonical mappings::	0
+"me006"::	Right.::	0
+"me018"::	of phones. So you'd use that data to give you::	0
+"me018"::	sort of what the -::	0
+"me018"::	the true mappings are for each phone?::	0
+"me006"::	Mm-hmm.::	0
+"me018"::	I see.::	0
+"me006"::	Mm-hmm.::	0
+"me013"::	Yeah.::	0
+"me013"::	So wh- yeah, where this::	0
+"me013"::	fits into the rest in - in  my  mind, I guess, is that um::	0
+"me013"::	we're looking at different::	0
+"me013"::	ways that we can combine::	0
+"me013"::	uh different kinds of -::	0
+"me013"::	of rep-::	0
+"me013"::	front-end representations::	0
+"me013"::	um in order to get robustness under difficult or even,::	0
+"me013"::	you know,::	0
+"me013"::	typical conditions.::	0
+"me013"::	And  part  of it, this robustness, seems to come from::	0
+"me013"::	uh::	0
+"me013"::	multi-stream or multi-band sorts of  things  and Saul seems to have::	0
+"me013"::	a reasonable way of  looking  at it, at least for one -::	0
+"me013"::	one um articulatory feature.::	0
+"me013"::	The  question  is is can we learn from that::	0
+"me013"::	to change some of the other methods we have, since -::	0
+"me013"::	I mean,  one  of the things that's  nice  about what he had I thought was that -::	0
+"me013"::	that it -::	0
+"me013"::	it um -::	0
+"me013"::	the  decision   about  how::	0
+"me013"::	strongly to train the different pieces is based on::	0
+"me013"::	uh a - a reasonable criterion with hidden variables rather than::	0
+"me013"::	um::	0
+"me013"::	just assuming::	0
+"me013"::	that you should train e- e-  every::	0
+"me013"::	detector::	0
+"me013"::	uh::	0
+"me013"::	with equal strength::	0
+"me013"::	towards uh it being this phone or that phone.::	0
+"me018"::	Hmm.::	0
+"me013"::	Right?::	0
+"me013"::	So it - so um::	0
+"me013"::	he's got these::	0
+"me013"::	um::	0
+"me013"::	uh::	0
+"me013"::	uh::	0
+"me013"::	he "AND's" between these different::	0
+"me013"::	features.::	0
+"me013"::	It's a soft "AND", I guess but in - in principle::	0
+"me013"::	you - you wanna get a strong concurrence of all the different things that indicate something::	0
+"me013"::	and then he "OR's" across the different - soft-"OR's" across the different uh::	0
+"me013"::	multi-band  channels.::	0
+"me013"::	And um::	0
+"me013"::	the weight::	0
+"me013"::	yeah, the  target::	0
+"me013"::	for the training of the "AND" - "AND'ed" things::	0
+"me013"::	is something that's kept::	0
+"me013"::	uh as a hidden variable,::	0
+"me013"::	and is learned with E_M.::	0
+"me018"::	So he doesn't have -::	0
+"me013"::	Whereas what  we  were doing is -::	0
+"me013"::	is uh::	0
+"me013"::	taking::	0
+"me013"::	the  phone  target and then just back propagating::	0
+"me013"::	from  that::	0
+"me013"::	which means that it's -::	0
+"me013"::	it's uh::	0
+"me013"::	i- It  could  be for instance::	0
+"me013"::	that::	0
+"me013"::	for a particular::	0
+"me013"::	point in the data::	0
+"me013"::	you don't want to um::	0
+"me013"::	uh::	0
+"me013"::	train a particular band - train the::	0
+"me013"::	detectors for a particular band. You - you wanna  ignore::	0
+"me013"::	that band, cuz that's a - Ban- band is a noisy - noisy measure.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	And we don't -::	0
+"me013"::	We're - we're still gonna try to train it up.::	0
+"me013"::	In  our  scheme we're gonna try to train it up::	0
+"me013"::	to do as  well   - well as it can at  predicting.::	0
+"me013"::	Uh. Maybe that's not the right thing to do.::	0
+"me018"::	So he doesn't have to have::	0
+"me018"::	truth  marks::	0
+"me018"::	or - Ho-::	0
+"me006"::	F- right, and uh he doesn't have to have hard labels.::	0
+"me013"::	Well at the - at the::	0
+"me013"::	tail  end,  yeah,  he has to know what's - where it's  sonorant.::	0
+"me006"::	Right. For the full band.::	0
+"me013"::	But he's - but what he's- but what he's  not  training up - uh what he doesn't::	0
+"me013"::	depend on as truth is::	0
+"me013"::	um::	0
+"me013"::	I guess one way of describing would be::	0
+"me013"::	if -::	0
+"me013"::	if a sound is sonorant::	0
+"me013"::	is it sonorant in  this  band? Is it sonorant in  that  band? Is it sonorant in that band?::	0
+"me006"::	Right.::	0
+"me013"::	i- It's hard to even answer that what you really mean is that the whole  sound  is sonorant. So::	0
+"me018"::	Mm-hmm. O_K.::	0
+"me013"::	then  it comes down to, you know, to what extent should you make use of information from particular band::	0
+"me013"::	towards making your decision.::	0
+"me018"::	I see.::	0
+"me013"::	And um::	0
+"me013"::	uh::	0
+"me013"::	we're making::	0
+"me013"::	in a  sense  sort of this  hard  decision that you should - you should use everything::	0
+"me013"::	uh with -::	0
+"me013"::	with uh equal strength.::	0
+"me013"::	And uh because in the  ideal  case we would be going for posterior  probabilities,  if we had::	0
+"me013"::	uh::	0
+"me013"::	enough data to really get::	0
+"me013"::	posterior probabilities::	0
+"me013"::	and if the - if we also had enough data so that it was representative of the  test  data::	0
+"me013"::	then we would in fact be doing the right  thing  to train everything as hard as we can.::	0
+"me013"::	But um::	0
+"me013"::	this is something that's more built up along an idea of robustness from -::	0
+"me013"::	from the  beginning  and so you don't  necessarily  want to train everything up towards the -::	0
+"me018"::	So where did he get his - uh::	0
+"me018"::	his tar- his::	0
+"me018"::	uh high-level targets about what's sonorant and what's not?::	0
+"me006"::	From uh canonical mappings::	0
+"me018"::	O_K.::	0
+"me006"::	um at first and then::	0
+"me013"::	Yeah.::	0
+"me006"::	it's unclear um eh using TIMIT right, right.::	0
+"me018"::	Using TIMIT? or using -::	0
+"me018"::	Uh-huh.::	0
+"me006"::	And then uh::	0
+"me013"::	Yeah.::	0
+"me006"::	he does some fine tuning::	0
+"me006"::	um::	0
+"me006"::	for um special cases.::	0
+"me006"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"me013"::	I mean we ha- we have a kind of::	0
+"me013"::	iterative training::	0
+"me013"::	because we do this embedded Viterbi,::	0
+"me013"::	uh so there is some-::	0
+"me013"::	something that's suggested,::	0
+"me013"::	based on the data but it's -::	0
+"me013"::	it's not -::	0
+"me013"::	I think it s- doesn't seem like it's quite the same,::	0
+"me013"::	cuz of this - cuz then whatever::	0
+"me013"::	that::	0
+"me013"::	alignment is, it's that for all -::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	all bands. Well no, that's not quite right, we did actually do  them   separate - tried to do them separately::	0
+"me013"::	so that would be a little more like what he did.::	0
+"me013"::	Um.::	0
+"me013"::	But it's still::	0
+"me013"::	not quite the same because then it's -::	0
+"me013"::	it's um::	0
+"me013"::	setting targets based on where you would say::	0
+"me013"::	the sound begins::	0
+"me013"::	in a particular band.::	0
+"me013"::	Where he's s- this is not a  labeling  per se.::	0
+"me006"::	Mm-hmm.::	0
+"me013"::	Might be closer I guess if we did a::	0
+"me013"::	soft - soft target uh::	0
+"me013"::	uh::	0
+"me013"::	embedded::	0
+"me013"::	neural net training like we've done a few times uh::	0
+"me013"::	f- the forward um -::	0
+"me013"::	do the forward calculations to get the gammas and::	0
+"me013"::	train on those.::	0
+"me013"::	Mmm.::	0
+"me013"::	Uh::	1
+"me013"::	what's next?::	1
+"me018"::	I could say a little bit about w-::	1
+"me018"::	stuff I've been::	0
+"me018"::	playing with.::	1
+"me013"::	Oh.::	0
+"me018"::	I um::	0
+"me013"::	You're playing?::	0
+"me018"::	Huh?::	0
+"me013"::	You're playing?::	0
+"me018"::	Yes,  I'm playing.::	0
+"me018"::	Um::	1
+"me018"::	so I::	0
+"me018"::	wanted to do this experiment to see um::	0
+"me018"::	uh what happens if we::	0
+"me018"::	try to::	0
+"me018"::	uh improve the performance of the back-end::	0
+"me018"::	recognizer for the Aurora task::	1
+"me018"::	and see how that affects things.::	1
+"me018"::	And so I had this um -::	0
+"me018"::	I think I sent around last week a -::	0
+"me018"::	this::	0
+"me018"::	plan I had for an experiment, this matrix where::	0
+"me018"::	I would take the um -::	0
+"me018"::	the original::	0
+"me018"::	um::	0
+"me018"::	the original  system.  So there's the original system trained on::	0
+"me018"::	the mel::	0
+"me018"::	cepstral features::	0
+"me018"::	and then com- and then uh::	1
+"me018"::	optimize the b-::	0
+"me018"::	H_T_K system and run that again.::	1
+"me018"::	So look at the difference  there::	1
+"me018"::	and then::	1
+"me018"::	uh::	0
+"me018"::	do the same thing for::	0
+"me018"::	the I_C_S_I-O_G_I::	0
+"me018"::	front-end.::	1
+"me013"::	What - which test set was this?::	0
+"me018"::	This is - that I looked at?::	0
+"me013"::	Mm-hmm.::	0
+"me018"::	Uh I'm looking at the Italian::	1
+"me013"::	Mm-hmm.::	0
+"me018"::	right now.::	1
+"me018"::	So as far as I've gotten is I've::	0
+"me018"::	uh::	0
+"me018"::	been able to go through from beginning to end the um::	0
+"me018"::	full H_T_K::	0
+"me018"::	system for the Italian::	0
+"me018"::	data and got the same results that um -::	0
+"me018"::	that uh::	0
+"me018"::	Stephane had.::	0
+"me018"::	So um::	0
+"me018"::	I started looking -::	0
+"me018"::	to - and now I'm -::	0
+"me018"::	I'm sort of lookin-::	0
+"me018"::	at the point where I wanna know what should I  change::	0
+"me018"::	in the H_T_K back-end in order to try to -::	0
+"me018"::	uh::	0
+"me018"::	to  improve  it.::	0
+"me018"::	So.::	0
+"me018"::	One of the first things I  thought  of was the  fact  that they use::	1
+"me018"::	the  same  number of  states  for  all  of the::	0
+"me018"::	models::	1
+"me013"::	Mm-hmm.::	0
+"me018"::	and so I went on-line and I::	0
+"me018"::	uh found a pronunciation::	0
+"me018"::	dictionary for Italian digits::	0
+"me013"::	Mm-hmm.::	0
+"me018"::	and just  looked  at, you know, the number of phones in each::	1
+"me018"::	one of the digits.::	1
+"me018"::	Um::	0
+"me018"::	you know, sort of the::	0
+"me018"::	canonical way of::	0
+"me018"::	setting up a - an H_M_M system is that you use::	0
+"me018"::	um::	0
+"me018"::	three states per phone::	0
+"me018"::	and um::	0
+"me018"::	so then the - the total number of states for a  word  would just be, you know, the number of phones times  three.::	0
+"me018"::	And so when I  did  that for the::	1
+"me018"::	Italian digits, I got::	0
+"me018"::	a number of states,::	0
+"me018"::	ranging on the low end from nine::	0
+"me018"::	to the high end,  eighteen.::	1
+"me018"::	Um.::	0
+"me018"::	Now you have to really add  two  to that because in H_T_K there's an initial null and a final null::	0
+"me018"::	so when they use::	0
+"me018"::	uh::	0
+"me018"::	models that have eighteen states, there're really  sixteen::	0
+"me018"::	states. They've got those initial and final null states.::	0
+"me018"::	And so um::	1
+"me018"::	their::	0
+"me018"::	guess of eighteen states seems to be pretty well matched to::	0
+"me018"::	the two longest words of the Italian digits, the  four  and  five::	1
+"me013"::	Mm-hmm.::	0
+"me018"::	which um, according to my,::	0
+"me018"::	you know, sort of off the cuff calculation, should have eighteen states each.::	0
+"me018"::	And so they had  sixteen.  So that's pretty close.::	0
+"me018"::	Um::	1
+"me018"::	but for the -::	0
+"me018"::	most  of the  words::	0
+"me018"::	are sh- much  shorter.::	1
+"me018"::	So the majority of them::	1
+"me018"::	wanna have  nine  states.::	1
+"me018"::	And so  theirs  are s-::	1
+"me018"::	sort of  twice  as  long.::	0
+"me018"::	So::	1
+"me018"::	my  guess  -::	0
+"me018"::	uh::	0
+"me018"::	And then if you -::	0
+"me018"::	I - I printed out a  confusion  matrix::	0
+"me018"::	um::	0
+"me018"::	uh for the well-matched::	0
+"me018"::	case,::	0
+"me018"::	and it turns out that the longest words are actually the ones that do the  best.::	1
+"me018"::	So my  guess  about what's  happening  is that::	0
+"me018"::	you know, if you assume a fixed -::	0
+"me018"::	the same amount of training data for each of these::	0
+"me018"::	digits::	0
+"me018"::	and::	0
+"me018"::	a fixed length model for  all  of them::	0
+"me018"::	but the  actual   words  for  some  of them are::	0
+"me018"::	half as long::	0
+"me018"::	you really::	0
+"me018"::	um::	0
+"me018"::	have,::	0
+"me018"::	you know,::	0
+"me018"::	half  as much  training  data for those  models.::	0
+"me018"::	Because if you have a  long  word::	0
+"me018"::	and you're training it to eighteen states,::	0
+"me018"::	uh::	0
+"me018"::	you've got -::	0
+"me013"::	Mm-hmm.::	0
+"me018"::	you know, you've got the same number of::	0
+"me018"::	Gaussians, you've gotta train in each  case,  but::	0
+"me018"::	for the shorter  words,::	0
+"me018"::	you know, the total number of  frames  is actually  half  as  many.::	0
+"me013"::	Mm-hmm.::	0
+"me018"::	So::	0
+"me018"::	it could be that,::	0
+"me018"::	you know, for the short words there's -::	0
+"me018"::	because you have so many  states,  you just don't have enough data to train all those Gaussians.::	0
+"me018"::	So um::	1
+"me018"::	I'm going to try to um create more word-specific::	0
+"me018"::	um::	0
+"me018"::	uh::	0
+"me018"::	prototype H_M_Ms to start training from.::	1
+"me013"::	Yeah, I mean, it's not at all uncommon you do worse on long word- on short words than long words anyway just because you're accumulating more evidence for the -::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	for the longer word, but.::	0
+"me018"::	Yeah so I'll - I'll,::	1
+"me018"::	the next experiment I'm gonna try is to just um you know::	0
+"me018"::	create::	0
+"me018"::	uh models that seem to be more w- matched to::	0
+"me013"::	Mm-hmm.::	0
+"me018"::	my  guess about how long they should be.::	1
+"me018"::	And as  part  of that::	0
+"me018"::	um::	0
+"me018"::	I wanted to see sort of::	0
+"me018"::	how the um -::	0
+"me018"::	how these models were::	0
+"me018"::	coming out, you know, what w-::	0
+"me018"::	when we train up uh th- you know, the model for " one ", which wants to have::	0
+"me018"::	nine states, you know,::	0
+"me018"::	what is the -::	0
+"me018"::	uh what do the transition::	0
+"me018"::	probabilities  look  like - in the self-loops,   look  like in - in those models?::	0
+"me018"::	And so I talked to Andreas and::	0
+"me018"::	he::	0
+"me018"::	explained to me how you can::	0
+"me018"::	calculate the expected duration::	0
+"me018"::	of an H_M_M just::	0
+"me013"::	Mm-hmm.::	0
+"me018"::	by looking at the transition::	0
+"me018"::	matrix::	0
+"me018"::	and so I wrote a little Matlab::	0
+"me018"::	script that calculates that and::	0
+"me018"::	so I'm gonna::	0
+"me018"::	sort of print those out for each of the words::	0
+"me013"::	Mm-hmm.::	0
+"me018"::	to see::	0
+"me018"::	what's  happening,  you know, how these models are training up, you know, the long ones versus the short ones.::	0
+"me013"::	Mm-hmm.::	0
+"me018"::	I d- I did -::	0
+"me018"::	quickly,  I did the silence model and -::	0
+"me018"::	and um::	0
+"me018"::	that's coming out with about one point two::	0
+"me018"::	seconds  as its average duration and the  silence  model's the one that's used at the beginning and the end of each of the::	0
+"me013"::	Wow.::	0
+"me018"::	string of digits.::	0
+"me013"::	Lots of silence.::	0
+"me018"::	Yeah, yeah.::	0
+"me018"::	And so the::	0
+"me018"::	S_ P  model, which is what they put in  between  digits, I - I haven't calculated that for that one yet,::	0
+"me018"::	but um.::	0
+"me018"::	So they basically - their -::	0
+"me018"::	their model for a whole digit string is silence::	0
+"me018"::	digit,::	0
+"me018"::	S_P, digit,::	0
+"me018"::	S_P blah-blah-blah and then silence at the end.::	0
+"me018"::	And so.::	0
+"me013"::	Are the S_P's optional? I mean skip them?::	0
+"me018"::	I have to look at that,::	0
+"me018"::	but I'm not sure that they  are.::	0
+"me018"::	Now the one thing about the S_ P  model is  really  it only has::	0
+"me018"::	a single::	0
+"me018"::	s- emitting state to it.::	0
+"me013"::	Mm-hmm.::	0
+"me018"::	So if it's not optional,::	0
+"me018"::	you know, it's - it's not gonna  hurt  a whole  lot::	0
+"me013"::	I see.::	0
+"me018"::	and it's  tied  to the  center  state of the silence model so it's not its own -::	0
+"me018"::	um::	0
+"me013"::	Mm-hmm.::	0
+"me018"::	It doesn't require its own training data, it just shares that state.::	0
+"me013"::	Mm-hmm.::	0
+"me018"::	So it, I mean, it's pretty good::	0
+"me018"::	the way that they have it set  up,::	0
+"me018"::	but um::	0
+"me018"::	i-::	0
+"me018"::	So I wanna play with that a little bit more.::	0
+"me018"::	I'm curious about  looking  at,::	0
+"me018"::	you know::	0
+"me018"::	how these models have trained and looking at the expected durations::	0
+"me018"::	of the models::	0
+"me018"::	and I wanna compare that::	0
+"me018"::	in the - the well-matched case f-::	0
+"me018"::	to the  unmatched  case, and see::	0
+"me018"::	if you can get an idea of -::	0
+"me018"::	just from looking at the::	0
+"me018"::	durations of these models, you know, what- what's happening.::	0
+"me013"::	Yeah, I mean, I think that uh, as much as you can, it's good to::	0
+"me013"::	d-::	0
+"me013"::	sort of not do anything really tricky.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	Not do anything that's really finely tuned, but just sort of::	0
+"me018"::	Yeah.::	0
+"me013"::	eh you know you t- you i- z-::	0
+"me013"::	The premise is kind of you have a - a good person look at this for a few weeks and what do you come up with?::	0
+"me018"::	Mm-hmm.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	And uh::	0
+"me018"::	And  Hynek,  when I wa- told him::	0
+"me018"::	about this, he had an interesting  point,  and that was th- um::	0
+"me018"::	the - the  final  models that they end up training up have::	0
+"me018"::	I think::	0
+"me018"::	probably something on the order of six::	0
+"me018"::	Gaussians per state.::	0
+"me018"::	So they're  fairly,  you know, hefty models. And Hynek was saying that::	0
+"me018"::	well, probably in a real application,::	0
+"me018"::	you wouldn't::	0
+"me018"::	have enough  compute::	0
+"me018"::	to handle models that are very big or complicated.::	0
+"me018"::	So in fact what we  may  want::	0
+"me018"::	are  simpler  models.::	0
+"me013"::	Could be.::	1
+"me018"::	And compare how they::	0
+"me018"::	perform to  that.  But::	0
+"me018"::	you know, it  depends  on what::	0
+"me018"::	the actual application is and it's really hard to know::	0
+"me018"::	what your::	0
+"me018"::	limits are in terms of how many Gaussians you can have.::	0
+"me013"::	Right. And that, I mean, at the moment that's not the limitation, so.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	I mean, I - I - I - what I  thought  you were gonna say i- but which I was thinking was um::	0
+"me013"::	where did  six  come from? Probably came from the same place  eighteen  came from. You know, so.::	0
+"me018"::	Yeah. Right.::	0
+"me013"::	Uh  that's  another  parameter, right? that -::	0
+"me018"::	Yeah, yeah.::	0
+"me013"::	that maybe, you know, uh - you really want three or nine or -::	0
+"me018"::	Well  one  thing - I mean, if I -::	0
+"me018"::	if -::	0
+"me018"::	if I start::	0
+"me018"::	um::	0
+"me018"::	reducing the number of states::	0
+"me018"::	for some of these shorter models::	0
+"me018"::	that's gonna reduce the total number of Gaussians. So in a sense it'll be a simpler::	0
+"me013"::	Right.::	0
+"me018"::	system.::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"me013"::	But I think right now again the idea is doing::	0
+"me013"::	just very simple things::	0
+"me018"::	Yeah.::	0
+"me013"::	how much  better  can you make it? And um::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	since they're only simple things there's nothing that you're gonna do that is going to blow up the amount of computation um so::	0
+"me018"::	Right.::	0
+"me018"::	Right.::	0
+"me013"::	if you found that nine was better than six that would be O_ K,  I think, actually.::	0
+"me018"::	Mm-hmm.::	0
+"me018"::	Yeah.::	0
+"me013"::	Doesn't have to go down.::	0
+"me018"::	I really wasn't even gonna play with that part of the system yet, I was just gonna::	0
+"me013"::	Mm-hmm, O_K.::	0
+"me013"::	Yeah, just work with the models, yeah.::	0
+"me018"::	change the -::	0
+"me018"::	the t-::	0
+"me018"::	yeah, just look at the length of the models and just see what happens.::	0
+"me013"::	Yeah.::	0
+"me018"::	So.::	0
+"me013"::	Cool.::	0
+"me013"::	O_K.::	0
+"me013"::	So uh::	0
+"me013"::	what's uh::	0
+"me013"::	I guess your plan for -::	1
+"me013"::	You - you - you guys' plan for the next - next week is::	0
+"me013"::	just continue on these - these same things we've been talking about::	0
+"me013"::	for Aurora and::	1
+"mn007"::	Yeah, I guess we can try to::	1
+"mn007"::	have some kind of new baseline for next week perhaps.::	1
+"mn007"::	with all these minor things::	1
+"mn007"::	modified.::	1
+"mn007"::	And then do::	0
+"mn007"::	other things,::	0
+"mn007"::	play with the spectral subtraction,::	0
+"mn007"::	and::	0
+"mn007"::	retry  the  M_S_G and things like that.::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"me013"::	Yeah we - we have a big list.::	0
+"mn007"::	Big list?::	0
+"me013"::	You have a big list of -  of things to do.::	1
+"me013"::	So.::	0
+"me013"::	Well that's good. I think::	1
+"me013"::	that after all of this uh::	0
+"me013"::	um::	0
+"me013"::	confusion settles down in another -::	0
+"me013"::	some point::	0
+"me013"::	a little later next year there  will  be some sort of standard and it'll get  out  there and::	0
+"me013"::	hopefully it'll have  some  effect from something  that -::	0
+"me013"::	that has uh::	0
+"me013"::	been done by our group of people but::	0
+"me013"::	uh::	0
+"me013"::	e- even if it doesn't there's -::	0
+"me013"::	there's go- there'll be standards after that.::	0
+"me013"::	So.::	0
+"me018"::	Does anybody know how to um::	0
+"me018"::	run Matlab::	0
+"me018"::	sort of in  batch  mode like::	0
+"me018"::	you c- send it::	0
+"me018"::	s- a bunch of commands to run and it::	0
+"me018"::	gives you the output. Is it possible to do that?::	0
+"me006"::	I - I think uh Mike tried it::	0
+"me018"::	Yeah?::	0
+"me006"::	and he says it's impossible so he went to Octave.::	0
+"me006"::	Octave is the um UNIX clone of - of Matlab which you can batch.::	0
+"me018"::	Octave.::	0
+"me018"::	Ah!::	0
+"me018"::	O_K .::	0
+"me018"::	Great.::	0
+"me018"::	Thanks.::	0
+"me006"::	Yeah.::	0
+"me018"::	I was going  crazy  trying to  do  that.::	0
+"me013"::	Huh.::	0
+"me006"::	Yeah.::	0
+"mn007"::	What is Octave  so ?::	0
+"mn007"::	It's::	0
+"me006"::	What's that?::	0
+"mn007"::	a free software?::	0
+"me006"::	Uh, Octave? Yeah it's - it's - it's free. I think we have it here::	0
+"mn007"::	Yeah.::	0
+"me006"::	r- running somewhere.::	0
+"me018"::	Great!::	0
+"me006"::	Yeah.::	0
+"mn007"::	And it does the same syntax and everything eh::	0
+"me006"::	Um::	0
+"mn007"::	like Matlab, or - ?::	0
+"me006"::	i- it's a little behind, it's the same syntax but it's a little behind in that::	0
+"me006"::	Matlab went to these like um you can have cells and you can - you can::	0
+"me006"::	uh implement object-oriented type things with Matlab.::	0
+"me006"::	Uh Octave doesn't do that yet, so I think you, Octave is kinda like Matlab::	0
+"me006"::	um four point something or.::	0
+"me018"::	If it'll do like::	0
+"me018"::	a lot of the basic::	0
+"me006"::	The basic stuff, right.::	0
+"me018"::	matrix and vector stuff::	0
+"me018"::	that's::	0
+"me018"::	perfect.::	0
+"me006"::	Yeah.::	0
+"me018"::	Great!::	0
+"me013"::	O_K, guess we're done.::	0
+"me006"::	O_K.::	0
+"me026"::	Well ,  although  by the way.::	0

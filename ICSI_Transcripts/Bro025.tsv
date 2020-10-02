@@ -1,0 +1,702 @@
+"me018"::	Alright. We're on.::	0
+"me013"::	Test, um. Test, test, test.::	0
+"me013"::	Guess that's me. Yeah. O_K.::	0
+"me006"::	Ooh, Thursday.::	0
+"me013"::	So.::	0
+"me013"::	There's two sheets of paper in front of us.::	0
+"mn007"::	Yeah. So.::	0
+"me018"::	What are these?::	0
+"me013"::	This is the arm wrestling?::	0
+"mn052"::	Uh. Yeah, we formed a coalition actually. We already  made it  into  one.::	0
+"mn007"::	Yeah. Almost.::	0
+"me013"::	Oh, good. Excellent.::	0
+"mn052"::	Yeah.::	0
+"mn007"::	Yeah.::	0
+"me013"::	That's the best thing.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	So, tell me about it.::	0
+"mn007"::	So it's - well, it's  spectral subtraction or Wiener filtering,::	0
+"mn007"::	um,::	0
+"mn007"::	depending on if we put - if we square the transfer function or not.::	0
+"me013"::	Right.::	0
+"mn007"::	And then with over-estimation of the noise,::	0
+"mn007"::	depending on the, uh - the S_N_R, with smoothing along time,::	0
+"mn007"::	um,::	0
+"mn007"::	smoothing along frequency. It's very simple, smoothing things.::	0
+"me013"::	Mm-hmm.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	And, um,  the best result is::	0
+"mn007"::	when we apply this procedure on F_F_T bins, uh, with a Wiener filter.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	And there is no noise addition after - after that.::	0
+"me013"::	O_K.::	0
+"mn007"::	So it's good because::	0
+"mn007"::	it's difficult when we have to add noise to - to - to find the right level.::	0
+"me013"::	O_K.::	0
+"me018"::	Are you looking at one in - in particular of these two?::	0
+"mn007"::	Yeah. So the sh- it's the sheet that gives fifty-f- three point sixty-six.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	Um,::	0
+"mn007"::	the second sheet is abo- uh, about the same.::	0
+"mn007"::	It's the same, um, idea but it's working on mel bands,::	0
+"mn007"::	and it's a spectral subtraction instead of Wiener filter,::	0
+"mn007"::	and there is also a noise addition after, uh, cleaning up the mel bins.::	0
+"mn007"::	Mmm.::	0
+"mn007"::	Well, the results are similar.::	0
+"me013"::	Yeah. I mean,  it's -  it's actually, uh,::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	very similar. I mean,  if you look at databases,::	0
+"me013"::	uh,::	0
+"me013"::	the, uh,::	0
+"me013"::	one that has the smallest - smaller overall number is actually better on the Finnish and Spanish,::	0
+"me013"::	uh, but it is, uh,::	0
+"mn007"::	It's worse on -::	0
+"me013"::	worse on the, uh, Aurora - I mean on the, uh, T_I- T_I-digits, uh, uh.::	0
+"mn007"::	on the multi-condition in T_I-digits. Yeah.::	0
+"me013"::	Um.::	0
+"mn007"::	Mmm.::	0
+"me013"::	So, it probably doesn't matter  that  much either way.::	0
+"mn007"::	Yeah.::	0
+"me013"::	But, um, when you say u- uh, unified do you mean, uh, it's one piece of software now, or - ?::	0
+"mn007"::	So now we are, yeah, setting up the software.::	0
+"me013"::	Mm-hmm.::	0
+"mn007"::	Um, it should be ready, uh, very soon.::	0
+"mn007"::	Um, and we-::	0
+"me018"::	So what's - what's happened? I think I've missed something.::	0
+"me013"::	O_K. So a week ago - maybe you weren't around when - when - when Hynek and Guenther and I - ?::	0
+"mn007"::	@@::	0
+"mn052"::	Hynek was here.::	0
+"me018"::	Yeah. I didn't.::	0
+"me013"::	Oh, O_K. So - Yeah, let's summarize.::	0
+"me013"::	Um - And then if I summarize somebody can tell me if I'm wrong, which will also be possibly helpful.::	0
+"me013"::	What did I just press here? I hope this is still working.  Um.::	0
+"mn007"::	p-p-p-::	0
+"me013"::	@@::	0
+"me013"::	We, uh - we looked at,  uh -::	0
+"me013"::	anyway  we -  after coming back from QualComm we had, you know, very strong feedback and, uh, I think it was::	1
+"me013"::	Hynek and Guenter's and my opinion also that,::	0
+"me013"::	um,::	0
+"me013"::	you know, we sort of spread out to look at a number of different ways of doing noise suppression.::	1
+"me013"::	But given the limited time,::	1
+"me018"::	Mm-hmm.::	0
+"me013"::	uh, it was sort of time to  choose one.::	1
+"me018"::	Mmm.::	0
+"me013"::	Uh, and so, uh,::	1
+"me013"::	th- the vector Taylor series hadn't really worked out that much. Uh, the subspace stuff, uh, had not been worked with so much.::	1
+"me013"::	Um, so it sort of came down to spectral subtraction versus Wiener filtering.::	1
+"me018"::	Hmm.::	0
+"me013"::	Uh, we had a long discussion about how they were the same and how they were d- uh, completely different.::	1
+"me018"::	Mm-hmm.::	0
+"me013"::	And, uh, I mean, fundamentally they're the same sort of thing but the math is a little different so that there's a - a -::	0
+"me013"::	there's an exponent difference in the index - you know, what's the ideal filtering, and depending on how you::	0
+"me013"::	construct the problem.::	0
+"me013"::	And, uh, I guess it's sort - you know, after - after that meeting it sort of made more sense to me because::	0
+"me018"::	Uh-huh.::	0
+"me013"::	um, if you're dealing with power spectra::	0
+"me013"::	then how are you gonna choose your error? And typically you'll do - choose something like a variance.::	0
+"me013"::	And so that means it'll be something like the square of the power spectra.::	0
+"mn052"::	Mm-hmm.::	0
+"me013"::	Whereas when you're - when you're doing the - the, uh, um,::	0
+"me013"::	looking at it the other way, you're gonna be dealing with signals and you're gonna end up looking at power - uh, noise power that you're trying to reduce. And so, eh - so there should be a difference::	0
+"me013"::	of - you know, conceptually of - of, uh, a factor of two in the exponent.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	But  there're so many different little factors that you adjust in terms of - of, uh,::	0
+"me013"::	uh, over-subtraction and - and - and - and - and so forth, um, that::	0
+"me013"::	arguably, you're c- and - and - and the choice of do you -::	0
+"me013"::	do you operate on the mel bands or do you operate on the F_F_T beforehand.::	0
+"me013"::	There're so many other choices to make that are - are almost -::	0
+"me013"::	well, if not  independent,  certainly in  addition  to  the choice of whether you, uh, do spectral subtraction or Wiener filtering,::	0
+"me013"::	that, um,::	1
+"me013"::	@@::	0
+"me013"::	again we sort of felt::	0
+"me013"::	the gang should just sort of figure out which it is they wanna do and then let's pick it, go forward with it. So that's - that was - that was last week. And -::	1
+"me013"::	and, uh, we said, uh, take a week, go arm wrestle,::	0
+"me013"::	you know,::	0
+"me006"::	Oh.::	0
+"me013"::	figure it out. I mean, and th- the joke there was that each of them had specialized in one of them. And - and so they -::	0
+"me018"::	Oh, O_K.::	0
+"me013"::	so instead they went to Yosemite and bonded, and - and they came out with a single - single piece of software. So it's::	1
+"me013"::	another - another victory for international collaboration. So.::	1
+"me013"::	Uh.::	0
+"me018"::	So - so you guys have combined - or you're going to be combining the software?::	1
+"mn007"::	Oh boy.::	0
+"mn052"::	Well, the piece of software has, like, plenty of options, like you can parse command-line arguments.::	1
+"mn052"::	So depending on that, it - it becomes either spectral subtraction  or  Wiener filtering.::	1
+"me018"::	Oh, O_K. They're close enough.::	0
+"mn052"::	So, ye-::	0
+"me013"::	Well, that's fine, but the thing is - the important thing is that there is  a  piece of software that you - that we all will be using now. Yes.::	1
+"mn052"::	Yeah. Yeah. There's just one piece of software.::	0
+"mn007"::	Yeah.::	0
+"me013"::	Yeah.::	0
+"mn007"::	I need to allow it to do everything and even more - more than this. Well, if we want to,::	0
+"mn052"::	Right.::	0
+"mn007"::	like, optimize different parameters of -::	0
+"mn052"::	Parameters. Yeah.::	0
+"mn007"::	Yeah, we can do it later.::	0
+"me013"::	Sure.::	0
+"mn007"::	But, still - so, there will be a piece of software with,::	1
+"mn007"::	uh, will give this system, the fifty-three point sixty-six, by default and -::	1
+"me013"::	Mm-hmm.::	0
+"me018"::	How - how is - how good is that?::	1
+"mn007"::	Mm-hmm.::	0
+"me018"::	I - I - I don't have a sense of -::	0
+"mn007"::	It's just one percent off of the  best proposal.::	1
+"mn052"::	@@  Best system.::	0
+"mn007"::	It's between -::	1
+"mn007"::	i- we are  second  actually if we take this system. Right?::	1
+"me013"::	Yeah.::	0
+"mn052"::	Yeah.::	0
+"me018"::	O_K. Compared to the last evaluation numbers?  Yeah.::	1
+"me013"::	But, uh -::	0
+"mn007"::	Mm-hmm. Yeah.::	0
+"mn052"::	Yeah.::	1
+"me013"::	w- which we sort of were before but we were considerably far behind. And the thing is, this doesn't have neural net in yet for instance. You know?::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	So it - so, um, it's - it- it's not using our full bal- bag of tricks, if you will.::	1
+"me018"::	Hmm.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	And, uh, and it - it is, uh, very close in performance to the best thing that was there before.::	1
+"me013"::	Uh, but, you know, looking at it another way, maybe more importantly, uh,::	1
+"me013"::	we  didn't  have any explicit noise, uh, handling - stationary - dealing with - e- e- we didn't  explicitly  have anything to deal with stationary noise.::	1
+"me018"::	Mm-hmm.::	0
+"me013"::	And now we do.::	0
+"me018"::	So will the  neural net operate on::	0
+"me018"::	the output from either the Wiener filtering or the spectral subtraction?::	0
+"me013"::	Well, so - so - so argu-  arguably,  I mean, what we should do - I mean, I gather you have -::	1
+"me018"::	Or will it operate on the original?::	0
+"me013"::	it sounds like you have a few more days of - of nailing things down with the software and so on. But -::	1
+"me013"::	and then - but, um,  arguably what we should do is,::	0
+"me013"::	even though the software can do many things, we should for now::	0
+"me013"::	pick  a set of things, th- these things I would guess,::	1
+"mn007"::	Mm-hmm.::	0
+"me013"::	and not change that. And then focus on  everything that's left.::	1
+"me013"::	And I think, you know, that our goal should be by next week, when Hynek comes back,::	1
+"me013"::	uh, to -::	0
+"me013"::	uh, really just to have a firm path, uh, for the - you know, for the time he's gone,::	1
+"me013"::	of - of, uh, what things will be attacked.::	1
+"me013"::	But I would - I would - I would thought- think that what we would wanna do is not futz with this stuff for a while::	0
+"me013"::	because what'll happen is we'll change many other things in the system,::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	and then we'll probably wanna come back to this and possibly make some other choices. But, um.::	0
+"me018"::	But just conceptually, where does the neural net go? Do - do you wanna h- run it on the output of the spectrally subtracted - ?::	0
+"mn007"::	Mmm.::	0
+"me013"::	Well, depending on its  size  - Well, one question is, is it on the, um, server side or is it on the terminal side?::	0
+"me013"::	Uh, if it's on the  server  side, it - you probably don't have to worry too much about size.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	So that's kind of an argument for  that.::	0
+"me013"::	We  do  still, however, have to consider its latency. So the issue is - is, um,::	1
+"me013"::	for instance, could we have a neural net that only looked at the  past?::	0
+"me018"::	Right.::	0
+"me013"::	Um, what we've done in  uh  - in the past is to use the neural net, uh, to transform,::	0
+"me013"::	um, all of the features that we use. So this is done early on. This is essentially,::	0
+"me013"::	um, um - I  guess  it's - it's more or less like a spee- a speech enhancement technique here - right? - where we're just kind of creating::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	new - if not new speech at least new - new F_F_T's that - that have - you know, which  could  be turned into speech -::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	uh, that - that have some of the noise removed.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	Um, after that we still do a mess of other things to - to produce a bunch of features.::	0
+"me018"::	Right.::	0
+"me013"::	And then those features are not now currently transformed::	0
+"me013"::	by the neural net.::	0
+"me013"::	And then the - the way that we had it in our proposal-two before, we had the neural net transformed features  and  we had::	0
+"me013"::	the  untransformed  features, which I guess you - you actually did linearly transform with the K_L_T, but - but - but - uh, to orthogonalize them - but -::	0
+"mn007"::	Yeah. Yeah. Right.::	0
+"me013"::	but they were not, uh, processed through a neural net. And Stephane's idea with that, as I recall, was that::	0
+"me013"::	you'd have one part of the feature vector that was very discriminant and another part that  wasn't,::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	uh, which would smooth things a bit for those occasions when, uh, the testing set was quite different than what you'd trained your discriminant features for.::	0
+"me013"::	So, um, all of that is - is, uh - still seems like a good idea.::	0
+"me013"::	The thing is now we know some other constraints. We can't have unlimited amounts of latency.::	1
+"me013"::	Uh, y- you know, that's still being debated by the - by people in Europe but,::	1
+"me013"::	uh, no matter  how  they end up there, it's not going to be  unlimited  amounts, so we have to be a little conscious of that.::	1
+"me018"::	Yeah.::	0
+"me013"::	Um.::	0
+"me013"::	So there's the neural net issue. There's the V_A_D issue.::	1
+"me013"::	And, uh, there's the second stream  thing.::	1
+"me013"::	And I think those that we - last time we agreed that those are the three things that have to get, uh, focused on.::	0
+"me018"::	What was the issue with the V_A_D?::	1
+"me013"::	Well, better  ones are good.::	0
+"me018"::	And so the w- the default, uh,::	0
+"me018"::	boundaries that they provide are -::	0
+"me018"::	they're O_K, but they're not all that great?::	0
+"me013"::	I guess they still allow two hundred milliseconds on either side or some- ? Is that what the deal is?::	1
+"mn007"::	Mm-hmm.::	0
+"mn007"::	Uh, so th- um, they keep two hundred milliseconds at the beginning and end of speech. And they keep all the - Yeah.::	0
+"me018"::	Outside the beginnings and end. Uh-huh.::	0
+"mn007"::	And all the speech pauses, which is -::	1
+"mn007"::	Sometimes on the SpeechDat-Car you have pauses that are more than one or two seconds.::	1
+"me018"::	Wow.::	0
+"mn007"::	More than one second for sure.  Um.::	0
+"me018"::	Hmm.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	And, yeah, it seems to us that this way of just dropping the beginning and end is not -::	0
+"mn007"::	We cou- we can do better, I think,::	1
+"me018"::	Mm-hmm.::	0
+"mn007"::	because, um,::	0
+"mn007"::	with this way of dropping the frames they improve  over the baseline by fourteen percent and::	0
+"mn007"::	Sunil already showed that with our current V_A_D we can improve by more than twenty percent.::	0
+"me018"::	On top of the V_A_D that  they  provide?::	0
+"mn052"::	No.::	0
+"mn007"::	@@::	0
+"mn007"::	Just using either their V_A_D or::	0
+"mn052"::	Our way.::	0
+"mn007"::	our current V_A_D.::	0
+"me018"::	Oh, O_K.::	0
+"mn007"::	So, our current V_A_D is - is more than twenty percent, while::	1
+"me018"::	Theirs is fourteen?::	0
+"mn007"::	their is fourteen. Yeah.::	1
+"me018"::	I see.::	0
+"me018"::	Huh.::	0
+"mn007"::	So.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	And  another thing that we did also is that::	0
+"mn007"::	we have all this training data::	0
+"mn007"::	for - let's say, for SpeechDat-Car. We have channel zero which is clean, channel one which is far-field microphone.::	0
+"mn007"::	And::	0
+"mn007"::	if we just take only the, um, V_A_D probabilities computed on the clean signal and apply them on the far-field,::	0
+"mn007"::	uh, test utterances,::	0
+"me018"::	Mm-hmm.::	0
+"mn007"::	then results are much better.::	0
+"mn007"::	In some cases it divides the error rate by two.::	0
+"me018"::	Wow.::	0
+"mn007"::	So it means that there are stim-  still -::	0
+"mn007"::	If - if we can have a good V_A_D, well, it would be great.::	0
+"me018"::	How - how much latency does the, uh - does  our  V_A_D add?::	0
+"me018"::	Is it significant, or - ?::	0
+"mn007"::	Uh, right now it's, um, a neural net with nine frames. So it's forty milliseconds plus,::	0
+"mn007"::	um,::	0
+"mn007"::	the rank ordering, which, uh, should be::	0
+"mn052"::	Like another ten frames.::	0
+"mn007"::	ten - Yeah.::	0
+"me006"::	Rank. Oh.::	0
+"mn007"::	So, right now it's one hundred and forty  milliseconds.::	0
+"me013"::	With the rank ordering - ? I'm sorry.::	0
+"mn052"::	The - the - the smoothing - the m- the - the filtering of the probabilities.::	0
+"mn007"::	The -::	0
+"mn007"::	The, um -::	0
+"mn052"::	on the  R_ .::	0
+"mn007"::	Yeah. It's not a median filtering. It's just -::	0
+"mn007"::	We don't take the median value. We take something -::	0
+"mn007"::	Um, so we have eleven,::	0
+"mn007"::	um,::	0
+"mn007"::	frames. And - for the V_A_D, yeah - and we take th- the third.::	0
+"me013"::	Oh, this is for the V_A_D.::	0
+"mn052"::	Yeah. Yeah.::	0
+"me013"::	Oh, O_K.::	0
+"mn052"::	Yeah.::	0
+"me006"::	Dar-::	0
+"mn007"::	Um.::	0
+"me013"::	Yeah.::	0
+"me013"::	Um.::	0
+"mn007"::	Mmm.::	0
+"me013"::	So -  Yeah, I was just noticing on this that it makes reference to delay. So what's the - ? If you ignore -::	0
+"me013"::	Um, the V_A_D is sort of in - in  parallel,  isn't i- isn't it, with - with the - ? I mean, it isn't  additive  with the - the, uh, L_D_A and the Wiener filtering, and so forth. Right?::	0
+"mn052"::	The L_D_A?::	0
+"mn052"::	Yeah. So - so what happened right now, we removed the delay of the L_D_A.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	Yeah.::	0
+"mn052"::	So we - I mean, if - so if we - if - so which is like::	1
+"mn052"::	if we reduce the delay of V_A- So, the f- the final delay's now ba- is f- determined by the delay of the V_A_D,::	1
+"mn052"::	because the L_D_A doesn't have any delay.::	0
+"mn052"::	So if we re- if we reduce the delay of the V_A_D, I mean, it's like effectively reducing the delay.::	0
+"me018"::	How - how much, uh, delay was there on the L_D_A?::	0
+"mn052"::	So the L_D_A and the V_A_D both had a hundred millisecond delay.::	0
+"mn052"::	So and they were in  parallel,  so which means you pick either one of them - the - the  biggest,  whatever.::	0
+"me018"::	Mmm.::	0
+"me013"::	Mm-hmm.::	0
+"me018"::	I see.::	0
+"mn052"::	So, right now the L_D_A delays are more.::	0
+"me013"::	And there -::	0
+"me018"::	Oh, O_K.::	0
+"me013"::	And there didn't seem to be any, uh, penalty for that?::	0
+"mn052"::	Pardon?::	0
+"me013"::	There didn't seem to be any penalty for making it causal?::	0
+"mn052"::	Oh, no. It actually made it, like, point one percent better or something, actually.  Or something like that and -::	0
+"me013"::	O_K.::	0
+"me013"::	Well, may as well, then. And he says Wiener filter is - is forty milliseconds delay.::	0
+"mn052"::	Yeah. So that's the one which Stephane was discussing, like -::	0
+"mn007"::	Mmm.::	0
+"me013"::	So is it - ?::	0
+"me013"::	The smoothing?::	0
+"mn052"::	Yeah. The - you smooth it and then delay the decision by -::	1
+"mn052"::	So.::	0
+"me013"::	Right. O_K.::	0
+"me013"::	So that's - that's really not - not bad. So we may in fact - we'll see what they decide. We may in fact have,::	1
+"me013"::	um, the - the, uh, latency time available for - to have a neural net. I mean, sounds like we probably will. So.::	1
+"mn052"::	Mm-hmm.::	0
+"me013"::	That'd be good. Cuz I - cuz it certainly always helped us before. So.::	0
+"me013"::	Uh.::	0
+"me018"::	What amount of latency are you thinking about when you say that?::	1
+"me013"::	Well, they're - you know, they're disputing it. You know, they're saying, uh - one group is saying a hundred and thirty milliseconds and another group is saying two hundred and fifty milliseconds.::	1
+"me018"::	Mmm.::	0
+"me013"::	Two hundred and fifty is what it was before actually. So,::	0
+"me013"::	uh, some people are  lobbying   - lobbying  to make it shorter.::	0
+"me018"::	Oh.::	0
+"me018"::	Hmm.::	0
+"me013"::	Um.::	0
+"me013"::	And, um.::	0
+"me018"::	Were you thinking of the two-fifty or the one-thirty when you said we should  have enough for the neural net?::	0
+"me013"::	Well, it just - it - when we find that out it might change exactly how we do it, is all. I mean, how much effort do we put into making it causal? I mean,::	0
+"me018"::	Oh, O_K.::	0
+"me013"::	I think the neural net will probably do better if it looks at a little bit of the future.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	But, um, it will probably work to some extent to look only at the past.::	0
+"me013"::	And we ha- you know, limited machine and human time, and  effort. And, you know, how - how much time should we put into -::	0
+"me013"::	into that? So it'd be helpful if we find out from the - the standards folks whether, you know, they're gonna restrict that or not.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	Um.::	0
+"me013"::	But I think, you know, at this point our major concern is making the performance better and - and, um,::	0
+"me013"::	if, uh, something  has  to take a little longer in latency in order to do it that's  you know, a secondary issue.::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	But if we get told otherwise then, you know, we may have to c- clamp down a bit more.::	0
+"me006"::	Mmm.::	0
+"mn052"::	So, the one - one - one difference is that - was there is like we tried computing the delta and then doing the frame-dropping.::	0
+"me006"::	S-::	0
+"mn007"::	Mm-hmm.::	0
+"mn052"::	The earlier system was do the frame-dropping and then compute the delta on the -::	0
+"me013"::	Uh-huh.::	0
+"me013"::	Ah.::	0
+"mn052"::	So this -::	0
+"me018"::	Which could be a kind of a funny delta. Right?::	0
+"mn052"::	Yeah.::	0
+"me013"::	Oh, oh. So that's fixed in this. Yeah, we talked about that.::	0
+"mn052"::	Yeah.::	0
+"mn007"::	Yeah.  Uh-huh.::	0
+"mn052"::	So we have no  delta.  And then - So the frame-dropping is the  last  thing that we do.::	1
+"me013"::	Good.::	0
+"mn052"::	So, yeah, what we do is we compute the silence probability, convert it to that binary flag, and then in the end you c- up- upsample it to::	0
+"me013"::	Uh-huh.::	0
+"mn007"::	Mm-hmm.::	0
+"mn052"::	match the final features number of -::	0
+"me018"::	Did that help then?::	0
+"mn052"::	It seems to be helping on the well-matched condition. So that's why this improvement::	0
+"mn052"::	I got from the last result.::	0
+"mn052"::	So. And it actually r- reduced a little bit on the high mismatch, so in the final weightage it's::	0
+"mn052"::	b- b- better because the well-matched is still weighted more than -::	0
+"me013"::	So,::	0
+"me013"::	@@::	0
+"me013"::	I mean, you were doing a lot of changes. Did you happen to notice how much,::	1
+"me013"::	uh, the change was due to just this frame-dropping problem?  What about this?::	1
+"mn052"::	Uh, y- you had something on it. Right?::	0
+"mn007"::	Just the frame-dropping problem. Yeah. But it's - it's difficult.::	1
+"mn007"::	Sometime we - we change two - two things together and -::	0
+"mn007"::	But it's around  maybe - it's less than one percent.::	0
+"me013"::	Uh-huh.::	0
+"mn052"::	Yeah.::	0
+"me013"::	Well.::	0
+"mn007"::	It -::	0
+"me013"::	But like we're saying, if there's four or five things like that then  pretty sho- soon you're talking real improvement.  @@  Yeah.::	0
+"mn007"::	Yeah.::	0
+"mn007"::	Yeah. And  it  -::	0
+"mn007"::	Yeah.::	1
+"mn007"::	And then we have to be careful with that also - with::	0
+"mn007"::	the neural net because::	1
+"mn007"::	in  the proposal the neural net was also, uh, working on - after frame-dropping.::	1
+"me013"::	Mm-hmm.::	0
+"mn007"::	Um.::	0
+"me013"::	Oh, that's a real good point.::	1
+"mn007"::	So. Well, we'll have to be -::	0
+"mn007"::	to do the same kind of correction.::	0
+"me013"::	It might be  hard  if it's at the server side. Right?::	0
+"mn007"::	Mmm.::	0
+"mn007"::	Well, we can do the frame-dropping on the server side or::	0
+"mn007"::	we can just be careful at the terminal side to::	0
+"mn007"::	send a couple of more frames before and after, and -::	0
+"mn007"::	So.::	0
+"mn007"::	I think it's O_K.::	0
+"me013"::	O_K.::	0
+"me018"::	You have, um -::	0
+"me018"::	So when you -::	0
+"me018"::	Uh, maybe I don't quite understand how this works, but, um, couldn't you just send all of the frames, but  mark  the ones that are supposed to be dropped?::	0
+"me018"::	Cuz you have a bunch more bandwidth. Right?::	0
+"me013"::	Well, you could. Yeah. I mean, it - it always seemed to us that it would be kind of nice to - in addition to, uh, reducing insertions, actually use up less bandwidth.::	0
+"me013"::	But nobody seems to have::	0
+"me018"::	Yeah. Yeah.::	0
+"me013"::	cared about that in this  evaluation. So.::	0
+"me018"::	And that way the net could use -::	0
+"me018"::	If the net's on the server side then it could use all of the  frames.::	0
+"mn052"::	Yes, it could be. It's, like, you mean you just transferred everything and then finally drop the frames after the neural net. Right?::	0
+"me018"::	Mm-hmm.::	0
+"mn007"::	Mm-hmm.::	0
+"mn052"::	Yeah. That's - that's one thing which -::	0
+"me018"::	But you could even  mark  them,::	0
+"mn052"::	Yeah. Right now we are -::	0
+"me018"::	before  they get to the server.::	0
+"mn052"::	Uh, ri- Right now what - wha- what we did is, like, we just mark - we just have this additional bit which goes around the features,::	0
+"me018"::	Ah.::	0
+"mn052"::	saying it's currently a - it's a speech or a nonspeech.::	0
+"me018"::	Oh, O_K.::	0
+"mn052"::	So there is no frame-dropping till the final features, like, including the deltas are computed.::	0
+"me018"::	I see.::	0
+"mn052"::	And after the deltas are computed, you just pick up the ones that are marked silence and then drop them.::	0
+"me018"::	Mm-hmm.::	0
+"me018"::	I see.::	0
+"me013"::	So it would be more or less the same thing with the neural net, I guess, actually.::	0
+"me018"::	I see.::	0
+"mn007"::	Mm-hmm.::	0
+"mn052"::	So. Yeah, that's what - that's what - that's what, uh, this is doing right now.::	0
+"me018"::	I see.::	0
+"me018"::	O_K.::	0
+"me013"::	Yeah.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	Um.::	0
+"me013"::	O_K.::	0
+"me013"::	So, uh,::	0
+"me013"::	what's, uh - ?::	0
+"me013"::	That's - that's a good set of work that - that, uh -::	1
+"mn052"::	Just one more thing. Like, should we do something f- more for the noise estimation, because we still - ?::	1
+"me013"::	@@::	0
+"me013"::	Yeah. I was wondering about that. That was - I - I had written that down there.::	1
+"mn052"::	Yeah.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	Um -::	0
+"mn007"::	So, we, uh -::	0
+"mn007"::	actually I did the first experiment. This is  with just fifteen frames.::	0
+"mn007"::	Um.::	0
+"mn007"::	We take the first fifteen frame of each utterance to it, and average their power spectra.::	0
+"me013"::	Yeah.::	0
+"mn007"::	Um.::	0
+"mn007"::	I tried just plugging the, um,::	0
+"mn007"::	uh, Guenter::	0
+"mn007"::	noise estimation on this system, and it - uh, it got worse.::	0
+"mn007"::	Um,::	0
+"mn007"::	but of course I didn't play  with it. But - Mm-hmm.::	0
+"me013"::	Uh-huh.::	0
+"mn007"::	Uh, I didn't  do much more  for noise estimation. I just tried::	0
+"mn007"::	this, and -::	0
+"me013"::	Hmm.  Yeah. Well, it's not surprising it'd be worse the first time.  But, um,::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	it does seem like,::	0
+"me013"::	you know, i- i- i- i-::	0
+"me013"::	some compromise between always depending on the first fifteen frames and::	0
+"me013"::	a- a- always depending on a - a pause is - is - is a good idea.::	0
+"me013"::	Uh, maybe you have to weight the estimate from the first -teen - fifteen frames more heavily than - than was done in your first attempt. But -::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	but -::	0
+"mn007"::	Yeah, I guess.::	0
+"me013"::	Yeah.::	0
+"me013"::	Um.::	0
+"me013"::	No, I mean -::	0
+"me013"::	Um,::	0
+"me013"::	do you have any way of assessing how well or how poorly the noise estimation is currently doing?::	0
+"mn007"::	Mmm.::	0
+"mn007"::	No, we don't.::	0
+"me013"::	Yeah.::	0
+"mn007"::	We don't have nothing  that -::	0
+"mn052"::	Is there - was there any experiment with - ?::	0
+"mn052"::	Well, I - I did -::	0
+"mn052"::	The only experiment where I tried was::	0
+"mn052"::	I used the channel zero VAD for the noise estimation::	0
+"mn052"::	and  frame-dropping. So I don't have a -::	0
+"mn007"::	Yeah.::	0
+"mn052"::	I don't have a split, like which one helped  more.::	0
+"mn052"::	So.::	0
+"mn052"::	It - it was the best result I could get.::	0
+"mn007"::	Mm-hmm.::	0
+"mn052"::	So, that's the -::	0
+"me013"::	So that's something you could do::	0
+"me013"::	with, um,::	0
+"me013"::	this final system. Right? Just do this - everything that is in this final system except,::	0
+"me013"::	uh,::	0
+"me013"::	use the channel zero.::	0
+"mn052"::	Mm-hmm. For the noise estimation. Yeah. We can try something.::	0
+"me013"::	Yeah.::	0
+"me013"::	And then see how much better it gets.::	0
+"mn052"::	Mm-hmm. Sure.::	0
+"me013"::	If it's, you know, essentially not better, then  it's probably not worth::	0
+"mn007"::	Yeah.::	0
+"me013"::	any more.::	0
+"mn052"::	Yeah. But the  Guenter's   argument is slightly different. It's, like, ev- even - even if I use a channel zero VAD, I'm just averaging the -::	0
+"mn052"::	the s- power spectrum.::	0
+"mn052"::	But the  Guenter's   argument is, like, if it is a non-stationary  segment, then he doesn't update the noise spectrum.::	0
+"mn052"::	So he's, like - he tries to capture only the stationary part in it. So the averaging is, like,::	0
+"mn052"::	different from  updating the noise spectrum only during stationary segments.::	0
+"mn052"::	So, th- the  Guenter   was arguing that, I mean, even if you have a very good V_A_D, averaging it, like, over the  whole  thing is not a good idea.::	0
+"mn052"::	Because you're averaging the stationary and the non-stationary, and finally you end up getting something::	0
+"me013"::	I see.::	0
+"mn052"::	which is not  really  the s- because, you - anyway, you can't remove the stationary part fr- I mean,  non-stationary  part from  the signal.::	0
+"mn052"::	So -::	0
+"me013"::	Not using these methods anyway. Yeah.::	0
+"mn052"::	Yeah. So you just  update only doing - or update only the stationary components.::	0
+"mn052"::	Yeah.  So, that's - so that's still a slight difference from what  Guenter   is trying in -::	0
+"me013"::	Well, yeah. And - and also there's just the fact that, um,::	0
+"me013"::	eh, uh,::	0
+"me013"::	although we're trying to do very well on this evaluation, um, we actually would like to have something that worked well in general.::	0
+"mn052"::	Yeah, yeah.::	0
+"me013"::	And, um, relying on having fifteen frames at the front or something is - is pretty -::	0
+"me013"::	I mean, you might, you might not.::	0
+"mn052"::	Mmm.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	So, um.::	0
+"me013"::	Um,::	0
+"me013"::	it'd certainly be more robust to different kinds of input if you had at least  some  updates.::	0
+"me013"::	Um.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	But, um.::	0
+"me013"::	Well, I don't know. What - what do you, uh -::	0
+"me013"::	what do you guys see as - as being what you would be doing in the next week, given::	0
+"me013"::	wha- what's  happened?::	0
+"mn052"::	Cure  the VAD?::	0
+"mn007"::	Yeah.::	0
+"me018"::	What was that?::	0
+"mn052"::	@@  V_A_D.::	0
+"me018"::	Oh.::	0
+"mn052"::	And -::	0
+"mn052"::	Oh -::	0
+"me013"::	O_K.::	0
+"mn007"::	So, should we keep the same - ? I think we::	0
+"mn007"::	might try to keep the same idea of having a neural network, but::	0
+"mn007"::	training it on::	0
+"mn007"::	more data and::	0
+"mn007"::	adding better features, I think, but - because the current network is just P_L_P features.::	0
+"mn007"::	Well, it's trained on noisy  P_L_P -::	0
+"mn052"::	Just the cepstra.::	0
+"mn052"::	Yeah.::	0
+"mn007"::	P_L_P features computed on noisy speech. But::	0
+"mn007"::	there is no- nothing particularly robust in these features.::	0
+"mn052"::	No.::	0
+"me018"::	So, I- I- uh -::	0
+"mn007"::	There's no RASTA, no -::	0
+"me018"::	So, uh, I -::	0
+"me018"::	I don't remember what you said  the answer to my, uh, question earlier. Will you -::	0
+"me018"::	will you train the net on -  after  you've done the spectral subtraction or the Wiener filtering?::	0
+"me013"::	This is a different net.::	0
+"me018"::	Oh.::	0
+"mn052"::	So we have a V_A_D which is like neur- that's a neural net.::	0
+"mn007"::	Oh, yeah.  Hmm.::	0
+"me018"::	Oh, you're talking about the V_A_D net. O_K. I see.::	0
+"mn052"::	Yeah.::	0
+"mn007"::	Mm-hmm.::	0
+"mn052"::	So that -  that  V_A_D was trained on the noisy features.::	0
+"me018"::	Mm-hmm.::	0
+"mn052"::	So, right now we have, like,::	0
+"mn052"::	uh - we have the cleaned-up features, so we can have a better::	0
+"me018"::	Mm-hmm.::	0
+"mn052"::	V_A_D by training the net on  the cleaned-up speech.::	0
+"me018"::	I see. I see.::	0
+"mn052"::	Yeah, but we need a V_A_D for  uh  noise estimation also. So it's, like,::	0
+"mn052"::	where do we want to put the V_A_D?::	0
+"mn052"::	Uh, it's like -::	0
+"me018"::	Can you use the same net to do both, or - ?::	0
+"mn052"::	For -::	0
+"me018"::	Can you use the same net that you - that  I  was talking about to do the V_A_D?::	0
+"mn052"::	Mm-hmm.::	0
+"mn052"::	Uh, it actually comes at v- at the very end.::	0
+"mn052"::	So the net - the final net - I mean, which is the feature net -::	0
+"me018"::	Mm-hmm.::	0
+"mn052"::	so that actually comes after a chain of, like, L_D_A plus  everything.  So it's, like, it takes a long time to get a decision out of it. And -::	0
+"mn052"::	and you can actually do it for  final  frame-dropping, but::	0
+"me018"::	Mm-hmm.::	0
+"mn052"::	not for the V_A- f-  noise  estimation.::	0
+"me013"::	You see, the idea is that the, um,::	0
+"me013"::	initial  decision to - that - that you're in silence or speech happens pretty quickly.::	0
+"me018"::	Oh, O_K. Cuz that's used by some of these other - ? Oh, O_K.::	0
+"mn052"::	Hmm.::	0
+"me013"::	And that -::	0
+"me013"::	Yeah. And that's sort of fed forward, and - and you say "well, flush everything, it's not speech anymore".::	0
+"me018"::	I see.::	0
+"mn052"::	Yeah.::	0
+"me018"::	I thought that was  only  used for doing frame-dropping later on.::	0
+"me013"::	Um, it is used,::	0
+"me013"::	uh - Yeah, it's only used f-::	0
+"me013"::	Well, it's used for frame-dropping.::	0
+"me013"::	Um, it's used for end of utterance because, you know, there's -::	0
+"mn007"::	Mmm.::	0
+"me013"::	if you have  more than five hundred milliseconds of - of - of nonspeech then you figure it's end of utterance or something like that. So,::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	um.::	0
+"mn007"::	And it seems important for, like, the on-line normalization.::	0
+"mn007"::	Um.::	0
+"mn007"::	We don't want to update the mean and variance during silen- long silence portions.::	0
+"mn007"::	Um.::	0
+"mn007"::	So it - it has to be done before::	0
+"me018"::	Oh.::	0
+"me018"::	I see.::	0
+"mn007"::	this mean and variance normalization.::	0
+"mn007"::	Um.::	0
+"me013"::	Um.::	0
+"me013"::	Yeah. So probably the V_A_D and - and maybe testing out the noise  estimation a little bit.::	0
+"me013"::	I mean, keeping the same  method  but - but, uh,::	0
+"me013"::	seeing if you cou-  but, um  noise estimation could be improved.::	0
+"mn007"::	Mm-hmm.::	0
+"me013"::	Those are sort of related issues.::	0
+"me013"::	It probably makes sense to move from there.::	0
+"me013"::	And then, uh,::	0
+"me013"::	later on in the month I think we wanna start including the  neural net at the end.::	0
+"me013"::	Um.::	0
+"me013"::	O_K. Anything else?::	0
+"mn007"::	The Half Dome was great.::	0
+"me013"::	Good.::	0
+"me013"::	Yeah. You didn't - didn't fall.::	0
+"me013"::	That's good.::	0
+"mn052"::	Well, yeah.::	0
+"me013"::	Our e- our effort would have been  devastated   if you guys had   run into problems.::	0
+"me018"::	So, Hynek is coming back next week, you said?::	0
+"me013"::	Yeah, that's the plan.::	0
+"me018"::	Hmm.::	0
+"me013"::	@@  I guess the week after he'll be, uh, going back to Europe, and so we wanna -::	0
+"me018"::	Is he in Europe right now or is he up at - ? Oh.::	0
+"me013"::	No, no. He's - he's - he's dropped into the U_S. Yeah. Yeah.::	0
+"me018"::	Hmm.::	0
+"me013"::	So.::	0
+"me013"::	Uh.  So, uh.::	0
+"me013"::	Uh, the idea was that, uh, we'd - we'd sort out where we were going::	0
+"me013"::	next with this - with this work before he, uh, left on this next trip.::	0
+"me013"::	Good.::	0
+"me013"::	Uh, Barry, you just got through your  quals, so I don't know if you  have much to say. But, uh.::	1
+"me006"::	Mmm.::	0
+"me006"::	No, just, uh, looking into some - some of the things that, um,::	1
+"me006"::	uh, John Ohala and Hynek, um, gave as feedback,::	1
+"me006"::	um, as - as a starting point for the project.::	0
+"me006"::	Um.::	0
+"me006"::	In - in my proposal, I - I was thinking about starting from a set of, uh, phonological features,::	1
+"me006"::	or a subset of them. Um, but that might not be necessarily a good idea according to, um, John.::	1
+"mn052"::	@@::	0
+"me018"::	Mm-hmm.::	0
+"me006"::	He said, uh, um, these - these phonological features are - are sort of figments of imagination also.::	0
+"me006"::	Um. S-::	0
+"me018"::	Mm-hmm.::	0
+"me013"::	In conversational speech in particular. I think you can - you can put  them   in pretty reliably in synthetic speech. But::	0
+"me006"::	Ye-::	0
+"me013"::	we don't have too much trouble recognizing synthetic speech since we create it in the first place. So, it's -::	1
+"me006"::	Right.::	0
+"me006"::	Yeah. So, um, a better way would be something more - more data-driven, just looking at the data and seeing what's similar and what's not similar.::	0
+"me018"::	Mm-hmm.::	0
+"me018"::	Mm-hmm.::	0
+"me006"::	So, I'm - I'm, um, taking a look at some of, um,::	0
+"me006"::	Sangita's work on - on TRAPS. She did something where, um -::	0
+"me006"::	w- where the TRAPS learn- She clustered the - the temporal patterns of, um, certain - certain phonemes in - in m- averaged over many, many contexts.::	0
+"me006"::	And, uh, some things tended to cluster.::	0
+"me018"::	Mm-hmm.::	0
+"me006"::	Right? You know, like stop - stop consonants clustered really well.::	0
+"me018"::	Hmm.::	0
+"me006"::	Um, silence was by its own self. And, uh, um,  v- vocalic was clustered. And,::	0
+"me018"::	Mm-hmm.::	0
+"me018"::	Mm-hmm.::	0
+"me006"::	um, so,::	0
+"me006"::	those are  interesting things to -::	0
+"me018"::	So you're - now you're sort of looking to try to gather a set of these::	0
+"me018"::	types of features?::	0
+"me006"::	Right. Yeah. Just to::	0
+"me018"::	Mm-hmm.::	0
+"me006"::	see where - where I could start off from, uh, you know?::	0
+"me018"::	Mm-hmm.::	0
+"me006"::	A - a - a set of small features and::	0
+"me006"::	continue to iterate and find, uh, a better set.::	0
+"me018"::	Mm-hmm.::	0
+"me006"::	Yeah.::	0
+"me013"::	O_K. Well, short meeting.::	0
+"me013"::	That's O_K.::	0
+"me018"::	Yeah.::	0
+"me013"::	O_K. So next week hopefully we'll - can get Hynek here to - to join us and, uh,::	0
+"me013"::	uh.::	0
+"me013"::	Digits, digits.::	0
+"me018"::	Should we do digits?::	0
+"me013"::	O_K,  now .::	0
+"me018"::	Go ahead, Morgan. You can start.::	0
+"me013"::	Alright. Let me get my glasses on so I can  see them.::	0
+"me013"::	O_K.::	0
+"me018"::	O_K.::	0
+"me018"::	And we're off.::	0
+"me013"::	Mm-::	0
